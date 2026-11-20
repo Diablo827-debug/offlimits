@@ -1,7 +1,9 @@
 import React from 'react';
+import { createPortal } from 'react-dom';
 import { BlackCard, Avatar, Logo, sortedPlayers, useCountdown, endLabel, Parts } from './ui.jsx';
 import { fillParts } from './deck.js';
 import { VOICES } from './lektor.js';
+import { inApp, canPrompt, promptInstall, onPromptReady } from './install.js';
 
 const END_OPTIONS = {
   points: [5, 7, 10, 15],
@@ -16,6 +18,27 @@ function Seg({ value, options, onChange, disabled }) {
         <button key={o.v} type="button" className={o.v === value ? 'on' : ''} disabled={disabled} onClick={() => onChange(o.v)}>{o.l}</button>
       ))}
     </span>
+  );
+}
+
+function InstallTv() {
+  const [open, setOpen] = React.useState(false);
+  const [, force] = React.useState(0);
+  React.useEffect(() => { onPromptReady(() => force((n) => n + 1)); }, []);
+  if (inApp()) return null;
+  return (
+    <>
+      <button type="button" className="btn btn-ghost btn-small" onClick={async () => { if (canPrompt()) await promptInstall(); else setOpen(!open); }}>Zainstaluj na telewizorze</button>
+      {open ? createPortal(
+        <div className="sound-gate" role="dialog" aria-label="Instalacja na telewizorze"><div className="sound-box install-box fade-in">
+          <div className="big" style={{ textAlign: 'center' }}>Zainstaluj na telewizorze</div>
+          <div><b>Android TV / Google TV:</b> zainstaluj z Google Play darmową aplikację „Downloader”, wpisz w niej <b>offlimits-esn.pages.dev/offlimits.apk</b> i zainstaluj. OFFLIMITS pojawi się w menu telewizora.</div>
+          <div><b>Samsung, LG i inne:</b> dodaj tę stronę do zakładek albo ekranu głównego w przeglądarce telewizora.</div>
+          <div><b>Telefony:</b> aplikacja do pobrania na <b>offlimits-esn.pages.dev/pobierz</b>.</div>
+          <button type="button" className="btn btn-primary" autoFocus onClick={() => setOpen(false)} style={{ alignSelf: 'center' }}>Zamknij</button>
+        </div></div>, document.body
+      ) : null}
+    </>
   );
 }
 
@@ -62,7 +85,10 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
         <button type="button" className="btn btn-primary" disabled={!can} onClick={onStart}>
           {can ? 'Start gry' : 'Potrzeba min. ' + minPlayers + ' graczy'}
         </button>
-        <button type="button" className="btn btn-ghost btn-small" onClick={onNewRoom}>Nowy pokój</button>
+        <div style={{ display: 'flex', gap: '1vw', flexWrap: 'wrap', justifyContent: 'center' }}>
+          <button type="button" className="btn btn-ghost btn-small" onClick={onNewRoom}>Nowy pokój</button>
+          <InstallTv />
+        </div>
       </div>
     </div>
   );

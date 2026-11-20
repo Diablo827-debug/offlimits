@@ -1,0 +1,11 @@
+{
+  "appId": "dev.grudkastudio.offlimits",
+  "appName": "OFFLIMITS",
+  "webDir": "dist",
+  "server": {
+    "url": "https://offlimits-esn.pages.dev/start",
+    "androidScheme": "https",
+    "allowNavigation": ["offlimits-esn.pages.dev", "*.offlimits-esn.pages.dev"]
+  },
+  "android": { "backgroundColor": "#0B0B0B" }
+}

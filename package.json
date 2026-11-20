@@ -15,6 +15,9 @@
   },
   "homepage": "https://github.com/Diablo827-debug/offlimits#readme",
   "dependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/cli": "^8.6.2",
+    "@capacitor/core": "^8.6.2",
     "@fontsource/cinzel": "^5.3.0",
     "@fontsource/cormorant-garamond": "^5.3.0",
     "@fontsource/montserrat": "^5.3.0",

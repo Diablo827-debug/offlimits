@@ -3,6 +3,7 @@ import { ref, onValue, get, set, update, onDisconnect } from 'firebase/database'
 import { db, ensureAuth } from './firebase.js';
 import { loadDeck } from './deck.js';
 import GrajView from './GrajView.jsx';
+import { inApp } from './install.js';
 
 const params = new URLSearchParams(location.search);
 
@@ -20,6 +21,9 @@ function Join({ onJoin, busy, err }) {
           <input id="imie" maxLength={16} autoComplete="nickname" value={name} onChange={(e) => setName(e.target.value)} /></div>
         {err ? <div className="err">{err}</div> : null}
         <button type="submit" className="btn btn-primary" style={{ width: '100%' }} disabled={busy || code.length !== 4 || !name}>Dołącz do gry</button>
+        {inApp()
+          ? <a className="muted" style={{ fontSize: 14 }} href="/tv" onClick={() => { try { localStorage.setItem('ol_role', 'tv'); } catch (e) { /* nic */ } }}>To jest telewizor? Przełącz na ekran gry</a>
+          : <a className="muted" style={{ fontSize: 14 }} href="/pobierz">Pobierz aplikację na telefon</a>}
       </form>
     </div>
   );

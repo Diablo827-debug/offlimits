@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">OFFLIMITS</string>
+    <string name="title_activity_main">OFFLIMITS</string>
+    <string name="package_name">dev.grudkastudio.offlimits</string>
+    <string name="custom_url_scheme">dev.grudkastudio.offlimits</string>
+</resources>

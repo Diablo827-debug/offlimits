@@ -27,7 +27,7 @@ button { font-family: inherit; }
 .script { font-family: var(--script); font-style: italic; }
 .muted { color: var(--ivory-dim); }
 
-.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 52px; padding: 0 24px; border-radius: 12px; font-size: 17px; font-weight: 600; cursor: pointer; border: 1px solid transparent; transition: transform .12s ease, background .2s ease, opacity .2s ease; }
+.btn { text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 52px; padding: 0 24px; border-radius: 12px; font-size: 17px; font-weight: 600; cursor: pointer; border: 1px solid transparent; transition: transform .12s ease, background .2s ease, opacity .2s ease; }
 .btn:active { transform: scale(.98); }
 .btn:disabled { opacity: .45; cursor: default; }
 .btn-primary { background: var(--burgundy); color: var(--ivory); border-color: #8C3446; }
@@ -179,3 +179,7 @@ details.fold .inner { padding: 0 16px 14px; display: flex; flex-direction: colum
 .tv .btn-small, .btn-small { min-height: 2.8vw; font-size: 1.1vw; padding: 0 1.4vw; }
 .phone .btn-small { min-height: 44px; font-size: 15px; padding: 0 16px; }
 .end-confirm { display: flex; align-items: center; gap: .8vw; font-size: 1.2vw; color: var(--ivory-dim); }
+
+.install-box { max-width: 52vw; display: flex; flex-direction: column; gap: .7vw; font-size: 1.3vw; line-height: 1.5; color: var(--ivory-dim); text-align: left; align-items: stretch; }
+.install-box b { color: var(--ivory); }
+.home .fold { text-align: left; }

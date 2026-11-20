@@ -18,6 +18,19 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+          cache: gradle
+      - name: Zbuduj aplikację Android (telefon + Android TV)
+        run: |
+          npx cap sync android
+          cd android
+          chmod +x gradlew
+          ./gradlew assembleRelease --no-daemon -q
+          cp app/build/outputs/apk/release/app-release.apk ../dist/offlimits.apk
+          ls -la ../dist/offlimits.apk
       - name: Utwórz projekt Pages (pierwszy raz)
         run: npx wrangler pages project create offlimits --production-branch=main || true
         env:
