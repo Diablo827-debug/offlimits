@@ -3,7 +3,7 @@ import QRCode from 'qrcode';
 import { ref, onValue, get, remove } from 'firebase/database';
 import { db, ensureAuth } from './firebase.js';
 import { loadDeck, fillText } from './deck.js';
-import { speak, stopSpeaking, unlockSpeech, speechSupported } from './lektor.js';
+import { speak, stopSpeaking, unlockSpeech, prefetchSpeech } from './lektor.js';
 import * as M from './master.js';
 import TvView from './TvView.jsx';
 
@@ -89,10 +89,11 @@ export default function Tv() {
     if (!room || !deck || !code) return undefined;
     const r = room;
     const lektor = r.lektor !== false;
+    const so = { enabled: lektor, voice: r.voice };
     const black = deck.c[r.black];
 
     if (r.state === 'picking') {
-      if (black && once('read-' + r.round + '-' + r.black)) speak(black[0], { enabled: lektor });
+      if (black && once('read-' + r.round + '-' + r.black)) speak(black[0], so);
       const needed = M.activeOrder(r).filter((u) => u !== r.judge);
       const ready = needed.length > 0 && needed.every((u) => subs[u] && subs[u].round === r.round);
       const go = () => { if (once('reveal-' + r.round + '-' + r.black)) M.toReveal(code, r, deck, subs); };
@@ -103,10 +104,11 @@ export default function Tv() {
     if (r.state === 'reveal' && once('seq-' + r.round)) {
       (async () => {
         const list = r.reveal || [];
+        if (lektor) prefetchSpeech(list.map((e) => fillText(black ? black[0] : '', e.cards.map((id) => deck.b[id] || ''))), r.voice);
         for (let i = 0; i < list.length; i++) {
           await M.setRevealIdx(code, i);
           const answers = list[i].cards.map((id) => deck.b[id] || '');
-          await speak(fillText(black ? black[0] : '', answers), { enabled: lektor });
+          await speak(fillText(black ? black[0] : '', answers), so);
         }
         await M.toJudging(code);
       })();
@@ -114,7 +116,7 @@ export default function Tv() {
 
     if (r.state === 'result' && once('res-' + r.round)) {
       const w = r.players && r.players[r.winner];
-      speak('Punkt dla: ' + (w ? w.name : ''), { enabled: lektor });
+      speak('Punkt dla: ' + (w ? w.name : ''), so);
       const t = setTimeout(() => M.nextRound(code, roomRef.current, deck), M.RESULT_SECONDS * 1000);
       return () => clearTimeout(t);
     }
@@ -133,7 +135,7 @@ export default function Tv() {
       onStart={handleStart}
       onAgain={() => M.backToLobby(code)}
     />
-    {!sound && room.lektor !== false && speechSupported() ? (
+    {!sound && room.lektor !== false ? (
       <div className="sound-gate" role="dialog" aria-label="Włącz dźwięk">
         <div className="sound-box">
           <img src="/sygnet.svg" alt="" />

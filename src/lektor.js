@@ -34,7 +34,51 @@ export function speechSupported() {
   return typeof window !== 'undefined' && 'speechSynthesis' in window;
 }
 
-export function speak(text, opts) {
+export const VOICES = [
+  { id: 'pl-PL-Chirp3-HD-Charon', label: 'Męski 1' },
+  { id: 'pl-PL-Chirp3-HD-Algenib', label: 'Męski 2' },
+  { id: 'pl-PL-Chirp3-HD-Kore', label: 'Kobiecy 1' },
+  { id: 'pl-PL-Chirp3-HD-Aoede', label: 'Kobiecy 2' },
+];
+
+function cleanText(text) { return text.replace(/_{2,}/g, ', coś, '); }
+export function ttsUrl(text, voice) {
+  return '/api/tts?v=' + encodeURIComponent(voice || VOICES[0].id) + '&t=' + encodeURIComponent(cleanText(text));
+}
+// Rozgrzewa pamięć podręczną, żeby lektor nie czekał na nagranie.
+export function prefetchSpeech(texts, voice) {
+  texts.forEach((t) => { try { fetch(ttsUrl(t, voice)).catch(() => {}); } catch (e) { /* nic */ } });
+}
+
+function playCloud(text, voice) {
+  return new Promise((resolve, reject) => {
+    try {
+      const a = new Audio(ttsUrl(text, voice));
+      let done = false;
+      const ok = () => { if (!done) { done = true; resolve(); } };
+      a.onended = ok;
+      a.onerror = () => { if (!done) { done = true; reject(new Error('audio')); } };
+      a.play().catch((e) => { if (!done) { done = true; reject(e); } });
+      setTimeout(ok, 6000 + text.length * 120);
+    } catch (e) { reject(e); }
+  });
+}
+
+export async function speak(text, opts) {
+  const enabled = !opts || opts.enabled !== false;
+  if (enabled && opts && opts.cloud !== false && typeof Audio !== 'undefined') {
+    const started = Date.now();
+    try {
+      await playCloud(text, opts.voice);
+      const left = 900 - (Date.now() - started);
+      if (left > 0) await new Promise((r) => setTimeout(r, left));
+      return;
+    } catch (e) { /* brak sieci lub blokada dźwięku – głos przeglądarki */ }
+  }
+  return speakBrowser(text, opts);
+}
+
+function speakBrowser(text, opts) {
   const rate = (opts && opts.rate) || 1;
   const enabled = !opts || opts.enabled !== false;
   // Minimalny czas na przeczytanie przez graczy, nawet bez lektora.

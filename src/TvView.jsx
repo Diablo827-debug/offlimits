@@ -1,6 +1,7 @@
 import React from 'react';
 import { BlackCard, Avatar, Logo, sortedPlayers, useCountdown, endLabel, Parts } from './ui.jsx';
 import { fillParts } from './deck.js';
+import { VOICES } from './lektor.js';
 
 const END_OPTIONS = {
   points: [5, 7, 10, 15],
@@ -53,8 +54,9 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, minPlayers }) {
               <Seg value={room.endValue} onChange={(v) => onSettings({ endValue: v })}
                 options={END_OPTIONS[room.endType].map((n) => ({ v: n, l: String(n) }))} /></div>
             <div className="set-row"><span>Lektor</span>
-              <Seg value={room.lektor !== false} onChange={(v) => onSettings({ lektor: v })}
-                options={[{ v: true, l: 'Włączony' }, { v: false, l: 'Wyłączony' }]} /></div>
+              <Seg value={room.lektor === false ? 'off' : (room.voice || VOICES[0].id)}
+                onChange={(v) => onSettings(v === 'off' ? { lektor: false } : { lektor: true, voice: v })}
+                options={VOICES.map((x) => ({ v: x.id, l: x.label })).concat([{ v: 'off', l: 'Wyłączony' }])} /></div>
           </div>
         </details>
         <button type="button" className="btn btn-primary" disabled={!can} onClick={onStart}>
