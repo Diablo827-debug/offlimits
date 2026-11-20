@@ -95,7 +95,7 @@ async function dealAndBlack(code, room, deck, secret, patch) {
   await update(ref(db, 'rooms/' + code), Object.assign({
     state: 'picking',
     black,
-    deadline: Date.now() + PICK_SECONDS * 1000,
+    deadline: 0,
     reveal: null,
     revealIdx: 0,
     owners: null,

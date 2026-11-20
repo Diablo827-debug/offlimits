@@ -3,7 +3,7 @@ import QRCode from 'qrcode';
 import { ref, onValue, get, remove } from 'firebase/database';
 import { db, ensureAuth } from './firebase.js';
 import { loadDeck, fillText } from './deck.js';
-import { speak, stopSpeaking } from './lektor.js';
+import { speak, stopSpeaking, unlockSpeech, speechSupported } from './lektor.js';
 import * as M from './master.js';
 import TvView from './TvView.jsx';
 
@@ -18,6 +18,8 @@ export default function Tv() {
   const [subs, setSubs] = React.useState({});
   const [deck, setDeck] = React.useState(null);
   const [qr, setQr] = React.useState('');
+  const [sound, setSound] = React.useState(false);
+  function enableSound() { unlockSpeech(); setSound(true); }
   const done = React.useRef({});
   const roomRef = React.useRef(null);
   roomRef.current = room;
@@ -94,10 +96,8 @@ export default function Tv() {
       const needed = M.activeOrder(r).filter((u) => u !== r.judge);
       const ready = needed.length > 0 && needed.every((u) => subs[u] && subs[u].round === r.round);
       const go = () => { if (once('reveal-' + r.round + '-' + r.black)) M.toReveal(code, r, deck, subs); };
-      if (ready) { go(); return undefined; }
-      const ms = (r.deadline || 0) - Date.now();
-      const t = setTimeout(go, Math.max(0, ms));
-      return () => clearTimeout(t);
+      if (ready) go();
+      return undefined;
     }
 
     if (r.state === 'reveal' && once('seq-' + r.round)) {
@@ -125,6 +125,7 @@ export default function Tv() {
   if (!room || !deck) return <div className="home"><img src="/sygnet.svg" alt="" /><div className="muted">Przygotowuję pokój…</div></div>;
 
   return (
+    <>
     <TvView
       room={room} code={code} deck={deck} qr={qr} joinUrl={joinUrl} subs={subs} lite={LITE}
       minPlayers={MIN_PLAYERS}
@@ -132,5 +133,17 @@ export default function Tv() {
       onStart={handleStart}
       onAgain={() => M.backToLobby(code)}
     />
+    {!sound && room.lektor !== false && speechSupported() ? (
+      <div className="sound-gate" role="dialog" aria-label="Włącz dźwięk">
+        <div className="sound-box">
+          <img src="/sygnet.svg" alt="" />
+          <div className="big">Włącz dźwięk lektora</div>
+          <p className="muted">Przeglądarka wpuszcza dźwięk dopiero po jednym kliknięciu na tym ekranie.</p>
+          <button type="button" className="btn btn-primary" autoFocus onClick={enableSound}>Włącz dźwięk</button>
+          <button type="button" className="btn btn-ghost" onClick={() => setSound(true)}>Graj bez lektora</button>
+        </div>
+      </div>
+    ) : null}
+    </>
   );
 }

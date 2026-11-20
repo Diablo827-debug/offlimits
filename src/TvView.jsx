@@ -111,7 +111,7 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
             return <span key={p.uid} className={'chip' + (done ? ' done' : '')}><Avatar uid={p.uid} name={p.name} />{p.name}{done ? <span className="ok">✓</span> : null}</span>;
           })}
         </div>
-        <div className="hint">Wybierzcie karty na telefonach. Sędzia w tej rundzie: <b>{judge ? judge.name : '—'}</b></div>
+        <div className="hint">Wybierzcie karty na telefonach – odpowiedzi pokażą się, gdy zagrają wszyscy. Sędzia: <b>{judge ? judge.name : '—'}</b></div>
       </>
     );
   } else if (room.state === 'reveal') {

@@ -16,7 +16,7 @@ function fixture(state, deck) {
   const whites = Object.keys(deck.b).filter((id) => id[0] === 'R');
   const base = {
     mode: 'rodzinny', endType: 'points', endValue: 7, lektor: true, players: P, round: 6, judge: 'u2',
-    black: 'R-C002', deadline: Date.now() + 41000, state,
+    black: 'R-C002', deadline: 0, state,
   };
   const reveal = [
     { k: 'k0', cards: ['R-B0020'] }, { k: 'k1', cards: ['R-B0010'] },
@@ -38,6 +38,14 @@ export default function Demo({ screen, demo }) {
   if (screen === 'tv') {
     const room = fixture(demo === 'pick2' ? 'pick2' : demo, deck);
     const subs = { u1: { round: 6 }, u3: { round: 6 } };
+    if (demo === 'dzwiek') {
+      return (
+        <>
+          <TvView room={fixture('lobby', deck)} code="8F3K" deck={deck} qr="" joinUrl="https://offlimits-esn.pages.dev/graj?kod=8F3K" subs={{}} minPlayers={3} onSettings={() => {}} onStart={() => {}} onAgain={() => {}} />
+          <div className="sound-gate"><div className="sound-box"><img src="/sygnet.svg" alt="" /><div className="big">Włącz dźwięk lektora</div><p className="muted">Przeglądarka wpuszcza dźwięk dopiero po jednym kliknięciu na tym ekranie.</p><button type="button" className="btn btn-primary">Włącz dźwięk</button><button type="button" className="btn btn-ghost">Graj bez lektora</button></div></div>
+        </>
+      );
+    }
     return <TvView room={room} code="8F3K" deck={deck} qr="" joinUrl="https://offlimits.pages.dev/graj?kod=8F3K" subs={subs} minPlayers={3} onSettings={() => {}} onStart={() => {}} onAgain={() => {}} />;
   }
   // telefon: hand | hand2 | judge | wait | played | lobby | result | end
