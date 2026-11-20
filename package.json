@@ -1,0 +1,35 @@
+{
+  "name": "offlimits",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diablo827-debug/offlimits.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Diablo827-debug/offlimits/issues"
+  },
+  "homepage": "https://github.com/Diablo827-debug/offlimits#readme",
+  "dependencies": {
+    "@fontsource/cinzel": "^5.3.0",
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/montserrat": "^5.3.0",
+    "@fontsource/playfair-display": "^5.3.0",
+    "firebase": "^13.4.0",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^5.4.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "terser": "^5.51.4",
+    "vite": "^5.4.21"
+  },
+  "private": true,
+  "type": "module"
+}

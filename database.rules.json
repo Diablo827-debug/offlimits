@@ -1,0 +1,51 @@
+{
+  "rules": {
+    "rooms": {
+      "$code": {
+        ".read": "auth != null",
+        ".write": "auth != null && ((!data.exists() && newData.child('hostUid').val() === auth.uid) || data.child('hostUid').val() === auth.uid)",
+        "players": {
+          "$uid": {
+            ".write": "auth != null && auth.uid === $uid && data.parent().parent().exists() && (!data.exists() || newData.child('score').val() === data.child('score').val())",
+            "name": { ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 16" }
+          }
+        },
+        "cmd": {
+          ".write": "auth != null && data.parent().child('players').child(auth.uid).exists()",
+          ".validate": "!newData.exists() || newData.child('type').val().matches(/^(start|again|next)$/)"
+        }
+      }
+    },
+    "hands": {
+      "$code": {
+        ".write": "auth != null && root.child('rooms').child($code).child('hostUid').val() === auth.uid",
+        ".read": "auth != null && root.child('rooms').child($code).child('hostUid').val() === auth.uid",
+        "$uid": {
+          ".read": "auth != null && auth.uid === $uid"
+        }
+      }
+    },
+    "subs": {
+      "$code": {
+        ".read": "auth != null && root.child('rooms').child($code).child('hostUid').val() === auth.uid",
+        ".write": "auth != null && root.child('rooms').child($code).child('hostUid').val() === auth.uid",
+        "$uid": {
+          ".read": "auth != null && auth.uid === $uid",
+          ".write": "auth != null && auth.uid === $uid && root.child('rooms').child($code).child('state').val() === 'picking' && root.child('rooms').child($code).child('judge').val() !== auth.uid"
+        }
+      }
+    },
+    "picks": {
+      "$code": {
+        ".read": "auth != null",
+        ".write": "auth != null && (root.child('rooms').child($code).child('hostUid').val() === auth.uid || (root.child('rooms').child($code).child('judge').val() === auth.uid && root.child('rooms').child($code).child('state').val() === 'judging'))"
+      }
+    },
+    "secret": {
+      "$code": {
+        ".read": "auth != null && root.child('rooms').child($code).child('hostUid').val() === auth.uid",
+        ".write": "auth != null && root.child('rooms').child($code).child('hostUid').val() === auth.uid"
+      }
+    }
+  }
+}
