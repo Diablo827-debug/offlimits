@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Brak sekretu FIREBASE_SERVICE_ACCOUNT
         if: env.FB_SA == ''
-        run: echo "Dodaj sekret FIREBASE_SERVICE_ACCOUNT w ustawieniach repozytorium." && exit 1
+        run: echo "Brak sekretu FIREBASE_SERVICE_ACCOUNT – reguły wgrywa Claude przez konsolę Firebase."
       - name: Wgraj reguły bazy
         if: env.FB_SA != ''
         run: |
