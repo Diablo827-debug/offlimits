@@ -197,6 +197,10 @@ export async function backToLobby(code) {
   });
 }
 
+export function endGame(code) {
+  return update(ref(db, 'rooms/' + code), { state: 'end', deadline: 0 });
+}
+
 export function saveSettings(code, patch) {
   return update(ref(db, 'rooms/' + code), patch);
 }

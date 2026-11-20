@@ -19,7 +19,7 @@ function Seg({ value, options, onChange, disabled }) {
   );
 }
 
-function Lobby({ room, code, qr, joinUrl, onSettings, onStart, minPlayers }) {
+function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPlayers }) {
   const players = sortedPlayers(room).filter((p) => p.connected !== false);
   const can = players.length >= minPlayers;
   return (
@@ -62,6 +62,7 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, minPlayers }) {
         <button type="button" className="btn btn-primary" disabled={!can} onClick={onStart}>
           {can ? 'Start gry' : 'Potrzeba min. ' + minPlayers + ' graczy'}
         </button>
+        <button type="button" className="btn btn-ghost btn-small" onClick={onNewRoom}>Nowy pokój</button>
       </div>
     </div>
   );
@@ -86,13 +87,14 @@ function Scoreboard({ room }) {
 
 function answersOf(deck, cards) { return (cards || []).map((id) => deck.b[id] || ''); }
 
-export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings, onStart, onAgain, minPlayers, lite }) {
+export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings, onStart, onAgain, onEnd, onNewRoom, minPlayers, lite }) {
+  const [confirmEnd, setConfirmEnd] = React.useState(false);
   const left = useCountdown(room.state === 'picking' ? room.deadline : 0);
   if (room.state === 'lobby' || !room.state) {
     return (
       <div className={'tv' + (lite ? ' lite' : '')}>
         <div className="tv-main">
-          <Lobby room={room} code={code} qr={qr} joinUrl={joinUrl} onSettings={onSettings} onStart={onStart} minPlayers={minPlayers} />
+          <Lobby room={room} code={code} qr={qr} joinUrl={joinUrl} onSettings={onSettings} onStart={onStart} onNewRoom={onNewRoom} minPlayers={minPlayers} />
         </div>
       </div>
     );
@@ -166,7 +168,10 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
             </div>
           ) : <div key={i} className="col" />)}
         </div>
-        <button type="button" className="btn btn-primary" onClick={onAgain}>Jeszcze raz</button>
+        <div style={{ display: 'flex', gap: '1.2vw' }}>
+          <button type="button" className="btn btn-primary" onClick={onAgain}>Jeszcze raz</button>
+          <button type="button" className="btn btn-ghost" onClick={onNewRoom}>Nowy pokój</button>
+        </div>
       </div>
     );
   }
@@ -177,7 +182,15 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
         <div className="tv-head">
           <Logo />
           <div className="tv-round">RUNDA <b>{room.round}</b>{room.endType === 'rounds' ? ' / ' + room.endValue : ''} · KOD <b>{code}</b></div>
-          <div className={'timer' + (left !== null && left <= 10 ? ' low' : '')}>{left !== null ? left : ''}</div>
+          {room.state !== 'end' ? (
+            confirmEnd ? (
+              <div className="end-confirm">
+                <span>Zakończyć grę?</span>
+                <button type="button" className="btn btn-primary btn-small" onClick={() => { setConfirmEnd(false); onEnd(); }}>Tak</button>
+                <button type="button" className="btn btn-ghost btn-small" onClick={() => setConfirmEnd(false)}>Nie</button>
+              </div>
+            ) : <button type="button" className="btn btn-ghost btn-small" onClick={() => setConfirmEnd(true)}>Zakończ grę</button>
+          ) : <div className={'timer' + (left !== null && left <= 10 ? ' low' : '')}>{left !== null ? left : ''}</div>}
         </div>
         <div className="tv-stage">{stage}</div>
       </div>

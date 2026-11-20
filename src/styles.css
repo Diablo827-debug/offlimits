@@ -175,3 +175,7 @@ details.fold .inner { padding: 0 16px 14px; display: flex; flex-direction: colum
 .sound-box .big { font-size: 2.6vw; }
 .sound-box p { font-size: 1.3vw; margin: 0; }
 .sound-box .btn { min-width: 20vw; }
+
+.tv .btn-small, .btn-small { min-height: 2.8vw; font-size: 1.1vw; padding: 0 1.4vw; }
+.phone .btn-small { min-height: 44px; font-size: 15px; padding: 0 16px; }
+.end-confirm { display: flex; align-items: center; gap: .8vw; font-size: 1.2vw; color: var(--ivory-dim); }

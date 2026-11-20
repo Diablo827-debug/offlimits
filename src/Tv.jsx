@@ -71,11 +71,24 @@ export default function Tv() {
         if (c.type === 'start' && r.state === 'lobby') handleStart();
         if (c.type === 'again' && r.state === 'end') M.backToLobby(code);
         if (c.type === 'next') stopSpeaking();
+        if (c.type === 'end' && r.state !== 'lobby' && r.state !== 'end') { stopSpeaking(); M.endGame(code); }
         remove(ref(db, 'rooms/' + code + '/cmd'));
       }),
     ];
     return () => offs.forEach((o) => o());
   }, [code]);
+
+  async function newRoom() {
+    try {
+      stopSpeaking();
+      const user = await ensureAuth();
+      const c = await M.createRoom(user.uid);
+      localStorage.setItem('ol_tv_code', c);
+      done.current = {};
+      setRoom(null); setSubs({});
+      setCode(c);
+    } catch (e) { setErr(e.message); }
+  }
 
   function handleStart() {
     const r = roomRef.current;
@@ -134,6 +147,8 @@ export default function Tv() {
       onSettings={(p) => M.saveSettings(code, p)}
       onStart={handleStart}
       onAgain={() => M.backToLobby(code)}
+      onEnd={() => { stopSpeaking(); M.endGame(code); }}
+      onNewRoom={newRoom}
     />
     {!sound && room.lektor !== false ? (
       <div className="sound-gate" role="dialog" aria-label="Włącz dźwięk">

@@ -162,6 +162,14 @@ export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, 
         {room.state !== 'lobby' ? <div className="sc">{meP.score || 0} pkt</div> : <div className="muted" style={{ fontSize: 13 }}>OFFLIMITS</div>}
       </div>
       {body}
+      {isHost && room.state !== 'lobby' && room.state !== 'end' ? (
+        <details className="fold" style={{ marginTop: 14 }}>
+          <summary>Opcje gospodarza</summary>
+          <div className="inner">
+            <button type="button" className="btn btn-ghost" onClick={() => onCmd('end')}>Zakończ grę</button>
+          </div>
+        </details>
+      ) : null}
     </div>
   );
 }

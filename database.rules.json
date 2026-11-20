@@ -12,7 +12,7 @@
         },
         "cmd": {
           ".write": "auth != null && data.parent().child('players').child(auth.uid).exists()",
-          ".validate": "!newData.exists() || newData.child('type').val().matches(/^(start|again|next)$/)"
+          ".validate": "!newData.exists() || newData.child('type').val().matches(/^(start|again|next|end)$/)"
         }
       }
     },
