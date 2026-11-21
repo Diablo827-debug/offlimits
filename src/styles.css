@@ -190,3 +190,6 @@ details.fold .inner { padding: 0 16px 14px; display: flex; flex-direction: colum
 @keyframes wordIn { to { opacity: 1; filter: blur(0); transform: none; } }
 .lite .word-in { animation: none; opacity: 1; filter: none; transform: none; }
 .lang-pick { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+/* Fokus przy sterowaniu strzałkami / pilotem */
+.seg button:focus-visible { outline: none; box-shadow: inset 0 0 0 3px var(--gold-hi); }
+summary:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid var(--gold-hi); outline-offset: 3px; border-radius: 8px; }

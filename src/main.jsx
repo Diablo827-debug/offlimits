@@ -10,6 +10,7 @@ import '@fontsource/playfair-display/600.css';
 import '@fontsource/playfair-display/700.css';
 import './styles.css';
 import { inApp, APK_URL } from './install.js';
+import { initSpatialNav } from './spatial.js';
 
 const path = location.pathname.replace(/\/+$/, '') || '/';
 const demo = new URLSearchParams(location.search).get('demo');
@@ -107,6 +108,7 @@ function Home({ remember }) {
 }
 
 async function boot() {
+  initSpatialNav();
   let El;
   if (demo && (path === '/tv' || path === '/graj')) {
     const Demo = (await import('./demo.jsx')).default;
