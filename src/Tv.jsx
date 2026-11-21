@@ -2,7 +2,7 @@ import React from 'react';
 import QRCode from 'qrcode';
 import { ref, onValue, get, remove } from 'firebase/database';
 import { db, ensureAuth } from './firebase.js';
-import { loadDeck, fillText } from './deck.js';
+import { loadDeck, fillText, deckKnows } from './deck.js';
 import { speak, stopSpeaking, unlockSpeech, prefetchSpeech } from './lektor.js';
 import * as M from './master.js';
 import TvView from './TvView.jsx';
@@ -144,6 +144,14 @@ export default function Tv() {
     }
     return undefined;
   }, [room, subs, deck, code, lang]);
+
+  const stale = deck && room && !deckKnows(deck, room, []);
+  const refreshing = React.useRef(false);
+  React.useEffect(() => {
+    if (!stale || refreshing.current) return;
+    refreshing.current = true;
+    loadDeck(lang, true).then((d) => { setDeck(d); refreshing.current = false; }).catch(() => { refreshing.current = false; });
+  }, [stale]);
 
   if (err) return <div className="home"><div className="big">{t('oops')}</div><p className="muted">{t('errConn')} {err}</p><button className="btn btn-ghost" onClick={() => location.reload()}>{t('retry')}</button></div>;
   if (!room || !deck) return <div className="home"><img src="/sygnet.svg" alt="" /><div className="muted">{t('preparing')}</div></div>;

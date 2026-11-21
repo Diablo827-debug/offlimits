@@ -44,12 +44,12 @@ export const VOICES = [
   { id: 'Kore', key: 'female1' },
   { id: 'Aoede', key: 'female2' },
 ];
-const BLANK = { pl: 'coś', en: 'something', es: 'algo', el: 'κάτι' };
 // Starsze pokoje mają pełną nazwę („pl-PL-Chirp3-HD-Charon”) – bierzemy ostatni człon.
 export function voiceShort(v) { return v ? String(v).split('-').pop() : VOICES[0].id; }
 export function voiceName(v, lang) { return locOf(lang) + '-Chirp3-HD-' + voiceShort(v); }
 
-function cleanText(text, lang) { return text.replace(/_{2,}/g, ', ' + (BLANK[lang] || BLANK.pl) + ', '); }
+// Luka w pytaniu = krótka pauza, bez czytania „coś”.
+function cleanText(text) { return text.replace(/\s*_{2,}\s*/g, '… ').replace(/…\s*([.?!])/g, '…$1'); }
 export function ttsUrl(text, voice, lang) {
   return '/api/tts?v=' + encodeURIComponent(voiceName(voice, lang)) + '&t=' + encodeURIComponent(cleanText(text, lang));
 }

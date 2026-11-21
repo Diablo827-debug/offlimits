@@ -9,4 +9,5 @@ export default defineConfig({
     legacy({ targets: ['chrome >= 56', 'safari >= 11', 'samsung >= 6', 'firefox >= 60'] }),
   ],
   build: { target: 'es2017' },
+  define: { __BUILD__: JSON.stringify(String(Date.now())) },
 });

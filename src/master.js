@@ -153,8 +153,8 @@ export async function startGame(code, room, deck) {
 export async function toReveal(code, room, deck, subs) {
   const luki = deck.c[room.black] ? deck.c[room.black][1] : 1;
   const entries = Object.keys(subs || {})
-    .filter((u) => u !== room.judge && subs[u].round === room.round && (subs[u].cards || []).length === luki)
-    .map((u) => ({ u, cards: subs[u].cards }));
+    .filter((u) => u !== room.judge && subs[u].round === room.round && (subs[u].cards || []).length > 0)
+    .map((u) => ({ u, cards: subs[u].cards.slice(0, Math.max(1, luki)) }));
   if (!entries.length) {
     // Nikt nie zagrał: nowa czarna karta, ten sam sędzia.
     const secret = await loadSecret(code);

@@ -1,7 +1,7 @@
 import React from 'react';
 import { ref, onValue, get, set, update, onDisconnect } from 'firebase/database';
 import { db, ensureAuth } from './firebase.js';
-import { loadDeck } from './deck.js';
+import { loadDeck, deckKnows } from './deck.js';
 import GrajView from './GrajView.jsx';
 import { inApp, switchRole } from './install.js';
 import { tr, phoneLang, savePhoneLang } from './i18n.js';
@@ -108,6 +108,15 @@ export default function Graj() {
     ];
     return () => offs.forEach((o) => o());
   }, [code, uid]);
+
+  // Strona otwarta przed dodaniem nowych kart – dociągamy świeżą talię.
+  const stale = deck && room && !deckKnows(deck, room, hand);
+  const refreshing = React.useRef(false);
+  React.useEffect(() => {
+    if (!stale || refreshing.current) return;
+    refreshing.current = true;
+    loadDeck(lang, true).then((d) => { setDeck(d); refreshing.current = false; }).catch(() => { refreshing.current = false; });
+  }, [stale]);
 
   if (!code || !room || !deck) return <Join onJoin={join} busy={busy || !uid} err={err} lang={lang} onLang={changeLang} />;
 

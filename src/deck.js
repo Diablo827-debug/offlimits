@@ -1,13 +1,18 @@
 // Talia: public/talia.json (polska)  { c: { "R-C001": [tekst, luki] }, b: { "R-B0001": tekst } }
 // Tłumaczenia: public/talia-en.json, -es, -el (te same ID). Brak tłumaczenia karty = wersja polska.
 const cache = {};
-function getJson(url) { return fetch(url).then((r) => (r.ok ? r.json() : {})).catch(() => ({})); }
-export function loadDeck(lang) {
+/* global __BUILD__ */
+const V = typeof __BUILD__ !== 'undefined' ? __BUILD__ : '1';
+function getJson(url) { return fetch(url, { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : {})).catch(() => ({})); }
+// fresh = pobierz talię od nowa (np. gdy w grze pojawiła się karta, której ta strona jeszcze nie zna).
+export function loadDeck(lang, fresh) {
   const l = lang || 'pl';
-  if (!cache.pl) cache.pl = fetch('/talia.json').then((r) => r.json());
+  const v = fresh ? String(Date.now()) : V;
+  if (fresh) { Object.keys(cache).forEach((k) => { delete cache[k]; }); }
+  if (!cache.pl) cache.pl = fetch('/talia.json?v=' + v, { cache: 'no-cache' }).then((r) => r.json());
   if (l === 'pl') return cache.pl;
   if (!cache[l]) {
-    cache[l] = Promise.all([cache.pl, getJson('/talia-' + l + '.json')]).then(([pl, t]) => {
+    cache[l] = Promise.all([cache.pl, getJson('/talia-' + l + '.json?v=' + v)]).then(([pl, t]) => {
       const c = {}; const b = {};
       const tc = t.c || {}; const tb = t.b || {};
       Object.keys(pl.c).forEach((id) => {
@@ -19,6 +24,15 @@ export function loadDeck(lang) {
     });
   }
   return cache[l];
+}
+
+// Czy talia zna wszystkie karty używane w tej chwili w grze.
+export function deckKnows(deck, room, hand) {
+  if (!deck || !room) return true;
+  if (room.black && !deck.c[room.black]) return false;
+  const ids = (hand || []).slice();
+  (room.reveal || []).forEach((e) => (e.cards || []).forEach((id) => ids.push(id)));
+  return ids.every((id) => !!deck.b[id]);
 }
 
 // Rodzinny: tylko R. Po 22:00: czarne N, białe N + R. Bez tabu: czarne X, białe X + N + R.
