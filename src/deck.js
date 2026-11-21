@@ -5,10 +5,11 @@ export function loadDeck() {
   return cache;
 }
 
-// Rodzinny: tylko karty R. Po 22:00: czarne N, białe N + R.
+// Rodzinny: tylko R. Po 22:00: czarne N, białe N + R. Bez tabu: czarne X, białe X + N + R.
 export function idsFor(deck, mode, kind) {
   let prefixes;
-  if (mode === 'wszystkie') prefixes = ['R', 'N'];
+  if (mode === 'wszystkie') prefixes = ['R', 'N', 'X'];
+  else if (mode === 'bez') prefixes = kind === 'c' ? ['X'] : ['X', 'N', 'R'];
   else if (kind === 'c') prefixes = mode === 'po22' ? ['N'] : ['R'];
   else prefixes = mode === 'po22' ? ['N', 'R'] : ['R'];
   return Object.keys(deck[kind]).filter((id) => prefixes.indexOf(id[0]) >= 0);
