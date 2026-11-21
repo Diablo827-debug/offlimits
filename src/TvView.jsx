@@ -125,7 +125,7 @@ function Scoreboard({ room, t }) {
 
 function answersOf(deck, cards) { return (cards || []).map((id) => deck.b[id] || ''); }
 
-export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings, onStart, onAgain, onEnd, onNewRoom, minPlayers, lite }) {
+export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings, onStart, onAgain, onEnd, onNewRoom, minPlayers, lite, onForce }) {
   const [confirmEnd, setConfirmEnd] = React.useState(false);
   const t = tr(room.lang || 'pl');
   const pl2 = t('pick2');
@@ -156,6 +156,9 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
           })}
         </div>
         <div className="hint">{t('pickHint')} <b>{judge ? judge.name : '—'}</b></div>
+        {onForce && waiting.some((p) => subs && subs[p.uid] && subs[p.uid].round === room.round) ? (
+          <button type="button" className="btn btn-ghost btn-small" onClick={onForce}>{t('forceReveal')}</button>
+        ) : null}
       </>
     );
   } else if (room.state === 'reveal') {

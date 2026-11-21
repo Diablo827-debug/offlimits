@@ -21,6 +21,7 @@ export function savePhoneLang(lang) { try { localStorage.setItem('ol_lang', lang
 
 const S = {
   pl: {
+    forceReveal: 'Pokaż odpowiedzi bez czekania',
     leaveGame: 'Wyjdź z gry',
     cards: 'Karty', cardsFresh: 'Najpierw niewylosowane', cardsAll: 'Wszystkie od nowa',
     language: 'Język',
@@ -59,6 +60,7 @@ const S = {
     nextSoon: 'Za chwilę następna runda.', gameOver: 'Koniec gry', judgeSuffix: 'sędzia', pts: 'pkt', hostOpts: 'Opcje gospodarza',
   },
   en: {
+    forceReveal: 'Reveal answers now',
     leaveGame: 'Leave game',
     cards: 'Cards', cardsFresh: 'Unplayed first', cardsAll: 'Shuffle all',
     language: 'Language',
@@ -97,6 +99,7 @@ const S = {
     nextSoon: 'Next round in a moment.', gameOver: 'Game over', judgeSuffix: 'judge', pts: 'pts', hostOpts: 'Host options',
   },
   es: {
+    forceReveal: 'Mostrar respuestas ya',
     leaveGame: 'Salir del juego',
     cards: 'Cartas', cardsFresh: 'Primero las no jugadas', cardsAll: 'Barajar todas',
     language: 'Idioma',
@@ -135,6 +138,7 @@ const S = {
     nextSoon: 'La siguiente ronda empieza enseguida.', gameOver: 'Fin del juego', judgeSuffix: 'juez', pts: 'ptos', hostOpts: 'Opciones del anfitrión',
   },
   el: {
+    forceReveal: 'Εμφάνιση απαντήσεων τώρα',
     leaveGame: 'Έξοδος από το παιχνίδι',
     cards: 'Κάρτες', cardsFresh: 'Πρώτα οι καινούργιες', cardsAll: 'Ανακάτεμα όλων',
     language: 'Γλώσσα',

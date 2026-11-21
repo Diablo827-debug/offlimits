@@ -24,6 +24,10 @@ export default function Tv() {
   const done = React.useRef({});
   const roomRef = React.useRef(null);
   roomRef.current = room;
+  const deckRef = React.useRef(null);
+  deckRef.current = deck;
+  const subsRef = React.useRef({});
+  subsRef.current = subs;
   const once = (key) => { if (done.current[key]) return false; done.current[key] = true; return true; };
 
   // Logowanie, talia i pokój (wznawiany po odświeżeniu strony).
@@ -79,6 +83,7 @@ export default function Tv() {
         if (!c || !r) return;
         if (c.type === 'start' && r.state === 'lobby') handleStart();
         if (c.type === 'again' && r.state === 'end') M.backToLobby(code);
+        if (c.type === 'next' && r.state === 'picking') forceReveal();
         if (c.type === 'next') stopSpeaking();
         if (c.type === 'end' && r.state !== 'lobby' && r.state !== 'end') { stopSpeaking(); M.endGame(code); }
         remove(ref(db, 'rooms/' + code + '/cmd'));
@@ -86,6 +91,13 @@ export default function Tv() {
     ];
     return () => offs.forEach((o) => o());
   }, [code]);
+
+  // Gospodarz nie chce czekać (ktoś odszedł od telefonu) – odkrywamy to, co już zagrano.
+  function forceReveal() {
+    const r = roomRef.current;
+    if (!r || r.state !== 'picking' || !deckRef.current) return;
+    if (once('reveal-' + r.round + '-' + r.black)) M.toReveal(code, r, deckRef.current, subsRef.current);
+  }
 
   async function newRoom() {
     try {
@@ -166,6 +178,7 @@ export default function Tv() {
       onAgain={() => M.backToLobby(code)}
       onEnd={() => { stopSpeaking(); M.endGame(code); }}
       onNewRoom={newRoom}
+      onForce={forceReveal}
     />
     {!sound && room.lektor !== false ? (
       <div className="sound-gate" role="dialog" aria-label={t('soundOn')}>

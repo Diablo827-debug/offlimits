@@ -218,6 +218,7 @@ export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, 
         <details className="fold" style={{ marginTop: 14 }}>
           <summary>{t('hostOpts')}</summary>
           <div className="inner">
+            {room.state === 'picking' ? <button type="button" className="btn btn-ghost" onClick={() => onCmd('next')}>{t('forceReveal')}</button> : null}
             <button type="button" className="btn btn-ghost" onClick={() => onCmd('end')}>{t('endGame')}</button>
           </div>
         </details>
