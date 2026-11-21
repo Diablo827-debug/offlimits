@@ -30,6 +30,10 @@ function fixture(state, deck) {
   if (state === 'lobby') return Object.assign(base, { round: 0, judge: null });
   if (state === 'reveal') return Object.assign(base, { reveal, revealIdx: Number(qp.get('idx') || 1) });
   if (state === 'judging') return Object.assign(base, { reveal });
+  if (state === 'voting') {
+    const pl = Object.assign({}, P, { u3: Object.assign({}, P.u3, { vote: { round: 6, k: 'k1' } }), u4: Object.assign({}, P.u4, { vote: { round: 6, k: 'k2' } }) });
+    return Object.assign(base, { reveal, players: pl, voteUntil: Date.now() + 27000 });
+  }
   if (state === 'result') return Object.assign(base, { reveal, winner: 'u3', winK: 'k2', owners: { k0: 'u1', k1: 'u4', k2: 'u3', k3: 'u5' } });
   if (state === 'end') return Object.assign(base, { players: Object.assign({}, P, { u3: Object.assign({}, P.u3, { score: 7 }) }) });
   if (state === 'pick2') return Object.assign(base, { state: 'picking', black: 'R-C019' });
@@ -56,11 +60,11 @@ export default function Demo({ screen, demo }) {
     return <TvView room={room} code="8F3K" deck={deck} qr={qr} joinUrl="https://offlimits-esn.pages.dev/graj?kod=8F3K" subs={subs} minPlayers={3} onSettings={() => {}} onStart={() => {}} onAgain={() => {}} />;
   }
   // telefon: hand | hand2 | judge | wait | played | lobby | result | end
-  const map = { hand: 'picking', hand2: 'pick2', judge: 'judging', wait: 'judging', played: 'picking', lobby: 'lobby', result: 'result', end: 'end', reveal: 'reveal', sedzia: 'picking' };
+  const map = { hand: 'picking', hand2: 'pick2', judge: 'judging', wait: 'judging', played: 'picking', lobby: 'lobby', result: 'result', end: 'end', reveal: 'reveal', sedzia: 'picking', glos: 'voting' };
   const room = Object.assign(fixture(map[demo] || 'picking', deck), { lang });
   const qp = new URLSearchParams(location.search);
   const whites = qp.get('reka') ? qp.get('reka').split(',') : Object.keys(deck.b).filter((id) => id[0] === 'R').slice(40, 50);
   const me = demo === 'judge' || demo === 'sedzia' ? 'u2' : 'u1';
-  const mySub = demo === 'played' ? { round: 6, cards: [qp.get('reka') ? whites[0] : whites[2]] } : null;
+  const mySub = demo === 'glos' ? { round: 6, cards: [new URLSearchParams(location.search).get('odp') ? new URLSearchParams(location.search).get('odp').split(',')[0] : 'R-B0020'] } : demo === 'played' ? { round: 6, cards: [qp.get('reka') ? whites[0] : whites[2]] } : null;
   return <GrajView room={room} me={me} hand={whites} mySub={mySub} deck={deck} lang={lang} onLang={() => {}} onPlay={() => {}} onPick={() => {}} onCmd={() => {}} />;
 }

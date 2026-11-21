@@ -4,6 +4,7 @@ import { ref, onValue, get, remove } from 'firebase/database';
 import { db, ensureAuth } from './firebase.js';
 import { loadDeck, fillText, deckKnows, answersFor } from './deck.js';
 import { speak, stopSpeaking, unlockSpeech, prefetchSpeech } from './lektor.js';
+import { musicStart, musicStop } from './muzyka.js';
 import * as M from './master.js';
 import TvView from './TvView.jsx';
 import { useWakeLock } from './Graj.jsx';
@@ -42,6 +43,9 @@ export default function Tv() {
   const lastSub = React.useRef({ key: '', n: 0, at: 0 });
   const stageSince = React.useRef({ key: '', at: 0 });
   useWakeLock(true);
+  // Muzyczka w tle (po włączeniu dźwięku na telewizorze; wyłączana w ustawieniach).
+  const musicOn = !!(sound && room && room.music !== false);
+  React.useEffect(() => { if (musicOn) musicStart(0.5); else musicStop(); }, [musicOn]);
 
   // Logowanie, talia i pokój (wznawiany po odświeżeniu strony).
   React.useEffect(() => {
@@ -87,7 +91,9 @@ export default function Tv() {
       onValue(ref(db, 'subs/' + code), (s) => setSubs(s.val() || {})),
       onValue(ref(db, 'picks/' + code), (s) => {
         const p = s.val(); const r = roomRef.current;
-        if (p && r && r.state === 'judging' && p.round === r.round && once('pick-' + r.round)) {
+        if (p && r && r.state === 'judging' && p.round === r.round && p.vote && once('vote-' + r.round)) {
+          M.toVoting(code).catch(retry('vote-' + r.round));
+        } else if (p && r && r.state === 'judging' && p.round === r.round && p.k && once('pick-' + r.round)) {
           M.applyPick(code, r, p.k).catch(retry('pick-' + r.round));
         }
       }),
@@ -97,6 +103,7 @@ export default function Tv() {
         if (c.type === 'start' && r.state === 'lobby') handleStart();
         if (c.type === 'again' && r.state === 'end') M.backToLobby(code);
         if (c.type === 'next' && r.state === 'picking') forceReveal();
+        if (c.type === 'next' && r.state === 'judging' && once('vote-' + r.round)) M.toVoting(code).catch(retry('vote-' + r.round));
         if (c.type === 'next') stopSpeaking();
         if (c.type === 'end' && r.state !== 'lobby' && r.state !== 'end') { stopSpeaking(); M.endGame(code); }
         remove(ref(db, 'rooms/' + code + '/cmd'));
@@ -151,7 +158,7 @@ export default function Tv() {
     const inStage = (now - stageSince.current.at) / 1000;
 
     if (r.state === 'picking') {
-      if (black && once('read-' + r.round + '-' + r.black)) speak(black[0], so);
+      if (black && once('read-' + r.round + '-' + r.black)) speak(black[0], Object.assign({}, so, { mood: 'q' }));
       const played = (u) => subs[u] && subs[u].round === r.round && (subs[u].cards || []).length > 0;
       // Czekamy na graczy w grze; ktoś, kto zniknął na dłużej (telefon w tle), nie blokuje rundy.
       const needed = M.activeOrder(r).filter((u) => u !== r.judge && !(away(u, AWAY_SECONDS) && !played(u)));
@@ -169,12 +176,12 @@ export default function Tv() {
       const list = r.reveal || [];
       if (once('seq-' + r.round)) {
         (async () => {
-          if (lektor) prefetchSpeech(list.map((e) => fillText(black ? black[0] : '', answersFor(deck, r.black, e.cards))), r.voice, lang);
+          if (lektor) prefetchSpeech(list.map((e) => fillText(black ? black[0] : '', answersFor(deck, r.black, e.cards))), r.voice, lang, 'a');
           for (let i = 0; i < list.length; i++) {
             if (roomRef.current && roomRef.current.state !== 'reveal') return;
             await M.setRevealIdx(code, i).catch(() => {});
             const answers = answersFor(deck, r.black, list[i].cards);
-            await speak(fillText(black ? black[0] : '', answers), so);
+            await speak(fillText(black ? black[0] : '', answers), Object.assign({}, so, { mood: 'a' }));
           }
           await M.toJudging(code);
         })().catch(retry('seq-' + r.round));
@@ -185,8 +192,19 @@ export default function Tv() {
     }
 
     if (r.state === 'judging' && r.judge && (players[r.judge] && (players[r.judge].left || away(r.judge, JUDGE_AWAY_SECONDS)))
-      && once('autopick-' + r.round)) {
-      M.autoPick(code, r).catch(retry('autopick-' + r.round));
+      && once('vote-' + r.round)) {
+      // Sędziego nie ma – decyduje głosowanie.
+      M.toVoting(code).catch(retry('vote-' + r.round));
+    }
+
+    if (r.state === 'voting') {
+      if (once('vote-say-' + r.round)) speak(t('voteSpeak'), Object.assign({}, so, { mood: 'w' }));
+      const vs = M.voters(r);
+      const got = M.votesOf(r);
+      const all = vs.length > 0 && vs.every((u) => got[u]);
+      if ((all || now > (r.voteUntil || 0) + 1500) && once('tally-' + r.round)) {
+        M.applyPick(code, r, M.tally(r)).catch(retry('tally-' + r.round));
+      }
     }
 
     if (r.state === 'result') {
@@ -198,7 +216,7 @@ export default function Tv() {
       };
       if (once('res-' + r.round)) {
         const w = r.players && r.players[r.winner];
-        speak(t('pointFor') + ' ' + (w ? w.name : ''), so);
+        speak(t('pointFor') + ' ' + (w ? w.name : ''), Object.assign({}, so, { mood: 'w' }));
         // Licznik niezależny od odświeżeń ekranu (zegar co 2 s nie może go kasować).
         setTimeout(next, M.RESULT_SECONDS * 1000);
       } else if (inStage > M.RESULT_SECONDS + 10) next();
@@ -224,7 +242,7 @@ export default function Tv() {
     <TvView
       room={room} code={code} deck={deck} qr={qr} joinUrl={joinUrl} subs={subs} lite={LITE}
       minPlayers={MIN_PLAYERS}
-      onSettings={(p) => { M.saveSettings(code, p); if (p.lang) localStorage.setItem('ol_tv_lang', p.lang); if (p.voice || (p.lang && room.lektor !== false)) { unlockSpeech(); setSound(true); speak(tr(okLang(p.lang || room.lang))('voiceSample'), { voice: p.voice || room.voice, lang: okLang(p.lang || room.lang) }); } }}
+      onSettings={(p) => { M.saveSettings(code, p); if (p.lang) localStorage.setItem('ol_tv_lang', p.lang); if (p.voice || (p.lang && room.lektor !== false)) { unlockSpeech(); setSound(true); speak(tr(okLang(p.lang || room.lang))('voiceSample'), { voice: p.voice || room.voice, lang: okLang(p.lang || room.lang), mood: 's' }); } }}
       onStart={handleStart}
       onAgain={() => M.backToLobby(code)}
       onEnd={() => { stopSpeaking(); M.endGame(code); }}

@@ -194,6 +194,35 @@ export function setRevealIdx(code, i) {
   return update(ref(db, 'rooms/' + code), { revealIdx: i });
 }
 
+export const VOTE_SECONDS = 40;
+// Sędzia nie umie wybrać – głosują wszyscy (nikt na swoją kartę).
+export function toVoting(code) {
+  return update(ref(db, 'rooms/' + code), { state: 'voting', voteUntil: Date.now() + VOTE_SECONDS * 1000 });
+}
+export function voters(room) {
+  const players = room.players || {};
+  return activeOrder(room).filter((u) => players[u].connected !== false);
+}
+export function votesOf(room) {
+  const players = room.players || {};
+  const out = {};
+  Object.keys(players).forEach((u) => {
+    const v = players[u].vote;
+    if (v && v.round === room.round && v.k) out[u] = v.k;
+  });
+  return out;
+}
+// Najwięcej głosów wygrywa; remis – losowo spośród remisujących; brak głosów – losowo.
+export function tally(room) {
+  const list = (room.reveal || []).map((e) => e.k);
+  const count = {};
+  const v = votesOf(room);
+  Object.keys(v).forEach((u) => { if (list.indexOf(v[u]) >= 0) count[v[u]] = (count[v[u]] || 0) + 1; });
+  const max = Math.max.apply(null, [0].concat(Object.values(count)));
+  const top = max > 0 ? list.filter((k) => count[k] === max) : list;
+  return top[Math.floor(Math.random() * top.length)];
+}
+
 export function toJudging(code) {
   return update(ref(db, 'rooms/' + code), { state: 'judging' });
 }

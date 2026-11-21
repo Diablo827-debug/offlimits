@@ -98,6 +98,39 @@ function Judge({ room, deck, black, onPick, t }) {
       </div>
       <div className="actions">
         <button type="button" className="btn btn-primary" disabled={!k} onClick={() => onPick(k)}>{t('pickWinner')}</button>
+        <button type="button" className="btn btn-ghost" onClick={() => onPick('__vote')}>{t('cantDecide')}</button>
+      </div>
+    </>
+  );
+}
+
+// Głosowanie, gdy sędzia nie umie wybrać – na swoją kartę głosować nie można.
+function Vote({ room, me, deck, black, mySub, onVote, t }) {
+  const [k, setK] = React.useState(null);
+  const list = room.reveal || [];
+  const mine = (mySub && mySub.round === room.round && mySub.cards) || [];
+  const isMine = (e) => mine.length > 0 && mine.join('|') === (e.cards || []).join('|');
+  const my = (room.players || {})[me] || {};
+  if (my.vote && my.vote.round === room.round) {
+    return <div className="center"><div className="big gold-text">{t('voted')}</div><div className="muted">{t('votedWait')}</div></div>;
+  }
+  return (
+    <>
+      <div className="big" style={{ fontSize: 22, margin: '6px 0 12px' }}>{t('voteTitle')}</div>
+      <div className="list">
+        {list.map((e, i) => {
+          const own = isMine(e);
+          return (
+            <button type="button" key={e.k} disabled={own} className={'opt' + (k === e.k ? ' sel' : '')} style={own ? { opacity: 0.45 } : null} onClick={() => setK(e.k)}>
+              <b style={{ color: 'var(--gold)', marginRight: 8 }}>{i + 1}.</b>
+              <Parts parts={fillParts(black[0], answersFor(deck, room.black, e.cards))} />
+              {own ? <span className="muted"> ({t('ownCard')})</span> : null}
+            </button>
+          );
+        })}
+      </div>
+      <div className="actions">
+        <button type="button" className="btn btn-primary" disabled={!k} onClick={() => onVote(k)}>{t('voteBtn')}</button>
       </div>
     </>
   );
@@ -116,7 +149,7 @@ export function LangPick({ lang, onLang, t }) {
   );
 }
 
-export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, onCmd, lang, onLang, onLeave }) {
+export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, onVote, onCmd, lang, onLang, onLeave }) {
   const t = tr(lang || 'pl');
   const players = sortedPlayers(room);
   const meP = (room.players || {})[me] || {};
@@ -183,6 +216,8 @@ export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, 
     body = isJudge ? <Judge room={room} deck={deck} black={black} onPick={onPick} t={t} /> : (
       <div className="center"><div className="big">{t('judgeChoosing')}</div><div className="muted">{t('fingers')}</div></div>
     );
+  } else if (room.state === 'voting') {
+    body = <Vote room={room} me={me} deck={deck} black={black} mySub={mySub} onVote={onVote} t={t} />;
   } else if (room.state === 'result') {
     const won = room.winner === me;
     const w = (room.players || {})[room.winner];
@@ -218,6 +253,7 @@ export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, 
           <summary>{t('hostOpts')}</summary>
           <div className="inner">
             {room.state === 'picking' ? <button type="button" className="btn btn-ghost" onClick={() => onCmd('next')}>{t('forceReveal')}</button> : null}
+            {room.state === 'judging' ? <button type="button" className="btn btn-ghost" onClick={() => onCmd('next')}>{t('startVote')}</button> : null}
             <button type="button" className="btn btn-ghost" onClick={() => onCmd('end')}>{t('endGame')}</button>
           </div>
         </details>

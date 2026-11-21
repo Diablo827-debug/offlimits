@@ -1,4 +1,5 @@
 import { locOf } from './i18n.js';
+import { musicDuck } from './muzyka.js';
 // Lektor z głosu przeglądarki (Web Speech API). Gdy brak polskiego głosu – milczy,
 // a gra idzie dalej na czasie. Wersja z głosem z chmury dojdzie w kolejnym etapie.
 // Chrome ładuje listę głosów z opóźnieniem – słuchamy zdarzenia i trzymamy ją pod ręką.
@@ -50,40 +51,47 @@ export function voiceName(v, lang) { return locOf(lang) + '-Chirp3-HD-' + voiceS
 
 // Luka w pytaniu = krótka pauza, bez czytania „coś”.
 function cleanText(text) { return text.replace(/\s*_{2,}\s*/g, '… ').replace(/…\s*([.?!])/g, '…$1'); }
-export function ttsUrl(text, voice, lang) {
-  return '/api/tts?v=' + encodeURIComponent(voiceName(voice, lang)) + '&t=' + encodeURIComponent(cleanText(text, lang));
+// mood: q = pytanie, a = odkrywana odpowiedź, w = zwycięzca, s = próbka głosu (emocje lektora ElevenLabs)
+export function ttsUrl(text, voice, lang, mood) {
+  return '/api/tts?v=' + encodeURIComponent(voiceName(voice, lang)) + '&t=' + encodeURIComponent(cleanText(text, lang))
+    + (mood ? '&m=' + mood : '');
 }
 // Rozgrzewa pamięć podręczną, żeby lektor nie czekał na nagranie.
-export function prefetchSpeech(texts, voice, lang) {
-  texts.forEach((t) => { try { fetch(ttsUrl(t, voice, lang)).catch(() => {}); } catch (e) { /* nic */ } });
+export function prefetchSpeech(texts, voice, lang, mood) {
+  texts.forEach((t) => { try { fetch(ttsUrl(t, voice, lang, mood)).catch(() => {}); } catch (e) { /* nic */ } });
 }
 
-function playCloud(text, voice, lang) {
+function playCloud(text, voice, lang, mood) {
   return new Promise((resolve, reject) => {
     try {
-      const a = new Audio(ttsUrl(text, voice, lang));
+      const a = new Audio(ttsUrl(text, voice, lang, mood));
       let done = false;
       const ok = () => { if (!done) { done = true; resolve(); } };
       a.onended = ok;
       a.onerror = () => { if (!done) { done = true; reject(new Error('audio')); } };
       a.play().catch((e) => { if (!done) { done = true; reject(e); } });
-      setTimeout(ok, 6000 + text.length * 120);
+      setTimeout(ok, 9000 + text.length * 140);
     } catch (e) { reject(e); }
   });
 }
 
 export async function speak(text, opts) {
   const enabled = !opts || opts.enabled !== false;
-  if (enabled && opts && opts.cloud !== false && typeof Audio !== 'undefined') {
-    const started = Date.now();
-    try {
-      await playCloud(text, opts.voice, opts.lang);
-      const left = 900 - (Date.now() - started);
-      if (left > 0) await new Promise((r) => setTimeout(r, left));
-      return;
-    } catch (e) { /* brak sieci lub blokada dźwięku – głos przeglądarki */ }
+  if (enabled) musicDuck(true);
+  try {
+    if (enabled && opts && opts.cloud !== false && typeof Audio !== 'undefined') {
+      const started = Date.now();
+      try {
+        await playCloud(text, opts.voice, opts.lang, opts.mood);
+        const left = 900 - (Date.now() - started);
+        if (left > 0) await new Promise((r) => setTimeout(r, left));
+        return;
+      } catch (e) { /* brak sieci lub blokada dźwięku – głos przeglądarki */ }
+    }
+    return await speakBrowser(text, opts);
+  } finally {
+    if (enabled) musicDuck(false);
   }
-  return speakBrowser(text, opts);
 }
 
 function speakBrowser(text, opts) {

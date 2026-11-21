@@ -160,7 +160,8 @@ export default function Graj() {
     <GrajView
       room={room} me={uid} hand={hand} mySub={mySub} deck={deck} lang={lang} onLang={changeLang} onLeave={leave}
       onPlay={(cards) => set(ref(db, 'subs/' + code + '/' + uid), { round: room.round, cards, at: Date.now() })}
-      onPick={(k) => set(ref(db, 'picks/' + code), { round: room.round, k, by: uid })}
+      onPick={(k) => set(ref(db, 'picks/' + code), k === '__vote' ? { round: room.round, vote: true, by: uid } : { round: room.round, k, by: uid })}
+      onVote={(k) => update(ref(db, 'rooms/' + code + '/players/' + uid), { vote: { round: room.round, k } })}
       onCmd={(type) => set(ref(db, 'rooms/' + code + '/cmd'), { type, by: uid, at: Date.now() })}
     />
   );

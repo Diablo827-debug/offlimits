@@ -3,6 +3,7 @@ import { createPortal } from 'react-dom';
 import { BlackCard, Avatar, Logo, sortedPlayers, useCountdown, endLabel, Parts } from './ui.jsx';
 import { fillParts, answersFor } from './deck.js';
 import { VOICES } from './lektor.js';
+import { votesOf, voters } from './master.js';
 import { tr, LANGS } from './i18n.js';
 import { inApp, canPrompt, promptInstall, onPromptReady, switchRole } from './install.js';
 
@@ -91,6 +92,9 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
               <Seg value={room.lektor === false ? 'off' : (room.voice ? room.voice.split('-').pop() : VOICES[0].id)}
                 onChange={(v) => onSettings(v === 'off' ? { lektor: false } : { lektor: true, voice: v })}
                 options={VOICES.map((x) => ({ v: x.id, l: t(x.key) })).concat([{ v: 'off', l: t('off') }])} /></div>
+            <div className="set-row"><span>{t('music')}</span>
+              <Seg value={room.music === false ? 'off' : 'on'} onChange={(v) => onSettings({ music: v === 'on' })}
+                options={[{ v: 'on', l: t('musicOn') }, { v: 'off', l: t('musicOff') }]} /></div>
           </div>
         </details>
         <button type="button" className="btn btn-primary" disabled={!can} onClick={onStart}>
@@ -169,9 +173,10 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
         <div className="hint">{t('answerOf', { a: Math.min((room.revealIdx || 0) + 1, list.length), b: list.length })}</div>
       </>
     );
-  } else if (room.state === 'judging' || room.state === 'result') {
+  } else if (room.state === 'judging' || room.state === 'result' || room.state === 'voting') {
     const list = room.reveal || [];
     const result = room.state === 'result';
+    const voteLeft = room.state === 'voting' && room.voteUntil ? Math.max(0, Math.ceil((room.voteUntil - Date.now()) / 1000)) : null;
     const names = {};
     players.forEach((p) => { names[p.uid] = p.name; });
     stage = (
@@ -191,7 +196,9 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
           })}
         </div>
         <div className="hint">
-          {result ? <>{t('pointFor')} <b className="gold-text" style={{ fontSize: '1.8vw' }}>{names[room.winner] || ''}</b></> : <>{t('judgeWord')} <b>{judge ? judge.name : ''}</b> {t('judgePicks')}</>}
+          {result ? <>{t('pointFor')} <b className="gold-text" style={{ fontSize: '1.8vw' }}>{names[room.winner] || ''}</b></>
+            : room.state === 'voting' ? <><b className="gold-text">{t('voteTv')}</b> · {t('votesCount', { a: Object.keys(votesOf(room)).length, b: voters(room).length })}{voteLeft != null ? ' · ' + voteLeft + ' s' : ''}</>
+              : <>{t('judgeWord')} <b>{judge ? judge.name : ''}</b> {t('judgePicks')}</>}
         </div>
       </>
     );
