@@ -144,7 +144,7 @@ export default function Tv() {
     <TvView
       room={room} code={code} deck={deck} qr={qr} joinUrl={joinUrl} subs={subs} lite={LITE}
       minPlayers={MIN_PLAYERS}
-      onSettings={(p) => M.saveSettings(code, p)}
+      onSettings={(p) => { M.saveSettings(code, p); if (p.voice) { unlockSpeech(); setSound(true); speak('Tak brzmi ten głos. Good company, worse answers.', { voice: p.voice }); } }}
       onStart={handleStart}
       onAgain={() => M.backToLobby(code)}
       onEnd={() => { stopSpeaking(); M.endGame(code); }}

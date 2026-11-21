@@ -55,6 +55,36 @@ function Download() {
   );
 }
 
+function Voices() {
+  const [playing, setPlaying] = React.useState(null);
+  const VOICES = [
+    ['pl-PL-Chirp3-HD-Charon', 'Męski 1 – niski'],
+    ['pl-PL-Chirp3-HD-Algenib', 'Męski 2 – spokojny'],
+    ['pl-PL-Chirp3-HD-Kore', 'Kobiecy 1 – wyraźny'],
+    ['pl-PL-Chirp3-HD-Aoede', 'Kobiecy 2 – ciepły'],
+  ];
+  const line = 'Najgorszy prezent pod choinkę to... skarpetki od cioci, znowu. Punkt dla: Kamil!';
+  function play(v) {
+    setPlaying(v);
+    const a = new Audio('/api/tts?v=' + encodeURIComponent(v) + '&t=' + encodeURIComponent(line));
+    a.onended = () => setPlaying(null);
+    a.onerror = () => setPlaying(null);
+    a.play().catch(() => setPlaying(null));
+  }
+  return (
+    <div className="home">
+      <img src="/sygnet.svg" alt="" />
+      <div className="wordmark gold-text">LEKTOR</div>
+      <div className="muted">Dotknij, żeby posłuchać. Głos wybierasz w ustawieniach gry na telewizorze.</div>
+      <div className="choices">
+        {VOICES.map(([v, l]) => (
+          <button key={v} type="button" className="btn btn-primary" onClick={() => play(v)}>{playing === v ? '♪ Gra…' : '▶ ' + l}</button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function Home({ remember }) {
   if (remember) {
     let role = null;
@@ -85,6 +115,7 @@ async function boot() {
   else if (path === '/tv') El = (await import('./Tv.jsx')).default;
   else if (path === '/graj') El = (await import('./Graj.jsx')).default;
   else if (path === '/pobierz') El = Download;
+  else if (path === '/glosy') El = Voices;
   else if (path === '/start') El = () => <Home remember />;
   else El = Home;
   createRoot(document.getElementById('root')).render(<El />);
