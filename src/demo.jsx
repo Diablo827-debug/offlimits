@@ -1,5 +1,6 @@
 // Podgląd ekranów bez Firebase: /tv?demo=picking, /graj?demo=hand itd.
 import React from 'react';
+import QRCode from 'qrcode';
 import { loadDeck } from './deck.js';
 import TvView from './TvView.jsx';
 import GrajView from './GrajView.jsx';
@@ -34,7 +35,8 @@ function fixture(state, deck) {
 export default function Demo({ screen, demo }) {
   const [deck, setDeck] = React.useState(null);
   const lang = new URLSearchParams(location.search).get('lang') || 'pl';
-  React.useEffect(() => { loadDeck(lang).then(setDeck); }, []);
+  const [qr, setQr] = React.useState('');
+  React.useEffect(() => { loadDeck(lang).then(setDeck); QRCode.toDataURL('https://offlimits-esn.pages.dev/graj?kod=8F3K', { margin: 1, width: 480, color: { dark: '#0B0B0B', light: '#F2EBDD' } }).then(setQr); }, []);
   if (!deck) return null;
   if (screen === 'tv') {
     const room = Object.assign(fixture(demo === 'pick2' ? 'pick2' : demo, deck), { lang });
@@ -42,12 +44,12 @@ export default function Demo({ screen, demo }) {
     if (demo === 'dzwiek') {
       return (
         <>
-          <TvView room={fixture('lobby', deck)} code="8F3K" deck={deck} qr="" joinUrl="https://offlimits-esn.pages.dev/graj?kod=8F3K" subs={{}} minPlayers={3} onSettings={() => {}} onStart={() => {}} onAgain={() => {}} />
+          <TvView room={fixture('lobby', deck)} code="8F3K" deck={deck} qr={qr} joinUrl="https://offlimits-esn.pages.dev/graj?kod=8F3K" subs={{}} minPlayers={3} onSettings={() => {}} onStart={() => {}} onAgain={() => {}} />
           <div className="sound-gate"><div className="sound-box"><img src="/sygnet.svg" alt="" /><div className="big">Włącz dźwięk lektora</div><p className="muted">Przeglądarka wpuszcza dźwięk dopiero po jednym kliknięciu na tym ekranie.</p><button type="button" className="btn btn-primary">Włącz dźwięk</button><button type="button" className="btn btn-ghost">Graj bez lektora</button></div></div>
         </>
       );
     }
-    return <TvView room={room} code="8F3K" deck={deck} qr="" joinUrl="https://offlimits-esn.pages.dev/graj?kod=8F3K" subs={subs} minPlayers={3} onSettings={() => {}} onStart={() => {}} onAgain={() => {}} />;
+    return <TvView room={room} code="8F3K" deck={deck} qr={qr} joinUrl="https://offlimits-esn.pages.dev/graj?kod=8F3K" subs={subs} minPlayers={3} onSettings={() => {}} onStart={() => {}} onAgain={() => {}} />;
   }
   // telefon: hand | hand2 | judge | wait | played | lobby | result | end
   const map = { hand: 'picking', hand2: 'pick2', judge: 'judging', wait: 'judging', played: 'picking', lobby: 'lobby', result: 'result', end: 'end', reveal: 'reveal', sedzia: 'picking' };

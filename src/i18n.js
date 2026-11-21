@@ -21,6 +21,7 @@ export function savePhoneLang(lang) { try { localStorage.setItem('ol_lang', lang
 
 const S = {
   pl: {
+    cards: 'Karty', cardsFresh: 'Najpierw niewylosowane', cardsAll: 'Wszystkie od nowa',
     language: 'Język',
     modeAll: 'Wszystkie karty', modeFamily: 'Rodzinny', mode22: 'Po 22:00', modeBez: 'Bez tabu',
     chipAll: 'Wszystkie karty · 18+', chip22: 'Tryb „Po 22:00” · 18+', chipBez: 'Tryb „Bez tabu” · 18+',
@@ -57,6 +58,7 @@ const S = {
     nextSoon: 'Za chwilę następna runda.', gameOver: 'Koniec gry', judgeSuffix: 'sędzia', pts: 'pkt', hostOpts: 'Opcje gospodarza',
   },
   en: {
+    cards: 'Cards', cardsFresh: 'Unplayed first', cardsAll: 'Shuffle all',
     language: 'Language',
     modeAll: 'All cards', modeFamily: 'Family', mode22: 'After 10 PM', modeBez: 'No taboos',
     chipAll: 'All cards · 18+', chip22: '“After 10 PM” mode · 18+', chipBez: '“No taboos” mode · 18+',
@@ -93,6 +95,7 @@ const S = {
     nextSoon: 'Next round in a moment.', gameOver: 'Game over', judgeSuffix: 'judge', pts: 'pts', hostOpts: 'Host options',
   },
   es: {
+    cards: 'Cartas', cardsFresh: 'Primero las no jugadas', cardsAll: 'Barajar todas',
     language: 'Idioma',
     modeAll: 'Todas las cartas', modeFamily: 'Familiar', mode22: 'Después de las 22', modeBez: 'Sin tabúes',
     chipAll: 'Todas las cartas · 18+', chip22: 'Modo «Después de las 22» · 18+', chipBez: 'Modo «Sin tabúes» · 18+',
@@ -129,6 +132,7 @@ const S = {
     nextSoon: 'La siguiente ronda empieza enseguida.', gameOver: 'Fin del juego', judgeSuffix: 'juez', pts: 'ptos', hostOpts: 'Opciones del anfitrión',
   },
   el: {
+    cards: 'Κάρτες', cardsFresh: 'Πρώτα οι καινούργιες', cardsAll: 'Ανακάτεμα όλων',
     language: 'Γλώσσα',
     modeAll: 'Όλες οι κάρτες', modeFamily: 'Οικογενειακό', mode22: 'Μετά τις 22:00', modeBez: 'Χωρίς ταμπού',
     chipAll: 'Όλες οι κάρτες · 18+', chip22: 'Λειτουργία «Μετά τις 22:00» · 18+', chipBez: 'Λειτουργία «Χωρίς ταμπού» · 18+',

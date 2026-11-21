@@ -67,6 +67,20 @@ function drawFrom(pile, count, refillIds, exclude) {
   return { cards: out, pile: p };
 }
 
+// Historia wylosowanych kart na tym telewizorze – kolejne gry mogą zaczynać od kart jeszcze niewidzianych.
+const USED_KEY = 'ol_used';
+function loadUsed() {
+  try { const u = JSON.parse(localStorage.getItem(USED_KEY)); if (u && u.c && u.b) return u; } catch (e) { /* nic */ }
+  return { c: {}, b: {} };
+}
+function saveUsed(u) { try { localStorage.setItem(USED_KEY, JSON.stringify(u)); } catch (e) { /* pełna pamięć */ } }
+function markUsed(kind, ids) {
+  if (!ids.length) return;
+  const u = loadUsed();
+  ids.forEach((id) => { u[kind][id] = 1; });
+  saveUsed(u);
+}
+
 // Uzupełnia ręce wszystkich graczy do 10 kart i losuje nową czarną kartę.
 async function dealAndBlack(code, room, deck, secret, patch) {
   const players = room.players || {};
@@ -85,10 +99,12 @@ async function dealAndBlack(code, room, deck, secret, patch) {
     const d = drawFrom(whitePile, HAND - cur.length, allWhite, inHands);
     whitePile = d.pile;
     d.cards.forEach((id) => { inHands[id] = 1; });
+    markUsed('b', d.cards);
     handUpdates[u] = { cards: cur.concat(d.cards) };
   });
   if (!blackPile.length) blackPile = shuffle(allBlack);
   const black = blackPile.shift();
+  markUsed('c', [black]);
   await update(ref(db, 'hands/' + code), handUpdates);
   await set(ref(db, 'secret/' + code), { white: whitePile, black: blackPile, owners: null });
   await remove(ref(db, 'subs/' + code));
@@ -112,7 +128,21 @@ export async function startGame(code, room, deck) {
   await remove(ref(db, 'hands/' + code));
   await update(ref(db, 'rooms/' + code), scores);
   const fresh = Object.assign({}, room, { players: room.players });
-  await dealAndBlack(code, fresh, deck, {}, {
+  // „Nowe karty”: najpierw te, których ten telewizor jeszcze nie wylosował; gdy zostaje ich mało – od nowa.
+  const secret = {};
+  if (room.fresh !== false) {
+    const used = loadUsed();
+    const allWhite = idsFor(deck, room.mode, 'b');
+    const allBlack = idsFor(deck, room.mode, 'c');
+    let w = allWhite.filter((id) => !used.b[id]);
+    let c = allBlack.filter((id) => !used.c[id]);
+    if (w.length < order.length * HAND * 3) { used.b = {}; w = allWhite; }
+    if (c.length < 25) { used.c = {}; c = allBlack; }
+    saveUsed(used);
+    secret.white = shuffle(w);
+    secret.black = shuffle(c);
+  }
+  await dealAndBlack(code, fresh, deck, secret, {
     round: 1,
     judge: order[0],
     startedAt: Date.now(),

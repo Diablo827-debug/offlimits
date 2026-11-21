@@ -56,10 +56,14 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
         {room.mode !== 'rodzinny' ? <div className="chip done" style={{ borderColor: '#8C3446' }}>{t(room.mode === 'po22' ? 'chip22' : room.mode === 'bez' ? 'chipBez' : 'chipAll')}</div> : null}
       </div>
       <div className="join-box fade-in">
-        <div className="lbl">{t('roomCode')}</div>
-        <div className="code gold-text">{code}</div>
-        {qr ? <img className="qr" src={qr} alt={t('qrAlt') + joinUrl} /> : null}
-        <div className="url">{joinUrl.replace(/^https?:\/\//, '')}</div>
+        <div className="join-top">
+          <div className="join-code">
+            <div className="lbl">{t('roomCode')}</div>
+            <div className="code gold-text">{code}</div>
+            <div className="url">{joinUrl.replace(/^https?:\/\//, '')}</div>
+          </div>
+          {qr ? <img className="qr" src={qr} alt={t('qrAlt') + joinUrl} /> : null}
+        </div>
         <div className="status-row" style={{ justifyContent: 'center' }}>
           {players.length ? players.map((p) => (
             <span className="chip done pop-in" key={p.uid}><Avatar uid={p.uid} name={p.name} />{p.name}</span>
@@ -74,6 +78,9 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
             <div className="set-row"><span>{t('mode')}</span>
               <Seg value={room.mode} onChange={(v) => onSettings({ mode: v })}
                 options={[{ v: 'wszystkie', l: t('modeAll') }, { v: 'rodzinny', l: t('modeFamily') }, { v: 'po22', l: t('mode22') }, { v: 'bez', l: t('modeBez') }]} /></div>
+            <div className="set-row"><span>{t('cards')}</span>
+              <Seg value={room.fresh === false ? 'all' : 'fresh'} onChange={(v) => onSettings({ fresh: v === 'fresh' })}
+                options={[{ v: 'fresh', l: t('cardsFresh') }, { v: 'all', l: t('cardsAll') }]} /></div>
             <div className="set-row"><span>{t('endGameSet')}</span>
               <Seg value={room.endType} onChange={(v) => onSettings({ endType: v, endValue: END_OPTIONS[v][1] })}
                 options={[{ v: 'points', l: t('points') }, { v: 'time', l: t('time') }, { v: 'rounds', l: t('rounds') }]} /></div>
