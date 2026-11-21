@@ -2,8 +2,9 @@ import React from 'react';
 import { Avatar, sortedPlayers, Parts } from './ui.jsx';
 import { fillParts } from './deck.js';
 import { inApp, switchRole } from './install.js';
+import { tr, LANGS } from './i18n.js';
 
-function Hand({ cards, deck, luki, onPlay }) {
+function Hand({ cards, deck, luki, onPlay, t }) {
   const [sel, setSel] = React.useState([]);
   const [idx, setIdx] = React.useState(0);
   const scroller = React.useRef(null);
@@ -74,19 +75,19 @@ function Hand({ cards, deck, luki, onPlay }) {
       </div>
       <div className="actions">
         <button type="button" className="btn btn-primary" disabled={!ready} onClick={() => onPlay(sel)}>
-          {ready ? 'Zagraj' : luki === 2 ? 'Wybierz 2 karty (' + sel.length + '/2)' : 'Wybierz kartę'}
+          {ready ? t('play') : luki === 2 ? t('pick2cards') + ' (' + sel.length + '/2)' : t('pickCard')}
         </button>
       </div>
     </>
   );
 }
 
-function Judge({ room, deck, black, onPick }) {
+function Judge({ room, deck, black, onPick, t }) {
   const [k, setK] = React.useState(null);
   const list = room.reveal || [];
   return (
     <>
-      <div className="big" style={{ fontSize: 22, margin: '6px 0 12px' }}>Wybierz najlepszą odpowiedź</div>
+      <div className="big" style={{ fontSize: 22, margin: '6px 0 12px' }}>{t('pickBest')}</div>
       <div className="list">
         {list.map((e, i) => (
           <button type="button" key={e.k} className={'opt' + (k === e.k ? ' sel' : '')} onClick={() => setK(e.k)}>
@@ -96,13 +97,27 @@ function Judge({ room, deck, black, onPick }) {
         ))}
       </div>
       <div className="actions">
-        <button type="button" className="btn btn-primary" disabled={!k} onClick={() => onPick(k)}>Wybierz zwycięzcę</button>
+        <button type="button" className="btn btn-primary" disabled={!k} onClick={() => onPick(k)}>{t('pickWinner')}</button>
       </div>
     </>
   );
 }
 
-export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, onCmd }) {
+export function LangPick({ lang, onLang, t }) {
+  return (
+    <details className="fold">
+      <summary>{t('language')}: {(LANGS.find((x) => x.v === lang) || LANGS[0]).l}</summary>
+      <div className="inner lang-pick">
+        {LANGS.map((x) => (
+          <button type="button" key={x.v} className={'btn btn-small ' + (x.v === lang ? 'btn-primary' : 'btn-ghost')} onClick={() => onLang(x.v)}>{x.l}</button>
+        ))}
+      </div>
+    </details>
+  );
+}
+
+export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, onCmd, lang, onLang }) {
+  const t = tr(lang || 'pl');
   const players = sortedPlayers(room);
   const meP = (room.players || {})[me] || {};
   const isJudge = room.judge === me;
@@ -114,77 +129,78 @@ export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, 
     body = (
       <div className="center">
         <img src="/sygnet.svg" alt="" style={{ width: 70 }} />
-        <div className="big">Jesteś w grze!</div>
-        <div className="muted">Patrz na telewizor. Gra ruszy, gdy wszyscy dołączą.</div>
+        <div className="big">{t('inGame')}</div>
+        <div className="muted">{t('watchTvLobby')}</div>
         <details className="fold" open>
-          <summary>Gracze ({players.length})</summary>
+          <summary>{t('players')} ({players.length})</summary>
           <div className="inner">
-            {players.map((p) => <div className="prow" key={p.uid}><Avatar uid={p.uid} name={p.name} />{p.name}{p.uid === me ? <span className="muted"> (ty)</span> : null}</div>)}
+            {players.map((p) => <div className="prow" key={p.uid}><Avatar uid={p.uid} name={p.name} />{p.name}{p.uid === me ? <span className="muted"> {t('you')}</span> : null}</div>)}
           </div>
         </details>
-        {isHost ? <button type="button" className="btn btn-primary" style={{ width: '100%' }} onClick={() => onCmd('start')}>Start gry</button> : null}
-        {inApp() ? <button type="button" className="btn btn-ghost btn-small" onClick={() => switchRole('tv')}>To jest telewizor – przełącz</button> : null}
+        {onLang ? <LangPick lang={lang} onLang={onLang} t={t} /> : null}
+        {isHost ? <button type="button" className="btn btn-primary" style={{ width: '100%' }} onClick={() => onCmd('start')}>{t('start')}</button> : null}
+        {inApp() ? <button type="button" className="btn btn-ghost btn-small" onClick={() => switchRole('tv')}>{t('thisIsTv')}</button> : null}
       </div>
     );
   } else if (room.state === 'picking') {
     if (isJudge) {
       body = (
         <div className="center">
-          <div className="tagline">TWOJA RUNDA</div>
-          <div className="big">Jesteś sędzią</div>
+          <div className="tagline">{t('yourRound')}</div>
+          <div className="big">{t('youJudge')}</div>
           <div className="mini-black">{black[0]}</div>
-          <div className="muted">Poczekaj, aż wszyscy zagrają. Potem wybierzesz najlepszą odpowiedź.</div>
+          <div className="muted">{t('judgeWait')}</div>
         </div>
       );
     } else if (mySub && mySub.round === room.round) {
       body = (
         <div className="center">
-          <div className="big">Zagrane!</div>
+          <div className="big">{t('played')}</div>
           <div className="mini-black"><Parts parts={fillParts(black[0], mySub.cards.map((id) => deck.b[id] || ''))} /></div>
-          <div className="muted">Czekamy na resztę graczy…</div>
+          <div className="muted">{t('waitRest')}</div>
         </div>
       );
     } else if (!hand || !hand.length) {
-      body = <div className="center"><div className="muted">Rozdaję karty…</div></div>;
+      body = <div className="center"><div className="muted">{t('dealing')}</div></div>;
     } else {
       body = (
         <>
-          <div className="mini-black">{black[0]}{black[1] === 2 ? <div className="tagline" style={{ marginTop: 8 }}>Wybierz 2 karty</div> : null}</div>
+          <div className="mini-black">{black[0]}{black[1] === 2 ? <div className="tagline" style={{ marginTop: 8 }}>{t('pick2cards')}</div> : null}</div>
           <div style={{ height: 14 }} />
-          <Hand cards={hand} deck={deck} luki={black[1]} onPlay={onPlay} />
+          <Hand cards={hand} deck={deck} luki={black[1]} onPlay={onPlay} t={t} />
         </>
       );
     }
   } else if (room.state === 'reveal') {
     body = (
       <div className="center">
-        <div className="big">Patrz na TV</div>
-        <div className="muted">Lektor czyta odpowiedzi po kolei.</div>
-        {isJudge ? <button type="button" className="btn btn-ghost" onClick={() => onCmd('next')}>Następna odpowiedź</button> : null}
+        <div className="big">{t('watchTv')}</div>
+        <div className="muted">{t('readerReads')}</div>
+        {isJudge ? <button type="button" className="btn btn-ghost" onClick={() => onCmd('next')}>{t('nextAnswer')}</button> : null}
       </div>
     );
   } else if (room.state === 'judging') {
-    body = isJudge ? <Judge room={room} deck={deck} black={black} onPick={onPick} /> : (
-      <div className="center"><div className="big">Sędzia wybiera…</div><div className="muted">Trzymaj kciuki za swoją kartę.</div></div>
+    body = isJudge ? <Judge room={room} deck={deck} black={black} onPick={onPick} t={t} /> : (
+      <div className="center"><div className="big">{t('judgeChoosing')}</div><div className="muted">{t('fingers')}</div></div>
     );
   } else if (room.state === 'result') {
     const won = room.winner === me;
     const w = (room.players || {})[room.winner];
     body = (
       <div className="center">
-        <div className="big gold-text" style={{ fontSize: 34 }}>{won ? 'Wygrałeś rundę!' : 'Punkt dla: ' + (w ? w.name : '')}</div>
-        <div className="muted">Za chwilę następna runda.</div>
+        <div className="big gold-text" style={{ fontSize: 34 }}>{won ? t('youWon') : t('pointFor') + ' ' + (w ? w.name : '')}</div>
+        <div className="muted">{t('nextSoon')}</div>
       </div>
     );
   } else if (room.state === 'end') {
     const ranking = players.slice().sort((a, b) => (b.score || 0) - (a.score || 0));
     body = (
       <div className="center">
-        <div className="big">Koniec gry</div>
+        <div className="big">{t('gameOver')}</div>
         <div className="list">
           {ranking.map((p, i) => <div className="opt" key={p.uid} style={{ display: 'flex', justifyContent: 'space-between' }}><span>{i + 1}. {p.name}</span><b className="gold-text">{p.score || 0}</b></div>)}
         </div>
-        {isHost ? <button type="button" className="btn btn-primary" style={{ width: '100%' }} onClick={() => onCmd('again')}>Jeszcze raz</button> : null}
+        {isHost ? <button type="button" className="btn btn-primary" style={{ width: '100%' }} onClick={() => onCmd('again')}>{t('again')}</button> : null}
       </div>
     );
   }
@@ -192,15 +208,15 @@ export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, 
   return (
     <div className="phone">
       <div className="phone-top">
-        <div className="who"><b>{meP.name || ''}</b>{isJudge && room.state !== 'lobby' ? ' · sędzia' : ''}</div>
-        {room.state !== 'lobby' ? <div className="sc">{meP.score || 0} pkt</div> : <div className="muted" style={{ fontSize: 13 }}>OFFLIMITS</div>}
+        <div className="who"><b>{meP.name || ''}</b>{isJudge && room.state !== 'lobby' ? ' · ' + t('judgeSuffix') : ''}</div>
+        {room.state !== 'lobby' ? <div className="sc">{meP.score || 0} {t('pts')}</div> : <div className="muted" style={{ fontSize: 13 }}>OFFLIMITS</div>}
       </div>
       {body}
       {isHost && room.state !== 'lobby' && room.state !== 'end' ? (
         <details className="fold" style={{ marginTop: 14 }}>
-          <summary>Opcje gospodarza</summary>
+          <summary>{t('hostOpts')}</summary>
           <div className="inner">
-            <button type="button" className="btn btn-ghost" onClick={() => onCmd('end')}>Zakończ grę</button>
+            <button type="button" className="btn btn-ghost" onClick={() => onCmd('end')}>{t('endGame')}</button>
           </div>
         </details>
       ) : null}

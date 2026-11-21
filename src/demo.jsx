@@ -33,10 +33,11 @@ function fixture(state, deck) {
 
 export default function Demo({ screen, demo }) {
   const [deck, setDeck] = React.useState(null);
-  React.useEffect(() => { loadDeck().then(setDeck); }, []);
+  const lang = new URLSearchParams(location.search).get('lang') || 'pl';
+  React.useEffect(() => { loadDeck(lang).then(setDeck); }, []);
   if (!deck) return null;
   if (screen === 'tv') {
-    const room = fixture(demo === 'pick2' ? 'pick2' : demo, deck);
+    const room = Object.assign(fixture(demo === 'pick2' ? 'pick2' : demo, deck), { lang });
     const subs = { u1: { round: 6 }, u3: { round: 6 } };
     if (demo === 'dzwiek') {
       return (
@@ -50,9 +51,9 @@ export default function Demo({ screen, demo }) {
   }
   // telefon: hand | hand2 | judge | wait | played | lobby | result | end
   const map = { hand: 'picking', hand2: 'pick2', judge: 'judging', wait: 'judging', played: 'picking', lobby: 'lobby', result: 'result', end: 'end', reveal: 'reveal', sedzia: 'picking' };
-  const room = fixture(map[demo] || 'picking', deck);
+  const room = Object.assign(fixture(map[demo] || 'picking', deck), { lang });
   const whites = Object.keys(deck.b).filter((id) => id[0] === 'R').slice(40, 50);
   const me = demo === 'judge' || demo === 'sedzia' ? 'u2' : 'u1';
   const mySub = demo === 'played' ? { round: 6, cards: [whites[2]] } : null;
-  return <GrajView room={room} me={me} hand={whites} mySub={mySub} deck={deck} onPlay={() => {}} onPick={() => {}} onCmd={() => {}} />;
+  return <GrajView room={room} me={me} hand={whites} mySub={mySub} deck={deck} lang={lang} onLang={() => {}} onPlay={() => {}} onPick={() => {}} onCmd={() => {}} />;
 }

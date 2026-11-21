@@ -3,6 +3,7 @@ import { createPortal } from 'react-dom';
 import { BlackCard, Avatar, Logo, sortedPlayers, useCountdown, endLabel, Parts } from './ui.jsx';
 import { fillParts } from './deck.js';
 import { VOICES } from './lektor.js';
+import { tr, LANGS } from './i18n.js';
 import { inApp, canPrompt, promptInstall, onPromptReady, switchRole } from './install.js';
 
 const END_OPTIONS = {
@@ -21,28 +22,28 @@ function Seg({ value, options, onChange, disabled }) {
   );
 }
 
-function InstallTv() {
+function InstallTv({ t }) {
   const [open, setOpen] = React.useState(false);
   const [, force] = React.useState(0);
   React.useEffect(() => { onPromptReady(() => force((n) => n + 1)); }, []);
   if (inApp()) return null;
   return (
     <>
-      <button type="button" className="btn btn-ghost btn-small" onClick={async () => { if (canPrompt()) await promptInstall(); else setOpen(!open); }}>Zainstaluj na telewizorze</button>
+      <button type="button" className="btn btn-ghost btn-small" onClick={async () => { if (canPrompt()) await promptInstall(); else setOpen(!open); }}>{t('installTv')}</button>
       {open ? createPortal(
-        <div className="sound-gate" role="dialog" aria-label="Instalacja na telewizorze"><div className="sound-box install-box fade-in">
-          <div className="big" style={{ textAlign: 'center' }}>Zainstaluj na telewizorze</div>
-          <div><b>Android TV / Google TV:</b> zainstaluj z Google Play darmową aplikację „Downloader”, wpisz w niej <b>offlimits-esn.pages.dev/offlimits.apk</b> i zainstaluj. OFFLIMITS pojawi się w menu telewizora.</div>
-          <div><b>Samsung, LG i inne:</b> dodaj tę stronę do zakładek albo ekranu głównego w przeglądarce telewizora.</div>
-          <div><b>Telefony:</b> aplikacja do pobrania na <b>offlimits-esn.pages.dev/pobierz</b>.</div>
-          <button type="button" className="btn btn-primary" autoFocus onClick={() => setOpen(false)} style={{ alignSelf: 'center' }}>Zamknij</button>
+        <div className="sound-gate" role="dialog" aria-label={t('installTv')}><div className="sound-box install-box fade-in">
+          <div className="big" style={{ textAlign: 'center' }}>{t('installTv')}</div>
+          <div dangerouslySetInnerHTML={{ __html: t('installAndroid') }} />
+          <div dangerouslySetInnerHTML={{ __html: t('installOther') }} />
+          <div dangerouslySetInnerHTML={{ __html: t('installPhones') }} />
+          <button type="button" className="btn btn-primary" autoFocus onClick={() => setOpen(false)} style={{ alignSelf: 'center' }}>{t('close')}</button>
         </div></div>, document.body
       ) : null}
     </>
   );
 }
 
-function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPlayers }) {
+function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPlayers, t }) {
   const players = sortedPlayers(room).filter((p) => p.connected !== false);
   const can = players.length >= minPlayers;
   return (
@@ -52,59 +53,62 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
         <div className="wordmark gold-text">OFFLIMITS</div>
         <div className="tagline">The Unrestricted Game Club</div>
         <div className="script">Good company. Worse answers.</div>
-        {room.mode !== 'rodzinny' ? <div className="chip done" style={{ borderColor: '#8C3446' }}>{room.mode === 'po22' ? 'Tryb „Po 22:00” · 18+' : room.mode === 'bez' ? 'Tryb „Bez tabu” · 18+' : 'Wszystkie karty · 18+'}</div> : null}
+        {room.mode !== 'rodzinny' ? <div className="chip done" style={{ borderColor: '#8C3446' }}>{t(room.mode === 'po22' ? 'chip22' : room.mode === 'bez' ? 'chipBez' : 'chipAll')}</div> : null}
       </div>
       <div className="join-box fade-in">
-        <div className="lbl">KOD POKOJU</div>
+        <div className="lbl">{t('roomCode')}</div>
         <div className="code gold-text">{code}</div>
-        {qr ? <img className="qr" src={qr} alt={'Kod QR do dołączenia: ' + joinUrl} /> : null}
+        {qr ? <img className="qr" src={qr} alt={t('qrAlt') + joinUrl} /> : null}
         <div className="url">{joinUrl.replace(/^https?:\/\//, '')}</div>
         <div className="status-row" style={{ justifyContent: 'center' }}>
           {players.length ? players.map((p) => (
             <span className="chip done pop-in" key={p.uid}><Avatar uid={p.uid} name={p.name} />{p.name}</span>
-          )) : <span className="hint">Czekamy na graczy…</span>}
+          )) : <span className="hint">{t('waitingPlayers')}</span>}
         </div>
         <details className="fold" open>
-          <summary>Ustawienia gry</summary>
+          <summary>{t('settings')}</summary>
           <div className="inner tv-settings">
-            <div className="set-row"><span>Tryb</span>
+            <div className="set-row"><span>{t('language')}</span>
+              <Seg value={room.lang || 'pl'} onChange={(v) => onSettings({ lang: v })}
+                options={LANGS.map((x) => ({ v: x.v, l: x.l }))} /></div>
+            <div className="set-row"><span>{t('mode')}</span>
               <Seg value={room.mode} onChange={(v) => onSettings({ mode: v })}
-                options={[{ v: 'wszystkie', l: 'Wszystkie karty' }, { v: 'rodzinny', l: 'Rodzinny' }, { v: 'po22', l: 'Po 22:00' }, { v: 'bez', l: 'Bez tabu' }]} /></div>
-            <div className="set-row"><span>Koniec gry</span>
+                options={[{ v: 'wszystkie', l: t('modeAll') }, { v: 'rodzinny', l: t('modeFamily') }, { v: 'po22', l: t('mode22') }, { v: 'bez', l: t('modeBez') }]} /></div>
+            <div className="set-row"><span>{t('endGameSet')}</span>
               <Seg value={room.endType} onChange={(v) => onSettings({ endType: v, endValue: END_OPTIONS[v][1] })}
-                options={[{ v: 'points', l: 'Punkty' }, { v: 'time', l: 'Czas' }, { v: 'rounds', l: 'Rundy' }]} /></div>
-            <div className="set-row"><span>{room.endType === 'points' ? 'Do ilu punktów' : room.endType === 'time' ? 'Ile minut' : 'Ile rund'}</span>
+                options={[{ v: 'points', l: t('points') }, { v: 'time', l: t('time') }, { v: 'rounds', l: t('rounds') }]} /></div>
+            <div className="set-row"><span>{t(room.endType === 'points' ? 'toPoints' : room.endType === 'time' ? 'howMinutes' : 'howRounds')}</span>
               <Seg value={room.endValue} onChange={(v) => onSettings({ endValue: v })}
                 options={END_OPTIONS[room.endType].map((n) => ({ v: n, l: String(n) }))} /></div>
-            <div className="set-row"><span>Lektor</span>
-              <Seg value={room.lektor === false ? 'off' : (room.voice || VOICES[0].id)}
+            <div className="set-row"><span>{t('lektor')}</span>
+              <Seg value={room.lektor === false ? 'off' : (room.voice ? room.voice.split('-').pop() : VOICES[0].id)}
                 onChange={(v) => onSettings(v === 'off' ? { lektor: false } : { lektor: true, voice: v })}
-                options={VOICES.map((x) => ({ v: x.id, l: x.label })).concat([{ v: 'off', l: 'Wyłączony' }])} /></div>
+                options={VOICES.map((x) => ({ v: x.id, l: t(x.key) })).concat([{ v: 'off', l: t('off') }])} /></div>
           </div>
         </details>
         <button type="button" className="btn btn-primary" disabled={!can} onClick={onStart}>
-          {can ? 'Start gry' : 'Potrzeba min. ' + minPlayers + ' graczy'}
+          {can ? t('start') : t('needMin', { n: minPlayers })}
         </button>
         <div style={{ display: 'flex', gap: '1vw', flexWrap: 'wrap', justifyContent: 'center' }}>
-          <button type="button" className="btn btn-ghost btn-small" onClick={onNewRoom}>Nowy pokój</button>
-          <InstallTv />
-          {inApp() ? <button type="button" className="btn btn-ghost btn-small" onClick={() => switchRole('graj')}>To jest telefon – przełącz</button> : null}
+          <button type="button" className="btn btn-ghost btn-small" onClick={onNewRoom}>{t('newRoom')}</button>
+          <InstallTv t={t} />
+          {inApp() ? <button type="button" className="btn btn-ghost btn-small" onClick={() => switchRole('graj')}>{t('thisIsPhone')}</button> : null}
         </div>
       </div>
     </div>
   );
 }
 
-function Scoreboard({ room }) {
+function Scoreboard({ room, t }) {
   const players = sortedPlayers(room);
   return (
     <aside className="tv-side">
-      <div className="side-title">WYNIKI · {endLabel(room).toUpperCase()}</div>
+      <div className="side-title">{t('scores')} · {endLabel(room, t).toUpperCase()}</div>
       {players.map((p) => (
         <div key={p.uid} className={'score-row' + (p.uid === room.judge ? ' judge' : '') + (room.state === 'result' && p.uid === room.winner ? ' win' : '') + (p.connected === false ? ' off' : '')}>
           <Avatar uid={p.uid} name={p.name} />
           <span className="nm">{p.name}</span>
-          {p.uid === room.judge ? <span className="tag">SĘDZIA</span> : null}
+          {p.uid === room.judge ? <span className="tag">{t('judgeTag')}</span> : null}
           <span className="pts">{p.score || 0}</span>
         </div>
       ))}
@@ -116,12 +120,14 @@ function answersOf(deck, cards) { return (cards || []).map((id) => deck.b[id] ||
 
 export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings, onStart, onAgain, onEnd, onNewRoom, minPlayers, lite }) {
   const [confirmEnd, setConfirmEnd] = React.useState(false);
+  const t = tr(room.lang || 'pl');
+  const pl2 = t('pick2');
   const left = useCountdown(room.state === 'picking' ? room.deadline : 0);
   if (room.state === 'lobby' || !room.state) {
     return (
       <div className={'tv' + (lite ? ' lite' : '')}>
         <div className="tv-main">
-          <Lobby room={room} code={code} qr={qr} joinUrl={joinUrl} onSettings={onSettings} onStart={onStart} onNewRoom={onNewRoom} minPlayers={minPlayers} />
+          <Lobby room={room} code={code} qr={qr} joinUrl={joinUrl} onSettings={onSettings} onStart={onStart} onNewRoom={onNewRoom} minPlayers={minPlayers} t={t} />
         </div>
       </div>
     );
@@ -135,14 +141,14 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
     const waiting = players.filter((p) => p.uid !== room.judge && p.connected !== false);
     stage = (
       <>
-        <BlackCard text={black[0]} luki={black[1]} className="pop-in" key={room.black} />
+        <BlackCard text={black[0]} luki={black[1]} pickLabel={pl2} className="pop-in" key={room.black} />
         <div className="status-row">
           {waiting.map((p) => {
             const done = subs && subs[p.uid] && subs[p.uid].round === room.round;
             return <span key={p.uid} className={'chip' + (done ? ' done' : '')}><Avatar uid={p.uid} name={p.name} />{p.name}{done ? <span className="ok">✓</span> : null}</span>;
           })}
         </div>
-        <div className="hint">Wybierzcie karty na telefonach – odpowiedzi pokażą się, gdy zagrają wszyscy. Sędzia: <b>{judge ? judge.name : '—'}</b></div>
+        <div className="hint">{t('pickHint')} <b>{judge ? judge.name : '—'}</b></div>
       </>
     );
   } else if (room.state === 'reveal') {
@@ -150,8 +156,8 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
     const cur = list[room.revealIdx || 0];
     stage = (
       <>
-        <BlackCard text={black[0]} luki={black[1]} answers={cur ? answersOf(deck, cur.cards) : []} className="pop-in" key={'r' + room.revealIdx} animate={!lite} />
-        <div className="hint">Odpowiedź {Math.min((room.revealIdx || 0) + 1, list.length)} z {list.length}</div>
+        <BlackCard text={black[0]} luki={black[1]} answers={cur ? answersOf(deck, cur.cards) : []} pickLabel={pl2} className="pop-in" key={'r' + room.revealIdx} animate={!lite} />
+        <div className="hint">{t('answerOf', { a: Math.min((room.revealIdx || 0) + 1, list.length), b: list.length })}</div>
       </>
     );
   } else if (room.state === 'judging' || room.state === 'result') {
@@ -161,7 +167,7 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
     players.forEach((p) => { names[p.uid] = p.name; });
     stage = (
       <>
-        <BlackCard text={black[0]} luki={black[1]} small />
+        <BlackCard text={black[0]} luki={black[1]} pickLabel={pl2} small />
         <div className="answers-grid">
           {list.map((e, i) => {
             const parts = fillParts(black[0], answersOf(deck, e.cards));
@@ -176,7 +182,7 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
           })}
         </div>
         <div className="hint">
-          {result ? <>Punkt dla: <b className="gold-text" style={{ fontSize: '1.8vw' }}>{names[room.winner] || ''}</b></> : <>Sędzia <b>{judge ? judge.name : ''}</b> wybiera najlepszą odpowiedź…</>}
+          {result ? <>{t('pointFor')} <b className="gold-text" style={{ fontSize: '1.8vw' }}>{names[room.winner] || ''}</b></> : <>{t('judgeWord')} <b>{judge ? judge.name : ''}</b> {t('judgePicks')}</>}
         </div>
       </>
     );
@@ -185,7 +191,7 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
     const top3 = [ranking[1], ranking[0], ranking[2]];
     stage = (
       <div className="center">
-        <div className="wordmark gold-text" style={{ fontSize: '4vw' }}>KONIEC GRY</div>
+        <div className="wordmark gold-text" style={{ fontSize: '4vw' }}>{t('gameOverTv')}</div>
         <div className="podium">
           {top3.map((p, i) => p ? (
             <div key={p.uid} className={'col pop-in' + (i === 1 ? ' first' : '')} style={{ animationDelay: (i * 150) + 'ms' }}>
@@ -196,8 +202,8 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
           ) : <div key={i} className="col" />)}
         </div>
         <div style={{ display: 'flex', gap: '1.2vw' }}>
-          <button type="button" className="btn btn-primary" onClick={onAgain}>Jeszcze raz</button>
-          <button type="button" className="btn btn-ghost" onClick={onNewRoom}>Nowy pokój</button>
+          <button type="button" className="btn btn-primary" onClick={onAgain}>{t('again')}</button>
+          <button type="button" className="btn btn-ghost" onClick={onNewRoom}>{t('newRoom')}</button>
         </div>
       </div>
     );
@@ -208,20 +214,20 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
       <div className="tv-main">
         <div className="tv-head">
           <Logo />
-          <div className="tv-round">RUNDA <b>{room.round}</b>{room.endType === 'rounds' ? ' / ' + room.endValue : ''} · KOD <b>{code}</b></div>
+          <div className="tv-round">{t('round')} <b>{room.round}</b>{room.endType === 'rounds' ? ' / ' + room.endValue : ''} · {t('code')} <b>{code}</b></div>
           {room.state !== 'end' ? (
             confirmEnd ? (
               <div className="end-confirm">
-                <span>Zakończyć grę?</span>
-                <button type="button" className="btn btn-primary btn-small" onClick={() => { setConfirmEnd(false); onEnd(); }}>Tak</button>
-                <button type="button" className="btn btn-ghost btn-small" onClick={() => setConfirmEnd(false)}>Nie</button>
+                <span>{t('endConfirm')}</span>
+                <button type="button" className="btn btn-primary btn-small" onClick={() => { setConfirmEnd(false); onEnd(); }}>{t('yes')}</button>
+                <button type="button" className="btn btn-ghost btn-small" onClick={() => setConfirmEnd(false)}>{t('no')}</button>
               </div>
-            ) : <button type="button" className="btn btn-ghost btn-small" onClick={() => setConfirmEnd(true)}>Zakończ grę</button>
+            ) : <button type="button" className="btn btn-ghost btn-small" onClick={() => setConfirmEnd(true)}>{t('endGame')}</button>
           ) : <div className={'timer' + (left !== null && left <= 10 ? ' low' : '')}>{left !== null ? left : ''}</div>}
         </div>
         <div className="tv-stage">{stage}</div>
       </div>
-      {room.state !== 'end' ? <Scoreboard room={room} /> : null}
+      {room.state !== 'end' ? <Scoreboard room={room} t={t} /> : null}
     </div>
   );
 }

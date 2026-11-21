@@ -1,8 +1,24 @@
-// Talia: public/talia.json  { c: { "R-C001": [tekst, luki] }, b: { "R-B0001": tekst } }
-let cache = null;
-export function loadDeck() {
-  if (!cache) cache = fetch('/talia.json').then((r) => r.json());
-  return cache;
+// Talia: public/talia.json (polska)  { c: { "R-C001": [tekst, luki] }, b: { "R-B0001": tekst } }
+// Tłumaczenia: public/talia-en.json, -es, -el (te same ID). Brak tłumaczenia karty = wersja polska.
+const cache = {};
+function getJson(url) { return fetch(url).then((r) => (r.ok ? r.json() : {})).catch(() => ({})); }
+export function loadDeck(lang) {
+  const l = lang || 'pl';
+  if (!cache.pl) cache.pl = fetch('/talia.json').then((r) => r.json());
+  if (l === 'pl') return cache.pl;
+  if (!cache[l]) {
+    cache[l] = Promise.all([cache.pl, getJson('/talia-' + l + '.json')]).then(([pl, t]) => {
+      const c = {}; const b = {};
+      const tc = t.c || {}; const tb = t.b || {};
+      Object.keys(pl.c).forEach((id) => {
+        const x = tc[id];
+        c[id] = x && x[0] && x[0].split('____').length === pl.c[id][0].split('____').length ? [x[0], pl.c[id][1]] : pl.c[id];
+      });
+      Object.keys(pl.b).forEach((id) => { b[id] = tb[id] || pl.b[id]; });
+      return { c, b, lang: l };
+    });
+  }
+  return cache[l];
 }
 
 // Rodzinny: tylko R. Po 22:00: czarne N, białe N + R. Bez tabu: czarne X, białe X + N + R.
@@ -33,6 +49,7 @@ function inSentence(text, before) {
   if (startsSentence) return text;
   const firstWord = text.split(/\s/)[0];
   if (firstWord.length > 1 && firstWord === firstWord.toUpperCase()) return text;
+  if (/^I(['’]|$)/.test(firstWord)) return text; // angielskie „I”
   return text.charAt(0).toLowerCase() + text.slice(1);
 }
 

@@ -6,6 +6,7 @@ import { loadDeck, fillText } from './deck.js';
 import { speak, stopSpeaking, unlockSpeech, prefetchSpeech } from './lektor.js';
 import * as M from './master.js';
 import TvView from './TvView.jsx';
+import { tr, okLang } from './i18n.js';
 
 const params = new URLSearchParams(location.search);
 const MIN_PLAYERS = Math.max(1, parseInt(params.get('min') || '3', 10));
@@ -30,23 +31,31 @@ export default function Tv() {
     let alive = true;
     (async () => {
       try {
-        const [user, d] = await Promise.all([ensureAuth(), loadDeck()]);
+        const user = await ensureAuth();
         if (!alive) return;
-        setDeck(d);
         let c = localStorage.getItem('ol_tv_code');
         if (c) {
           const s = await get(ref(db, 'rooms/' + c));
           if (!s.exists() || s.val().hostUid !== user.uid) c = null;
         }
-        if (!c) c = await M.createRoom(user.uid);
+        if (!c) c = await M.createRoom(user.uid, localStorage.getItem('ol_tv_lang') || 'pl');
         localStorage.setItem('ol_tv_code', c);
         if (alive) setCode(c);
       } catch (e) {
-        setErr('Nie udało się połączyć z serwerem gry. ' + (e && e.message ? e.message : ''));
+        setErr((e && e.message) || '-');
       }
     })();
     return () => { alive = false; };
   }, []);
+
+  // Talia w języku telewizora (karty mają te same ID we wszystkich językach).
+  const lang = okLang(room && room.lang);
+  const t = tr(lang);
+  React.useEffect(() => {
+    let alive = true;
+    loadDeck(lang).then((d) => { if (alive) setDeck(d); }).catch((e) => setErr(e.message || '-'));
+    return () => { alive = false; };
+  }, [lang]);
 
   const joinUrl = code ? location.origin + '/graj?kod=' + code : '';
   React.useEffect(() => {
@@ -82,7 +91,7 @@ export default function Tv() {
     try {
       stopSpeaking();
       const user = await ensureAuth();
-      const c = await M.createRoom(user.uid);
+      const c = await M.createRoom(user.uid, localStorage.getItem('ol_tv_lang') || 'pl');
       localStorage.setItem('ol_tv_code', c);
       done.current = {};
       setRoom(null); setSubs({});
@@ -102,7 +111,7 @@ export default function Tv() {
     if (!room || !deck || !code) return undefined;
     const r = room;
     const lektor = r.lektor !== false;
-    const so = { enabled: lektor, voice: r.voice };
+    const so = { enabled: lektor, voice: r.voice, lang };
     const black = deck.c[r.black];
 
     if (r.state === 'picking') {
@@ -117,7 +126,7 @@ export default function Tv() {
     if (r.state === 'reveal' && once('seq-' + r.round)) {
       (async () => {
         const list = r.reveal || [];
-        if (lektor) prefetchSpeech(list.map((e) => fillText(black ? black[0] : '', e.cards.map((id) => deck.b[id] || ''))), r.voice);
+        if (lektor) prefetchSpeech(list.map((e) => fillText(black ? black[0] : '', e.cards.map((id) => deck.b[id] || ''))), r.voice, lang);
         for (let i = 0; i < list.length; i++) {
           await M.setRevealIdx(code, i);
           const answers = list[i].cards.map((id) => deck.b[id] || '');
@@ -129,35 +138,35 @@ export default function Tv() {
 
     if (r.state === 'result' && once('res-' + r.round)) {
       const w = r.players && r.players[r.winner];
-      speak('Punkt dla: ' + (w ? w.name : ''), so);
-      const t = setTimeout(() => M.nextRound(code, roomRef.current, deck), M.RESULT_SECONDS * 1000);
-      return () => clearTimeout(t);
+      speak(t('pointFor') + ' ' + (w ? w.name : ''), so);
+      const timer = setTimeout(() => M.nextRound(code, roomRef.current, deck), M.RESULT_SECONDS * 1000);
+      return () => clearTimeout(timer);
     }
     return undefined;
-  }, [room, subs, deck, code]);
+  }, [room, subs, deck, code, lang]);
 
-  if (err) return <div className="home"><div className="big">Ups…</div><p className="muted">{err}</p><button className="btn btn-ghost" onClick={() => location.reload()}>Spróbuj ponownie</button></div>;
-  if (!room || !deck) return <div className="home"><img src="/sygnet.svg" alt="" /><div className="muted">Przygotowuję pokój…</div></div>;
+  if (err) return <div className="home"><div className="big">{t('oops')}</div><p className="muted">{t('errConn')} {err}</p><button className="btn btn-ghost" onClick={() => location.reload()}>{t('retry')}</button></div>;
+  if (!room || !deck) return <div className="home"><img src="/sygnet.svg" alt="" /><div className="muted">{t('preparing')}</div></div>;
 
   return (
     <>
     <TvView
       room={room} code={code} deck={deck} qr={qr} joinUrl={joinUrl} subs={subs} lite={LITE}
       minPlayers={MIN_PLAYERS}
-      onSettings={(p) => { M.saveSettings(code, p); if (p.voice) { unlockSpeech(); setSound(true); speak('Tak brzmi ten głos. Good company, worse answers.', { voice: p.voice }); } }}
+      onSettings={(p) => { M.saveSettings(code, p); if (p.lang) localStorage.setItem('ol_tv_lang', p.lang); if (p.voice || (p.lang && room.lektor !== false)) { unlockSpeech(); setSound(true); speak(tr(okLang(p.lang || room.lang))('voiceSample'), { voice: p.voice || room.voice, lang: okLang(p.lang || room.lang) }); } }}
       onStart={handleStart}
       onAgain={() => M.backToLobby(code)}
       onEnd={() => { stopSpeaking(); M.endGame(code); }}
       onNewRoom={newRoom}
     />
     {!sound && room.lektor !== false ? (
-      <div className="sound-gate" role="dialog" aria-label="Włącz dźwięk">
+      <div className="sound-gate" role="dialog" aria-label={t('soundOn')}>
         <div className="sound-box">
           <img src="/sygnet.svg" alt="" />
-          <div className="big">Włącz dźwięk lektora</div>
-          <p className="muted">Przeglądarka wpuszcza dźwięk dopiero po jednym kliknięciu na tym ekranie.</p>
-          <button type="button" className="btn btn-primary" autoFocus onClick={enableSound}>Włącz dźwięk</button>
-          <button type="button" className="btn btn-ghost" onClick={() => setSound(true)}>Graj bez lektora</button>
+          <div className="big">{t('soundTitle')}</div>
+          <p className="muted">{t('soundText')}</p>
+          <button type="button" className="btn btn-primary" autoFocus onClick={enableSound}>{t('soundOn')}</button>
+          <button type="button" className="btn btn-ghost" onClick={() => setSound(true)}>{t('soundOff')}</button>
         </div>
       </div>
     ) : null}

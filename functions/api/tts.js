@@ -13,7 +13,7 @@ export async function onRequestGet({ request, waitUntil }) {
   if (!ALLOWED.test(originOf(src))) return new Response('Brak dostępu', { status: 403 });
   const text = (url.searchParams.get('t') || '').trim().slice(0, 600);
   const voice = url.searchParams.get('v') || DEFAULT_VOICE;
-  if (!text || !/^pl-PL-[A-Za-z0-9-]+$/.test(voice)) return new Response('Zły parametr', { status: 400 });
+  if (!text || !/^(pl-PL|en-US|es-ES|el-GR)-[A-Za-z0-9-]+$/.test(voice)) return new Response('Zły parametr', { status: 400 });
 
   const cacheKey = new Request('https://tts.cache/' + encodeURIComponent(voice) + '/' + encodeURIComponent(text));
   const cache = caches.default;
@@ -23,7 +23,7 @@ export async function onRequestGet({ request, waitUntil }) {
   const r = await fetch('https://texttospeech.googleapis.com/v1/text:synthesize?key=' + KEY, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ input: { text }, voice: { languageCode: 'pl-PL', name: voice }, audioConfig: { audioEncoding: 'MP3' } }),
+    body: JSON.stringify({ input: { text }, voice: { languageCode: voice.slice(0, 5), name: voice }, audioConfig: { audioEncoding: 'MP3' } }),
   });
   const j = await r.json();
   if (!r.ok || !j.audioContent) return new Response('Błąd lektora', { status: 502 });

@@ -1,3 +1,4 @@
+import { locOf } from './i18n.js';
 // Lektor z głosu przeglądarki (Web Speech API). Gdy brak polskiego głosu – milczy,
 // a gra idzie dalej na czasie. Wersja z głosem z chmury dojdzie w kolejnym etapie.
 // Chrome ładuje listę głosów z opóźnieniem – słuchamy zdarzenia i trzymamy ją pod ręką.
@@ -26,34 +27,41 @@ function voices() {
   try { return window.speechSynthesis ? window.speechSynthesis.getVoices() : []; } catch (e) { return []; }
 }
 
-export function polishVoice() {
-  return voices().find((v) => (v.lang || '').toLowerCase().indexOf('pl') === 0) || null;
+export function voiceFor(lang) {
+  const l = (lang || 'pl').toLowerCase();
+  return voices().find((v) => (v.lang || '').toLowerCase().indexOf(l) === 0) || null;
 }
+export function polishVoice() { return voiceFor('pl'); }
 
 export function speechSupported() {
   return typeof window !== 'undefined' && 'speechSynthesis' in window;
 }
 
+// Te same cztery głosy Chirp 3 HD są dostępne w każdym języku gry.
 export const VOICES = [
-  { id: 'pl-PL-Chirp3-HD-Charon', label: 'Męski 1' },
-  { id: 'pl-PL-Chirp3-HD-Algenib', label: 'Męski 2' },
-  { id: 'pl-PL-Chirp3-HD-Kore', label: 'Kobiecy 1' },
-  { id: 'pl-PL-Chirp3-HD-Aoede', label: 'Kobiecy 2' },
+  { id: 'Charon', key: 'male1' },
+  { id: 'Algenib', key: 'male2' },
+  { id: 'Kore', key: 'female1' },
+  { id: 'Aoede', key: 'female2' },
 ];
+const BLANK = { pl: 'coś', en: 'something', es: 'algo', el: 'κάτι' };
+// Starsze pokoje mają pełną nazwę („pl-PL-Chirp3-HD-Charon”) – bierzemy ostatni człon.
+export function voiceShort(v) { return v ? String(v).split('-').pop() : VOICES[0].id; }
+export function voiceName(v, lang) { return locOf(lang) + '-Chirp3-HD-' + voiceShort(v); }
 
-function cleanText(text) { return text.replace(/_{2,}/g, ', coś, '); }
-export function ttsUrl(text, voice) {
-  return '/api/tts?v=' + encodeURIComponent(voice || VOICES[0].id) + '&t=' + encodeURIComponent(cleanText(text));
+function cleanText(text, lang) { return text.replace(/_{2,}/g, ', ' + (BLANK[lang] || BLANK.pl) + ', '); }
+export function ttsUrl(text, voice, lang) {
+  return '/api/tts?v=' + encodeURIComponent(voiceName(voice, lang)) + '&t=' + encodeURIComponent(cleanText(text, lang));
 }
 // Rozgrzewa pamięć podręczną, żeby lektor nie czekał na nagranie.
-export function prefetchSpeech(texts, voice) {
-  texts.forEach((t) => { try { fetch(ttsUrl(t, voice)).catch(() => {}); } catch (e) { /* nic */ } });
+export function prefetchSpeech(texts, voice, lang) {
+  texts.forEach((t) => { try { fetch(ttsUrl(t, voice, lang)).catch(() => {}); } catch (e) { /* nic */ } });
 }
 
-function playCloud(text, voice) {
+function playCloud(text, voice, lang) {
   return new Promise((resolve, reject) => {
     try {
-      const a = new Audio(ttsUrl(text, voice));
+      const a = new Audio(ttsUrl(text, voice, lang));
       let done = false;
       const ok = () => { if (!done) { done = true; resolve(); } };
       a.onended = ok;
@@ -69,7 +77,7 @@ export async function speak(text, opts) {
   if (enabled && opts && opts.cloud !== false && typeof Audio !== 'undefined') {
     const started = Date.now();
     try {
-      await playCloud(text, opts.voice);
+      await playCloud(text, opts.voice, opts.lang);
       const left = 900 - (Date.now() - started);
       if (left > 0) await new Promise((r) => setTimeout(r, left));
       return;
@@ -92,14 +100,15 @@ function speakBrowser(text, opts) {
       const left = minMs - (Date.now() - started);
       setTimeout(resolve, Math.max(0, Math.min(left, 3000)));
     };
-    const voice = polishVoice();
+    const lang = (opts && opts.lang) || 'pl';
+    const voice = voiceFor(lang);
     if (!enabled || !speechSupported()) {
       setTimeout(() => { done = true; resolve(); }, minMs);
       return;
     }
     try {
-      const u = new SpeechSynthesisUtterance(text.replace(/_{2,}/g, ', coś, '));
-      u.lang = 'pl-PL';
+      const u = new SpeechSynthesisUtterance(cleanText(text, lang));
+      u.lang = locOf(lang);
       if (voice) u.voice = voice;
       u.rate = rate;
       u.onend = finish;

@@ -58,13 +58,13 @@ export function Parts({ parts, animate }) {
   );
 }
 
-export function BlackCard({ text, answers, luki, small, className, animate }) {
+export function BlackCard({ text, answers, luki, small, className, animate, pickLabel }) {
   const parts = fillParts(text || '', answers || []);
   return (
     <div className={'bcard ' + (small ? 'small ' : '') + (className || '')}>
       <div className="card-mark"><img src="/sygnet.svg" alt="" />OFFLIMITS</div>
       <div className="t"><Parts parts={parts} animate={animate} /></div>
-      {luki === 2 ? <div className="pick">WYBIERZ 2</div> : null}
+      {luki === 2 ? <div className="pick">{pickLabel || 'WYBIERZ 2'}</div> : null}
     </div>
   );
 }
@@ -96,8 +96,10 @@ export function useCountdown(deadline) {
   return Math.max(0, Math.ceil((deadline - now) / 1000));
 }
 
-export function endLabel(room) {
-  if (room.endType === 'points') return 'do ' + room.endValue + ' pkt';
-  if (room.endType === 'rounds') return room.endValue + ' rund';
-  return room.endValue + ' min';
+export function endLabel(room, t) {
+  const n = room.endValue;
+  if (t) return t(room.endType === 'points' ? 'endPts' : room.endType === 'rounds' ? 'endRounds' : 'endMin', { n });
+  if (room.endType === 'points') return 'do ' + n + ' pkt';
+  if (room.endType === 'rounds') return n + ' rund';
+  return n + ' min';
 }

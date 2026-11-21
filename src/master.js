@@ -15,7 +15,7 @@ export function newCode() {
   return s;
 }
 
-export async function createRoom(uid) {
+export async function createRoom(uid, lang) {
   for (let i = 0; i < 6; i++) {
     const code = newCode();
     const r = ref(db, 'rooms/' + code);
@@ -25,6 +25,7 @@ export async function createRoom(uid) {
       hostUid: uid,
       createdAt: Date.now(),
       mode: 'wszystkie',
+      lang: lang || 'pl',
       endType: 'points',
       endValue: 7,
       lektor: true,
