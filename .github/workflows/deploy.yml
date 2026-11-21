@@ -37,6 +37,8 @@ jobs:
           path: dist/offlimits.apk
           retention-days: 30
       - name: Zapisz APK na gałęzi apk
+        if: github.ref == 'refs/heads/main'
+        continue-on-error: true
         run: |
           mkdir /tmp/apkrepo && cp dist/offlimits.apk /tmp/apkrepo/ && cd /tmp/apkrepo
           git init -q -b apk && git add offlimits.apk
