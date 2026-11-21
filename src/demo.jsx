@@ -58,8 +58,9 @@ export default function Demo({ screen, demo }) {
   // telefon: hand | hand2 | judge | wait | played | lobby | result | end
   const map = { hand: 'picking', hand2: 'pick2', judge: 'judging', wait: 'judging', played: 'picking', lobby: 'lobby', result: 'result', end: 'end', reveal: 'reveal', sedzia: 'picking' };
   const room = Object.assign(fixture(map[demo] || 'picking', deck), { lang });
-  const whites = Object.keys(deck.b).filter((id) => id[0] === 'R').slice(40, 50);
+  const qp = new URLSearchParams(location.search);
+  const whites = qp.get('reka') ? qp.get('reka').split(',') : Object.keys(deck.b).filter((id) => id[0] === 'R').slice(40, 50);
   const me = demo === 'judge' || demo === 'sedzia' ? 'u2' : 'u1';
-  const mySub = demo === 'played' ? { round: 6, cards: [whites[2]] } : null;
+  const mySub = demo === 'played' ? { round: 6, cards: [qp.get('reka') ? whites[0] : whites[2]] } : null;
   return <GrajView room={room} me={me} hand={whites} mySub={mySub} deck={deck} lang={lang} onLang={() => {}} onPlay={() => {}} onPick={() => {}} onCmd={() => {}} />;
 }
