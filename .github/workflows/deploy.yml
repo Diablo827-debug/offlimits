@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -36,6 +36,12 @@ jobs:
           name: offlimits-apk
           path: dist/offlimits.apk
           retention-days: 30
+      - name: Zapisz APK na gałęzi apk
+        run: |
+          mkdir /tmp/apkrepo && cp dist/offlimits.apk /tmp/apkrepo/ && cd /tmp/apkrepo
+          git init -q -b apk && git add offlimits.apk
+          git -c user.name="github-actions" -c user.email="actions@github.com" commit -qm "APK z ${GITHUB_SHA::7}"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" apk
       - name: Utwórz projekt Pages (pierwszy raz)
         run: npx wrangler pages project create offlimits --production-branch=main || true
         env:
