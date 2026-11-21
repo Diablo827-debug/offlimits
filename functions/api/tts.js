@@ -16,6 +16,10 @@ const ELEVEN_VOICES = {
   Kore: '21m00Tcm4TlvDq8ikWAM', // Rachel – kobiecy 1
   Aoede: 'EXAVITQu4vr4xnSDxMaL', // Sarah – kobiecy 2
 };
+// Polscy lektorzy z Voice Library ElevenLabs (uzupełnimy ID, gdy wybierzesz głosy).
+const PL_VOICES = {
+  pl: { Charon: '', Algenib: '', Kore: '', Aoede: '' },
+};
 const MOODS = {
   q: '[curious] ',          // pytanie
   a: '[mischievously] ',    // odkrywana odpowiedź
@@ -26,7 +30,10 @@ const MOODS = {
 async function eleven(env, voice, text, mood) {
   let map = ELEVEN_VOICES;
   try { if (env.ELEVEN_VOICES) map = Object.assign({}, map, JSON.parse(env.ELEVEN_VOICES)); } catch (e) { /* zostają domyślne */ }
-  const id = map[voice.split('-').pop()];
+  const short = voice.split('-').pop();
+  const loc = voice.slice(0, 2); // pl / en / es / el
+  // Najpierw głos dla danego języka (np. polski lektor z Voice Library), potem domyślny.
+  const id = (PL_VOICES[loc] && PL_VOICES[loc][short]) || (map[loc] && map[loc][short]) || map[short];
   if (!id) return null;
   const r = await fetch('https://api.elevenlabs.io/v1/text-to-speech/' + id + '?output_format=mp3_44100_128', {
     method: 'POST',
