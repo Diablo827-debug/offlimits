@@ -20,12 +20,30 @@ const ELEVEN_VOICES = {
 const PL_VOICES = {
   pl: { Charon: '', Algenib: '', Kore: '', Aoede: '' },
 };
-const MOODS = {
-  q: '[curious] ',          // pytanie
-  a: '[mischievously] ',    // odkrywana odpowiedź
-  w: '[excited] ',          // zwycięzca / głosowanie
-  s: '[warmly] ',           // próbka głosu
+// Reżyseria lektora „z jajem”: ma brzmieć jak kumpel, który czyta kartę i sam się z niej śmieje.
+// Wybór wariantu zależy od tekstu (to samo zdanie = to samo nagranie w pamięci, różne zdania = różne miny).
+const pick = (arr, text, salt) => {
+  let h = salt || 7;
+  for (let i = 0; i < text.length; i++) h = (h * 31 + text.charCodeAt(i)) >>> 0;
+  return arr[h % arr.length];
 };
+const EL_Q = ['[playfully]', '[mischievously]', '[curious]', '[sarcastically]', '[conspiratorially]'];
+const EL_BEFORE = ['[dramatic pause] [mischievously]', '[pause] [whispers]', '[short pause] [deadpan]', '[pause] [trying not to laugh]', '[dramatic pause] [excited]', '[sighs] [sarcastically]'];
+const EL_AFTER = ['[laughs]', '[chuckles]', '[giggles]', '[snorts]', '[laughs out loud]', '[wheezing laughter]'];
+const EL_WIN = ['[excited] ', '[cheerfully] ', '[laughs] '];
+
+function direct(text, mood) {
+  if (mood === 'a' && text.indexOf('⟦') >= 0) {
+    let first = true;
+    const body = text.replace(/⟦/g, () => { const t = first ? pick(EL_BEFORE, text) + ' ' : ''; first = false; return t; }).replace(/⟧/g, '');
+    return body + ' ' + pick(EL_AFTER, text, 3);
+  }
+  const plain = text.replace(/[⟦⟧]/g, '');
+  if (mood === 'q') return pick(EL_Q, plain) + ' ' + plain;
+  if (mood === 'w') return pick(EL_WIN, plain) + plain;
+  if (mood === 's') return '[warmly] ' + plain + ' [chuckles]';
+  return plain;
+}
 
 async function eleven(env, voice, text, mood) {
   let map = ELEVEN_VOICES;
@@ -38,10 +56,49 @@ async function eleven(env, voice, text, mood) {
   const r = await fetch('https://api.elevenlabs.io/v1/text-to-speech/' + id + '?output_format=mp3_44100_128', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'xi-api-key': env.ELEVENLABS_API_KEY },
-    body: JSON.stringify({ text: (MOODS[mood] || '') + text, model_id: env.ELEVEN_MODEL || 'eleven_v3', voice_settings: { stability: 0.5, similarity_boost: 0.75 } }),
+    body: JSON.stringify({ text: direct(text, mood), model_id: env.ELEVEN_MODEL || 'eleven_v3', voice_settings: { stability: 0.0, similarity_boost: 0.7 } }),
   });
   if (!r.ok) return null;
   return new Uint8Array(await r.arrayBuffer());
+}
+
+const G_STYLE = {
+  pl: {
+    q: 'Jesteś rozbawionym prowadzącym imprezowej gry karcianej wśród przyjaciół. Przeczytaj pytanie luźno, naturalnie, z łobuzerskim zaciekawieniem, jakbyś już się uśmiechał pod nosem. Zero sztywności, zero spikerskiego tonu.',
+    a: 'Jesteś kumplem, który na imprezie czyta na głos kartę z głupią odpowiedzią i sam ledwo powstrzymuje śmiech. Przeczytaj początek normalnie, przed odpowiedzią zrób krótką pauzę dla efektu, puentę powiedz z niedowierzaniem i rozbawieniem, a na końcu parsknij albo zaśmiej się krótko. Ma być naturalnie, głupio i śmiesznie, nie sztywno.',
+    w: 'Ogłoś zwycięzcę rundy radośnie i z przesadną pompą, jak rozbawiony prowadzący teleturnieju, ze śmiechem w głosie.',
+    s: 'Powiedz to ciepło i z uśmiechem, luźno, jak kumpel na imprezie.',
+  },
+  en: {
+    q: 'You are an amused host of a party card game among friends. Read the question casually and naturally, with mischievous curiosity, like you are already smirking. Never stiff.',
+    a: 'You are a friend at a party reading a silly card out loud and barely holding back laughter. Read the start normally, pause briefly before the answer for effect, deliver the punchline with amused disbelief, then snort or laugh briefly. Natural, silly and funny, not stiff.',
+    w: 'Announce the round winner joyfully with exaggerated pomp, like an amused game-show host, laughing a little.',
+    s: 'Say it warmly and with a smile, casually, like a friend at a party.',
+  },
+};
+G_STYLE.es = G_STYLE.en; G_STYLE.el = G_STYLE.en;
+
+async function gemini(voice, text, mood) {
+  const loc = voice.slice(0, 2);
+  const st = (G_STYLE[loc] || G_STYLE.en)[mood || 's'] || G_STYLE.pl.s;
+  // odpowiedź: pauza przed puentą i śmiech na końcu (znaczniki Gemini-TTS)
+  let t = text;
+  if (mood === 'a' && t.indexOf('⟦') >= 0) {
+    let first = true;
+    t = t.replace(/⟦/g, () => { const x = first ? '[short pause] ' : ''; first = false; return x; }).replace(/⟧/g, '') + ' [laughing]';
+  } else t = t.replace(/[⟦⟧]/g, '');
+  const r = await fetch('https://texttospeech.googleapis.com/v1/text:synthesize?key=' + KEY, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      input: { prompt: st, text: t },
+      voice: { languageCode: voice.slice(0, 5), name: voice.split('-').pop(), modelName: 'gemini-2.5-flash-tts' },
+      audioConfig: { audioEncoding: 'MP3' },
+    }),
+  });
+  const j = await r.json();
+  if (!r.ok || !j.audioContent) return null;
+  return Uint8Array.from(atob(j.audioContent), (c) => c.charCodeAt(0));
 }
 
 export async function onRequestGet({ request, env, waitUntil }) {
@@ -63,26 +120,42 @@ export async function onRequestGet({ request, env, waitUntil }) {
     try {
       const bin = await eleven(env, voice, text, mood);
       if (bin && bin.length > 1000) {
-        const res = new Response(bin, { headers });
+        const res = new Response(bin, { headers: Object.assign({ 'X-Lektor': 'elevenlabs' }, headers) });
         waitUntil(cache.put(elKey, res.clone()));
         return res;
       }
     } catch (e) { /* awaria ElevenLabs – głos Google */ }
   }
 
-  const cacheKey = new Request('https://tts.cache/' + encodeURIComponent(voice) + '/' + encodeURIComponent(text));
+  // Gemini-TTS: ten sam klucz Google, a styl ustawiamy zwykłym poleceniem.
+  if (!(env && env.GEMINI_TTS === 'off')) {
+    const gKey = new Request('https://tts.cache/gm/' + encodeURIComponent(voice) + '/' + mood + '/' + encodeURIComponent(text));
+    const gHit = await cache.match(gKey);
+    if (gHit) return gHit;
+    try {
+      const bin = await gemini(voice, text, mood);
+      if (bin && bin.length > 1000) {
+        const res = new Response(bin, { headers: Object.assign({ 'X-Lektor': 'gemini' }, headers) });
+        waitUntil(cache.put(gKey, res.clone()));
+        return res;
+      }
+    } catch (e) { /* zostaje zwykły głos Google */ }
+  }
+
+  const plain = text.replace(/[⟦⟧]/g, '');
+  const cacheKey = new Request('https://tts.cache/' + encodeURIComponent(voice) + '/' + encodeURIComponent(plain));
   const hit = await cache.match(cacheKey);
   if (hit) return hit;
 
   const r = await fetch('https://texttospeech.googleapis.com/v1/text:synthesize?key=' + KEY, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ input: { text }, voice: { languageCode: voice.slice(0, 5), name: voice }, audioConfig: { audioEncoding: 'MP3' } }),
+    body: JSON.stringify({ input: { text: plain }, voice: { languageCode: voice.slice(0, 5), name: voice }, audioConfig: { audioEncoding: 'MP3' } }),
   });
   const j = await r.json();
   if (!r.ok || !j.audioContent) return new Response('Błąd lektora', { status: 502 });
   const bin = Uint8Array.from(atob(j.audioContent), (c) => c.charCodeAt(0));
-  const res = new Response(bin, { headers });
+  const res = new Response(bin, { headers: Object.assign({ 'X-Lektor': 'chirp' }, headers) });
   waitUntil(cache.put(cacheKey, res.clone()));
   return res;
 }

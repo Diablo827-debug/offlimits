@@ -1,0 +1,18 @@
+name: Test lektora
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Próbki
+        run: |
+          mkdir out; cd out
+          B="https://test.offlimits-esn.pages.dev/api/tts"
+          O="Origin: https://test.offlimits-esn.pages.dev"
+          q() { curl -s -D "$1.h" -o "$1.mp3" -H "$O" -G "$B" --data-urlencode "v=$2" --data-urlencode "t=$3" --data-urlencode "m=$4"; echo "$1: $(grep -i '^x-lektor' $1.h) $(grep -i '^http' $1.h | head -1) $(stat -c%s $1.mp3) B"; }
+          q 1-pytanie pl-PL-Chirp3-HD-Charon "Co zabrałbym ze sobą na bezludną wyspę zamiast partnera?" q
+          q 2-odpowiedz pl-PL-Chirp3-HD-Charon "Co zabrałbym ze sobą na bezludną wyspę zamiast partnera? ⟦Pijanego kuzyna z mikrofonem⟧." a
+          q 3-odpowiedz pl-PL-Chirp3-HD-Kore "Najlepszy sposób na poniedziałek to ⟦teściowa w białej sukience⟧." a
+          q 4-zwyciezca pl-PL-Chirp3-HD-Aoede "Punkt dla Kamila!" w
+      - uses: actions/upload-artifact@v4
+        with: { name: probki-lektora, path: out }

@@ -51,6 +51,7 @@ export function voiceName(v, lang) { return locOf(lang) + '-Chirp3-HD-' + voiceS
 
 // Luka w pytaniu = krótka pauza, bez czytania „coś”.
 function cleanText(text) { return text.replace(/\s*_{2,}\s*/g, '… ').replace(/…\s*([.?!])/g, '…$1'); }
+const unmark = (t) => t.replace(/[⟦⟧]/g, '');
 // mood: q = pytanie, a = odkrywana odpowiedź, w = zwycięzca, s = próbka głosu (emocje lektora ElevenLabs)
 export function ttsUrl(text, voice, lang, mood) {
   return '/api/tts?v=' + encodeURIComponent(voiceName(voice, lang)) + '&t=' + encodeURIComponent(cleanText(text, lang))
@@ -94,7 +95,8 @@ export async function speak(text, opts) {
   }
 }
 
-function speakBrowser(text, opts) {
+function speakBrowser(rawText, opts) {
+  const text = unmark(rawText);
   const rate = (opts && opts.rate) || 1;
   const enabled = !opts || opts.enabled !== false;
   // Minimalny czas na przeczytanie przez graczy, nawet bez lektora.

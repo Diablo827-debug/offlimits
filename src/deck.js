@@ -115,3 +115,7 @@ export function fillParts(black, answers) {
 export function fillText(black, answers) {
   return fillParts(black, answers).map((p) => p.t).join('');
 }
+// Dla lektora: odpowiedzi oznaczone ⟦ ⟧, żeby lektor mógł zrobić pauzę i „zagrać” puentę.
+export function fillTextMarked(black, answers) {
+  return fillParts(black, answers).map((p) => (p.a ? '⟦' + p.t.replace(/^ /, '') + '⟧' + (p.t[0] === ' ' ? '' : '') : p.t)).join('').replace(/(\S)⟦/g, '$1 ⟦');
+}

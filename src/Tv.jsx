@@ -2,7 +2,7 @@ import React from 'react';
 import QRCode from 'qrcode';
 import { ref, onValue, get, remove } from 'firebase/database';
 import { db, ensureAuth } from './firebase.js';
-import { loadDeck, fillText, deckKnows, answersFor } from './deck.js';
+import { loadDeck, fillText, fillTextMarked, deckKnows, answersFor } from './deck.js';
 import { speak, stopSpeaking, unlockSpeech, prefetchSpeech } from './lektor.js';
 import { musicStart, musicStop } from './muzyka.js';
 import { withPrivate, privateSig } from './moja.js';
@@ -180,12 +180,12 @@ export default function Tv() {
       const list = r.reveal || [];
       if (once('seq-' + r.round)) {
         (async () => {
-          if (lektor) prefetchSpeech(list.map((e) => fillText(black ? black[0] : '', answersFor(deck, r.black, e.cards))), r.voice, lang, 'a');
+          if (lektor) prefetchSpeech(list.map((e) => fillTextMarked(black ? black[0] : '', answersFor(deck, r.black, e.cards))), r.voice, lang, 'a');
           for (let i = 0; i < list.length; i++) {
             if (roomRef.current && roomRef.current.state !== 'reveal') return;
             await M.setRevealIdx(code, i).catch(() => {});
             const answers = answersFor(deck, r.black, list[i].cards);
-            await speak(fillText(black ? black[0] : '', answers), Object.assign({}, so, { mood: 'a' }));
+            await speak(fillTextMarked(black ? black[0] : '', answers), Object.assign({}, so, { mood: 'a' }));
           }
           await M.toJudging(code);
         })().catch(retry('seq-' + r.round));
