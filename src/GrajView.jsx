@@ -1,6 +1,7 @@
 import React from 'react';
 import { Avatar, sortedPlayers, Parts } from './ui.jsx';
 import { fillParts, answersFor } from './deck.js';
+import { voteList } from './master.js';
 import { inApp, switchRole } from './install.js';
 import { tr, LANGS } from './i18n.js';
 
@@ -83,21 +84,26 @@ function Hand({ cards, deck, luki, onPlay, t }) {
 }
 
 function Judge({ room, deck, black, onPick, t }) {
-  const [k, setK] = React.useState(null);
+  // 1 zaznaczona = zwycięzca; 2 zaznaczone = gracze głosują między nimi.
+  const [sel, setSel] = React.useState([]);
   const list = room.reveal || [];
+  const toggle = (k) => setSel((s) => (s.indexOf(k) >= 0 ? s.filter((x) => x !== k) : s.concat([k]).slice(-2)));
   return (
     <>
-      <div className="big" style={{ fontSize: 22, margin: '6px 0 12px' }}>{t('pickBest')}</div>
+      <div className="big" style={{ fontSize: 22, margin: '6px 0 6px' }}>{t('pickBest')}</div>
+      <div className="muted" style={{ marginBottom: 10 }}>{t('judgeHint2')}</div>
       <div className="list">
         {list.map((e, i) => (
-          <button type="button" key={e.k} className={'opt' + (k === e.k ? ' sel' : '')} onClick={() => setK(e.k)}>
+          <button type="button" key={e.k} className={'opt' + (sel.indexOf(e.k) >= 0 ? ' sel' : '')} onClick={() => toggle(e.k)}>
             <b style={{ color: 'var(--gold)', marginRight: 8 }}>{i + 1}.</b>
             <Parts parts={fillParts(black[0], answersFor(deck, room.black, e.cards))} />
           </button>
         ))}
       </div>
       <div className="actions">
-        <button type="button" className="btn btn-primary" disabled={!k} onClick={() => onPick(k)}>{t('pickWinner')}</button>
+        {sel.length === 2
+          ? <button type="button" className="btn btn-primary" onClick={() => onPick('__vote', sel)}>{t('voteTwo')}</button>
+          : <button type="button" className="btn btn-primary" disabled={sel.length !== 1} onClick={() => onPick(sel[0])}>{t('pickWinner')}</button>}
         <button type="button" className="btn btn-ghost" onClick={() => onPick('__vote')}>{t('cantDecide')}</button>
       </div>
     </>
@@ -107,22 +113,26 @@ function Judge({ room, deck, black, onPick, t }) {
 // Głosowanie, gdy sędzia nie umie wybrać – na swoją kartę głosować nie można.
 function Vote({ room, me, deck, black, mySub, onVote, t }) {
   const [k, setK] = React.useState(null);
-  const list = room.reveal || [];
+  const list = voteList(room);
   const mine = (mySub && mySub.round === room.round && mySub.cards) || [];
   const isMine = (e) => mine.length > 0 && mine.join('|') === (e.cards || []).join('|');
   const my = (room.players || {})[me] || {};
+  if (room.judge === me) {
+    return <div className="center"><div className="big">{t('voteTv')}</div><div className="muted">{t('votedWait')}</div></div>;
+  }
   if (my.vote && my.vote.round === room.round) {
     return <div className="center"><div className="big gold-text">{t('voted')}</div><div className="muted">{t('votedWait')}</div></div>;
   }
   return (
     <>
-      <div className="big" style={{ fontSize: 22, margin: '6px 0 12px' }}>{t('voteTitle')}</div>
+      <div className="big" style={{ fontSize: 22, margin: '6px 0 12px' }}>{room.voteKs ? t('finalVote') + ' · ' : ''}{t('voteTitle')}</div>
+      {list.some(isMine) ? <div className="muted" style={{ marginBottom: 10 }}>{t('cantVoteOwn')}</div> : null}
       <div className="list">
         {list.map((e, i) => {
           const own = isMine(e);
           return (
             <button type="button" key={e.k} disabled={own} className={'opt' + (k === e.k ? ' sel' : '')} style={own ? { opacity: 0.45 } : null} onClick={() => setK(e.k)}>
-              <b style={{ color: 'var(--gold)', marginRight: 8 }}>{i + 1}.</b>
+              <b style={{ color: 'var(--gold)', marginRight: 8 }}>{(room.reveal || []).findIndex((x) => x.k === e.k) + 1}.</b>
               <Parts parts={fillParts(black[0], answersFor(deck, room.black, e.cards))} />
               {own ? <span className="muted"> ({t('ownCard')})</span> : null}
             </button>

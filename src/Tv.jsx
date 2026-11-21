@@ -92,7 +92,7 @@ export default function Tv() {
       onValue(ref(db, 'picks/' + code), (s) => {
         const p = s.val(); const r = roomRef.current;
         if (p && r && r.state === 'judging' && p.round === r.round && p.vote && once('vote-' + r.round)) {
-          M.toVoting(code).catch(retry('vote-' + r.round));
+          M.toVoting(code, p.finalists).catch(retry('vote-' + r.round));
         } else if (p && r && r.state === 'judging' && p.round === r.round && p.k && once('pick-' + r.round)) {
           M.applyPick(code, r, p.k).catch(retry('pick-' + r.round));
         }
@@ -198,7 +198,7 @@ export default function Tv() {
     }
 
     if (r.state === 'voting') {
-      if (once('vote-say-' + r.round)) speak(t('voteSpeak'), Object.assign({}, so, { mood: 'w' }));
+      if (once('vote-say-' + r.round)) speak(t(r.voteKs ? 'voteSpeak2' : 'voteSpeak'), Object.assign({}, so, { mood: 'w' }));
       const vs = M.voters(r);
       const got = M.votesOf(r);
       const all = vs.length > 0 && vs.every((u) => got[u]);

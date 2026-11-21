@@ -186,8 +186,10 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
           {list.map((e, i) => {
             const parts = fillParts(black[0], answersFor(deck, room.black, e.cards));
             const win = result && e.k === room.winK;
+            const fin = room.state === 'voting' && room.voteKs;
+            const out = fin && room.voteKs.indexOf(e.k) < 0;
             return (
-              <div key={e.k} className={'ans-card fade-in' + (win ? ' win' : result ? ' lose' : '')} style={{ animationDelay: (i * 80) + 'ms' }}>
+              <div key={e.k} className={'ans-card fade-in' + (win || (fin && !out) ? ' win' : result || out ? ' lose' : '')} style={{ animationDelay: (i * 80) + 'ms', filter: out ? 'opacity(.35)' : undefined }}>
                 <span className="n">{i + 1}</span>
                 <Parts parts={parts} />
                 {result && room.owners ? <span className="by">{win ? '★ ' : ''}{names[room.owners[e.k]] || ''}</span> : null}
@@ -197,7 +199,7 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
         </div>
         <div className="hint">
           {result ? <>{t('pointFor')} <b className="gold-text" style={{ fontSize: '1.8vw' }}>{names[room.winner] || ''}</b></>
-            : room.state === 'voting' ? <><b className="gold-text">{t('voteTv')}</b> · {t('votesCount', { a: Object.keys(votesOf(room)).length, b: voters(room).length })}{voteLeft != null ? ' · ' + voteLeft + ' s' : ''}</>
+            : room.state === 'voting' ? <><b className="gold-text">{room.voteKs ? t('finalVote') : t('voteTv')}</b> · {t('votesCount', { a: Object.keys(votesOf(room)).length, b: voters(room).length })}{voteLeft != null ? ' · ' + voteLeft + ' s' : ''}</>
               : <>{t('judgeWord')} <b>{judge ? judge.name : ''}</b> {t('judgePicks')}</>}
         </div>
       </>

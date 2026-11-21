@@ -32,7 +32,7 @@ function fixture(state, deck) {
   if (state === 'judging') return Object.assign(base, { reveal });
   if (state === 'voting') {
     const pl = Object.assign({}, P, { u3: Object.assign({}, P.u3, { vote: { round: 6, k: 'k1' } }), u4: Object.assign({}, P.u4, { vote: { round: 6, k: 'k2' } }) });
-    return Object.assign(base, { reveal, players: pl, voteUntil: Date.now() + 27000 });
+    return Object.assign(base, { reveal, players: pl, voteUntil: Date.now() + 27000, voteKs: qp.get('fin') ? qp.get('fin').split(',') : null });
   }
   if (state === 'result') return Object.assign(base, { reveal, winner: 'u3', winK: 'k2', owners: { k0: 'u1', k1: 'u4', k2: 'u3', k3: 'u5' } });
   if (state === 'end') return Object.assign(base, { players: Object.assign({}, P, { u3: Object.assign({}, P.u3, { score: 7 }) }) });

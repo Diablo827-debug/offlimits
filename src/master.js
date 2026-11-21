@@ -196,25 +196,34 @@ export function setRevealIdx(code, i) {
 
 export const VOTE_SECONDS = 40;
 // Sędzia nie umie wybrać – głosują wszyscy (nikt na swoją kartę).
-export function toVoting(code) {
-  return update(ref(db, 'rooms/' + code), { state: 'voting', voteUntil: Date.now() + VOTE_SECONDS * 1000 });
+// finalists: karty wskazane przez sędziego (np. 2) – głosujemy tylko między nimi; brak = wszystkie.
+export function toVoting(code, finalists) {
+  const ks = Array.isArray(finalists) && finalists.length >= 2 ? finalists.slice(0, 4) : null;
+  return update(ref(db, 'rooms/' + code), { state: 'voting', voteKs: ks, voteUntil: Date.now() + VOTE_SECONDS * 1000 });
 }
+// Karty, na które się głosuje.
+export function voteList(room) {
+  const list = room.reveal || [];
+  const ks = room.voteKs;
+  return Array.isArray(ks) && ks.length ? list.filter((e) => ks.indexOf(e.k) >= 0) : list;
+}
+// Głosują wszyscy obecni oprócz sędziego (sędzia oddał decyzję).
 export function voters(room) {
   const players = room.players || {};
-  return activeOrder(room).filter((u) => players[u].connected !== false);
+  return activeOrder(room).filter((u) => players[u].connected !== false && u !== room.judge);
 }
 export function votesOf(room) {
   const players = room.players || {};
   const out = {};
   Object.keys(players).forEach((u) => {
     const v = players[u].vote;
-    if (v && v.round === room.round && v.k) out[u] = v.k;
+    if (v && v.round === room.round && v.k && u !== room.judge) out[u] = v.k;
   });
   return out;
 }
 // Najwięcej głosów wygrywa; remis – losowo spośród remisujących; brak głosów – losowo.
 export function tally(room) {
-  const list = (room.reveal || []).map((e) => e.k);
+  const list = voteList(room).map((e) => e.k);
   const count = {};
   const v = votesOf(room);
   Object.keys(v).forEach((u) => { if (list.indexOf(v[u]) >= 0) count[v[u]] = (count[v[u]] || 0) + 1; });
