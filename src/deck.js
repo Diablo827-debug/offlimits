@@ -7,9 +7,10 @@ export function loadDeck() {
 
 // Rodzinny: tylko karty R. Po 22:00: czarne N, białe N + R.
 export function idsFor(deck, mode, kind) {
-  const prefixes = kind === 'c'
-    ? (mode === 'po22' ? ['N'] : ['R'])
-    : (mode === 'po22' ? ['N', 'R'] : ['R']);
+  let prefixes;
+  if (mode === 'wszystkie') prefixes = ['R', 'N'];
+  else if (kind === 'c') prefixes = mode === 'po22' ? ['N'] : ['R'];
+  else prefixes = mode === 'po22' ? ['N', 'R'] : ['R'];
   return Object.keys(deck[kind]).filter((id) => prefixes.indexOf(id[0]) >= 0);
 }
 

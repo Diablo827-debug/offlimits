@@ -52,7 +52,7 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
         <div className="wordmark gold-text">OFFLIMITS</div>
         <div className="tagline">The Unrestricted Game Club</div>
         <div className="script">Good company. Worse answers.</div>
-        {room.mode === 'po22' ? <div className="chip done" style={{ borderColor: '#8C3446' }}>Tryb „Po 22:00” · 18+</div> : null}
+        {room.mode === 'po22' || room.mode === 'wszystkie' ? <div className="chip done" style={{ borderColor: '#8C3446' }}>{room.mode === 'po22' ? 'Tryb „Po 22:00” · 18+' : 'Wszystkie karty · 18+'}</div> : null}
       </div>
       <div className="join-box fade-in">
         <div className="lbl">KOD POKOJU</div>
@@ -69,7 +69,7 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
           <div className="inner tv-settings">
             <div className="set-row"><span>Tryb</span>
               <Seg value={room.mode} onChange={(v) => onSettings({ mode: v })}
-                options={[{ v: 'rodzinny', l: 'Rodzinny' }, { v: 'po22', l: 'Po 22:00' }]} /></div>
+                options={[{ v: 'wszystkie', l: 'Wszystkie karty' }, { v: 'rodzinny', l: 'Rodzinny' }, { v: 'po22', l: 'Po 22:00' }]} /></div>
             <div className="set-row"><span>Koniec gry</span>
               <Seg value={room.endType} onChange={(v) => onSettings({ endType: v, endValue: END_OPTIONS[v][1] })}
                 options={[{ v: 'points', l: 'Punkty' }, { v: 'time', l: 'Czas' }, { v: 'rounds', l: 'Rundy' }]} /></div>
@@ -150,7 +150,7 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
     const cur = list[room.revealIdx || 0];
     stage = (
       <>
-        <BlackCard text={black[0]} luki={black[1]} answers={cur ? answersOf(deck, cur.cards) : []} className="pop-in" key={'r' + room.revealIdx} />
+        <BlackCard text={black[0]} luki={black[1]} answers={cur ? answersOf(deck, cur.cards) : []} className="pop-in" key={'r' + room.revealIdx} animate={!lite} />
         <div className="hint">Odpowiedź {Math.min((room.revealIdx || 0) + 1, list.length)} z {list.length}</div>
       </>
     );

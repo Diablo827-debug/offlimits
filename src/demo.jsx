@@ -15,7 +15,7 @@ const P = {
 function fixture(state, deck) {
   const whites = Object.keys(deck.b).filter((id) => id[0] === 'R');
   const base = {
-    mode: 'rodzinny', endType: 'points', endValue: 7, lektor: true, players: P, round: 6, judge: 'u2',
+    mode: 'wszystkie', endType: 'points', endValue: 7, lektor: true, players: P, round: 6, judge: 'u2',
     black: 'R-C002', deadline: 0, state,
   };
   const reveal = [

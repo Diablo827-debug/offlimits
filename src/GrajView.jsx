@@ -7,7 +7,30 @@ function Hand({ cards, deck, luki, onPlay }) {
   const [sel, setSel] = React.useState([]);
   const [idx, setIdx] = React.useState(0);
   const scroller = React.useRef(null);
+  const timer = React.useRef(0);
+  const n = cards.length;
+  const loop = n > 2;
+  // Karuzela w kółko: trzy kopie ręki, zawsze wracamy na środkową.
+  const list = loop ? cards.concat(cards, cards) : cards;
   React.useEffect(() => { setSel([]); }, [cards.join(',')]);
+
+  const step = () => {
+    const el = scroller.current;
+    if (!el || el.children.length < 2) return 1;
+    return el.children[1].offsetLeft - el.children[0].offsetLeft;
+  };
+  const jump = (delta) => {
+    const el = scroller.current;
+    el.style.scrollSnapType = 'none';
+    el.scrollLeft += delta;
+    requestAnimationFrame(() => { el.style.scrollSnapType = ''; });
+  };
+  React.useLayoutEffect(() => {
+    const el = scroller.current;
+    if (!el || !loop) return;
+    const c = el.children[n];
+    if (c) { el.style.scrollSnapType = 'none'; el.scrollLeft = c.offsetLeft - (el.clientWidth - c.offsetWidth) / 2; requestAnimationFrame(() => { el.style.scrollSnapType = ''; }); }
+  }, [cards.join(',')]);
 
   function toggle(id) {
     setSel((s) => {
@@ -19,20 +42,29 @@ function Hand({ cards, deck, luki, onPlay }) {
   function onScroll() {
     const el = scroller.current;
     if (!el || !el.children.length) return;
-    const w = el.children[0].getBoundingClientRect().width + 14;
-    setIdx(Math.round(el.scrollLeft / w));
+    const w = step();
+    const first = el.children[0];
+    const center = el.scrollLeft + el.clientWidth / 2 - first.offsetLeft - first.offsetWidth / 2;
+    const raw = Math.round(center / w);
+    setIdx(((raw % n) + n) % n);
+    if (!loop) return;
+    clearTimeout(timer.current);
+    timer.current = setTimeout(() => {
+      if (raw < n) jump(n * w);
+      else if (raw >= 2 * n) jump(-n * w);
+    }, 140);
   }
   const ready = sel.length === luki;
   return (
     <>
       <div className="hand-wrap">
         <div className="hand" ref={scroller} onScroll={onScroll}>
-          {cards.map((id) => {
-            const n = sel.indexOf(id);
+          {list.map((id, k) => {
+            const m = sel.indexOf(id);
             return (
-              <button type="button" key={id} className={'wcard' + (n >= 0 ? ' sel' : '')} onClick={() => toggle(id)} aria-pressed={n >= 0}>
+              <button type="button" key={id + '-' + k} className={'wcard' + (m >= 0 ? ' sel' : '')} onClick={() => toggle(id)} aria-pressed={m >= 0}>
                 <span>{deck.b[id]}</span>
-                {n >= 0 ? <span className="badge">{luki === 2 ? n + 1 : '✓'}</span> : null}
+                {m >= 0 ? <span className="badge">{luki === 2 ? m + 1 : '✓'}</span> : null}
                 <span className="foot">OFFLIMITS</span>
               </button>
             );

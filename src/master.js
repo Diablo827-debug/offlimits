@@ -24,7 +24,7 @@ export async function createRoom(uid) {
     await set(r, {
       hostUid: uid,
       createdAt: Date.now(),
-      mode: 'rodzinny',
+      mode: 'wszystkie',
       endType: 'points',
       endValue: 7,
       lektor: true,

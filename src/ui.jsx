@@ -16,22 +16,54 @@ export function Avatar({ uid, name, className }) {
   );
 }
 
-export function Parts({ parts }) {
+// animate: wstawione odpowiedzi pojawiają się słowo po słowie, w tempie lektora.
+export function Parts({ parts, animate }) {
+  if (!animate) {
+    return (
+      <>
+        {parts.map((p, i) => (
+          <span key={i} className={p.a ? 'ans' : p.blank ? 'blank' : undefined}>{p.t}</span>
+        ))}
+      </>
+    );
+  }
+  let clock = 0.35; // sekundy
+  const PER_CHAR = 0.055;
+  const PER_WORD = 0.32;
+  let seen = false;
   return (
     <>
-      {parts.map((p, i) => (
-        <span key={i} className={p.a ? 'ans' : p.blank ? 'blank' : undefined}>{p.t}</span>
-      ))}
+      {parts.map((p, i) => {
+        if (!p.a) {
+          if (seen) {
+            const d = clock; clock += p.t.length * PER_CHAR;
+            return <span key={i} className="word-in" style={{ animationDelay: d.toFixed(2) + 's', display: 'inline' }}>{p.t}</span>;
+          }
+          clock += p.t.length * PER_CHAR;
+          return <span key={i} className={p.blank ? 'blank' : undefined}>{p.t}</span>;
+        }
+        seen = true;
+        const words = p.t.split(/(\s+)/);
+        return (
+          <span key={i} className="ans">
+            {words.map((w, j) => {
+              if (/^\s+$/.test(w)) return w;
+              const d = clock; clock += PER_WORD + w.length * 0.02;
+              return <span key={j} className="word-in" style={{ animationDelay: d.toFixed(2) + 's' }}>{w}</span>;
+            })}
+          </span>
+        );
+      })}
     </>
   );
 }
 
-export function BlackCard({ text, answers, luki, small, className }) {
+export function BlackCard({ text, answers, luki, small, className, animate }) {
   const parts = fillParts(text || '', answers || []);
   return (
     <div className={'bcard ' + (small ? 'small ' : '') + (className || '')}>
       <div className="card-mark"><img src="/sygnet.svg" alt="" />OFFLIMITS</div>
-      <div className="t"><Parts parts={parts} /></div>
+      <div className="t"><Parts parts={parts} animate={animate} /></div>
       {luki === 2 ? <div className="pick">WYBIERZ 2</div> : null}
     </div>
   );
