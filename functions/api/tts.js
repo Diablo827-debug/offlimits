@@ -38,6 +38,7 @@ function direct(text, mood) {
     const body = text.replace(/⟦/g, () => { const t = first ? pick(EL_BEFORE, text) + ' ' : ''; first = false; return t; }).replace(/⟧/g, '');
     return body + ' ' + pick(EL_AFTER, text, 3);
   }
+  if (url.searchParams.get('dbg') === 'gm') return new Response('gemini: ' + lastGeminiError, { status: 200 });
   const plain = text.replace(/[⟦⟧]/g, '');
   if (mood === 'q') return pick(EL_Q, plain) + ' ' + plain;
   if (mood === 'w') return pick(EL_WIN, plain) + plain;
@@ -97,9 +98,10 @@ async function gemini(voice, text, mood) {
     }),
   });
   const j = await r.json();
-  if (!r.ok || !j.audioContent) return null;
+  if (!r.ok || !j.audioContent) { lastGeminiError = JSON.stringify(j).slice(0, 600); return null; }
   return Uint8Array.from(atob(j.audioContent), (c) => c.charCodeAt(0));
 }
+let lastGeminiError = '';
 
 export async function onRequestGet({ request, env, waitUntil }) {
   const url = new URL(request.url);
@@ -142,6 +144,7 @@ export async function onRequestGet({ request, env, waitUntil }) {
     } catch (e) { /* zostaje zwykły głos Google */ }
   }
 
+  if (url.searchParams.get('dbg') === 'gm') return new Response('gemini: ' + lastGeminiError, { status: 200 });
   const plain = text.replace(/[⟦⟧]/g, '');
   const cacheKey = new Request('https://tts.cache/' + encodeURIComponent(voice) + '/' + encodeURIComponent(plain));
   const hit = await cache.match(cacheKey);
