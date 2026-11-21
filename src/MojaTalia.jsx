@@ -50,7 +50,7 @@ export default function MojaTalia({ lang, onClose, onChange }) {
     const parts = [];
     try {
       for (let i = 0; i < files.length; i++) {
-        const txt = await readPhoto(files[i], (p) => setBusy((i + p) / files.length));
+        const txt = await readPhoto(files[i], kind, (p) => setBusy((i + p) / files.length));
         if (txt) parts.push(txt);
       }
     } catch (e) { /* błąd odczytu – komunikat niżej */ }
