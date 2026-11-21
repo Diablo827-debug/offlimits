@@ -31,6 +31,11 @@ jobs:
           ./gradlew assembleRelease --no-daemon -q
           cp app/build/outputs/apk/release/app-release.apk ../dist/offlimits.apk
           ls -la ../dist/offlimits.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: offlimits-apk
+          path: dist/offlimits.apk
+          retention-days: 30
       - name: Utwórz projekt Pages (pierwszy raz)
         run: npx wrangler pages project create offlimits --production-branch=main || true
         env:
