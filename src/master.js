@@ -286,3 +286,40 @@ export function endGame(code) {
 export function saveSettings(code, patch) {
   return update(ref(db, 'rooms/' + code), patch);
 }
+
+
+// ---------- Tryb testowy: boty, żeby zagrać samemu i zobaczyć całą rundę
+const BOT_NAMES = ['Bot Zenek', 'Bot Halinka', 'Bot Mirek', 'Bot Jadzia', 'Bot Stefan'];
+export const isBot = (u) => /^bot\d$/.test(u);
+export function setBots(code, room, n) {
+  const players = room.players || {};
+  const upd = { bots: n };
+  for (let i = 1; i <= 5; i++) {
+    const id = 'bot' + i;
+    if (i <= n && !players[id]) upd['players/' + id] = { name: BOT_NAMES[i - 1], joinedAt: Date.now() + i, connected: true, score: 0, bot: true };
+    if (i > n && players[id]) upd['players/' + id] = null;
+  }
+  return update(ref(db, 'rooms/' + code), upd);
+}
+// Bot zagrywa losowe karty ze swojej ręki.
+export async function botPlay(code, room, bot, luki) {
+  const snap = await get(ref(db, 'hands/' + code + '/' + bot));
+  const cards = ((snap.val() && snap.val().cards) || []).slice();
+  if (!cards.length) return;
+  const pick = shuffle(cards).slice(0, Math.max(1, luki || 1));
+  await set(ref(db, 'subs/' + code + '/' + bot), { round: room.round, cards: pick, at: Date.now() });
+}
+// Bot-sędzia wybiera losowo.
+export function botJudge(code, room) {
+  const list = room.reveal || [];
+  if (!list.length) return Promise.resolve();
+  return applyPick(code, room, list[Math.floor(Math.random() * list.length)].k);
+}
+// Bot głosuje losowo (nie na swoją kartę).
+export async function botVote(code, room, bot) {
+  const secret = await loadSecret(code);
+  const owners = (secret && secret.owners) || {};
+  const opts = voteList(room).filter((e) => owners[e.k] !== bot);
+  if (!opts.length) return;
+  await update(ref(db, 'rooms/' + code + '/players/' + bot), { vote: { round: room.round, k: opts[Math.floor(Math.random() * opts.length)].k } });
+}

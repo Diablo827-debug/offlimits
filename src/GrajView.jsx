@@ -2,6 +2,7 @@ import React from 'react';
 import { Avatar, sortedPlayers, Parts } from './ui.jsx';
 import { fillParts, answersFor } from './deck.js';
 import { voteList } from './master.js';
+import { nameFor } from './imiona.js';
 import { inApp, switchRole } from './install.js';
 import { tr, LANGS } from './i18n.js';
 
@@ -234,7 +235,7 @@ export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, 
     const w = (room.players || {})[room.winner];
     body = (
       <div className="center">
-        <div className="big gold-text" style={{ fontSize: 34 }}>{won ? t('youWon') : t('pointFor') + ' ' + (w ? w.name : '')}</div>
+        <div className="big gold-text" style={{ fontSize: 34 }}>{won ? t('youWon') : t('pointFor') + ' ' + (w ? nameFor(lang, w.name) : '')}</div>
         <div className="muted">{t('nextSoon')}</div>
       </div>
     );

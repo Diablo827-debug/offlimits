@@ -4,6 +4,8 @@ import { BlackCard, Avatar, Logo, sortedPlayers, useCountdown, endLabel, Parts }
 import { fillParts, answersFor } from './deck.js';
 import { VOICES } from './lektor.js';
 import { votesOf, voters } from './master.js';
+import { nameFor } from './imiona.js';
+import { okLang } from './i18n.js';
 import { tr, LANGS } from './i18n.js';
 import { inApp, canPrompt, promptInstall, onPromptReady, switchRole } from './install.js';
 
@@ -92,6 +94,9 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
               <Seg value={room.lektor === false ? 'off' : (room.voice ? room.voice.split('-').pop() : VOICES[0].id)}
                 onChange={(v) => onSettings(v === 'off' ? { lektor: false } : { lektor: true, voice: v })}
                 options={VOICES.map((x) => ({ v: x.id, l: t(x.key) })).concat([{ v: 'off', l: t('off') }])} /></div>
+            <div className="set-row"><span>{t('botsRow')}</span>
+              <Seg value={String(Object.keys(room.players || {}).filter((u) => /^bot\d$/.test(u)).length)} onChange={(v) => onSettings({ bots: Number(v) })}
+                options={[{ v: '0', l: t('off') }, { v: '1', l: '1' }, { v: '2', l: '2' }, { v: '3', l: '3' }]} /></div>
             <div className="set-row"><span>{t('music')}</span>
               <Seg value={room.music === false ? 'off' : 'on'} onChange={(v) => onSettings({ music: v === 'on' })}
                 options={[{ v: 'on', l: t('musicOn') }, { v: 'off', l: t('musicOff') }]} /></div>
@@ -198,7 +203,7 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
           })}
         </div>
         <div className="hint">
-          {result ? <>{t('pointFor')} <b className="gold-text" style={{ fontSize: '1.8vw' }}>{names[room.winner] || ''}</b></>
+          {result ? <>{t('pointFor')} <b className="gold-text" style={{ fontSize: '1.8vw' }}>{nameFor(okLang(room.lang), names[room.winner] || '')}</b></>
             : room.state === 'voting' ? <><b className="gold-text">{room.voteKs ? t('finalVote') : t('voteTv')}</b> · {t('votesCount', { a: Object.keys(votesOf(room)).length, b: voters(room).length })}{voteLeft != null ? ' · ' + voteLeft + ' s' : ''}</>
               : <>{t('judgeWord')} <b>{judge ? judge.name : ''}</b> {t('judgePicks')}</>}
         </div>

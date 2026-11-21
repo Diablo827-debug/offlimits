@@ -6,6 +6,7 @@ import { loadDeck, fillText, fillTextMarked, deckKnows, answersFor } from './dec
 import { speak, stopSpeaking, unlockSpeech, prefetchSpeech } from './lektor.js';
 import { musicStart, musicStop } from './muzyka.js';
 import { withPrivate, privateSig } from './moja.js';
+import { nameFor } from './imiona.js';
 import * as M from './master.js';
 import TvView from './TvView.jsx';
 import { useWakeLock } from './Graj.jsx';
@@ -161,6 +162,23 @@ export default function Tv() {
     if (stageSince.current.key !== stageKey) stageSince.current = { key: stageKey, at: now };
     const inStage = (now - stageSince.current.at) / 1000;
 
+    // Tryb testowy: boty grają, sędziują i głosują z „ludzkim” opóźnieniem.
+    const bots = Object.keys(players).filter(M.isBot);
+    if (bots.length && r.state === 'picking') {
+      const luki = deck.c[r.black] ? deck.c[r.black][1] : 1;
+      bots.filter((u) => u !== r.judge && !(subs[u] && subs[u].round === r.round)).forEach((u, i) => {
+        if (once('botplay-' + r.round + '-' + u)) setTimeout(() => M.botPlay(code, r, u, luki).catch(retry('botplay-' + r.round + '-' + u)), 2500 + i * 1800 + Math.random() * 2500);
+      });
+    }
+    if (bots.length && r.state === 'judging' && M.isBot(r.judge) && once('botjudge-' + r.round)) {
+      setTimeout(() => { const cur = roomRef.current; if (cur && cur.state === 'judging' && cur.round === r.round) M.botJudge(code, cur).catch(retry('botjudge-' + r.round)); }, 7000);
+    }
+    if (bots.length && r.state === 'voting') {
+      bots.filter((u) => u !== r.judge).forEach((u, i) => {
+        if (once('botvote-' + r.round + '-' + u)) setTimeout(() => { const cur = roomRef.current; if (cur && cur.state === 'voting') M.botVote(code, cur, u).catch(() => {}); }, 3000 + i * 1500);
+      });
+    }
+
     if (r.state === 'picking') {
       if (black && once('read-' + r.round + '-' + r.black)) speak(black[0], Object.assign({}, so, { mood: 'q' }));
       const played = (u) => subs[u] && subs[u].round === r.round && (subs[u].cards || []).length > 0;
@@ -220,7 +238,7 @@ export default function Tv() {
       };
       if (once('res-' + r.round)) {
         const w = r.players && r.players[r.winner];
-        speak(t('pointFor') + ' ' + (w ? w.name : ''), Object.assign({}, so, { mood: 'w' }));
+        speak(t('pointFor') + ' ' + (w ? nameFor(lang, w.name) : '') + '!', Object.assign({}, so, { mood: 'w' }));
         // Licznik niezależny od odświeżeń ekranu (zegar co 2 s nie może go kasować).
         setTimeout(next, M.RESULT_SECONDS * 1000);
       } else if (inStage > M.RESULT_SECONDS + 10) next();
@@ -246,7 +264,7 @@ export default function Tv() {
     <TvView
       room={room} code={code} deck={deck} qr={qr} joinUrl={joinUrl} subs={subs} lite={LITE}
       minPlayers={MIN_PLAYERS}
-      onSettings={(p) => { M.saveSettings(code, p); if (p.lang) localStorage.setItem('ol_tv_lang', p.lang); if (p.voice || (p.lang && room.lektor !== false)) { unlockSpeech(); setSound(true); speak(tr(okLang(p.lang || room.lang))('voiceSample'), { voice: p.voice || room.voice, lang: okLang(p.lang || room.lang), mood: 's' }); } }}
+      onSettings={(p) => { if ('bots' in p) { M.setBots(code, room, p.bots); return; } M.saveSettings(code, p); if (p.lang) localStorage.setItem('ol_tv_lang', p.lang); if (p.voice || (p.lang && room.lektor !== false)) { unlockSpeech(); setSound(true); speak(tr(okLang(p.lang || room.lang))('voiceSample'), { voice: p.voice || room.voice, lang: okLang(p.lang || room.lang), mood: 's' }); } }}
       onStart={handleStart}
       onAgain={() => M.backToLobby(code)}
       onEnd={() => { stopSpeaking(); M.endGame(code); }}
