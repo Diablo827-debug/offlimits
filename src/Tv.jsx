@@ -6,11 +6,15 @@ import { loadDeck, fillText, deckKnows } from './deck.js';
 import { speak, stopSpeaking, unlockSpeech, prefetchSpeech } from './lektor.js';
 import * as M from './master.js';
 import TvView from './TvView.jsx';
+import { useWakeLock } from './Graj.jsx';
 import { tr, okLang } from './i18n.js';
 
 const params = new URLSearchParams(location.search);
 const MIN_PLAYERS = Math.max(1, parseInt(params.get('min') || '3', 10));
 const LITE = params.get('lite') === '1';
+const AWAY_SECONDS = 40;      // tyle czekamy na gracza, którego telefon jest poza grą
+const AUTO_REVEAL_SECONDS = 75; // tyle po ostatniej zagranej karcie odkrywamy resztę sami
+const JUDGE_AWAY_SECONDS = 60;
 
 export default function Tv() {
   const [err, setErr] = React.useState('');
@@ -29,6 +33,15 @@ export default function Tv() {
   const subsRef = React.useRef({});
   subsRef.current = subs;
   const once = (key) => { if (done.current[key]) return false; done.current[key] = true; return true; };
+  const retry = (key) => (e) => { delete done.current[key]; console.warn('[offlimits]', key, e); };
+  // Zegar – co 2 s sprawdzamy, czy gra nie stoi.
+  const [now, setNow] = React.useState(Date.now());
+  React.useEffect(() => { const i = setInterval(() => setNow(Date.now()), 2000); return () => clearInterval(i); }, []);
+  // Od kiedy gracz jest poza grą (zegar telewizora) i kiedy ostatnio ktoś zagrał.
+  const awaySince = React.useRef({});
+  const lastSub = React.useRef({ key: '', n: 0, at: 0 });
+  const stageSince = React.useRef({ key: '', at: 0 });
+  useWakeLock(true);
 
   // Logowanie, talia i pokój (wznawiany po odświeżeniu strony).
   React.useEffect(() => {
@@ -75,7 +88,7 @@ export default function Tv() {
       onValue(ref(db, 'picks/' + code), (s) => {
         const p = s.val(); const r = roomRef.current;
         if (p && r && r.state === 'judging' && p.round === r.round && once('pick-' + r.round)) {
-          M.applyPick(code, r, p.k);
+          M.applyPick(code, r, p.k).catch(retry('pick-' + r.round));
         }
       }),
       onValue(ref(db, 'rooms/' + code + '/cmd'), (s) => {
@@ -96,7 +109,8 @@ export default function Tv() {
   function forceReveal() {
     const r = roomRef.current;
     if (!r || r.state !== 'picking' || !deckRef.current) return;
-    if (once('reveal-' + r.round + '-' + r.black)) M.toReveal(code, r, deckRef.current, subsRef.current);
+    const k = 'reveal-' + r.round + '-' + r.black;
+    if (once(k)) M.toReveal(code, r, deckRef.current, subsRef.current).catch(retry(k));
   }
 
   async function newRoom() {
@@ -126,36 +140,73 @@ export default function Tv() {
     const so = { enabled: lektor, voice: r.voice, lang };
     const black = deck.c[r.black];
 
+    const players = r.players || {};
+    Object.keys(players).forEach((u) => {
+      if (players[u].connected === false) { if (!awaySince.current[u]) awaySince.current[u] = now; }
+      else delete awaySince.current[u];
+    });
+    const away = (u, sec) => awaySince.current[u] && now - awaySince.current[u] > sec * 1000;
+    const stageKey = r.state + '-' + r.round;
+    if (stageSince.current.key !== stageKey) stageSince.current = { key: stageKey, at: now };
+    const inStage = (now - stageSince.current.at) / 1000;
+
     if (r.state === 'picking') {
       if (black && once('read-' + r.round + '-' + r.black)) speak(black[0], so);
-      const needed = M.activeOrder(r).filter((u) => u !== r.judge);
-      const ready = needed.length > 0 && needed.every((u) => subs[u] && subs[u].round === r.round);
-      const go = () => { if (once('reveal-' + r.round + '-' + r.black)) M.toReveal(code, r, deck, subs); };
-      if (ready) go();
+      const played = (u) => subs[u] && subs[u].round === r.round && (subs[u].cards || []).length > 0;
+      // Czekamy na graczy w grze; ktoś, kto zniknął na dłużej (telefon w tle), nie blokuje rundy.
+      const needed = M.activeOrder(r).filter((u) => u !== r.judge && !(away(u, AWAY_SECONDS) && !played(u)));
+      const n = needed.filter(played).length;
+      const subKey = r.round + '-' + r.black;
+      if (lastSub.current.key !== subKey || lastSub.current.n !== n) lastSub.current = { key: subKey, n, at: now };
+      const ready = needed.length > 0 && needed.every(played);
+      const tooLong = n > 0 && now - lastSub.current.at > AUTO_REVEAL_SECONDS * 1000;
+      const go = () => { const k = 'reveal-' + subKey; if (once(k)) M.toReveal(code, r, deck, subs).catch(retry(k)); };
+      if (ready || tooLong) go();
       return undefined;
     }
 
-    if (r.state === 'reveal' && once('seq-' + r.round)) {
-      (async () => {
-        const list = r.reveal || [];
-        if (lektor) prefetchSpeech(list.map((e) => fillText(black ? black[0] : '', e.cards.map((id) => deck.b[id] || ''))), r.voice, lang);
-        for (let i = 0; i < list.length; i++) {
-          await M.setRevealIdx(code, i);
-          const answers = list[i].cards.map((id) => deck.b[id] || '');
-          await speak(fillText(black ? black[0] : '', answers), so);
-        }
-        await M.toJudging(code);
-      })();
+    if (r.state === 'reveal') {
+      const list = r.reveal || [];
+      if (once('seq-' + r.round)) {
+        (async () => {
+          if (lektor) prefetchSpeech(list.map((e) => fillText(black ? black[0] : '', e.cards.map((id) => deck.b[id] || ''))), r.voice, lang);
+          for (let i = 0; i < list.length; i++) {
+            if (roomRef.current && roomRef.current.state !== 'reveal') return;
+            await M.setRevealIdx(code, i).catch(() => {});
+            const answers = list[i].cards.map((id) => deck.b[id] || '');
+            await speak(fillText(black ? black[0] : '', answers), so);
+          }
+          await M.toJudging(code);
+        })().catch(retry('seq-' + r.round));
+      } else if (inStage > 25 * Math.max(1, list.length) + 20 && once('seq-guard-' + r.round)) {
+        // Lektor albo sieć utknęły – przechodzimy dalej.
+        M.toJudging(code).catch(retry('seq-guard-' + r.round));
+      }
     }
 
-    if (r.state === 'result' && once('res-' + r.round)) {
-      const w = r.players && r.players[r.winner];
-      speak(t('pointFor') + ' ' + (w ? w.name : ''), so);
-      const timer = setTimeout(() => M.nextRound(code, roomRef.current, deck), M.RESULT_SECONDS * 1000);
-      return () => clearTimeout(timer);
+    if (r.state === 'judging' && r.judge && (players[r.judge] && (players[r.judge].left || away(r.judge, JUDGE_AWAY_SECONDS)))
+      && once('autopick-' + r.round)) {
+      M.autoPick(code, r).catch(retry('autopick-' + r.round));
+    }
+
+    if (r.state === 'result') {
+      const next = () => {
+        const cur = roomRef.current;
+        if (cur && cur.state === 'result' && cur.round === r.round && once('next-' + r.round)) {
+          M.nextRound(code, cur, deckRef.current || deck).catch(retry('next-' + r.round));
+        }
+      };
+      if (once('res-' + r.round)) {
+        const w = r.players && r.players[r.winner];
+        speak(t('pointFor') + ' ' + (w ? w.name : ''), so);
+        // Licznik niezależny od odświeżeń ekranu (zegar co 2 s nie może go kasować).
+        setTimeout(next, M.RESULT_SECONDS * 1000);
+      } else if (inStage > M.RESULT_SECONDS + 10) next();
     }
     return undefined;
-  }, [room, subs, deck, code, lang]);
+  }, [room, subs, deck, code, lang, now]);
+  const autoIn = room && room.state === 'picking' && lastSub.current.n > 0
+    ? Math.max(0, Math.ceil((lastSub.current.at + AUTO_REVEAL_SECONDS * 1000 - now) / 1000)) : 0;
 
   const stale = deck && room && !deckKnows(deck, room, []);
   const refreshing = React.useRef(false);
@@ -179,6 +230,7 @@ export default function Tv() {
       onEnd={() => { stopSpeaking(); M.endGame(code); }}
       onNewRoom={newRoom}
       onForce={forceReveal}
+      autoIn={autoIn}
     />
     {!sound && room.lektor !== false ? (
       <div className="sound-gate" role="dialog" aria-label={t('soundOn')}>

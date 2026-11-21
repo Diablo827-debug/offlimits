@@ -44,7 +44,7 @@ function InstallTv({ t }) {
 }
 
 function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPlayers, t }) {
-  const players = sortedPlayers(room).filter((p) => p.connected !== false);
+  const players = sortedPlayers(room).filter((p) => !p.left);
   const can = players.length >= minPlayers;
   return (
     <div className="lobby">
@@ -125,7 +125,7 @@ function Scoreboard({ room, t }) {
 
 function answersOf(deck, cards) { return (cards || []).map((id) => deck.b[id] || ''); }
 
-export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings, onStart, onAgain, onEnd, onNewRoom, minPlayers, lite, onForce }) {
+export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings, onStart, onAgain, onEnd, onNewRoom, minPlayers, lite, onForce, autoIn }) {
   const [confirmEnd, setConfirmEnd] = React.useState(false);
   const t = tr(room.lang || 'pl');
   const pl2 = t('pick2');
@@ -145,17 +145,17 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
   let stage = null;
 
   if (room.state === 'picking') {
-    const waiting = players.filter((p) => p.uid !== room.judge && p.connected !== false);
+    const waiting = players.filter((p) => p.uid !== room.judge && !p.left);
     stage = (
       <>
         <BlackCard text={black[0]} luki={black[1]} pickLabel={pl2} className="pop-in" key={room.black} />
         <div className="status-row">
           {waiting.map((p) => {
             const done = subs && subs[p.uid] && subs[p.uid].round === room.round;
-            return <span key={p.uid} className={'chip' + (done ? ' done' : '')}><Avatar uid={p.uid} name={p.name} />{p.name}{done ? <span className="ok">✓</span> : null}</span>;
+            return <span key={p.uid} className={'chip' + (done ? ' done' : '') + (!done && p.connected === false ? ' off' : '')}><Avatar uid={p.uid} name={p.name} />{p.name}{done ? <span className="ok">✓</span> : p.connected === false ? <span className="muted"> · {t('offline')}</span> : null}</span>;
           })}
         </div>
-        <div className="hint">{t('pickHint')} <b>{judge ? judge.name : '—'}</b></div>
+        <div className="hint">{t('pickHint')} <b>{judge ? judge.name : '—'}</b>{autoIn > 0 && autoIn <= 30 ? <> · {t('autoReveal', { n: autoIn })}</> : null}</div>
         {onForce && waiting.some((p) => subs && subs[p.uid] && subs[p.uid].round === room.round) ? (
           <button type="button" className="btn btn-ghost btn-small" onClick={onForce}>{t('forceReveal')}</button>
         ) : null}

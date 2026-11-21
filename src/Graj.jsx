@@ -1,5 +1,5 @@
 import React from 'react';
-import { ref, onValue, get, set, update, onDisconnect } from 'firebase/database';
+import { ref, onValue, get, set, update, onDisconnect, serverTimestamp } from 'firebase/database';
 import { db, ensureAuth } from './firebase.js';
 import { loadDeck, deckKnows } from './deck.js';
 import GrajView from './GrajView.jsx';
@@ -31,6 +31,20 @@ function Join({ onJoin, busy, err, lang, onLang }) {
       </form>
     </div>
   );
+}
+
+// Ekran nie gaśnie w trakcie gry (tam, gdzie przeglądarka na to pozwala).
+export function useWakeLock(on) {
+  React.useEffect(() => {
+    if (!on || !navigator.wakeLock) return undefined;
+    let lock = null;
+    let alive = true;
+    const get = () => { navigator.wakeLock.request('screen').then((l) => { if (alive) lock = l; else l.release(); }).catch(() => {}); };
+    const onVis = () => { if (document.visibilityState === 'visible') get(); };
+    get();
+    document.addEventListener('visibilitychange', onVis);
+    return () => { alive = false; document.removeEventListener('visibilitychange', onVis); if (lock) lock.release().catch(() => {}); };
+  }, [on]);
 }
 
 export default function Graj() {
@@ -72,11 +86,10 @@ export default function Graj() {
     const base = 'rooms/' + c + '/players/' + uid;
     const existing = await get(ref(db, base));
     if (existing.exists()) {
-      await update(ref(db, base), { name, connected: true });
+      await update(ref(db, base), { name, connected: true, left: null, offAt: null });
     } else {
       await set(ref(db, base), { name, joinedAt: Date.now(), connected: true, score: 0 });
     }
-    onDisconnect(ref(db, base + '/connected')).set(false);
     localStorage.setItem('ol_code', c);
     localStorage.setItem('ol_name', name);
     setCode(c);
@@ -94,7 +107,11 @@ export default function Graj() {
   }
 
   function leave() {
-    if (code && uid) set(ref(db, 'rooms/' + code + '/players/' + uid + '/connected'), false).catch(() => {});
+    if (code && uid) {
+      const base = 'rooms/' + code + '/players/' + uid;
+      onDisconnect(ref(db, base)).cancel().catch(() => {});
+      update(ref(db, base), { connected: false, left: true }).catch(() => {});
+    }
     localStorage.removeItem('ol_code');
     setCode(null); setRoom(null); setHand([]); setMySub(null);
   }
@@ -108,6 +125,25 @@ export default function Graj() {
     ];
     return () => offs.forEach((o) => o());
   }, [code, uid]);
+
+  // Obecność: telefon w tle albo chwilowy brak sieci nie wyrzuca z gry.
+  // Po każdym powrocie połączenia gracz znów jest „w grze”.
+  React.useEffect(() => {
+    if (!code || !uid) return undefined;
+    const base = 'rooms/' + code + '/players/' + uid;
+    const off = onValue(ref(db, '.info/connected'), (s) => {
+      if (s.val() !== true) return;
+      onDisconnect(ref(db, base)).update({ connected: false, offAt: serverTimestamp() })
+        .then(() => update(ref(db, base), { connected: true, offAt: null }))
+        .catch(() => {});
+    });
+    const onVis = () => {
+      if (document.visibilityState === 'visible') update(ref(db, base), { connected: true, offAt: null }).catch(() => {});
+    };
+    document.addEventListener('visibilitychange', onVis);
+    return () => { off(); document.removeEventListener('visibilitychange', onVis); };
+  }, [code, uid]);
+  useWakeLock(!!code);
 
   // Strona otwarta przed dodaniem nowych kart – dociągamy świeżą talię.
   const stale = deck && room && !deckKnows(deck, room, hand);

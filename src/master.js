@@ -40,15 +40,28 @@ export async function createRoom(uid, lang) {
 export function activeOrder(room) {
   const players = room.players || {};
   return Object.keys(players)
-    .filter((u) => players[u].connected !== false)
+    .filter((u) => !players[u].left)
     .sort((a, b) => (players[a].joinedAt || 0) - (players[b].joinedAt || 0));
 }
 
 function nextJudge(room) {
   const order = activeOrder(room);
   if (!order.length) return null;
+  const players = room.players || {};
   const i = order.indexOf(room.judge);
+  // Następny w kolejce, ale z pominięciem tych, którzy akurat są poza grą (telefon w tle).
+  for (let k = 1; k <= order.length; k++) {
+    const u = order[(i + k) % order.length];
+    if (players[u].connected !== false) return u;
+  }
   return order[(i + 1) % order.length];
+}
+
+// Sędzia zniknął na dłużej – telewizor wybiera losowo, żeby gra nie stała.
+export async function autoPick(code, room) {
+  const list = room.reveal || [];
+  if (!list.length) return;
+  await applyPick(code, room, list[Math.floor(Math.random() * list.length)].k);
 }
 
 async function loadSecret(code) {
@@ -144,7 +157,7 @@ export async function startGame(code, room, deck) {
   }
   await dealAndBlack(code, fresh, deck, secret, {
     round: 1,
-    judge: order[0],
+    judge: order.find((u) => room.players[u].connected !== false) || order[0],
     startedAt: Date.now(),
   });
 }
