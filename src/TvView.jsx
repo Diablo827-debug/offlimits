@@ -44,7 +44,7 @@ function InstallTv({ t }) {
   );
 }
 
-function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPlayers, t }) {
+function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPlayers, t, deck }) {
   const players = sortedPlayers(room).filter((p) => !p.left);
   const can = players.length >= minPlayers;
   return (
@@ -54,7 +54,7 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
         <div className="wordmark gold-text">OFFLIMITS</div>
         <div className="tagline">The Unrestricted Game Club</div>
         <div className="script">Good company. Worse answers.</div>
-        {room.mode !== 'rodzinny' ? <div className="chip done" style={{ borderColor: '#8C3446' }}>{t(room.mode === 'po22' ? 'chip22' : room.mode === 'bez' ? 'chipBez' : 'chipAll')}</div> : null}
+        {room.mode !== 'rodzinny' ? <div className="chip done" style={{ borderColor: '#8C3446' }}>{t(room.mode === 'po22' ? 'chip22' : room.mode === 'bez' ? 'chipBez' : room.mode === 'moja' ? 'chipMine' : 'chipAll')}</div> : null}
       </div>
       <div className="join-box fade-in">
         <div className="join-top">
@@ -78,7 +78,7 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
                 options={LANGS.map((x) => ({ v: x.v, l: x.l }))} /></div>
             <div className="set-row"><span>{t('mode')}</span>
               <Seg value={room.mode} onChange={(v) => onSettings({ mode: v })}
-                options={[{ v: 'wszystkie', l: t('modeAll') }, { v: 'rodzinny', l: t('modeFamily') }, { v: 'po22', l: t('mode22') }, { v: 'bez', l: t('modeBez') }]} /></div>
+                options={[{ v: 'wszystkie', l: t('modeAll') }, { v: 'rodzinny', l: t('modeFamily') }, { v: 'po22', l: t('mode22') }, { v: 'bez', l: t('modeBez') }].concat(Object.keys(deck.c).some((id) => id[0] === 'P') ? [{ v: 'moja', l: t('modeMine') }] : [])} /></div>
             <div className="set-row"><span>{t('cards')}</span>
               <Seg value={room.fresh === false ? 'all' : 'fresh'} onChange={(v) => onSettings({ fresh: v === 'fresh' })}
                 options={[{ v: 'fresh', l: t('cardsFresh') }, { v: 'all', l: t('cardsAll') }]} /></div>
@@ -137,7 +137,7 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
     return (
       <div className={'tv' + (lite ? ' lite' : '')}>
         <div className="tv-main">
-          <Lobby room={room} code={code} qr={qr} joinUrl={joinUrl} onSettings={onSettings} onStart={onStart} onNewRoom={onNewRoom} minPlayers={minPlayers} t={t} />
+          <Lobby room={room} code={code} qr={qr} joinUrl={joinUrl} onSettings={onSettings} onStart={onStart} onNewRoom={onNewRoom} minPlayers={minPlayers} t={t} deck={deck} />
         </div>
       </div>
     );

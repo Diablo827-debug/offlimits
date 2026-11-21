@@ -194,3 +194,21 @@ details.fold .inner { padding: 0 16px 14px; display: flex; flex-direction: colum
 /* Fokus przy sterowaniu strzałkami / pilotem */
 .seg button:focus-visible { outline: none; box-shadow: inset 0 0 0 3px var(--gold-hi); }
 summary:focus-visible, a:focus-visible, input:focus-visible { outline: 3px solid var(--gold-hi); outline-offset: 3px; border-radius: 8px; }
+
+/* Moja talia (telefon) */
+.phone.md { gap: 12px; justify-content: flex-start; }
+.md-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.md-seg { width: 100%; display: flex; }
+.md-seg button { flex: 1; padding: 10px 6px; font-size: 15px; }
+.md-actions { display: flex; flex-direction: column; gap: 10px; }
+.md-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+.md-row .btn { flex: 1; }
+.md-text { width: 100%; box-sizing: border-box; background: #0E0D0C; color: var(--ivory); border: 1px solid var(--line); border-radius: 12px; padding: 12px; font: 16px/1.4 var(--card); resize: vertical; }
+.md-busy { display: flex; flex-direction: column; gap: 8px; color: var(--muted, #9a9086); }
+.md-bar { height: 8px; border-radius: 6px; background: var(--onyx-2); overflow: hidden; }
+.md-bar i { display: block; height: 100%; background: var(--gold); transition: width .3s; }
+.md-edit { display: flex; flex-direction: column; gap: 10px; }
+.md-card { cursor: default; font-size: 16px; }
+.md-card.black { background: #050505; }
+.md-card:not(.black) { background: var(--ivory); color: #111; }
+.md-card:not(.black) .btn-ghost { color: #111; border-color: #bbb; }

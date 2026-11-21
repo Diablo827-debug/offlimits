@@ -44,7 +44,13 @@ export function deckKnows(deck, room, hand) {
 // Rodzinny: tylko R. Po 22:00: czarne N, białe N + R. Bez tabu: czarne X, białe X + N + R.
 export function idsFor(deck, mode, kind) {
   let prefixes;
-  if (mode === 'wszystkie') prefixes = ['R', 'N', 'X'];
+  if (mode === 'moja') {
+    // Moja talia: prywatne pytania; odpowiedzi prywatne, a gdy ich mało – dokładamy wszystkie publiczne.
+    const own = Object.keys(deck[kind]).filter((id) => id[0] === 'P');
+    if (kind === 'c') return own.length ? own : idsFor(deck, 'wszystkie', kind);
+    return own.length >= 150 ? own : own.concat(idsFor(deck, 'wszystkie', kind));
+  }
+  if (mode === 'wszystkie') prefixes = ['R', 'N', 'X', 'P'];
   else if (mode === 'bez') prefixes = kind === 'c' ? ['X'] : ['X', 'N', 'R'];
   else if (kind === 'c') prefixes = mode === 'po22' ? ['N'] : ['R'];
   else prefixes = mode === 'po22' ? ['N', 'R'] : ['R'];

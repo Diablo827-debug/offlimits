@@ -159,7 +159,7 @@ export function LangPick({ lang, onLang, t }) {
   );
 }
 
-export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, onVote, onCmd, lang, onLang, onLeave }) {
+export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, onVote, onCmd, lang, onLang, onLeave, onMine }) {
   const t = tr(lang || 'pl');
   const players = sortedPlayers(room);
   const meP = (room.players || {})[me] || {};
@@ -181,6 +181,7 @@ export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, 
           </div>
         </details>
         {onLang ? <LangPick lang={lang} onLang={onLang} t={t} /> : null}
+        {onMine ? <button type="button" className="btn btn-ghost btn-small" onClick={onMine}>🃏 {t('myDeck')}</button> : null}
         {onLeave ? <button type="button" className="btn btn-ghost btn-small" onClick={onLeave}>{t('leaveGame')}</button> : null}
         {inApp() ? <button type="button" className="btn btn-ghost btn-small" onClick={() => switchRole('tv')}>{t('thisIsTv')}</button> : null}
       </div>

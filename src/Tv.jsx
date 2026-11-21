@@ -5,6 +5,7 @@ import { db, ensureAuth } from './firebase.js';
 import { loadDeck, fillText, deckKnows, answersFor } from './deck.js';
 import { speak, stopSpeaking, unlockSpeech, prefetchSpeech } from './lektor.js';
 import { musicStart, musicStop } from './muzyka.js';
+import { withPrivate, privateSig } from './moja.js';
 import * as M from './master.js';
 import TvView from './TvView.jsx';
 import { useWakeLock } from './Graj.jsx';
@@ -22,13 +23,16 @@ export default function Tv() {
   const [code, setCode] = React.useState(null);
   const [room, setRoom] = React.useState(null);
   const [subs, setSubs] = React.useState({});
-  const [deck, setDeck] = React.useState(null);
+  const [baseDeck, setDeck] = React.useState(null);
   const [qr, setQr] = React.useState('');
   const [sound, setSound] = React.useState(false);
   function enableSound() { unlockSpeech(); setSound(true); }
   const done = React.useRef({});
   const roomRef = React.useRef(null);
   roomRef.current = room;
+  // Talia publiczna + prywatne karty graczy z tego pokoju.
+  const sig = privateSig(room);
+  const deck = React.useMemo(() => withPrivate(baseDeck, room), [baseDeck, sig]); // eslint-disable-line react-hooks/exhaustive-deps
   const deckRef = React.useRef(null);
   deckRef.current = deck;
   const subsRef = React.useRef({});

@@ -6,10 +6,12 @@ import GrajView from './GrajView.jsx';
 import { inApp, switchRole } from './install.js';
 import { tr, phoneLang, savePhoneLang } from './i18n.js';
 import { LangPick } from './GrajView.jsx';
+import MojaTalia from './MojaTalia.jsx';
+import { loadMine, countMine, withPrivate, privateSig } from './moja.js';
 
 const params = new URLSearchParams(location.search);
 
-function Join({ onJoin, busy, err, lang, onLang }) {
+function Join({ onJoin, busy, err, lang, onLang, onMine }) {
   const t = tr(lang);
   const [code, setCode] = React.useState((params.get('kod') || localStorage.getItem('ol_code') || '').toUpperCase());
   const [name, setName] = React.useState(localStorage.getItem('ol_name') || '');
@@ -25,6 +27,7 @@ function Join({ onJoin, busy, err, lang, onLang }) {
         {err ? <div className="err">{t(err)}</div> : null}
         <button type="submit" className="btn btn-primary" style={{ width: '100%' }} disabled={busy || code.length !== 4 || !name}>{t('joinBtn')}</button>
         <LangPick lang={lang} onLang={onLang} t={t} />
+        <button type="button" className="btn btn-ghost" style={{ width: '100%' }} onClick={onMine}>🃏 {t('myDeckCount', { n: countMine(loadMine()) })}</button>
         {inApp()
           ? <button type="button" className="btn btn-ghost btn-small" onClick={() => switchRole('tv')}>{t('thisIsTv')}</button>
           : <a className="muted" style={{ fontSize: 14 }} href="/pobierz">{t('download')}</a>}
@@ -57,6 +60,8 @@ export default function Graj() {
   const [err, setErr] = React.useState('');
   const [busy, setBusy] = React.useState(false);
   const [lang, setLang] = React.useState(phoneLang());
+  const [mineOpen, setMineOpen] = React.useState(false);
+  const [mineV, setMineV] = React.useState(0);
   function changeLang(l) { savePhoneLang(l); setLang(l); }
 
   React.useEffect(() => {
@@ -145,8 +150,20 @@ export default function Graj() {
   }, [code, uid]);
   useWakeLock(!!code);
 
+  // Prywatne karty graczy w tym pokoju dokładamy do talii.
+  const sig = privateSig(room);
+  const deckAll = React.useMemo(() => withPrivate(deck, room), [deck, sig]); // eslint-disable-line react-hooks/exhaustive-deps
+  // Moja talia jedzie do pokoju (tylko ta gra ją widzi).
+  React.useEffect(() => {
+    if (!code || !uid) return;
+    const m = loadMine();
+    const base = 'rooms/' + code + '/players/' + uid + '/talia';
+    if (countMine(m)) set(ref(db, base), { c: m.c, b: m.b, v: m.v || Date.now() }).catch(() => {});
+    else set(ref(db, base), null).catch(() => {});
+  }, [code, uid, mineV]);
+
   // Strona otwarta przed dodaniem nowych kart – dociągamy świeżą talię.
-  const stale = deck && room && !deckKnows(deck, room, hand);
+  const stale = deckAll && room && !deckKnows(deckAll, room, hand);
   const refreshing = React.useRef(false);
   React.useEffect(() => {
     if (!stale || refreshing.current) return;
@@ -154,11 +171,12 @@ export default function Graj() {
     loadDeck(lang, true).then((d) => { setDeck(d); refreshing.current = false; }).catch(() => { refreshing.current = false; });
   }, [stale]);
 
-  if (!code || !room || !deck) return <Join onJoin={join} busy={busy || !uid} err={err} lang={lang} onLang={changeLang} />;
+  if (mineOpen) return <MojaTalia lang={lang} onClose={() => setMineOpen(false)} onChange={() => setMineV((v) => v + 1)} />;
+  if (!code || !room || !deck) return <Join onJoin={join} busy={busy || !uid} err={err} lang={lang} onLang={changeLang} onMine={() => setMineOpen(true)} />;
 
   return (
     <GrajView
-      room={room} me={uid} hand={hand} mySub={mySub} deck={deck} lang={lang} onLang={changeLang} onLeave={leave}
+      room={room} me={uid} hand={hand} mySub={mySub} deck={deckAll} lang={lang} onLang={changeLang} onLeave={leave} onMine={() => setMineOpen(true)}
       onPlay={(cards) => set(ref(db, 'subs/' + code + '/' + uid), { round: room.round, cards, at: Date.now() })}
       onPick={(k, fin) => set(ref(db, 'picks/' + code), k === '__vote' ? Object.assign({ round: room.round, vote: true, by: uid }, fin ? { finalists: fin } : {}) : { round: room.round, k, by: uid })}
       onVote={(k) => update(ref(db, 'rooms/' + code + '/players/' + uid), { vote: { round: room.round, k } })}
