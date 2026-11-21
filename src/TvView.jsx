@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom';
 import { BlackCard, Avatar, Logo, sortedPlayers, useCountdown, endLabel, Parts } from './ui.jsx';
 import { fillParts } from './deck.js';
 import { VOICES } from './lektor.js';
-import { inApp, canPrompt, promptInstall, onPromptReady } from './install.js';
+import { inApp, canPrompt, promptInstall, onPromptReady, switchRole } from './install.js';
 
 const END_OPTIONS = {
   points: [5, 7, 10, 15],
@@ -88,6 +88,7 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
         <div style={{ display: 'flex', gap: '1vw', flexWrap: 'wrap', justifyContent: 'center' }}>
           <button type="button" className="btn btn-ghost btn-small" onClick={onNewRoom}>Nowy pokój</button>
           <InstallTv />
+          {inApp() ? <button type="button" className="btn btn-ghost btn-small" onClick={() => switchRole('graj')}>To jest telefon – przełącz</button> : null}
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Avatar, sortedPlayers, Parts } from './ui.jsx';
 import { fillParts } from './deck.js';
+import { inApp, switchRole } from './install.js';
 
 function Hand({ cards, deck, luki, onPlay }) {
   const [sel, setSel] = React.useState([]);
@@ -90,6 +91,7 @@ export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, 
           </div>
         </details>
         {isHost ? <button type="button" className="btn btn-primary" style={{ width: '100%' }} onClick={() => onCmd('start')}>Start gry</button> : null}
+        {inApp() ? <button type="button" className="btn btn-ghost btn-small" onClick={() => switchRole('tv')}>To jest telewizor – przełącz</button> : null}
       </div>
     );
   } else if (room.state === 'picking') {
