@@ -28,9 +28,17 @@ function voices() {
   try { return window.speechSynthesis ? window.speechSynthesis.getVoices() : []; } catch (e) { return []; }
 }
 
-export function voiceFor(lang) {
+// Zapasowy głos przeglądarki – tej samej płci co wybrany lektor (żeby „męski” nie mówił kobiecym głosem).
+const MALE = /\b(male|man|krzysztof|adam|jakub|marek|pawe|piotr|tomasz|andrzej|david|daniel|alex|george|jorge|diego|pablo|nikos|stefanos|x-.*-m|#male)/i;
+const FEMALE = /\b(female|woman|paulina|zosia|ewa|agnieszka|maja|zira|hazel|susan|samantha|monica|helena|laura|melina|#female)/i;
+export function voiceFor(lang, voiceId) {
   const l = (lang || 'pl').toLowerCase();
-  return voices().find((v) => (v.lang || '').toLowerCase().indexOf(l) === 0) || null;
+  const all = voices().filter((v) => (v.lang || '').toLowerCase().replace('_', '-').indexOf(l) === 0);
+  if (!all.length) return null;
+  const want = voiceId ? (/^(Charon|Algenib)$/.test(voiceId) ? 'm' : 'f') : null;
+  if (want === 'm') return all.find((v) => MALE.test(v.name + ' ' + v.voiceURI)) || all.find((v) => !FEMALE.test(v.name)) || all[0];
+  if (want === 'f') return all.find((v) => FEMALE.test(v.name + ' ' + v.voiceURI)) || all.find((v) => !MALE.test(v.name)) || all[0];
+  return all[0];
 }
 export function polishVoice() { return voiceFor('pl'); }
 
@@ -111,7 +119,7 @@ function speakBrowser(rawText, opts) {
       setTimeout(resolve, Math.max(0, Math.min(left, 3000)));
     };
     const lang = (opts && opts.lang) || 'pl';
-    const voice = voiceFor(lang);
+    const voice = voiceFor(lang, opts && opts.voice);
     if (!enabled || !speechSupported()) {
       setTimeout(() => { done = true; resolve(); }, minMs);
       return;
