@@ -9,7 +9,13 @@ export function loadDeck(lang, fresh) {
   const l = lang || 'pl';
   const v = fresh ? String(Date.now()) : V;
   if (fresh) { Object.keys(cache).forEach((k) => { delete cache[k]; }); }
-  if (!cache.pl) cache.pl = fetch('/talia.json?v=' + v, { cache: 'no-cache' }).then((r) => r.json());
+  // Polska talia + odmiana odpowiedzi przez przypadki (odmiana.json: c = przypadki luk, f = formy kart).
+  if (!cache.pl) {
+    cache.pl = Promise.all([
+      fetch('/talia.json?v=' + v, { cache: 'no-cache' }).then((r) => r.json()),
+      getJson('/odmiana.json?v=' + v),
+    ]).then(([d, o]) => Object.assign(d, { k: o.c || {}, f: o.f || {}, lang: 'pl' }));
+  }
   if (l === 'pl') return cache.pl;
   if (!cache[l]) {
     cache[l] = Promise.all([cache.pl, getJson('/talia-' + l + '.json?v=' + v)]).then(([pl, t]) => {
@@ -65,6 +71,17 @@ function inSentence(text, before) {
   if (firstWord.length > 1 && firstWord === firstWord.toUpperCase()) return text;
   if (/^I(['’]|$)/.test(firstWord)) return text; // angielskie „I”
   return text.charAt(0).toLowerCase() + text.slice(1);
+}
+
+// Odpowiedzi do danej czarnej karty – w przypadku, którego wymaga luka
+// („Co zabrałbym na wyspę?” → „Ośmiornicę z trzema nogami”).
+export function answersFor(deck, blackId, ids) {
+  const k = (deck.k && deck.k[blackId]) || '';
+  return (ids || []).map((id, i) => {
+    const c = k[i] || (k.length === 1 ? k : '');
+    const f = c && c !== 'n' && deck.f && deck.f[id] && deck.f[id][c];
+    return f || deck.b[id] || '';
+  });
 }
 
 // Zwraca części zdania, żeby TV mógł wyróżnić wstawione odpowiedzi kolorem.

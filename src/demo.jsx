@@ -19,12 +19,16 @@ function fixture(state, deck) {
     mode: 'wszystkie', endType: 'points', endValue: 7, lektor: true, players: P, round: 6, judge: 'u2',
     black: 'R-C002', deadline: 0, state,
   };
-  const reveal = [
-    { k: 'k0', cards: ['R-B0020'] }, { k: 'k1', cards: ['R-B0010'] },
-    { k: 'k2', cards: ['R-B0033'] }, { k: 'k3', cards: ['R-B0025'] },
-  ];
+  const qp = new URLSearchParams(location.search);
+  if (qp.get('black')) base.black = qp.get('black');
+  const reveal = qp.get('odp')
+    ? qp.get('odp').split(',').map((id, i) => ({ k: 'k' + i, cards: [id] }))
+    : [
+      { k: 'k0', cards: ['R-B0020'] }, { k: 'k1', cards: ['R-B0010'] },
+      { k: 'k2', cards: ['R-B0033'] }, { k: 'k3', cards: ['R-B0025'] },
+    ];
   if (state === 'lobby') return Object.assign(base, { round: 0, judge: null });
-  if (state === 'reveal') return Object.assign(base, { reveal, revealIdx: 1 });
+  if (state === 'reveal') return Object.assign(base, { reveal, revealIdx: Number(qp.get('idx') || 1) });
   if (state === 'judging') return Object.assign(base, { reveal });
   if (state === 'result') return Object.assign(base, { reveal, winner: 'u3', winK: 'k2', owners: { k0: 'u1', k1: 'u4', k2: 'u3', k3: 'u5' } });
   if (state === 'end') return Object.assign(base, { players: Object.assign({}, P, { u3: Object.assign({}, P.u3, { score: 7 }) }) });

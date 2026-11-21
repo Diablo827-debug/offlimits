@@ -2,7 +2,7 @@ import React from 'react';
 import QRCode from 'qrcode';
 import { ref, onValue, get, remove } from 'firebase/database';
 import { db, ensureAuth } from './firebase.js';
-import { loadDeck, fillText, deckKnows } from './deck.js';
+import { loadDeck, fillText, deckKnows, answersFor } from './deck.js';
 import { speak, stopSpeaking, unlockSpeech, prefetchSpeech } from './lektor.js';
 import * as M from './master.js';
 import TvView from './TvView.jsx';
@@ -169,11 +169,11 @@ export default function Tv() {
       const list = r.reveal || [];
       if (once('seq-' + r.round)) {
         (async () => {
-          if (lektor) prefetchSpeech(list.map((e) => fillText(black ? black[0] : '', e.cards.map((id) => deck.b[id] || ''))), r.voice, lang);
+          if (lektor) prefetchSpeech(list.map((e) => fillText(black ? black[0] : '', answersFor(deck, r.black, e.cards))), r.voice, lang);
           for (let i = 0; i < list.length; i++) {
             if (roomRef.current && roomRef.current.state !== 'reveal') return;
             await M.setRevealIdx(code, i).catch(() => {});
-            const answers = list[i].cards.map((id) => deck.b[id] || '');
+            const answers = answersFor(deck, r.black, list[i].cards);
             await speak(fillText(black ? black[0] : '', answers), so);
           }
           await M.toJudging(code);

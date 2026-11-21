@@ -1,7 +1,7 @@
 import React from 'react';
 import { createPortal } from 'react-dom';
 import { BlackCard, Avatar, Logo, sortedPlayers, useCountdown, endLabel, Parts } from './ui.jsx';
-import { fillParts } from './deck.js';
+import { fillParts, answersFor } from './deck.js';
 import { VOICES } from './lektor.js';
 import { tr, LANGS } from './i18n.js';
 import { inApp, canPrompt, promptInstall, onPromptReady, switchRole } from './install.js';
@@ -123,7 +123,6 @@ function Scoreboard({ room, t }) {
   );
 }
 
-function answersOf(deck, cards) { return (cards || []).map((id) => deck.b[id] || ''); }
 
 export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings, onStart, onAgain, onEnd, onNewRoom, minPlayers, lite, onForce, autoIn }) {
   const [confirmEnd, setConfirmEnd] = React.useState(false);
@@ -166,7 +165,7 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
     const cur = list[room.revealIdx || 0];
     stage = (
       <>
-        <BlackCard text={black[0]} luki={black[1]} answers={cur ? answersOf(deck, cur.cards) : []} pickLabel={pl2} className="pop-in" key={'r' + room.revealIdx} animate={!lite} />
+        <BlackCard text={black[0]} luki={black[1]} answers={cur ? answersFor(deck, room.black, cur.cards) : []} pickLabel={pl2} className="pop-in" key={'r' + room.revealIdx} animate={!lite} />
         <div className="hint">{t('answerOf', { a: Math.min((room.revealIdx || 0) + 1, list.length), b: list.length })}</div>
       </>
     );
@@ -180,7 +179,7 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
         <BlackCard text={black[0]} luki={black[1]} pickLabel={pl2} small />
         <div className="answers-grid">
           {list.map((e, i) => {
-            const parts = fillParts(black[0], answersOf(deck, e.cards));
+            const parts = fillParts(black[0], answersFor(deck, room.black, e.cards));
             const win = result && e.k === room.winK;
             return (
               <div key={e.k} className={'ans-card fade-in' + (win ? ' win' : result ? ' lose' : '')} style={{ animationDelay: (i * 80) + 'ms' }}>

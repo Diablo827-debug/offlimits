@@ -1,6 +1,6 @@
 import React from 'react';
 import { Avatar, sortedPlayers, Parts } from './ui.jsx';
-import { fillParts } from './deck.js';
+import { fillParts, answersFor } from './deck.js';
 import { inApp, switchRole } from './install.js';
 import { tr, LANGS } from './i18n.js';
 
@@ -92,7 +92,7 @@ function Judge({ room, deck, black, onPick, t }) {
         {list.map((e, i) => (
           <button type="button" key={e.k} className={'opt' + (k === e.k ? ' sel' : '')} onClick={() => setK(e.k)}>
             <b style={{ color: 'var(--gold)', marginRight: 8 }}>{i + 1}.</b>
-            <Parts parts={fillParts(black[0], e.cards.map((id) => deck.b[id] || ''))} />
+            <Parts parts={fillParts(black[0], answersFor(deck, room.black, e.cards))} />
           </button>
         ))}
       </div>
@@ -156,7 +156,7 @@ export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, 
       body = (
         <div className="center">
           <div className="big">{t('played')}</div>
-          <div className="mini-black"><Parts parts={fillParts(black[0], mySub.cards.map((id) => deck.b[id] || ''))} /></div>
+          <div className="mini-black"><Parts parts={fillParts(black[0], answersFor(deck, room.black, mySub.cards))} /></div>
           <div className="muted">{t('waitRest')}</div>
         </div>
       );
