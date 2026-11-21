@@ -24,6 +24,9 @@ export const APK_URL = '/offlimits.apk';
 
 // Przełączanie aplikacji między trybem telewizora i telefonu (zapamiętany wybór).
 export function switchRole(role) {
-  try { localStorage.setItem('ol_role', role); } catch (e) { /* nic */ }
+  try {
+    localStorage.setItem('ol_role', role);
+    if (role === 'tv') localStorage.removeItem('ol_code'); // telewizor nie jest graczem starego pokoju
+  } catch (e) { /* nic */ }
   location.href = role === 'tv' ? '/tv' : '/graj';
 }

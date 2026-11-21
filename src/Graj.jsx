@@ -60,7 +60,12 @@ export default function Graj() {
     const saved = localStorage.getItem('ol_code');
     const want = (params.get('kod') || saved || '').toUpperCase();
     if (!want || want !== saved) return;
-    get(ref(db, 'rooms/' + want + '/players/' + uid)).then((s) => { if (s.exists()) enter(want, s.val().name); });
+    // Wracamy tylko do gry, która jeszcze trwa – po zakończonej zaczynamy od ekranu dołączania.
+    get(ref(db, 'rooms/' + want)).then((s) => {
+      const r = s.val();
+      if (!r || r.state === 'end' || !r.players || !r.players[uid]) { localStorage.removeItem('ol_code'); return; }
+      enter(want, r.players[uid].name);
+    }).catch(() => {});
   }, [uid]);
 
   async function enter(c, name) {
@@ -88,10 +93,16 @@ export default function Graj() {
     } finally { setBusy(false); }
   }
 
+  function leave() {
+    if (code && uid) set(ref(db, 'rooms/' + code + '/players/' + uid + '/connected'), false).catch(() => {});
+    localStorage.removeItem('ol_code');
+    setCode(null); setRoom(null); setHand([]); setMySub(null);
+  }
+
   React.useEffect(() => {
     if (!code || !uid) return undefined;
     const offs = [
-      onValue(ref(db, 'rooms/' + code), (s) => setRoom(s.val())),
+      onValue(ref(db, 'rooms/' + code), (s) => { if (!s.exists()) { leave(); return; } setRoom(s.val()); }),
       onValue(ref(db, 'hands/' + code + '/' + uid), (s) => setHand((s.val() && s.val().cards) || [])),
       onValue(ref(db, 'subs/' + code + '/' + uid), (s) => setMySub(s.val())),
     ];
@@ -102,7 +113,7 @@ export default function Graj() {
 
   return (
     <GrajView
-      room={room} me={uid} hand={hand} mySub={mySub} deck={deck} lang={lang} onLang={changeLang}
+      room={room} me={uid} hand={hand} mySub={mySub} deck={deck} lang={lang} onLang={changeLang} onLeave={leave}
       onPlay={(cards) => set(ref(db, 'subs/' + code + '/' + uid), { round: room.round, cards, at: Date.now() })}
       onPick={(k) => set(ref(db, 'picks/' + code), { round: room.round, k, by: uid })}
       onCmd={(type) => set(ref(db, 'rooms/' + code + '/cmd'), { type, by: uid, at: Date.now() })}

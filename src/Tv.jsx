@@ -36,7 +36,7 @@ export default function Tv() {
         let c = localStorage.getItem('ol_tv_code');
         if (c) {
           const s = await get(ref(db, 'rooms/' + c));
-          if (!s.exists() || s.val().hostUid !== user.uid) c = null;
+          if (!s.exists() || s.val().hostUid !== user.uid || s.val().state === 'end') c = null;
         }
         if (!c) c = await M.createRoom(user.uid, localStorage.getItem('ol_tv_lang') || 'pl');
         localStorage.setItem('ol_tv_code', c);
