@@ -7,7 +7,7 @@ const DEFAULT_VOICE = 'pl-PL-Chirp3-HD-Charon';
 
 function originOf(h) { try { return new URL(h).origin; } catch (e) { return ''; } }
 
-// ElevenLabs (eleven_v3) – lektor z emocjami. Działa, gdy w Cloudflare Pages jest zmienna
+// ElevenLabs (eleven_v4) – lektor z emocjami. Działa, gdy w Cloudflare Pages jest zmienna
 // ELEVENLABS_API_KEY; bez niej (albo przy błędzie) gra używa głosów Google jak dotąd.
 // Głosy można podmienić zmienną ELEVEN_VOICES, np. {"Charon":"<voice_id>", ...}.
 const ELEVEN_VOICES = {
@@ -63,7 +63,7 @@ async function eleven(env, voice, text, mood) {
   const r = await fetch('https://api.elevenlabs.io/v1/text-to-speech/' + id + '?output_format=mp3_44100_128', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'xi-api-key': env.ELEVENLABS_API_KEY },
-    body: JSON.stringify({ text: direct(text, mood), model_id: env.ELEVEN_MODEL || 'eleven_v3', voice_settings: { stability: 0.0, similarity_boost: 0.7 } }),
+    body: JSON.stringify({ text: direct(text, mood), model_id: env.ELEVEN_MODEL || 'eleven_v4', voice_settings: { stability: 0.0, similarity_boost: 0.7 } }),
   });
   if (!r.ok) return null;
   return new Uint8Array(await r.arrayBuffer());
