@@ -100,8 +100,15 @@ function prepClip(clip, { inPlace = false, seatY = 0, fadeSeat = false } = {}) {
 // Wygładzanie ruchu: ruchy z AI mają drobne drgania między klatkami – filtr (okno 5 klatek) usuwa „szarpanie”,
 // zachowując pierwszą i ostatnią klatkę. Kwaterniony uśredniamy z wyrównaniem znaku i normalizacją.
 function smoothClip(clip, passes = 2) {
-  const W = [1, 4, 6, 4, 1];
   clip.tracks.forEach((tr) => {
+    // nogi i biodra wygładzamy delikatniej – stopy muszą zostać „przyklejone” do podłogi
+    if (/(Hips|UpLeg|Leg|Foot|Toe)[^.]*\./.test(tr.name) && passes > 1) { smoothTrack(tr, 1); return; }
+    smoothTrack(tr, passes);
+  });
+}
+function smoothTrack(tr, passes) {
+  const W = [1, 4, 6, 4, 1];
+  {
     const isQ = /quaternion$/.test(tr.name);
     if (!isQ && !/position$/.test(tr.name)) return;
     const d = isQ ? 4 : 3;
@@ -130,7 +137,7 @@ function smoothClip(clip, passes = 2) {
         for (let c = 0; c < d; c++) tr.values[i * d + c] = acc[c] / len;
       }
     }
-  });
+  }
 }
 
 export default function Avatar3D({ url, room }) {
@@ -294,6 +301,7 @@ export default function Avatar3D({ url, room }) {
       get place() { return place; },
       get state() { return current ? current.state : ''; },
       busy: (ms) => { busyUntil = Date.now() + ms; },
+      get debug() { return { hipsScale, drift: (clips[pickName('walk')] || {}).drift }; },
       get busyNow() { return Date.now() < busyUntil; },
     };
 
@@ -410,7 +418,10 @@ export default function Avatar3D({ url, room }) {
       if (mixer) mixer.update(dt);
       if (model && walk) {
         const c = current && clips[current.name];
-        const speed = Math.max(0.38, Math.abs((c && c.drift) || 0.12) * hipsScale * 1.3);
+        // prędkość przesuwu = dokładnie prędkość kroku z animacji (× tempo) – stopy nie ślizgają się
+        const WALK_TEMPO = 1.7;
+        if (current && current.state === 'walk') current.action.timeScale = WALK_TEMPO;
+        const speed = Math.abs((c && c.drift) || 0.1) * hipsScale * WALK_TEMPO;
         const dx = walk.to.x - model.position.x;
         const dz = walk.to.z - model.position.z;
         const dist = Math.hypot(dx, dz);
@@ -420,7 +431,7 @@ export default function Avatar3D({ url, room }) {
         let diff = face - model.rotation.y;
         while (diff > Math.PI) diff -= Math.PI * 2;
         while (diff < -Math.PI) diff += Math.PI * 2;
-        model.rotation.y += diff * Math.min(1, dt * 5);
+        model.rotation.y += diff * Math.min(1, dt * 7);
         // idzie dopiero, gdy jest mniej więcej zwrócona w stronę celu (najpierw obrót w miejscu)
         const step = !arrived && Math.abs(diff) < 0.9 ? Math.min(dist, speed * dt) : 0;
         model.position.x += (dx / (dist || 1)) * step;
