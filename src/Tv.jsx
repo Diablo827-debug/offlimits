@@ -47,6 +47,7 @@ export default function Tv() {
   // Zegar – co 2 s sprawdzamy, czy gra nie stoi.
   const [now, setNow] = React.useState(Date.now());
   const [hostCue, setHostCue] = React.useState(null);
+  const [qShown, setQShown] = React.useState('');
   React.useEffect(() => { const i = setInterval(() => setNow(Date.now()), 2000); return () => clearInterval(i); }, []);
   // Od kiedy gracz jest poza grą (zegar telewizora) i kiedy ostatnio ktoś zagrał.
   const awaySince = React.useRef({});
@@ -190,8 +191,14 @@ export default function Tv() {
       if (!force && Math.random() > (CHANCE[ev] || 0)) return Promise.resolve();
       const q = quip(host, ev, lang, Object.assign({}, vars, vars && vars.name ? { nameG: nameFor(lang, vars.name) } : {}));
       if (!q) return Promise.resolve();
-      setHostCue(Object.assign({ at: Date.now() }, q));
-      return speak(q.text, Object.assign({}, so, { mood: q.mood })).catch(() => {});
+      const st = r.state;
+      const rd = r.round;
+      // dymek pojawia się dopiero, gdy babcia zaczyna mówić; jeśli etap gry już minął – milczy
+      return speak(q.text, Object.assign({}, so, {
+        mood: q.mood,
+        valid: () => ev === 'end' || ev === 'winner' || ev === 'judge' || (roomRef.current && roomRef.current.state === st && roomRef.current.round === rd),
+        onStart: () => setHostCue(Object.assign({ at: Date.now() }, q)),
+      })).catch(() => {});
     };
 
     // Tryb testowy: boty grają, sędziują i głosują z „ludzkim” opóźnieniem.
@@ -214,9 +221,14 @@ export default function Tv() {
     if (r.state === 'picking') {
       if (black && once('read-' + r.round + '-' + r.black)) {
         (async () => {
+          const qKey = r.round + '-' + r.black;
+          // zabezpieczenie: gdyby lektor utknął, pytanie i tak pojawi się po chwili
+          const guard = setTimeout(() => setQShown(qKey), 12000);
           await hostSay(r.round <= 1 ? 'start' : 'question');
           const cur = roomRef.current;
-          if (cur && cur.state === 'picking' && cur.black === r.black) await speak(black[0], Object.assign({}, so, { mood: 'q' }));
+          if (cur && cur.state === 'picking' && cur.black === r.black) {
+            await speak(black[0], Object.assign({}, so, { mood: 'q', onStart: () => { clearTimeout(guard); setQShown(qKey); } }));
+          } else { clearTimeout(guard); setQShown(qKey); }
         })();
       }
       const played = (u) => subs[u] && subs[u].round === r.round && (subs[u].cards || []).length > 0;
@@ -310,7 +322,7 @@ export default function Tv() {
   return (
     <>
     <TvView
-      room={room} code={code} deck={deck} qr={qr} joinUrl={joinUrl} subs={subs} lite={LITE} hostCue={hostCue}
+      room={room} code={code} deck={deck} qr={qr} joinUrl={joinUrl} subs={subs} lite={LITE} hostCue={hostCue} qShown={qShown}
       minPlayers={MIN_PLAYERS}
       onSettings={(p) => { if ('bots' in p) { M.setBots(code, room, p.bots); return; } M.saveSettings(code, p); if (p.lang) localStorage.setItem('ol_tv_lang', p.lang); if (p.voice || (p.lang && room.lektor !== false)) { unlockSpeech(); setSound(true); speak(tr(okLang(p.lang || room.lang))('voiceSample'), { voice: p.voice || room.voice, lang: okLang(p.lang || room.lang), mood: 's' }); } }}
       onStart={handleStart}

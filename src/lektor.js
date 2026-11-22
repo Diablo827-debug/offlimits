@@ -121,7 +121,21 @@ function emit(on, opts) {
   try { window.dispatchEvent(new CustomEvent('ol-speak', { detail: { on, mood: (opts && opts.mood) || '', enabled: !opts || opts.enabled !== false } })); } catch (e) { /* stare przeglądarki */ }
 }
 
-export async function speak(text, opts) {
+// Kolejka mowy: kolejna wypowiedź czeka, aż poprzednia się skończy – nic się nie nakłada.
+// opts.valid() – jeśli zwróci false w chwili, gdy przyjdzie kolej, wypowiedź jest pomijana (np. etap gry minął).
+// opts.onStart() – wywoływane dokładnie, gdy zaczyna mówić (np. dymek z tekstem prowadzącej).
+let speechChain = Promise.resolve();
+export function speak(text, opts) {
+  const run = speechChain.then(() => {
+    if (opts && typeof opts.valid === 'function' && !opts.valid()) return undefined;
+    if (opts && typeof opts.onStart === 'function') { try { opts.onStart(); } catch (e) { /* nic */ } }
+    return speakNow(text, opts);
+  });
+  speechChain = run.catch(() => {});
+  return run;
+}
+
+async function speakNow(text, opts) {
   const enabled = !opts || opts.enabled !== false;
   if (enabled) musicDuck(true);
   emit(true, opts);

@@ -153,7 +153,7 @@ function Scoreboard({ room, t, hostCue, showHost }) {
 }
 
 
-export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings, onStart, onAgain, onEnd, onNewRoom, minPlayers, lite, onForce, autoIn, showBots, hostCue }) {
+export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings, onStart, onAgain, onEnd, onNewRoom, minPlayers, lite, onForce, autoIn, showBots, hostCue, qShown }) {
   const [confirmEnd, setConfirmEnd] = React.useState(false);
   const t = tr(room.lang || 'pl');
   const pl2 = t('pick2');
@@ -179,7 +179,10 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
     const waiting = players.filter((p) => p.uid !== room.judge && !p.left);
     stage = (
       <>
-        <BlackCard text={black[0]} luki={black[1]} pickLabel={pl2} className="pop-in" key={room.black} />
+        {/* pytanie pojawia się dopiero, gdy prowadząca skończy wstęp i zaczyna je czytać */}
+        {qShown === undefined || qShown === room.round + '-' + room.black
+          ? <BlackCard text={black[0]} luki={black[1]} pickLabel={pl2} className="pop-in" key={room.black} />
+          : <BlackCard text="…" luki={0} pickLabel="" key={'wait' + room.black} />}
         <div className="status-row">
           {waiting.map((p) => {
             const done = subs && subs[p.uid] && subs[p.uid].round === room.round;
