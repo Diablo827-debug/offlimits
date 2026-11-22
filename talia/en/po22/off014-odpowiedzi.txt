@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Po 22:00 (pikantniejsze) · język: en · pakiet OFF014 (karty 1001–1200 z 1502)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-B1001 | A sunrise I only see after parties.
+N-B1002 | Birds singing as I get home.
+N-B1003 | Breakfast with people I met at 3 a.m.
+N-B1004 | Waking up with a cat sitting on your chest.
+N-B1005 | A text from Mom: “Are you alive?”.
+N-B1006 | A reply to Mom: “Yes”.
+N-B1007 | Photos from last night that someone posted in the group.
+N-B1008 | A karaoke video circulating around the office.
+N-B1009 | A meme with my face.
+N-B1010 | A nickname given on a team-building trip.
+N-B1011 | A memory I’d rather not have.
+N-B1012 | A story everyone knows except me.
+N-B1013 | A legend that grows every year.
+N-B1014 | The mystery of the trip to Prague.
+N-B1015 | A photo with an e-scooter in a fountain.
+N-B1016 | A fine from the city guards for singing.
+N-B1017 | A night at the police station nobody talks about.
+N-B1018 | A conversation with a cop about the meaning of life.
+N-B1019 | Apologizing to the neighbors with a cake.
+N-B1020 | A cake that wasn’t enough.
+N-B1021 | The grand homecoming on Sunday evening.
+N-B1022 | Post-trip laundry nobody wants to unpack.
+N-B1023 | A suitcase left unpacked for a week.
+N-B1024 | Post-weekend syndrome.
+N-B1025 | Monday as punishment for the weekend.
+N-B1026 | A Tuesday that feels like a Monday.
+N-B1027 | Wednesday, a.k.a. little Friday.
+N-B1028 | Thursday as the new Friday.
+N-B1029 | Friday the 13th at work.
+N-B1030 | A weekend that went by in 5 minutes.
+N-B1031 | Sunday, a.k.a. preparing for Monday.
+N-B1032 | A series night that ends at 3 a.m.
+N-B1033 | “Just one more episode” times six.
+N-B1034 | A series finale that ruined my life.
+N-B1035 | A spoiler in a news headline.
+N-B1036 | A serial killer documentary before bed.
+N-B1037 | A horror movie after which we sleep with the lights on.
+N-B1038 | A rom-com that made the guy cry.
+N-B1039 | A movie everyone has seen except me.
+N-B1040 | A cartoon I watch without the kids.
+N-B1041 | A board game that destroyed a friendship.
+N-B1042 | A real estate board game that lasted seven hours.
+N-B1043 | Charades with adult-only clues.
+N-B1044 | A card game where you lose your friends.
+N-B1045 | A football video game tournament to decide who does the dishes.
+N-B1046 | A console bought “for the kid”.
+N-B1047 | Video games at 4 a.m. at age 38.
+N-B1048 | A headset fit for a pilot.
+N-B1049 | A gaming chair for an office drone.
+N-B1050 | A heart-to-heart at 3 a.m. in the kitchen.
+N-B1051 | Life philosophy after the fourth beer.
+N-B1052 | A life plan written on a bar napkin.
+N-B1053 | A promise that everything will change on Monday.
+N-B1054 | A list of things to do before forty.
+N-B1055 | A list of things I’ll never do.
+N-B1056 | A bucket list with one item: get some sleep.
+N-B1057 | An inner child who wants ice cream for dinner.
+N-B1058 | An inner pensioner who wants silence.
+N-B1059 | Adulthood as one big mistake.
+N-B1060 | Responsibility nobody wanted.
+N-B1061 | Bills that won’t pay themselves.
+N-B1062 | The first gray hair and the first loan in the same month.
+N-B1063 | The age at which back pain becomes a conversation topic.
+N-B1064 | The age at which a party until 10 p.m. is a success.
+N-B1065 | The age at which a new toilet brush makes you happy.
+N-B1066 | The age at which you stop knowing new songs.
+N-B1067 | Music from the 2000s as “the good old days”.
+N-B1068 | A band I’ve been seeing in concert for 20 years.
+N-B1069 | A concert where I’m the oldest person there.
+N-B1070 | A club where I feel like a parent.
+N-B1071 | The music’s too loud and I’m too old.
+N-B1072 | Noise-cancelling headphones as a refuge from the family.
+N-B1073 | A muted family chat.
+N-B1074 | “Do not disturb” mode from Friday to Monday.
+N-B1075 | The reply “I’ve read it, but I have no energy”.
+N-B1076 | An introvert at a wedding.
+N-B1077 | An extrovert at a funeral.
+N-B1078 | Someone who says “I’m just being honest”.
+N-B1079 | Someone who says “I’m not judging” while judging.
+N-B1080 | “No offense, but…”
+N-B1081 | “I don’t want to say anything, but…”
+N-B1082 | “I just say what I think.”
+N-B1083 | “I’m telling you, it’ll be fine.”
+N-B1084 | “Didn’t I tell you?”
+N-B1085 | “Do whatever you think” as a threat.
+N-B1086 | “I don’t mind” as a trap.
+N-B1087 | “I’m not mad” from a furious wife.
+N-B1088 | “In a minute” from a husband in front of the TV.
+N-B1089 | “I’ll be right there” from someone who won’t come.
+N-B1090 | “We’ll be in touch” from a recruiter.
+N-B1091 | “We’ll come back to this” from the boss.
+N-B1092 | “No problem” from a tradesman about to disappear.
+N-B1093 | “It’ll be ready tomorrow” from the mechanic.
+N-B1094 | “Works on my machine” from the IT guy.
+N-B1095 | “We just have one small problem” from the airplane pilot.
+N-B1096 | “Please don’t get upset” from the government clerk.
+N-B1097 | “Just don’t freak out” from the hairdresser.
+N-B1098 | “Let’s stay in touch” from an ex.
+N-B1099 | “How are you?” from someone who wants to borrow money.
+N-B1100 | “Remember me?” from someone I don’t remember.
+N-B1101 | A high school friend’s MLM business.
+N-B1102 | An invitation to a “business opportunity meeting”.
+N-B1103 | Cookware sold as part of a free trip.
+N-B1104 | A bedding sales show for seniors.
+N-B1105 | A payday loan for Christmas presents.
+N-B1106 | Winning a contest that turned out to be a scam.
+N-B1107 | A message from a distant prince who wants to share his inheritance.
+N-B1108 | A text: “Mom, I lost my phone, send me a transfer code”.
+N-B1109 | A courier asking for an extra 30 cents.
+N-B1110 | A bank email full of spelling mistakes.
+N-B1111 | The password “qwerty123”.
+N-B1112 | All passwords written in a notebook.
+N-B1113 | A forgotten email password from 2008.
+N-B1114 | Two-factor authentication in the middle of the night.
+N-B1115 | A captcha I can’t solve.
+N-B1116 | Proof that I’m not a robot.
+N-B1117 | A robot that claims it isn’t a robot.
+N-B1118 | Artificial intelligence that writes my emails.
+N-B1119 | A chatbot that understands me better than my partner.
+N-B1120 | A voice assistant that turns on by itself.
+N-B1121 | A smart fridge that gives away my lifestyle.
+N-B1122 | A smartwatch that judges me.
+N-B1123 | A meditation app that stresses me out.
+N-B1124 | A savings app that shows the truth.
+N-B1125 | A dating app as a mobile game.
+N-B1126 | A water-drinking app I ignore.
+N-B1127 | A notification: “Your screen time went up 40%”.
+N-B1128 | The phone as an extension of your hand.
+N-B1129 | A phone that fell into the toilet.
+N-B1130 | A cracked screen I refuse to replace on principle.
+N-B1131 | A charger borrowed and never returned.
+N-B1132 | A power bank for a wedding.
+N-B1133 | 2% battery on a date.
+N-B1134 | A whole year of photos in the gallery I’ll never look at.
+N-B1135 | A cloud full of screenshots.
+N-B1136 | A screenshot of a chat sent to the wrong person.
+N-B1137 | The “Girls” group chat gossiping about the guys.
+N-B1138 | The “Guys” group chat with nothing but memes.
+N-B1139 | A wedding group chat still active three years later.
+N-B1140 | A family group chat where someone added the ex-wife.
+N-B1141 | A shared calendar nobody checks.
+N-B1142 | A birthday reminder from Facebook.
+N-B1143 | Copy-paste birthday wishes.
+N-B1144 | A Christmas card with the company logo.
+N-B1145 | A box of chocolates for every occasion.
+N-B1146 | A gift bottle of wine circulating around the family.
+N-B1147 | A supermarket cosmetics set for Women’s Day.
+N-B1148 | Socks saying “Best Dad”.
+N-B1149 | A “Best Mother-in-Law” mug, sarcastically.
+N-B1150 | A T-shirt saying “Don’t ask when the wedding is”.
+N-B1151 | A pillow with my partner’s face on it.
+N-B1152 | A photo book of our vacation.
+N-B1153 | A skydiving voucher for someone afraid of heights.
+N-B1154 | A spa voucher that expired.
+N-B1155 | Theater tickets for a play about divorce.
+N-B1156 | A surprise dinner with my ex as the waitress.
+N-B1157 | A romantic cruise with seasickness.
+N-B1158 | A roller coaster on a first date.
+N-B1159 | An escape room with the in-laws.
+N-B1160 | Paintball with the HR department.
+N-B1161 | Bowling with the board of directors.
+N-B1162 | Karaoke with the accountant.
+N-B1163 | An office Christmas party with a team-bonding survey.
+N-B1164 | An ugly Christmas sweater contest.
+N-B1165 | A Secret Santa draw that always lands on the boss.
+N-B1166 | A 5-euro present from the boss.
+N-B1167 | A 12-euro drugstore voucher as an annual bonus.
+N-B1168 | Doughnut day at the office with yesterday’s doughnuts.
+N-B1169 | A cake in the office kitchen that disappears in 4 minutes.
+N-B1170 | A coworker’s birthday with a whip-round for a present.
+N-B1171 | A whip-round where everyone chips in 1 euro.
+N-B1172 | A birthday card signed by people who don’t know him.
+N-B1173 | A coworker who brings garlic-heavy lunches to work.
+N-B1174 | The office microwave with a queue at noon.
+N-B1175 | The office fridge as a crime scene.
+N-B1176 | A mug with someone else’s name on it.
+N-B1177 | The eternal question “who didn’t wash their mug?”.
+N-B1178 | A note on the sink: “Your mother doesn’t work here”.
+N-B1179 | Air conditioning set to 60°F.
+N-B1180 | A window opened in January by the coworker who loves ice swimming.
+N-B1181 | A coworker who sneezes without covering his mouth.
+N-B1182 | A coworker who always has cake.
+N-B1183 | People who eat apples during meetings.
+N-B1184 | An office chair that keeps sinking.
+N-B1185 | A desk by a window with no blinds.
+N-B1186 | An ergonomic footrest nobody uses.
+N-B1187 | A motivational poster with an eagle.
+N-B1188 | Company values printed on the wall.
+N-B1189 | A company mission nobody understands.
+N-B1190 | An annual strategy that collapses in February.
+N-B1191 | A reorganization every six months.
+N-B1192 | A new CEO with a new vision.
+N-B1193 | Restructuring, a.k.a. layoffs.
+N-B1194 | A conversation “over coffee” with HR.
+N-B1195 | An employee satisfaction survey read only by its author.
+N-B1196 | The same employee of the month for three years.
+N-B1197 | A promotion without a raise.
+N-B1198 | A raise without a promotion.
+N-B1199 | A new job title instead of money.
+N-B1200 | “Junior Senior Specialist”.

@@ -1,0 +1,206 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Bez tabu (18+) · język: pl · pakiet OFF021 (karty 801–997 z 997)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - X-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+X-B0801 | Hipster, który został księdzem dla estetyki.
+X-B0802 | Sutanna, która wygląda jak sukienka.
+X-B0803 | Sukienka, którą wujek założył na wieczór panieński siostry.
+X-B0804 | Wieczór kawalerski, na którym striptizer był moim kolegą.
+X-B0805 | Striptizer, który okazał się synem sołtysa.
+X-B0806 | Syn sołtysa, który pisze do mnie w nocy.
+X-B0807 | Wiadomość „hej” o 2 w nocy od kogoś z żoną.
+X-B0808 | Żonaty radny na aplikacji randkowej.
+X-B0809 | Profil bez twarzy z napisem „dyskretny”.
+X-B0810 | Dyskrecja w miasteczku na 3000 mieszkańców.
+X-B0811 | Sekret, który zna każdy w kolejce w piekarni.
+X-B0812 | Piekarnia jako centrum informacji gminy.
+X-B0813 | Kolejka w piekarni jako parlament.
+X-B0814 | Wybory w gminie wygrane różnicą trzech głosów.
+X-B0815 | Trzy głosy, które oddała moja rodzina.
+X-B0816 | Głos nieważny z napisem „wszyscy do domu”.
+X-B0817 | Karta wyborcza z narysowanym penisem.
+X-B0818 | Komisja wyborcza, która się śmiała do rana.
+X-B0819 | Polityk, który nie umie zrobić przelewu.
+X-B0820 | Polityk, który nie wie, ile kosztuje chleb.
+X-B0821 | Polityk, który zgubił mapę swojego okręgu.
+X-B0822 | Polityk, który wysłał zdjęcie nie do tej grupy.
+X-B0823 | Polityk przyłapany na paradzie równości w peruce.
+X-B0824 | Polityk w szafie z tęczowym krawatem.
+X-B0825 | Radny, który głosował przeciwko, a potem przyszedł na after.
+X-B0826 | Ksiądz, który głosował na wszystkich, żeby nikogo nie urazić.
+X-B0827 | Kandydat, którego jedynym programem jest nowy chodnik.
+X-B0828 | Chodnik, który budowano dwie kadencje.
+X-B0829 | Most, który nigdzie nie prowadzi.
+X-B0830 | Aquapark w gminie bez wody.
+X-B0831 | Lotnisko, na którym nie ląduje nic.
+X-B0832 | Stadion, na którym gra tylko proboszcz.
+X-B0833 | Ścieżka rowerowa, która kończy się w rowie.
+X-B0834 | Rów, w którym zawsze ląduje sąsiad po imprezie.
+X-B0835 | Sąsiad, który ma flagę na każde święto i każdą partię.
+X-B0836 | Flaga, którą wujek wywiesza, żeby wkurzyć sąsiada.
+X-B0837 | Wojna flagowa na balkonach.
+X-B0838 | Balkon jako narzędzie polityczne.
+X-B0839 | Grill jako przestrzeń debaty publicznej.
+X-B0840 | Kiełbasa jako argument.
+X-B0841 | Musztarda, którą ktoś rzucił w posła.
+X-B0842 | Jajko rzucone na wiecu.
+X-B0843 | Pomidor jako krytyka polityczna.
+X-B0844 | Protest na Facebooku z jednym lajkiem.
+X-B0845 | Petycja, którą podpisała tylko moja mama.
+X-B0846 | Mama, która podpisuje każdą petycję.
+X-B0847 | Mama, która podpisała petycję przeciw sobie.
+X-B0848 | Teściowa, która ma większy wpływ niż minister.
+X-B0849 | Minister, który boi się teściowej.
+X-B0850 | Rząd, który boi się babć.
+X-B0851 | Babcie, które obaliłyby rząd w jedno popołudnie.
+X-B0852 | Koło Gospodyń Wiejskich jako najsilniejsza partia w Polsce.
+X-B0853 | Gospodyni, która gotuje lepiej, niż rządzi rząd.
+X-B0854 | Kandydatka na wójta z najlepszym sernikiem.
+X-B0855 | Sernik jako program wyborczy.
+X-B0856 | Tort w kształcie Sejmu.
+X-B0857 | Sejm w kształcie tortu, z którego każdy coś bierze.
+X-B0858 | Sztuka kompromisu na wigilii.
+X-B0859 | Polski kompromis: wszyscy niezadowoleni.
+X-B0860 | Kłótnia, która zaczęła się o karpia, a skończyła o aborcję.
+X-B0861 | Wujek, który nie wie, co to znaczy LGBT, ale jest przeciw.
+X-B0862 | Ciocia, która myli LGBT z LPG.
+X-B0863 | Literki, których dziadek nie umie wymówić.
+X-B0864 | Plus na końcu, który wkurza wujka najbardziej.
+X-B0865 | Słowo „gender” wypowiedziane szeptem.
+X-B0866 | Słowo „gej” wypowiedziane przez babcię z dumą.
+X-B0867 | Mój mąż, który mówi do babci „babciu”.
+X-B0868 | Babcia, która dzwoni do mojego męża zamiast do mnie.
+X-B0869 | Rodzinne zdjęcie, na którym mąż jest w środku.
+X-B0870 | Świąteczna kartka podpisana „od chłopców”.
+X-B0871 | Chłopcy, którzy mają po 45 lat.
+X-B0872 | Starość we dwóch z kotem i ogródkiem.
+X-B0873 | Dom spokojnej starości dla starych gejów z barem.
+X-B0874 | Emerytura, na której wreszcie mogę powiedzieć, co myślę.
+X-B0875 | Dziadek, który na emeryturze wreszcie powiedział, co myśli.
+X-B0876 | Prawda, którą powiedział dziadek po 80. urodzinach.
+X-B0877 | Spowiedź dziadka, która zszokowała księdza.
+X-B0878 | Ksiądz, który poprosił dziadka o radę.
+X-B0879 | Rada dziadka na wszystko: „Napij się”.
+X-B0880 | Wódka, która rozwiązała konflikt bliskowschodni na weselu.
+X-B0881 | Wesele, na którym pobili się świadkowie.
+X-B0882 | Świadek, który był moim byłym.
+X-B0883 | Panna młoda, która wie o wszystkim.
+X-B0884 | Pan młody, który wie o wszystkim, ale nie mówi.
+X-B0885 | Teściowie, którzy wiedzą najmniej.
+X-B0886 | Ksiądz na weselu, który wie najwięcej.
+X-B0887 | Fotograf, który widział za dużo.
+X-B0888 | Kamerzysta, który nagrał to, czego nie powinien.
+X-B0889 | Film z wesela, którego nikt nie może zobaczyć.
+X-B0890 | Oczepiny, na których mnie wylosowali do konkursu dla par.
+X-B0891 | Konkurs na weselu z moim mężem w roli „panny”.
+X-B0892 | Wujek przebrany za kobietę na weselu.
+X-B0893 | Wujek, któremu podobało się przebranie trochę za bardzo.
+X-B0894 | Disco polo o miłości dwóch chłopaków.
+X-B0895 | Remiza, w której tańczy cała wieś do Madonny.
+X-B0896 | Wieś, która przyjęła nas lepiej niż miasto.
+X-B0897 | Miasto, które udaje, że jest tolerancyjne.
+X-B0898 | Warszawka, która wie lepiej.
+X-B0899 | Kraków, w którym wszyscy są artystami.
+X-B0900 | Poznań, w którym liczą każdą złotówkę na paradzie.
+X-B0901 | Śląsk, w którym na paradzie są kluski.
+X-B0902 | Gdańsk, w którym parada idzie przez molo.
+X-B0903 | Zakopane, gdzie góral sprzedaje tęczowe oscypki.
+X-B0904 | Tęczowy oscypek.
+X-B0905 | Bałtyk z parawanami w tęczę.
+X-B0906 | Parawan jako granica państwa.
+X-B0907 | Polska plaża jako mapa podziałów politycznych.
+X-B0908 | Wakacje w Chorwacji z połową naszej parafii.
+X-B0909 | Wakacje w Grecji, na których ksiądz był bez koloratki.
+X-B0910 | Ksiądz bez koloratki w barze w Mykonos.
+X-B0911 | Mykonos jako polskie sanktuarium.
+X-B0912 | Sanktuarium, w którym można kupić magnes, różaniec i nalewkę.
+X-B0913 | Sklep z dewocjonaliami z promocją na Black Friday.
+X-B0914 | Figurka papieża z napędem solarnym.
+X-B0915 | Papież machający z deski rozdzielczej.
+X-B0916 | Kalendarz z księżmi, który ciocia trzyma pod łóżkiem.
+X-B0917 | Kalendarz strażaków ochotników.
+X-B0918 | Strażak ochotnik, który gasi tylko moje serce.
+X-B0919 | Ochotnicza Straż Pożarna jako klub towarzyski.
+X-B0920 | Bal strażacki, na którym wszystko się wydarzyło.
+X-B0921 | Remiza jako miejsce wszystkich grzechów gminy.
+X-B0922 | Grzechy gminy wypisane na tablicy ogłoszeń.
+X-B0923 | Tablica ogłoszeń z kartką „Zginął kot i zasady moralne”.
+X-B0924 | Zasady moralne, które zginęły na sylwestrze.
+X-B0925 | Sylwester z księdzem i wodą gazowaną.
+X-B0926 | Sylwester u teściowej z Polsatem.
+X-B0927 | Noworoczne postanowienie: nie kłócić się o politykę.
+X-B0928 | Postanowienie, które wytrzymało do drugiego stycznia.
+X-B0929 | Trzech Króli w urzędzie, bo zgubili dowody.
+X-B0930 | Ferie zimowe, na których ksiądz zjeżdżał najszybciej.
+X-B0931 | Tłusty czwartek jako najważniejsze święto katolickie.
+X-B0932 | Pączek jako hostia ludowa.
+X-B0933 | Śledzik w ostatki z konsekwencjami.
+X-B0934 | Popielec po śledziku.
+X-B0935 | Wielki Post bez alkoholu przez całe trzy dni.
+X-B0936 | Gorzkie żale w wykonaniu wujka po wypłacie.
+X-B0937 | Palma wielkanocna wyższa niż kościół.
+X-B0938 | Konkurs na najwyższą palmę jako sport ekstremalny.
+X-B0939 | Lany poniedziałek z wiadrem wody od sąsiada.
+X-B0940 | Śmigus-dyngus z gaśnicą.
+X-B0941 | Majówka z grillem i kłótnią o rząd.
+X-B0942 | Boże Ciało z ołtarzami i reklamą sklepu.
+X-B0943 | Procesja przez parking dyskontu.
+X-B0944 | Sypanie kwiatów pod nogi proboszcza.
+X-B0945 | Proboszcz pod baldachimem jak gwiazda rocka.
+X-B0946 | Rock and roll na plebanii.
+X-B0947 | Plebania jako najlepszy klub w okolicy.
+X-B0948 | Ksiądz DJ.
+X-B0949 | Ksiądz raper z płytą o grzechu.
+X-B0950 | Ksiądz, który ma więcej fanek niż boysband.
+X-B0951 | Fanki księdza w pierwszej ławce.
+X-B0952 | Rozbita parafia po przeniesieniu przystojnego wikarego.
+X-B0953 | Wikary, który był ostatnią nadzieją młodzieży.
+X-B0954 | Wikary, który wyjechał z organistą.
+X-B0955 | Organista i wikary jako para roku.
+X-B0956 | Para roku według parafialnej gazetki.
+X-B0957 | Gazetka parafialna z ploteczkami.
+X-B0958 | Krzyżówka w gazetce parafialnej z hasłem „Pokuta”.
+X-B0959 | Ogłoszenie duszpasterskie o zakazie tańców.
+X-B0960 | Zakaz tańców, który nikogo nie obchodzi.
+X-B0961 | Taniec na stole na chrzcinach.
+X-B0962 | Chrzciny, na których dziecko było najtrzeźwiejsze.
+X-B0963 | Chrzestny, który zapomniał imienia dziecka.
+X-B0964 | Chrzestna, która jest ateistką i lesbijką.
+X-B0965 | Chrzestni wybrani, bo mają najlepsze auto.
+X-B0966 | Prezent na chrzciny: złoty łańcuch i Biblia.
+X-B0967 | Prezent na komunię: quad.
+X-B0968 | Komunia, na której dzieci dostały więcej niż na weselu.
+X-B0969 | Wesele, które kosztowało tyle co mieszkanie.
+X-B0970 | Mieszkanie, które dostaje się dopiero po śmierci babci.
+X-B0971 | Babcia, która zapisała mieszkanie kotu.
+X-B0972 | Kot, który odziedziczył wszystko.
+X-B0973 | Kot, który jest prawdziwym głową rodziny.
+X-B0974 | Rodzina, w której rządzi babcia, a babcią rządzi kot.
+X-B0975 | Pies, który poszedł z nami na mszę.
+X-B0976 | Msza dla zwierząt, na której koza zjadła modlitewnik.
+X-B0977 | Święcenie zwierząt na świętego Franciszka.
+X-B0978 | Święty Franciszek jako patron mojego chłopaka.
+X-B0979 | Patron od zagubionych rzeczy, w tym godności.
+X-B0980 | Godność, którą zostawiłem na weselu kuzyna.
+X-B0981 | Kac na pierwszej komunii siostrzeńca.
+X-B0982 | Wódka w termosie na pogrzebie.
+X-B0983 | Pogrzeb z orkiestrą dętą i disco polo.
+X-B0984 | Stypa, na której wszyscy się pogodzili.
+X-B0985 | Stypa, na której wszyscy się pokłócili.
+X-B0986 | Spadek po wujku: kolekcja znaczków i sekretny chłopak.
+X-B0987 | Sekretny chłopak wujka na stypie.
+X-B0988 | Wujek, który zawsze był „kawalerem z wyboru”.
+X-B0989 | Kawaler z wyboru i jego „lokator”.
+X-B0990 | Lokator, który dostał w spadku dom.
+X-B0991 | Dom, w którym zawsze było dwóch panów i dużo kwiatów.
+X-B0992 | Kwiaty, którymi wujek zajmował się z „kolegą”.
+X-B0993 | Kolega wujka, który przychodził na wszystkie święta.
+X-B0994 | Rodzina, która dopiero teraz zrozumiała, kim był wujek.
+X-B0995 | Szacunek, który przyszedł za późno.
+X-B0996 | Tolerancja jako najnowszy trend w naszej rodzinie.
+X-B0997 | Moja rodzina, która nie ma tematów tabu.

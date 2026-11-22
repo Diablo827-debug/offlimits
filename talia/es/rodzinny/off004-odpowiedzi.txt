@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Rodzinny (dla wszystkich) · język: es · pakiet OFF004 (karty 601–800 z 1512)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-B0601 | Salir el último en la foto.
+R-B0602 | Ser el primero en la cola de la tarta.
+R-B0603 | Inventarse el final de un cuento.
+R-B0604 | Comprar algo solo porque estaba de oferta.
+R-B0605 | Salir de la tienda de muebles con una lámpara y veinte velas.
+R-B0606 | Bajarse en la parada equivocada.
+R-B0607 | Confundir a tu hermana con tu madre por teléfono.
+R-B0608 | Olvidar tu propio nombre al presentarte.
+R-B0609 | Pisar un charco con zapatos nuevos.
+R-B0610 | Un bocadillo que lleva una semana en el bolsillo.
+R-B0611 | Oler un libro nuevo.
+R-B0612 | Darle una patada a la máquina expendedora.
+R-B0613 | Marcar en propia puerta.
+R-B0614 | Ganar en la tómbola.
+R-B0615 | Correr una maratón hasta la nevera.
+R-B0616 | Hacerte un café y no bebértelo.
+R-B0617 | Aprender a hacer malabares con naranjas.
+R-B0618 | Inventar un plato nuevo con sobras.
+R-B0619 | Comerse una guindilla por una apuesta.
+R-B0620 | Bañarse en un lago en octubre.
+R-B0621 | Hacer un muñeco de nieve con barro.
+R-B0622 | Descubrir un planeta nuevo desde el balcón.
+R-B0623 | Correr por el prado con un molinillo de viento.
+R-B0624 | Dormir en clase con los ojos abiertos.
+R-B0625 | Rascarse la espalda con un tenedor.
+R-B0626 | Ordenar el cuarto metiéndolo todo debajo de la cama.
+R-B0627 | Abrir un regalo y fingir que te encanta.
+R-B0628 | Bostezar en una boda.
+R-B0629 | Hacer una tarta sin receta.
+R-B0630 | Adivinar lo que hay de comer por el olor.
+R-B0631 | Perderse el final del partido por los anuncios.
+R-B0632 | Comprar billete para el tren equivocado.
+R-B0633 | Buscar el cargador por toda la casa.
+R-B0634 | Hablar con latas unidas por una cuerda.
+R-B0635 | Tumbarse en la hierba a mirar las nubes.
+R-B0636 | Llevar la camiseta del revés todo el día.
+R-B0637 | Pescar un pez dorado y soltarlo.
+R-B0638 | Hacer de dinosaurio para tu hermano pequeño.
+R-B0639 | Cumplir años el 24 de diciembre.
+R-B0640 | Olvidar dónde has aparcado el coche.
+R-B0641 | Ir al colegio un sábado.
+R-B0642 | Dar la mano con la izquierda.
+R-B0643 | No ver al gato dormido en el sillón y sentarte encima.
+R-B0644 | Hacer fotos de cada comida.
+R-B0645 | Salir del cine antes del final.
+R-B0646 | Reírte más que nadie de tu propio chiste.
+R-B0647 | Hacerte el listo delante de la suegra.
+R-B0648 | Dar 10.000 pasos por casa.
+R-B0649 | Perder al ajedrez contra el abuelo.
+R-B0650 | Abrazar al abuelo al llegar.
+R-B0651 | Decirle adiós a la abuela desde la ventanilla del tren.
+R-B0652 | Acostarse y pensar en mañana.
+R-B0653 | Recibir chocolate como consuelo.
+R-B0654 | Ganarle a tu hermana la carrera al baño.
+R-B0655 | Tener el lunes libre.
+R-B0656 | Darle una sorpresa a mamá.
+R-B0657 | Preparar el desayuno a la familia.
+R-B0658 | Montar en bici sin ruedines por primera vez.
+R-B0659 | El primer diente de leche en un vaso.
+R-B0660 | Unas vacaciones sin deberes.
+R-B0661 | Un día sin móvil.
+R-B0662 | Una noche sin tele.
+R-B0663 | Paz en casa durante cinco minutos enteros.
+R-B0664 | El silencio cuando se van las visitas.
+R-B0665 | Fregar después de la cena de Nochebuena.
+R-B0666 | La gran limpieza antes de las fiestas.
+R-B0667 | Limpiar las ventanas antes de Pascua.
+R-B0668 | Sacudir la alfombra en el patio.
+R-B0669 | Lavar los visillos.
+R-B0670 | Tres personas cambiando una bombilla.
+R-B0671 | Cambiar los muebles de sitio cada seis meses.
+R-B0672 | Pintar el pasillo de color «salmón».
+R-B0673 | Una reforma que dura desde 2017.
+R-B0674 | Azulejos torcidos.
+R-B0675 | Papel pintado de flores.
+R-B0676 | Un suelo laminado que cruje.
+R-B0677 | Un espejo que hace a todos más delgados.
+R-B0678 | Una báscula que miente.
+R-B0679 | Un cepillo de dientes de dueño desconocido.
+R-B0680 | Pasta de dientes apretada por el medio.
+R-B0681 | Una toalla que nunca se seca.
+R-B0682 | Un patito de goma en la bañera.
+R-B0683 | Espuma hasta el techo.
+R-B0684 | Bañar al perro en la bañera.
+R-B0685 | Agua que de repente sale fría.
+R-B0686 | Papel higiénico puesto al revés.
+R-B0687 | Lectura en el váter.
+R-B0688 | Un ambientador de «brisa marina».
+R-B0689 | Paz y tranquilidad.
+R-B0690 | El lunes.
+R-B0691 | El viernes por la tarde.
+R-B0692 | La siesta del domingo.
+R-B0693 | Un día sin cole por el frío.
+R-B0694 | El primer día de vacaciones.
+R-B0695 | El último día de vacaciones.
+R-B0696 | El cambio al horario de invierno.
+R-B0697 | La noche antes de un examen.
+R-B0698 | Nieve en abril.
+R-B0699 | Un calor de muerte en junio.
+R-B0700 | Una tormenta con rayos encima de casa.
+R-B0701 | Un arcoíris después de la lluvia.
+R-B0702 | Una niebla tan espesa que no ves al vecino.
+R-B0703 | Un vendaval que tumbó la cama elástica.
+R-B0704 | Granizo del tamaño de nueces.
+R-B0705 | Veinte grados bajo cero.
+R-B0706 | El sol dando de lleno en la tele.
+R-B0707 | Un charco delante del colegio.
+R-B0708 | Barro hasta las rodillas.
+R-B0709 | Un tiempo de perros.
+R-B0710 | Una previsión del tiempo que siempre miente.
+R-B0711 | La puesta de sol sobre el lago.
+R-B0712 | La luna llena.
+R-B0713 | Una estrella fugaz.
+R-B0714 | Extraterrestres en el huerto.
+R-B0715 | Un fantasma en un castillo viejo.
+R-B0716 | El dragón de Cracovia.
+R-B0717 | La sirena de Varsovia.
+R-B0718 | Los enanitos de Breslavia.
+R-B0719 | Un basilisco en el sótano.
+R-B0720 | El Ratoncito Pérez.
+R-B0721 | Papá Noel de vacaciones.
+R-B0722 | El conejo de Pascua a dieta.
+R-B0723 | Un elfo que no quiere trabajar.
+R-B0724 | Un reno con mocos.
+R-B0725 | Un muñeco de nieve derretido.
+R-B0726 | Un mago con un título de internet.
+R-B0727 | Un caballero en patinete.
+R-B0728 | Una princesa a la que le gusta más el fútbol.
+R-B0729 | Un pirata con loro y GPS.
+R-B0730 | Un dinosaurio en un museo.
+R-B0731 | Un robot que quiere ser cocinero.
+R-B0732 | Un superhéroe con una toalla de capa.
+R-B0733 | Un ninja en zapatillas de estar por casa.
+R-B0734 | Un vaquero montado en un poni.
+R-B0735 | Un astronauta con un bocadillo.
+R-B0736 | Un detective buscando un calcetín.
+R-B0737 | Un bombero rescatando a un gato de un árbol.
+R-B0738 | Un policía con su señal de stop.
+R-B0739 | Un cartero que siempre viene cuando no hay nadie.
+R-B0740 | Un repartidor que lanza el paquete.
+R-B0741 | El señor de la compañía del agua.
+R-B0742 | Un fontanero que vino a las tres semanas.
+R-B0743 | Un peluquero que «solo va a cortar las puntas».
+R-B0744 | Un dentista con el torno.
+R-B0745 | La señora de la ventanilla de Correos.
+R-B0746 | Una cajera que lo ha visto todo.
+R-B0747 | Un conductor de autobús que no espera.
+R-B0748 | El cura bendiciendo las casas.
+R-B0749 | El alcalde del pueblo con un megáfono.
+R-B0750 | Un socorrista en la piscina.
+R-B0751 | Una monitora de aeróbic.
+R-B0752 | El entrenador de fútbol del barrio.
+R-B0753 | Un profesor jubilado.
+R-B0754 | La seño de la guardería.
+R-B0755 | Un médico de cabecera con cola hasta el pasillo.
+R-B0756 | Un veterinario enamorado de los gatos.
+R-B0757 | Un granjero con su tractor.
+R-B0758 | Un cocinero de la tele.
+R-B0759 | Un vendedor del mercadillo.
+R-B0760 | El heladero.
+R-B0761 | Un músico callejero que toca una sola canción.
+R-B0762 | La señora de la floristería.
+R-B0763 | Un panadero a las 4 de la mañana.
+R-B0764 | Un apicultor con el traje completo.
+R-B0765 | Un guarda forestal que conoce cada árbol.
+R-B0766 | El manitas del barrio.
+R-B0767 | Una vecina que lo ve todo detrás del visillo.
+R-B0768 | Un vecino que siempre pide la escalera.
+R-B0769 | Los niños de los vecinos jugando al fútbol a las 22:00.
+R-B0770 | Un perro que lleva 10 años ladrándole al cartero.
+R-B0771 | Mi mejor amigo de primaria.
+R-B0772 | Mi primer amor de la guardería.
+R-B0773 | Un amigo que siempre llega tarde.
+R-B0774 | Una amiga que siempre se entera la primera.
+R-B0775 | El payaso de la clase.
+R-B0776 | El empollón de primera fila.
+R-B0777 | El alumno nuevo de otra ciudad.
+R-B0778 | El delegado de clase.
+R-B0779 | El presidente del consejo de estudiantes.
+R-B0780 | La señora del baño del cine.
+R-B0781 | Un acomodador con linterna.
+R-B0782 | El señor que siempre se sienta en mi sitio.
+R-B0783 | Un turista con calcetines y sandalias.
+R-B0784 | Un hincha con bufanda en verano.
+R-B0785 | Un ciclista en mallas ajustadas.
+R-B0786 | Un corredor a las 6 de la mañana.
+R-B0787 | Una señora con el carrito lleno de compra.
+R-B0788 | Un bebé llorando en el avión.
+R-B0789 | Un pasajero comiendo huevos duros en el tren.
+R-B0790 | Alguien hablando con el altavoz en el autobús.
+R-B0791 | El mercadillo del sábado.
+R-B0792 | La plaza mayor de un pueblo.
+R-B0793 | La estación a medianoche.
+R-B0794 | Una parada de autobús bajo la lluvia.
+R-B0795 | El centro comercial un domingo de apertura.
+R-B0796 | Un parque infantil con un solo columpio.
+R-B0797 | La pista del colegio.
+R-B0798 | Un parque con un comedero para pájaros.
+R-B0799 | Una iglesia con misa a las 7:00.
+R-B0800 | El parque de bomberos del pueblo.

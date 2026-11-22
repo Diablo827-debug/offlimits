@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Rodzinny (dla wszystkich) · język: es · pakiet OFF005 (karty 401–500 z 560)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-C401 | El sonido favorito de mamá es ____.
+R-C402 | El principal problema de todo coche familiar: ____.
+R-C403 | ¿Qué no se le puede enseñar a la tía?
+R-C404 | El mejor equipo del partido familiar: ____.
+R-C405 | ¿Qué pasa en el desván?
+R-C406 | El peor enemigo de la abuela en la cocina es ____.
+R-C407 | Mi sueño de la infancia: ____.
+R-C408 | Pelea por el último trozo de pizza. Bando uno: ____. Bando dos: ____.
+R-C409 | ¿Qué les dice el abuelo a las palomas?
+R-C410 | El peor regalo para una profesora es ____.
+R-C411 | ¿Qué hay en el sobre de los abuelos?
+R-C412 | Lo mejor que se puede hacer bajo la lluvia: ____.
+R-C413 | ¿Qué hace el pez cuando apagamos la luz?
+R-C414 | El nuevo récord familiar comiendo empanadillas: ____.
+R-C415 | ¿Qué le esconde mamá a papá?
+R-C416 | Lo más raro que ha comprado papá por internet es ____.
+R-C417 | En cada reunión familiar siempre hay ____.
+R-C418 | La cocina de mamá. Plato del día: ____. Postre: ____.
+R-C419 | ¿Qué hicimos con el árbol de Navidad en febrero?
+R-C420 | El mejor picoteo para ver una peli: ____.
+R-C421 | ¿Qué lleva todo tío a una boda?
+R-C422 | La historia más famosa del abuelo empieza así: ____.
+R-C423 | ¿Qué no se debe hacer en Nochebuena?
+R-C424 | Mi parte favorita de la comida en casa de la abuela: ____.
+R-C425 | ¿Qué trajo el perro del paseo?
+R-C426 | El peor sitio para ir de vacaciones: ____.
+R-C427 | ¿Qué pasará cuando se acabe el café?
+R-C428 | Nuevo videojuego. Héroe: ____. Enemigo: ____.
+R-C429 | El nombre de calle más raro es ____.
+R-C430 | ¿Qué hace mi hermano pequeño cuando nadie mira?
+R-C431 | El mejor regalo para un gato: ____.
+R-C432 | ¿Qué dice la abuela de mi novia?
+R-C433 | La estrella del karaoke familiar: ____.
+R-C434 | ¿Qué robó el gato de la mesa?
+R-C435 | Lo peor de la guardería es ____.
+R-C436 | ¿Qué lleva siempre mamá en el bolso para emergencias?
+R-C437 | Mi recuerdo más bonito de las vacaciones: ____.
+R-C438 | El cumpleaños soñado: ____, ____ y tarta.
+R-C439 | ¿Qué dice el vecino a través de la pared?
+R-C440 | Lo mejor que te puede pasar un lunes es ____.
+R-C441 | ¿Qué hace papá con la tarjeta de crédito de mamá?
+R-C442 | La palabra favorita de un niño de dos años: ____.
+R-C443 | El plato más raro de una boda es ____.
+R-C444 | ¿Qué pasa en una tienda después de cerrar?
+R-C445 | El mayor desastre culinario de papá: ____.
+R-C446 | ¿Qué guarda la abuela en la mesilla de noche?
+R-C447 | La mejor forma de acabar con las peleas familiares en la mesa: ____.
+R-C448 | Mímica. La respuesta: ____. Lo que adivinan todos: ____.
+R-C449 | ¿Qué hace el tío cuando va a pescar?
+R-C450 | La mejor idea para el Día de los Abuelos: ____.
+R-C451 | ¿Qué apareció en nuestra calle por la noche?
+R-C452 | El peor momento para hablar con tus padres es ____.
+R-C453 | ¿Qué piensa el hámster de su rueda?
+R-C454 | El plato más popular de nuestra casa: ____.
+R-C455 | ¿Qué hay de fantasma en el vestuario del colegio?
+R-C456 | Lo mejor de un domingo por la mañana es ____.
+R-C457 | ¿Qué mete la tía de contrabando en la boda dentro del bolso?
+R-C458 | La familia de vacaciones. Papá: ____. Mamá: ____.
+R-C459 | ¿Qué hace el perro durante una tormenta?
+R-C460 | La costumbre más rara de nuestra familia: ____.
+R-C461 | ¿Qué se esconde en el viejo álbum de fotos?
+R-C462 | El mejor premio por ordenar tu cuarto: ____.
+R-C463 | ¿Qué hace la abuela con el mando a distancia?
+R-C464 | El peor regalo de inauguración de casa es ____.
+R-C465 | ¿Qué hacer cuando te pierdes en una tienda de muebles?
+R-C466 | El dicho favorito del abuelo: ____.
+R-C467 | ¿Qué pasó con la última galleta?
+R-C468 | La primera cita de los abuelos: el cine, ____ y ____.
+R-C469 | La mejor forma de animar una boda aburrida: ____.
+R-C470 | ¿Qué dice el gato cuando su cuenco está vacío?
+R-C471 | El regalo más raro de la tía es ____.
+R-C472 | ¿Qué guarda papá en la guantera del coche?
+R-C473 | El mayor misterio de las matemáticas: ____.
+R-C474 | ¿Qué pasa en el baño a las 7 de la mañana?
+R-C475 | La mejor idea para unas vacaciones en familia es ____.
+R-C476 | ¿Qué hará mamá si le toca la lotería?
+R-C477 | El color favorito de la abuela es ____.
+R-C478 | Nueva canción de verbena: «Tú eres ____ y yo ____».
+R-C479 | ¿Qué hacen los gnomos en el jardín?
+R-C480 | El peor regalo de un hermano: ____.
+R-C481 | ¿Qué hay en el paquete que nadie pidió?
+R-C482 | La mejor diversión en una reunión familiar: ____.
+R-C483 | ¿Qué dice la nevera por la noche?
+R-C484 | Mi parte favorita del colegio es ____.
+R-C485 | ¿Qué no puede faltar en un pícnic familiar?
+R-C486 | Pelea familiar por las vacaciones: ¿montaña, playa o ____? Gana ____.
+R-C487 | Lo más raro que ha hecho nuestro perro es ____.
+R-C488 | ¿Qué cocina la abuela cuando está triste?
+R-C489 | La mejor palabra del mundo es ____.
+R-C490 | ¿Qué hay en el bolsillo del abrigo del invierno pasado?
+R-C491 | Lo mejor de ser el más pequeño de la familia: ____.
+R-C492 | Lo peor de ser el mayor de la familia: ____.
+R-C493 | ¿Qué hacer cuando todos se olvidan de tu cumpleaños?
+R-C494 | Nuevo helado. Sabor: ____. Topping: ____.
+R-C495 | ¿Qué esconde el tío en el garaje para que no lo vea la tía?
+R-C496 | El mayor secreto del conserje del colegio: ____.
+R-C497 | ¿Qué hacen los padres en Nochevieja a las 22:30?
+R-C498 | La idea más rara de regalo para papá es ____.
+R-C499 | ¿Qué lleva realmente la pasta de dientes?
+R-C500 | Lo mejor de las fotos familiares es ____.

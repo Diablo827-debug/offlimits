@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Rodzinny (dla wszystkich) · język: es · pakiet OFF005 (karty 801–1000 z 1512)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-B0801 | Un cine de una sola sala.
+R-B0802 | Una biblioteca con gato.
+R-B0803 | La piscina municipal en invierno.
+R-B0804 | Una pista de hielo al aire libre.
+R-B0805 | Un zoo con un león vago.
+R-B0806 | Un jardín botánico.
+R-B0807 | Un museo en el que no se puede tocar nada.
+R-B0808 | Una feria.
+R-B0809 | Un parque acuático con tobogán.
+R-B0810 | Un museo etnográfico al aire libre.
+R-B0811 | Un castillo con fantasma.
+R-B0812 | Un bosque lleno de garrapatas.
+R-B0813 | Un lago lleno de mosquitos.
+R-B0814 | Montañas entre nubes.
+R-B0815 | El mar Báltico en agosto.
+R-B0816 | Navegar por los lagos de Masuria.
+R-B0817 | La montaña sin cobertura.
+R-B0818 | El pueblo de la abuela.
+R-B0819 | Un granero lleno de heno.
+R-B0820 | Un gallinero.
+R-B0821 | Una vaca que se te queda mirando.
+R-B0822 | Un caballo que no quiere andar.
+R-B0823 | Una cabra que se comió la ropa tendida.
+R-B0824 | Un gallo que canta a las 4 de la mañana.
+R-B0825 | Un tractor en una carretera comarcal.
+R-B0826 | Un campo de maíz.
+R-B0827 | Un huerto de manzanos.
+R-B0828 | Un pozo con cubo.
+R-B0829 | Un baile de pueblo en el salón municipal.
+R-B0830 | La fiesta de la cosecha.
+R-B0831 | Una feria con salchichas a la parrilla.
+R-B0832 | Un concierto en el anfiteatro.
+R-B0833 | Un desfile del Día del Niño.
+R-B0834 | La comida de Navidad del trabajo de papá.
+R-B0835 | Una reunión de antiguos compañeros de clase.
+R-B0836 | Una reunión de padres.
+R-B0837 | La jornada de puertas abiertas del colegio.
+R-B0838 | Una fiesta de disfraces de carnaval en la guardería.
+R-B0839 | La noche de San Andrés echando cera derretida para ver el futuro.
+R-B0840 | El día de San Nicolás en el colegio.
+R-B0841 | El Día de los Abuelos.
+R-B0842 | El San Valentín de mis padres.
+R-B0843 | El Día de la Mujer con un clavel.
+R-B0844 | El Día de los Inocentes.
+R-B0845 | La Noche de los Museos.
+R-B0846 | Elecciones a delegado de clase.
+R-B0847 | La gran recogida de papel usado.
+R-B0848 | El día de limpiar el mundo.
+R-B0849 | La campaña «dona un osito».
+R-B0850 | Un concurso de recitación.
+R-B0851 | Un torneo de ajedrez.
+R-B0852 | Una competición de natación.
+R-B0853 | Un torneo de fútbol escolar.
+R-B0854 | Una carrera de cien metros en zapatillas de lona.
+R-B0855 | Un salto de longitud al foso de arena.
+R-B0856 | Un lanzamiento de balón medicinal.
+R-B0857 | Gimnasia al aire libre en noviembre.
+R-B0858 | El potro de gimnasia.
+R-B0859 | Una cuerda a la que nadie consigue subir.
+R-B0860 | Un vestuario en el que todo huele a calcetines.
+R-B0861 | La piscina del colegio llena de cloro.
+R-B0862 | Un móvil sonando en clase.
+R-B0863 | Una chuleta escondida en una goma.
+R-B0864 | Una nota pasada por debajo del pupitre.
+R-B0865 | Una nota de un admirador secreto.
+R-B0866 | Un diario con candado.
+R-B0867 | Un álbum de pegatinas.
+R-B0868 | Una colección de chapas.
+R-B0869 | La colección de sellos del abuelo.
+R-B0870 | Cromos de futbolistas.
+R-B0871 | Un Tamagotchi.
+R-B0872 | Una Game Boy de los noventa.
+R-B0873 | Un walkman con una cinta.
+R-B0874 | Un cuaderno lleno de papelitos pegados.
+R-B0875 | Plastilina incrustada en la alfombra.
+R-B0876 | Una pieza de construcción que has pisado.
+R-B0877 | Una muñeca sin cabeza.
+R-B0878 | Un osito de peluche tuerto.
+R-B0879 | Un cochecito sin una rueda.
+R-B0880 | El tren eléctrico del abuelo.
+R-B0881 | Una bici de alquiler municipal.
+R-B0882 | Un tren de mercancías con mil vagones.
+R-B0883 | Un dirigible sobre la ciudad.
+R-B0884 | Un castillo hinchable gigante.
+R-B0885 | Confeti que sigues encontrando en mayo.
+R-B0886 | Purpurina por todas partes.
+R-B0887 | Ceras de colores en la pared.
+R-B0888 | Una pompa de jabón tan grande como un coche.
+R-B0889 | Una fuente de chocolate.
+R-B0890 | Un unicornio arcoíris.
+R-B0891 | Un elefante en una cacharrería.
+R-B0892 | El Gato con Botas.
+R-B0893 | Una jirafa con bufanda.
+R-B0894 | Un pingüino con sombrero.
+R-B0895 | Una llama que escupe.
+R-B0896 | Un hipopótamo en una piscina.
+R-B0897 | Un león que le tiene miedo a los ratones.
+R-B0898 | Un camello en la calle principal de una estación de esquí.
+R-B0899 | Un canguro con una bolsa de la compra.
+R-B0900 | Un búho que no duerme por la noche.
+R-B0901 | Un zorro que robó una gallina.
+R-B0902 | Un lobo que se hizo vegetariano.
+R-B0903 | Un oso recién salido de la hibernación.
+R-B0904 | Un castor construyendo una presa en el patio.
+R-B0905 | Un caracol en una carrera.
+R-B0906 | Hormigas en el azucarero.
+R-B0907 | Una abeja en el tranvía.
+R-B0908 | Una avispa encima del zumo.
+R-B0909 | Una mariposa en un tarro.
+R-B0910 | Una luciérnaga en el jardín.
+R-B0911 | Una rana que se convirtió en príncipe.
+R-B0912 | Un príncipe que se convirtió en rana.
+R-B0913 | Un dragón que le tiene miedo al fuego.
+R-B0914 | El monstruo de debajo de la cama.
+R-B0915 | Una sombra en la pared.
+R-B0916 | Un suelo que cruje por la noche.
+R-B0917 | Un susurro al otro lado de la ventana.
+R-B0918 | Pasos en el desván.
+R-B0919 | «Porque lo digo yo.»
+R-B0920 | «Come, que se enfría.»
+R-B0921 | «Ponte el gorro, que te vas a helar.»
+R-B0922 | «Cuando seas mayor lo entenderás.»
+R-B0923 | «¿Y si todos se tiran por un puente, tú también?»
+R-B0924 | «El dinero no crece en los árboles.»
+R-B0925 | «No hay, porque no hay.»
+R-B0926 | «Nos vamos en cinco minutos.»
+R-B0927 | «¿Quién ha derramado esto?»
+R-B0928 | «Es por tu bien.»
+R-B0929 | «Ya veremos.»
+R-B0930 | «Pregúntale a tu padre.»
+R-B0931 | «Pregúntale a tu madre.»
+R-B0932 | «Vale, pero es la última vez.»
+R-B0933 | «No sé, no entiendo, no tengo ni idea.»
+R-B0934 | «¿Y tú qué sabrás?»
+R-B0935 | «Antes sí que se vivía bien.»
+R-B0936 | «Cuidado, que te vas a caer.»
+R-B0937 | «¿Llevas chaqueta?»
+R-B0938 | «Abrígate más.»
+R-B0939 | «Llámame cuando llegues.»
+R-B0940 | «¿Y tú para cuándo?»
+R-B0941 | «¿Te comes otro trocito?»
+R-B0942 | «Solo vengo un momentito.»
+R-B0943 | «No os molestéis por mí.»
+R-B0944 | «Una cosita de nada.»
+R-B0945 | «Aquí hay algo que no cuadra.»
+R-B0946 | «Yo llegué primero.»
+R-B0947 | «Yo no he sido.»
+R-B0948 | «Empezó él.»
+R-B0949 | «Empezó ella.»
+R-B0950 | «Me aburro.»
+R-B0951 | «Tengo hambre» cinco minutos después de comer.
+R-B0952 | «Un capítulo más.»
+R-B0953 | «Última partida y me voy a dormir.»
+R-B0954 | El eterno «no tengo nada que ponerme».
+R-B0955 | El eterno «¿dónde están mis llaves?».
+R-B0956 | La eterna pregunta «¿qué hay de comer?».
+R-B0957 | La respuesta «lo que sea».
+R-B0958 | Silencio en el coche después de una pelea.
+R-B0959 | Estar de morros todo el día.
+R-B0960 | Una gran disculpa con chocolate.
+R-B0961 | Un abrazo de reconciliación.
+R-B0962 | Una apuesta por un bocadillo.
+R-B0963 | Una promesa vacía.
+R-B0964 | Palabra de honor.
+R-B0965 | Una promesa de meñique.
+R-B0966 | Un secreto que conoce todo el barrio.
+R-B0967 | Un cotilleo de la cola de la panadería.
+R-B0968 | Un gran escándalo por nada.
+R-B0969 | Una tormenta en un vaso de agua.
+R-B0970 | Un lío con los regalos.
+R-B0971 | Nombres equivocados en las tarjetas de Navidad.
+R-B0972 | Un regalo reciclado.
+R-B0973 | Un regalo que vuelve a la misma persona al año siguiente.
+R-B0974 | Una etiqueta con el precio en un regalo.
+R-B0975 | Un lazo que no hay forma de que aguante.
+R-B0976 | Papel de regalo que siempre se acaba.
+R-B0977 | Una caja más grande que el regalo.
+R-B0978 | Una sorpresa que se descubrió.
+R-B0979 | Una fiesta sorpresa de la que todos sabían.
+R-B0980 | Un globo de helio pegado al techo.
+R-B0981 | Una guirnalda de «Feliz cumpleaños».
+R-B0982 | Gorritos de cumpleaños con goma.
+R-B0983 | Matasuegras que vuelven locos a los padres.
+R-B0984 | Una piñata que no hay manera de romper.
+R-B0985 | Un concurso al dibujo más bonito.
+R-B0986 | Una foto con Papá Noel en el centro comercial.
+R-B0987 | Adornos navideños de cuando papá era niño.
+R-B0988 | Una bola de Navidad que ha sobrevivido a tres generaciones.
+R-B0989 | Un belén con figuras de plastilina.
+R-B0990 | El burrito del belén viviente.
+R-B0991 | Villanciqueros con una estrella.
+R-B0992 | Un villancico en versión rock.
+R-B0993 | La Misa del Gallo.
+R-B0994 | Paja debajo del mantel.
+R-B0995 | Un sitio vacío en la mesa para un viajero.
+R-B0996 | Una escama de carpa en la cartera para la suerte.
+R-B0997 | Felicitaciones con la oblea que duran una hora.
+R-B0998 | La primera estrella que nadie consigue ver.
+R-B0999 | Regalos abiertos a las 18:01.
+R-B1000 | Propósitos de Año Nuevo.

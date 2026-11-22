@@ -2,10 +2,12 @@ OFFLIMITS – baza pytań i odpowiedzi
 ===================================
 
 Foldery języków: pl = polski, en = angielski, es = hiszpański, el = grecki.
-W każdym folder na pakiet, a w nim paczki po 100 pytań i 200 odpowiedzi:
-  pytania-01.txt, pytania-02.txt…   (czarne karty)
-  odpowiedzi-01.txt, odpowiedzi-02.txt…   (białe karty)
-Nowe karty możesz dopisać do dowolnej paczki danego pakietu.
+W każdym folder na rodzaj talii, a w nim pakiety numerowane kolejno OFF001, OFF002…
+Każdy pakiet to do 100 pytań i do 200 odpowiedzi:
+  off001-pytania.txt      (czarne karty)
+  off001-odpowiedzi.txt   (białe karty)
+Gdy w talii jest więcej odpowiedzi niż pytań, ostatnie pakiety mają same odpowiedzi.
+Nowe karty możesz dopisać do dowolnego pakietu danej talii.
 
   rodzinny   – Rodzinny (dla wszystkich)
   po22       – Po 22:00 (pikantniejsze)

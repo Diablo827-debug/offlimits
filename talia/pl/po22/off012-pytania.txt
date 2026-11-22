@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Po 22:00 (pikantniejsze) · język: pl · pakiet OFF012 (karty 301–400 z 501)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-C301 | Prawdziwy powód, dla którego mam roślinki: ____.
+N-C302 | Moja relacja z poniedziałkiem: ____.
+N-C303 | Najlepszy sposób na udawanie dorosłego: ____.
+N-C304 | Co mówią koledzy z pracy za moimi plecami?
+N-C305 | Najdziwniejsza rzecz w moim koszyku z internetu: ____.
+N-C306 | Najlepsza zemsta na byłym: ____.
+N-C307 | Co robi szef na urlopie?
+N-C308 | Najbardziej szczere zdanie w moim CV: ____.
+N-C309 | Najmniej szczere zdanie w moim CV: ____.
+N-C310 | Co mówi pani w urzędzie po 15:00?
+N-C311 | Najlepszy prezent dla przyjaciółki po rozstaniu: ____.
+N-C312 | Najgorszy prezent dla przyjaciela po rozstaniu: ____.
+N-C313 | Najlepsze, co może cię spotkać na wieczorze panieńskim: ____.
+N-C314 | Co mówię, kiedy wracam o 4 rano?
+N-C315 | Co mówi pies, kiedy wracam o 4 rano?
+N-C316 | Ulubiona wymówka mojego partnera: ____.
+N-C317 | Mój sposób na niedzielne smutki: ____.
+N-C318 | Najbardziej przerażające słowa w dorosłym życiu: ____.
+N-C319 | Co mówią sąsiedzi o moim nowym partnerze?
+N-C320 | Najgorszy prezent na Walentynki: ____.
+N-C321 | Najlepszy prezent na Walentynki: ____.
+N-C322 | Co mówię, kiedy dzwoni teściowa?
+N-C323 | Najlepszy sposób na przeżycie świąt z rodziną: ____.
+N-C324 | Co sprawia, że jestem szczęśliwy po 22:00?
+N-C325 | Ulubiona część wesela dla singla: ____.
+N-C326 | Mój największy wstyd z liceum: ____.
+N-C327 | Najlepsza historia z Erasmusa: ____.
+N-C328 | Co mówią ludzie na siłowni, kiedy nikt nie słucha?
+N-C329 | Najgorsza rzecz do zgubienia na imprezie: ____.
+N-C330 | Co mówi pani w aptece, kiedy kupuję tabletki na kaca?
+N-C331 | Najlepsze, co może się stać na kacu: ____.
+N-C332 | Co mówi moja mama o moim życiu uczuciowym?
+N-C333 | Ostatnia rzecz, jakiej się spodziewałem na randce: ____.
+N-C334 | Co mówi dziecko w przedszkolu o naszym domu?
+N-C335 | Najgorsza rzecz, jaką dziecko powtórzyło przy babci: ____.
+N-C336 | Prawdziwa przyczyna kryzysu wieku średniego: ____.
+N-C337 | Co mówię, kiedy ktoś pyta o moje oszczędności?
+N-C338 | Moja tajna broń na imprezie: ____.
+N-C339 | Nowy trend wśród trzydziestolatków: ____.
+N-C340 | Co robię na weselu, kiedy grają disco polo?
+N-C341 | Najlepszy sposób na pogodzenie się po kłótni: ____.
+N-C342 | Co mówią moje rośliny o moim życiu?
+N-C343 | Najbardziej przydatna umiejętność po trzydziestce: ____.
+N-C344 | Co ukrywam w historii oglądanych filmików?
+N-C345 | Rzecz, za którą zapłaciłbym każde pieniądze: ____.
+N-C346 | Najgorszy prezent od teściowej: ____.
+N-C347 | Co robi Polak na zagranicznym lotnisku?
+N-C348 | Moja ulubiona wymówka, żeby nie sprzątać: ____.
+N-C349 | Co mówią ludzie w poczekalni u dentysty?
+N-C350 | Najlepszy pomysł na wyjście z niezręcznej sytuacji: ____.
+N-C351 | Co mówi mój telefon o moim życiu?
+N-C352 | Prawdziwy powód, dla którego nie oddzwoniłem: ____.
+N-C353 | Mój wieczór w trzech krokach: ____, ____ i spać.
+N-C354 | Randka z Tindera. Na zdjęciach: ____. Na żywo: ____.
+N-C355 | Nowy serial o moim życiu. Tytuł: ____. Główny problem: ____.
+N-C356 | Firmowa Wigilia. Prezent od szefa: ____. Plotka roku: ____.
+N-C357 | Wesele kuzyna. Pierwszy taniec: ____. Ostatni taniec: ____.
+N-C358 | Mój związek. Na początku: ____. Po pięciu latach: ____.
+N-C359 | Wieczór kawalerski. Plan: ____. Co pamiętamy: ____.
+N-C360 | Wieczór panieński. Atrakcja: ____. Ofiara: ____.
+N-C361 | Moje mieszkanie. Na zdjęciach: ____. W rzeczywistości: ____.
+N-C362 | Moja kariera. Marzenie: ____. Rzeczywistość: ____.
+N-C363 | Wakacje all inclusive. Śniadanie: ____. Kolacja: ____.
+N-C364 | Kłótnia sąsiadów. Powód: ____. Rozwiązanie: ____.
+N-C365 | Przepis na udany związek: ____ i ____.
+N-C366 | Rozmowa o pracę. Moja mocna strona: ____. Moja słaba strona: ____.
+N-C367 | Romantyczny weekend. Plan: ____. Co poszło nie tak: ____.
+N-C368 | Impreza u znajomych. Zaczęło się od: ____. Skończyło się na: ____.
+N-C369 | Mój kac. Przyczyna: ____. Lekarstwo: ____.
+N-C370 | Mój budżet. Przychody: ____. Wydatki: ____.
+N-C371 | Spotkanie z teściami. Temat do rozmowy: ____. Temat zakazany: ____.
+N-C372 | Moja lista życzeń na 40. urodziny: ____ i ____.
+N-C373 | Nowy program w telewizji śniadaniowej. Gość: ____. Temat: ____.
+N-C374 | Rodzicielstwo. Oczekiwania: ____. Rzeczywistość: ____.
+N-C375 | Mój typ. Wygląd: ____. Charakter: ____.
+N-C376 | Profil randkowy. Hobby: ____. Szukam: ____.
+N-C377 | Moja przyszłość. Za 5 lat: ____. Za 20 lat: ____.
+N-C378 | Szef mówi: „Mamy problem”. Problem: ____. Winny: ____.
+N-C379 | Nowa partia polityczna. Nazwa: ____. Program: ____.
+N-C380 | Sylwester. Plan A: ____. Plan B: ____.
+N-C381 | Najlepsze połączenie na świecie: ____ i ____.
+N-C382 | Moja dieta. Śniadanie: ____. Kolacja o północy: ____.
+N-C383 | Moja autobiografia. Tytuł: ____. Podtytuł: ____.
+N-C384 | Związek na odległość. Ja: ____. Partner: ____.
+N-C385 | Wyjazd integracyjny. Integracja: ____. Skutki: ____.
+N-C386 | Szkolny zjazd po latach. Kto się zmienił: ____. Kto nie: ____.
+N-C387 | Moja sypialnia. Pod łóżkiem: ____. Na szafce nocnej: ____.
+N-C388 | Babski wieczór. Wino i ____. Temat plotek: ____.
+N-C389 | Męski wieczór. Piwo i ____. Temat rozmowy: ____.
+N-C390 | Polska wigilia. Na stole: ____. Przy stole: ____.
+N-C391 | Moje dwa największe lęki: ____ i ____.
+N-C392 | Kryzys wieku średniego. Objaw: ____. Leczenie: ____.
+N-C393 | Nowy podcast. Prowadzący: ____. Temat odcinka: ____.
+N-C394 | Moja zemsta na byłym. Krok pierwszy: ____. Krok drugi: ____.
+N-C395 | Lista zakupów singla: ____, ____ i mrożona pizza.
+N-C396 | Pierwsze wspólne mieszkanie. Pierwsza kłótnia: ____. Pierwsza zgoda: ____.
+N-C397 | Moja terapia. Problem: ____. Diagnoza: ____.
+N-C398 | Zebranie w pracy. Cel: ____. Efekt: ____.
+N-C399 | Moje marzenie. Wersja szczera: ____. Wersja na LinkedIn: ____.
+N-C400 | Imprezowe zasady. Zasada pierwsza: ____. Zasada druga: ____.

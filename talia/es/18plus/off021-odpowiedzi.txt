@@ -1,0 +1,206 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Bez tabu (18+) · język: es · pakiet OFF021 (karty 801–997 z 997)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - X-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+X-B0801 | Un hípster que se hizo cura por la estética.
+X-B0802 | Una sotana que parece un vestido.
+X-B0803 | Un vestido que el tío se puso para la despedida de soltera de su hermana.
+X-B0804 | Una despedida de soltero en la que el stripper era mi colega.
+X-B0805 | Un stripper que resultó ser el hijo del alcalde.
+X-B0806 | El hijo del alcalde, que me escribe por la noche.
+X-B0807 | Un mensaje de «hola» a las 2 de la mañana de alguien casado.
+X-B0808 | Un concejal casado en una app de citas.
+X-B0809 | Un perfil sin cara que pone «discreto».
+X-B0810 | Discreción en un pueblo de 3000 habitantes.
+X-B0811 | Un secreto que conoce toda la cola de la panadería.
+X-B0812 | La panadería como centro de información del municipio.
+X-B0813 | La cola de la panadería como parlamento.
+X-B0814 | Unas elecciones municipales ganadas por tres votos.
+X-B0815 | Los tres votos que echó mi familia.
+X-B0816 | Un voto nulo que dice «todos a casa».
+X-B0817 | Una papeleta con un pene dibujado.
+X-B0818 | Una mesa electoral que se rió hasta el amanecer.
+X-B0819 | Un político que no sabe hacer una transferencia.
+X-B0820 | Un político que no sabe cuánto cuesta el pan.
+X-B0821 | Un político que perdió el mapa de su propia circunscripción.
+X-B0822 | Un político que mandó una foto al grupo equivocado.
+X-B0823 | Un político pillado en el Orgullo con peluca.
+X-B0824 | Un político en el armario con corbata arcoíris.
+X-B0825 | Un concejal que votó en contra y luego vino al afterparty.
+X-B0826 | Un cura que votó a todos para no ofender a nadie.
+X-B0827 | Un candidato cuyo único programa es una acera nueva.
+X-B0828 | Una acera que tardaron dos legislaturas en construir.
+X-B0829 | Un puente que no lleva a ninguna parte.
+X-B0830 | Un parque acuático en un municipio sin agua.
+X-B0831 | Un aeropuerto en el que no aterriza nada.
+X-B0832 | Un estadio en el que solo juega el párroco.
+X-B0833 | Un carril bici que acaba en una cuneta.
+X-B0834 | Una cuneta en la que siempre acaba el vecino después de una fiesta.
+X-B0835 | Un vecino con una bandera para cada fiesta y cada partido.
+X-B0836 | Una bandera que el tío cuelga para fastidiar al vecino.
+X-B0837 | Una guerra de banderas en los balcones.
+X-B0838 | El balcón como herramienta política.
+X-B0839 | La barbacoa como espacio de debate público.
+X-B0840 | Una salchicha como argumento.
+X-B0841 | Mostaza que alguien le tiró a un diputado.
+X-B0842 | Un huevo lanzado en un mitin.
+X-B0843 | Un tomate como crítica política.
+X-B0844 | Una protesta en Facebook con un me gusta.
+X-B0845 | Una petición que solo firmó mi madre.
+X-B0846 | Una madre que firma todas las peticiones.
+X-B0847 | Una madre que firmó una petición contra sí misma.
+X-B0848 | Una suegra con más influencia que un ministro.
+X-B0849 | Un ministro que le tiene miedo a su suegra.
+X-B0850 | Un gobierno que les tiene miedo a las abuelas.
+X-B0851 | Abuelas que podrían tumbar al gobierno en una tarde.
+X-B0852 | La asociación de amas de casa del pueblo como el partido más fuerte del país.
+X-B0853 | Un ama de casa que cocina mejor de lo que gobierna el gobierno.
+X-B0854 | Una candidata a alcaldesa con la mejor tarta de queso.
+X-B0855 | La tarta de queso como programa electoral.
+X-B0856 | Una tarta con forma de Congreso.
+X-B0857 | Un Congreso con forma de tarta del que todos se llevan un trozo.
+X-B0858 | El arte del compromiso en Nochebuena.
+X-B0859 | Un compromiso a la nacional: todos descontentos.
+X-B0860 | Una pelea que empezó por la carpa y acabó en el aborto.
+X-B0861 | Un tío que no sabe qué significa LGTB pero está en contra.
+X-B0862 | Una tía que confunde LGTB con GLP.
+X-B0863 | Las letras que el abuelo no sabe pronunciar.
+X-B0864 | El más del final, que es lo que más irrita al tío.
+X-B0865 | La palabra «género» dicha en susurros.
+X-B0866 | La palabra «gay» dicha por la abuela con orgullo.
+X-B0867 | Mi marido, que llama «abuela» a mi abuela.
+X-B0868 | Una abuela que llama a mi marido en vez de a mí.
+X-B0869 | Una foto familiar con mi marido en el centro.
+X-B0870 | Una felicitación de Navidad firmada «de los chicos».
+X-B0871 | «Los chicos», que tienen 45 años cada uno.
+X-B0872 | Envejecer juntos con un gato y un huerto.
+X-B0873 | Una residencia para gais mayores con bar.
+X-B0874 | La jubilación, en la que por fin puedo decir lo que pienso.
+X-B0875 | Un abuelo que por fin dijo lo que pensaba al jubilarse.
+X-B0876 | La verdad que contó el abuelo después de cumplir 80.
+X-B0877 | La confesión del abuelo que escandalizó al cura.
+X-B0878 | Un cura que le pidió consejo al abuelo.
+X-B0879 | El consejo del abuelo para todo: «Tómate algo».
+X-B0880 | Vodka que resolvió el conflicto de Oriente Próximo en una boda.
+X-B0881 | Una boda en la que los testigos se pegaron.
+X-B0882 | Un testigo que era mi ex.
+X-B0883 | Una novia que lo sabe todo.
+X-B0884 | Un novio que lo sabe todo pero no dice nada.
+X-B0885 | Unos suegros que son los que menos saben.
+X-B0886 | Un cura en la boda que es el que más sabe.
+X-B0887 | Un fotógrafo que vio demasiado.
+X-B0888 | Un cámara que grabó lo que no debía.
+X-B0889 | Un vídeo de boda que nadie puede ver.
+X-B0890 | Los juegos de la boda en los que me tocó el concurso de parejas.
+X-B0891 | Un concurso de boda con mi marido haciendo de «novia».
+X-B0892 | Un tío vestido de mujer en una boda.
+X-B0893 | Un tío al que le gustó el disfraz un poco demasiado.
+X-B0894 | Una canción de verbena sobre el amor entre dos chicos.
+X-B0895 | Un salón del pueblo donde todo el pueblo baila Madonna.
+X-B0896 | Un pueblo que nos recibió mejor que la ciudad.
+X-B0897 | Una ciudad que finge ser tolerante.
+X-B0898 | Los pijos de la capital que lo saben todo mejor.
+X-B0899 | Cracovia, donde todo el mundo es artista.
+X-B0900 | Una ciudad tan tacaña que cuenta cada céntimo en el Orgullo.
+X-B0901 | Un desfile del Orgullo con albóndigas de patata.
+X-B0902 | Un desfile del Orgullo que pasa por el muelle.
+X-B0903 | Un pueblo de montaña donde un montañés vende queso ahumado arcoíris.
+X-B0904 | Queso ahumado de oveja arcoíris.
+X-B0905 | La costa del Báltico con cortavientos arcoíris.
+X-B0906 | El cortavientos de playa como frontera nacional.
+X-B0907 | Una playa abarrotada como mapa de divisiones políticas.
+X-B0908 | Unas vacaciones en Croacia con media parroquia.
+X-B0909 | Unas vacaciones en Grecia en las que el cura iba sin alzacuellos.
+X-B0910 | Un cura sin alzacuellos en un bar de Mykonos.
+X-B0911 | Mykonos como santuario nacional.
+X-B0912 | Un santuario donde puedes comprar un imán, un rosario y un licor.
+X-B0913 | Una tienda de artículos religiosos con ofertas de Black Friday.
+X-B0914 | Una figurita del Papa con energía solar.
+X-B0915 | El Papa saludando desde el salpicadero.
+X-B0916 | Un calendario de curas que la tía guarda debajo de la cama.
+X-B0917 | Un calendario de bomberos voluntarios.
+X-B0918 | Un bombero voluntario que solo apaga el fuego de mi corazón.
+X-B0919 | Los bomberos voluntarios como club social.
+X-B0920 | Un baile de bomberos en el que pasó de todo.
+X-B0921 | El parque de bomberos como escenario de todos los pecados del municipio.
+X-B0922 | Los pecados del municipio colgados en el tablón de anuncios.
+X-B0923 | Un tablón con un cartel: «Se busca gato y principios morales».
+X-B0924 | Unos principios morales que se perdieron en Nochevieja.
+X-B0925 | Nochevieja con un cura y agua con gas.
+X-B0926 | Nochevieja en casa de la suegra con el especial de la tele.
+X-B0927 | Un propósito de Año Nuevo: no discutir de política.
+X-B0928 | Un propósito que duró hasta el 2 de enero.
+X-B0929 | Los Reyes Magos en una oficina porque perdieron el DNI.
+X-B0930 | Unas vacaciones de invierno en las que el cura esquiaba el más rápido.
+X-B0931 | El Jueves Lardero como la fiesta católica más importante.
+X-B0932 | Un dónut como hostia del pueblo.
+X-B0933 | Una fiesta de carnaval con arenques y consecuencias.
+X-B0934 | El Miércoles de Ceniza después de la fiesta de arenques.
+X-B0935 | La Cuaresma sin alcohol durante tres días enteros.
+X-B0936 | Lamentaciones de Cuaresma interpretadas por el tío después de cobrar.
+X-B0937 | Una palma de Domingo de Ramos más alta que la iglesia.
+X-B0938 | Un concurso de la palma más alta como deporte extremo.
+X-B0939 | El Lunes Mojado con un cubo de agua del vecino.
+X-B0940 | Una guerra de agua de Pascua con un extintor.
+X-B0941 | El puente de mayo con barbacoa y pelea sobre el gobierno.
+X-B0942 | El Corpus Christi con altares y publicidad de una tienda.
+X-B0943 | Una procesión por el aparcamiento de un supermercado.
+X-B0944 | Echar flores a los pies del párroco.
+X-B0945 | Un párroco bajo palio como una estrella del rock.
+X-B0946 | Rock and roll en la casa parroquial.
+X-B0947 | La casa parroquial como el mejor club de la zona.
+X-B0948 | Un cura DJ.
+X-B0949 | Un cura rapero con un disco sobre el pecado.
+X-B0950 | Un cura con más fans que una boy band.
+X-B0951 | Las fans del cura en el primer banco.
+X-B0952 | Una parroquia destrozada tras el traslado del vicario guapo.
+X-B0953 | Un vicario que era la última esperanza de los jóvenes.
+X-B0954 | Un vicario que se fugó con el organista.
+X-B0955 | El organista y el vicario como pareja del año.
+X-B0956 | La pareja del año según la hoja parroquial.
+X-B0957 | Una hoja parroquial con cotilleos.
+X-B0958 | Un crucigrama en la hoja parroquial con la solución «Penitencia».
+X-B0959 | Un aviso parroquial que prohíbe bailar.
+X-B0960 | Una prohibición de bailar que no le importa a nadie.
+X-B0961 | Bailar encima de la mesa en un bautizo.
+X-B0962 | Un bautizo en el que el bebé era el más sobrio.
+X-B0963 | Un padrino que olvidó el nombre del bebé.
+X-B0964 | Una madrina que es atea y lesbiana.
+X-B0965 | Padrinos elegidos porque tienen el mejor coche.
+X-B0966 | Un regalo de bautizo: una cadena de oro y una Biblia.
+X-B0967 | Un regalo de Primera Comunión: un quad.
+X-B0968 | Una Primera Comunión en la que los niños recibieron más que en una boda.
+X-B0969 | Una boda que costó lo que un piso.
+X-B0970 | Un piso que solo te toca cuando muere la abuela.
+X-B0971 | Una abuela que le dejó el piso al gato.
+X-B0972 | Un gato que lo heredó todo.
+X-B0973 | Un gato que es el verdadero cabeza de familia.
+X-B0974 | Una familia en la que manda la abuela, y a la abuela la manda el gato.
+X-B0975 | Un perro que vino a misa con nosotros.
+X-B0976 | Una misa para animales en la que una cabra se comió el misal.
+X-B0977 | La bendición de animales el día de San Francisco.
+X-B0978 | San Francisco como patrón de mi novio.
+X-B0979 | El patrón de las cosas perdidas, incluida la dignidad.
+X-B0980 | La dignidad que me dejé en la boda de mi primo.
+X-B0981 | Una resaca en la Primera Comunión de mi sobrino.
+X-B0982 | Vodka en un termo en un funeral.
+X-B0983 | Un funeral con banda de música y canciones de verbena.
+X-B0984 | Un velatorio en el que todos se reconciliaron.
+X-B0985 | Un velatorio en el que todos se pelearon.
+X-B0986 | La herencia del tío: una colección de sellos y un novio secreto.
+X-B0987 | El novio secreto del tío en el velatorio.
+X-B0988 | Un tío que siempre fue «soltero por elección».
+X-B0989 | Un soltero por elección y su «inquilino».
+X-B0990 | Un inquilino que heredó la casa.
+X-B0991 | Una casa en la que siempre había dos señores y muchas flores.
+X-B0992 | Flores que el tío cuidaba con su «colega».
+X-B0993 | El colega del tío que venía en todas las fiestas.
+X-B0994 | Una familia que solo ahora entendió quién era el tío.
+X-B0995 | Un respeto que llegó demasiado tarde.
+X-B0996 | La tolerancia como la última moda de nuestra familia.
+X-B0997 | Mi familia, que no tiene temas tabú.

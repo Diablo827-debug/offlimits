@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Bez tabu (18+) · język: en · pakiet OFF020 (karty 601–800 z 997)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - X-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+X-B0601 | St. Christopher, who didn’t prevent the ticket.
+X-B0602 | A ticket as the state’s traditional gift.
+X-B0603 | A cop who asks if I know why he pulled me over.
+X-B0604 | A cop who was my classmate in primary school.
+X-B0605 | An uncle who knows someone in traffic police.
+X-B0606 | A contact in every institution.
+X-B0607 | A brother-in-law who will “sort it out”.
+X-B0608 | A buddy who “knows a guy”.
+X-B0609 | A guy who knows a guy who knows an MP.
+X-B0610 | An MP who knows everyone and no one.
+X-B0611 | My uncle as a would-be minister.
+X-B0612 | My aunt as a well-informed source.
+X-B0613 | Family gossip as a source of political knowledge.
+X-B0614 | The stairwell gossip as an intelligence agency.
+X-B0615 | A neighbor who snitches to the housing co-op.
+X-B0616 | The housing co-op as a state within a state.
+X-B0617 | A residents’ meeting as parliament in miniature.
+X-B0618 | A co-op chairman in charge since 1989.
+X-B0619 | A neighborhood council election with a turnout of 4 people.
+X-B0620 | A scandal over a parking spot on the estate.
+X-B0621 | A war over a trash can.
+X-B0622 | Recycling as a test of character.
+X-B0623 | A plastic recycling bag with a vodka bottle in it.
+X-B0624 | Vodka bottles in the parish priest’s garden.
+X-B0625 | A parish priest who owns a vineyard.
+X-B0626 | A priest who distills moonshine.
+X-B0627 | Moonshine with a blessing.
+X-B0628 | Quince liqueur from the nuns.
+X-B0629 | Beer brewed by monks.
+X-B0630 | Monks with better marketing than a corporation.
+X-B0631 | A priest with a better car than a doctor.
+X-B0632 | A doctor with a lower salary than a priest.
+X-B0633 | A nurse carrying the whole hospital on her shoulders.
+X-B0634 | A teacher whose salary looks like an MP’s pocket money.
+X-B0635 | A student who knows more than the education minister.
+X-B0636 | A history textbook rewritten with every new government.
+X-B0637 | A history lesson where the teacher is afraid to speak.
+X-B0638 | A civics lesson after which everyone is sad.
+X-B0639 | A high school senior asking what good this will do him here.
+X-B0640 | A student who emigrates right after graduating.
+X-B0641 | A PhD student working in a café.
+X-B0642 | A professor with three jobs.
+X-B0643 | A university with a rector and a council for nothing.
+X-B0644 | A philosophy graduate driving for a ride-hailing app.
+X-B0645 | A generation that can’t afford an apartment.
+X-B0646 | Housing for young people, for those who already own two.
+X-B0647 | A studio in a concrete panel block for 150,000.
+X-B0648 | A developer selling a 22-square-meter “luxury apartment”.
+X-B0649 | An apartment with a view of another apartment.
+X-B0650 | A landlord who allows neither pets nor gay people.
+X-B0651 | An apartment listing that says “locals and Catholics only”.
+X-B0652 | An ad: “room for a non-smoking female student, no boyfriends”.
+X-B0653 | A room for two “buddies” at double the price.
+X-B0654 | A 35-year mortgage for two guys who aren’t family according to the bank.
+X-B0655 | A bank that asks about your wife.
+X-B0656 | A government office that asks about your husband.
+X-B0657 | A hospital that won’t let your partner in because he’s “not family”.
+X-B0658 | A notarial deed as the only proof of love.
+X-B0659 | A power of attorney as the national marriage certificate.
+X-B0660 | A wedding in Berlin and a registration back home that doesn’t exist.
+X-B0661 | A wedding abroad with Grandma on Skype.
+X-B0662 | A grandma showing her grandson’s wedding photos to the whole parish.
+X-B0663 | A priest asking Grandma about her granddaughter-in-law.
+X-B0664 | A grandma telling the priest she has two sons-in-law.
+X-B0665 | A priest who fainted.
+X-B0666 | A priest who came to the wedding.
+X-B0667 | A priest who came to the wedding and danced until dawn.
+X-B0668 | A priest who was the best guest.
+X-B0669 | A priest who was my ex.
+X-B0670 | My ex, who became a priest.
+X-B0671 | My ex, who became an MP.
+X-B0672 | My ex, who now votes against me.
+X-B0673 | My ex, who goes to every march on the other side.
+X-B0674 | My ex with a wife and three kids.
+X-B0675 | My ex’s wife, who likes me.
+X-B0676 | An affair in a closet that was already full.
+X-B0677 | A closet holding half of parliament.
+X-B0678 | A closet holding half the parish.
+X-B0679 | A closet I came out of with a bang.
+X-B0680 | The bang of the closet door heard across the whole village.
+X-B0681 | Coming out in the middle of singing “Happy Birthday”.
+X-B0682 | Coming out at a funeral since everyone’s crying anyway.
+X-B0683 | Coming out at my sister’s wedding to steal her show.
+X-B0684 | Coming out on Good Friday for the drama.
+X-B0685 | Coming out on Christmas Eve before the first star.
+X-B0686 | Coming out through a present under the tree.
+X-B0687 | Coming out in the form of a rainbow cake.
+X-B0688 | A rainbow cake Uncle ate the fastest.
+X-B0689 | An uncle who ate the cake and didn’t get the hint.
+X-B0690 | A hint nobody got except the cat.
+X-B0691 | A cat who always knew.
+X-B0692 | A dog who’s happy with everyone.
+X-B0693 | A dog more tolerant than the parish priest.
+X-B0694 | A parish priest who’s gayer than me.
+X-B0695 | An uncle who’s gayer than me and doesn’t know it.
+X-B0696 | An aunt who bets on me in her prayers.
+X-B0697 | An aunt who calls an exorcist.
+X-B0698 | An exorcist who came over and stayed for soup.
+X-B0699 | Chicken soup that cures homophobia.
+X-B0700 | A pork chop that unites across all divisions.
+X-B0701 | A hunter’s stew that splits the family into two camps.
+X-B0702 | A cheesecake that brings about a ceasefire.
+X-B0703 | A fruit compote that’s politically neutral.
+X-B0704 | Beet soup with heart-shaped dumplings.
+X-B0705 | Pierogi made by two dads.
+X-B0706 | Easter eggs painted in rainbow colors.
+X-B0707 | An Easter basket with a rainbow lamb.
+X-B0708 | A sugar lamb that transitioned into a bunny.
+X-B0709 | An Easter bunny with no party affiliation.
+X-B0710 | Santa who brought politicians a lump of coal.
+X-B0711 | Santa in high heels.
+X-B0712 | An elf who came out at the company Christmas party.
+X-B0713 | A Christmas tree more colorful than a Pride parade.
+X-B0714 | A Christmas carol in a techno version.
+X-B0715 | Carolers singing about inflation.
+X-B0716 | An LED star of Bethlehem for 70 euros.
+X-B0717 | Shepherds who showed up with a flag.
+X-B0718 | The Three Wise Men asking for directions at a government office.
+X-B0719 | Herod running for office.
+X-B0720 | The Holy Family with a mortgage.
+X-B0721 | A birth in a stable because apartments are too expensive.
+X-B0722 | The donkey as the only sensible member of the nativity play.
+X-B0723 | A political nativity farce all year round.
+X-B0724 | A nativity scene in parliament with real donkeys.
+X-B0725 | A true miracle: a unanimous vote.
+X-B0726 | Unanimity on a pay raise for MPs.
+X-B0727 | Parliamentary recess longer than summer vacation.
+X-B0728 | MPs on a trip to Brussels on our dime.
+X-B0729 | Brussels, which knows nothing about our village head.
+X-B0730 | A village head who knows everything about Brussels.
+X-B0731 | A village with an opinion about the whole world.
+X-B0732 | A village where the priest, the village head and the shopkeeper run everything.
+X-B0733 | The shopkeeper as the most important person in the municipality.
+X-B0734 | A shop where everyone always knows who’s with whom.
+X-B0735 | The bench outside the shop as a people’s parliament.
+X-B0736 | A people’s parliament with beer in hand.
+X-B0737 | Beer as the last institution of public trust.
+X-B0738 | Public trust at 3%.
+X-B0739 | My trust in politicians at minus 40.
+X-B0740 | My trust in Auntie after her Facebook post.
+X-B0741 | Auntie’s post about “the threat to the family”.
+X-B0742 | My family, which is doing great, thank you.
+X-B0743 | A family with a mortgage, two dads and a dog.
+X-B0744 | A traditional family with three divorces.
+X-B0745 | A multigenerational family in one apartment.
+X-B0746 | The mother-in-law next door and the priest on TV.
+X-B0747 | A priest on TV talking about a family he doesn’t have.
+X-B0748 | Family as a topic everyone is an expert on.
+X-B0749 | My grandpa, who votes right-wing and loves my husband.
+X-B0750 | My grandma, who votes left-wing and goes to every Mass.
+X-B0751 | A family where nothing adds up and everyone loves each other.
+X-B0752 | A family game night with no taboos at all.
+X-B0753 | An embarrassing First Communion photo.
+X-B0754 | A priest who got the bride’s name wrong.
+X-B0755 | A priest who got the deceased’s name wrong.
+X-B0756 | A sermon on debauchery given the morning after a wedding.
+X-B0757 | An altar boy who fell asleep at the altar.
+X-B0758 | An organist with a hangover at 8 a.m. on Sunday.
+X-B0759 | Church bells at 6 a.m. on a Saturday.
+X-B0760 | A church with heating only in the parish priest’s pew.
+X-B0761 | A pew reserved for the village head’s family.
+X-B0762 | The front pew for those who give the most.
+X-B0763 | The last pew for latecomers and sinners.
+X-B0764 | A parish choir singing in three keys at once.
+X-B0765 | A guitar Mass for youth with one young person.
+X-B0766 | A church youth camp where everyone fell in love.
+X-B0767 | A pilgrimage where everyone fell in love.
+X-B0768 | A scout camp that changed my life.
+X-B0769 | A religion teacher who sensed it.
+X-B0770 | The literature teacher who knew first.
+X-B0771 | A gym teacher who made me play goalie.
+X-B0772 | Prom with a girl friend as a “cover”.
+X-B0773 | A girl who was my girlfriend all through high school for show.
+X-B0774 | My high school girlfriend, who now has a wife.
+X-B0775 | A class reunion where half the class came out.
+X-B0776 | The entire graduating class at my wedding.
+X-B0777 | My high school priest at my wedding in Berlin.
+X-B0778 | A first date on the train to Kraków.
+X-B0779 | A first kiss behind the fire station.
+X-B0780 | A first boyfriend the whole village knew about.
+X-B0781 | A rumor that turned out to be true.
+X-B0782 | The truth nobody believed.
+X-B0783 | An aunt who still thinks he’s a friend.
+X-B0784 | An uncle who thinks we’re brothers.
+X-B0785 | A cousin who sets us up with other gay couples.
+X-B0786 | A gay couple from the neighborhood Mom befriended just for me.
+X-B0787 | A mom who joined a support group and became its chairwoman.
+X-B0788 | A dad who started watching musicals.
+X-B0789 | A dad who cried during Eurovision.
+X-B0790 | A grandpa who mistook the Pride parade for a parish fair.
+X-B0791 | A grandma who bought herself a rainbow rosary.
+X-B0792 | A rainbow rosary blessed by a confused priest.
+X-B0793 | A priest who blessed our apartment and asked no questions.
+X-B0794 | A priest who said “God loves you” and left quickly.
+X-B0795 | A priest who left a holy card and a psychologist’s number.
+X-B0796 | A parish priest who hired us to cater the parish fair.
+X-B0797 | A nun who knows all of Kylie’s hits.
+X-B0798 | A nun who can hold her drink better than Uncle.
+X-B0799 | Nuns at a music festival.
+X-B0800 | Friars with hipster beards.

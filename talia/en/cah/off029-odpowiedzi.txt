@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Cards Against Humanity (CC BY-NC-SA) · język: en · pakiet OFF029 (karty 1401–1600 z 2042)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - C-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+C-B04027 | Wet dreams.
+C-B04028 | What that mouth do.
+C-B04029 | What's left of the Great Barrier Reef.
+C-B02116 | Whatever a McRib® is made of.
+C-B04030 | Whatever's in the fridge.
+C-B04031 | When you fart and a little bit comes out.
+C-B02120 | Whining like a little bitch.
+C-B04032 | Whipping it out.
+C-B04033 | Whiskas® Catmilk.
+C-B04034 | White people.
+C-B02124 | White power.
+C-B04035 | White privilege.
+C-B04037 | Whoever the Prime Minister is these days.
+C-B05966 | Whooping your ass at Mario Kart.
+C-B04038 | Wifely duties.
+C-B04039 | Will Smith.
+C-B04040 | William Shatner.
+C-B04041 | Winking at old people.
+C-B06793 | Winning the Best Kept Village competition.
+C-B04042 | Wiping her bum.
+C-B04044 | Wizard music.
+C-B04045 | Women in yoghurt adverts.
+C-B04048 | Women of color.
+C-B04050 | Women voting.
+C-B06718 | Women who beat their husbands.
+C-B04051 | Women's suffrage.
+C-B04052 | Women's undies.
+C-B04053 | Wondering if it's possible to get some of that salsa to go.
+C-B04054 | Words.
+C-B04055 | Working in an Amazon warehouse.
+C-B02134 | Working so hard to have muscles and then having them.
+C-B04056 | World peace.
+C-B04057 | Worshipping that pussy.
+C-B04058 | Xenophobia.
+C-B04059 | Yeast.
+C-B04060 | YOU MUST CONSTRUCT ADDITIONAL PYLONS.
+C-B02143 | Your dick in them pants.
+C-B06794 | Your mate's ugly baby.
+C-B04061 | Your mom.
+C-B04063 | Your weird brother.
+C-B00459 | 24-hour media coverage.
+C-B00468 | A beached whale.
+C-B00487 | A bloody pacifier.
+C-B00520 | A crappy little hand.
+C-B00598 | A nuanced critique.
+C-B06052 | A panty raid.
+C-B00626 | A rival dojo.
+C-B00679 | A woman scorned.
+C-B00727 | An atomic wedgie.
+C-B00732 | An Etsy steampunk strap-on.
+C-B00765 | Appreciative snapping.
+C-B00769 | Ashton Kutcher.
+C-B00838 | Big Bird's brown, crusty asshole.
+C-B00854 | Blaxploitation.
+C-B00871 | Breaking nip slip news.
+C-B00898 | Carnies.
+C-B00921 | Clams.
+C-B00923 | Clenched butt cheeks.
+C-B00942 | Coughing into a vagina.
+C-B00975 | Dancing with a broom.
+C-B01020 | Dorito breath.
+C-B01059 | Enormous Scandinavian women.
+C-B01074 | Fabricating statistics.
+C-B01101 | Finding a skeleton.
+C-B01149 | George Clooney's musk.
+C-B01152 | Getting abducted by Peter Pan.
+C-B01176 | Getting in her pants, politely.
+C-B01225 | Good grammar.
+C-B01275 | Historical revisionism.
+C-B01320 | Insatiable bloodlust.
+C-B01329 | Jafar.
+C-B01333 | Jean-Claude Van Damme in slow motion.
+C-B01334 | Jean-Claude Van Damme.
+C-B01348 | Just the tip.
+C-B06053 | Ladles.
+C-B01400 | Mad hacky-sack skills.
+C-B01426 | Media coverage.
+C-B01427 | Medieval Times® Dinner & Tournament.
+C-B01500 | Neil Patrick Harris.
+C-B01512 | NOOOOOOOOO!!!
+C-B01529 | One thousand Slim Jims.
+C-B01570 | Pistol-whipping a hostage.
+C-B01618 | Quiche.
+C-B01621 | Quivering jowls.
+C-B01646 | Revenge fucking.
+C-B01652 | Ripping into a man's chest and pulling out his still-beating heart.
+C-B01674 | Salvia.
+C-B01681 | Savagely beating a mascot.
+C-B01707 | Sexy Siamese twins.
+C-B01709 | Shaft.
+C-B01739 | Slow motion.
+C-B01776 | Space muffins.
+C-B01829 | Syphilitic insanity.
+C-B01897 | The Fanta® girls.
+C-B01904 | The four arms of Vishnu.
+C-B01916 | The harsh light of day.
+C-B01954 | The ooze.
+C-B02007 | The worst pain imaginable. Times two!
+C-B02014 | This guy!
+C-B02133 | Words, words, words.
+C-B02148 | Zeus's sexual appetites.
+C-B00464 | A 55-gallon drum of lube.
+C-B00478 | A bigger, blacker dick.
+C-B00501 | A Burmese tiger pit.
+C-B00531 | A dollop of sour cream.
+C-B00542 | A fortuitous turnip harvest.
+C-B00579 | A magic hippie love cloud.
+C-B00644 | A sofa that says "I have style, but I like to be comfortable."
+C-B00645 | A soulful rendition of "Ol' Man River."
+C-B00648 | A squadron of moles wearing aviator goggles.
+C-B00731 | An ether-soaked rag.
+C-B00745 | An unhinged ferris wheel rolling toward the sea.
+C-B00796 | Beefin' over turf.
+C-B00866 | Boris the Soviet Love Hammer.
+C-B00900 | Catastrophic urethral trauma.
+C-B00946 | Crabapples all over the fucking sidewalk.
+C-B00957 | Crushing Mr. Peanut's brittle body.
+C-B00978 | Death by Steven Seagal.
+C-B00988 | Dennis the Menace.
+C-B00996 | Dining with cardboard cutouts of the cast of "Friends."
+C-B01122 | Fuck Mountain.
+C-B01272 | Hillary Clinton.
+C-B01273 | Hillary Clinton's death stare.
+C-B01336 | Jeff Goldblum.
+C-B01419 | Maximal insertion.
+C-B01524 | Oncoming traffic.
+C-B01590 | Pretty Pretty Princess Dress-Up Board Game®.
+C-B01691 | Scrotal frostbite.
+C-B01778 | Special musical guest, Cher.
+C-B01784 | Spring break!
+C-B01806 | Subduing a grizzly bear and making her your wife.
+C-B01822 | Survivor's guilt.
+C-B01825 | Swiftly achieving orgasm.
+C-B01867 | The black Power Ranger.
+C-B01880 | The corporations.
+C-B01884 | The day the birds attacked.
+C-B01908 | The Google.
+C-B01912 | The grey nutrient broth that sustains Mitt Romney.
+C-B01921 | The hose.
+C-B01950 | The new Radiohead album.
+C-B02076 | Upgrading homeless people to mobile hotspots.
+C-B00489 | A boo-boo.
+C-B00490 | A botched circumcision.
+C-B00569 | A lamprey swimming up the toilet and latching onto your taint.
+C-B00607 | A pile of squirming bodies.
+C-B00647 | A spontaneous conga line.
+C-B00860 | Blowing some dudes in an alley.
+C-B00887 | Buying the right pants to be cool.
+C-B00961 | Crying into the pages of Sylvia Plath.
+C-B00987 | Demonic possession.
+C-B01043 | Eating Tom Selleck's mustache to gain his powers.
+C-B01200 | Getting your dick stuck in a Chinese finger trap with another dick.
+C-B01202 | Girls that always be textin'.
+C-B01345 | Jumping out at people.
+C-B01479 | My manservant, Claude.
+C-B01607 | Putting an entire peanut butter and jelly sandwich into the VCR.
+C-B01623 | Racial profiling.
+C-B01657 | Roland the Farter, flatulist to the king.
+C-B01758 | Some kind of bird-man.
+C-B01915 | The Harlem Globetrotters.
+C-B01946 | The moist, demanding chasm of his mouth.
+C-B01968 | The Quesadilla Explosion Salad™ from Chili's®.
+C-B01992 | The thin veneer of situational causality that underlies porn.
+C-B01998 | The way white people is.
+C-B02022 | Three months in the hole.
+C-B02082 | Velcro™.
+C-B02083 | Vietnam flashbacks.
+C-B02093 | Warm, velvety muppet sex.
+C-B00485 | A black-owned and operated business.
+C-B00596 | A nautical theme.
+C-B00606 | A phantasmagoria of anal delights.
+C-B00622 | A real sad guy.
+C-B00646 | A special kind of yogurt called "cum."
+C-B00718 | An active shooter.
+C-B00759 | Antifa.
+C-B00813 | Being fat from noodles.
+C-B00830 | Being useless.
+C-B00836 | Big bad mama nipples.
+C-B00906 | Cheap immigrant labor.
+C-B00935 | Consent.
+C-B01027 | Drinking my bro's pee-pee right out of his peen.
+C-B01055 | Emotional baggage.
+C-B01133 | Gargling jizz.
+C-B01145 | Generational wealth.
+C-B01184 | Getting older and uglier.
+C-B01228 | Gout.
+C-B01230 | Grandma shakin' her ass.
+C-B01246 | Having $57 in the bank.
+C-B01303 | Huge tits and a can-do attitude.
+C-B01411 | Making shit up.
+C-B01485 | My puffy clit.
+C-B01563 | Performing the sex of the hand.
+C-B01706 | Sexual intercourse.
+C-B01774 | Sorcery.
+C-B01779 | Special musical guest, Lizzo.
+C-B01824 | Swedes.
+C-B01828 | Syphilis.
+C-B01883 | The Dakota Access Pipeline.
+C-B01936 | The lingering scent of gardenias.
+C-B01958 | The people of Florida.

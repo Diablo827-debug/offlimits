@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Po 22:00 (pikantniejsze) · język: en · pakiet OFF012 (karty 601–800 z 1502)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-B0601 | Stealing a pen from the bank.
+N-B0602 | Taking the company mugs home.
+N-B0603 | Stealing toilet paper from work.
+N-B0604 | Drinking the office coffee as a punishment.
+N-B0605 | Taking the elevator up one floor.
+N-B0606 | Taking the stairs and regretting it.
+N-B0607 | Yawning in a board meeting.
+N-B0608 | Signing a contract without reading it.
+N-B0609 | Mistaking the boss for the cleaner.
+N-B0610 | Calling your female boss “Mom”.
+N-B0611 | Sending a cat photo to the whole company.
+N-B0612 | Leaving your mic on during a call.
+N-B0613 | Forgetting you’re on camera.
+N-B0614 | Leaving a call in the middle of the boss’s sentence.
+N-B0615 | Pretending your internet froze.
+N-B0616 | A tropical beach as your video background.
+N-B0617 | Running a call from your car in a traffic jam.
+N-B0618 | Sitting in pajama shorts during an online meeting.
+N-B0619 | Sending a thumbs-up emoji to the board of directors.
+N-B0620 | Saying “sure, I’ll handle it” and not handling it.
+N-B0621 | Coming to work in slippers.
+N-B0622 | Showing up to an interview in yesterday’s T-shirt.
+N-B0623 | Forgetting where you work.
+N-B0624 | Getting a raise and not knowing why.
+N-B0625 | Getting fired and being glad.
+N-B0626 | Becoming your own boss.
+N-B0627 | Working from home with the cat as a coworker.
+N-B0628 | Becoming an influencer at 45.
+N-B0629 | Starting a channel about boiling eggs.
+N-B0630 | Recording a video only your mom watched.
+N-B0631 | Having 3 followers, including Grandma.
+N-B0632 | Being recognized in a store by exactly one person.
+N-B0633 | Winning 3 euros in the lottery.
+N-B0634 | Investing in gold inherited from your mother-in-law.
+N-B0635 | Losing your salary betting on a match.
+N-B0636 | Betting everything on Poland.
+N-B0637 | Cheering with a flag on the balcony.
+N-B0638 | Crying after a national team match.
+N-B0639 | Promising yourself you’ll never watch again.
+N-B0640 | A midlife crisis.
+N-B0641 | A quarter-life crisis.
+N-B0642 | A post-thirty crisis that’s still going on.
+N-B0643 | Sunday night syndrome.
+N-B0644 | Phone anxiety.
+N-B0645 | Impostor syndrome at a new job.
+N-B0646 | Procrastination at master level.
+N-B0647 | Exhaustion that’s become a personality.
+N-B0648 | Irony as a defense mechanism.
+N-B0649 | Sarcasm nobody understood.
+N-B0650 | A sense of humor that terrifies the in-laws.
+N-B0651 | Dark humor at a funeral.
+N-B0652 | A joke that needs explaining.
+N-B0653 | Laughing at the wrong moment.
+N-B0654 | Awkward silence in the elevator.
+N-B0655 | An awkward handshake-turned-hug attempt.
+N-B0656 | Offering a handshake just as someone goes in for a kiss.
+N-B0657 | Three kisses or two?
+N-B0658 | A goodbye that lasts an hour in the hallway.
+N-B0659 | “Right, we’ll be heading off” and then two more hours.
+N-B0660 | A guest who doesn’t take the hint.
+N-B0661 | The host yawning as a signal.
+N-B0662 | A table full of food nobody will eat.
+N-B0663 | Food packed “for the road” by the mother-in-law.
+N-B0664 | Jars from Mom in every bag.
+N-B0665 | Mom asking if I’m eating properly.
+N-B0666 | Dad calling only about the tires.
+N-B0667 | Parents on Messenger.
+N-B0668 | Parents who just discovered emojis.
+N-B0669 | A mom who sends hearts to everyone.
+N-B0670 | A dad who signs his texts “Dad”.
+N-B0671 | A grandma who discovered memes.
+N-B0672 | Grandpa watching a conspiracy channel.
+N-B0673 | An uncle who knows how to fix the economy.
+N-B0674 | A brother-in-law who’s an expert on 3-euro wines.
+N-B0675 | A buddy who’s always “already on the way”.
+N-B0676 | A friend who always picks the wrong guy.
+N-B0677 | A friend who always goes back to his ex.
+N-B0678 | An acquaintance who turns every party into drama.
+N-B0679 | A friend who cries after the third drink.
+N-B0680 | A buddy who wants to fight after the fourth beer.
+N-B0681 | Someone who falls asleep at every party.
+N-B0682 | Someone who always has the last word.
+N-B0683 | A typical tourist with a bag full of sandwiches.
+N-B0684 | A lady at the checkout who wants to speak to the manager.
+N-B0685 | A BMW driver who never uses turn signals.
+N-B0686 | A cyclist in Lycra on the pedestrian path.
+N-B0687 | A guy at the gym who grunts with every rep.
+N-B0688 | A lady taking selfies at the gym.
+N-B0689 | Someone playing music without headphones on the train.
+N-B0690 | A passenger who takes his shoes off on the plane.
+N-B0691 | The person in the next seat telling you their life story.
+N-B0692 | A taxi driver philosopher.
+N-B0693 | A hairdresser therapist.
+N-B0694 | A bartender psychologist.
+N-B0695 | A priest doing the house blessing at the worst moment.
+N-B0696 | The man from the gas company.
+N-B0697 | A door-to-door cookware salesman.
+N-B0698 | A solar panel salesman at the door.
+N-B0699 | A phone call offering a new plan.
+N-B0700 | A street survey person.
+N-B0701 | A volunteer with a collection tin at the mall.
+N-B0702 | A wellness influencer with a supplement discount code.
+N-B0703 | A personal development coach with zero experience.
+N-B0704 | An expert on everything in the comments.
+N-B0705 | A politician at the town fair.
+N-B0706 | A reality show celebrity.
+N-B0707 | A cheesy pop star at a wedding.
+N-B0708 | A wedding DJ who only plays ’90s hits.
+N-B0709 | A wedding photographer who was everywhere.
+N-B0710 | A cameraman who filmed my humiliation.
+N-B0711 | An MC with compulsory party games.
+N-B0712 | A best man with a 40-minute speech.
+N-B0713 | A bridesmaid who wants to be the bride.
+N-B0714 | The mother-in-law during the first dance.
+N-B0715 | Grandma with a new hairdo.
+N-B0716 | An uncle with his tie around his head.
+N-B0717 | An aunt who only drinks “symbolically”.
+N-B0718 | A drunk cousin with a microphone.
+N-B0719 | Kids under the table at a wedding.
+N-B0720 | A dog in a bow tie at a wedding.
+N-B0721 | Doves released outside the church.
+N-B0722 | Rice in your hair.
+N-B0723 | Coins that have to be picked up.
+N-B0724 | A wedding gate set up by the neighbors.
+N-B0725 | A ransom paid for the bride.
+N-B0726 | Carrying her over the threshold, ending in back pain.
+N-B0727 | A wedding night they slept through.
+N-B0728 | A month after the wedding and the first loan.
+N-B0729 | A year after the wedding and the first baby.
+N-B0730 | Five years after the wedding and a dog.
+N-B0731 | Ten years after the wedding and separate duvets.
+N-B0732 | Twenty years after the wedding and the snoring.
+N-B0733 | A silver anniversary with a fight over the remote.
+N-B0734 | A golden anniversary and Grandpa still can’t cook.
+N-B0735 | A love that survived a renovation.
+N-B0736 | A relationship that didn’t survive the furniture store.
+N-B0737 | A marriage saved by a shared TV series.
+N-B0738 | A shared passion for complaining.
+N-B0739 | A fight about the bedroom temperature.
+N-B0740 | A fight over the duvet.
+N-B0741 | A fight about who fell asleep first.
+N-B0742 | A fight about where to go on vacation.
+N-B0743 | A fight about money that nobody won.
+N-B0744 | A talk about the future while loading the dishwasher.
+N-B0745 | A romantic dinner ordered through an app.
+N-B0746 | Flowers bought out of guilt.
+N-B0747 | Apology jewelry.
+N-B0748 | A spa for two instead of therapy.
+N-B0749 | A weekend for two where we talk about the kids.
+N-B0750 | A date where we both stare at our phones.
+N-B0751 | Our first fight in a furniture store.
+N-B0752 | Our first fight in the car.
+N-B0753 | Our first joint loan.
+N-B0754 | Our first shared apartment with boxes for a year.
+N-B0755 | Our first dog together.
+N-B0756 | Our first Christmas at the in-laws’.
+N-B0757 | Our first trip together, and our last.
+N-B0758 | A joint bank account and separate secrets.
+N-B0759 | A rainy-day savings account, and it rains every month.
+N-B0760 | An anniversary present ordered for next-day delivery.
+N-B0761 | A beautiful second-hand ring.
+N-B0762 | A romantic stroll around the shopping mall.
+N-B0763 | Sunday at the hardware store.
+N-B0764 | A trip to the garden center as the weekend highlight.
+N-B0765 | A conversation about grout.
+N-B0766 | Swooning over a new kitchen countertop.
+N-B0767 | A fight about the living room wall color.
+N-B0768 | Gray everything.
+N-B0769 | A catalog-perfect apartment nobody can live in.
+N-B0770 | Decorative pillows you’re not allowed to use.
+N-B0771 | Guest towels that are just for looking at.
+N-B0772 | A white sofa and kids.
+N-B0773 | A rug you can’t clean after a party.
+N-B0774 | A wine stain shaped like Poland.
+N-B0775 | The smell of the party lingering in the curtains.
+N-B0776 | A sofa that has seen better days.
+N-B0777 | A store-bought bed that creaks at every move.
+N-B0778 | A mattress with a me-shaped dent.
+N-B0779 | A duvet my partner always steals.
+N-B0780 | An alarm with snooze set five times.
+N-B0781 | Coffee as the foundation of a relationship.
+N-B0782 | The first coffee before the first word.
+N-B0783 | My husband at 6 a.m.
+N-B0784 | My wife before her first coffee.
+N-B0785 | The mother-in-law at any hour.
+N-B0786 | The boss right before vacation.
+N-B0787 | A client who has “just one tiny comment”.
+N-B0788 | A client who wants the logo to “pop more”.
+N-B0789 | A project needed “yesterday” from a client who replies a week later.
+N-B0790 | An invoice paid after 90 days.
+N-B0791 | A freelance contract for life.
+N-B0792 | Being self-employed with social security payments like a mortgage.
+N-B0793 | An entrepreneur working 16 hours a day for himself.
+N-B0794 | Financial freedom in 40 years.
+N-B0795 | Money that was in your winter jacket pocket.
+N-B0796 | A miracle, a.k.a. a tax refund.
+N-B0797 | An unexpected bank transfer from Grandma.
+N-B0798 | An envelope from the grandparents “for university” spent on a party.
+N-B0799 | My first paycheck spent in one evening.
+N-B0800 | Vacation savings spent at the mechanic’s.

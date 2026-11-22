@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Cards Against Humanity (CC BY-NC-SA) · język: pl · pakiet OFF023 (karty 101–200 z 416)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - C-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+C-C02559 | W więzieniu mówią, że za 200 papierosów można dostać ____.
+C-C00158 | Na nowej płycie raper nawija do dźwięków ____.
+C-C02557 | W nowej letniej komedii Rob Schneider to ____ uwięziony w ciele ____.
+C-C02560 | W nowym filmie Shyamalana Bruce Willis odkrywa, że ____ przez cały czas było tak naprawdę ____.
+C-C02561 | W ostatnich chwilach Michael Jackson myślał o ____.
+C-C00165 | W Rzymie szepczą, że Watykan ma tajny pokój poświęcony ____.
+C-C02562 | W nowym filmie Disneya Hannah Montana pierwszy raz zmaga się z ____.
+C-C00170 | W siódmym kręgu piekła grzesznicy muszą przez wieczność znosić ____.
+C-C02565 | Zamiast rózgi Mikołaj daje teraz niegrzecznym dzieciom ____.
+C-C02566 | Przedstawiamy niesamowity duet superbohatera i pomocnika! To ____ i ____!
+C-C02567 | Przedstawiamy X-Treme Siatkówkę! Jak siatkówka, ale z ____!
+C-C02569 | Szkoda, że dzisiejsza młodzież tak się wplątuje w ____.
+C-C02570 | Choć raz chciałabym usłyszeć: „Dzięki, mamo. Dzięki za ____”.
+C-C02572 | Właśnie widziałem ten przykry filmik! Udostępnij!! #stop____
+C-C02573 | Dzieci, nie potrzebuję narkotyków. Jestem na haju od ____.
+C-C02575 | Życie rdzennych Amerykanów zmieniło się na zawsze, gdy biały człowiek pokazał im ____.
+C-C02576 | Życie jaskiniowców było trudne, zanim wynaleziono ____.
+C-C02578 | Polsat przedstawia: „____. Historia ____”.
+C-C06751 | Słuchaj, Karen, nie możesz dzwonić na policję za każdym razem, gdy widzisz czarnoskórego, który cieszy się ____.
+C-C00192 | Kochać cię łatwo, bo jesteś ____.
+C-C02579 | Federacja zakazała ____, bo daje zawodnikom nieuczciwą przewagę.
+C-C02581 | Mamma Mia, znowu to samo! Jak mam się oprzeć ____?
+C-C00196 | Stary, to jest chore. Pieprzyć ____.
+C-C02586 | Może się z tym urodziła. A może to ____.
+C-C02587 | Polubisz ____. Gwarantuję.
+C-C02588 | Historycy wojskowości pamiętają Aleksandra Wielkiego za genialne użycie ____ przeciwko Persom.
+C-C00205 | Za pieniądze nie kupisz miłości, ale kupisz ____.
+C-C02590 | Państwo Kowalscy, wezwaliśmy państwa, bo martwimy się o Julkę. Czy wiedzą państwo, że wasza córka to ____?
+C-C00208 | Ojczyzno moja, kraino ____.
+C-C02593 | Moja ulubiona pozycja seksualna to „na ____”.
+C-C02594 | Rodacy! Zanim skończy się ta dekada, wyślemy na Księżyc ____!
+C-C00214 | Mama dostała szału, gdy w historii przeglądarki znalazła ____.pl/____.
+C-C02595 | Nazywam się Peter Parker. Ugryzł mnie radioaktywny pająk i teraz jestem ____.
+C-C00216 | Moja nowa ulubiona gwiazda porno to Joey „____” McGee.
+C-C00218 | Mój plan podboju świata zaczyna się od ____.
+C-C02596 | Nowy reality show Netfliksa: dwunastu gorących singli mieszka razem z ____.
+C-C02597 | Nowa książka J.K. Rowling: Harry Potter i Komnata ____.
+C-C02599 | Już za chwilę w Eurosporcie: Mistrzostwa Świata w ____.
+C-C02606 | Za chwilę w TVN: Kuchenne rewolucje: ____.
+C-C06056 | Nikt nie spodziewa się hiszpańskiej inkwizycji! Nasza główna broń to strach, zaskoczenie i ____.
+C-C05953 | Nie chwaląc się, mówią na mnie „Picasso ____”.
+C-C02609 | Teraz w Muzeum Narodowym: interaktywna wystawa o ____.
+C-C06658 | Oczywiście, że mój pies to pies asystujący! Chroni mnie przed ____.
+C-C00230 | O nie! Siri, jak naprawić ____?
+C-C02614 | Ej! Pokaż no ____!
+C-C02615 | Stary Donald farmę miał, ia ia o! A na tej farmie ____, ia ia o!
+C-C00236 | W życiu pewne są tylko dwie rzeczy: śmierć i ____.
+C-C06655 | Rodzice martwią się nowym trendem z TikToka: „____ Challenge”.
+C-C02616 | Kara! ____: dwie minuty na ławce kar!
+C-C02617 | Dziś premiera nowego, wzruszającego serialu rodzinnego: „To właśnie ____”.
+C-C02620 | Podobno ulubionym przysmakiem Putina jest ____ faszerowane ____.
+C-C00251 | Nauka nigdy nie wyjaśni ____.
+C-C02622 | Przepraszam wszystkich, właśnie ____.
+C-C02623 | Krok 1: ____. Krok 2: ____. Krok 3: zysk.
+C-C02624 | Badania pokazują, że szczury przechodzą labirynt o 50% szybciej po kontakcie z ____.
+C-C00261 | Letnia miłość, szał i ogień. ____, tak szybko się stało.
+C-C02625 | PKP przeprasza za opóźnienie pociągu z powodu ____.
+C-C02626 | Tak, zabiłem ____. Jak? ____.
+C-C00266 | Randka w ciemno szła fatalnie, dopóki nie odkryliśmy wspólnej pasji do ____.
+C-C02627 | Wycieczkę klasową kompletnie zepsuło ____.
+C-C05714 | TYLKO U NAS! Tajemnicza walka Dody z ____!
+C-C00269 | Pięć etapów żałoby: zaprzeczenie, gniew, targowanie się, ____, akceptacja.
+C-C00270 | Proces leczenia zaczął się, gdy dołączyłem do grupy wsparcia dla ofiar ____.
+C-C02629 | Nowy SUV. Moc i przestrzeń, by zabrać ____ wszędzie, gdzie pojedziesz.
+C-C00272 | Sekret udanego małżeństwa to komunikacja, komunikacja i ____.
+C-C02636 | Hasło przyszłorocznej Eurowizji brzmi: „Jesteśmy ____”.
+C-C02637 | USA zaczęły zrzucać dzieciom w Afganistanie ____.
+C-C06661 | Te buty zrobiono do ____.
+C-C02638 | Mówili, że zwariowaliśmy. Że nie da się włożyć ____ do ____. Mylili się.
+C-C02639 | Tak oto kończy się świat. Nie hukiem, lecz ____.
+C-C00287 | Mówi kapitan. Proszę zapiąć pasy i przygotować się na ____.
+C-C02642 | W tym sezonie w Teatrze Narodowym klasyka Becketta: Czekając na ____.
+C-C02647 | Dziś w „Ukrytej prawdzie”: „Pomocy! Mój syn to ____!”
+C-C02649 | Temat dnia: to, czego nie wiesz o ____, może cię zabić.
+C-C00299 | Okazało się, że Człowiek-____ nie był bohaterem, jakiego potrzebowaliśmy, ani jakiego chcieliśmy.
+C-C02651 | Ej, wiem, że to był mój pomysł, ale mam poważne wątpliwości co do ____.
+C-C02652 | Konfederacja: ____ przede wszystkim!
+C-C02654 | Wojna! Na co komu ona?
+C-C06656 | Mamy ducha, tak, tak, tak! Mamy ____, a ty jak?
+C-C02655 | Witajcie, przyszli liderzy biznesu! Przez najbliższą godzinę nauczę was, jak okiełznać moc ____!
+C-C00312 | Jeśli ____ to przestępstwo, to zamknijcie mnie!
+C-C02656 | Panowie wybaczą, mam randkę z ____.
+C-C02657 | Z czego rezygnuję w Wielkim Poście?
+C-C02658 | Co ukrywają przede mną rodzice?
+C-C02659 | Czym dyrekcja szkoły walczy z plagą nastoletnich ciąż?
+C-C02660 | Przez co rozpadło się Ich Troje?
+C-C00318 | Co nagle przerwało orgię?
+C-C02661 | Co przywiozłem z Amsterdamu?
+C-C02663 | Co przywiozłem z wakacji w Egipcie?
+C-C02664 | Co USA zrzuciły dzieciom w Afganistanie?
+C-C02665 | Co Vin Diesel zjadł na kolację?
+C-C02666 | Czym pachną starsi ludzie?
+C-C02668 | Czego nie chcesz znaleźć w chińskim jedzeniu?
+C-C02669 | Czego nie chcesz znaleźć w swoim kebabie?
+C-C02672 | Co zakończyło mój ostatni związek?
+C-C02673 | Co staje się lepsze z wiekiem?
+C-C02674 | Od czego mam niekontrolowane gazy?
+C-C00319 | Co uprzykrza życie w obozie nudystów?
+C-C02676 | Co pomaga Obamie się zrelaksować?
+C-C02677 | Jaka jest wstydliwa przyjemność Batmana?

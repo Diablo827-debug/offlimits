@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Po 22:00 (pikantniejsze) · język: en · pakiet OFF011 (karty 201–300 z 501)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-C201 | The worst decision after the third glass of wine: ____.
+N-C202 | What goes on in a coach full of football fans?
+N-C203 | What’s in a message that says “We need to talk”?
+N-C204 | My review of adulthood: ____.
+N-C205 | The only thing motivating me today: ____.
+N-C206 | What do I say to myself in a meeting that could have been an email?
+N-C207 | The best addition to a marital argument: ____.
+N-C208 | My first relationship. Pros: ____. Cons: ____.
+N-C209 | What does a Pole do in the boarding line?
+N-C210 | The worst thing that can happen at a wedding is ____.
+N-C211 | The real reason I moved out of my parents’ place: ____.
+N-C212 | The real reason I moved back in with my parents: ____.
+N-C213 | What do the old ladies on the bench outside say about me?
+N-C214 | The curse of adulthood: ____.
+N-C215 | What do I say when my husband asks how much these shoes cost?
+N-C216 | What do I say when my wife asks how much this fishing rod cost?
+N-C217 | The most expensive thing in my apartment is ____.
+N-C218 | What keeps me alive in November?
+N-C219 | The worst Christmas present from the boss: ____.
+N-C220 | The party duo of all time: ____ and ____.
+N-C221 | What do I do when the boss gets into the elevator?
+N-C222 | The most suspicious item in my shopping cart: ____.
+N-C223 | My first thought waking up with a hangover: ____.
+N-C224 | What do I tell my friends about my “startup”?
+N-C225 | Uncle’s best financial advice: ____.
+N-C226 | What’s in the notes on my phone?
+N-C227 | The real reason I go running: ____.
+N-C228 | The best comeback to “so when are you getting married?”: ____.
+N-C229 | What do I say when people ask about my plans for the future?
+N-C230 | My favorite part of the day is ____.
+N-C231 | The worst thing to hear from your hairdresser: ____.
+N-C232 | What do I do with presents I don’t want?
+N-C233 | My ideal vacation. There is: ____. There isn’t: ____.
+N-C234 | A new dating app for people over forty: ____.
+N-C235 | What do I say at the checkout when my card gets declined?
+N-C236 | The most Polish way to solve a problem: ____.
+N-C237 | What do grown-ups do at a three-year-old’s birthday party when the kids aren’t looking?
+N-C238 | The real purpose of the kindergarten parents’ group chat: ____.
+N-C239 | What don’t I say in front of my girlfriend’s parents?
+N-C240 | What am I hiding from my wife in the basement?
+N-C241 | What am I hiding from my husband in the closet?
+N-C242 | What do I say when someone asks if I’m leaving the office already?
+N-C243 | The best way to get rid of a boring guest: ____.
+N-C244 | My review of my last date: ____.
+N-C245 | What makes a man over forty buy a motorcycle?
+N-C246 | The worst baby shower present: ____.
+N-C247 | The real reason I have a cat: ____.
+N-C248 | What’s hiding in a single person’s closet?
+N-C249 | The best argument in a fight about the dishes: ____.
+N-C250 | What does my fridge say about my life?
+N-C251 | The most toxic relationship in my life is ____.
+N-C252 | What do parents do when the kids finally fall asleep?
+N-C253 | The best reason not to go to work: ____.
+N-C254 | My greatest enemy in the kitchen is ____.
+N-C255 | What goes on in the “Divorcees 40+” group?
+N-C256 | My brother-in-law’s best party trick: ____.
+N-C257 | What am I more afraid of than marriage?
+N-C258 | What does “I’ll be there in 5 minutes” mean coming from my best friend?
+N-C259 | The weirdest place I fell asleep after a party is ____.
+N-C260 | The main attraction at a wedding in the village fire hall: ____.
+N-C261 | What does Grandma say about my tattoo?
+N-C262 | The last resort before bankruptcy: ____.
+N-C263 | What do I say when I first meet my father-in-law?
+N-C264 | The worst business idea in history: ____.
+N-C265 | My Black Friday strategy: ____.
+N-C266 | What do people say in the toilet queue at a festival?
+N-C267 | What should you not buy after midnight?
+N-C268 | Something I regret from my 18th birthday: ____.
+N-C269 | My biggest expense this month: ____.
+N-C270 | What do I do when my partner wants to “talk calmly”?
+N-C271 | The best medicine for a broken heart: ____.
+N-C272 | What do my high school classmates say at the 15-year reunion?
+N-C273 | The real reason I’m on a diet: ____.
+N-C274 | What do I do when I have the house to myself?
+N-C275 | The new definition of luxury after thirty: ____.
+N-C276 | What do I tell my child when they ask where babies come from?
+N-C277 | The worst place to propose: ____.
+N-C278 | The most suspicious item on my bank statement: ____.
+N-C279 | What’s hidden in the neighbor’s Wi-Fi password?
+N-C280 | The weirdest question in a job interview: ____.
+N-C281 | What does my cat do when I have guests over?
+N-C282 | My inner voice says: ____.
+N-C283 | What do I say when the waiter asks if I enjoyed my meal?
+N-C284 | The secret to a happy marriage according to Grandpa: ____.
+N-C285 | The secret to a happy marriage according to Grandma: ____.
+N-C286 | The worst thing you can say during childbirth: ____.
+N-C287 | What does Dad say when I bring someone new home?
+N-C288 | My one rule at parties: ____.
+N-C289 | The real reason I don’t have a driver’s license: ____.
+N-C290 | What does a bachelor keep in his fridge?
+N-C291 | What does a single woman keep in her fridge?
+N-C292 | The worst song for a first dance: ____.
+N-C293 | The best thing about Monday after a long weekend is ____.
+N-C294 | What do I say when a telemarketer calls?
+N-C295 | My brother-in-law’s favorite sport: ____.
+N-C296 | Something I’ll only say after some wine: ____.
+N-C297 | What do I say when my wife asks if she looks fat?
+N-C298 | What do I say when my husband asks if I can park?
+N-C299 | The only thing we have in common with the neighbors: ____.
+N-C300 | What did my first loan teach me?

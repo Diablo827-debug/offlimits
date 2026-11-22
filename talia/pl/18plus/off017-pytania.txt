@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Bez tabu (18+) · język: pl · pakiet OFF017 (karty 1–100 z 208)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - X-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+X-C001 | Prawdziwy powód, dla którego ksiądz kupił nowe audi: ____.
+X-C002 | Co ksiądz mówi po kolędzie, kiedy zamknie drzwi?
+X-C003 | Najnowszy pomysł rządu na poprawę nastrojów: ____.
+X-C004 | Co poseł robi na posiedzeniu Sejmu o 3 w nocy?
+X-C005 | Coming out przy wigilijnym stole w trzech słowach: ____.
+X-C006 | Co babcia powiedziała, kiedy przyprowadziłem chłopaka na obiad?
+X-C007 | Hasło wyborcze, które wygra wybory w Polsce: ____.
+X-C008 | Prawdziwa treść koperty dla księdza: ____.
+X-C009 | Co naprawdę dzieje się na plebanii po 22:00?
+X-C010 | Nowy program partii, który wszystkich pogodzi: ____.
+X-C011 | Najgorsze, co można powiedzieć księdzu przy spowiedzi, to ____.
+X-C012 | Co ciocia mówi o „tych gejach” przy cieście?
+X-C013 | Główny punkt kampanii wyborczej wujka na sołtysa: ____.
+X-C014 | Co stoi w sejmowej restauracji obok schabowego?
+X-C015 | Najnowszy grzech, którego nie było w katechizmie: ____.
+X-C016 | Co znajduje się w teczce posła, kiedy wychodzi z Sejmu?
+X-C017 | Kłótnia polityczna przy wigilii. Wujek mówi: ____. Ciocia odpowiada: ____.
+X-C018 | Prawdziwy powód, dla którego dziadek nie chodzi do kościoła: ____.
+X-C019 | Co mówi ksiądz z ambony o mojej rodzinie?
+X-C020 | Najbardziej polski sposób na załatwienie sprawy w urzędzie: ____.
+X-C021 | Mój plan na parady równości: ____.
+X-C022 | Co przyniósł zając wielkanocny dla gejów?
+X-C023 | Prawdziwy cel pielgrzymki wujka: ____.
+X-C024 | Co mówi teściowa, gdy dowiaduje się, że jej syn ma męża?
+X-C025 | Nowa ustawa, która przeszła w nocy bez czytania: ____.
+X-C026 | Co znaleziono w szafie, z której wyszedłem?
+X-C027 | Ksiądz po kolędzie. W kopercie: ____. W lodówce: ____.
+X-C028 | Najdroższa inwestycja gminy w tym roku: ____.
+X-C029 | Co posłanka trzyma w torebce na wszelki wypadek?
+X-C030 | Nowy sakrament, który wprowadzi Kościół: ____.
+X-C031 | Prawdziwa przyczyna kryzysu w partii rządzącej: ____.
+X-C032 | Co robi minister, kiedy nikt nie patrzy?
+X-C033 | Polski sposób na dyskusję o polityce: ____.
+X-C034 | Co mówi wujek, kiedy w telewizji leci parada równości?
+X-C035 | Mój tęczowy plan na sobotę: ____.
+X-C036 | Co ksiądz zbiera na tacę zamiast pieniędzy?
+X-C037 | Pierwsze słowa premiera po wygranych wyborach: ____.
+X-C038 | Co najbardziej przeraża katechetkę?
+X-C039 | Gejowski ślub w polskiej wsi. Muzyka: ____. Gość honorowy: ____.
+X-C040 | Najlepsza wymówka, żeby nie iść na pasterkę: ____.
+X-C041 | Co znajduje się w programie telewizji publicznej o 20:00?
+X-C042 | Prawdziwa tajemnica spowiedzi: ____.
+X-C043 | Jak opozycja planuje wygrać następne wybory: ____.
+X-C044 | Co mówi proboszcz, kiedy widzi pustą tacę?
+X-C045 | Najbardziej przereklamowana rzecz w Kościele to ____.
+X-C046 | Najbardziej przereklamowana rzecz w polityce to ____.
+X-C047 | Co dostaje radny za trzydzieści lat pracy?
+X-C048 | Moja reakcja, kiedy ciocia pyta, czy mam już dziewczynę: ____.
+X-C049 | Nowa partia polityczna. Lider: ____. Główny postulat: ____.
+X-C050 | Co proboszcz trzyma w garażu obok audi?
+X-C051 | Najlepszy prezent dla księdza na imieniny: ____.
+X-C052 | Prawdziwy powód, dla którego posłowie mają długie wakacje: ____.
+X-C053 | Co robią geje w niedzielę, kiedy hetero są w kościele?
+X-C054 | Najbardziej gejowska rzecz w moim mieszkaniu to ____.
+X-C055 | Nowe przykazanie, które dopisałbym do dekalogu: ____.
+X-C056 | Co znajduje się w budżecie państwa w rubryce „inne”?
+X-C057 | Debata przedwyborcza. Pytanie: ____. Odpowiedź kandydata: ____.
+X-C058 | Co mówi ksiądz, kiedy chcemy wziąć ślub w krótkich spodenkach?
+X-C059 | Najgorszy temat na randce z posłem: ____.
+X-C060 | Prawdziwa przyczyna inflacji według wujka: ____.
+X-C061 | Co robi zakonnica w wolnym czasie?
+X-C062 | Hit tegorocznego marszu w stolicy: ____.
+X-C063 | Co mama mówiła sąsiadkom, zanim dowiedziała się, że jestem gejem?
+X-C064 | Co mama mówi sąsiadkom teraz?
+X-C065 | Rodzinna wigilia. Temat zakazany numer jeden: ____. Temat zakazany numer dwa: ____.
+X-C066 | Prawdziwy skład wody święconej: ____.
+X-C067 | Co poseł wpisał w oświadczeniu majątkowym?
+X-C068 | Najlepszy sposób, żeby wkurzyć całą rodzinę w jednym zdaniu: ____.
+X-C069 | Nowa atrakcja na festynie parafialnym: ____.
+X-C070 | Co jest w pakiecie socjalnym dla polityków?
+X-C071 | Pierwsza rzecz, jaką zrobię jako prezydent: ____.
+X-C072 | Co mówią sąsiedzi o dwóch facetach z trzeciego piętra?
+X-C073 | Ogłoszenia parafialne. Po pierwsze: ____. Po drugie: ____.
+X-C074 | Prawdziwy powód, dla którego ksiądz nie wiąże się z nikim: ____.
+X-C075 | Ulubiony sport posłów: ____.
+X-C076 | Najbardziej polska tradycja świąteczna to ____.
+X-C077 | Co ukrywa ministerstwo w tajnym raporcie?
+X-C078 | Jedyne, co łączy prawicę i lewicę: ____.
+X-C079 | Co dziadek krzyczy do telewizora podczas wiadomości?
+X-C080 | Rozmowa z księdzem przed ślubem. Temat pytania księdza: ____. Moja odpowiedź: ____.
+X-C081 | Mój argument w kłótni o politykę przy wódce: ____.
+X-C082 | Co robi Polak, kiedy przegra jego partia?
+X-C083 | Najbardziej kontrowersyjny prezent pod choinkę: ____.
+X-C084 | Nowe święto narodowe, które zaproponuję: ____.
+X-C085 | Co ciocia trzyma w szafie obok różańca?
+X-C086 | Prawdziwy powód wizyty biskupa w naszej parafii: ____.
+X-C087 | Moja reakcja na kazanie o rodzinie: ____.
+X-C088 | Najbardziej szczery spot wyborczy: ____.
+X-C089 | Co minister zdrowia poleca na wszystko?
+X-C090 | Tęczowa rodzina na zdjęciu. Tata numer jeden: ____. Tata numer dwa: ____.
+X-C091 | Co mówi ksiądz, kiedy myśli, że mikrofon jest wyłączony?
+X-C092 | Najgorszy moment na coming out: ____.
+X-C093 | Najlepszy moment na coming out: ____.
+X-C094 | Prawdziwa przyczyna długich kolejek do lekarza: ____.
+X-C095 | Co politycy obiecują przed wyborami i nigdy nie robią?
+X-C096 | Mój chłopak poznaje rodzinę. Babcia: ____. Dziadek: ____.
+X-C097 | Program partii na nową kadencję: ____ dla wszystkich i ____ dla wybranych.
+X-C098 | Msza w intencji rodziny. Intencja: ____. Efekt: ____.
+X-C099 | Wybory w gminie. Kandydat: ____. Obietnica: ____.
+X-C100 | Moje życie jako gej w małym mieście. Plusy: ____. Minusy: ____.

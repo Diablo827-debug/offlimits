@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Bez tabu (18+) · język: pl · pakiet OFF017 (karty 1–200 z 997)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - X-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+X-B0001 | Koperta dla księdza, w której jest kupon na kebab.
+X-B0002 | Ksiądz na kolędzie z terminalem płatniczym.
+X-B0003 | Taca, która wraca pusta.
+X-B0004 | Proboszcz w nowym audi.
+X-B0005 | Plebania z jacuzzi.
+X-B0006 | Kazanie, które trwa dłużej niż film.
+X-B0007 | Spowiedź przez Zooma.
+X-B0008 | Organista, który gra disco polo.
+X-B0009 | Ministrant, który wypił wino mszalne.
+X-B0010 | Zakonnica na rolkach.
+X-B0011 | Biskup na wakacjach na Malediwach.
+X-B0012 | Woda święcona z kranu.
+X-B0013 | Opłatek z glutenem.
+X-B0014 | Pasterka o 22:00, bo ksiądz chce spać.
+X-B0015 | Różaniec jako bransoletka.
+X-B0016 | Rekolekcje dla wujka, który nie przyszedł.
+X-B0017 | Pielgrzymka do Częstochowy z grillem.
+X-B0018 | Bierzmowanie dla świętego spokoju babci.
+X-B0019 | Komunia za iPhone'a.
+X-B0020 | Ślub kościelny dla zdjęć.
+X-B0021 | Pogrzeb z mową o polityce.
+X-B0022 | Ksiądz, który pyta o datki przy spowiedzi.
+X-B0023 | Kolęda o 14:00 w dzień roboczy.
+X-B0024 | Proboszcz z kontem na Instagramie.
+X-B0025 | Ksiądz influencer.
+X-B0026 | Ogłoszenia parafialne o cenie mszy.
+X-B0027 | Cennik pogrzebu wywieszony w kruchcie.
+X-B0028 | Nowy dach kościoła finansowany przez emerytów.
+X-B0029 | Babcia, która daje na tacę ostatnie 50 złotych.
+X-B0030 | Ksiądz z ambony o tym, na kogo głosować.
+X-B0031 | Grzech ciężki popełniony w poniedziałek rano.
+X-B0032 | Odpust zupełny za udostępnienie posta.
+X-B0033 | Spowiedź generalna z listą na trzy kartki.
+X-B0034 | Rachunek sumienia w Excelu.
+X-B0035 | Dziesięć przykazań w wersji skróconej.
+X-B0036 | Piekło, w którym grają kolędy na okrągło.
+X-B0037 | Niebo z kolejką jak do lekarza.
+X-B0038 | Czyściec jako poczekalnia w urzędzie.
+X-B0039 | Anioł stróż, który poszedł na urlop.
+X-B0040 | Diabeł, który pracuje w korporacji.
+X-B0041 | Cud nad Wisłą w wersji budżetowej.
+X-B0042 | Objawienie na szybie w łazience.
+X-B0043 | Święty, który pomaga znaleźć klucze.
+X-B0044 | Święty Antoni na etacie w naszej rodzinie.
+X-B0045 | Święta Rita od beznadziejnych przypadków, czyli od wujka.
+X-B0046 | Krzyż na ścianie w każdym pokoju i w łazience.
+X-B0047 | Ksiądz, który święci samochody za 100 złotych.
+X-B0048 | Poświęcenie nowej lodówki.
+X-B0049 | Wielkanocny koszyczek z wódką.
+X-B0050 | Babcia, która modli się za mojego chłopaka.
+X-B0051 | Ciocia, która modli się, żebym się „wyleczył”.
+X-B0052 | Coming out przy barszczu.
+X-B0053 | Coming out przez grupę rodzinną na WhatsAppie.
+X-B0054 | Coming out, o którym wszyscy wiedzieli od 10 lat.
+X-B0055 | Mama, która od zawsze wiedziała.
+X-B0056 | Tata, który udaje, że nie słyszał.
+X-B0057 | Dziadek, który pyta, kto jest kobietą w związku.
+X-B0058 | Babcia, która od razu polubiła mojego chłopaka bardziej niż mnie.
+X-B0059 | Ciocia pytająca, kiedy znajdę sobie dziewczynę.
+X-B0060 | Ciocia pytająca, kiedy wezmę ślub z chłopakiem.
+X-B0061 | Kuzyn, który pyta, czy jestem w nim zakochany.
+X-B0062 | Wujek, który mówi, że nie ma nic przeciwko, ale.
+X-B0063 | „Nie mam nic przeciwko gejom, ale”.
+X-B0064 | „Mam kolegę geja”.
+X-B0065 | „To tylko faza”.
+X-B0066 | „A kto u was gotuje?”
+X-B0067 | „Zawsze byłeś taki wrażliwy”.
+X-B0068 | „Szkoda, bo taki ładny chłopak”.
+X-B0069 | „Byle nie na ulicy”.
+X-B0070 | Tęczowa flaga na balkonie w bloku na wsi.
+X-B0071 | Parada równości w małym miasteczku.
+X-B0072 | Tęczowy sweter na wigilii.
+X-B0073 | Tęczowa torba z zakupami w dyskoncie.
+X-B0074 | Tęczowa naklejka na samochodzie wujka.
+X-B0075 | Gejowski radar, który nigdy się nie myli.
+X-B0076 | Gejowski radar cioci, który się myli zawsze.
+X-B0077 | Gej, który nie umie się ubrać.
+X-B0078 | Gej, który nie lubi musicali.
+X-B0079 | Gej, który ogląda piłkę nożną.
+X-B0080 | Gej z kotem i trzema monsterami.
+X-B0081 | Gej w kraciastej koszuli na grillu.
+X-B0082 | Gej, który zna wszystkie piosenki z Eurowizji.
+X-B0083 | Eurowizja jako święto narodowe.
+X-B0084 | Brunch w niedzielę zamiast mszy.
+X-B0085 | Aplikacja randkowa dla gejów w miasteczku na 2000 osób.
+X-B0086 | Dopasowanie z sąsiadem z klatki.
+X-B0087 | Dopasowanie z księdzem z sąsiedniej parafii.
+X-B0088 | Randka w ciemno z kolegą z liceum.
+X-B0089 | Chłopak przedstawiony rodzinie jako „współlokator”.
+X-B0090 | Współlokator, który śpi w tym samym łóżku.
+X-B0091 | Dwóch panów kupujących wspólne mieszkanie.
+X-B0092 | Ślub za granicą i wesele w remizie.
+X-B0093 | Wesele bez panny młodej.
+X-B0094 | Pierwszy taniec dwóch panów do disco polo.
+X-B0095 | Teściowa, która ma dwóch zięciów.
+X-B0096 | Pytanie urzędnika: „A gdzie żona?”
+X-B0097 | Formularz w urzędzie z rubryką „mąż/żona”.
+X-B0098 | Polski związek partnerski w wersji „może kiedyś”.
+X-B0099 | Debata w Sejmie o tym, czy istnieję.
+X-B0100 | Poseł, który mówi, że nie zna żadnego geja.
+X-B0101 | Poseł, który zna bardzo dobrze kilku gejów.
+X-B0102 | Sejmowa stołówka z cenami z 1995 roku.
+X-B0103 | Kotlet schabowy za 7 złotych w Sejmie.
+X-B0104 | Poseł śpiący na sali plenarnej.
+X-B0105 | Poseł grający w gry na telefonie podczas obrad.
+X-B0106 | Głosowanie o 3 w nocy.
+X-B0107 | Ustawa przegłosowana w 15 minut.
+X-B0108 | Ustawa, której nikt nie przeczytał.
+X-B0109 | Poprawka do poprawki.
+X-B0110 | Komisja śledcza do spraw komisji śledczej.
+X-B0111 | Afera, o której wszyscy zapomną za tydzień.
+X-B0112 | Konferencja prasowa bez pytań.
+X-B0113 | Rzecznik rządu, który nie wie, co powiedzieć.
+X-B0114 | Minister, który nie wie, czym się zajmuje.
+X-B0115 | Wiceminister od niczego.
+X-B0116 | Rada nadzorcza dla szwagra.
+X-B0117 | Posada w spółce skarbu państwa dla kuzyna.
+X-B0118 | Kumoterstwo w wersji rodzinnej.
+X-B0119 | Kampania wyborcza z kiełbasą.
+X-B0120 | Kiełbasa wyborcza w promocji.
+X-B0121 | Obietnica wyborcza z 2005 roku.
+X-B0122 | Billboard wyborczy z twarzą, której nikt nie zna.
+X-B0123 | Plakat wyborczy przyklejony na kościele.
+X-B0124 | Ulotka wyborcza w skrzynce na listy.
+X-B0125 | Debata telewizyjna, w której nikt nie odpowiada na pytania.
+X-B0126 | Cisza wyborcza, w której wszyscy krzyczą.
+X-B0127 | Exit poll, który się nie sprawdził.
+X-B0128 | Liczenie głosów do 4 rano.
+X-B0129 | Komisja wyborcza w szkole z kanapkami.
+X-B0130 | Mąż zaufania z termosem.
+X-B0131 | Wujek, który zawsze głosuje na tych, co przegrywają.
+X-B0132 | Babcia, która głosuje, jak powie ksiądz.
+X-B0133 | Dziadek, który pamięta, jak było za komuny.
+X-B0134 | „Za komuny przynajmniej była praca”.
+X-B0135 | „Wszyscy kradną”.
+X-B0136 | „Polityka mnie nie interesuje”, powiedziane przed godzinną tyradą.
+X-B0137 | Kłótnia o politykę na wigilii.
+X-B0138 | Kłótnia o politykę na pogrzebie.
+X-B0139 | Kłótnia o politykę na weselu, przy wódce.
+X-B0140 | Rodzinna grupa na WhatsAppie podzielona na dwa obozy.
+X-B0141 | Wujek udostępniający fake newsy.
+X-B0142 | Ciocia, która wierzy w każdy łańcuszek.
+X-B0143 | Teoria spiskowa o szczepionkach przy rosole.
+X-B0144 | Telewizja, którą ogląda dziadek.
+X-B0145 | Telewizja, której nienawidzi dziadek.
+X-B0146 | Pilot, którym przełącza się między propagandami.
+X-B0147 | Wiadomości o 19:30 jako rodzinny rytuał.
+X-B0148 | Pasek informacyjny, który wie lepiej.
+X-B0149 | Ekspert od wszystkiego w telewizji śniadaniowej.
+X-B0150 | Prezes, który nie ma funkcji, a rządzi wszystkim.
+X-B0151 | Partia, która zmienia nazwę co dwa lata.
+X-B0152 | Lider partii z kotem.
+X-B0153 | Lider opozycji, który wiecznie jest „w drodze”.
+X-B0154 | Koalicja, która się rozpada przy obiedzie.
+X-B0155 | Rekonstrukcja rządu, czyli te same twarze.
+X-B0156 | Minister zdrowia, który leczy się prywatnie.
+X-B0157 | Minister edukacji, który robi błędy ortograficzne.
+X-B0158 | Minister finansów z debetem.
+X-B0159 | Minister cyfryzacji z faksem.
+X-B0160 | Minister sportu bez kondycji.
+X-B0161 | Prezydent, który podpisuje wszystko.
+X-B0162 | Prezydent, który nie podpisuje niczego.
+X-B0163 | Orędzie do narodu o 20:00 w sylwestra.
+X-B0164 | Hymn śpiewany z pomylonymi słowami.
+X-B0165 | Flaga narodowa na każdym balkonie przez jeden dzień w roku.
+X-B0166 | Marsz, po którym trzeba sprzątać.
+X-B0167 | Kontrmanifestacja na tym samym rondzie.
+X-B0168 | Protest rolników z traktorami na autostradzie.
+X-B0169 | Strajk nauczycieli, na który nikt nie zwrócił uwagi.
+X-B0170 | Pensja posła w porównaniu z pensją pielęgniarki.
+X-B0171 | Trzynasta emerytura wydana na prezenty dla wnuków.
+X-B0172 | Czternasta emerytura wydana na leki.
+X-B0173 | Pięćset plus wydane na telewizor.
+X-B0174 | Podatek od wszystkiego.
+X-B0175 | Inflacja, którą rząd nazywa „przejściową”.
+X-B0176 | Ceny masła jako temat polityczny numer jeden.
+X-B0177 | Kolejki do lekarza specjalisty na 2031 rok.
+X-B0178 | Szpital, w którym trzeba przynieść własny papier toaletowy.
+X-B0179 | Pociąg spóźniony o 120 minut, ale z Wi-Fi.
+X-B0180 | Droga ekspresowa, którą otwierają czwarty raz.
+X-B0181 | Przecinanie wstęgi na wyremontowanym chodniku.
+X-B0182 | Wójt, który rządzi gminą od 30 lat.
+X-B0183 | Sołtys z megafonem i opinią na każdy temat.
+X-B0184 | Rada gminy, która kłóci się o ławkę.
+X-B0185 | Fontanna za trzy miliony na rynku.
+X-B0186 | Rondo imienia kogoś, kogo nikt nie zna.
+X-B0187 | Pomnik, który nikomu się nie podoba.
+X-B0188 | Patriotyzm na koszulce made in China.
+X-B0189 | Kibole w koszulkach z husarią.
+X-B0190 | Husaria jako odpowiedź na wszystko.
+X-B0191 | „Polska dla Polaków” powiedziane przez kogoś w Londynie.
+X-B0192 | Emigracja do Norwegii za chlebem.
+X-B0193 | Wujek, który wrócił z Anglii i zapomniał polskiego.
+X-B0194 | Kuzyn, który wyjechał na Wyspy i mówi „zajebiście, bro”.
+X-B0195 | Tradycyjne polskie narzekanie.
+X-B0196 | Narzekanie jako sport narodowy.
+X-B0197 | Zazdrość o samochód sąsiada.
+X-B0198 | „Co ludzie powiedzą?”
+X-B0199 | „Ja tylko pytam”.
+X-B0200 | „Nie dla psa kiełbasa”.

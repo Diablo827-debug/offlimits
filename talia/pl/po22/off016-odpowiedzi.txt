@@ -1,0 +1,111 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Po 22:00 (pikantniejsze) · język: pl · pakiet OFF016 (karty 1401–1502 z 1502)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-B1401 | Telewizor, który działa tylko po uderzeniu.
+N-B1402 | Radio, które łapie tylko stację z polkami.
+N-B1403 | Stacja radiowa, której słucha tylko taksówkarz.
+N-B1404 | Muzyka w windzie.
+N-B1405 | Muzyka w poczekalni na infolinii.
+N-B1406 | Infolinia, gdzie „połączenie jest dla nas ważne”.
+N-B1407 | Konsultant numer 47 w kolejce.
+N-B1408 | Rozmowa z automatem, który nie rozumie.
+N-B1409 | Wciśnij jeden, wciśnij dwa, wciśnij płacz.
+N-B1410 | Reklamacja, która trwa trzy miesiące.
+N-B1411 | Paragon, który wyblakł.
+N-B1412 | Gwarancja, która skończyła się dzień przed awarią.
+N-B1413 | Instrukcja obsługi w 24 językach i żadnym zrozumiałym.
+N-B1414 | Sprzęt, który psuje się zaraz po okresie gwarancji.
+N-B1415 | Pralka, która ma więcej programów niż ja planów.
+N-B1416 | Program „bawełna 40” jako jedyny używany.
+N-B1417 | Suszarka, która zmniejszyła sweter.
+N-B1418 | Sweter, który teraz pasuje na psa.
+N-B1419 | Pies w ubraniach właściciela.
+N-B1420 | Kot w kartonie zamiast w legowisku za 300 złotych.
+N-B1421 | Zabawka dla kota za 80 złotych i sznurek wygrywa.
+N-B1422 | Rachunek u weterynarza wyższy niż mój u lekarza.
+N-B1423 | Ubezpieczenie dla psa.
+N-B1424 | Urodziny psa z tortem.
+N-B1425 | Psia kawiarnia.
+N-B1426 | Spa dla kota.
+N-B1427 | Influencer kot, który zarabia więcej niż ja.
+N-B1428 | Kot, który nauczył mnie pokory.
+N-B1429 | Pies, który nauczył mnie miłości bezwarunkowej.
+N-B1430 | Chomik, który nauczył mnie, czym jest przemijanie.
+N-B1431 | Rybka, która nauczyła mnie milczenia.
+N-B1432 | Papuga, która wydała wszystkie rodzinne sekrety.
+N-B1433 | Papuga, która mówi głosem byłego.
+N-B1434 | Szczur w piwnicy, który ma już imię.
+N-B1435 | Gołąb, który wleciał na zebranie.
+N-B1436 | Mewa, która ukradła mi kanapkę na molo.
+N-B1437 | Osa na pikniku romantycznym.
+N-B1438 | Kleszcz w miejscu, o którym nie mówimy.
+N-B1439 | Komary na weselu w plenerze.
+N-B1440 | Burza na ślubie w ogrodzie.
+N-B1441 | Upał w garniturze.
+N-B1442 | Mróz na studniówce w cienkiej sukience.
+N-B1443 | Deszcz na festiwalu.
+N-B1444 | Słońce w biurze bez rolet.
+N-B1445 | Pogoda, która zawsze psuje plany.
+N-B1446 | Prognoza pogody, w którą wierzę tylko ja.
+N-B1447 | Ostatnia rzecz, której się spodziewałem.
+N-B1448 | Wielki finał, którego nikt nie chciał.
+N-B1449 | Happy end z kredytem.
+N-B1450 | Szczęście w małych dawkach.
+N-B1451 | Spokój, który trwał pięć minut.
+N-B1452 | Niedziela bez planów i bez wyrzutów sumienia.
+N-B1453 | Dorosłość, w której nikt nie wie, co robi.
+N-B1454 | Życie, które poszło inaczej, ale dobrze.
+N-B1455 | Pierwsza wypłata i pierwsze rozczarowanie.
+N-B1456 | Ostatnia rata kredytu, której nigdy nie dożyję.
+N-B1457 | Kawa na wynos za 24 złote.
+N-B1458 | Śniadanie na mieście, czyli awokado za pół dniówki.
+N-B1459 | Brunch, na który trzeba czekać godzinę.
+N-B1460 | Kolejka do modnej piekarni.
+N-B1461 | Lody rzemieślnicze w cenie złota.
+N-B1462 | Burger z frytkami za 69 złotych.
+N-B1463 | Ramen, który miał zmienić moje życie.
+N-B1464 | Wegański schabowy u teściowej.
+N-B1465 | Dieta keto przez trzy dni.
+N-B1466 | Post przerywany przerwany kebabem.
+N-B1467 | Smoothie, które smakuje jak trawnik.
+N-B1468 | Sok z selera na detoks.
+N-B1469 | Kombucha zrobiona w domu przez szwagra.
+N-B1470 | Zakwas na chleb, który ma więcej obserwujących niż ja.
+N-B1471 | Chleb pieczony w pandemii, którego nikt już nie piecze.
+N-B1472 | Bułka z masłem jako szczyt kulinarny.
+N-B1473 | Kotlet od mamy przywieziony w torbie przez całą Polskę.
+N-B1474 | Słoiki od mamy jako waluta.
+N-B1475 | Wymiana bigosu na pierogi z sąsiadką.
+N-B1476 | Ciasto od teściowej, którego nie wolno odmówić.
+N-B1477 | Trzecia dokładka z grzeczności.
+N-B1478 | Spodnie rozpięte po świątecznym obiedzie.
+N-B1479 | Drzemka po rosole.
+N-B1480 | Walka z senną popołudniową niedzielą.
+N-B1481 | Kawa po obiedzie dla wujka, który „nie zaśnie”.
+N-B1482 | Wujek, który zasnął w połowie zdania.
+N-B1483 | Dziadek chrapiący do rytmu kolęd.
+N-B1484 | Kolędy śpiewane do karaoke na telefonie.
+N-B1485 | Karaoke rodzinne z mikrofonem z marketu.
+N-B1486 | Taniec z teściową do disco polo.
+N-B1487 | Szwagier, który chce tańczyć breakdance.
+N-B1488 | Zakład o to, kto pierwszy wyjdzie z imprezy.
+N-B1489 | Wyjście po angielsku, którego nikt nie zauważył.
+N-B1490 | Powrót po kurtkę, który przedłużył imprezę o trzy godziny.
+N-B1491 | Kanapa u znajomych jako hotel.
+N-B1492 | Śniadanie w piżamie gospodarza.
+N-B1493 | Ręcznik pożyczony od obcego.
+N-B1494 | Szczoteczka do zębów z hotelowego zestawu.
+N-B1495 | Toaleta, w której zamek nie działa.
+N-B1496 | Drzwi do łazienki bez klamki.
+N-B1497 | Papier toaletowy, który się skończył w gościach.
+N-B1498 | Rozmowa z kotem gospodarzy o 4 rano.
+N-B1499 | Pożegnanie z psem gospodarzy bardziej czułe niż z gospodarzami.
+N-B1500 | Obietnica rewizyty, której nikt nie dotrzyma.
+N-B1501 | Zaproszenie „wpadajcie kiedyś”.
+N-B1502 | Spotkanie, które przekładamy od 2019 roku.

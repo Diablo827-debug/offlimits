@@ -1,0 +1,121 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Rodzinny (dla wszystkich) · język: en · pakiet OFF008 (karty 1401–1512 z 1512)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-B1401 | A grand family plan that never worked out.
+R-B1402 | A road map with Dad’s shortcut marked on it.
+R-B1403 | An hour spent looking for a parking space.
+R-B1404 | A bike ride that ended at the ice cream parlor.
+R-B1405 | A tent pitched upside down.
+R-B1406 | An air mattress that deflates overnight.
+R-B1407 | A sleeping bag you can’t get out of.
+R-B1408 | A campsite with one bathroom for a hundred people.
+R-B1409 | Grandpa’s camper trailer.
+R-B1410 | A camping stove that won’t light.
+R-B1411 | A sausage burnt on the campfire.
+R-B1412 | A marshmallow on a stick.
+R-B1413 | Potatoes baked in the campfire.
+R-B1414 | A campfire guitar with three chords.
+R-B1415 | A ghost story by flashlight.
+R-B1416 | Being woken up by a rooster.
+R-B1417 | Milk straight from the cow.
+R-B1418 | Eggs from happy hens.
+R-B1419 | Haymaking at Grandpa’s.
+R-B1420 | Riding on a tractor trailer.
+R-B1421 | Picking blueberries and getting a blue tongue.
+R-B1422 | Wild strawberries threaded on a blade of grass.
+R-B1423 | Cherries from the neighbor’s tree.
+R-B1424 | Fruit compote in jars for winter.
+R-B1425 | Grandma’s preserves.
+R-B1426 | Jam labeled “2014”.
+R-B1427 | A pantry full of jars.
+R-B1428 | Fermenting sauerkraut in a barrel.
+R-B1429 | Pickling cucumbers with the whole family.
+R-B1430 | A six-page gift list.
+R-B1431 | A calendar counting down to summer break.
+R-B1432 | A watch that runs five minutes fast.
+R-B1433 | Being “only fifteen minutes” late.
+R-B1434 | Grandma’s door that’s always open.
+R-B1435 | Dinner for ten made for three people.
+R-B1436 | The question “why?” asked a hundred times.
+R-B1437 | A child’s drawing hanging at Dad’s work.
+R-B1438 | A fridge covered in magnets.
+R-B1439 | A mailbox full of flyers.
+R-B1440 | The electricity bill.
+R-B1441 | A parcel the neighbor picked up for us.
+R-B1442 | An apology cake for the neighbors.
+R-B1443 | A borrowed cup of sugar.
+R-B1444 | A neighborhood barbecue in the courtyard.
+R-B1445 | A residents’ meeting where everyone shouts.
+R-B1446 | A note in the stairwell: “Who left their bike here?”.
+R-B1447 | A stroller parked in the hallway.
+R-B1448 | A cat in the stairwell.
+R-B1449 | A Christmas tree thrown out in March.
+R-B1450 | Recycling bins nobody understands.
+R-B1451 | A whole year’s worth of returnable bottles.
+R-B1452 | Bottle caps collected for charity.
+R-B1453 | Wastepaper piled in the garage.
+R-B1454 | An old bike that’s been waiting to be fixed for 10 years.
+R-B1455 | A TV that’s too good to throw away.
+R-B1456 | The “allotment jacket”.
+R-B1457 | The “house trousers”.
+R-B1458 | The “special occasion” sweater.
+R-B1459 | The “for better times” shoes.
+R-B1460 | The world’s comfiest sweatpants.
+R-B1461 | A T-shirt from a holiday in Croatia.
+R-B1462 | A baseball cap advertising animal feed.
+R-B1463 | Dad’s tie for funerals and weddings.
+R-B1464 | A First Communion suit that still fits.
+R-B1465 | The same dress for every wedding.
+R-B1466 | Flip-flops for the pool showers.
+R-B1467 | Sunglasses on your head all year round.
+R-B1468 | An umbrella that flips inside out in the first gust.
+R-B1469 | A yellow rain poncho.
+R-B1470 | A hiking backpack heavier than Grandpa.
+R-B1471 | A suitcase with a squeaky wheel.
+R-B1472 | A passport with a childhood photo.
+R-B1473 | An ID card on which nobody looks good.
+R-B1474 | A student ID with a crooked stamp.
+R-B1475 | A library card from primary school.
+R-B1476 | A monthly travel pass with a cat in the photo.
+R-B1477 | A senior discount.
+R-B1478 | A queue at a government office.
+R-B1479 | A ticket number at the clinic.
+R-B1480 | A clinic that opens at 8:00 with a queue from 6:00.
+R-B1481 | A pharmacist who knows better than the doctor.
+R-B1482 | An eye exam where you read the little letters.
+R-B1483 | An eye test where I just guess the letters.
+R-B1484 | The six-year-old checkup.
+R-B1485 | Measuring height on the door frame.
+R-B1486 | Heights marked in pen over the years.
+R-B1487 | First steps caught on camera.
+R-B1488 | A VHS tape of my parents’ wedding.
+R-B1489 | A First Communion video with background music.
+R-B1490 | A slideshow of Uncle’s holiday.
+R-B1491 | Album photos where everyone has red eyes.
+R-B1492 | The most embarrassing childhood photo.
+R-B1493 | A bathtub photo shown to every guest.
+R-B1494 | The family anecdote told at every party.
+R-B1495 | The story of how Dad got lost in Rome.
+R-B1496 | The story of how Grandma met Grandpa.
+R-B1497 | The legend of Uncle and the goat.
+R-B1498 | Auntie’s prophecy that everything will work out.
+R-B1499 | Grandma’s smile when everyone is there.
+R-B1500 | A photo of four generations together.
+R-B1501 | Grandma’s cozy apartment.
+R-B1502 | The smell of Christmas gingerbread.
+R-B1503 | The smell of freshly cut grass.
+R-B1504 | The smell of summer rain.
+R-B1505 | The smell of a new notebook.
+R-B1506 | The smell of chicken soup on Sunday.
+R-B1507 | The smell of coffee in the morning.
+R-B1508 | The sound of the bell at the end of class.
+R-B1509 | The sound of the sea.
+R-B1510 | The crackle of the fireplace.
+R-B1511 | Silence in the forest.
+R-B1512 | Snow crunching under your boots.

@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Rodzinny (dla wszystkich) · język: pl · pakiet OFF003 (karty 401–600 z 1512)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-B0401 | Bateria 1%.
+R-B0402 | Powiadomienie o aktualizacji.
+R-B0403 | Gra na telefonie, która zjadła wszystkie dane.
+R-B0404 | Selfie z babcią.
+R-B0405 | Filtr z psimi uszami.
+R-B0406 | Zdjęcie jedzenia przed jedzeniem.
+R-B0407 | Wideorozmowa z dziadkiem, który pokazuje sufit.
+R-B0408 | Rodzinne zdjęcie na wygaszaczu ekranu.
+R-B0409 | Laptop, który robi się gorący jak piekarnik.
+R-B0410 | Drukarka, która nie drukuje, gdy trzeba.
+R-B0411 | Wi-Fi, które działa tylko w kuchni.
+R-B0412 | Router, który trzeba zresetować.
+R-B0413 | Tablet z bajkami.
+R-B0414 | Konsola pod choinką.
+R-B0415 | Pad z lepkimi przyciskami.
+R-B0416 | Gra planszowa bez połowy pionków.
+R-B0417 | Puzzle bez ostatniego elementu.
+R-B0418 | Kostka Rubika, której nikt nie ułożył.
+R-B0419 | Domino ułożone przez cały pokój.
+R-B0420 | Kalambury z dziadkiem.
+R-B0421 | Państwa-miasta na literę X.
+R-B0422 | Rodzinny turniej w karty.
+R-B0423 | Babcia, która oszukuje w remika.
+R-B0424 | Chińczyk, w którym nikt nie umie przegrywać.
+R-B0425 | Warcaby z nakrętkami zamiast pionków.
+R-B0426 | Szachy, w które gra tylko dziadek.
+R-B0427 | Zabawa w chowanego, w której wszyscy o mnie zapomnieli.
+R-B0428 | Berek na podwórku.
+R-B0429 | Gra w gumę.
+R-B0430 | Klasy narysowane kredą.
+R-B0431 | Trzepak.
+R-B0432 | Huśtawka, która skrzypi.
+R-B0433 | Piaskownica z kotem.
+R-B0434 | Domek na drzewie.
+R-B0435 | Szałas z koców w salonie.
+R-B0436 | Bitwa na poduszki.
+R-B0437 | Wyścigi ślimaków.
+R-B0438 | Puszczanie latawca.
+R-B0439 | Bańki mydlane.
+R-B0440 | Pistolet na wodę.
+R-B0441 | Balon, który pękł w samochodzie.
+R-B0442 | Klaun na urodzinach.
+R-B0443 | Malowanie twarzy na festynie.
+R-B0444 | Wata cukrowa.
+R-B0445 | Karuzela na odpuście.
+R-B0446 | Strzelnica z plastikowymi różami.
+R-B0447 | Lunapark.
+R-B0448 | Diabelski młyn.
+R-B0449 | Cyrk bez zwierząt.
+R-B0450 | Pokaz iluzjonisty.
+R-B0451 | Kino w plenerze.
+R-B0452 | Popcorn wszędzie na kanapie.
+R-B0453 | Seans bajki po raz setny.
+R-B0454 | Ten sam film na święta co roku.
+R-B0455 | Piosenka, której nie można wyrzucić z głowy.
+R-B0456 | Disco polo na weselu.
+R-B0457 | Orkiestra weselna grająca największy hit disco polo.
+R-B0458 | Pociąg na weselu.
+R-B0459 | Oczepiny.
+R-B0460 | Rzucanie welonem.
+R-B0461 | Wódka z kompotem.
+R-B0462 | Wujek tańczący z krzesłem.
+R-B0463 | Babcia na parkiecie do 4 rano.
+R-B0464 | Tort weselny wjeżdżający z fontanną.
+R-B0465 | Poprawiny.
+R-B0466 | Koperty w koszyku.
+R-B0467 | Fotobudka z wąsami na patyku.
+R-B0468 | DJ, który puszcza tylko lata 80.
+R-B0469 | Sala weselna z kryształowymi żyrandolami.
+R-B0470 | Komunia z rowerem w prezencie.
+R-B0471 | Chrzciny z tortem w kształcie bucika.
+R-B0472 | Osiemnastka w remizie.
+R-B0473 | Imieniny z galaretką.
+R-B0474 | Udawać, że się śpi, kiedy mama sprząta.
+R-B0475 | Zjeść deser przed obiadem.
+R-B0476 | Wylać sok na nowy dywan.
+R-B0477 | Zasnąć w szkole na lekcji historii.
+R-B0478 | Zgubić się w supermarkecie.
+R-B0479 | Pomylić sól z cukrem.
+R-B0480 | Pomachać do kogoś, kto machał do kogoś innego.
+R-B0481 | Powiedzieć „wzajemnie” kelnerowi, który życzy smacznego.
+R-B0482 | Szukać kluczy, które ma się w ręce.
+R-B0483 | Wejść do pokoju i zapomnieć po co.
+R-B0484 | Wysłać SMS do mamy zamiast do kolegi.
+R-B0485 | Kichnąć dziesięć razy z rzędu.
+R-B0486 | Potknąć się na prostej drodze.
+R-B0487 | Śpiewać pod prysznicem.
+R-B0488 | Tańczyć, kiedy nikt nie patrzy.
+R-B0489 | Rozmawiać z kotem jak z człowiekiem.
+R-B0490 | Zjeść całą paczkę chipsów „przez przypadek”.
+R-B0491 | Obudzić się minutę przed budzikiem.
+R-B0492 | Pociągnąć drzwi z napisem „pchać”.
+R-B0493 | Pomachać do kamery w telewizji.
+R-B0494 | Udawać, że rozumie się żart.
+R-B0495 | Wołać psa, który udaje, że nie słyszy.
+R-B0496 | Wrzucić czerwoną skarpetkę do białego prania.
+R-B0497 | Usiąść na okularach.
+R-B0498 | Zgubić drugi but.
+R-B0499 | Przespać przystanek.
+R-B0500 | Przytulić drzewo.
+R-B0501 | Ukraść ostatnie ciastko.
+R-B0502 | Spróbować zupy babci i poprosić o dokładkę.
+R-B0503 | Uciec przed odkurzaczem.
+R-B0504 | Zrobić rodzinne zdjęcie samowyzwalaczem.
+R-B0505 | Zjechać po poręczy.
+R-B0506 | Wygrać w kamień, papier, nożyce.
+R-B0507 | Liczyć barany do tysiąca.
+R-B0508 | Gwizdać przy pracy.
+R-B0509 | Robić pompki na reklamach.
+R-B0510 | Ugotować makaron na papkę.
+R-B0511 | Zapomnieć o urodzinach cioci.
+R-B0512 | Zjeść pizzę na zimno na śniadanie.
+R-B0513 | Wyprowadzić psa w piżamie.
+R-B0514 | Machać do pociągu.
+R-B0515 | Zbierać kasztany.
+R-B0516 | Skakać po kałużach.
+R-B0517 | Puszczać kaczki na jeziorze.
+R-B0518 | Łapać płatki śniegu językiem.
+R-B0519 | Rozbić skarbonkę.
+R-B0520 | Liczyć gwiazdy.
+R-B0521 | Wyjeść kremówkę łyżką.
+R-B0522 | Udawać pociąg z krzesłami.
+R-B0523 | Gotować z dziadkiem.
+R-B0524 | Nauczyć babcię wysyłać emotki.
+R-B0525 | Pobiec za autobusem.
+R-B0526 | Zgubić pilota w lodówce.
+R-B0527 | Mówić do roślin.
+R-B0528 | Kłócić się z nawigacją.
+R-B0529 | Spać w samochodzie na postoju.
+R-B0530 | Opowiadać sen przy śniadaniu.
+R-B0531 | Przebrać się za ducha w prześcieradło.
+R-B0532 | Mieszać wszystkie napoje naraz.
+R-B0533 | Napisać list do samego siebie.
+R-B0534 | Zbudować bazę z poduszek.
+R-B0535 | Czytać pod kołdrą z latarką.
+R-B0536 | Jeść lody zimą.
+R-B0537 | Chodzić w skarpetkach po mokrej podłodze.
+R-B0538 | Zostawić kubek z herbatą na trzy dni.
+R-B0539 | Zrobić zakupy bez listy.
+R-B0540 | Przyjść na urodziny z prezentem dla siebie.
+R-B0541 | Zapomnieć tekstu na akademii.
+R-B0542 | Śmiać się na pogrzebie chomika.
+R-B0543 | Zasnąć z otwartymi ustami w autobusie.
+R-B0544 | Wykopać dziurę do Chin.
+R-B0545 | Ścigać się z kotem.
+R-B0546 | Rozmawiać z sąsiadem przez płot.
+R-B0547 | Wejść na drzewo i nie umieć zejść.
+R-B0548 | Nastawić pranie i o nim zapomnieć.
+R-B0549 | Nie rozpoznać własnej mamy w nowej fryzurze.
+R-B0550 | Zrobić sobie grzywkę samemu.
+R-B0551 | Zgasić świeczki na torcie za pierwszym razem.
+R-B0552 | Zaśpiewać „Sto lat” za szybko.
+R-B0553 | Policzyć wszystkie prezenty.
+R-B0554 | Wylizać miskę po kremie.
+R-B0555 | Uczyć psa nowych sztuczek.
+R-B0556 | Pokłócić się o ostatni kawałek tortu.
+R-B0557 | Udawać, że się słucha.
+R-B0558 | Patrzeć w lodówkę, licząc, że coś się pojawi.
+R-B0559 | Przytulać się do kaloryfera.
+R-B0560 | Wypić herbatę, która już wystygła.
+R-B0561 | Robić miny do lustra.
+R-B0562 | Wymyślić własny język z bratem.
+R-B0563 | Dzwonić do babci tylko po przepis.
+R-B0564 | Robić orła na śniegu.
+R-B0565 | Skakać na trampolinie u sąsiadów.
+R-B0566 | Spać do południa w sobotę.
+R-B0567 | Wstać o 5 rano na ryby.
+R-B0568 | Biegać po domu w pelerynie.
+R-B0569 | Ziewnąć w najgorszym momencie.
+R-B0570 | Pomylić imiona dzieci.
+R-B0571 | Mówić „no to ruszamy” i stać jeszcze godzinę.
+R-B0572 | Malować pisanki z cebulowych łupin.
+R-B0573 | Ukryć brokuły pod ziemniakami.
+R-B0574 | Przeczytać instrukcję do końca.
+R-B0575 | Wyjść z domu w kapciach.
+R-B0576 | Mieć czkawkę przez cały dzień.
+R-B0577 | Pobić rekord w skakaniu na skakance.
+R-B0578 | Chrapać jak traktor.
+R-B0579 | Głaskać jeża.
+R-B0580 | Wygrać konkurs na najdłuższe beknięcie.
+R-B0581 | Bekać alfabet.
+R-B0582 | Poślizgnąć się na skórce od banana.
+R-B0583 | Grać w piłkę w salonie.
+R-B0584 | Stłuc wazon babci.
+R-B0585 | Nakarmić kaczki chlebem.
+R-B0586 | Udawać chorobę przed klasówką.
+R-B0587 | Zjeść obiad u babci i dwie kolacje.
+R-B0588 | Dostać dokładkę bez pytania.
+R-B0589 | Rozlać kakao na zeszyt.
+R-B0590 | Pomalować ścianę flamastrami.
+R-B0591 | Obciąć włosy lalce siostry.
+R-B0592 | Schować się w szafie.
+R-B0593 | Spać z psem w łóżku.
+R-B0594 | Oglądać bajki w piżamie.
+R-B0595 | Mieć zawsze rację.
+R-B0596 | Nigdy nie mieć racji.
+R-B0597 | Zjeść czekoladowe jajko w całości.
+R-B0598 | Wyrwać ząb nitką i klamką.
+R-B0599 | Szukać wróżki zębuszki.
+R-B0600 | Czekać na pierwszą gwiazdkę.

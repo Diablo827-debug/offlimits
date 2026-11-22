@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Bez tabu (18+) · język: en · pakiet OFF017 (karty 1–200 z 997)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - X-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+X-B0001 | An envelope for the priest containing a kebab voucher.
+X-B0002 | A priest doing house blessings with a card terminal.
+X-B0003 | A collection plate that comes back empty.
+X-B0004 | The parish priest in a new Audi.
+X-B0005 | A rectory with a jacuzzi.
+X-B0006 | A sermon longer than a movie.
+X-B0007 | Confession over Zoom.
+X-B0008 | An organist who plays cheesy pop.
+X-B0009 | An altar boy who drank the communion wine.
+X-B0010 | A nun on rollerblades.
+X-B0011 | A bishop on vacation in the Maldives.
+X-B0012 | Holy water from the tap.
+X-B0013 | A communion wafer with gluten.
+X-B0014 | Midnight Mass at 10 p.m. because the priest wants to sleep.
+X-B0015 | A rosary worn as a bracelet.
+X-B0016 | A religious retreat for the uncle who didn’t show up.
+X-B0017 | A pilgrimage with a barbecue.
+X-B0018 | Confirmation just to keep Grandma happy.
+X-B0019 | First Communion in exchange for an iPhone.
+X-B0020 | A church wedding for the photos.
+X-B0021 | A funeral with a political speech.
+X-B0022 | A priest who asks about donations during confession.
+X-B0023 | A house blessing at 2 p.m. on a workday.
+X-B0024 | A parish priest with an Instagram account.
+X-B0025 | An influencer priest.
+X-B0026 | Parish announcements about the price of a Mass.
+X-B0027 | A funeral price list posted in the church porch.
+X-B0028 | A new church roof funded by pensioners.
+X-B0029 | A grandma who puts her last 12 euros in the collection plate.
+X-B0030 | A priest telling people from the pulpit who to vote for.
+X-B0031 | A mortal sin committed on Monday morning.
+X-B0032 | A plenary indulgence for sharing a post.
+X-B0033 | A general confession with a three-page list.
+X-B0034 | An examination of conscience in Excel.
+X-B0035 | The Ten Commandments, abridged edition.
+X-B0036 | A hell where Christmas carols play on loop.
+X-B0037 | A heaven with a queue like at the doctor’s.
+X-B0038 | Purgatory as a government office waiting room.
+X-B0039 | A guardian angel who went on vacation.
+X-B0040 | A devil who works in a corporation.
+X-B0041 | A national miracle, budget version.
+X-B0042 | An apparition on the bathroom window.
+X-B0043 | A saint who helps you find your keys.
+X-B0044 | St. Anthony on staff in our family.
+X-B0045 | St. Rita, patron of hopeless cases, namely Uncle.
+X-B0046 | A crucifix on the wall in every room, bathroom included.
+X-B0047 | A priest who blesses cars for 25 euros.
+X-B0048 | Blessing a new fridge.
+X-B0049 | An Easter basket with vodka.
+X-B0050 | A grandma who prays for my boyfriend.
+X-B0051 | An aunt who prays for me to be “cured”.
+X-B0052 | Coming out over beet soup.
+X-B0053 | Coming out via the family WhatsApp group.
+X-B0054 | A coming out everyone had known about for 10 years.
+X-B0055 | A mom who always knew.
+X-B0056 | A dad who pretends he didn’t hear.
+X-B0057 | A grandpa who asks which one is the woman in the relationship.
+X-B0058 | A grandma who instantly liked my boyfriend more than me.
+X-B0059 | An aunt asking when I’ll find a girlfriend.
+X-B0060 | An aunt asking when I’ll marry my boyfriend.
+X-B0061 | A cousin who asks if I’m in love with him.
+X-B0062 | An uncle who says he has nothing against it, but.
+X-B0063 | “I have nothing against gays, but.”
+X-B0064 | “I have a gay friend.”
+X-B0065 | “It’s just a phase.”
+X-B0066 | “So who does the cooking?”
+X-B0067 | “You were always so sensitive.”
+X-B0068 | “What a shame, such a handsome boy.”
+X-B0069 | “Just not in public.”
+X-B0070 | A rainbow flag on a balcony in a village apartment block.
+X-B0071 | A Pride parade in a small town.
+X-B0072 | A rainbow sweater at Christmas Eve dinner.
+X-B0073 | A rainbow shopping bag at the discount store.
+X-B0074 | A rainbow sticker on Uncle’s car.
+X-B0075 | A gaydar that’s never wrong.
+X-B0076 | Auntie’s gaydar, which is always wrong.
+X-B0077 | A gay guy who has no fashion sense.
+X-B0078 | A gay guy who doesn’t like musicals.
+X-B0079 | A gay guy who watches football.
+X-B0080 | A gay guy with a cat and three energy drinks.
+X-B0081 | A gay guy in a plaid shirt at a barbecue.
+X-B0082 | A gay guy who knows every Eurovision song.
+X-B0083 | Eurovision as a national holiday.
+X-B0084 | Sunday brunch instead of Mass.
+X-B0085 | A gay dating app in a town of 2,000 people.
+X-B0086 | A match with the neighbor from my stairwell.
+X-B0087 | A match with the priest from the next parish.
+X-B0088 | A blind date with a high school classmate.
+X-B0089 | A boyfriend introduced to the family as a “roommate”.
+X-B0090 | A roommate who sleeps in the same bed.
+X-B0091 | Two gentlemen buying an apartment together.
+X-B0092 | A wedding abroad and a reception in the village hall.
+X-B0093 | A wedding with no bride.
+X-B0094 | Two men’s first dance to cheesy pop.
+X-B0095 | A mother-in-law with two sons-in-law.
+X-B0096 | A clerk asking: “And where’s your wife?”
+X-B0097 | A government form with a “husband/wife” box.
+X-B0098 | Civil partnerships in the “maybe someday” version.
+X-B0099 | A parliamentary debate on whether I exist.
+X-B0100 | An MP who says he doesn’t know a single gay person.
+X-B0101 | An MP who knows several gay people very well indeed.
+X-B0102 | The parliament canteen with 1995 prices.
+X-B0103 | A 2-euro pork chop in parliament.
+X-B0104 | An MP asleep in the plenary hall.
+X-B0105 | An MP playing phone games during the session.
+X-B0106 | A vote at 3 a.m.
+X-B0107 | A law passed in 15 minutes.
+X-B0108 | A law nobody read.
+X-B0109 | An amendment to the amendment.
+X-B0110 | An inquiry committee investigating the inquiry committee.
+X-B0111 | A scandal everyone will forget in a week.
+X-B0112 | A press conference with no questions.
+X-B0113 | A government spokesperson who doesn’t know what to say.
+X-B0114 | A minister who doesn’t know what he’s in charge of.
+X-B0115 | A deputy minister of nothing.
+X-B0116 | A supervisory board seat for the brother-in-law.
+X-B0117 | A job at a state-owned company for a cousin.
+X-B0118 | Cronyism, family edition.
+X-B0119 | An election campaign with free sausages.
+X-B0120 | Election sausage on special offer.
+X-B0121 | An election promise from 2005.
+X-B0122 | A campaign billboard with a face nobody recognizes.
+X-B0123 | A campaign poster stuck on a church.
+X-B0124 | A campaign flyer in the mailbox.
+X-B0125 | A TV debate where nobody answers the questions.
+X-B0126 | An election silence where everyone shouts.
+X-B0127 | An exit poll that got it wrong.
+X-B0128 | Counting votes until 4 a.m.
+X-B0129 | A polling station in a school with sandwiches.
+X-B0130 | A poll watcher with a thermos.
+X-B0131 | An uncle who always votes for the losers.
+X-B0132 | A grandma who votes the way the priest says.
+X-B0133 | A grandpa who remembers what it was like under communism.
+X-B0134 | “At least back then everyone had a job.”
+X-B0135 | “They all steal.”
+X-B0136 | “I’m not interested in politics,” said right before an hour-long rant.
+X-B0137 | A political fight at Christmas Eve dinner.
+X-B0138 | A political fight at a funeral.
+X-B0139 | A political fight at a wedding, over vodka.
+X-B0140 | The family WhatsApp group split into two camps.
+X-B0141 | An uncle sharing fake news.
+X-B0142 | An aunt who believes every chain message.
+X-B0143 | A vaccine conspiracy theory over chicken soup.
+X-B0144 | The TV channel Grandpa watches.
+X-B0145 | The TV channel Grandpa hates.
+X-B0146 | A remote used to switch between propaganda channels.
+X-B0147 | The 7:30 p.m. news as a family ritual.
+X-B0148 | A news ticker that knows better.
+X-B0149 | An expert on everything on morning TV.
+X-B0150 | A party leader with no official position who runs everything.
+X-B0151 | A party that changes its name every two years.
+X-B0152 | A party leader with a cat.
+X-B0153 | An opposition leader who’s eternally “on the way”.
+X-B0154 | A coalition that falls apart over lunch.
+X-B0155 | A cabinet reshuffle, a.k.a. the same faces.
+X-B0156 | A health minister who gets private treatment.
+X-B0157 | An education minister who makes spelling mistakes.
+X-B0158 | A finance minister with an overdraft.
+X-B0159 | A digital affairs minister with a fax machine.
+X-B0160 | A sports minister who’s out of shape.
+X-B0161 | A president who signs everything.
+X-B0162 | A president who signs nothing.
+X-B0163 | An address to the nation at 8 p.m. on New Year’s Eve.
+X-B0164 | The national anthem sung with the wrong words.
+X-B0165 | A national flag on every balcony one day a year.
+X-B0166 | A march that leaves a mess to clean up.
+X-B0167 | A counter-protest at the same roundabout.
+X-B0168 | A farmers’ protest with tractors on the highway.
+X-B0169 | A teachers’ strike nobody noticed.
+X-B0170 | An MP’s salary compared to a nurse’s.
+X-B0171 | A pension bonus spent on presents for the grandkids.
+X-B0172 | A second pension bonus spent on medication.
+X-B0173 | Child benefit spent on a TV.
+X-B0174 | A tax on everything.
+X-B0175 | Inflation the government calls “temporary”.
+X-B0176 | The price of butter as political issue number one.
+X-B0177 | A waiting list for a specialist until 2031.
+X-B0178 | A hospital where you bring your own toilet paper.
+X-B0179 | A train 120 minutes late, but with Wi-Fi.
+X-B0180 | An expressway opened for the fourth time.
+X-B0181 | A ribbon-cutting for a renovated sidewalk.
+X-B0182 | A mayor who’s been running the town for 30 years.
+X-B0183 | A village head with a megaphone and an opinion on everything.
+X-B0184 | A town council arguing about a bench.
+X-B0185 | A three-million fountain on the town square.
+X-B0186 | A roundabout named after someone nobody knows.
+X-B0187 | A monument nobody likes.
+X-B0188 | Patriotism on a T-shirt made in China.
+X-B0189 | Football hooligans in T-shirts with medieval knights.
+X-B0190 | Glorious ancestors as the answer to everything.
+X-B0191 | “Our country for our people” said by someone living in London.
+X-B0192 | Emigrating to Norway for work.
+X-B0193 | An uncle who came back from England and forgot his own language.
+X-B0194 | A cousin who moved to the UK and now says “awesome, bro”.
+X-B0195 | Traditional Polish complaining.
+X-B0196 | Complaining as a national sport.
+X-B0197 | Envy over the neighbor’s car.
+X-B0198 | “What will people say?”
+X-B0199 | “I’m just asking.”
+X-B0200 | “That’s not for the likes of you.”

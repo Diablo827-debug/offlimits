@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Cards Against Humanity (CC BY-NC-SA) · język: en · pakiet OFF031 (karty 1801–2000 z 2042)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - C-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+C-B00455 | 10 football players with erections barrelling towards you at full speed.
+C-B00457 | 10,000 shrieking teenage girls.
+C-B00474 | A big ol' plate of fettuccine alfredo.
+C-B00475 | A big, beautiful mouth packed to the brim with sparkling white teeth.
+C-B00482 | A black friend.
+C-B00508 | A cheerfulness that belies a deep-seated self-loathing.
+C-B00512 | A cold and indifferent universe.
+C-B00522 | A creature made of penises that must constantly arouse itself to survive.
+C-B00523 | A creepy child singing a nursery rhyme.
+C-B00532 | A dolphin that learns to talk and becomes the Dean of Harvard Law School.
+C-B00534 | A duffel bag full of lizards.
+C-B00540 | A finger up the butt.
+C-B00549 | A genetic predisposition for alcoholism.
+C-B00555 | A groundbreaking new masturbation technique.
+C-B00558 | A gun that shoots cobras.
+C-B00563 | A hug.
+C-B00577 | A long business meeting with no obvious purpose.
+C-B00581 | A man in a suit with perfect hair who tells you beautiful lies.
+C-B00584 | A man with the head of a goat and the body of a goat.
+C-B00589 | A medium horchata.
+C-B00597 | A negative body image that is totally justified.
+C-B00642 | A slowly encroaching circle of wolves.
+C-B00651 | A strong horse and enough rations for thirty days.
+C-B00659 | A tiny fireman who puts out tiny fires.
+C-B00673 | A weird guy who says weird stuff and weirds me out.
+C-B00682 | A woman's perspective.
+C-B00683 | A woman's right to choose.
+C-B00709 | All the people I've killed.
+C-B00725 | An arrangement wherein I give a person money and they have sex with me.
+C-B00736 | An incurable homosexual.
+C-B00738 | An old dog dragging its anus across the floor.
+C-B00739 | An old dog full of tumors.
+C-B00740 | An older man.
+C-B00752 | Anal.
+C-B00758 | Antidepressants.
+C-B00767 | Art.
+C-B00778 | Attention to detail and follow-through.
+C-B00782 | Bad emotions I don't want.
+C-B00794 | Becoming the President of the United States.
+C-B00829 | Being turned into sausages.
+C-B00831 | Being very rich and incredibly stupid.
+C-B00835 | Beyoncé.
+C-B00844 | Big, smart money boys tap-tapping on their keyboards.
+C-B00857 | Blossoming into a beautiful young woman.
+C-B00874 | Breastfeeding in public like a radiant earth goddess.
+C-B00875 | Brett Kavanaugh.
+C-B00878 | Brunch.
+C-B00901 | Catching a live salmon in your mouth.
+C-B00910 | China.
+C-B00913 | Chipotle.
+C-B00916 | Chris Hemsworth.
+C-B00932 | Comprehensive immigration reform.
+C-B00933 | Condoleezza Rice.
+C-B00936 | Consequences.
+C-B00937 | Content.
+C-B00949 | Crazy anal orgasms.
+C-B00951 | Creamy slices of real, California avocado.
+C-B00954 | Critical thinking.
+C-B00958 | Crushing the patriarchy.
+C-B00981 | Defeating a gorilla in single combat.
+C-B00998 | Dis bitch.
+C-B01008 | Doing a somersault and barfing.
+C-B01032 | Dropping dead in a Sbarro's bathroom and not being found for 72 hours.
+C-B01034 | Dumpster juice.
+C-B01038 | Eating ass.
+C-B01040 | Eating people.
+C-B01044 | Eating too many Cinnabons and then vomiting and then eating the vomit.
+C-B01062 | Esmeralda, my most beautiful daughter.
+C-B01063 | Eternal screaming madness.
+C-B01064 | Every man's ultimate fantasy: a perfectly cylindrical vagina.
+C-B01066 | Everything.
+C-B01073 | Exploring each other's buttholes.
+C-B01075 | Facilitating dialogue and deconstructing binaries.
+C-B01079 | Falling into a pit of waffles.
+C-B01081 | Farting a huge shit out of my pussy.
+C-B01082 | Farting all over my face with your tight little asshole.
+C-B01089 | Feeling the emotion of anger.
+C-B01090 | Feminism.
+C-B01098 | Film roles for actresses over 40.
+C-B01114 | Forty-five minutes of finger blasting.
+C-B01116 | Founding a major world religion.
+C-B01125 | Fucking me good and taking me to Red Lobster®.
+C-B01129 | Fucking my therapist.
+C-B01134 | Gary.
+C-B01139 | Gay thoughts.
+C-B01141 | Gayle from HR.
+C-B01142 | Gazpacho.
+C-B01156 | Getting blasted in the face by a t-shirt cannon.
+C-B01174 | Getting high with mom.
+C-B01178 | Getting killed and dragged up a tree by a leopard.
+C-B01179 | Getting laid like all the time.
+C-B01182 | Getting naked too soon.
+C-B01185 | Getting pegged.
+C-B01194 | Getting the Dorito crumbs out of my pubes.
+C-B01196 | Getting this party started!
+C-B01197 | Getting trapped in a conversation about Ayn Rand.
+C-B01213 | Going around pulling people's tampons out.
+C-B01223 | Going to bed at a reasonable hour.
+C-B01234 | Gregor, my largest son.
+C-B01239 | Grunting for ten minutes and then peeing sand.
+C-B01240 | Guns.
+C-B01243 | Happy daddies with happy sandals.
+C-B01252 | Having a vagina.
+C-B01261 | Having sex with a beautiful person.
+C-B01277 | Holding the proper political beliefs of my time to attract a mate.
+C-B01279 | Homework.
+C-B01288 | Hot lettuce.
+C-B01291 | How good lead paint taste.
+C-B01292 | How great my ass looks in these jeans.
+C-B01297 | How strange it is to be anything at all.
+C-B01302 | Huge big balls full of jizz.
+C-B01326 | ISIS.
+C-B01331 | Jason, the teen mayor.
+C-B01335 | Jeff Bezos.
+C-B01362 | Late-stage dementia.
+C-B01373 | Libertarians.
+C-B01394 | Loud, scary thunder.
+C-B01410 | Making out and stuff.
+C-B01418 | Math.
+C-B01424 | Meatloaf, the food.
+C-B01425 | Meatloaf, the man.
+C-B01430 | Melanin.
+C-B01431 | Menopause.
+C-B01432 | Mental illness.
+C-B01433 | Microaggressions.
+C-B01438 | Misogyny.
+C-B01446 | Mommy and daddy fighting all the time.
+C-B01450 | Moon people.
+C-B01457 | Munchin' puss.
+C-B01462 | My brother's hot friends.
+C-B01468 | My dog dying.
+C-B01474 | My huge penis and substantial fortune.
+C-B01521 | Objectifying women.
+C-B01526 | One of those "blow jobs" I've been hearing so much about.
+C-B01531 | Onions.
+C-B01533 | Opening your mouth to talk and a big penis flops out.
+C-B01537 | Our baby.
+C-B01546 | Overthrowing the democratically-elected government of Chile.
+C-B01554 | Participating.
+C-B01564 | Period poops.
+C-B01567 | Picking up a glass of water and taking a sip and being the president.
+C-B01572 | Playing my asshole like a trumpet.
+C-B01574 | Plowing that ass like a New England corn farmer.
+C-B01575 | Political correctness.
+C-B01577 | Pooping in a leotard and hoping no one notices.
+C-B01578 | Pooping in the potty.
+C-B01584 | Prematurely ejaculating like a total loser.
+C-B01588 | Pretending to be one of the guys but actually being the spider god.
+C-B01612 | Quacking like a duck in lieu of a cogent argument.
+C-B01619 | Quinoa.
+C-B01625 | Raising three kids on minimum wage.
+C-B01626 | Reaching an age where barbecue chips are better than sex.
+C-B01634 | Regurgitating a half-digested sparrow.
+C-B01656 | Rock-hard tits and a huge vagina.
+C-B01659 | Rolling so hard.
+C-B01673 | Salsa Night at Dave's Cantina.
+C-B01688 | Scissoring, if that's a thing.
+C-B01696 | Seizing control of the means of production.
+C-B01719 | Shitting on my tits.
+C-B01727 | Showering praise upon the Sultan's hideous daughters.
+C-B01728 | Showing all the boys my pussy.
+C-B01746 | Smashing my balls at the moment of climax.
+C-B01762 | Some of that good dick.
+C-B01764 | Some real spicy shrimps.
+C-B01802 | Straight blazin' 24/7.
+C-B01811 | Sucking each other's penises for hours on end.
+C-B01814 | Sudden and unwanted slam poetry.
+C-B01830 | Systems and policies designed to preserve centuries-old power structures.
+C-B01831 | Tables.
+C-B01836 | Taking the form of a falcon.
+C-B01839 | Tender chunks of all-white-meat chicken.
+C-B01846 | That chicken from Popeyes®.
+C-B01853 | The amount of baby carrots I can fit up my ass.
+C-B01863 | The best, deepest quotes from The Dark Knight.
+C-B01868 | The body of a 46-year-old man.
+C-B01875 | The Church of Jesus Christ of Latter-Day Saints.
+C-B01899 | The fear and hatred in men's hearts.
+C-B01900 | The feeling of going to McDonald's as a 6-year-old.
+C-B01901 | The flaming wreckage of the International Space Station.
+C-B01905 | The full force of the American military.
+C-B01906 | The full-blown marginalization of ugly people.
+C-B01909 | The government.
+C-B01910 | The graceful path of an autumn leaf as it falls to its earthen cradle.
+C-B01922 | The hottest MILF in Dallas.
+C-B01935 | The LGBT community.
+C-B01948 | The mysterious fog rolling into town.
+C-B01976 | The secret to truly resilient hair.
+C-B01985 | The sweet, forbidden meat of the monkey.
+C-B02002 | The wind.
+C-B02009 | Thicc sluts.
+C-B02010 | Thinking about what eating even is.
+C-B02020 | Three hours of nonstop penetration.
+C-B02032 | Tiny, rancid girl farts.
+C-B02047 | Trees.
+C-B02048 | Trevor, the world's greatest boyfriend.
+C-B02053 | Turning 32.
+C-B02060 | Twisting my cock and balls into a balloon poodle.
+C-B02061 | Two beautiful pig sisters.
+C-B02064 | Two shitty kids and a garbage husband.
+C-B02089 | Waking up inside of a tornado.

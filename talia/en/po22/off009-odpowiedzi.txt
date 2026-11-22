@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Po 22:00 (pikantniejsze) · język: en · pakiet OFF009 (karty 1–200 z 1502)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-B0001 | A joint bill for couples therapy.
+N-B0002 | A “you up?” text at 2:47 a.m.
+N-B0003 | An ex who suddenly liked a photo from 2016.
+N-B0004 | The third bottle of wine “just for a taste”.
+N-B0005 | A mortgage until 2061.
+N-B0006 | A boss who keeps texting while you’re on vacation.
+N-B0007 | A moral hangover.
+N-B0008 | My ex at my cousin’s wedding.
+N-B0009 | Pretending to know about wine.
+N-B0010 | Ghosting.
+N-B0011 | A mother-in-law who’s way too honest.
+N-B0012 | An existential crisis in a furniture store.
+N-B0013 | Dancing on the table at 4 a.m.
+N-B0014 | Office gossip.
+N-B0015 | Online shopping after two drinks.
+N-B0016 | The lie “I was at the gym”.
+N-B0017 | Talking about mortgages at a party.
+N-B0018 | Sending a message to the wrong person.
+N-B0019 | An unheard voicemail from Mom.
+N-B0020 | A mirror selfie in the office bathroom.
+N-B0021 | A kebab as a balanced meal.
+N-B0022 | Uncle’s secret TikTok account.
+N-B0023 | Lying on the floor staring at the ceiling.
+N-B0024 | Flirting with the waiter for a free dessert.
+N-B0025 | A cat as my only stable relationship.
+N-B0026 | Zero savings and big dreams.
+N-B0027 | A stadium proposal that went wrong.
+N-B0028 | A thirty-year-old on an e-scooter.
+N-B0029 | An afterparty at strangers’ place.
+N-B0030 | Confession after 15 years.
+N-B0031 | A camera accidentally turned on during a call.
+N-B0032 | Turning forty and a new convertible.
+N-B0033 | “It’s not what it looks like.”
+N-B0034 | The neighborhood moms’ group.
+N-B0035 | An affair with the coffee machine.
+N-B0036 | Three Tinder dates in one evening.
+N-B0037 | Pouring your heart out to the bartender.
+N-B0038 | A text from the bank at 7 a.m.
+N-B0039 | A wedding just for the envelopes.
+N-B0040 | A bottle hidden in the linen closet.
+N-B0041 | In-laws on the other side of the wall.
+N-B0042 | A selfie with the best man at 5 a.m.
+N-B0043 | A kid who repeated a swear word in front of Grandma.
+N-B0044 | Retirement in Bali that will never happen.
+N-B0045 | A divorce over a board game.
+N-B0046 | Being “just friends” for 9 years.
+N-B0047 | An online date with Mom in the background.
+N-B0048 | A gym membership paid since January.
+N-B0049 | Neighbors behind a very thin wall.
+N-B0050 | A bet you should never have accepted.
+N-B0051 | A kiss at the office party.
+N-B0052 | Boxed wine.
+N-B0053 | A declaration of love after three beers.
+N-B0054 | A bald spot everyone knows about.
+N-B0055 | No brakes and zero reflection.
+N-B0056 | A bachelor party in Prague.
+N-B0057 | A present from my ex that I can’t throw away.
+N-B0058 | A horror receipt from a mountain resort.
+N-B0059 | A lunch stolen from the office fridge.
+N-B0060 | Dignity that’s long gone.
+N-B0061 | Monday after a wedding.
+N-B0062 | Coffee number four before ten o’clock.
+N-B0063 | A meeting that could have been an email.
+N-B0064 | An email starting “as per my previous message”.
+N-B0065 | A colleague who always hits “reply all”.
+N-B0066 | An open-plan office with a colleague eating herring.
+N-B0067 | The boss on a video call with the camera off.
+N-B0068 | Working from home in pajamas from the waist down.
+N-B0069 | Excel crashing after three hours of work.
+N-B0070 | A password you have to change every month.
+N-B0071 | An office printer that hates people.
+N-B0072 | A company retreat in the woods with paintball.
+N-B0073 | A “creative thinking” workshop.
+N-B0074 | Team building by constructing a pasta tower.
+N-B0075 | Pizza for the team instead of a raise.
+N-B0076 | Fruit Thursdays.
+N-B0077 | A gym card as an employee perk.
+N-B0078 | An annual review with the note “has potential”.
+N-B0079 | A 2% raise.
+N-B0080 | A bonus in the form of a certificate.
+N-B0081 | Burnout with a smile.
+N-B0082 | Corporate speak: “Let’s jump on a call to talk it through”.
+N-B0083 | “Keep me in the loop.”
+N-B0084 | A deadline that was yesterday.
+N-B0085 | A one-week project that’s been going on for a year.
+N-B0086 | A boss who has “just one question”.
+N-B0087 | A coworker who knows everything about everyone.
+N-B0088 | A manager with a passion for motivational quotes.
+N-B0089 | The secretary who really runs the company.
+N-B0090 | The IT guy who asks if I tried turning it off and on again.
+N-B0091 | An accountant who sees every expense.
+N-B0092 | The HR lady who knows my salary and my secrets.
+N-B0093 | A new intern who earns more than me.
+N-B0094 | A recruiter writing “Hi! I have an offer for you”.
+N-B0095 | A dream job with a junk contract.
+N-B0096 | A job interview with a hangover.
+N-B0097 | A CV listing “proficient in Microsoft Office”.
+N-B0098 | LinkedIn full of other people’s successes.
+N-B0099 | My cousin’s startup that’s going to “change the world”.
+N-B0100 | A business plan written on a napkin.
+N-B0101 | Investing in crypto the day before the crash.
+N-B0102 | An airport currency exchange.
+N-B0103 | A paycheck that disappears in three days.
+N-B0104 | The last 30 bucks until payday.
+N-B0105 | An overdrawn account, handled with grace.
+N-B0106 | An overdraft that’s my longest relationship.
+N-B0107 | A credit card as a retirement plan.
+N-B0108 | A loan for a vacation.
+N-B0109 | Phone installments until 2029.
+N-B0110 | A leased car for the prestige.
+N-B0111 | A 25-square-meter apartment for half a million.
+N-B0112 | A studio with a view of the dumpsters.
+N-B0113 | A landlord who’ll “just pop by to have a look”.
+N-B0114 | A deposit nobody has ever gotten back.
+N-B0115 | A roommate who eats my yogurts.
+N-B0116 | A roommate with a new boyfriend every week.
+N-B0117 | Laundry hanging in the bathroom for a week.
+N-B0118 | The apartment on Sunday morning after a party.
+N-B0119 | Pizza for breakfast after a party.
+N-B0120 | A glass of water and two pills on the nightstand.
+N-B0121 | A phone lost in a taxi.
+N-B0122 | A taxi driver who knows my whole life story.
+N-B0123 | Walking home barefoot with shoes in hand.
+N-B0124 | Keys left in the door on the outside.
+N-B0125 | A neighbor who saw everything.
+N-B0126 | A dog that stares with disapproval.
+N-B0127 | Mom calling on Sunday at 9 a.m.
+N-B0128 | A family dinner with a hangover.
+N-B0129 | Chicken soup that cures everything.
+N-B0130 | A pickle as medicine.
+N-B0131 | Electrolyte powder.
+N-B0132 | The “just one beer” plan.
+N-B0133 | A shot someone bought “for the vibe”.
+N-B0134 | A round bought by someone nobody knows.
+N-B0135 | Vodka with boxed juice.
+N-B0136 | Non-alcoholic beer for a driver who isn’t driving anyway.
+N-B0137 | Uncle’s homemade liqueur for everything.
+N-B0138 | Moonshine from the neighbor at the allotment.
+N-B0139 | Mulled wine at a Christmas market for 7 euros.
+N-B0140 | A cocktail with a little umbrella at an all-inclusive.
+N-B0141 | Prosecco at a bachelorette party.
+N-B0142 | A toast “to us”.
+N-B0143 | A toast “to those who couldn’t make it”.
+N-B0144 | Pouring it “right to the brim”.
+N-B0145 | A glass that never empties.
+N-B0146 | An uncle who says “What, you won’t drink with me?”.
+N-B0147 | Karaoke after midnight.
+N-B0148 | Singing rock ballads in a taxi.
+N-B0149 | Dancing with the bartender.
+N-B0150 | A night nobody remembers.
+N-B0151 | Photos that are better deleted.
+N-B0152 | An Instagram story that the boss could see.
+N-B0153 | Calling my ex at 3 a.m.
+N-B0154 | Dignity regained on Monday.
+N-B0155 | A monster hangover after a wedding.
+N-B0156 | The day-after party with a hangover.
+N-B0157 | Talking politics with your father-in-law after midnight.
+N-B0158 | A political argument at the Christmas Eve table.
+N-B0159 | Hugging a stranger at a concert.
+N-B0160 | A festival in knee-deep mud.
+N-B0161 | Portable toilets at a festival.
+N-B0162 | A festival tent that blew away.
+N-B0163 | A concert ticket that cost half a paycheck.
+N-B0164 | Concert security checking your sandwiches.
+N-B0165 | A phone filming the whole concert instead of watching it.
+N-B0166 | Losing your whole group of friends in the crowd.
+N-B0167 | A night bus full of secrets.
+N-B0168 | The last tram leaving right in front of you.
+N-B0169 | A kebab at 4 a.m. with a new friend.
+N-B0170 | A new best friend met in the toilet queue.
+N-B0171 | A phone number written on your hand.
+N-B0172 | A name you just can’t remember.
+N-B0173 | A first date at a kebab shop.
+N-B0174 | A blind date set up by Auntie.
+N-B0175 | A date where he showed up with his mom.
+N-B0176 | A date where she showed up with her ex.
+N-B0177 | A shared Netflix account with my ex.
+N-B0178 | Photos with my ex that I can’t delete from the cloud.
+N-B0179 | Dividing up the friends after a breakup.
+N-B0180 | A cat at the center of a custody battle.
+N-B0181 | A joint vacation paid for before the breakup.
+N-B0182 | “We need to talk.”
+N-B0183 | “It’s not you, it’s me.”
+N-B0184 | “Let’s stay friends.”
+N-B0185 | “I need some space.”
+N-B0186 | “Let me know.”
+N-B0187 | “It’ll work out somehow.”
+N-B0188 | A “hey” message after three years of silence.
+N-B0189 | A long-distance relationship with someone from another city.
+N-B0190 | A relationship that exists only in my head.
+N-B0191 | A crush from the gym.
+N-B0192 | A handsome mailman.
+N-B0193 | The pretty lady from the bakery.
+N-B0194 | A coworker I have “nothing going on” with.
+N-B0195 | Flirting in the checkout line.
+N-B0196 | A wink that was just a twitch.
+N-B0197 | A compliment that sounded like an insult.
+N-B0198 | A first kiss with braces.
+N-B0199 | A note from the back row in high school.
+N-B0200 | A summer camp romance.

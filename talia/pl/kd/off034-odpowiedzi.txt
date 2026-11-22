@@ -1,0 +1,104 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Karty Dżentelmenów (CC BY-NC-SA) · język: pl · pakiet OFF034 (karty 201–295 z 295)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - K-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+K-B228 | Nowy, inwazyjny gatunek paprotki.
+K-B229 | Przypadkowe zapłodnienie teściowej.
+K-B231 | Radom.
+K-B232 | Rasista daltonista.
+K-B233 | Rasistowska staruszka.
+K-B236 | Waginowe miętówki. Mięta dla twojej waginy.
+K-B237 | Reporterzy TVN.
+K-B238 | Ridge Forrester spuszczający się na twoje drzwi.
+K-B239 | Rodzinna sprzeczka.
+K-B240 | Rodzinne odlewanie się na groby przodków.
+K-B241 | Bezcenny argentyński kaktus.
+K-B242 | Rosja.
+K-B243 | Rosyjska super-ebola.
+K-B244 | Rozstanie się z miłością swojego życia.
+K-B245 | Równe płace dla kobiet i mężczyzn.
+K-B247 | Rwanie na dywanie.
+K-B249 | Rżnięcie.
+K-B250 | Dziurawy durszlak.
+K-B251 | Tiramisu, że aż jaja bolą.
+K-B252 | Samotne pójście na studniówkę.
+K-B253 | Sandały z azbestu.
+K-B254 | Wchodzenie na sucho.
+K-B255 | Seks bez zabezpieczeń na cześć Mojżesza.
+K-B256 | Seksualna abstynencja.
+K-B257 | Wkładanie sera do odtwarzacza DVD.
+K-B258 | Kolejna nieudolna reforma NFZ.
+K-B261 | Sikanie do umywalki.
+K-B262 | Silna i niezależna kobieta, która nie potrzebuje mężczyzny.
+K-B263 | Składanie CV do burdelu.
+K-B264 | Składanie skrzeku w kałuży.
+K-B265 | Skolioza odbytu.
+K-B266 | Testowanie wytrzymałości przyszłego męża.
+K-B267 | Współczesne polskie kabarety.
+K-B268 | Skurcz pochwy.
+K-B270 | Słodkie słówka.
+K-B271 | Smalczyk.
+K-B272 | Solówka po lekcjach.
+K-B273 | Kożuch z mleka.
+K-B274 | Sos Barbeque na moich cyckach.
+K-B275 | Spawaczginekolog.
+K-B276 | Spięcie w respiratorze.
+K-B277 | Utytłany czekoladą chomiczek.
+K-B278 | Społeczne niezadowolenie.
+K-B279 | Ciche dni.
+K-B280 | Sprawdzian z pszyry.
+K-B281 | Sprzedanie się.
+K-B282 | Sranie z drabiny.
+K-B283 | Stara raszpla.
+K-B284 | Starcze wzwody.
+K-B285 | Staropanieństwo.
+K-B286 | Stopa w dupie.
+K-B287 | Wesele w McDonaldzie.
+K-B288 | Wytwórnia niskogatunkowych wyrobów alkoholowych „Akademik”.
+K-B290 | Studniówka w poprawczaku.
+K-B291 | Stwardnienie rozsiane.
+K-B292 | Klaun pogrzebowy.
+K-B293 | Szczepionka na bezdomność.
+K-B294 | Szmatka nasączona chloroformem.
+K-B295 | Pomoc społeczna.
+K-B296 | Szpitalne kolejki.
+K-B297 | Szpitalne żarcie.
+K-B299 | Szturm rebeliantów na rządowe targowiska z krabami.
+K-B300 | Szwadron emerytów na wózkach widłowych.
+K-B301 | Ściąganie na teście ciążowym.
+K-B302 | Zsyłka na Sybir.
+K-B303 | Śląscy naukowcy.
+K-B304 | Śląsk.
+K-B305 | Świąteczna promocja w domu publicznym.
+K-B307 | Ta niebieska ciecz z reklam tamponów.
+K-B308 | Ta ruda zdzira obciągająca każdemu, tylko nie tobie.
+K-B310 | Tajna plantacja rzeżuchy.
+K-B311 | Tak twarda woda, że gdy bierze się prysznic, to dostaje się wpierdol.
+K-B313 | Tańce ruchańce.
+K-B314 | Tańczenie makareny na polu minowym.
+K-B315 | Tatuowanie genitaliów.
+K-B317 | Ten pierdolnik.
+K-B318 | Ten pierwszy raz.
+K-B319 | Używanie kleju zamiast wazeliny.
+K-B320 | Topielec w kadzi sosu.
+K-B321 | Trądzik młodzieńczy.
+K-B322 | Warszawa.
+K-B323 | Serowe prezerwatywy.
+K-B324 | Trzcina cukrowa.
+K-B325 | Nadużycie władzy.
+K-B327 | Pożar podczas powodzi.
+K-B328 | Twoja stara.
+K-B329 | Twój stary.
+K-B331 | Zez rozbieżny.
+K-B332 | Wichajster.
+K-B333 | Ustawa znosząca biedę.
+K-B334 | Udar mózgu podczas srania.
+K-B336 | Wykręcenie sutka.
+K-B337 | Unijne dotacje.
+K-B338 | Upolowanie dzidą sklepowej szynki.
+K-B339 | Uprzedmiotowienie kobiety.

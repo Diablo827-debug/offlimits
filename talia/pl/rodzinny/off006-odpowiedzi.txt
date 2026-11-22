@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Rodzinny (dla wszystkich) · język: pl · pakiet OFF006 (karty 1001–1200 z 1512)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-B1001 | Odliczanie do północy z opóźnieniem.
+R-B1002 | Szampan dla dzieci.
+R-B1003 | Pies ukryty pod łóżkiem w Sylwestra.
+R-B1004 | Fajerwerki sąsiada.
+R-B1005 | Noworoczny spacer.
+R-B1006 | Tłusty czwartek przez cały tydzień.
+R-B1007 | Ostatki z faworkami.
+R-B1008 | Pierwszy dzień wiosny z marzanną.
+R-B1009 | Bazie w wazonie.
+R-B1010 | Pisanka, która pękła w koszyku.
+R-B1011 | Lany poniedziałek w blokach.
+R-B1012 | Majówka z grillem.
+R-B1013 | Dzień Matki z laurką.
+R-B1014 | Dzień Ojca z krawatem.
+R-B1015 | Boże Ciało z płatkami kwiatów.
+R-B1016 | Noc Kupały.
+R-B1017 | Wianki na rzece.
+R-B1018 | Koniec roku szkolnego.
+R-B1019 | Wakacje u dziadków.
+R-B1020 | Dożynkowy chleb.
+R-B1021 | Grzybobranie we wrześniu.
+R-B1022 | Pierwszy dzień szkoły z tornistrem.
+R-B1023 | Wszystkich Świętych w korku.
+R-B1024 | Andrzejkowe wróżby.
+R-B1025 | Kalendarz adwentowy pusty po trzech dniach.
+R-B1026 | Mikołajki z rózgą.
+R-B1027 | Wielki pościg za ostatnią choinką.
+R-B1028 | Sto lat dla babci.
+R-B1029 | Wielka rodzinna tajemnica.
+R-B1030 | Zaginiony pierścionek babci.
+R-B1031 | Pamiętnik prababci.
+R-B1032 | Stary list miłosny dziadka.
+R-B1033 | Medal dziadka za wzorową pracę.
+R-B1034 | Zdjęcie ślubne rodziców w ramce.
+R-B1035 | Pierwsze buciki w gablocie.
+R-B1036 | Kosmyk włosów w kopercie.
+R-B1037 | Pudło pamiątek, którego nikt nie otwiera.
+R-B1038 | Zegarek po pradziadku.
+R-B1039 | Maszyna do szycia babci.
+R-B1040 | Szydełko i robótka ręczna.
+R-B1041 | Kłębek wełny dla kota.
+R-B1042 | Kocyk z dzieciństwa.
+R-B1043 | Ulubiony kubek taty z ułamanym uchem.
+R-B1044 | Talerz „na specjalne okazje”.
+R-B1045 | Zastawa, której nigdy nie używamy.
+R-B1046 | Serwis po cioci.
+R-B1047 | Sztućce w pudełku z aksamitem.
+R-B1048 | Obrus na święta z plamą po barszczu.
+R-B1049 | Serwetki złożone w łabędzie.
+R-B1050 | Kryształowa misa na sałatkę jarzynową.
+R-B1051 | Sałatka jarzynowa na każdą okazję.
+R-B1052 | Jajka w majonezie.
+R-B1053 | Galaretka z nóżek.
+R-B1054 | Tatar dla odważnych.
+R-B1055 | Śledzik pod pierzynką.
+R-B1056 | Ryba po grecku.
+R-B1057 | Kanapki z pastą jajeczną.
+R-B1058 | Koreczki na wykałaczkach.
+R-B1059 | Pasztet babci.
+R-B1060 | Smalec ze skwarkami.
+R-B1061 | Ogórek kiszony prosto ze słoika.
+R-B1062 | Zupa grzybowa z prawdziwków.
+R-B1063 | Żurek w chlebie.
+R-B1064 | Flaki, których nikt nie chce.
+R-B1065 | Krupnik na drugi dzień.
+R-B1066 | Kluski śląskie z dziurką.
+R-B1067 | Kopytka z masłem.
+R-B1068 | Racuchy z jabłkami.
+R-B1069 | Pyzy z mięsem.
+R-B1070 | Leniwe z cukrem.
+R-B1071 | Zupa mleczna z makaronem.
+R-B1072 | Kasza manna na śniadanie.
+R-B1073 | Owsianka, która klei się do łyżki.
+R-B1074 | Płatki z mlekiem o północy.
+R-B1075 | Tosty z serem.
+R-B1076 | Hamburger domowej roboty.
+R-B1077 | Frytki z piekarnika.
+R-B1078 | Spaghetti, które ląduje wszędzie.
+R-B1079 | Sos pomidorowy na suficie.
+R-B1080 | Lasagne na trzy dni.
+R-B1081 | Sushi, któremu dziadek nie ufa.
+R-B1082 | Kebab z sosem czosnkowym.
+R-B1083 | Hot dog z budki.
+R-B1084 | Chipsy o smaku papryki.
+R-B1085 | Popcorn z mikrofalówki.
+R-B1086 | Żelki w kształcie misiów.
+R-B1087 | Lizak wielkości głowy.
+R-B1088 | Cukierki z kieszeni babci.
+R-B1089 | Czekolada schowana na czarną godzinę.
+R-B1090 | Batonik na drugie śniadanie.
+R-B1091 | Ciastko z wróżbą.
+R-B1092 | Bita śmietana prosto z puszki.
+R-B1093 | Kremówka z bitą śmietaną.
+R-B1094 | Sernik na zimno.
+R-B1095 | Tiramisu cioci.
+R-B1096 | Babeczki z kremem.
+R-B1097 | Drożdżówka z kruszonką.
+R-B1098 | Rogal świętomarciński.
+R-B1099 | Obwarzanek krakowski.
+R-B1100 | Zapiekanka z Kazimierza.
+R-B1101 | Gofr z owocami.
+R-B1102 | Lody włoskie z automatu.
+R-B1103 | Lemoniada z kranu.
+R-B1104 | Kompot z rabarbaru.
+R-B1105 | Kakao z pianką.
+R-B1106 | Herbata z sokiem malinowym.
+R-B1107 | Syrop z cebuli.
+R-B1108 | Miód na wszystkie choroby.
+R-B1109 | Czosnek na przeziębienie.
+R-B1110 | Bańki babci.
+R-B1111 | Termometr pod pachą.
+R-B1112 | Syrop, który smakuje jak wiśnie z kartonu.
+R-B1113 | Plaster z dinozaurem.
+R-B1114 | Bandaż na całą rękę za małe zadrapanie.
+R-B1115 | Zielona maść na wszystko.
+R-B1116 | Witamina C w tabletkach musujących.
+R-B1117 | Chusteczki w każdej kieszeni.
+R-B1118 | Kaszel w teatrze.
+R-B1119 | Wizyta u lekarza, który pisze nieczytelnie.
+R-B1120 | Zwolnienie lekarskie na tydzień.
+R-B1121 | Szczepionka z naklejką.
+R-B1122 | Okulary na łańcuszku.
+R-B1123 | Aparat na zęby.
+R-B1124 | Pierwsze siwe włosy taty.
+R-B1125 | Łysina dziadka, która błyszczy.
+R-B1126 | Wąsy wujka.
+R-B1127 | Broda, w której coś zamieszkało.
+R-B1128 | Fryzura na grzyba.
+R-B1129 | Trwała ondulacja cioci.
+R-B1130 | Kucyki zrobione przez tatę.
+R-B1131 | Warkocze babci.
+R-B1132 | Lakier do paznokci młodszej siostry.
+R-B1133 | Perfumy cioci na całą windę.
+R-B1134 | Woda kolońska dziadka.
+R-B1135 | Dezodorant w sprayu, który zabija muchy.
+R-B1136 | Szczotka do włosów pełna sierści.
+R-B1137 | Golarka taty w rękach brata.
+R-B1138 | Makijaż mamy w pięć minut.
+R-B1139 | Torebka bez dna.
+R-B1140 | Portfel pełen paragonów.
+R-B1141 | Karta lojalnościowa z każdego sklepu.
+R-B1142 | Pieniądze w skarpecie.
+R-B1143 | Kieszonkowe wydane w jeden dzień.
+R-B1144 | Bilet do kina, który został w spodniach.
+R-B1145 | Zakładka z biletu tramwajowego.
+R-B1146 | Książka, którą czytam od trzech lat.
+R-B1147 | Lektura szkolna w streszczeniu.
+R-B1148 | Encyklopedia w dwudziestu tomach.
+R-B1149 | Słownik ortograficzny jako podpórka pod drzwi.
+R-B1150 | Gazeta z programem telewizyjnym.
+R-B1151 | Krzyżówka dziadka.
+R-B1152 | Sudoku babci.
+R-B1153 | Horoskop z gazety.
+R-B1154 | Mecz reprezentacji z całą rodziną przed telewizorem.
+R-B1155 | Wujek krzyczący na sędziego przez telewizor.
+R-B1156 | Gol w ostatniej minucie.
+R-B1157 | Rzut karny, na który nie można patrzeć.
+R-B1158 | Skoki narciarskie w Nowy Rok.
+R-B1159 | Siatkówka o 3 w nocy.
+R-B1160 | Kibicowanie w pidżamie.
+R-B1161 | Szalik klubowy dziadka.
+R-B1162 | Piłka, która wpadła do ogrodu sąsiada.
+R-B1163 | Wybita szyba w garażu.
+R-B1164 | Bramka z dwóch plecaków.
+R-B1165 | Rower stacjonarny, na którym nikt nie jeździ.
+R-B1166 | Hantle pod łóżkiem.
+R-B1167 | Karnet na basen niewykorzystany od stycznia.
+R-B1168 | Joga w salonie z kotem.
+R-B1169 | Bieganie za psem, który uciekł.
+R-B1170 | Taniec z dziadkiem na weselu.
+R-B1171 | Gimnastyka poranna z radia.
+R-B1172 | Zumba cioci.
+R-B1173 | Wyścig w workach.
+R-B1174 | Przeciąganie liny na festynie.
+R-B1175 | Bieg z jajkiem na łyżce.
+R-B1176 | Dmuchańce na pikniku.
+R-B1177 | Skok na bungee z wysokości krzesła.
+R-B1178 | Medal z czekolady.
+R-B1179 | Puchar dla wszystkich uczestników.
+R-B1180 | Dyplom za udział.
+R-B1181 | Pierwsze miejsce od końca.
+R-B1182 | Wielki finał rodzinnego turnieju w piłkarzyki.
+R-B1183 | Stół do ping-ponga w garażu.
+R-B1184 | Lotki w drzwiach.
+R-B1185 | Kręgle na Wigilii firmowej.
+R-B1186 | Bilard u wujka.
+R-B1187 | Wędka, na którą nic nie bierze.
+R-B1188 | Ryba, która była „taaaka duża”.
+R-B1189 | Kajak, który się przewrócił.
+R-B1190 | Ponton z dziurą.
+R-B1191 | Kapok o dwa rozmiary za duży.
+R-B1192 | Żaglówka bez wiatru.
+R-B1193 | Narty pożyczone od sąsiada.
+R-B1194 | Wyciąg orczykowy.
+R-B1195 | Upadek na stoku przed całą rodziną.
+R-B1196 | Snowboard brata.
+R-B1197 | Łyżwy, które obcierają kostki.
+R-B1198 | Kask rowerowy w kształcie arbuza.
+R-B1199 | Odblaski na wszystkim.
+R-B1200 | Kamizelka odblaskowa dziadka.

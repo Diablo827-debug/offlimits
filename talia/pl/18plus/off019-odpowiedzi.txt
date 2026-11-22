@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Bez tabu (18+) · język: pl · pakiet OFF019 (karty 401–600 z 997)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - X-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+X-B0401 | Trybunał, którego wyroki są „opiniami”.
+X-B0402 | Konstytucja jako podkładka pod stół.
+X-B0403 | Kodeks wyborczy zmieniony pół roku przed wyborami.
+X-B0404 | Partia, która ma 0,8% i opinię o wszystkim.
+X-B0405 | Poseł, który zmienił klub pięć razy w jednej kadencji.
+X-B0406 | Poseł, który przyszedł do Sejmu na hulajnodze.
+X-B0407 | Posłanka, która wnosi do Sejmu wiadro.
+X-B0408 | Okrzyki z sali plenarnej w stylu meczu.
+X-B0409 | Marszałek, który wyłącza mikrofony.
+X-B0410 | Mikrofon, który włączył się w najgorszym momencie.
+X-B0411 | Nagranie z restauracji, które zmieniło historię.
+X-B0412 | Taśmy, na których słychać tylko kelnera.
+X-B0413 | Ośmiorniczki za pieniądze podatników.
+X-B0414 | Lot rządowym samolotem na wesele kuzyna.
+X-B0415 | Kilometrówka na trasie Sejm–działka.
+X-B0416 | Delegacja do ciepłych krajów w sprawie mrozów.
+X-B0417 | Służbowe auto wożące psa ministra.
+X-B0418 | Ochrona dla byłego wiceministra od nikogo.
+X-B0419 | Emerytura posła po jednej kadencji.
+X-B0420 | Ordery rozdawane przed wyborami.
+X-B0421 | Medal za zasługi dla gminy dla wójta od wójta.
+X-B0422 | Nagroda dla ministrów „za ciężką pracę”.
+X-B0423 | Premia dla zarządu spółki, która przyniosła straty.
+X-B0424 | Prezes, który zarabia więcej niż cały szpital.
+X-B0425 | Szwagier w radzie nadzorczej.
+X-B0426 | Kuzyn w zarządzie elektrowni.
+X-B0427 | Teściowa w fundacji, która nic nie robi.
+X-B0428 | Fundacja, która robi wszystko oprócz tego, do czego powstała.
+X-B0429 | Stowarzyszenie emerytów miłośników jednej partii.
+X-B0430 | Gazeta, która zawsze chwali rząd.
+X-B0431 | Gazeta, która zawsze krytykuje rząd.
+X-B0432 | Portal, który pisze to, co chcesz przeczytać.
+X-B0433 | Komentarze pod artykułem o polityce.
+X-B0434 | Kłótnia w komentarzach między wujkiem a jego wnukiem.
+X-B0435 | Troll z 3 obserwującymi i flagą w nicku.
+X-B0436 | Bot, który kocha rząd.
+X-B0437 | Bot, który nienawidzi opozycji.
+X-B0438 | Sondaż zamówiony przez zainteresowanych.
+X-B0439 | Sondaż, w którym 120% jest za.
+X-B0440 | Referendum, na które nikt nie przyszedł.
+X-B0441 | Frekwencja niższa niż w kościele.
+X-B0442 | Kościół pustszy niż Sejm w piątek.
+X-B0443 | Sejm pełniejszy niż kościół na pasterce tylko w dniu wypłaty.
+X-B0444 | Telewizja, w której pokazują tylko dobre wiadomości.
+X-B0445 | Telewizja, w której pokazują tylko złe wiadomości.
+X-B0446 | Ciocia, która ogląda obie i jest w szoku.
+X-B0447 | Dziadek, który przełącza między nimi, żeby się zdenerwować.
+X-B0448 | Kanał informacyjny jako tło do obiadu.
+X-B0449 | Pasek „pilne” co pięć minut.
+X-B0450 | Konferencja przy mównicy z flagą i pustą salą.
+X-B0451 | Polityk, który mówi „szanowni państwo” i nic więcej.
+X-B0452 | Polityk, który odpowiada pytaniem na pytanie.
+X-B0453 | Polityk w swetrze na wsi dla zdjęcia.
+X-B0454 | Polityk z dzieckiem na rękach do zdjęcia.
+X-B0455 | Polityk w kasku na budowie, której nie ma.
+X-B0456 | Polityk jedzący kiełbasę na festynie.
+X-B0457 | Polityk, który tańczy na dożynkach.
+X-B0458 | Polityk w kościele w pierwszej ławce przed wyborami.
+X-B0459 | Polityk na pielgrzymce z kamerą.
+X-B0460 | Ksiądz, który błogosławi kampanię.
+X-B0461 | Ksiądz, który mówi, że nie mówi o polityce, i mówi o polityce.
+X-B0462 | List pasterski czytany zamiast kazania.
+X-B0463 | Biskup, który zna się na ekonomii.
+X-B0464 | Ekonomista, który zna się na biskupach.
+X-B0465 | Kardynał w szkarłatnych skarpetkach.
+X-B0466 | Watykan jako rajski kurort.
+X-B0467 | Papieski samochód z kuloodpornym dachem.
+X-B0468 | Papież na plakacie w każdym gimnazjum.
+X-B0469 | Lekcja religii zamiast matematyki.
+X-B0470 | Katecheta, który ocenia modlitwę na szóstkę.
+X-B0471 | Ocena z religii wliczana do średniej.
+X-B0472 | Zwolnienie z religii jako akt odwagi.
+X-B0473 | Etyka, na którą chodzi trzech uczniów.
+X-B0474 | Ksiądz w szkole, który nie wie, co to TikTok.
+X-B0475 | Ksiądz na TikToku tańczący do disco polo.
+X-B0476 | Seminarium, do którego zgłosił się jeden chętny.
+X-B0477 | Kryzys powołań w naszej parafii.
+X-B0478 | Ksiądz z importu, który mówi po polsku lepiej niż wujek.
+X-B0479 | Zakonnica, która prowadzi auto jak rajdowiec.
+X-B0480 | Siostry zakonne w kolejce po promocję w dyskoncie.
+X-B0481 | Proboszcz, który ma lepsze wino niż sommelier.
+X-B0482 | Wino mszalne kupowane hurtowo.
+X-B0483 | Hostia z promocji.
+X-B0484 | Kościół z terminalem do płatności zbliżeniowych.
+X-B0485 | Taca z kodem do płatności telefonem.
+X-B0486 | Intencja mszalna zamówiona przez internet.
+X-B0487 | Msza transmitowana przez internet z kotem przed ekranem.
+X-B0488 | Msza na leżaku na wakacjach.
+X-B0489 | Pasterka z kacem po wigilii.
+X-B0490 | Spowiedź wielkanocna z grzechami z całego roku.
+X-B0491 | Grzech łakomstwa w czasie świąt.
+X-B0492 | Grzech lenistwa w niedzielę.
+X-B0493 | Grzech zazdrości o samochód proboszcza.
+X-B0494 | Grzech pychy w mediach społecznościowych.
+X-B0495 | Grzech nieczystości według cioci, czyli wszystko.
+X-B0496 | Przykazanie, które łamię co weekend.
+X-B0497 | Szóste przykazanie w wersji dla dorosłych.
+X-B0498 | Dziewiąte przykazanie i sąsiadka z czwartego piętra.
+X-B0499 | Dziesiąte przykazanie i grill sąsiada.
+X-B0500 | Siódme przykazanie i długopis z pracy.
+X-B0501 | Ósme przykazanie i moja wymówka dla szefa.
+X-B0502 | Czwarte przykazanie i rodzinna kłótnia o politykę.
+X-B0503 | Pierwsze przykazanie i telefon w kościele.
+X-B0504 | Drugie przykazanie i wujek przy naprawie auta.
+X-B0505 | Trzecie przykazanie i otwarty sklep w niedzielę.
+X-B0506 | Niedziela handlowa jako święto narodowe.
+X-B0507 | Zakaz handlu w niedzielę, który ominął wujek, sprzedając jajka.
+X-B0508 | Stacja benzynowa jako jedyny sklep w niedzielę.
+X-B0509 | Hot dog na stacji jako niedzielny obiad.
+X-B0510 | Kac moralny po spowiedzi.
+X-B0511 | Wyrzuty sumienia po trzeciej dokładce.
+X-B0512 | Wyrzuty sumienia, których nie ma wujek.
+X-B0513 | Sumienie jako aplikacja, której nie zaktualizowałem.
+X-B0514 | Mój anioł stróż, który się poddał.
+X-B0515 | Mój diabeł na ramieniu, który ma rację.
+X-B0516 | Piekło, w którym grają kolędy w wersji disco polo.
+X-B0517 | Czyściec jako kolejka do NFZ.
+X-B0518 | Raj, w którym jest tylko jeden pilot do telewizora.
+X-B0519 | Sąd ostateczny z prawnikiem z urzędu.
+X-B0520 | Koniec świata przełożony na po wyborach.
+X-B0521 | Wujek, który przeżył trzy końce świata.
+X-B0522 | Babcia, która ma bezpośredni kontakt z Bogiem.
+X-B0523 | Bóg, który ma wyłączony telefon.
+X-B0524 | Modlitwa, żeby ksiądz skrócił kazanie.
+X-B0525 | Modlitwa o wygraną w totka.
+X-B0526 | Modlitwa, żeby teściowa nie przyjechała.
+X-B0527 | Modlitwa, żeby skończyło się w Polsce narzekanie.
+X-B0528 | Cud, czyli punktualny pociąg.
+X-B0529 | Cud, czyli lekarz bez kolejki.
+X-B0530 | Cud, czyli poseł, który dotrzymał obietnicy.
+X-B0531 | Cud, czyli rodzinna wigilia bez kłótni.
+X-B0532 | Cud, czyli tata, który powiedział „kocham cię, synu” mnie i mojemu mężowi.
+X-B0533 | Objawienie w kształcie twarzy prezesa na naleśniku.
+X-B0534 | Święty obrazek w portfelu obok prezerwatywy.
+X-B0535 | Prezerwatywy, które babcia znalazła w moim plecaku.
+X-B0536 | Rozmowa z babcią o tym, po co mi prezerwatywy, skoro nie mam dziewczyny.
+X-B0537 | Babcia, która powiedziała „przynajmniej nie będzie wnuków z tej strony”.
+X-B0538 | Brak wnuków jako największy dramat rodziny.
+X-B0539 | Adopcja kota jako zastępstwo wnuków.
+X-B0540 | Wnuki w postaci trzech psów.
+X-B0541 | Psy na rodzinnym zdjęciu świątecznym.
+X-B0542 | Rodzina, która w końcu zaakceptowała mojego męża, bo umie naprawić kran.
+X-B0543 | Mąż, który jest ulubionym zięciem mamy.
+X-B0544 | Mąż, który ma lepszy kontakt z teściem niż ja.
+X-B0545 | Teść, który pokazuje mojemu mężowi swój garaż.
+X-B0546 | Garaż jako miejsce męskiej przyjaźni ponad podziałami.
+X-B0547 | Wódka jako narzędzie pojednania narodowego.
+X-B0548 | Toast „za tolerancję” od wujka po pół litrze.
+X-B0549 | Wujek, który po pół litrze wyznaje, że też całował kolegę w wojsku.
+X-B0550 | Wojsko, w którym działy się rzeczy.
+X-B0551 | Kolega dziadka z wojska, o którym się nie mówi.
+X-B0552 | Ciocia, która mieszka „z przyjaciółką” od 40 lat.
+X-B0553 | Przyjaciółka cioci, która jest na każdej wigilii.
+X-B0554 | Rodzinna tajemnica, która nie jest już tajemnicą.
+X-B0555 | Rodzina, w której co trzecia osoba jest „inna”.
+X-B0556 | Ja jako najmniej kontrowersyjna osoba przy stole.
+X-B0557 | Ksiądz przy stole jako najbardziej kontrowersyjna osoba.
+X-B0558 | Polityk przy stole jako najmniej lubiana osoba.
+X-B0559 | Teściowa przy stole jako szefowa wszystkiego.
+X-B0560 | Kot na stole jako jedyny niezależny dziennikarz.
+X-B0561 | Polska w wersji demo.
+X-B0562 | Państwo z kartonu.
+X-B0563 | Państwo teoretyczne.
+X-B0564 | Polski ład w wersji beta.
+X-B0565 | Reforma, po której jest gorzej.
+X-B0566 | Reforma reformy.
+X-B0567 | Program rządowy z nazwą dłuższą niż efekt.
+X-B0568 | Nowe logo ministerstwa za milion złotych.
+X-B0569 | Strona rządowa, która nie działa w Chrome.
+X-B0570 | Aplikacja rządowa, której nie da się zainstalować.
+X-B0571 | Profil zaufany, któremu nikt nie ufa.
+X-B0572 | Kolejka w urzędzie z numerkiem 247.
+X-B0573 | Urzędniczka, która ma przerwę od 9 do 15.
+X-B0574 | Pieczątka jako najważniejszy dokument w Polsce.
+X-B0575 | Zaświadczenie o posiadaniu zaświadczenia.
+X-B0576 | Ksero dowodu dla każdego urzędu.
+X-B0577 | Formularz w trzech egzemplarzach.
+X-B0578 | Wniosek odrzucony z powodu złego koloru długopisu.
+X-B0579 | Pani w okienku, która wie, kim jestem.
+X-B0580 | Załatwianie sprawy przez znajomego szwagra.
+X-B0581 | Prezent dla lekarza w kopercie z napisem „dziękujemy”.
+X-B0582 | Bombonierka jako waluta w szpitalu.
+X-B0583 | Koniak dla dyrektora szkoły.
+X-B0584 | Kwiaty dla pani w urzędzie skarbowym.
+X-B0585 | Wódka dla mechanika.
+X-B0586 | Kiełbasa dla elektryka.
+X-B0587 | Ciasto dla sąsiada, żeby nie dzwonił na policję.
+X-B0588 | Polska gościnność z obowiązkową dokładką.
+X-B0589 | Polska duma po wygranym meczu.
+X-B0590 | Polska depresja po przegranym meczu.
+X-B0591 | Reprezentacja, która gra o honor od 20 lat.
+X-B0592 | Kibic, który zna się na wszystkim lepiej niż trener.
+X-B0593 | Kibic, który płacze przy hymnie.
+X-B0594 | Skoki narciarskie jako religia zimowa.
+X-B0595 | Siatkówka jako ostatnia nadzieja narodu.
+X-B0596 | Polski kierowca w strefie zamieszkania.
+X-B0597 | Polski kierowca w lewym pasie.
+X-B0598 | Polski kierowca z wąsem i różańcem na lusterku.
+X-B0599 | Różaniec na lusterku i fotoradar.
+X-B0600 | Choinka zapachowa i figurka świętego Krzysztofa.

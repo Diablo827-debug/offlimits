@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Cards Against Humanity (CC BY-NC-SA) · język: en · pakiet OFF022 (karty 1–200 z 2042)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - C-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+C-B02726 | "Tweeting."
+C-B02727 | (I am doing Kegels right now.)
+C-B02728 | 10,000 Syrian refugees.
+C-B02729 | 100 ml of clean urine.
+C-B02731 | 2 Girls 1 Cup.
+C-B02732 | 400 years of colonial atrocities.
+C-B02733 | 50 mg of Zoloft daily.
+C-B02734 | 50,000 volts straight to the nipples.
+C-B02735 | 72 virgins.
+C-B05961 | 8 oz. of Mexican black-tar heroin.
+C-B05716 | A "Live Laugh Love" tattoo.
+C-B06756 | A 99 ice cream that costs 3 quid.
+C-B06690 | A baby otter video so cute that your eyes roll back and your spine slides out of your anus.
+C-B02737 | A bag of magic beans.
+C-B02738 | A balanced breakfast.
+C-B02739 | A ball of earwax, semen, and toenail clippings.
+C-B02740 | A ball pit full of Timbits.
+C-B00470 | A big black dick.
+C-B02741 | A big hoopla about nothing.
+C-B02742 | A bird that shits human turds.
+C-B02743 | A bit of slap and tickle.
+C-B02744 | A bitch slap.
+C-B02746 | A bleached asshole.
+C-B06757 | A blowjob in Greggs.
+C-B06704 | A Bop It.™
+C-B02748 | A bowl of mayonnaise and human teeth.
+C-B02749 | A brain tumor.
+C-B02751 | A bucket of fish heads.
+C-B00502 | A burrito that's just sour cream.
+C-B02752 | A can of whoop-ass.
+C-B02753 | A caress of the inner thigh.
+C-B02754 | A cartoon camel enjoying the smooth, refreshing taste of a cigarette.
+C-B00506 | A cat video so cute that your eyes roll back and your spine slides out of your anus.
+C-B02755 | A certain je ne sais quoi.
+C-B06725 | A cheap Turkish hair transplant.
+C-B02757 | A Chinese tourist who wants something very badly but cannot communicate it.
+C-B02758 | A cis man playing a trans woman.
+C-B02759 | A clandestine butt scratch.
+C-B02760 | A comprehensive understanding of the Irish backstop.
+C-B02761 | A cooler full of organs.
+C-B00517 | A cop who is also a dog.
+C-B02762 | A crucifixion.
+C-B02763 | A cute, fuzzy koala with chlamydia.
+C-B02765 | A death ray.
+C-B02766 | A decent fucking Internet connection.
+C-B02767 | A deep-rooted fear of the working class.
+C-B06675 | A deepfake of my dead son.
+C-B02768 | A defective condom.
+C-B02769 | A despondent Maple Leafs fan sitting all alone.
+C-B02770 | A didgeridildo.
+C-B02771 | A disappointing birthday party.
+C-B00530 | A disappointing salad.
+C-B05970 | A DIY vasectomy.
+C-B02772 | A drive-by shooting.
+C-B00533 | A drone strike.
+C-B02774 | A falcon with a cap on its head.
+C-B02775 | A fanny fart.
+C-B02776 | A fart so powerful that it wakes the giants from their thousand-year slumber.
+C-B00539 | A fat bald man from the internet.
+C-B02777 | A fetus.
+C-B02778 | A five-litre goon bag.
+C-B02779 | A Fleshlight.
+C-B02782 | A foul mouth.
+C-B02783 | A fuck-ton of almonds.
+C-B02785 | A fully sick tribal tattoo.
+C-B02786 | A gambling problem.
+C-B02787 | A gassy antelope.
+C-B02788 | A general lack of purpose.
+C-B02790 | A ginger's freckled ballsack.
+C-B02791 | A Ginsters pasty and three cans of Monster Energy.
+C-B02792 | A good sniff.
+C-B02793 | A good, strong gorilla.
+C-B02794 | A gossamer stream of jizz that catches the light as it arcs through the morning air.
+C-B02795 | A grande sugar-free iced soy caramel macchiato.
+C-B06758 | A Greggs vegan sausage roll.
+C-B02796 | A Gypsy curse.
+C-B02797 | A hairless little shitstain named Callou.
+C-B06670 | A heterosexual dildo for heterosexual men.
+C-B02800 | A homoerotic volleyball montage.
+C-B02801 | A horde of Vikings.
+C-B02802 | A hot mess.
+C-B00565 | A Japanese toaster you can fuck.
+C-B02803 | A Japanese whaling operation.
+C-B02804 | A LAN party.
+C-B02805 | A lifetime of sadness.
+C-B02806 | A literal tornado of fire.
+C-B02807 | A little boy who won't shut the fuck up about dinosaurs.
+C-B02808 | A live studio audience.
+C-B02809 | A look-see.
+C-B02810 | A loser like you.
+C-B00578 | A low standard of living.
+C-B02811 | A lukewarm meat pie.
+C-B02812 | A mad cow.
+C-B02813 | A madman who lives in a police box and kidnaps women.
+C-B00582 | A man in yoga pants with a ponytail and feather earrings.
+C-B02814 | A man on the brink of orgasm.
+C-B00583 | A man who is so cool that he rides on a motorcycle.
+C-B02815 | A mating display.
+C-B02816 | A meat raffle!
+C-B02818 | A micropenis.
+C-B02819 | A micropig wearing a tiny raincoat and booties.
+C-B02820 | A middle-aged man on roller skates.
+C-B02821 | A mime having a stroke.
+C-B02822 | A mistake.
+C-B06695 | A moist towelette.
+C-B02823 | A Molson muscle.
+C-B02824 | A moment of silence.
+C-B02825 | A monkey smoking a cigar.
+C-B02826 | A mopey zoo lion.
+C-B02827 | A much younger woman.
+C-B02828 | A murder most foul.
+C-B02829 | A narc.
+C-B02830 | A neglected Tamagotchi™.
+C-B02831 | A nice cup of tea.
+C-B02832 | A non-disclosure agreement.
+C-B02833 | A pangender octopus who roams the cosmos in search of love.
+C-B00600 | A passionate Latino lover.
+C-B00608 | A piñata full of scorpions.
+C-B00611 | A plunger to the face.
+C-B06760 | A posh Eton twat.
+C-B02834 | A posh wank.
+C-B02835 | A positive attitude!
+C-B00616 | A PowerPoint presentation.
+C-B02836 | A pyramid of severed heads.
+C-B06676 | A racist toddler.
+C-B02838 | A really cool hat.
+C-B06761 | A rehydrated grape in a nappy.
+C-B00628 | A sad fat dragon with no friends.
+C-B02840 | A sad handjob.
+C-B02841 | A salad for men that's made of metal.
+C-B02842 | A salty surprise.
+C-B02844 | A sausage festival.
+C-B02845 | A saxophone solo.
+C-B02846 | A sea of troubles.
+C-B00634 | A sex goblin with a carnival penis.
+C-B06762 | A sex weekend in Scarborough.
+C-B02847 | A shark!
+C-B02848 | A sick burnout.
+C-B02849 | A sick wombat.
+C-B02850 | A sickly child-king.
+C-B02851 | A six-point plan to stop the boats.
+C-B02852 | A slab of VB and a pack of durries.
+C-B02853 | A slightly salty toad in the hole.
+C-B00641 | A slightly shittier parallel universe.
+C-B02854 | A snapping turtle biting the tip of your penis.
+C-B02855 | A sober Irishman who doesn't care for potatoes.
+C-B02856 | A soggy Sao.
+C-B02857 | A sorry excuse for a father.
+C-B02859 | A stingray barb through the chest.
+C-B02860 | A stray pube.
+C-B02861 | A subscription to Men's Fitness.
+C-B02862 | A Super Soaker™ full of cat pee.
+C-B02863 | A supportive touch on the lower back.
+C-B00652 | A surprising amount of hair.
+C-B00653 | A sweaty, panting leather daddy.
+C-B00654 | A sweet spaceship.
+C-B06763 | A Tango Ice Blast.
+C-B06764 | A teenager with a knife.
+C-B02864 | A thermonuclear detonation.
+C-B02865 | A thousand Scottish warriors lifting their kilts in unison.
+C-B06765 | A three-pack of thongs from Primark.
+C-B02867 | A Tim Hortons franchise.
+C-B02868 | A time travel paradox.
+C-B02869 | A time-traveling Chinese general from the Shang Dynasty.
+C-B02870 | A tiny horse.
+C-B02871 | A tiny, gay guitar called a ukulele.
+C-B00661 | A toilet.
+C-B02872 | A tribe of warrior women.
+C-B00669 | A vagina that leads to another dimension.
+C-B02873 | A vajazzled vagina.
+C-B02874 | A vastly superior healthcare system.
+C-B02875 | A vindaloo poo.
+C-B06766 | A weak cup of tea.
+C-B00672 | A web of lies.
+C-B02876 | A wheelchair death race.
+C-B02877 | A white ethnostate.
+C-B02878 | A white van man.
+C-B02879 | A whole thing of butter.
+C-B02880 | A windmill full of corpses.
+C-B02881 | A wisecracking terrorist.
+C-B02882 | A zesty breakfast burrito.
+C-B02884 | Abstinence.
+C-B02885 | Academy Award winner Meryl Streep.
+C-B02886 | Accepting the way things are.
+C-B02887 | Accidentally slipping yourself a roofie.
+C-B02888 | Active listening.
+C-B00697 | Actually getting shot, for real.
+C-B06767 | Actually getting stabbed, for real.
+C-B02889 | Actually taking candy from a baby.
+C-B06678 | Adderall.®
+C-B02892 | Adult Friendfinder.
+C-B02893 | Advice from a wise, old black man.
+C-B02894 | African children.
+C-B02895 | Agriculture.
+C-B02896 | AIDS.
+C-B02898 | Alcohol poisoning.
+C-B02899 | Alcoholism.
+C-B02901 | All four prongs of an echidna's penis.
+C-B00707 | All my friends dying.
+C-B02902 | All my gentleman suitors.

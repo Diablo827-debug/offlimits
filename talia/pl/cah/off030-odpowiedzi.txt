@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Cards Against Humanity (CC BY-NC-SA) · język: pl · pakiet OFF030 (karty 1601–1800 z 2042)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - C-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+C-B01962 | Policja.
+C-B02105 | Noszenie dresów, żeby eksponować penisa.
+C-B02142 | Twój tata, który mówi „cześć”.
+C-B00456 | 10 niesamowitych faktów o odbycie.
+C-B00500 | Banda idiotów grających w karty zamiast rozmawiać jak normalni ludzie.
+C-B00524 | Ruch taneczny, który jest po prostu seksem.
+C-B00538 | Bąk.
+C-B00541 | Prawdziwa jaszczurka, która tryska krwią z oczu.
+C-B00548 | Tożsamość płciowa, którą da się wyrazić tylko slamem poetyckim.
+C-B00561 | Beznadziejnie dużo pająków.
+C-B00562 | Koń bez nóg.
+C-B00567 | Buziak w usta.
+C-B00586 | Właz do kanału.
+C-B00633 | Seksualna kometa z Neptuna, która pogrąża Ziemię w wiecznej seksowności.
+C-B00637 | Błyszczący kamyk, który dowodzi, że cię kocham.
+C-B00666 | Ugandyjski watażka.
+C-B00701 | Afryka.
+C-B00710 | Wszystkie samotne panie.
+C-B00714 | Prawie danie pieniędzy bezdomnemu.
+C-B00715 | Dwuznaczny sarkazm.
+C-B00737 | Uścisk dłoni ponad podziałami.
+C-B00755 | Anielscy hipsterzy płonący z tęsknoty za niebiańskim połączeniem z gwiezdnym dynamem w maszynerii nocy.
+C-B00853 | Czarnula.
+C-B00868 | Podskakiwanie w górę i w dół.
+C-B00889 | Kalkulowanie każdego gestu, żeby nie wyglądał na gejowski.
+C-B00908 | Opieka społeczna.
+C-B00950 | Szalone, opiumowe oczy.
+C-B00985 | Te cycuszki.
+C-B01028 | Odpowiedzialne picie.
+C-B01072 | Wybuchające gołębie.
+C-B01080 | Wpadnięcie do kibla.
+C-B01229 | Gramatyczni naziści, którzy są też zwykłymi nazistami.
+C-B01289 | Jaki jestem zajebisty.
+C-B01318 | Wstrzyknięcie amfy w jedną rękę i końskiego środka uspokajającego w drugą.
+C-B01322 | Małżeństwo międzygatunkowe.
+C-B01341 | Sperma.
+C-B01353 | Spodnie khaki.
+C-B01465 | Głupia, pieprzona gęba mojego taty.
+C-B01488 | Mój loch seksu.
+C-B01496 | Mój bezwartościowy syn.
+C-B01499 | Największe przeboje Krzysztofa Krawczyka.
+C-B01508 | Bez ubrań, penis w pochwie.
+C-B01591 | Książę Ali, bajeczny Ali Ababwa.
+C-B01749 | Palenie cracku, na przykład.
+C-B01752 | Wciąganie koksu z penisa klauna.
+C-B01783 | Sport.
+C-B01818 | Cukrowe szaleństwo.
+C-B01862 | Najlepsze taquito w galaktyce.
+C-B01956 | Pokojowy i niegroźny wzrost potęgi Chin.
+C-B01972 | Słowo bezpieczeństwa.
+C-B01975 | Sekretna formuła na pełną satysfakcję kobiety.
+C-B01978 | Rozmiar mojego penisa.
+C-B01994 | Najmniejszy dowód na to, że Bóg istnieje.
+C-B02072 | Bezwarunkowe posłuszeństwo.
+C-B02112 | Co zrobiłby Jezus.
+C-B02122 | Seksowne szeptanie.
+C-B00521 | To szalone uczucie zwane miłością.
+C-B00551 | Gigantyczny, upudrowany dzieciak w ciele faceta.
+C-B00592 | Pełne usta sałatki ziemniaczanej.
+C-B00599 | Bilet w jedną stronę do Radomia.
+C-B00614 | Napędzany egzoszkielet.
+C-B00655 | Sztab prawników.
+C-B00677 | Zupełnie nowy rodzaj porno.
+C-B00685 | Bezpieczny sposób na zarobienie 8000 zł w domu.
+C-B00744 | Niezapomniana osiemnastka.
+C-B00747 | Nieprzerwana historia imperializmu i wyzysku.
+C-B00751 | Szczeliny odbytu, że głowa mała.
+C-B00781 | Kolana zgięte do tyłu.
+C-B00833 | Bycie czczonym jako jedyny prawdziwy Bóg.
+C-B00861 | Lodziki dla wszystkich.
+C-B00865 | Nudny seks waginalny.
+C-B00886 | Zabawy z tyłkiem.
+C-B00974 | Karta kredytowa tatusia.
+C-B00980 | Te orzeszki.
+C-B00991 | Denzel.
+C-B01015 | Robienie odpowiednich rzeczy z jej sutkami.
+C-B01052 | Wytrysk żywych pszczół, w dodatku wkurzonych.
+C-B01058 | Ennui.
+C-B01118 | Darmowe lody, ziomek.
+C-B01147 | DNA Czyngis-chana.
+C-B01166 | Postrzał z jadącego auta.
+C-B01167 | Zostanie zjedzonym żywcem przez Magdę Gessler.
+C-B01201 | Gigantyczne plemniki z kosmosu.
+C-B01221 | Zjazd absolwentów na ketaminie.
+C-B01256 | Bycie martwym od jakiegoś czasu.
+C-B01445 | Nowy chłopak mamy.
+C-B01461 | Głupi penis mojego chłopaka.
+C-B01472 | Mój pierwszy okres.
+C-B01515 | Niewiara w żyrafy.
+C-B01522 | Ropa!
+C-B01542 | Nieziemskie balony.
+C-B01549 | Sam pan Chang od dań z woka.
+C-B01671 | Rosyjska supergruźlica.
+C-B01740 | Powolne nasuwanie się na ogórka.
+C-B01753 | Wojownicy sprawiedliwości społecznej z miotaczami ognia współczucia.
+C-B01767 | Zajebiste solówki na gitarze.
+C-B01804 | Głupek.
+C-B01850 | Styl życia z reklam Abercrombie & Fitch.
+C-B01860 | Podstawowe cierpienie, które przenika całe istnienie.
+C-B01888 | Ośmiu gejowskich czarnoksiężników, którzy dyktują zasady mody.
+C-B01907 | Duch Marlona Brando.
+C-B01955 | Upływ czasu.
+C-B01996 | Niesamowity świat grzybów.
+C-B02038 | Za dużo kokainy.
+C-B02073 | Nieustająca kara dla genitaliów.
+C-B02081 | Opcje wegetariańskie.
+C-B02104 | Noszenie okularów i mądre gadanie.
+C-B02109 | Zachodnie kanony piękna.
+C-B00467 | Drop basu tak potężny, że rozdziera sklepienie niebieskie i ukazuje oblicze Boga.
+C-B00492 | Miska dyń.
+C-B00503 | Kupa słodyczy.
+C-B00516 | Ciągła potrzeba akceptacji.
+C-B00605 | Duchowa podróż na pejotlu.
+C-B00610 | Dostawca pizzy, który dał ciała.
+C-B00631 | Burrito, które samo się podgrzewa w mikrofalówce.
+C-B00665 | Kupa.
+C-B00676 | Mnóstwo kobiety.
+C-B00741 | Uciśniony lud z barwną kulturą.
+C-B00743 | Przytłaczający wybór serów.
+C-B00791 | Kąpiel w księżycowej krwi i taniec wokół prastarego dębu.
+C-B00806 | Bycie okropną matką.
+C-B00816 | Być jak John Malkovich.
+C-B00881 | Kule.
+C-B00892 | Rak.
+C-B00953 | Paraliżujący lęk społeczny.
+C-B00960 | Płakanie, sranie i jedzenie spaghetti.
+C-B00966 | Słodcy chłopcy.
+C-B01042 | Wspólny posiłek jak cholerna rodzina, chociaż raz.
+C-B01051 | Wytrysk w żonę innego faceta.
+C-B01065 | Resztki charyzmy w zmęczonym ciele Micka Jaggera.
+C-B01095 | Wypełnienie odbytu faceta betonem.
+C-B01111 | Zapomnienie imienia babci.
+C-B01154 | Obrażanie się o wszystko.
+C-B01189 | Wystrzelenie z armaty.
+C-B01241 | Opinie Gwyneth Paltrow.
+C-B01308 | Krem nieśmiertelności.
+C-B01310 | Ważne wiadomości o Taylor Swift.
+C-B01349 | Jarmuż.
+C-B01378 | Jakiś milion aligatorów.
+C-B01423 | Seks bez znaczenia.
+C-B01453 | Morfeusz.
+C-B01504 | Już nigdy więcej seksu.
+C-B01509 | To, że żadna karta z tej gry już nie bawi.
+C-B01530 | Jedna niezapomniana noc namiętności.
+C-B01540 | Nasze nowe pikantne nuggetsy!
+C-B01548 | Sowy, idealni drapieżnicy.
+C-B01605 | Cipka.
+C-B01622 | Wścieklizna.
+C-B01628 | Przeczytanie całego regulaminu.
+C-B01655 | Roboty, które chcą się tylko bawić.
+C-B01701 | Podpalenie sobie jaj i kręcenie gwiazd aż do Rzeszowa.
+C-B01710 | Kształty i kolory.
+C-B01716 | Sranie po całej podłodze jak bardzo, bardzo niegrzeczna dziewczynka.
+C-B01809 | Wyssanie całego mleka z jaka.
+C-B01815 | Nagła utrata penisa.
+C-B01842 | Teksas.
+C-B01851 | Nowy SUV na raty 0%!
+C-B01854 | To, jak bardzo jestem gejem.
+C-B01877 | Kolor „puce”.
+C-B01885 | Dentysta.
+C-B01940 | Męskie spojrzenie.
+C-B01963 | Moc ciemnej strony.
+C-B01984 | Słodka pieśń miecza o miecz i ryk potężnych bestii wojennych.
+C-B02040 | Totalny, pieprzony chaos.
+C-B02045 | Skarby, o jakich ci się nie śniło.
+C-B02091 | Wejście w szklane drzwi.
+C-B02118 | Jak sobie życzysz, matko.
+C-B00513 | Zobowiązanie do zatrudniania różnorodnych talentów.
+C-B00570 | Mała głupia suka.
+C-B00658 | Emocjonujący pościg po dachach Rio de Janeiro.
+C-B00680 | Kobieta, która jest dużo silniejsza ode mnie.
+C-B00681 | Kobieta.
+C-B00692 | Uznanie, że stoimy na ziemiach odebranych rdzennym ludom.
+C-B00784 | Kiepskie krewetki dla biednych.
+C-B00824 | Bycie smutnym i napalonym.
+C-B00858 | Zrobienie loda bogatemu, brzydkiemu facetowi.
+C-B00885 | Wytrysk do arbuza.
+C-B00928 | Oszustwo podatkowe.
+C-B00929 | Zdroworozsądkowe ograniczenie dostępu do broni.
+C-B00972 | Tatuś.
+C-B01047 | Jajka.
+C-B01121 | Świeży koperek z balkonu.
+C-B01135 | Gruby, nieobrzezany kutas Mietka.
+C-B01164 | Do roboty, by pokonać Hunów.
+C-B01169 | Eksmisja.
+C-B01183 | Obrażanie się.
+C-B01218 | Pójście w końcu do środka przez komary.
+C-B01237 | Gringo.
+C-B01325 | Niezbity dowód na to, że Bóg istnieje.
+C-B01368 | Wypuszczenie bąków zbieranych przez 20 lat.
+C-B01420 | Maksymalizacja ROI w zarządzaniu ryzykiem łańcucha dostaw.
+C-B01476 | Siki mojego kochanka.
+C-B01481 | Moja mama, KTÓRA JEST TERAZ TAKĄ SUKĄ.
+C-B01489 | Moje wstydliwe nagie ciało.
+C-B01801 | Chowanie żołędzi w cipce.
+C-B01969 | Odpowiednia ilość kokainy.
+C-B02023 | Trzy albo cztery panie, które ocierają się cyckami czy coś.
+C-B02042 | Radykalne feministki wykluczające osoby trans.
+C-B02077 | Wykupienie Pornhub Premium.
+C-B02123 | Kultura białych.

@@ -1,0 +1,18 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Bez tabu (18+) · język: pl · pakiet OFF019 (karty 201–208 z 208)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - X-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+X-C201 | Co według proboszcza zniszczy polską rodzinę?
+X-C202 | Co naprawdę zniszczyło naszą rodzinę na wigilii?
+X-C203 | Najlepsza odpowiedź na pytanie „A kiedy dziewczyna?”: ____.
+X-C204 | Co babcia powie Panu Bogu o moim mężu?
+X-C205 | Następny cud w naszej parafii: ____.
+X-C206 | Co znajdzie się w nowym logo naszej gminy?
+X-C207 | Co wujek przemyca z Niemiec poza papierosami?
+X-C208 | Prawdziwy powód protestu pod Sejmem: ____.

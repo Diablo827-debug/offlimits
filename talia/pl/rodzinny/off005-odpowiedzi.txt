@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Rodzinny (dla wszystkich) · język: pl · pakiet OFF005 (karty 801–1000 z 1512)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-B0801 | Kino z jednym ekranem.
+R-B0802 | Biblioteka z kotem.
+R-B0803 | Basen miejski w zimie.
+R-B0804 | Lodowisko pod chmurką.
+R-B0805 | Zoo z leniwym lwem.
+R-B0806 | Ogród botaniczny.
+R-B0807 | Muzeum, w którym nie wolno dotykać.
+R-B0808 | Wesołe miasteczko.
+R-B0809 | Aquapark ze zjeżdżalnią.
+R-B0810 | Skansen.
+R-B0811 | Zamek z duchem.
+R-B0812 | Las pełen kleszczy.
+R-B0813 | Jezioro z komarami.
+R-B0814 | Góry w chmurach.
+R-B0815 | Bałtyk w sierpniu.
+R-B0816 | Mazury pod żaglami.
+R-B0817 | Bieszczady bez zasięgu.
+R-B0818 | Wieś u babci.
+R-B0819 | Stodoła pełna siana.
+R-B0820 | Kurnik.
+R-B0821 | Krowa, która patrzy.
+R-B0822 | Koń, który nie chce iść.
+R-B0823 | Koza, która zjadła pranie.
+R-B0824 | Kogut, który pieje o 4 rano.
+R-B0825 | Traktor na wiejskiej drodze.
+R-B0826 | Pole kukurydzy.
+R-B0827 | Sad jabłkowy.
+R-B0828 | Studnia z wiadrem.
+R-B0829 | Wiejska zabawa w remizie.
+R-B0830 | Dożynki.
+R-B0831 | Festyn z kiełbaskami.
+R-B0832 | Koncert w amfiteatrze.
+R-B0833 | Parada na Dzień Dziecka.
+R-B0834 | Wigilia w pracy taty.
+R-B0835 | Spotkanie klasowe po latach.
+R-B0836 | Wywiadówka.
+R-B0837 | Dzień otwarty w szkole.
+R-B0838 | Bal karnawałowy w przedszkolu.
+R-B0839 | Andrzejki z laniem wosku.
+R-B0840 | Mikołajki w szkole.
+R-B0841 | Dzień Babci i Dziadka.
+R-B0842 | Walentynki rodziców.
+R-B0843 | Dzień Kobiet z goździkiem.
+R-B0844 | Prima aprilis.
+R-B0845 | Noc muzeów.
+R-B0846 | Wybory do samorządu klasowego.
+R-B0847 | Wielka zbiórka makulatury.
+R-B0848 | Sprzątanie świata.
+R-B0849 | Akcja „podaruj misia”.
+R-B0850 | Konkurs recytatorski.
+R-B0851 | Turniej szachowy.
+R-B0852 | Zawody pływackie.
+R-B0853 | Szkolny turniej piłki nożnej.
+R-B0854 | Bieg na sto metrów w trampkach.
+R-B0855 | Skok w dal do piaskownicy.
+R-B0856 | Rzut piłką lekarską.
+R-B0857 | Lekcja w-fu na dworze w listopadzie.
+R-B0858 | Kozioł gimnastyczny.
+R-B0859 | Lina, na którą nikt nie umie wejść.
+R-B0860 | Szatnia, w której wszystko pachnie skarpetkami.
+R-B0861 | Basen szkolny z chlorem.
+R-B0862 | Dzwonek telefonu na lekcji.
+R-B0863 | Ściąga na gumce.
+R-B0864 | Kartka przekazywana pod ławką.
+R-B0865 | Liścik od cichego wielbiciela.
+R-B0866 | Pamiętnik z kłódką.
+R-B0867 | Album z naklejkami.
+R-B0868 | Kolekcja kapsli.
+R-B0869 | Kolekcja znaczków dziadka.
+R-B0870 | Karty z piłkarzami.
+R-B0871 | Tamagotchi.
+R-B0872 | Gameboy z lat 90.
+R-B0873 | Walkman z kasetą.
+R-B0874 | Zeszyt z wklejonymi karteczkami.
+R-B0875 | Plastelina wbita w dywan.
+R-B0876 | Klocki, na które się nadepnęło.
+R-B0877 | Lalka bez głowy.
+R-B0878 | Miś bez oka.
+R-B0879 | Samochodzik bez kółka.
+R-B0880 | Kolejka elektryczna dziadka.
+R-B0881 | Rower na kartę miejską.
+R-B0882 | Pociąg towarowy z tysiącem wagonów.
+R-B0883 | Sterowiec nad miastem.
+R-B0884 | Wielki dmuchany zamek.
+R-B0885 | Konfetti, które znajduje się jeszcze w maju.
+R-B0886 | Brokat na wszystkim.
+R-B0887 | Kredki świecowe na ścianie.
+R-B0888 | Bańka mydlana wielka jak samochód.
+R-B0889 | Fontanna czekolady.
+R-B0890 | Tęczowy jednorożec.
+R-B0891 | Słoń w składzie porcelany.
+R-B0892 | Kot w butach.
+R-B0893 | Żyrafa w szaliku.
+R-B0894 | Pingwin w kapeluszu.
+R-B0895 | Lama, która pluje.
+R-B0896 | Hipopotam w basenie.
+R-B0897 | Lew, który boi się myszy.
+R-B0898 | Wielbłąd na Krupówkach.
+R-B0899 | Kangur z torbą zakupów.
+R-B0900 | Sowa, która nie śpi w nocy.
+R-B0901 | Lis, który ukradł kurę.
+R-B0902 | Wilk, który został wegetarianinem.
+R-B0903 | Niedźwiedź po zimowym śnie.
+R-B0904 | Bóbr budujący tamę na podwórku.
+R-B0905 | Ślimak w wyścigu.
+R-B0906 | Mrówki w cukiernicy.
+R-B0907 | Pszczoła w tramwaju.
+R-B0908 | Osa nad kompotem.
+R-B0909 | Motyl w słoiku.
+R-B0910 | Świetlik w ogródku.
+R-B0911 | Żaba, która zamieniła się w księcia.
+R-B0912 | Książę, który zamienił się w żabę.
+R-B0913 | Smok, który boi się ognia.
+R-B0914 | Potwór spod łóżka.
+R-B0915 | Cień na ścianie.
+R-B0916 | Skrzypiąca podłoga w nocy.
+R-B0917 | Szelest za oknem.
+R-B0918 | Kroki na strychu.
+R-B0919 | „Bo ja tak mówię”.
+R-B0920 | „Zjedz, bo wystygnie”.
+R-B0921 | „Załóż czapkę, bo zmarzniesz”.
+R-B0922 | „Jak będziesz starszy, to zrozumiesz”.
+R-B0923 | „A jakby wszyscy skakali z mostu?”
+R-B0924 | „Pieniądze nie rosną na drzewach”.
+R-B0925 | „Nie ma, bo nie ma”.
+R-B0926 | „Za pięć minut wychodzimy”.
+R-B0927 | „Kto to rozlał?”
+R-B0928 | „Przecież to dla twojego dobra”.
+R-B0929 | „Zobaczymy”.
+R-B0930 | „Zapytaj taty”.
+R-B0931 | „Zapytaj mamy”.
+R-B0932 | „Dobra, ostatni raz”.
+R-B0933 | „Nie wiem, nie znam się, nie orientuję się”.
+R-B0934 | „Co ty tam wiesz”.
+R-B0935 | „Kiedyś to było”.
+R-B0936 | „Uważaj, bo się przewrócisz”.
+R-B0937 | „Masz kurtkę?”
+R-B0938 | „Ubierz się cieplej”.
+R-B0939 | „Jak dojedziesz, to zadzwoń”.
+R-B0940 | „A ty kiedy?”
+R-B0941 | „Zjesz jeszcze kawałeczek?”
+R-B0942 | „Ja tylko na chwilkę”.
+R-B0943 | „Nie przeszkadzajcie sobie”.
+R-B0944 | „Taki tam drobiazg”.
+R-B0945 | „Coś mi tu nie pasuje”.
+R-B0946 | „Byłem tu pierwszy”.
+R-B0947 | „To nie ja”.
+R-B0948 | „On zaczął”.
+R-B0949 | „Ona zaczęła”.
+R-B0950 | „Nudzi mi się”.
+R-B0951 | „Jestem głodny” pięć minut po obiedzie.
+R-B0952 | „Jeszcze jeden odcinek”.
+R-B0953 | „Ostatnia gra i idę spać”.
+R-B0954 | Wieczne „nie mam co na siebie włożyć”.
+R-B0955 | Wieczne „gdzie są moje klucze?”.
+R-B0956 | Odwieczne pytanie „co na obiad?”.
+R-B0957 | Odpowiedź „cokolwiek”.
+R-B0958 | Cisza w samochodzie po kłótni.
+R-B0959 | Foch na cały dzień.
+R-B0960 | Wielkie przeprosiny z czekoladą.
+R-B0961 | Przytulas na zgodę.
+R-B0962 | Zakład o kanapkę.
+R-B0963 | Obietnica bez pokrycia.
+R-B0964 | Słowo honoru.
+R-B0965 | Obietnica na małe palce.
+R-B0966 | Tajemnica, którą zna całe osiedle.
+R-B0967 | Plotka z kolejki do piekarni.
+R-B0968 | Wielka afera o nic.
+R-B0969 | Burza w szklance wody.
+R-B0970 | Zamieszanie z prezentami.
+R-B0971 | Pomyłka z imionami na kartkach świątecznych.
+R-B0972 | Prezent podarowany dalej.
+R-B0973 | Prezent, który wraca po roku do tej samej osoby.
+R-B0974 | Karteczka z ceną na prezencie.
+R-B0975 | Kokardka, która się nie trzyma.
+R-B0976 | Papier prezentowy, który zawsze się kończy.
+R-B0977 | Pudełko większe niż prezent.
+R-B0978 | Niespodzianka, która się wydała.
+R-B0979 | Przyjęcie-niespodzianka, o którym wszyscy wiedzieli.
+R-B0980 | Balon z helem pod sufitem.
+R-B0981 | Girlanda „Wszystkiego najlepszego”.
+R-B0982 | Czapeczki urodzinowe na gumce.
+R-B0983 | Trąbki, które doprowadzają rodziców do szału.
+R-B0984 | Piñata, której nie da się rozbić.
+R-B0985 | Konkurs na najładniejszy rysunek.
+R-B0986 | Zdjęcie z Mikołajem w galerii.
+R-B0987 | Ozdoby choinkowe z dzieciństwa taty.
+R-B0988 | Bombka, która przetrwała trzy pokolenia.
+R-B0989 | Szopka z figurkami z plasteliny.
+R-B0990 | Jasełkowy osiołek.
+R-B0991 | Kolędnicy z gwiazdą.
+R-B0992 | Kolęda w wersji rockowej.
+R-B0993 | Pasterka o północy.
+R-B0994 | Sianko pod obrusem.
+R-B0995 | Puste miejsce przy stole dla wędrowca.
+R-B0996 | Łuska karpia w portfelu.
+R-B0997 | Życzenia przy opłatku, które trwają godzinę.
+R-B0998 | Pierwsza gwiazdka, której nikt nie widzi.
+R-B0999 | Prezenty otwierane o 18:01.
+R-B1000 | Sylwestrowe postanowienia.

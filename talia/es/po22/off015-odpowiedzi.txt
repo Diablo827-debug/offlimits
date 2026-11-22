@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Po 22:00 (pikantniejsze) · język: es · pakiet OFF015 (karty 1201–1400 z 1502)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-B1201 | Una oficina sin ventanas.
+N-B1202 | Una oficina diáfana con 200 personas y un solo baño.
+N-B1203 | Un coworking con café gratis y una vida cara.
+N-B1204 | Trabajo híbrido, o sea, trabajar siempre.
+N-B1205 | Un fin de semana de guardia.
+N-B1206 | Unas vacaciones en la playa con el portátil.
+N-B1207 | Salir del trabajo a las 17:00 como quien se fuga de la cárcel.
+N-B1208 | Las miradas de los compañeros cuando me voy a mi hora.
+N-B1209 | Horas extra pagadas en satisfacción.
+N-B1210 | Un trabajo que es «como una familia».
+N-B1211 | Una familia que es como un trabajo.
+N-B1212 | Un jefe que es como un padre.
+N-B1213 | Un padre que es como un jefe.
+N-B1214 | Una suegra que es como un revisor.
+N-B1215 | Una relación que es como un trabajo a jornada completa.
+N-B1216 | Un trabajo fijo que es como una relación tóxica.
+N-B1217 | Una crisis que es como un viejo amigo.
+N-B1218 | La mala suerte que siempre vuelve.
+N-B1219 | La buena suerte que siempre le toca al vecino.
+N-B1220 | El karma que me alcanzó.
+N-B1221 | Un horóscopo que se cumplió.
+N-B1222 | Una vidente que predijo boda este año.
+N-B1223 | Tarot a medianoche con las amigas.
+N-B1224 | Mercurio retrógrado como excusa.
+N-B1225 | El signo del zodiaco como excusa para todo.
+N-B1226 | Una conversación sobre astrología con un ingeniero.
+N-B1227 | La teoría conspirativa del tío sobre el flúor.
+N-B1228 | La Tierra plana en la cena de Nochebuena.
+N-B1229 | Un cuñado que salió en la tele una vez en 2004.
+N-B1230 | Un primo que conoce a alguien que conoce a un famoso.
+N-B1231 | Un tío que dice que jugó en la selección.
+N-B1232 | Un abuelo que asegura haber visto un ovni.
+N-B1233 | Una abuela que se sabe todas las telenovelas de memoria.
+N-B1234 | Una suegra que ve programas de bodas.
+N-B1235 | Una tía que ve programas de divorcios.
+N-B1236 | Un colega que ve programas de supervivencia desde el sofá.
+N-B1237 | Sobrevivir a un fin de semana con un niño de dos años.
+N-B1238 | Sobrevivir a la Nochebuena con la familia de tu pareja.
+N-B1239 | Sobrevivir a una boda sin alcohol.
+N-B1240 | Sobrevivir a unas vacaciones con los suegros.
+N-B1241 | Sobrevivir a una reforma sin divorciarse.
+N-B1242 | Sobrevivir al invierno sin vitamina D.
+N-B1243 | Sobrevivir a noviembre.
+N-B1244 | Un enero que dura 85 días.
+N-B1245 | Febrero como el mes de arrepentirse de los propósitos.
+N-B1246 | La primavera que siempre pilla por sorpresa a los de carreteras.
+N-B1247 | Verano en la ciudad sin aire acondicionado.
+N-B1248 | Otoño con jersey y melancolía.
+N-B1249 | Un invierno que llega por sorpresa cada año.
+N-B1250 | Mi ex, que ahora es coach.
+N-B1251 | Mi ex, que ahora es influencer.
+N-B1252 | Una relación que solo sobrevivió en las fotos.
+N-B1253 | Un compromiso que dura nueve años.
+N-B1254 | Una novia que planea la boda desde niña.
+N-B1255 | Un novio que se enteró de la boda por Facebook.
+N-B1256 | Una lista de invitados que rompió la familia.
+N-B1257 | Sentar a los invitados como problema logístico de la OTAN.
+N-B1258 | La mesa del «resto» en una boda.
+N-B1259 | Una prima que vino vestida de novia.
+N-B1260 | Una tía que dio un discurso sin que nadie se lo pidiera.
+N-B1261 | El abuelo que se durmió en la iglesia.
+N-B1262 | Un cura que hizo chistes sobre el divorcio.
+N-B1263 | Un organista tocando al ritmo equivocado.
+N-B1264 | Anillos intercambiados por el padrino.
+N-B1265 | Un «sí, quiero» dicho demasiado rápido.
+N-B1266 | Un «sí, quiero» dicho demasiado despacio.
+N-B1267 | Un beso en el altar que duró demasiado.
+N-B1268 | Salir de la iglesia bajo una lluvia de arroz y monedas.
+N-B1269 | Una sesión de fotos de boda en un campo con una cosechadora.
+N-B1270 | Un autocar de invitados que llega tarde.
+N-B1271 | Unos novios que huyeron de su propia boda.
+N-B1272 | Una tarta que se volcó.
+N-B1273 | Un primer baile ensayado seis meses y olvidado.
+N-B1274 | Un trenecito de boda por todo el salón.
+N-B1275 | Un concurso de «quién bebe más rápido» ganado por la abuela.
+N-B1276 | Juegos de boda en los que disfrazan al novio.
+N-B1277 | Un tío que le quitó el micrófono a la orquesta.
+N-B1278 | Una tía que llora con cada balada de la boda.
+N-B1279 | Vodka en la mesa en cantidades industriales.
+N-B1280 | Sobres contados en el hotel a las 6 de la mañana.
+N-B1281 | Una apuesta sobre cuánto sumarán los sobres.
+N-B1282 | La primera pelea de casados en la noche de bodas.
+N-B1283 | Una luna de miel aplazada por el préstamo.
+N-B1284 | Una boda civil en chándal.
+N-B1285 | Un divorcio por SMS.
+N-B1286 | Reparto de bienes: tú te quedas el perro, yo el sofá.
+N-B1287 | Un grupo de apoyo «Divorciado en 30 días».
+N-B1288 | La primera cita después del divorcio.
+N-B1289 | Una cita con alguien que solo habla de su ex.
+N-B1290 | Una cita con alguien que me pidió agua del grifo.
+N-B1291 | Una cita en una cafetería de gatos con alergia.
+N-B1292 | Una cita en patines después de muchos años.
+N-B1293 | Una cita a la que vino toda su familia.
+N-B1294 | Una cita después de la cual me mandaron una factura.
+N-B1295 | Una cita que se convirtió en una entrevista de trabajo.
+N-B1296 | Una cita de la que me escapé por la ventana del baño.
+N-B1297 | Una cita en la que me encontré a mi ex en el mismo restaurante.
+N-B1298 | Una segunda cita que nunca llegó.
+N-B1299 | La tercera cita y la pregunta «¿y esto qué es?».
+N-B1300 | Una relación de «es complicado».
+N-B1301 | Una relación sin nombre desde hace dos años.
+N-B1302 | Amigos con derecho a roce sin roce.
+N-B1303 | Un tío que todavía no está preparado.
+N-B1304 | Una chica que aún no ha superado a su ex.
+N-B1305 | Un novio que vive con su madre a los 37.
+N-B1306 | Una madre que le plancha las camisas.
+N-B1307 | Una chica con siete gatos.
+N-B1308 | Un tío con una colección de espadas samurái.
+N-B1309 | Una colección de figuritas que no se puede tocar.
+N-B1310 | Un compañero que solo habla de criptomonedas.
+N-B1311 | Una amiga que solo habla de su perro.
+N-B1312 | Un colega que solo habla del gimnasio.
+N-B1313 | Una amiga que solo habla de bodas.
+N-B1314 | Amigos que solo hablan de sus hijos.
+N-B1315 | Padres que solo hablan de enfermedades.
+N-B1316 | Abuelos que solo hablan de entierros.
+N-B1317 | Conversaciones en la mesa que dan dentera.
+N-B1318 | Hablar de política en el postre.
+N-B1319 | Hablar de dinero delante de los suegros.
+N-B1320 | Hablar de sexo delante de la abuela.
+N-B1321 | Hablar de trabajo en vacaciones.
+N-B1322 | Hablar de niños en una despedida de soltero.
+N-B1323 | Hablar de los ex en una cita.
+N-B1324 | Hablar de salud después de los treinta.
+N-B1325 | Hablar del precio de los pisos en todas las fiestas.
+N-B1326 | Hablar de cómo era el instituto.
+N-B1327 | Una pelea sobre si la pizza con piña es un crimen.
+N-B1328 | Una pelea sobre cómo se cuelga el papel higiénico.
+N-B1329 | Una pelea sobre quién dirá «te quiero» primero.
+N-B1330 | Una pelea sobre quién tiene que vigilar en la fiesta.
+N-B1331 | Una pelea sobre quién conduce a la vuelta.
+N-B1332 | Un conductor que solo bebió agua y se acuerda de todo.
+N-B1333 | Un taxi de 50 euros desde una boda.
+N-B1334 | Dormir en el coche en el aparcamiento del salón de bodas.
+N-B1335 | Volver a casa a plena luz del día.
+N-B1336 | Desayuno en un bar de carretera con resaca.
+N-B1337 | Huevos con beicon como salvación.
+N-B1338 | Sopa de remolacha en taza como medicina.
+N-B1339 | Sopa agria en la fiesta del día después de la boda.
+N-B1340 | Arenque después de una boda.
+N-B1341 | Una sopa de pepinillos que resucita a un muerto.
+N-B1342 | El caldo de mamá en un tarro.
+N-B1343 | Una madre que sabe que anoche hubo fiesta.
+N-B1344 | Un padre que finge no saberlo.
+N-B1345 | Una abuela que también estuvo en la fiesta.
+N-B1346 | Un perro que lo vio todo.
+N-B1347 | Un vecino que lo oyó todo.
+N-B1348 | Una cámara de vigilancia que lo grabó todo.
+N-B1349 | Una foto en el periódico local.
+N-B1350 | Un vídeo en el grupo del barrio.
+N-B1351 | Los comentarios debajo del vídeo.
+N-B1352 | Fama en un radio de tres manzanas.
+N-B1353 | Que te reconozcan en el supermercado.
+N-B1354 | La dependienta que sabe lo que compro los viernes.
+N-B1355 | El del quiosco que se sabe mi marca de tabaco.
+N-B1356 | Un cura que conoce mis pecados.
+N-B1357 | Una peluquera que conoce mis secretos.
+N-B1358 | Una madre que sabe mis contraseñas.
+N-B1359 | Una amiga que conoce todos mis momentos vergonzosos.
+N-B1360 | Un hermano que tiene trapos sucios sobre mí.
+N-B1361 | Una hermana que sabe dónde estuve en 2009.
+N-B1362 | Una familia que recuerda mi peor momento.
+N-B1363 | Una historia que se cuenta en cada boda.
+N-B1364 | Una foto de pequeño enseñada a mi pareja.
+N-B1365 | El primer encuentro con los padres de mi pareja.
+N-B1366 | La primera Nochebuena juntos en casa de los futuros suegros.
+N-B1367 | Un suegro que pregunta cuánto gano.
+N-B1368 | Una suegra que pregunta si sé cocinar.
+N-B1369 | Un cuñado que quiere echarme un pulso.
+N-B1370 | La abuela de mi pareja, que me adoró al instante.
+N-B1371 | El perro de mi pareja que me odia.
+N-B1372 | El gato de mi pareja que duerme en mi almohada.
+N-B1373 | El piso de mi pareja sin toallas.
+N-B1374 | El baño de mi pareja con un solo jabón para todo.
+N-B1375 | El armario de mi pareja donde vive todo su pasado.
+N-B1376 | Un cepillo de dientes en casa de mi pareja como declaración.
+N-B1377 | Las llaves del piso como hito.
+N-B1378 | Una cuenta conjunta para la compra como juramento.
+N-B1379 | Un perro en común como prueba.
+N-B1380 | Un hijo en común como examen.
+N-B1381 | Una jubilación juntos como sueño.
+N-B1382 | Quejarse juntos como hobby.
+N-B1383 | Un nicho compartido comprado en oferta.
+N-B1384 | Un funeral con banda de música.
+N-B1385 | Un velatorio con karaoke.
+N-B1386 | Un discurso fúnebre que hizo reír a todos.
+N-B1387 | Un testamento con sorpresa.
+N-B1388 | Una herencia en forma de deudas.
+N-B1389 | Una herencia en forma de mueble de salón viejo.
+N-B1390 | La casa familiar que necesita una reforma de un millón.
+N-B1391 | Una parcela con vistas a la autopista.
+N-B1392 | El piso de la abuela con una alfombra en la pared.
+N-B1393 | Una colección de porcelana que nadie quiere.
+N-B1394 | El abrigo de piel de la abuela que huele a naftalina.
+N-B1395 | Las joyas de la bisabuela en una lata de té.
+N-B1396 | Un reloj que se paró el día de la boda.
+N-B1397 | El coche viejo del abuelo guardado en el garaje por nostalgia.
+N-B1398 | Esquís de los ochenta en el sótano.
+N-B1399 | Una aspiradora de los años setenta que sigue funcionando.
+N-B1400 | Una nevera que ha sobrevivido a tres generaciones.

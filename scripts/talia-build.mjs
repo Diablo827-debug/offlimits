@@ -9,11 +9,11 @@ const dir = new URL('../talia/', import.meta.url);
 const hash = (t) => crypto.createHash('sha1').update(t).digest('hex').slice(0, 6).toUpperCase();
 
 function readPack(lang, pack, kind) {
-  // Pakiet = folder talia/<język>/<pakiet>/ z plikami pytania-01.txt, pytania-02.txt… i odpowiedzi-01.txt…
+  // Pakiet = folder talia/<język>/<pakiet>/ z plikami off001-pytania.txt, off001-odpowiedzi.txt, off002-…
   const folder = new URL(`${lang}/${pack.file}/`, dir);
   if (!fs.existsSync(folder)) return null;
   const base = kind === 'c' ? 'pytania' : 'odpowiedzi';
-  const files = fs.readdirSync(folder).filter((f) => f.startsWith(base) && f.endsWith('.txt')).sort();
+  const files = fs.readdirSync(folder).filter((f) => f.endsWith(base + '.txt')).sort();
   if (!files.length) return null;
   const out = {};
   const text = files.map((f) => fs.readFileSync(new URL(f, folder), 'utf8')).join('\n');

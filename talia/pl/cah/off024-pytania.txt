@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Cards Against Humanity (CC BY-NC-SA) · język: pl · pakiet OFF024 (karty 201–300 z 416)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - C-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+C-C02678 | O czym właśnie myśli George W. Bush?
+C-C00322 | Co zostawiło tę plamę na mojej kanapie?
+C-C02682 | Co sprawiło, że mój pierwszy pocałunek był taki niezręczny?
+C-C00323 | Co sprawia, że babcia znów czuje się młodo?
+C-C02683 | Co sprawia, że warto żyć?
+C-C02684 | Co sprawia, że jestem prawdziwym Polakiem?
+C-C00324 | Przy czym za każdym razem płaczę?
+C-C02685 | Co zawsze rozkręca imprezę?
+C-C02686 | Co zawsze zapewni ci seks?
+C-C02687 | Co zabiorę w przeszłość, żeby przekonać ludzi, że jestem potężnym czarodziejem?
+C-C02688 | Co babcia uznałaby za niepokojące, ale dziwnie urocze?
+C-C02689 | Kto jest najlepszym przyjacielem kobiety?
+C-C02690 | Co jest moim sposobem na narkotyki?
+C-C02691 | Jaka jest moja tajna moc?
+C-C02692 | Czym nauczyciele motywują uczniów z trudnych dzielnic?
+C-C02693 | Co tak śmierdzi?
+C-C02694 | Co to za dźwięk?
+C-C02695 | Co jest najlepszą metaforą naszej sceny politycznej?
+C-C02697 | Co jest najbardziej zatęchłe?
+C-C02698 | Co jest najbardziej emo?
+C-C02699 | Jaka jest nowa modna dieta?
+C-C02700 | Jaka będzie następna zabawka w Happy Meal?
+C-C02701 | Kto będzie następnym duetem superbohatera i pomocnika? {2}
+C-C02702 | Czego jest w niebie od groma?
+C-C00346 | Gdy wszystko zawiedzie, zawsze mogę się masturbować do ____.
+C-C02704 | Gdy zostanę miliarderem, postawię 20-metrowy pomnik upamiętniający ____.
+C-C02708 | Gdy zostanę prezydentem, utworzę Ministerstwo ____.
+C-C00347 | Co wyszło mi z tyłka, gdy zrobiłem kupę?
+C-C02714 | Po kwasie ____ zamieniło się w ____.
+C-C02715 | Kiedy pójdę do więzienia, każę przemycić sobie ____.
+C-C02716 | Gdy faraon pozostał niewzruszony, Mojżesz zesłał plagę ____.
+C-C00350 | Jak się dobrze zastanowić, ____ to po prostu ____.
+C-C02717 | Gdy USA ścigały się z ZSRR o Księżyc, PRL wpompował miliony złotych w badania nad ____.
+C-C02718 | Biali ludzie lubią ____.
+C-C06660 | Kto wrzucił na mojego laptopa całe to porno z ____?
+C-C02719 | Kto zjadł ciasteczka ze słoika?
+C-C00351 | JUHUU! Kurde, jak ja kocham ____!
+C-C02720 | Czemu jestem cały lepki?
+C-C02721 | Czemu nie mogę spać w nocy?
+C-C02722 | Czemu wszystko mnie boli?
+C-C05698 | Czemu Janusz jest taki spocony?
+C-C00358 | Z czasem i pod ciśnieniem ____ zamieni się w ____.
+C-C02725 | Twoje marzenia są na wyciągnięcie ręki! Więcej na ____.pl.
+C-C00376 | Twoja wytrwałość jest godna podziwu, mój książę. Ale nie zdobędziesz mego serca samym ____.
+C-C00023 | Międzynarodowy trybunał uznał ____ za winnego ____.
+C-C00024 | I uszłoby mi to na sucho, gdyby nie ____!
+C-C00040 | Jaaa, chore! Ten skejter właśnie zrobił kickflipa 720 prosto w ____!
+C-C00094 | Kto kontroluje ____, ten kontroluje świat.
+C-C00154 | W razie potrzeby ____ może zastąpić ____.
+C-C00161 | W nowej kampanii turystycznej Radom z dumą ogłasza, że w końcu pozbył się ____.
+C-C00200 | Nowy, trzygodzinny epicki film akcji Michaela Baya: ____ kontra ____.
+C-C00224 | W przyszłym tygodniu na Discovery: jeden człowiek musi przetrwać w Amazonii, mając tylko ____ i własny rozum.
+C-C00252 | Nauka nigdy nie wyjaśni pochodzenia ____.
+C-C00267 | Wywiad przesłuchuje teraz wrogich agentów, poddając ich bez końca ____.
+C-C00275 | Socjalistyczne rządy Skandynawii uznały dostęp do ____ za podstawowe prawo człowieka.
+C-C00340 | Jaki prezent cieszy w nieskończoność?
+C-C00016 | Po miesiącach debat uczestnicy protestu zgodzili się tylko co do jednego: „Więcej ____!”
+C-C00042 | Zanim pojawiło się ____, mieliśmy tylko ____.
+C-C00043 | Zanim wystartuję na prezydenta, muszę zniszczyć wszystkie dowody mojego związku z ____.
+C-C00076 | Wszyscy na ziemię! Nie chcemy nikogo skrzywdzić. Przyszliśmy tylko po ____.
+C-C00150 | Gdyby Bóg nie chciał, żebyśmy cieszyli się ____, nie dałby nam ____.
+C-C00159 | W swoim najnowszym i najtrudniejszym wyczynie iluzjonista musi uciec z ____.
+C-C00198 | Warszawska elita płaci tysiące złotych tylko po to, żeby przeżyć ____.
+C-C00223 | W następnym odcinku: jak rozmawiać z dzieckiem o ____.
+C-C00277 | Głosy policzone: nową maskotką szkoły zostaje ____.
+C-C00288 | W tym miesiącu w „Cosmopolitan”: „Urozmaić życie seksualne, zabierając do sypialni ____”.
+C-C00335 | Co mi psuje fazę, stary?
+C-C00369 | Nie przeżyłeś niczego, dopóki nie doświadczyłeś ____ i ____ jednocześnie.
+C-C00007 | ____: Godziny zabawy. Proste w obsłudze. Idealne dla ____!
+C-C00033 | W kontrakcie gwiazdy jest zapis, że nie wystąpi bez ____ w garderobie.
+C-C00034 | W swoim codziennym planie dnia prezenter rezerwuje 15 minut na ____.
+C-C00049 | Zadzwoń do kancelarii prawnej, bo nikt nie powinien znosić ____ w pracy.
+C-C00101 | Hej, mała, chodź do mnie, to pokażę ci ____.
+C-C00187 | Słuchaj, synu. Jak chcesz się zadawać z ____, nie zatrzymam cię. Tylko trzymaj się z daleka od ____.
+C-C00211 | Mojego wuefistę wyrzucili za dodanie ____ do toru przeszkód.
+C-C00212 | Moim życiem rządzi błędne koło ____ i ____.
+C-C00294 | Przygotowując się do nowej roli, aktor całkowicie zanurzył się w świecie ____.
+C-C00123 | Kocham być mamą. Ale ciężko, gdy dzieci wracają do domu brudne po ____. Dlatego jest Vizir.
+C-C00160 | W kulturze irlandzkiej żałobnicy wyrażają smutek tradycyjnym rytuałem ____.
+C-C00295 | Rada dnia: urozmaić życie seksualne, zabierając do sypialni ____!
+C-C00310 | Witamy w barze na plaży! Spróbuje pan naszego firmowego drinka „____ on the Beach”?
+C-C00349 | Gdy pies ugryzie, gdy pszczoła użądli, gdy jest mi smutno, przypominam sobie ____ i od razu jest lepiej.
+C-C00003 | ____ przeminie, ale ____ zostanie na zawsze.
+C-C00004 | ____ już nigdy nie będzie takie samo po ____.
+C-C00010 | Druga w nocy w mieście, które nigdy nie śpi. Drzwi się otwierają i wchodzi ona, nogi do samej szyi. Coś w jej oczach mówi mi, że szuka ____.
+C-C00015 | Przygoda. Romans. ____. Paramount Pictures przedstawia: „____”.
+C-C00020 | Dobra, ziomki. Nasz akademik idzie do rozbiórki, a wszystkie laski są na imprezie u sąsiadów. Czas zacząć Operację ____.
+C-C00057 | Kurde, Gary. Nie możesz każdego problemu rozwiązywać za pomocą ____.
+C-C00060 | Umiłowany Przywódco Kim Dzong Unie, nasza wioska wychwala Twoją nieskończoną mądrość skromną ofiarą z ____.
+C-C00062 | Nie zadzieraj ze mną! Jestem teraz dosłownie ____.
+C-C00073 | Każdy krok w stronę ____ przybliża mnie odrobinę do ____.
+C-C00083 | Zapomnij wszystko, co wiesz o ____, bo teraz doładowaliśmy to ____!
+C-C00109 | Kochanie, mam nowy pomysł na odgrywanie ról! Ty będziesz ____, a ja ____.
+C-C00111 | Czym rekompensuję sobie małego penisa?
+C-C00113 | Stałem się ____, niszczycielem ____!
+C-C00139 | Chyba jestem na haju, bo jestem totalnie zahipnotyzowany ____.
+C-C00151 | Jeśli nie radzisz sobie z ____, trzymaj się z daleka od ____.
+C-C00164 | W zamian za duszę diabeł obiecał mi ____, a dostałem tylko ____.
+C-C00167 | Na początku było ____. I rzekł Pan: „Niech stanie się ____”.
+C-C00173 | Czai się w nocy. Łaknie ciała. Tego lata nikt nie jest bezpieczny przed ____.

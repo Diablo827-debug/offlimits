@@ -1,0 +1,111 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Po 22:00 (pikantniejsze) · język: es · pakiet OFF016 (karty 1401–1502 z 1502)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-B1401 | Una tele que solo funciona si le das un golpe.
+N-B1402 | Una radio que solo pilla una emisora de pasodobles.
+N-B1403 | Una emisora que solo escucha el taxista.
+N-B1404 | Música de ascensor.
+N-B1405 | La música de espera de una línea de atención.
+N-B1406 | Una línea donde «su llamada es importante para nosotros».
+N-B1407 | El operador número 47 en la cola.
+N-B1408 | Hablar con un contestador automático que no entiende.
+N-B1409 | Pulse uno, pulse dos, pulse llorar.
+N-B1410 | Una reclamación que tarda tres meses.
+N-B1411 | Un tique que se ha borrado.
+N-B1412 | Una garantía que caducó el día antes de la avería.
+N-B1413 | Un manual en 24 idiomas y ninguno comprensible.
+N-B1414 | Un aparato que se estropea justo al acabar la garantía.
+N-B1415 | Una lavadora con más programas que planes tengo yo.
+N-B1416 | «Algodón 40» como único programa que se usa.
+N-B1417 | Una secadora que encogió un jersey.
+N-B1418 | Un jersey que ahora le vale al perro.
+N-B1419 | Un perro con la ropa de su dueño.
+N-B1420 | Un gato en una caja de cartón en vez de en su cama de 80 euros.
+N-B1421 | Un juguete de gato de 20 euros, y gana la cuerda.
+N-B1422 | Una factura del veterinario más alta que la de mi médico.
+N-B1423 | Un seguro para el perro.
+N-B1424 | Un cumpleaños de perro con tarta.
+N-B1425 | Una cafetería para perros.
+N-B1426 | Un spa para gatos.
+N-B1427 | Un gato influencer que gana más que yo.
+N-B1428 | Un gato que me enseñó humildad.
+N-B1429 | Un perro que me enseñó el amor incondicional.
+N-B1430 | Un hámster que me enseñó lo que es la fugacidad.
+N-B1431 | Un pez que me enseñó a callar.
+N-B1432 | Un loro que contó todos los secretos de la familia.
+N-B1433 | Un loro que habla con la voz de mi ex.
+N-B1434 | Una rata en el sótano que ya tiene nombre.
+N-B1435 | Una paloma que entró volando en una reunión.
+N-B1436 | Una gaviota que me robó el bocadillo en el muelle.
+N-B1437 | Una avispa en un pícnic romántico.
+N-B1438 | Una garrapata en un sitio del que no hablamos.
+N-B1439 | Mosquitos en una boda al aire libre.
+N-B1440 | Una tormenta en una boda en un jardín.
+N-B1441 | Un calor de muerte con traje.
+N-B1442 | Un frío polar en la graduación con un vestido finito.
+N-B1443 | Lluvia en un festival.
+N-B1444 | Sol en una oficina sin persianas.
+N-B1445 | Un tiempo que siempre arruina los planes.
+N-B1446 | Una previsión del tiempo en la que solo creo yo.
+N-B1447 | Lo último que me esperaba.
+N-B1448 | Un gran final que nadie quería.
+N-B1449 | Un final feliz con hipoteca.
+N-B1450 | Felicidad en pequeñas dosis.
+N-B1451 | Una paz que duró cinco minutos.
+N-B1452 | Un domingo sin planes y sin remordimientos.
+N-B1453 | La vida adulta, en la que nadie sabe lo que hace.
+N-B1454 | Una vida que salió distinta, pero bien.
+N-B1455 | El primer sueldo y la primera decepción.
+N-B1456 | La última cuota de la hipoteca, que no viviré para ver.
+N-B1457 | Un café para llevar de 6 euros.
+N-B1458 | Desayunar fuera, o sea, aguacate por medio día de sueldo.
+N-B1459 | Un brunch para el que hay que esperar una hora.
+N-B1460 | Una cola en una panadería de moda.
+N-B1461 | Helado artesanal a precio de oro.
+N-B1462 | Una hamburguesa con patatas por 17 euros.
+N-B1463 | Un ramen que iba a cambiarme la vida.
+N-B1464 | Un filete vegano en casa de la suegra.
+N-B1465 | Una dieta keto durante tres días.
+N-B1466 | Ayuno intermitente interrumpido por un kebab.
+N-B1467 | Un batido que sabe a césped.
+N-B1468 | Zumo de apio para desintoxicarse.
+N-B1469 | Kombucha casera hecha por el cuñado.
+N-B1470 | Una masa madre con más seguidores que yo.
+N-B1471 | El pan de la pandemia que ya nadie hace.
+N-B1472 | Un panecillo con mantequilla como cumbre gastronómica.
+N-B1473 | El filete de mamá traído en una bolsa a través de todo el país.
+N-B1474 | Los tarros de mamá como moneda.
+N-B1475 | Cambiar guiso por empanadillas con la vecina.
+N-B1476 | Una tarta de la suegra que no se puede rechazar.
+N-B1477 | La tercera ración por educación.
+N-B1478 | Pantalones desabrochados después de la comida de Navidad.
+N-B1479 | Una siesta después del caldo.
+N-B1480 | Luchar contra el sueño un domingo por la tarde.
+N-B1481 | Un café después de comer para el tío que «no se va a dormir».
+N-B1482 | Un tío que se durmió a mitad de frase.
+N-B1483 | El abuelo roncando al ritmo de los villancicos.
+N-B1484 | Villancicos cantados con karaoke del móvil.
+N-B1485 | Karaoke familiar con un micrófono del súper.
+N-B1486 | Bailar música de verbena con la suegra.
+N-B1487 | Un cuñado que quiere hacer breakdance.
+N-B1488 | Una apuesta sobre quién se irá primero de la fiesta.
+N-B1489 | Irse a la francesa sin que nadie lo note.
+N-B1490 | Volver a por la chaqueta y alargar la fiesta tres horas.
+N-B1491 | El sofá de unos amigos como hotel.
+N-B1492 | Desayunar con el pijama del anfitrión.
+N-B1493 | Una toalla prestada de un desconocido.
+N-B1494 | Un cepillo de dientes del kit del hotel.
+N-B1495 | Un baño con el pestillo roto.
+N-B1496 | Una puerta del baño sin manilla.
+N-B1497 | Que se acabe el papel higiénico en casa ajena.
+N-B1498 | Charlar con el gato de los anfitriones a las 4 de la mañana.
+N-B1499 | Una despedida del perro de los anfitriones más cariñosa que de ellos.
+N-B1500 | Una promesa de devolver la visita que nadie cumplirá.
+N-B1501 | Una invitación a «pasaros algún día».
+N-B1502 | Una quedada que llevamos aplazando desde 2019.
