@@ -12,14 +12,17 @@ export function loadDeck(lang, fresh) {
   // Polska talia + odmiana odpowiedzi przez przypadki (odmiana.json: c = przypadki luk, f = formy kart).
   // Pakiet Cards Against Humanity (CC BY-NC-SA 2.0): cah.json – polskie tłumaczenie i angielski oryginał.
   if (!cache.cah) cache.cah = getJson('/cah.json?v=' + v);
+  // Karty Dżentelmenów – darmowa wersja do druku (CC BY-NC-SA), tylko po polsku.
+  if (!cache.kd) cache.kd = getJson('/kd.json?v=' + v);
   if (!cache.pl) {
     cache.pl = Promise.all([
       fetch('/talia.json?v=' + v, { cache: 'no-cache' }).then((r) => r.json()),
       getJson('/odmiana.json?v=' + v),
       cache.cah,
-    ]).then(([d, o, cah]) => {
-      if (cah && cah.pl) { Object.assign(d.c, cah.pl.c); Object.assign(d.b, cah.pl.b); }
-      return Object.assign(d, { k: o.c || {}, f: o.f || {}, lang: 'pl' });
+      cache.kd,
+    ]).then(([d, o, cah, kd]) => {
+      [cah, kd].forEach((x) => { if (x && x.pl) { Object.assign(d.c, x.pl.c); Object.assign(d.b, x.pl.b); } });
+      return Object.assign(d, { k: o.c || {}, f: o.f || {}, w: new Set(o.w || []), lang: 'pl' });
     });
   }
   if (l === 'pl') return cache.pl;
@@ -61,7 +64,8 @@ export function idsFor(deck, mode, kind) {
     return own.length >= 150 ? own : own.concat(idsFor(deck, 'wszystkie', kind));
   }
   if (mode === 'cah') return Object.keys(deck[kind]).filter((id) => id[0] === 'C');
-  if (mode === 'wszystkie') prefixes = ['R', 'N', 'X', 'P', 'C'];
+  if (mode === 'kd') return Object.keys(deck[kind]).filter((id) => id[0] === 'K');
+  if (mode === 'wszystkie') prefixes = ['R', 'N', 'X', 'P', 'C', 'K'];
   else if (mode === 'bez') prefixes = kind === 'c' ? ['X'] : ['X', 'N', 'R'];
   else if (kind === 'c') prefixes = mode === 'po22' ? ['N'] : ['R'];
   else prefixes = mode === 'po22' ? ['N', 'R'] : ['R'];
@@ -81,6 +85,7 @@ function stripEnd(t) { return t.replace(/[.!]+$/, ''); }
 
 // Mała litera, gdy odpowiedź trafia do środka zdania (ale nie skróty typu „SMS”).
 function inSentence(text, before) {
+  if (text.charAt(0) === '\u2060') return text.slice(1);
   const trimmed = before.replace(/\s+$/, '');
   const startsSentence = trimmed === '' || /[.?!]$/.test(trimmed);
   if (startsSentence) return text;
@@ -97,7 +102,9 @@ export function answersFor(deck, blackId, ids) {
   return (ids || []).map((id, i) => {
     const c = k[i] || (k.length === 1 ? k : '');
     const f = c && c !== 'n' && deck.f && deck.f[id] && deck.f[id][c];
-    return f || deck.b[id] || '';
+    const t = f || deck.b[id] || '';
+    // \u2060 = niewidoczny znacznik nazwy własnej („Radom”, „Niemcy”) – nie zmniejszamy wtedy pierwszej litery.
+    return t && deck.w && deck.w.has(id) ? '\u2060' + t : t;
   });
 }
 
@@ -118,7 +125,7 @@ export function fillParts(black, answers) {
     });
   } else {
     parts.push({ t: black + ' ' });
-    answers.forEach((a, i) => parts.push({ t: (i ? ' ' : '') + a, a: true }));
+    answers.forEach((a, i) => parts.push({ t: (i ? ' ' : '') + String(a).replace('\u2060', ''), a: true }));
   }
   return parts;
 }
