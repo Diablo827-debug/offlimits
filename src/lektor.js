@@ -13,6 +13,7 @@ if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
 let unlocked = false;
 // Przeglądarki wpuszczają mowę dopiero po kliknięciu na stronie – to wywołujemy z kliknięcia.
 export function unlockSpeech() {
+  try { const AC = window.AudioContext || window.webkitAudioContext; if (AC && !ctx) { ctx = new AC(); analyser = ctx.createAnalyser(); analyser.fftSize = 512; levelBuf = new Uint8Array(analyser.fftSize); analyser.connect(ctx.destination); } if (ctx) ctx.resume(); } catch (e) { /* nic */ }
   unlocked = true;
   try {
     const u = new SpeechSynthesisUtterance(' ');
@@ -73,10 +74,38 @@ export function prefetchSpeech(texts, voice, lang, mood) {
   texts.forEach((t) => { try { fetch(ttsUrl(t, voice, lang, mood)).catch(() => {}); } catch (e) { /* nic */ } });
 }
 
+// Głośność lektora na żywo (0–1) – avatar 3D rusza ustami i głową w rytm mowy.
+let ctx = null;
+let analyser = null;
+let levelBuf = null;
+let fakeTalk = false;
+export function speechLevel() {
+  if (analyser) {
+    analyser.getByteTimeDomainData(levelBuf);
+    let sum = 0;
+    for (let i = 0; i < levelBuf.length; i++) { const v = (levelBuf[i] - 128) / 128; sum += v * v; }
+    const lvl = Math.min(1, Math.sqrt(sum / levelBuf.length) * 4);
+    if (lvl > 0.01) return lvl;
+  }
+  // głos przeglądarki nie daje się zmierzyć – udajemy rytm mowy
+  return fakeTalk ? 0.35 + 0.35 * Math.abs(Math.sin(Date.now() / 90)) * Math.abs(Math.sin(Date.now() / 230)) : 0;
+}
+function hookLevel(audio) {
+  try {
+    const AC = window.AudioContext || window.webkitAudioContext;
+    if (!AC) return;
+    if (!ctx) { ctx = new AC(); analyser = ctx.createAnalyser(); analyser.fftSize = 512; levelBuf = new Uint8Array(analyser.fftSize); analyser.connect(ctx.destination); }
+    if (ctx.state !== 'running') { ctx.resume(); return; } // nieaktywny kontekst wyciszyłby lektora – wtedy bez pomiaru
+    audio.crossOrigin = 'anonymous';
+    ctx.createMediaElementSource(audio).connect(analyser);
+  } catch (e) { /* bez pomiaru – i tak gra dźwięk */ }
+}
+
 function playCloud(text, voice, lang, mood) {
   return new Promise((resolve, reject) => {
     try {
       const a = new Audio(ttsUrl(text, voice, lang, mood));
+      hookLevel(a);
       let done = false;
       const ok = () => { if (!done) { done = true; resolve(); } };
       a.onended = ok;
@@ -123,6 +152,7 @@ function speakBrowser(rawText, opts) {
     const started = Date.now();
     let done = false;
     const finish = () => {
+      fakeTalk = false;
       if (done) return;
       done = true;
       const left = minMs - (Date.now() - started);
@@ -139,8 +169,9 @@ function speakBrowser(rawText, opts) {
       u.lang = locOf(lang);
       if (voice) u.voice = voice;
       u.rate = rate;
-      u.onend = finish;
-      u.onerror = finish;
+      fakeTalk = true;
+      u.onend = () => { fakeTalk = false; finish(); };
+      u.onerror = () => { fakeTalk = false; finish(); };
       window.speechSynthesis.cancel();
       window.speechSynthesis.speak(u);
       setTimeout(finish, 4000 + text.length * 110); // zabezpieczenie, gdy TV nie zgłosi końca

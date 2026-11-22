@@ -1,4 +1,7 @@
 import React from 'react';
+import { useAvatarModel, checkModel } from './avatarModel.js';
+
+const Avatar3D = React.lazy(() => import('./Avatar3D.jsx'));
 
 // Postać prowadzącego. Klatki leżą w public/prowadzacy/<mina>-<c|o|b>.webp
 // (c = usta zamknięte, o = usta otwarte w trakcie mówienia, b = mrugnięcie).
@@ -20,7 +23,7 @@ function checkFrames() {
 // Czy klatki postaci są wgrane (bez nich zostaje stary układ ekranu z dymkiem w kolumnie wyników).
 export function useHostFrames() {
   const [ok, setOk] = React.useState(available || videoOk);
-  React.useEffect(() => { Promise.all([checkFrames(), checkVideo()]).then(([f, v]) => setOk(f || v)); }, []);
+  React.useEffect(() => { Promise.all([checkFrames(), checkVideo(), checkModel()]).then(([f, v, m]) => setOk(f || v || !!m)); }, []);
   return !!ok;
 }
 
@@ -121,7 +124,17 @@ export default function Prowadzacy({ room, cue, compact, big }) {
     return () => { clearTimeout(t); clearInterval(i); };
   }, []);
 
+  const avatar = useAvatarModel();
   if (!room || room.host === 'off') return null;
+  if (avatar) {
+    const on = cue && Date.now() - cue.at < 7000;
+    return (
+      <div className={'host avatar' + (big ? ' big' : '')}>
+        {on ? <div className="host-bubble" key={cue.at}>{cue.text}</div> : null}
+        <React.Suspense fallback={null}><Avatar3D url={avatar} room={room} /></React.Suspense>
+      </div>
+    );
+  }
   const now = Date.now();
   const cueOn = cue && now - cue.at < 7000;
   let emo = baseEmo(room, stage.current.at);
