@@ -1,6 +1,6 @@
 import React from 'react';
 import QRCode from 'qrcode';
-import { ref, onValue, get, remove } from 'firebase/database';
+import { ref, onValue, get, remove, update } from 'firebase/database';
 import { db, ensureAuth } from './firebase.js';
 import { loadDeck, fillText, fillTextMarked, deckKnows, answersFor } from './deck.js';
 import { speak, stopSpeaking, unlockSpeech, prefetchSpeech } from './lektor.js';
@@ -48,6 +48,14 @@ export default function Tv() {
   const lastSub = React.useRef({ key: '', n: 0, at: 0 });
   const stageSince = React.useRef({ key: '', at: 0 });
   useWakeLock(true);
+  // Znak życia dla telefonów: co 30 s (po wyłączeniu telewizora telefony nie wracają do starej gry).
+  React.useEffect(() => {
+    if (!code) return undefined;
+    const beat = () => update(ref(db, 'rooms/' + code), { alive: Date.now() }).catch(() => {});
+    beat();
+    const i = setInterval(beat, 30000);
+    return () => clearInterval(i);
+  }, [code]);
   // Muzyczka w tle (po włączeniu dźwięku na telewizorze; wyłączana w ustawieniach).
   const musicOn = !!(sound && room && room.music !== false);
   React.useEffect(() => { if (musicOn) musicStart(0.5); else musicStop(); }, [musicOn]);

@@ -160,7 +160,7 @@ export function LangPick({ lang, onLang, t }) {
   );
 }
 
-export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, onVote, onCmd, lang, onLang, onLeave, onMine }) {
+export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, onVote, onCmd, lang, onLang, onLeave, onMine, tvGone }) {
   const t = tr(lang || 'pl');
   const players = sortedPlayers(room);
   const meP = (room.players || {})[me] || {};
@@ -259,6 +259,12 @@ export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, 
         <div className="who"><b>{meP.name || ''}</b>{isJudge && room.state !== 'lobby' ? ' · ' + t('judgeSuffix') : ''}</div>
         {room.state !== 'lobby' ? <div className="sc">{meP.score || 0} {t('pts')}</div> : <div className="muted" style={{ fontSize: 13 }}>OFFLIMITS</div>}
       </div>
+      {tvGone ? (
+        <div className="tv-gone">
+          <div>{t('tvGone')}</div>
+          <button type="button" className="btn btn-primary" style={{ width: '100%' }} onClick={onLeave}>{t('leaveGame')}</button>
+        </div>
+      ) : null}
       {body}
       {isHost && room.state !== 'lobby' && room.state !== 'end' ? (
         <details className="fold" style={{ marginTop: 14 }}>
@@ -269,6 +275,9 @@ export default function GrajView({ room, me, hand, mySub, deck, onPlay, onPick, 
             <button type="button" className="btn btn-ghost" onClick={() => onCmd('end')}>{t('endGame')}</button>
           </div>
         </details>
+      ) : null}
+      {room.state !== 'lobby' && room.state !== 'end' && onLeave ? (
+        <button type="button" className="btn btn-ghost btn-small" style={{ marginTop: 14, alignSelf: 'center', opacity: 0.7 }} onClick={onLeave}>{t('leaveGame')}</button>
       ) : null}
     </div>
   );

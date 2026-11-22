@@ -82,7 +82,10 @@ export default function Graj() {
     // Wracamy tylko do gry, która jeszcze trwa – po zakończonej zaczynamy od ekranu dołączania.
     get(ref(db, 'rooms/' + want)).then((s) => {
       const r = s.val();
-      if (!r || r.state === 'end' || !r.players || !r.players[uid]) { localStorage.removeItem('ol_code'); return; }
+      // Stara gra (telewizor nie daje znaku życia od 10 min) – nie wracamy do niej.
+      const last = r && (r.alive || r.createdAt || 0);
+      const stale = !last || Date.now() - last > 10 * 60 * 1000;
+      if (!r || r.state === 'end' || !r.players || !r.players[uid] || stale) { localStorage.removeItem('ol_code'); return; }
       enter(want, r.players[uid].name);
     }).catch(() => {});
   }, [uid]);
@@ -131,6 +134,13 @@ export default function Graj() {
     return () => offs.forEach((o) => o());
   }, [code, uid]);
 
+  // Telewizor co 30 s daje znak życia (room.alive). Brak zmian przez 2 min = telewizor padł.
+  const aliveSeen = React.useRef({ v: null, at: Date.now() });
+  const [tick, setTick] = React.useState(0);
+  React.useEffect(() => { const i = setInterval(() => setTick((x) => x + 1), 15000); return () => clearInterval(i); }, []);
+  if (room && room.alive !== aliveSeen.current.v) aliveSeen.current = { v: room.alive, at: Date.now() };
+  const tvGone = !!(room && room.state !== 'end' && tick >= 0 && Date.now() - aliveSeen.current.at > 2 * 60 * 1000);
+
   // Obecność: telefon w tle albo chwilowy brak sieci nie wyrzuca z gry.
   // Po każdym powrocie połączenia gracz znów jest „w grze”.
   React.useEffect(() => {
@@ -176,7 +186,7 @@ export default function Graj() {
 
   return (
     <GrajView
-      room={room} me={uid} hand={hand} mySub={mySub} deck={deckAll} lang={lang} onLang={changeLang} onLeave={leave} onMine={() => setMineOpen(true)}
+      room={room} me={uid} hand={hand} mySub={mySub} deck={deckAll} lang={lang} onLang={changeLang} onLeave={leave} onMine={() => setMineOpen(true)} tvGone={tvGone}
       onPlay={(cards) => set(ref(db, 'subs/' + code + '/' + uid), { round: room.round, cards, at: Date.now() })}
       onPick={(k, fin) => set(ref(db, 'picks/' + code), k === '__vote' ? Object.assign({ round: room.round, vote: true, by: uid }, fin ? { finalists: fin } : {}) : { round: room.round, k, by: uid })}
       onVote={(k) => update(ref(db, 'rooms/' + code + '/players/' + uid), { vote: { round: room.round, k } })}
