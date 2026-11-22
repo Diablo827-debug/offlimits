@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Bez tabu (18+) · język: en · paczka 01 (karty 1–100 z 208)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - X-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+X-C001 | The real reason the priest bought a new Audi: ____.
+X-C002 | What does the priest say after the house blessing, once the door is closed?
+X-C003 | The government’s latest idea to boost the national mood: ____.
+X-C004 | What is the MP doing in parliament at 3 a.m.?
+X-C005 | Coming out at the Christmas Eve table in three words: ____.
+X-C006 | What did Grandma say when I brought my boyfriend to dinner?
+X-C007 | The campaign slogan that would win an election in Poland: ____.
+X-C008 | What’s really inside the envelope for the priest: ____.
+X-C009 | What really happens at the rectory after 10 p.m.?
+X-C010 | A new party platform that will reconcile everyone: ____.
+X-C011 | The worst thing you can tell a priest in confession is ____.
+X-C012 | What does Auntie say about “those gays” over cake?
+X-C013 | The main point of Uncle’s campaign for village mayor: ____.
+X-C014 | What’s on the menu in the parliament canteen next to the pork chop?
+X-C015 | The newest sin that wasn’t in the catechism: ____.
+X-C016 | What’s in the MP’s briefcase when he leaves parliament?
+X-C017 | A political fight at Christmas Eve dinner. Uncle says: ____. Auntie replies: ____.
+X-C018 | The real reason Grandpa doesn’t go to church: ____.
+X-C019 | What does the priest say about my family from the pulpit?
+X-C020 | The most Polish way to get things done at a government office: ____.
+X-C021 | My plan for Pride parades: ____.
+X-C022 | What did the Easter Bunny bring for the gays?
+X-C023 | The real purpose of Uncle’s pilgrimage: ____.
+X-C024 | What does the mother-in-law say when she finds out her son has a husband?
+X-C025 | A new law that passed overnight without anyone reading it: ____.
+X-C026 | What was found in the closet I came out of?
+X-C027 | The priest after the house blessing. In the envelope: ____. In the fridge: ____.
+X-C028 | The town council’s most expensive investment this year: ____.
+X-C029 | What does the congresswoman keep in her handbag just in case?
+X-C030 | A new sacrament the Church will introduce: ____.
+X-C031 | The real cause of the crisis in the ruling party: ____.
+X-C032 | What does the minister do when nobody’s watching?
+X-C033 | The Polish way of discussing politics: ____.
+X-C034 | What does Uncle say when there’s a Pride parade on TV?
+X-C035 | My rainbow plan for Saturday: ____.
+X-C036 | What does the priest collect on the offering plate instead of money?
+X-C037 | The prime minister’s first words after winning the election: ____.
+X-C038 | What scares the religion teacher the most?
+X-C039 | A gay wedding in a Polish village. Music: ____. Guest of honor: ____.
+X-C040 | The best excuse to skip Midnight Mass: ____.
+X-C041 | What’s on public TV at 8 p.m.?
+X-C042 | The real secret of the confessional: ____.
+X-C043 | How the opposition plans to win the next election: ____.
+X-C044 | What does the parish priest say when he sees an empty collection plate?
+X-C045 | The most overrated thing in the Church is ____.
+X-C046 | The most overrated thing in politics is ____.
+X-C047 | What does a city councillor get for thirty years of service?
+X-C048 | My reaction when Auntie asks if I have a girlfriend yet: ____.
+X-C049 | A new political party. Leader: ____. Main demand: ____.
+X-C050 | What does the parish priest keep in the garage next to the Audi?
+X-C051 | The best name-day present for a priest: ____.
+X-C052 | The real reason MPs get such long holidays: ____.
+X-C053 | What do gays do on Sunday while straight people are at church?
+X-C054 | The gayest thing in my apartment is ____.
+X-C055 | A new commandment I’d add to the Ten: ____.
+X-C056 | What’s in the state budget under “other”?
+X-C057 | Pre-election debate. Question: ____. The candidate’s answer: ____.
+X-C058 | What does the priest say when we want to get married in shorts?
+X-C059 | The worst topic on a date with an MP: ____.
+X-C060 | The real cause of inflation according to Uncle: ____.
+X-C061 | What does a nun do in her free time?
+X-C062 | The hit of this year’s march in the capital: ____.
+X-C063 | What did Mom tell the neighbors before she found out I was gay?
+X-C064 | What does Mom tell the neighbors now?
+X-C065 | Family Christmas Eve. Forbidden topic number one: ____. Forbidden topic number two: ____.
+X-C066 | The real ingredients of holy water: ____.
+X-C067 | What did the MP write in his asset declaration?
+X-C068 | The best way to annoy the whole family in one sentence: ____.
+X-C069 | A new attraction at the parish fair: ____.
+X-C070 | What’s in the benefits package for politicians?
+X-C071 | The first thing I’ll do as president: ____.
+X-C072 | What do the neighbors say about the two guys on the third floor?
+X-C073 | Parish announcements. First: ____. Second: ____.
+X-C074 | The real reason the priest doesn’t settle down with anyone: ____.
+X-C075 | MPs’ favorite sport: ____.
+X-C076 | The most Polish holiday tradition is ____.
+X-C077 | What is the ministry hiding in its secret report?
+X-C078 | The only thing the right and the left have in common: ____.
+X-C079 | What does Grandpa shout at the TV during the news?
+X-C080 | Pre-marriage talk with the priest. What the priest asks about: ____. My answer: ____.
+X-C081 | My argument in a political fight over vodka: ____.
+X-C082 | What does a Pole do when his party loses?
+X-C083 | The most controversial present under the Christmas tree: ____.
+X-C084 | A new national holiday I’d propose: ____.
+X-C085 | What does Auntie keep in the closet next to her rosary?
+X-C086 | The real reason for the bishop’s visit to our parish: ____.
+X-C087 | My reaction to a sermon about family: ____.
+X-C088 | The most honest campaign ad: ____.
+X-C089 | What does the health minister recommend for everything?
+X-C090 | A rainbow family in a photo. Dad number one: ____. Dad number two: ____.
+X-C091 | What does the priest say when he thinks the microphone is off?
+X-C092 | The worst moment to come out: ____.
+X-C093 | The best moment to come out: ____.
+X-C094 | The real cause of the long waiting lists for doctors: ____.
+X-C095 | What do politicians promise before elections and never do?
+X-C096 | My boyfriend meets the family. Grandma: ____. Grandpa: ____.
+X-C097 | The party’s plan for the new term: ____ for everyone and ____ for the chosen few.
+X-C098 | A Mass said for the family. The intention: ____. The result: ____.
+X-C099 | Local elections. Candidate: ____. Promise: ____.
+X-C100 | My life as a gay man in a small town. Pros: ____. Cons: ____.

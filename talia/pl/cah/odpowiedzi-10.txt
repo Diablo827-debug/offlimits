@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Cards Against Humanity (CC BY-NC-SA) · język: pl · paczka 10 (karty 1801–2000 z 2042)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - C-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+C-B00455 | Dziesięciu piłkarzy z erekcją, którzy pędzą na ciebie z pełną prędkością.
+C-B00457 | Dziesięć tysięcy piszczących nastolatek.
+C-B00474 | Wielki talerz fettuccine alfredo.
+C-B00475 | Wielkie, piękne usta pełne lśniąco białych zębów.
+C-B00482 | Czarnoskóry przyjaciel.
+C-B00508 | Radosność, która skrywa głęboko zakorzenioną nienawiść do siebie.
+C-B00512 | Zimny i obojętny wszechświat.
+C-B00522 | Stworzenie z penisów, które musi się ciągle podniecać, żeby przeżyć.
+C-B00523 | Upiorne dziecko śpiewające rymowankę.
+C-B00532 | Delfin, który nauczył się mówić i został dziekanem wydziału prawa.
+C-B00534 | Torba pełna jaszczurek.
+C-B00540 | Palec w tyłku.
+C-B00549 | Genetyczna skłonność do alkoholizmu.
+C-B00555 | Przełomowa nowa technika masturbacji.
+C-B00558 | Pistolet, który strzela kobrami.
+C-B00563 | Przytulas.
+C-B00577 | Długie zebranie bez żadnego celu.
+C-B00581 | Facet w garniturze z idealną fryzurą, który mówi ci piękne kłamstwa.
+C-B00584 | Facet z głową kozy i ciałem kozy.
+C-B00589 | Średnia horchata.
+C-B00597 | Negatywny obraz własnego ciała, całkowicie uzasadniony.
+C-B00642 | Powoli zaciskający się krąg wilków.
+C-B00651 | Silny koń i racje żywnościowe na trzydzieści dni.
+C-B00659 | Malutki strażak, który gasi malutkie pożary.
+C-B00673 | Dziwny typ, który mówi dziwne rzeczy i mnie dziwi.
+C-B00682 | Kobiecy punkt widzenia.
+C-B00683 | Prawo kobiety do wyboru.
+C-B00709 | Wszyscy ludzie, których zabiłem.
+C-B00725 | Układ, w którym daję komuś pieniądze, a ta osoba uprawia ze mną seks.
+C-B00736 | Nieuleczalny homoseksualista.
+C-B00738 | Stary pies, który szoruje tyłkiem po podłodze.
+C-B00739 | Stary pies pełen guzów.
+C-B00740 | Starszy mężczyzna.
+C-B00752 | Anal.
+C-B00758 | Antydepresanty.
+C-B00767 | Sztuka.
+C-B00778 | Dbałość o szczegóły i doprowadzanie spraw do końca.
+C-B00782 | Złe emocje, których nie chcę.
+C-B00794 | Zostanie prezydentem.
+C-B00829 | Zamienienie w kiełbaski.
+C-B00831 | Bycie bardzo bogatym i niesamowicie głupim.
+C-B00835 | Beyoncé.
+C-B00844 | Wielcy, mądrzy chłopcy od pieniędzy, stukający w klawiatury.
+C-B00857 | Rozkwitanie w piękną młodą kobietę.
+C-B00874 | Karmienie piersią w miejscu publicznym jak promienna bogini ziemi.
+C-B00875 | Brett Kavanaugh.
+C-B00878 | Brunch.
+C-B00901 | Złapanie żywego łososia ustami.
+C-B00910 | Chiny.
+C-B00913 | Chipotle.
+C-B00916 | Chris Hemsworth.
+C-B00932 | Kompleksowa reforma imigracyjna.
+C-B00933 | Condoleezza Rice.
+C-B00936 | Konsekwencje.
+C-B00937 | Kontent.
+C-B00949 | Szalone orgazmy analne.
+C-B00951 | Kremowe plasterki prawdziwego awokado.
+C-B00954 | Krytyczne myślenie.
+C-B00958 | Miażdżenie patriarchatu.
+C-B00981 | Pokonanie goryla w pojedynku.
+C-B00998 | Ta suka.
+C-B01008 | Fikołek i rzyganie.
+C-B01032 | Padnięcie trupem w toalecie pizzerii i leżenie tam 72 godziny.
+C-B01034 | Sok spod kontenera na śmieci.
+C-B01038 | Lizanie tyłka.
+C-B01040 | Jedzenie ludzi.
+C-B01044 | Zjedzenie za dużo cynamonek, wyrzyganie ich i zjedzenie wymiocin.
+C-B01062 | Esmeralda, moja najpiękniejsza córka.
+C-B01063 | Wieczne, wrzeszczące szaleństwo.
+C-B01064 | Największa męska fantazja: idealnie cylindryczna pochwa.
+C-B01066 | Wszystko.
+C-B01073 | Odkrywanie nawzajem swoich dziurek.
+C-B01075 | Ułatwianie dialogu i dekonstruowanie binarności.
+C-B01079 | Wpadnięcie do dołu pełnego gofrów.
+C-B01081 | Wypierdzenie wielkiej kupy z cipki.
+C-B01082 | Pierdzenie mi w twarz twoją ciasną dziurką.
+C-B01089 | Odczuwanie emocji gniewu.
+C-B01090 | Feminizm.
+C-B01098 | Role filmowe dla aktorek po czterdziestce.
+C-B01114 | Czterdzieści pięć minut palcówki.
+C-B01116 | Założenie wielkiej religii światowej.
+C-B01125 | Porządne przelecenie mnie i zabranie na owoce morza.
+C-B01129 | Przelecenie mojego terapeuty.
+C-B01134 | Mietek.
+C-B01139 | Gejowskie myśli.
+C-B01141 | Grażyna z kadr.
+C-B01142 | Gazpacho.
+C-B01156 | Dostanie w twarz z armatki na koszulki.
+C-B01174 | Jaranie z mamą.
+C-B01178 | Zostanie zabitym i wciągniętym na drzewo przez lamparta.
+C-B01179 | Bzykanie się praktycznie cały czas.
+C-B01182 | Rozebranie się za wcześnie.
+C-B01185 | Pegging.
+C-B01194 | Wydłubywanie okruchów Doritosów z włosów łonowych.
+C-B01196 | Rozkręcanie imprezy!
+C-B01197 | Utknięcie w rozmowie o Ayn Rand.
+C-B01213 | Chodzenie i wyciąganie ludziom tamponów.
+C-B01223 | Pójście spać o rozsądnej porze.
+C-B01234 | Gregor, mój największy syn.
+C-B01239 | Stękanie przez dziesięć minut i sikanie piaskiem.
+C-B01240 | Broń.
+C-B01243 | Szczęśliwi tatusiowie w szczęśliwych sandałach.
+C-B01252 | Posiadanie pochwy.
+C-B01261 | Seks z piękną osobą.
+C-B01277 | Wyznawanie poprawnych poglądów politycznych swoich czasów, żeby znaleźć partnera.
+C-B01279 | Praca domowa.
+C-B01288 | Ciepła sałata.
+C-B01291 | Jak dobrze smakuje farba ołowiowa.
+C-B01292 | Jak świetnie wygląda mój tyłek w tych dżinsach.
+C-B01297 | Jak dziwnie jest w ogóle czymkolwiek być.
+C-B01302 | Wielkie jaja pełne spermy.
+C-B01326 | ISIS.
+C-B01331 | Jasiek, nastoletni burmistrz.
+C-B01335 | Jeff Bezos.
+C-B01362 | Zaawansowana demencja.
+C-B01373 | Libertarianie.
+C-B01394 | Głośny, straszny grzmot.
+C-B01410 | Obściskiwanie się i takie tam.
+C-B01418 | Matma.
+C-B01424 | Pieczeń rzymska, ta do jedzenia.
+C-B01425 | Meat Loaf, ten piosenkarz.
+C-B01430 | Melanina.
+C-B01431 | Menopauza.
+C-B01432 | Choroba psychiczna.
+C-B01433 | Mikroagresje.
+C-B01438 | Mizoginia.
+C-B01446 | Mama i tata, którzy ciągle się kłócą.
+C-B01450 | Ludzie z Księżyca.
+C-B01457 | Wylizywanie cipki.
+C-B01462 | Przystojni kumple mojego brata.
+C-B01468 | Śmierć mojego psa.
+C-B01474 | Mój wielki penis i spory majątek.
+C-B01521 | Uprzedmiotawianie kobiet.
+C-B01526 | Jeden z tych „lodzików”, o których tyle słyszałem.
+C-B01531 | Cebula.
+C-B01533 | Otwierasz usta, żeby coś powiedzieć, a tu wypada wielki penis.
+C-B01537 | Nasze dziecko.
+C-B01546 | Obalenie demokratycznie wybranego rządu Chile.
+C-B01554 | Uczestnictwo.
+C-B01564 | Kupy okresowe.
+C-B01567 | Podniesienie szklanki wody, upicie łyka i bycie prezydentem.
+C-B01572 | Granie na mojej dziurce jak na trąbce.
+C-B01574 | Oranie tego tyłka jak rolnik pole kukurydzy.
+C-B01575 | Poprawność polityczna.
+C-B01577 | Zrobienie kupy w trykot i nadzieja, że nikt nie zauważy.
+C-B01578 | Zrobienie kupy do nocnika.
+C-B01584 | Przedwczesny wytrysk jak totalny frajer.
+C-B01588 | Udawanie jednego z chłopaków, a tak naprawdę bycie bogiem pająków.
+C-B01612 | Kwakanie jak kaczka zamiast rzeczowego argumentu.
+C-B01619 | Komosa ryżowa.
+C-B01625 | Wychowywanie trójki dzieci za płacę minimalną.
+C-B01626 | Wiek, w którym chipsy paprykowe są lepsze niż seks.
+C-B01634 | Zwrócenie na wpół strawionego wróbla.
+C-B01656 | Twarde jak kamień cycki i wielka pochwa.
+C-B01659 | Mocna faza po tabletce.
+C-B01673 | Wieczór salsy w barze u Darka.
+C-B01688 | Nożyczki, jeśli to w ogóle istnieje.
+C-B01696 | Przejęcie kontroli nad środkami produkcji.
+C-B01719 | Sranie mi na cycki.
+C-B01727 | Wychwalanie szpetnych córek sułtana.
+C-B01728 | Pokazywanie cipki wszystkim chłopakom.
+C-B01746 | Walnięcie się w jaja w chwili szczytowania.
+C-B01762 | Trochę tego dobrego kutasa.
+C-B01764 | Naprawdę ostre krewetki.
+C-B01802 | Jaranie non stop 24/7.
+C-B01811 | Ssanie sobie nawzajem penisów godzinami.
+C-B01814 | Nagły i niechciany slam poetycki.
+C-B01830 | Systemy i zasady stworzone, by utrzymać wielowiekowe struktury władzy.
+C-B01831 | Stoły.
+C-B01836 | Przybranie postaci sokoła.
+C-B01839 | Delikatne kawałki białego mięsa z kurczaka.
+C-B01846 | Kurczak z KFC.
+C-B01853 | Ile małych marchewek zmieszczę w tyłku.
+C-B01863 | Najlepsze, najgłębsze cytaty z „Mrocznego Rycerza”.
+C-B01868 | Ciało 46-letniego faceta.
+C-B01875 | Kościół Jezusa Chrystusa Świętych w Dniach Ostatnich.
+C-B01899 | Strach i nienawiść w ludzkich sercach.
+C-B01900 | Uczucie, gdy jako sześciolatek idziesz do McDonalda.
+C-B01901 | Płonący wrak Międzynarodowej Stacji Kosmicznej.
+C-B01905 | Pełna potęga amerykańskiej armii.
+C-B01906 | Totalna marginalizacja brzydkich ludzi.
+C-B01909 | Rząd.
+C-B01910 | Wdzięczny lot jesiennego liścia, opadającego do swej ziemnej kołyski.
+C-B01922 | Najgorętsza mamuśka w Radomiu.
+C-B01935 | Społeczność LGBT.
+C-B01948 | Tajemnicza mgła spowijająca miasteczko.
+C-B01976 | Sekret naprawdę odpornych włosów.
+C-B01985 | Słodkie, zakazane mięso małpy.
+C-B02002 | Wiatr.
+C-B02009 | Grube zdziry.
+C-B02010 | Rozmyślanie, czym w ogóle jest jedzenie.
+C-B02020 | Trzy godziny nieustannej penetracji.
+C-B02032 | Malutkie, zjełczałe bąki dziewczynki.
+C-B02047 | Drzewa.
+C-B02048 | Trevor, najlepszy chłopak na świecie.
+C-B02053 | Skończenie 32 lat.
+C-B02060 | Skręcenie kutasa i jaj w balonowego pudla.
+C-B02061 | Dwie piękne świnki siostry.
+C-B02064 | Dwoje gównianych dzieci i beznadziejny mąż.
+C-B02089 | Obudzenie się w środku tornada.

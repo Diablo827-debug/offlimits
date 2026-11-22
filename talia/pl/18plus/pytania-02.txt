@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Bez tabu (18+) · język: pl · paczka 02 (karty 101–200 z 208)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - X-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+X-C101 | Spowiedź po latach. Grzech pierwszy: ____. Grzech drugi: ____.
+X-C102 | Wywiad z posłem. Pytanie dziennikarza: ____. Odpowiedź posła: ____.
+X-C103 | Kolęda u wujka. Ksiądz widzi: ____. Wujek tłumaczy: ____.
+X-C104 | Polska scena polityczna w dwóch słowach: ____ i ____.
+X-C105 | Wesele kuzyna. Ksiądz na sali: ____. Ja na sali: ____.
+X-C106 | Nowa telewizja publiczna. Prezenter: ____. Program dnia: ____.
+X-C107 | Ministerstwo do spraw rodziny zaleca: ____ rano i ____ wieczorem.
+X-C108 | Przepis na udaną wigilię z rodziną o różnych poglądach: ____ i ____.
+X-C109 | Mój pierwszy raz w klubie dla gejów. Spodziewałem się: ____. Zastałem: ____.
+X-C110 | Kazanie na niedzielę. Temat: ____. Morał: ____.
+X-C111 | Afera w Sejmie. Winny: ____. Wymówka: ____.
+X-C112 | Rodzinne zdjęcie z komunii. Na pierwszym planie: ____. W tle: ____.
+X-C113 | Mój protest pod Sejmem. Transparent: ____. Okrzyk: ____.
+X-C114 | Plan na Boże Ciało: procesja i ____, a wieczorem ____.
+X-C115 | Nowa kampania społeczna. Hasło: ____. Twarz kampanii: ____.
+X-C116 | Coming out przed dziadkiem. Ja: ____. Dziadek: ____.
+X-C117 | Budżet państwa. Na zdrowie: ____. Na posłów: ____.
+X-C118 | Polski rachunek sumienia: ____, ____ i lenistwo.
+X-C119 | Wizyta duszpasterska. Ksiądz pyta: ____. Kot odpowiada: ____.
+X-C120 | Co ksiądz ma w bagażniku?
+X-C121 | Najlepsza przykrywka dla romansu posła: ____.
+X-C122 | Prawdziwe przesłanie mojej tęczowej skarpety: ____.
+X-C123 | Co Polacy kochają bardziej niż Boga?
+X-C124 | Najczęstszy grzech w naszej rodzinie: ____.
+X-C125 | Nowy program telewizyjny o polityce: ____.
+X-C126 | Co mówi ksiądz na pogrzebie, gdy nie znał zmarłego?
+X-C127 | Mój sposób na rozmowę z wujkiem o polityce: ____.
+X-C128 | Co robi rodzina, kiedy dowiaduje się, że jestem gejem?
+X-C129 | Pierwsza rzecz, jaką zrobi nowy rząd: ____.
+X-C130 | Ostatnia rzecz, jaką zrobi stary rząd: ____.
+X-C131 | Co spędza sen z powiek posłom?
+X-C132 | Prawdziwa zawartość kropielnicy: ____.
+X-C133 | Co mówi ciocia, kiedy widzi dwóch panów trzymających się za ręce?
+X-C134 | Najlepsza riposta na pytanie „a kiedy ślub?” od geja: ____.
+X-C135 | Prawdziwy powód, dla którego Polacy kłócą się o politykę: ____.
+X-C136 | Co minister finansów ma w portfelu?
+X-C137 | Kościelna nowość roku: ____.
+X-C138 | Co poseł mówi żonie po powrocie z delegacji?
+X-C139 | Najlepszy sposób na przetrwanie rekolekcji: ____.
+X-C140 | Mój rodzinny sposób na ciszę wyborczą: ____.
+X-C141 | Co robią księża na wakacjach?
+X-C142 | Najbardziej gejowski prezent świąteczny: ____.
+X-C143 | Hasło na koszulce, z którą idę na rodzinny obiad: ____.
+X-C144 | Najbardziej polskie słowo roku: ____.
+X-C145 | Co babcia mówi o rządzie przy każdej zupie?
+X-C146 | Prawdziwa przyczyna dziury budżetowej: ____.
+X-C147 | Co robi ksiądz, kiedy skończy się wino mszalne?
+X-C148 | Nowa dyscyplina sportowa w Sejmie: ____.
+X-C149 | Moja reakcja, gdy ksiądz pyta, czy żyję w grzechu: ____.
+X-C150 | Co znajdę w historii wyszukiwania posła?
+X-C151 | Najbardziej kontrowersyjny temat na komunii: ____.
+X-C152 | Prawdziwa twarz polskiej polityki: ____.
+X-C153 | Co robią geje w sobotę wieczorem według wujka?
+X-C154 | Prawdziwy cel wizyty misjonarzy pod blokiem: ____.
+X-C155 | Co mówi tata, kiedy oglądamy razem debatę?
+X-C156 | Najlepsza obietnica wyborcza wszech czasów: ____.
+X-C157 | Co dzieje się na synodzie po godzinach?
+X-C158 | Najlepsza wymówka, żeby nie iść na wybory: ____.
+X-C159 | Prawdziwy powód, dla którego biskup ma dwa samochody: ____.
+X-C160 | Co mama ukrywa przed proboszczem?
+X-C161 | Prawdziwy temat rodzinnej kłótni na Wielkanoc: ____.
+X-C162 | Co robi radny, kiedy nikt nie dzwoni?
+X-C163 | Najbardziej gejowski film, jaki oglądał dziadek, to ____.
+X-C164 | Moja recepta na pokój w polskiej rodzinie: ____.
+X-C165 | Co ksiądz mówi o sąsiadach z ambony, nie wymieniając nazwisk?
+X-C166 | Najbardziej przereklamowany cud to ____.
+X-C167 | Mój głos w wyborach trafia na ____.
+X-C168 | Nowy zakaz, który wprowadzi rząd: ____.
+X-C169 | Co politycy robią z pieniędzmi z podatków?
+X-C170 | Co ciocia wypłakuje przed obrazem świętego?
+X-C171 | Najbardziej zaskakujący gość na wiejskim weselu to ____.
+X-C172 | Prawdziwy powód, dla którego gej nie chodzi na siłownię: ____.
+X-C173 | Prawdziwy powód, dla którego gej chodzi na siłownię: ____.
+X-C174 | Co posłowie robią w sejmowej łazience?
+X-C175 | Najgorsza rzecz do powiedzenia na pogrzebie wujka-działacza: ____.
+X-C176 | Co mówi parafia, kiedy kościół potrzebuje nowego dachu?
+X-C177 | Nowy patron Polski: ____.
+X-C178 | Moja rodzinna tajemnica, o której wie cała parafia: ____.
+X-C179 | Co kuria trzyma w sejfie?
+X-C180 | Co robią geje na emeryturze?
+X-C181 | Nowe przykazanie numer jedenaście: ____. Kara za złamanie: ____.
+X-C182 | Program wyborczy na kartce z zeszytu. Punkt pierwszy: ____. Punkt drugi: ____.
+X-C183 | Rodzinny obiad w niedzielę. Temat numer jeden: ____. Temat zakazany: ____.
+X-C184 | Babcia przy różańcu modli się o ____ i o ____.
+X-C185 | Kazanie na dożynkach. Najpierw o chlebie, a potem o ____ i ____.
+X-C186 | Moje wesele z mężem. Pierwszy taniec: ____. Prezent od cioci: ____.
+X-C187 | Wywiad w telewizji śniadaniowej. Pytanie: ____. Odpowiedź posła: ____.
+X-C188 | Debata kandydatów na prezydenta. Obietnica numer jeden: ____. Prawdziwy plan: ____.
+X-C189 | Kolęda w naszym domu. Ksiądz widzi ____ i od razu pyta o ____.
+X-C190 | Mama tłumaczy sąsiadce mój związek: ____. Sąsiadka odpowiada: ____.
+X-C191 | Wujek po trzecim kieliszku wyznaje: ____. Ciocia krzyczy: ____.
+X-C192 | Nowy podatek od ____. Pieniądze pójdą na ____.
+X-C193 | Moja spowiedź w jednym zdaniu: ____. Pokuta: ____.
+X-C194 | Co jest w kopercie, którą dziadek daje księdzu co roku?
+X-C195 | Co ciocia trzyma w torebce na wypadek spotkania geja?
+X-C196 | Co usłyszy pierwszy gejowski prezydent Polski w Sejmie?
+X-C197 | Co wujek zrobi, jeśli wygra partia, której nie znosi?
+X-C198 | Co robi anioł stróż, kiedy idę na imprezę?
+X-C199 | Co ksiądz ogląda wieczorem na plebanii?
+X-C200 | Najbardziej polska rzecz, jaką zrobiłem na zagranicznym weselu, to ____.

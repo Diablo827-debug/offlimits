@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Rodzinny (dla wszystkich) · język: en · paczka 02 (karty 101–200 z 560)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-C101 | Dad’s idea for remodeling the bathroom: ____.
+R-C102 | What do you do when the power goes out?
+R-C103 | The only thing Dad can cook: ____.
+R-C104 | A bored uncle’s favorite activity: ____.
+R-C105 | New family movie. The hero: ____. The villain: ____.
+R-C106 | Our dog’s favorite sport: ____.
+R-C107 | What did I see on the school trip?
+R-C108 | The best argument in a fight over the remote: ____.
+R-C109 | Instead of a cake at my cousin’s wedding: ____.
+R-C110 | What will the teacher do when she sees my essay?
+R-C111 | The most family thing in the world is ____.
+R-C112 | My dream job is ____.
+R-C113 | The worst place for my parents’ date night: ____.
+R-C114 | What should you take to a desert island?
+R-C115 | What can’t money buy?
+R-C116 | This year’s Children’s Day hit: ____.
+R-C117 | My recipe for happiness: ____ plus ____.
+R-C118 | A new way to wake up on a Monday: ____.
+R-C119 | What does Grandma do on Facebook?
+R-C120 | The worst thing to take camping: ____.
+R-C121 | The best sports team in our family’s history: ____.
+R-C122 | What’s growing in the neighbor’s garden?
+R-C123 | The most common cause of family squabbles: ____.
+R-C124 | Today’s headline in the local paper: ____.
+R-C125 | What’s in the drawer that nobody ever opens?
+R-C126 | Dad’s favorite TV show is ____.
+R-C127 | The worst moment to sneeze is ____.
+R-C128 | What should you never say at the supermarket checkout?
+R-C129 | Family world record: ____.
+R-C130 | The real reason the dog barks at the mailman: ____.
+R-C131 | What haunts the basement?
+R-C132 | The longest line I’ve ever stood in was ____.
+R-C133 | For Christmas I dream of two things: ____ and ____.
+R-C134 | What’s the hardest part of being a parent?
+R-C135 | Man’s best friend is ____.
+R-C136 | Our family anthem: ____.
+R-C137 | What’s going on in the bathroom when it’s been locked for an hour?
+R-C138 | The only thing that calms Grandma down: ____.
+R-C139 | The newest teen trend: ____.
+R-C140 | What did Grandpa teach me?
+R-C141 | The staple of a student diet: ____.
+R-C142 | The scariest sound in the night is ____.
+R-C143 | What does Uncle call “a light meal”?
+R-C144 | The best kitchen duo: ____ and ____.
+R-C145 | What holds this family together?
+R-C146 | The first thing I do when I get home from school: ____.
+R-C147 | A riddle not even Grandpa could solve: ____.
+R-C148 | What’s always left over after a birthday party?
+R-C149 | The most embarrassing thing my parents ever did: ____.
+R-C150 | The best hiding spot for hide-and-seek: ____.
+R-C151 | What does the GPS say when it gives up?
+R-C152 | This year’s winter break challenge: ____.
+R-C153 | What happened at last Christmas Eve dinner?
+R-C154 | My secret skill is ____.
+R-C155 | This year’s most popular dog name: ____.
+R-C156 | What is every hotel missing?
+R-C157 | The main cause of traffic jams in town: ____.
+R-C158 | A child asks: “What’s better, ____ or ____?”
+R-C159 | The newest member of our family is ____.
+R-C160 | What does every preschooler have in their pockets?
+R-C161 | The worst thing to find in your soup: ____.
+R-C162 | What does Mom always keep in the car?
+R-C163 | Plan B for a broken Christmas tree: ____.
+R-C164 | Dad’s favorite color is ____.
+R-C165 | What ruins every beach vacation?
+R-C166 | Our family’s way of resolving conflicts: ____.
+R-C167 | The best sound in the world is ____.
+R-C168 | What’s inside a teddy bear?
+R-C169 | My motivation to get out of bed: ____.
+R-C170 | Grandma’s recipe. Ingredient one: ____. Secret ingredient: ____.
+R-C171 | What awaits us next year?
+R-C172 | A new New Year’s Eve tradition: ____.
+R-C173 | What does nobody want for their birthday?
+R-C174 | The star of the school play: ____.
+R-C175 | The weirdest thing in Uncle’s closet is ____.
+R-C176 | What does a fish say when nobody’s listening?
+R-C177 | The best reward for a good report card: ____.
+R-C178 | What does the robot vacuum do when we’re out?
+R-C179 | Our Wi-Fi password is: ____.
+R-C180 | Grandpa’s most famous invention: ____.
+R-C181 | What does Grandma say about my trousers?
+R-C182 | If our family were a rock band, the singer would be ____ and the drummer ____.
+R-C183 | The worst homework assignment in history: ____.
+R-C184 | What falls into the toilet most often?
+R-C185 | The best fun for a rainy day: ____.
+R-C186 | The king of the playground is ____.
+R-C187 | What’s been hiding in the freezer since 2015?
+R-C188 | The dream 18th birthday present: ____.
+R-C189 | What does the cat do at 4 a.m.?
+R-C190 | My greatest success is ____.
+R-C191 | The most common word in our house: ____.
+R-C192 | What does no teacher like?
+R-C193 | The favorite snack during a match: ____.
+R-C194 | Family trip. Destination: ____. Main attraction: ____.
+R-C195 | What does Dad always lose?
+R-C196 | The greatest enemy of family dinner is ____.
+R-C197 | What does Grandma keep in jars besides pickles?
+R-C198 | The best thing about being a kid is ____.
+R-C199 | The best thing about being an adult is ____.
+R-C200 | What does Uncle do on Christmas Eve after dinner?

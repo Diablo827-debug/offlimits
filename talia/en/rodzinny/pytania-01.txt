@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Rodzinny (dla wszystkich) · język: en · paczka 01 (karty 1–100 z 560)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-C001 | What does Grandma keep in the wardrobe “for a rainy day”?
+R-C002 | The worst Christmas present is ____.
+R-C003 | Back in Dad’s day, everything was handled like this: ____.
+R-C004 | What does the cat really do when nobody’s home?
+R-C005 | Our family’s newest tradition: ____.
+R-C006 | The secret ingredient in Auntie’s stew is ____.
+R-C007 | What gets you kicked out of the family group chat?
+R-C008 | The perfect weekend plan is ____.
+R-C009 | Why is Uncle always the last to leave the wedding?
+R-C010 | What is the neighbor doing in the garage at 3 a.m.?
+R-C011 | This year’s barbecue hit: ____.
+R-C012 | The First Communion gift nobody talks about: ____.
+R-C013 | Holiday survival guide, rule number one: ____.
+R-C014 | What does Mom say when she thinks nobody can hear?
+R-C015 | Humanity’s greatest invention is ____.
+R-C016 | A superpower nobody wants: ____.
+R-C017 | This Christmas Eve, instead of fish, we’re having ____.
+R-C018 | The reason I’m late: ____.
+R-C019 | Recipe for a great vacation: ____ and ____.
+R-C020 | New TV game show: “____ versus ____”.
+R-C021 | What is Grandpa hiding in the basement?
+R-C022 | The worst topic at Sunday dinner is ____.
+R-C023 | What should never go in the microwave?
+R-C024 | New Olympic sport: ____.
+R-C025 | What does Grandma think is the biggest threat to young people?
+R-C026 | The main attraction at this year’s birthday party: ____.
+R-C027 | If our dog could talk, its first words would be: ____.
+R-C028 | The real reason Dad won’t ask for directions: ____.
+R-C029 | What always goes missing when you move house?
+R-C030 | The weirdest thing in the fridge is ____.
+R-C031 | In the background of every family photo: ____.
+R-C032 | What do kids learn in first grade that adults still can’t do?
+R-C033 | Forbidden topic at the wedding: ____.
+R-C034 | Mom’s secret weapon against a messy room: ____.
+R-C035 | What did Uncle bring back from the seaside?
+R-C036 | New potato chip flavor: ____.
+R-C037 | Grandpa’s favorite Sunday pastime: ____.
+R-C038 | The best excuse to get out of doing the dishes: ____.
+R-C039 | What did I find under the couch after years?
+R-C040 | In our house there’s always ____.
+R-C041 | Grandma swears the best cure for any illness is ____.
+R-C042 | New compulsory school subject: ____.
+R-C043 | What does Auntie always bring to name-day parties?
+R-C044 | If Santa got fed up, his replacement would be ____.
+R-C045 | The most overrated thing in the world is ____.
+R-C046 | What scares me more than spiders?
+R-C047 | The best gift for your mother-in-law is ____.
+R-C048 | A gift from the Easter Bunny: ____.
+R-C049 | What do parents do when the kids are at summer camp?
+R-C050 | The last thing you want to hear from a mechanic: ____.
+R-C051 | My superpower is ____.
+R-C052 | What does the cat love knocking off the table most?
+R-C053 | Our family cure for a runny nose: ____.
+R-C054 | The motto of our vacation: ____.
+R-C055 | What does Dad do when nobody’s watching the grill?
+R-C056 | The worst toy for a three-year-old: ____.
+R-C057 | Our family’s famous dish: ____.
+R-C058 | What does Grandma watch on TV with flushed cheeks?
+R-C059 | Our town’s top tourist attraction: ____.
+R-C060 | Plan for Saturday: in the morning ____, in the evening ____.
+R-C061 | What do you never say in front of Uncle?
+R-C062 | The first thing I’ll do after winning the lottery: ____.
+R-C063 | What happens to the other sock?
+R-C064 | The saddest sight in the fridge is ____.
+R-C065 | What lives in the cupboard under the stairs?
+R-C066 | Topic of the parent-teacher meeting: ____.
+R-C067 | Our hamster’s favorite activity: ____.
+R-C068 | The star of this year’s wedding: ____.
+R-C069 | What gets Grandpa telling stories from his youth?
+R-C070 | The neighbor’s latest purchase: ____.
+R-C071 | An invention that will make parents’ lives easier: ____.
+R-C072 | What’s in the mysterious box in the attic?
+R-C073 | Grand prize in the school raffle: ____.
+R-C074 | What does every home need?
+R-C075 | My favorite part of the holidays is ____.
+R-C076 | The greatest couple of all time: ____ and ____.
+R-C077 | What’s really in the sausage?
+R-C078 | Step one to becoming a millionaire: ____.
+R-C079 | A must-pack item for summer camp: ____.
+R-C080 | The loudest sound in our house is ____.
+R-C081 | What is Dad searching for online at 2 a.m.?
+R-C082 | What do kids do in online class with the camera off?
+R-C083 | Great-grandpa’s secret to a long life: ____.
+R-C084 | New dish in the school cafeteria: ____.
+R-C085 | What always breaks during the summer holidays?
+R-C086 | The family talent show was won by ____.
+R-C087 | What sets us apart from the neighbors?
+R-C088 | My cousin’s greatest achievement is ____.
+R-C089 | The best cure for boredom on a car trip: ____.
+R-C090 | The topic of Grandma’s strangest phone call: ____.
+R-C091 | Mom’s choice: ____. Dad’s choice: ____.
+R-C092 | What must you never do in a library?
+R-C093 | The best thing to go with potatoes is ____.
+R-C094 | What happens if we interrupt Grandpa’s nap?
+R-C095 | My first car will be ____.
+R-C096 | At every family barbecue there’s always ____.
+R-C097 | What’s hiding in Mom’s handbag?
+R-C098 | The worst Father’s Day present: ____.
+R-C099 | The theme of my sister’s birthday party is ____.
+R-C100 | What did I learn from Grandpa’s encyclopedia?

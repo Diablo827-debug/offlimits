@@ -1,0 +1,70 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Rodzinny (dla wszystkich) · język: pl · paczka 06 (karty 501–560 z 560)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-C501 | Czego nauczyła mnie babcia?
+R-C502 | Co jest lepsze od wakacji?
+R-C503 | Rodzinny przepis na sukces: ____ plus ____.
+R-C504 | Nowy program kulinarny. Prowadzący: ____. Danie dnia: ____.
+R-C505 | Szkolny apel. Temat: ____. Gość specjalny: ____.
+R-C506 | Idealne wakacje. Miejsce: ____. Główna atrakcja: ____.
+R-C507 | Babcia ocenia: ____ dobre, ____ jeszcze lepsze.
+R-C508 | Rodzinny teleturniej. Pytanie za milion: ____. Odpowiedź: ____.
+R-C509 | Najnowszy wynalazek dziadka. Nazwa: ____. Efekt uboczny: ____.
+R-C510 | Plan na ferie. Poniedziałek: ____. Piątek: ____.
+R-C511 | Wycieczka klasowa. Cel: ____. Wspomnienie: ____.
+R-C512 | Nowy zwierzak w domu. Gatunek: ____. Imię: ____.
+R-C513 | Moja autobiografia. Tytuł: ____. Ostatni rozdział: ____.
+R-C514 | Zakupy na święta. Na liście: ____. W koszyku: ____.
+R-C515 | Rodzinny mecz. Kapitan: ____. Bramka zdobyta przez: ____.
+R-C516 | Wesele kuzynki. Pierwszy taniec: ____. Hit nocy: ____.
+R-C517 | Śniadanie mistrzów: ____ i ____.
+R-C518 | Nowa restauracja w mieście. Nazwa: ____. Specjalność: ____.
+R-C519 | Wieczór filmowy. Film: ____. Przekąska: ____.
+R-C520 | Szkolny dzień talentów. Występ: ____. Nagroda: ____.
+R-C521 | Rodzinny wynalazek. Problem: ____. Rozwiązanie: ____.
+R-C522 | Dziennik pokładowy wakacji. Dzień 1: ____. Dzień 7: ____.
+R-C523 | Tata w kuchni. Plan: ____. Wynik: ____.
+R-C524 | Mama na urlopie. Marzenie: ____. Rzeczywistość: ____.
+R-C525 | Zawody wędkarskie wujka. Przynęta: ____. Zdobycz: ____.
+R-C526 | Remont w domu. Projekt: ____. Efekt: ____.
+R-C527 | Moje dwa ulubione dźwięki: ____ i ____.
+R-C528 | Nowy komiks. Superbohater: ____. Pomocnik: ____.
+R-C529 | Ogłoszenie na klatce. Problem: ____. Podpisano: ____.
+R-C530 | Dzień Dziecka. Prezent: ____. Reakcja: ____.
+R-C531 | Biwak rodzinny. Namiot: ____. Kolacja przy ognisku: ____.
+R-C532 | Kolejka w sklepie. Przede mną: ____. Za mną: ____.
+R-C533 | Nowa bajka na dobranoc. Bohater: ____. Morał: ____.
+R-C534 | Pierwszy dzień w szkole. Plan: ____. Rzeczywistość: ____.
+R-C535 | Wakacje u babci. Śniadanie: ____. Kolacja: ____.
+R-C536 | Rodzinne wybory. Kandydat: ____. Hasło wyborcze: ____.
+R-C537 | Nowa zabawka roku. Nazwa: ____. Baterie: ____.
+R-C538 | Wyprawa w góry. Szczyt: ____. Nagroda na szczycie: ____.
+R-C539 | Szkolna wywiadówka. Pochwała: ____. Uwaga: ____.
+R-C540 | Rodzinny album. Najlepsze zdjęcie: ____. Najgorsze zdjęcie: ____.
+R-C541 | Nowy sklep w okolicy. W ofercie: ____. Promocja: ____.
+R-C542 | Moje życie w dwóch słowach: ____ i ____.
+R-C543 | Podróż samochodem. Muzyka: ____. Postój: ____.
+R-C544 | Rodzinne święto. Data: dziś. Powód: ____. Atrakcja: ____.
+R-C545 | Wizyta u dentysty. Spodziewałem się: ____. Dostałem: ____.
+R-C546 | Pies w roli głównej. Film: ____. Rola: ____.
+R-C547 | Przepis na bałwana: ____, ____ i marchewka.
+R-C548 | Rodzinne karaoke. Piosenka: ____. Wykonawca: ____.
+R-C549 | Gazetka szkolna. Nagłówek: ____. Zdjęcie: ____.
+R-C550 | Imieniny cioci. Prezent: ____. Mina cioci: ____.
+R-C551 | Prognoza pogody na jutro: rano ____, po południu ____.
+R-C552 | Spływ kajakowy. Kajak: ____. Załoga: ____.
+R-C553 | Muzeum naszej rodziny. Eksponat nr 1: ____. Eksponat nr 2: ____.
+R-C554 | Supermarket przyszłości. Kasjer: ____. Koszyk: ____.
+R-C555 | Zawody sportowe w szkole. Dyscyplina: ____. Zwycięzca: ____.
+R-C556 | Babcia i dziadek na wakacjach. Plan babci: ____. Plan dziadka: ____.
+R-C557 | Nowe święto narodowe. Nazwa: ____. Tradycja: ____.
+R-C558 | Lista rzeczy do zrobienia: ____, ____ i drzemka.
+R-C559 | Rodzinna sesja zdjęciowa. Stroje: ____. Tło: ____.
+R-C560 | Mój pokój za 10 lat: ____ i ____.

@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Rodzinny (dla wszystkich) · język: pl · paczka 02 (karty 201–400 z 1512)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-B0201 | Domofon, który nie działa.
+R-B0202 | Winda, która staje między piętrami.
+R-B0203 | Sąsiad z góry, który chyba ćwiczy step.
+R-B0204 | Piwnica pełna rupieci.
+R-B0205 | Strych pełen tajemnic.
+R-B0206 | Garaż, w którym nie ma miejsca na auto.
+R-B0207 | Wycieraczka z napisem „Witaj”.
+R-B0208 | Firanki babci.
+R-B0209 | Meblościanka z PRL-u.
+R-B0210 | Kryształowy wazon na meblościance.
+R-B0211 | Dywan na ścianie.
+R-B0212 | Kanapa przykryta folią.
+R-B0213 | Fotel taty, na którym nikt inny nie siada.
+R-B0214 | Telewizor kineskopowy w piwnicy.
+R-B0215 | Radio z anteną z wieszaka.
+R-B0216 | Magnetowid.
+R-B0217 | Kaseta przewinięta ołówkiem.
+R-B0218 | Płyta CD jako podkładka pod kubek.
+R-B0219 | Telefon stacjonarny babci.
+R-B0220 | Książka telefoniczna.
+R-B0221 | Kalendarz z 2019 roku.
+R-B0222 | Zegar z kukułką.
+R-B0223 | Budzik, który dzwoni o 5:30.
+R-B0224 | Lampka nocna w kształcie księżyca.
+R-B0225 | Koc z owczej wełny, który drapie.
+R-B0226 | Poduszka, na której śpi kot.
+R-B0227 | Kołdra, która nie chce wejść do poszewki.
+R-B0228 | Piżama w misie.
+R-B0229 | Kapcie z pomponami.
+R-B0230 | Szlafrok taty.
+R-B0231 | Kurtka, której nikt nie odbiera z szatni.
+R-B0232 | Parasol zostawiony w autobusie.
+R-B0233 | Rękawiczka bez pary.
+R-B0234 | Czapka z pomponem od babci.
+R-B0235 | Szalik dziergany przez ciocię.
+R-B0236 | Kalosze w kaczuszki.
+R-B0237 | Buty, które cisną.
+R-B0238 | Sznurówka, która ciągle się rozwiązuje.
+R-B0239 | Babcia, która wie wszystko o wszystkich.
+R-B0240 | Dziadek śpiący w fotelu z otwartymi ustami.
+R-B0241 | Mama w trybie „sprzątamy przed gośćmi”.
+R-B0242 | Tata czytający instrukcję dopiero po fakcie.
+R-B0243 | Młodszy brat z lepkimi rękami.
+R-B0244 | Starsza siostra w łazience od godziny.
+R-B0245 | Kuzynka, która wszystko nagrywa telefonem.
+R-B0246 | Ciocia, która płacze na każdym weselu.
+R-B0247 | Wujek opowiadający ten sam dowcip od 20 lat.
+R-B0248 | Pradziadek, który pamięta wojnę i Gierka.
+R-B0249 | Chrzestny z kopertą.
+R-B0250 | Chrzestna, która zawsze przywozi ciasto.
+R-B0251 | Teść, który wie, jak lepiej.
+R-B0252 | Szwagier z nowym samochodem.
+R-B0253 | Bratowa wegetarianka na świniobiciu.
+R-B0254 | Daleka rodzina, której nikt nie zna.
+R-B0255 | Kuzyn z Anglii, który zapomniał polskiego.
+R-B0256 | Rodzeństwo w wiecznej wojnie.
+R-B0257 | Bliźniaki, których nikt nie odróżnia.
+R-B0258 | Najmłodszy wnuk, któremu wszystko wolno.
+R-B0259 | Pierworodny z przywilejami.
+R-B0260 | Rodzinne drzewo genealogiczne narysowane kredkami.
+R-B0261 | Zjazd rodzinny na sto osób.
+R-B0262 | Rodzinny obiad w ciszy przerywanej mlaskaniem.
+R-B0263 | Wspólne zdjęcie, na którym ktoś zawsze mruga.
+R-B0264 | Rodzinny spór o spadek po kanapie.
+R-B0265 | Mama, która dzwoni 5 razy dziennie.
+R-B0266 | Tata, który odpisuje „OK.” z kropką.
+R-B0267 | Babcia, która wysyła łańcuszki.
+R-B0268 | Dziadek, który pisze SMS-y wielkimi literami.
+R-B0269 | Wujek, który komentuje wszystko na Facebooku.
+R-B0270 | Ciocia, która dzwoni na wideo z ucha.
+R-B0271 | Rodzinny kalendarz na lodówce.
+R-B0272 | Lista zakupów, której nikt nie bierze do sklepu.
+R-B0273 | Kartka „Wrócę za 5 minut”.
+R-B0274 | Notatka „Nie ruszać!” na jedzeniu w lodówce.
+R-B0275 | Kieszonkowe wypłacane w drobnych.
+R-B0276 | Skarbonka w kształcie świnki.
+R-B0277 | Moneta znaleziona w kanapie.
+R-B0278 | Kupon na darmową kawę, który wygasł wczoraj.
+R-B0279 | Paragon długi jak rolka papieru.
+R-B0280 | Promocja „drugi gratis”.
+R-B0281 | Wózek sklepowy z krzywym kółkiem.
+R-B0282 | Kolejka do jednej czynnej kasy.
+R-B0283 | Kasa samoobsługowa, która woła obsługę.
+R-B0284 | Gazetka promocyjna babci.
+R-B0285 | Polowanie na wyprzedaże.
+R-B0286 | Bon na zakupy od szefa.
+R-B0287 | Zakupy na święta 23 grudnia.
+R-B0288 | Torba z zakupami, która pęka przed domem.
+R-B0289 | Jajka rozbite w torbie.
+R-B0290 | Mleko, które się przeterminowało dzień temu.
+R-B0291 | Chleb sprzed tygodnia.
+R-B0292 | Bułka, która zmieniła się w kamień.
+R-B0293 | Szkoła w poniedziałek o 7:10.
+R-B0294 | Dzwonek na przerwę.
+R-B0295 | Sprawdzian z zaskoczenia.
+R-B0296 | Kartkówka, o której nikt nie wiedział.
+R-B0297 | Zeszyt w kratkę.
+R-B0298 | Piórnik z dwoma piętrami.
+R-B0299 | Plecak cięższy niż uczeń.
+R-B0300 | Kanapka zgnieciona w plecaku.
+R-B0301 | Uwaga w dzienniku.
+R-B0302 | Jedynka z matematyki.
+R-B0303 | Szóstka z w-fu.
+R-B0304 | Świadectwo z paskiem.
+R-B0305 | Zwolnienie z w-fu na całe życie.
+R-B0306 | Wychowawczyni z gwizdkiem.
+R-B0307 | Pan od fizyki, który eksploduje.
+R-B0308 | Pani od polskiego z czerwonym długopisem.
+R-B0309 | Woźny, który wie wszystko.
+R-B0310 | Szkolna stołówka w piątek.
+R-B0311 | Mielony ze stołówki.
+R-B0312 | Sklepik szkolny z drożdżówkami.
+R-B0313 | Szkolny apel na mrozie.
+R-B0314 | Akademia z okazji dnia matki.
+R-B0315 | Jasełka, w których byłem osiołkiem.
+R-B0316 | Strój galowy.
+R-B0317 | Biała koszula z plamą od keczupu.
+R-B0318 | Dzień bez mundurka.
+R-B0319 | Wycieczka do Wieliczki.
+R-B0320 | Wycieczka do Krakowa, na której padał deszcz.
+R-B0321 | Zielona szkoła.
+R-B0322 | Kolonie nad morzem.
+R-B0323 | Obóz harcerski.
+R-B0324 | Ognisko z kiełbaskami.
+R-B0325 | Spanie pod namiotem w ulewie.
+R-B0326 | Mapa, której nikt nie umie złożyć.
+R-B0327 | Kompas, który pokazuje zawsze na lodówkę.
+R-B0328 | Plecak pełen batonów.
+R-B0329 | Termos z herbatą.
+R-B0330 | Kanapki z jajkiem w autokarze.
+R-B0331 | Autokar, w którym wszystkich mdli.
+R-B0332 | Śpiewanie w autokarze.
+R-B0333 | Pani przewodnik z parasolką.
+R-B0334 | Pamiątka z Zakopanego.
+R-B0335 | Ciupaga z Krupówek.
+R-B0336 | Oscypek z budki.
+R-B0337 | Magnes na lodówkę z każdego miasta.
+R-B0338 | Muszelki z Bałtyku.
+R-B0339 | Parawan na plaży.
+R-B0340 | Gofry z bitą śmietaną.
+R-B0341 | Rybka w budce nad morzem.
+R-B0342 | Zimne morze w lipcu.
+R-B0343 | Kamyk w bucie.
+R-B0344 | Krem z filtrem, którego nikt nie użył.
+R-B0345 | Spieczony nos.
+R-B0346 | Zgubione klapki.
+R-B0347 | Zamek z piasku.
+R-B0348 | Mewa, która ukradła frytki.
+R-B0349 | Lody, które kapią na koszulkę.
+R-B0350 | Wiatr, który porwał parasol.
+R-B0351 | Molo w Sopocie.
+R-B0352 | Kolejka linowa na Kasprowy.
+R-B0353 | Szlak, który okazał się dłuższy, niż mówił tata.
+R-B0354 | Schronisko z szarlotką.
+R-B0355 | Burza w górach.
+R-B0356 | Kijki do nordic walkingu.
+R-B0357 | Rower z koszykiem.
+R-B0358 | Rower bez powietrza w kole.
+R-B0359 | Hulajnoga po starszym bracie.
+R-B0360 | Rolki z czasów podstawówki.
+R-B0361 | Sanki na pierwszym śniegu.
+R-B0362 | Bałwan z marchewką.
+R-B0363 | Bitwa na śnieżki.
+R-B0364 | Lodowisko w parku.
+R-B0365 | Odśnieżanie auta o 6 rano.
+R-B0366 | Skrobaczka do szyb.
+R-B0367 | Zimowe opony na wiosnę.
+R-B0368 | Samochód taty, który „jeszcze pociągnie”.
+R-B0369 | Fiat 126p dziadka.
+R-B0370 | Klimatyzacja, która dmucha tylko w kierowcę.
+R-B0371 | Choinka zapachowa w aucie.
+R-B0372 | Korek na zakopiance.
+R-B0373 | Postój na stacji benzynowej.
+R-B0374 | Hot dog ze stacji.
+R-B0375 | „Daleko jeszcze?”
+R-B0376 | Dzieci kłócące się na tylnym siedzeniu.
+R-B0377 | Pies, który wymiotuje w samochodzie.
+R-B0378 | Bagażnik, który się nie domyka.
+R-B0379 | Tata, który nie zatrzyma się na siku.
+R-B0380 | Parkowanie równoległe mamy.
+R-B0381 | Prawo jazdy zdane za piątym razem.
+R-B0382 | Instruktor jazdy z nerwami ze stali.
+R-B0383 | Fotoradar.
+R-B0384 | Policjant z suszarką.
+R-B0385 | Rondo, z którego nie da się zjechać.
+R-B0386 | Mapa samochodowa z 1995 roku.
+R-B0387 | Szyberdach.
+R-B0388 | Kaseta z disco polo w samochodzie.
+R-B0389 | Radio, które łapie tylko jedną stację.
+R-B0390 | Pociąg, który się spóźnia.
+R-B0391 | Bilet, którego nikt nie skasował.
+R-B0392 | Kontroler biletów.
+R-B0393 | Autobus, który odjechał przed czasem.
+R-B0394 | Przystanek w szczerym polu.
+R-B0395 | Tramwaj pełen ludzi.
+R-B0396 | Rowerzysta na chodniku.
+R-B0397 | Hulajnoga elektryczna na środku drogi.
+R-B0398 | Pies na rowerze.
+R-B0399 | Smartfon babci w etui z klapką.
+R-B0400 | Ekran pełen rys.

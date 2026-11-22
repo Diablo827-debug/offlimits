@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Rodzinny (dla wszystkich) · język: es · paczka 06 (karty 1001–1200 z 1512)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-B1001 | La cuenta atrás de medianoche con retraso.
+R-B1002 | Champán para niños.
+R-B1003 | El perro escondido debajo de la cama en Nochevieja.
+R-B1004 | Los fuegos artificiales del vecino.
+R-B1005 | El paseo de Año Nuevo.
+R-B1006 | El Jueves Lardero durante toda la semana.
+R-B1007 | El último día de carnaval con orejas fritas.
+R-B1008 | El primer día de primavera quemando un muñeco de paja.
+R-B1009 | Ramas de sauce en un jarrón.
+R-B1010 | Un huevo de Pascua que se rompió en la cesta.
+R-B1011 | La guerra de agua del lunes de Pascua entre bloques de pisos.
+R-B1012 | El puente de mayo con barbacoa.
+R-B1013 | El Día de la Madre con una tarjeta hecha a mano.
+R-B1014 | El Día del Padre con una corbata.
+R-B1015 | El Corpus con pétalos de flores.
+R-B1016 | La noche de San Juan.
+R-B1017 | Coronas de flores flotando en el río.
+R-B1018 | El fin de curso.
+R-B1019 | Vacaciones en casa de los abuelos.
+R-B1020 | El pan de la fiesta de la cosecha.
+R-B1021 | Ir a por setas en septiembre.
+R-B1022 | El primer día de colegio con la cartera.
+R-B1023 | El Día de Todos los Santos en un atasco.
+R-B1024 | Las predicciones de la noche de San Andrés.
+R-B1025 | Un calendario de Adviento vacío a los tres días.
+R-B1026 | San Nicolás con una vara de castigo.
+R-B1027 | La gran persecución del último árbol de Navidad.
+R-B1028 | Cantarle el cumpleaños feliz a la abuela.
+R-B1029 | El gran secreto familiar.
+R-B1030 | El anillo perdido de la abuela.
+R-B1031 | El diario de la bisabuela.
+R-B1032 | Una vieja carta de amor del abuelo.
+R-B1033 | La medalla del abuelo al trabajador ejemplar.
+R-B1034 | La foto de boda de mis padres enmarcada.
+R-B1035 | Los primeros zapatitos en una vitrina.
+R-B1036 | Un mechón de pelo en un sobre.
+R-B1037 | Una caja de recuerdos que nadie abre.
+R-B1038 | El reloj del bisabuelo.
+R-B1039 | La máquina de coser de la abuela.
+R-B1040 | Un ganchillo y una labor.
+R-B1041 | Un ovillo de lana para el gato.
+R-B1042 | La mantita de la infancia.
+R-B1043 | La taza favorita de papá con el asa rota.
+R-B1044 | El plato «para ocasiones especiales».
+R-B1045 | La vajilla que nunca usamos.
+R-B1046 | La vajilla heredada de la tía.
+R-B1047 | Cubertería en una caja de terciopelo.
+R-B1048 | Un mantel de fiesta con una mancha de sopa de remolacha.
+R-B1049 | Servilletas dobladas en forma de cisne.
+R-B1050 | Una ensaladera de cristal para la ensaladilla.
+R-B1051 | Ensaladilla rusa para cualquier ocasión.
+R-B1052 | Huevos con mayonesa.
+R-B1053 | Gelatina de manitas de cerdo.
+R-B1054 | Steak tartar para valientes.
+R-B1055 | Ensalada de arenque bajo un abrigo de remolacha.
+R-B1056 | Pescado en salsa de tomate y zanahoria.
+R-B1057 | Sándwiches de huevo.
+R-B1058 | Pinchos en palillos.
+R-B1059 | El paté de la abuela.
+R-B1060 | Manteca con chicharrones.
+R-B1061 | Un pepinillo directamente del tarro.
+R-B1062 | Sopa de boletus.
+R-B1063 | Sopa agria de centeno en un pan.
+R-B1064 | Sopa de callos que nadie quiere.
+R-B1065 | Sopa de cebada al día siguiente.
+R-B1066 | Ñoquis de patata con un hoyito.
+R-B1067 | Ñoquis con mantequilla.
+R-B1068 | Buñuelos de manzana.
+R-B1069 | Albóndigas de patata rellenas de carne.
+R-B1070 | Ñoquis de requesón con azúcar.
+R-B1071 | Sopa de leche con fideos.
+R-B1072 | Sémola con leche para desayunar.
+R-B1073 | Gachas de avena que se pegan a la cuchara.
+R-B1074 | Cereales con leche a medianoche.
+R-B1075 | Sándwiches de queso tostados.
+R-B1076 | Una hamburguesa casera.
+R-B1077 | Patatas fritas al horno.
+R-B1078 | Espaguetis que acaban por todas partes.
+R-B1079 | Salsa de tomate en el techo.
+R-B1080 | Lasaña para tres días.
+R-B1081 | Sushi del que el abuelo no se fía.
+R-B1082 | Un kebab con salsa de ajo.
+R-B1083 | Un perrito caliente de un puesto.
+R-B1084 | Patatas fritas sabor pimentón.
+R-B1085 | Palomitas de microondas.
+R-B1086 | Ositos de gominola.
+R-B1087 | Una piruleta del tamaño de tu cabeza.
+R-B1088 | Caramelos del bolsillo de la abuela.
+R-B1089 | Chocolate escondido para emergencias.
+R-B1090 | Una chocolatina para el almuerzo del cole.
+R-B1091 | Una galleta de la fortuna.
+R-B1092 | Nata montada directamente del bote.
+R-B1093 | Un milhojas con nata.
+R-B1094 | Tarta de queso fría.
+R-B1095 | El tiramisú de la tía.
+R-B1096 | Magdalenas con crema.
+R-B1097 | Un bollo con crumble.
+R-B1098 | Un cruasán de San Martín.
+R-B1099 | Una rosquilla de Cracovia.
+R-B1100 | Una baguette gratinada del barrio judío de Cracovia.
+R-B1101 | Un gofre con fruta.
+R-B1102 | Helado de máquina.
+R-B1103 | Limonada del grifo.
+R-B1104 | Compota de ruibarbo.
+R-B1105 | Cacao con nubes.
+R-B1106 | Té con sirope de frambuesa.
+R-B1107 | Jarabe de cebolla.
+R-B1108 | Miel para todas las enfermedades.
+R-B1109 | Ajo para el resfriado.
+R-B1110 | Las ventosas de la abuela.
+R-B1111 | Un termómetro debajo del brazo.
+R-B1112 | Un jarabe que sabe a zumo de cereza de cartón.
+R-B1113 | Una tirita de dinosaurios.
+R-B1114 | Una venda en todo el brazo por un rasguño.
+R-B1115 | La pomada verde para todo.
+R-B1116 | Vitamina C efervescente.
+R-B1117 | Pañuelos en todos los bolsillos.
+R-B1118 | Toser en el teatro.
+R-B1119 | Un médico con letra ilegible.
+R-B1120 | Una semana de baja.
+R-B1121 | Una vacuna con pegatina de premio.
+R-B1122 | Gafas con cadenita.
+R-B1123 | Aparato de dientes.
+R-B1124 | Las primeras canas de papá.
+R-B1125 | La calva brillante del abuelo.
+R-B1126 | El bigote del tío.
+R-B1127 | Una barba donde vive algo.
+R-B1128 | Un corte de pelo tipo tazón.
+R-B1129 | La permanente de la tía.
+R-B1130 | Coletas hechas por papá.
+R-B1131 | Las trenzas de la abuela.
+R-B1132 | El esmalte de uñas de la hermana pequeña.
+R-B1133 | El perfume de la tía llenando todo el ascensor.
+R-B1134 | La colonia del abuelo.
+R-B1135 | Un desodorante en spray que mata moscas.
+R-B1136 | Un cepillo lleno de pelos de mascota.
+R-B1137 | La maquinilla de papá en manos de mi hermano.
+R-B1138 | El maquillaje de mamá en cinco minutos.
+R-B1139 | Un bolso sin fondo.
+R-B1140 | Una cartera llena de tiques.
+R-B1141 | Una tarjeta de cliente de cada tienda.
+R-B1142 | Dinero en un calcetín.
+R-B1143 | La paga gastada en un día.
+R-B1144 | Una entrada de cine olvidada en el pantalón.
+R-B1145 | Un billete de autobús como marcapáginas.
+R-B1146 | Un libro que llevo tres años leyendo.
+R-B1147 | Una lectura obligatoria leída en resumen.
+R-B1148 | Una enciclopedia de veinte tomos.
+R-B1149 | Un diccionario de ortografía usado para sujetar la puerta.
+R-B1150 | Un periódico con la programación de la tele.
+R-B1151 | El crucigrama del abuelo.
+R-B1152 | El sudoku de la abuela.
+R-B1153 | El horóscopo del periódico.
+R-B1154 | El partido de la selección con toda la familia delante de la tele.
+R-B1155 | El tío gritándole al árbitro a través de la tele.
+R-B1156 | Un gol en el último minuto.
+R-B1157 | Un penalti que no puedes ni mirar.
+R-B1158 | Saltos de esquí el día de Año Nuevo.
+R-B1159 | Voleibol a las 3 de la mañana.
+R-B1160 | Animar al equipo en pijama.
+R-B1161 | La bufanda del equipo del abuelo.
+R-B1162 | Un balón que cayó en el jardín del vecino.
+R-B1163 | Una ventana del garaje rota.
+R-B1164 | Una portería hecha con dos mochilas.
+R-B1165 | Una bici estática que nadie usa.
+R-B1166 | Mancuernas debajo de la cama.
+R-B1167 | Un bono de piscina sin usar desde enero.
+R-B1168 | Yoga en el salón con el gato.
+R-B1169 | Correr detrás de un perro que se ha escapado.
+R-B1170 | Bailar con el abuelo en una boda.
+R-B1171 | La gimnasia matutina de la radio.
+R-B1172 | La zumba de la tía.
+R-B1173 | Una carrera de sacos.
+R-B1174 | La sokatira en la feria.
+R-B1175 | Una carrera con un huevo en una cuchara.
+R-B1176 | Hinchables en el pícnic.
+R-B1177 | Un salto de puenting desde una silla.
+R-B1178 | Una medalla de chocolate.
+R-B1179 | Un trofeo para todos los participantes.
+R-B1180 | Un diploma de participación.
+R-B1181 | El primer puesto empezando por la cola.
+R-B1182 | La gran final del torneo familiar de futbolín.
+R-B1183 | Una mesa de ping-pong en el garaje.
+R-B1184 | Dardos clavados en la puerta.
+R-B1185 | Bolos en la cena de Navidad de la empresa.
+R-B1186 | Billar en casa del tío.
+R-B1187 | Una caña de pescar con la que no pica nada.
+R-B1188 | Un pez que era «así de grande».
+R-B1189 | Un kayak que volcó.
+R-B1190 | Una lancha hinchable con un agujero.
+R-B1191 | Un chaleco salvavidas dos tallas más grande.
+R-B1192 | Un velero sin viento.
+R-B1193 | Esquís prestados del vecino.
+R-B1194 | Un telearrastre.
+R-B1195 | Caerse en la pista delante de toda la familia.
+R-B1196 | La tabla de snowboard de mi hermano.
+R-B1197 | Patines de hielo que te destrozan los tobillos.
+R-B1198 | Un casco de bici con forma de sandía.
+R-B1199 | Reflectantes en todo.
+R-B1200 | El chaleco reflectante del abuelo.

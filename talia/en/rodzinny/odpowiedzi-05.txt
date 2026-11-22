@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Rodzinny (dla wszystkich) · język: en · paczka 05 (karty 801–1000 z 1512)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-B0801 | A one-screen cinema.
+R-B0802 | A library with a cat.
+R-B0803 | The public pool in winter.
+R-B0804 | An open-air ice rink.
+R-B0805 | A zoo with a lazy lion.
+R-B0806 | A botanical garden.
+R-B0807 | A museum where you can’t touch anything.
+R-B0808 | A funfair.
+R-B0809 | A water park with a slide.
+R-B0810 | An open-air folk museum.
+R-B0811 | A castle with a ghost.
+R-B0812 | A forest full of ticks.
+R-B0813 | A lake full of mosquitoes.
+R-B0814 | Mountains in the clouds.
+R-B0815 | The Baltic Sea in August.
+R-B0816 | Sailing on the Masurian lakes.
+R-B0817 | The mountains with no phone signal.
+R-B0818 | Grandma’s village.
+R-B0819 | A barn full of hay.
+R-B0820 | A chicken coop.
+R-B0821 | A cow that stares.
+R-B0822 | A horse that won’t move.
+R-B0823 | A goat that ate the laundry.
+R-B0824 | A rooster that crows at 4 a.m.
+R-B0825 | A tractor on a country road.
+R-B0826 | A cornfield.
+R-B0827 | An apple orchard.
+R-B0828 | A well with a bucket.
+R-B0829 | A village dance in the fire hall.
+R-B0830 | The harvest festival.
+R-B0831 | A fair with grilled sausages.
+R-B0832 | A concert in the amphitheater.
+R-B0833 | A Children’s Day parade.
+R-B0834 | The Christmas party at Dad’s work.
+R-B0835 | A class reunion after many years.
+R-B0836 | A parent-teacher meeting.
+R-B0837 | School open day.
+R-B0838 | A carnival costume ball at kindergarten.
+R-B0839 | St. Andrew’s Eve fortune-telling with melted wax.
+R-B0840 | Santa’s Day at school.
+R-B0841 | Grandparents’ Day.
+R-B0842 | My parents’ Valentine’s Day.
+R-B0843 | Women’s Day with a carnation.
+R-B0844 | April Fools’ Day.
+R-B0845 | Museum Night.
+R-B0846 | Class council elections.
+R-B0847 | The big wastepaper collection drive.
+R-B0848 | A clean-up-the-world day.
+R-B0849 | A “donate a teddy bear” drive.
+R-B0850 | A poetry recitation contest.
+R-B0851 | A chess tournament.
+R-B0852 | A swimming competition.
+R-B0853 | A school football tournament.
+R-B0854 | A hundred-meter sprint in sneakers.
+R-B0855 | A long jump into the sandpit.
+R-B0856 | A medicine ball throw.
+R-B0857 | Outdoor PE in November.
+R-B0858 | The vaulting horse.
+R-B0859 | A climbing rope nobody can get up.
+R-B0860 | A changing room where everything smells of socks.
+R-B0861 | The school pool full of chlorine.
+R-B0862 | A phone ringing during class.
+R-B0863 | A cheat sheet tucked under an elastic band.
+R-B0864 | A note passed under the desk.
+R-B0865 | A note from a secret admirer.
+R-B0866 | A diary with a padlock.
+R-B0867 | A sticker album.
+R-B0868 | A bottle cap collection.
+R-B0869 | Grandpa’s stamp collection.
+R-B0870 | Football player trading cards.
+R-B0871 | A Tamagotchi.
+R-B0872 | A Game Boy from the ’90s.
+R-B0873 | A Walkman with a cassette.
+R-B0874 | A notebook full of stuck-in notes.
+R-B0875 | Play-Doh mashed into the carpet.
+R-B0876 | A building block you stepped on.
+R-B0877 | A headless doll.
+R-B0878 | A one-eyed teddy bear.
+R-B0879 | A toy car missing a wheel.
+R-B0880 | Grandpa’s electric train set.
+R-B0881 | A city rental bike.
+R-B0882 | A freight train with a thousand wagons.
+R-B0883 | An airship over the city.
+R-B0884 | A giant bouncy castle.
+R-B0885 | Confetti you’re still finding in May.
+R-B0886 | Glitter on everything.
+R-B0887 | Crayon on the wall.
+R-B0888 | A soap bubble as big as a car.
+R-B0889 | A chocolate fountain.
+R-B0890 | A rainbow unicorn.
+R-B0891 | A bull in a china shop.
+R-B0892 | Puss in Boots.
+R-B0893 | A giraffe in a scarf.
+R-B0894 | A penguin in a hat.
+R-B0895 | A llama that spits.
+R-B0896 | A hippo in a swimming pool.
+R-B0897 | A lion who’s scared of mice.
+R-B0898 | A camel on the main street of a ski resort.
+R-B0899 | A kangaroo with a shopping bag.
+R-B0900 | An owl that stays awake all night.
+R-B0901 | A fox that stole a chicken.
+R-B0902 | A wolf who became a vegetarian.
+R-B0903 | A bear just out of hibernation.
+R-B0904 | A beaver building a dam in the yard.
+R-B0905 | A snail in a race.
+R-B0906 | Ants in the sugar bowl.
+R-B0907 | A bee on the tram.
+R-B0908 | A wasp hovering over the fruit juice.
+R-B0909 | A butterfly in a jar.
+R-B0910 | A firefly in the garden.
+R-B0911 | A frog that turned into a prince.
+R-B0912 | A prince who turned into a frog.
+R-B0913 | A dragon who’s scared of fire.
+R-B0914 | The monster under the bed.
+R-B0915 | A shadow on the wall.
+R-B0916 | A creaky floor at night.
+R-B0917 | A rustling outside the window.
+R-B0918 | Footsteps in the attic.
+R-B0919 | “Because I said so.”
+R-B0920 | “Eat it before it gets cold.”
+R-B0921 | “Put a hat on or you’ll freeze.”
+R-B0922 | “You’ll understand when you’re older.”
+R-B0923 | “And if everyone jumped off a bridge?”
+R-B0924 | “Money doesn’t grow on trees.”
+R-B0925 | “No means no.”
+R-B0926 | “We’re leaving in five minutes.”
+R-B0927 | “Who spilled this?”
+R-B0928 | “It’s for your own good.”
+R-B0929 | “We’ll see.”
+R-B0930 | “Ask your dad.”
+R-B0931 | “Ask your mom.”
+R-B0932 | “Fine, but this is the last time.”
+R-B0933 | “I don’t know, I’m not an expert, I have no idea.”
+R-B0934 | “What would you know?”
+R-B0935 | “Things were better back then.”
+R-B0936 | “Careful, you’ll fall.”
+R-B0937 | “Have you got a jacket?”
+R-B0938 | “Dress warmer.”
+R-B0939 | “Call me when you get there.”
+R-B0940 | “And when’s your turn?”
+R-B0941 | “Will you have just one more little piece?”
+R-B0942 | “I’ll only stay a minute.”
+R-B0943 | “Don’t let me interrupt.”
+R-B0944 | “Just a little something.”
+R-B0945 | “Something’s not right here.”
+R-B0946 | “I was here first.”
+R-B0947 | “It wasn’t me.”
+R-B0948 | “He started it.”
+R-B0949 | “She started it.”
+R-B0950 | “I’m bored.”
+R-B0951 | “I’m hungry” five minutes after dinner.
+R-B0952 | “Just one more episode.”
+R-B0953 | “Last game and then I’m going to bed.”
+R-B0954 | The eternal “I have nothing to wear”.
+R-B0955 | The eternal “where are my keys?”.
+R-B0956 | The age-old question “what’s for dinner?”.
+R-B0957 | The answer “whatever”.
+R-B0958 | Silence in the car after a fight.
+R-B0959 | Sulking all day.
+R-B0960 | A grand apology with chocolate.
+R-B0961 | A make-up hug.
+R-B0962 | A bet over a sandwich.
+R-B0963 | An empty promise.
+R-B0964 | Word of honor.
+R-B0965 | A pinky promise.
+R-B0966 | A secret the whole neighborhood knows.
+R-B0967 | Gossip from the bakery queue.
+R-B0968 | A huge scandal about nothing.
+R-B0969 | A storm in a teacup.
+R-B0970 | A mix-up with the presents.
+R-B0971 | Wrong names on the Christmas cards.
+R-B0972 | A regifted present.
+R-B0973 | A present that comes back to the same person a year later.
+R-B0974 | A price tag left on a present.
+R-B0975 | A bow that won’t stay on.
+R-B0976 | Wrapping paper that always runs out.
+R-B0977 | A box bigger than the present.
+R-B0978 | A surprise that got spoiled.
+R-B0979 | A surprise party everyone knew about.
+R-B0980 | A helium balloon stuck to the ceiling.
+R-B0981 | A “Happy Birthday” banner.
+R-B0982 | Party hats with elastic straps.
+R-B0983 | Party horns that drive parents crazy.
+R-B0984 | A piñata that won’t break.
+R-B0985 | A contest for the prettiest drawing.
+R-B0986 | A photo with Santa at the mall.
+R-B0987 | Christmas ornaments from Dad’s childhood.
+R-B0988 | A bauble that survived three generations.
+R-B0989 | A nativity scene with Play-Doh figures.
+R-B0990 | The donkey from the nativity play.
+R-B0991 | Carol singers with a star.
+R-B0992 | A rock version of a Christmas carol.
+R-B0993 | Midnight Mass.
+R-B0994 | Hay under the tablecloth.
+R-B0995 | An empty seat at the table for a wanderer.
+R-B0996 | A carp scale in your wallet for good luck.
+R-B0997 | Wishes over the Christmas wafer that last an hour.
+R-B0998 | The first star that nobody can see.
+R-B0999 | Presents opened at 6:01 p.m.
+R-B1000 | New Year’s resolutions.

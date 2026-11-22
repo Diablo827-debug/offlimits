@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Rodzinny (dla wszystkich) · język: es · paczka 02 (karty 201–400 z 1512)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-B0201 | Un portero automático que no funciona.
+R-B0202 | Un ascensor que se para entre pisos.
+R-B0203 | El vecino de arriba que parece estar haciendo step.
+R-B0204 | Un sótano lleno de trastos.
+R-B0205 | Un desván lleno de secretos.
+R-B0206 | Un garaje donde no cabe el coche.
+R-B0207 | Un felpudo que dice «Bienvenidos».
+R-B0208 | Los visillos de la abuela.
+R-B0209 | Un mueble de salón de los años setenta.
+R-B0210 | Un jarrón de cristal en el mueble del salón.
+R-B0211 | Una alfombra colgada en la pared.
+R-B0212 | Un sofá forrado de plástico.
+R-B0213 | El sillón de papá en el que nadie más se sienta.
+R-B0214 | Una tele de tubo en el sótano.
+R-B0215 | Una radio con una percha de antena.
+R-B0216 | Un vídeo VHS.
+R-B0217 | Una cinta rebobinada con un lápiz.
+R-B0218 | Un CD usado como posavasos.
+R-B0219 | El teléfono fijo de la abuela.
+R-B0220 | Una guía telefónica.
+R-B0221 | Un calendario de 2019.
+R-B0222 | Un reloj de cuco.
+R-B0223 | Un despertador que suena a las 5:30.
+R-B0224 | Una lamparita con forma de luna.
+R-B0225 | Una manta de lana que pica.
+R-B0226 | La almohada en la que duerme el gato.
+R-B0227 | Un edredón que no hay manera de meter en la funda.
+R-B0228 | Un pijama de ositos.
+R-B0229 | Zapatillas con pompones.
+R-B0230 | El albornoz de papá.
+R-B0231 | Una chaqueta que nadie recoge del guardarropa.
+R-B0232 | Un paraguas olvidado en el autobús.
+R-B0233 | Un guante desparejado.
+R-B0234 | Un gorro con pompón de la abuela.
+R-B0235 | Una bufanda tejida por la tía.
+R-B0236 | Botas de agua con patitos.
+R-B0237 | Zapatos que aprietan.
+R-B0238 | Un cordón que no para de desatarse.
+R-B0239 | Una abuela que lo sabe todo de todos.
+R-B0240 | El abuelo dormido en el sillón con la boca abierta.
+R-B0241 | Mamá en modo «limpiamos antes de que lleguen las visitas».
+R-B0242 | Papá leyendo las instrucciones cuando ya es tarde.
+R-B0243 | Un hermano pequeño con las manos pegajosas.
+R-B0244 | La hermana mayor que lleva una hora en el baño.
+R-B0245 | La prima que lo graba todo con el móvil.
+R-B0246 | La tía que llora en todas las bodas.
+R-B0247 | El tío que cuenta el mismo chiste desde hace 20 años.
+R-B0248 | El bisabuelo que se acuerda de la guerra y del comunismo.
+R-B0249 | Un padrino con un sobre.
+R-B0250 | Una madrina que siempre trae tarta.
+R-B0251 | Un suegro que siempre sabe más.
+R-B0252 | Un cuñado con coche nuevo.
+R-B0253 | Una cuñada vegetariana en la matanza del cerdo.
+R-B0254 | Familia lejana que nadie conoce.
+R-B0255 | Un primo de Inglaterra que se ha olvidado del polaco.
+R-B0256 | Hermanos en guerra eterna.
+R-B0257 | Gemelos a los que nadie distingue.
+R-B0258 | El nieto más pequeño, al que todo se le permite.
+R-B0259 | El primogénito con privilegios.
+R-B0260 | Un árbol genealógico dibujado con ceras.
+R-B0261 | Una reunión familiar de cien personas.
+R-B0262 | Una comida familiar en silencio, roto solo por los ruidos al masticar.
+R-B0263 | Una foto de grupo en la que alguien siempre parpadea.
+R-B0264 | Una disputa familiar por la herencia del sofá.
+R-B0265 | Una madre que llama 5 veces al día.
+R-B0266 | Un padre que responde «Vale.» con punto final.
+R-B0267 | Una abuela que reenvía cadenas.
+R-B0268 | Un abuelo que escribe los mensajes EN MAYÚSCULAS.
+R-B0269 | Un tío que lo comenta todo en Facebook.
+R-B0270 | Una tía que hace videollamadas con la cámara en la oreja.
+R-B0271 | El calendario familiar en la nevera.
+R-B0272 | Una lista de la compra que nadie se lleva a la tienda.
+R-B0273 | Un cartel de «Vuelvo en 5 minutos».
+R-B0274 | Una nota de «¡No tocar!» en la comida de la nevera.
+R-B0275 | La paga en monedas sueltas.
+R-B0276 | Una hucha con forma de cerdito.
+R-B0277 | Una moneda encontrada en el sofá.
+R-B0278 | Un vale de café gratis que caducó ayer.
+R-B0279 | Un tique largo como un rollo de papel.
+R-B0280 | Una oferta de «segunda unidad gratis».
+R-B0281 | Un carro de la compra con una rueda torcida.
+R-B0282 | La cola en la única caja abierta.
+R-B0283 | Una caja de autopago que no para de llamar al empleado.
+R-B0284 | El folleto de ofertas de la abuela.
+R-B0285 | La caza de rebajas.
+R-B0286 | Un vale de compra del jefe.
+R-B0287 | Las compras de Navidad el 23 de diciembre.
+R-B0288 | Una bolsa de la compra que se rompe justo delante de casa.
+R-B0289 | Huevos rotos en la bolsa.
+R-B0290 | Leche que caducó ayer.
+R-B0291 | Pan de hace una semana.
+R-B0292 | Un panecillo que se ha convertido en piedra.
+R-B0293 | El cole el lunes a las 7:10.
+R-B0294 | El timbre del recreo.
+R-B0295 | Un examen sorpresa.
+R-B0296 | Un control del que nadie sabía nada.
+R-B0297 | Un cuaderno de cuadritos.
+R-B0298 | Un estuche de dos pisos.
+R-B0299 | Una mochila que pesa más que el alumno.
+R-B0300 | Un bocadillo aplastado en la mochila.
+R-B0301 | Una nota negativa en la agenda.
+R-B0302 | Un suspenso en mates.
+R-B0303 | Un sobresaliente en educación física.
+R-B0304 | Unas notas con matrícula de honor.
+R-B0305 | Un justificante para no hacer gimnasia de por vida.
+R-B0306 | Una tutora con silbato.
+R-B0307 | El profe de física que explota.
+R-B0308 | La profe de lengua con su boli rojo.
+R-B0309 | El conserje que lo sabe todo.
+R-B0310 | El comedor escolar un viernes.
+R-B0311 | Una hamburguesa del comedor del cole.
+R-B0312 | La tienda del colegio con bollos.
+R-B0313 | Un acto escolar en pleno frío.
+R-B0314 | La función del Día de la Madre.
+R-B0315 | La función de Navidad en la que hice de burro.
+R-B0316 | El uniforme de gala.
+R-B0317 | Una camisa blanca con una mancha de kétchup.
+R-B0318 | El día sin uniforme.
+R-B0319 | Una excursión a las minas de sal.
+R-B0320 | Una excursión a Cracovia en la que llovió.
+R-B0321 | La semana de convivencias en el campo.
+R-B0322 | Un campamento en la playa.
+R-B0323 | Un campamento scout.
+R-B0324 | Una hoguera con salchichas.
+R-B0325 | Dormir en tienda de campaña bajo un aguacero.
+R-B0326 | Un mapa que nadie sabe volver a doblar.
+R-B0327 | Una brújula que siempre apunta a la nevera.
+R-B0328 | Una mochila llena de chocolatinas.
+R-B0329 | Un termo de té.
+R-B0330 | Bocadillos de huevo en el autocar.
+R-B0331 | Un autocar en el que todos se marean.
+R-B0332 | Cantar en el autocar.
+R-B0333 | Una guía turística con paraguas.
+R-B0334 | Un recuerdo de la montaña.
+R-B0335 | Un hacha de montañero de un puesto de recuerdos.
+R-B0336 | Queso ahumado de oveja de un puesto en la carretera.
+R-B0337 | Un imán de nevera de cada ciudad.
+R-B0338 | Conchas del mar Báltico.
+R-B0339 | Un cortavientos en la playa.
+R-B0340 | Gofres con nata montada.
+R-B0341 | Pescado frito de un chiringuito.
+R-B0342 | El mar helado en julio.
+R-B0343 | Una piedrecita en el zapato.
+R-B0344 | Crema solar que nadie usó.
+R-B0345 | Una nariz quemada por el sol.
+R-B0346 | Chanclas perdidas.
+R-B0347 | Un castillo de arena.
+R-B0348 | Una gaviota que robó las patatas fritas.
+R-B0349 | Un helado que gotea en la camiseta.
+R-B0350 | El viento que se llevó la sombrilla.
+R-B0351 | El muelle de Sopot.
+R-B0352 | Un teleférico a la montaña.
+R-B0353 | Una ruta que resultó más larga de lo que dijo papá.
+R-B0354 | Un refugio de montaña con tarta de manzana.
+R-B0355 | Una tormenta en la montaña.
+R-B0356 | Bastones de marcha nórdica.
+R-B0357 | Una bici con cesta.
+R-B0358 | Una bici con la rueda pinchada.
+R-B0359 | Un patinete heredado de mi hermano mayor.
+R-B0360 | Patines de cuando iba a primaria.
+R-B0361 | Un trineo con la primera nevada.
+R-B0362 | Un muñeco de nieve con nariz de zanahoria.
+R-B0363 | Una guerra de bolas de nieve.
+R-B0364 | Una pista de hielo en el parque.
+R-B0365 | Quitar la nieve del coche a las 6 de la mañana.
+R-B0366 | Un rascador de hielo.
+R-B0367 | Neumáticos de invierno en primavera.
+R-B0368 | El coche de papá que «todavía tira».
+R-B0369 | El Fiat pequeñito del abuelo.
+R-B0370 | Un aire acondicionado que solo sopla al conductor.
+R-B0371 | Un ambientador de pino en el coche.
+R-B0372 | Un atasco en la carretera a la montaña.
+R-B0373 | Una parada en la gasolinera.
+R-B0374 | Un perrito caliente de gasolinera.
+R-B0375 | «¿Falta mucho?»
+R-B0376 | Niños peleándose en el asiento de atrás.
+R-B0377 | Un perro que vomita en el coche.
+R-B0378 | Un maletero que no cierra.
+R-B0379 | Papá que no para para hacer pis.
+R-B0380 | El aparcamiento en línea de mamá.
+R-B0381 | El carné aprobado a la quinta.
+R-B0382 | Un profesor de autoescuela con nervios de acero.
+R-B0383 | Un radar de velocidad.
+R-B0384 | Un policía con el radar de mano.
+R-B0385 | Una rotonda de la que no hay manera de salir.
+R-B0386 | Un mapa de carreteras de 1995.
+R-B0387 | Un techo solar.
+R-B0388 | Una cinta de música de verbena en el coche.
+R-B0389 | Una radio que solo pilla una emisora.
+R-B0390 | Un tren con retraso.
+R-B0391 | Un billete que nadie validó.
+R-B0392 | Un revisor.
+R-B0393 | Un autobús que salió antes de hora.
+R-B0394 | Una parada en medio de la nada.
+R-B0395 | Un tranvía abarrotado.
+R-B0396 | Un ciclista en la acera.
+R-B0397 | Un patinete eléctrico en medio de la calle.
+R-B0398 | Un perro en bicicleta.
+R-B0399 | El móvil de la abuela con funda de tapa.
+R-B0400 | Una pantalla llena de rayas.

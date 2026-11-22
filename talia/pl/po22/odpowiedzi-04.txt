@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Po 22:00 (pikantniejsze) · język: pl · paczka 04 (karty 601–800 z 1502)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-B0601 | Ukraść długopis z banku.
+N-B0602 | Zabrać do domu firmowe kubki.
+N-B0603 | Ukraść papier toaletowy z pracy.
+N-B0604 | Pić firmową kawę jak za karę.
+N-B0605 | Jechać windą jedno piętro.
+N-B0606 | Wejść schodami i żałować.
+N-B0607 | Ziewać na zebraniu zarządu.
+N-B0608 | Podpisać umowę bez czytania.
+N-B0609 | Pomylić szefa ze sprzątaczem.
+N-B0610 | Zawołać na szefową „mamo”.
+N-B0611 | Wysłać do całej firmy zdjęcie kota.
+N-B0612 | Zostawić mikrofon włączony na callu.
+N-B0613 | Zapomnieć, że jest się na kamerze.
+N-B0614 | Wyjść z calla w środku zdania szefa.
+N-B0615 | Udawać, że internet się zawiesił.
+N-B0616 | Mieć tło na wideo z rajską plażą.
+N-B0617 | Prowadzić call z samochodu w korku.
+N-B0618 | Siedzieć w spodenkach od piżamy na zebraniu online.
+N-B0619 | Napisać do zarządu emotkę z kciukiem.
+N-B0620 | Odpowiedzieć „jasne, ogarnę” i nie ogarnąć.
+N-B0621 | Przyjść do pracy w kapciach.
+N-B0622 | Przyjść na rozmowę w koszulce z wczoraj.
+N-B0623 | Zapomnieć, gdzie się pracuje.
+N-B0624 | Dostać podwyżkę i nie wiedzieć za co.
+N-B0625 | Dostać zwolnienie i się ucieszyć.
+N-B0626 | Zostać szefem samego siebie.
+N-B0627 | Pracować z domu z kotem jako współpracownikiem.
+N-B0628 | Zostać influencerem w wieku 45 lat.
+N-B0629 | Założyć kanał o gotowaniu jajek.
+N-B0630 | Nagrać filmik, który obejrzała tylko mama.
+N-B0631 | Mieć 3 obserwujących, w tym babcię.
+N-B0632 | Zostać rozpoznanym w sklepie przez jedną osobę.
+N-B0633 | Wygrać w lotto 12 złotych.
+N-B0634 | Zainwestować w złoto po teściowej.
+N-B0635 | Przegrać pensję w zakładach na mecz.
+N-B0636 | Postawić wszystko na Polskę.
+N-B0637 | Kibicować z flagą na balkonie.
+N-B0638 | Płakać po meczu reprezentacji.
+N-B0639 | Obiecać sobie, że już nigdy nie będę oglądał.
+N-B0640 | Kryzys wieku średniego.
+N-B0641 | Kryzys ćwierćwiecza.
+N-B0642 | Kryzys po trzydziestce, który trwa do dziś.
+N-B0643 | Syndrom niedzielnego wieczoru.
+N-B0644 | Lęk przed telefonem.
+N-B0645 | Zespół oszusta w nowej pracy.
+N-B0646 | Prokrastynacja na poziomie mistrzowskim.
+N-B0647 | Przemęczenie, które jest już osobowością.
+N-B0648 | Ironia jako mechanizm obronny.
+N-B0649 | Sarkazm, którego nikt nie zrozumiał.
+N-B0650 | Poczucie humoru, które przeraża teściów.
+N-B0651 | Czarny humor na pogrzebie.
+N-B0652 | Dowcip, który wymaga wyjaśnienia.
+N-B0653 | Śmiech w złym momencie.
+N-B0654 | Niezręczna cisza w windzie.
+N-B0655 | Niezręczny uścisk dłoni z próbą przytulenia.
+N-B0656 | Ręka podana w momencie, gdy ktoś chce cmoknąć.
+N-B0657 | Trzy buziaki czy dwa?
+N-B0658 | Pożegnanie, które trwa godzinę w przedpokoju.
+N-B0659 | „To my już będziemy się zbierać” i jeszcze dwie godziny.
+N-B0660 | Gość, który nie łapie aluzji.
+N-B0661 | Ziewanie pana domu jako sygnał.
+N-B0662 | Stół pełen jedzenia, którego nikt nie zje.
+N-B0663 | Pakowanie jedzenia „na drogę” od teściowej.
+N-B0664 | Słoiki od mamy w każdej torbie.
+N-B0665 | Mama pytająca, czy dobrze się odżywiam.
+N-B0666 | Tata dzwoniący tylko w sprawie opon.
+N-B0667 | Rodzice na Messengerze.
+N-B0668 | Rodzice, którzy właśnie odkryli emotki.
+N-B0669 | Mama, która wysyła serduszka do wszystkich.
+N-B0670 | Tata, który podpisuje SMS-y „Tata”.
+N-B0671 | Babcia, która odkryła memy.
+N-B0672 | Dziadek oglądający kanał o spiskach.
+N-B0673 | Wujek, który wie, jak naprawić gospodarkę.
+N-B0674 | Szwagier znawca win za 12 złotych.
+N-B0675 | Kumpel, który zawsze „jest już w drodze”.
+N-B0676 | Przyjaciółka, która wybiera zawsze złego faceta.
+N-B0677 | Przyjaciel, który zawsze wraca do byłej.
+N-B0678 | Znajomy, który robi z każdej imprezy dramat.
+N-B0679 | Koleżanka, która płacze po trzecim drinku.
+N-B0680 | Kolega, który chce się bić po czwartym piwie.
+N-B0681 | Ktoś, kto zasypia na każdej imprezie.
+N-B0682 | Ktoś, kto zawsze ma ostatnie słowo.
+N-B0683 | Typowy turysta z siatką pełną kanapek.
+N-B0684 | Pani przy kasie, która chce rozmawiać z kierownikiem.
+N-B0685 | Kierowca BMW bez kierunkowskazów.
+N-B0686 | Rowerzysta w lycrze na ścieżce dla pieszych.
+N-B0687 | Pan na siłowni, który stęka przy każdym powtórzeniu.
+N-B0688 | Pani, która robi selfie na siłowni.
+N-B0689 | Ktoś, kto słucha muzyki bez słuchawek w pociągu.
+N-B0690 | Pasażer, który zdejmuje buty w samolocie.
+N-B0691 | Sąsiad z miejsca obok, który opowiada swoje życie.
+N-B0692 | Taksówkarz filozof.
+N-B0693 | Fryzjerka terapeutka.
+N-B0694 | Barman psycholog.
+N-B0695 | Ksiądz, który przyszedł po kolędzie w złym momencie.
+N-B0696 | Pan z gazowni.
+N-B0697 | Akwizytor garnków.
+N-B0698 | Konsultant od fotowoltaiki pod drzwiami.
+N-B0699 | Telefon z ofertą nowej taryfy.
+N-B0700 | Ankieter na ulicy.
+N-B0701 | Wolontariusz z puszką w galerii.
+N-B0702 | Influencer od zdrowego życia z rabatem na suplementy.
+N-B0703 | Coach rozwoju osobistego bez doświadczenia.
+N-B0704 | Ekspert od wszystkiego w komentarzach.
+N-B0705 | Polityk na festynie.
+N-B0706 | Celebryta z reality show.
+N-B0707 | Gwiazda disco polo na weselu.
+N-B0708 | DJ Wesele, który gra tylko hity z lat 90.
+N-B0709 | Fotograf weselny, który był wszędzie.
+N-B0710 | Kamerzysta, który nakręcił moją kompromitację.
+N-B0711 | Wodzirej z obowiązkowymi zabawami.
+N-B0712 | Świadek z przemową na 40 minut.
+N-B0713 | Druhna, która chce być panną młodą.
+N-B0714 | Teściowa przy pierwszym tańcu.
+N-B0715 | Babcia w nowej fryzurze.
+N-B0716 | Wujek w krawacie na głowie.
+N-B0717 | Ciocia, która pije tylko „symbolicznie”.
+N-B0718 | Pijany kuzyn z mikrofonem.
+N-B0719 | Dzieci pod stołem na weselu.
+N-B0720 | Pies na ślubie w muszce.
+N-B0721 | Gołębie wypuszczone przed kościołem.
+N-B0722 | Ryż we włosach.
+N-B0723 | Monety, które trzeba zbierać.
+N-B0724 | Brama weselna od sąsiadów.
+N-B0725 | Okup za pannę młodą.
+N-B0726 | Przeniesienie przez próg, które skończyło się bólem pleców.
+N-B0727 | Noc poślubna, którą przespali.
+N-B0728 | Miesiąc po ślubie i pierwszy kredyt.
+N-B0729 | Rok po ślubie i pierwsze dziecko.
+N-B0730 | Pięć lat po ślubie i pies.
+N-B0731 | Dziesięć lat po ślubie i osobne kołdry.
+N-B0732 | Dwadzieścia lat po ślubie i chrapanie.
+N-B0733 | Srebrne gody z kłótnią o pilota.
+N-B0734 | Złote gody i dziadek, który dalej nie umie gotować.
+N-B0735 | Miłość, która przetrwała remont.
+N-B0736 | Związek, który nie przetrwał sklepu meblowego.
+N-B0737 | Małżeństwo, które ratuje wspólny serial.
+N-B0738 | Wspólna pasja do narzekania.
+N-B0739 | Kłótnia o temperaturę w sypialni.
+N-B0740 | Kłótnia o kołdrę.
+N-B0741 | Kłótnia o to, kto pierwszy zasnął.
+N-B0742 | Kłótnia o miejsce na wakacje.
+N-B0743 | Kłótnia o pieniądze, której nikt nie wygrał.
+N-B0744 | Rozmowa o przyszłości przy zmywarce.
+N-B0745 | Romantyczna kolacja zamówiona w aplikacji.
+N-B0746 | Kwiaty kupione z poczucia winy.
+N-B0747 | Biżuteria na przeprosiny.
+N-B0748 | Spa dla dwojga zamiast terapii.
+N-B0749 | Weekend we dwoje, na którym rozmawiamy o dzieciach.
+N-B0750 | Randka, na której oboje patrzymy w telefony.
+N-B0751 | Pierwsza wspólna kłótnia w sklepie meblowym.
+N-B0752 | Pierwsza wspólna kłótnia w samochodzie.
+N-B0753 | Pierwszy wspólny kredyt.
+N-B0754 | Pierwsze wspólne mieszkanie z kartonami przez rok.
+N-B0755 | Pierwszy wspólny pies.
+N-B0756 | Pierwsze wspólne święta u teściów.
+N-B0757 | Pierwsza wspólna podróż i ostatnia.
+N-B0758 | Wspólne konto bankowe i osobne tajemnice.
+N-B0759 | Konto oszczędnościowe na „czarną godzinę”, która jest co miesiąc.
+N-B0760 | Prezent na rocznicę zamówiony z dostawą na jutro.
+N-B0761 | Piękny pierścionek z drugiej ręki.
+N-B0762 | Romantyczny spacer po galerii handlowej.
+N-B0763 | Niedziela w markecie budowlanym.
+N-B0764 | Wycieczka do sklepu ogrodniczego jako atrakcja weekendu.
+N-B0765 | Rozmowa o fugach.
+N-B0766 | Zachwyt nad nowym blatem w kuchni.
+N-B0767 | Kłótnia o kolor ścian w salonie.
+N-B0768 | Szary kolor wszystkiego.
+N-B0769 | Mieszkanie jak z katalogu, w którym nie da się żyć.
+N-B0770 | Poduszki ozdobne, których nie wolno używać.
+N-B0771 | Ręczniki dla gości, które są tylko do oglądania.
+N-B0772 | Biała kanapa i dzieci.
+N-B0773 | Dywan, którego nie da się wyczyścić po imprezie.
+N-B0774 | Plama po winie w kształcie Polski.
+N-B0775 | Zapach imprezy w zasłonach.
+N-B0776 | Kanapa pamiętająca lepsze czasy.
+N-B0777 | Łóżko ze sklepu, które skrzypi przy każdym ruchu.
+N-B0778 | Materac, który ma wgłębienie w kształcie mnie.
+N-B0779 | Kołdra, którą zabiera partner.
+N-B0780 | Budzik z drzemką ustawioną pięć razy.
+N-B0781 | Kawa jako fundament związku.
+N-B0782 | Pierwsza kawa przed pierwszym słowem.
+N-B0783 | Mąż o 6 rano.
+N-B0784 | Żona przed pierwszą kawą.
+N-B0785 | Teściowa o każdej porze.
+N-B0786 | Szef przed urlopem.
+N-B0787 | Klient, który „ma tylko jedną drobną uwagę”.
+N-B0788 | Klient, który chce logo „ale bardziej wyskakujące”.
+N-B0789 | Projekt „na wczoraj” od klienta, który odpisuje po tygodniu.
+N-B0790 | Faktura opłacona po 90 dniach.
+N-B0791 | Umowa o dzieło na całe życie.
+N-B0792 | Działalność gospodarcza z ZUS-em jak rata za dom.
+N-B0793 | Przedsiębiorca, który pracuje 16 godzin na dobę na swoim.
+N-B0794 | Wolność finansowa za 40 lat.
+N-B0795 | Pieniądze, które były w kieszeni zimowej kurtki.
+N-B0796 | Cud, czyli zwrot podatku.
+N-B0797 | Niespodziewany przelew od babci.
+N-B0798 | Koperta od dziadków „na studia” wydana na imprezę.
+N-B0799 | Pierwsza pensja wydana w jeden wieczór.
+N-B0800 | Oszczędności na wakacje wydane na mechanika.

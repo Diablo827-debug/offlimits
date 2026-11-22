@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Cards Against Humanity (CC BY-NC-SA) · język: en · paczka 01 (karty 1–100 z 416)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - C-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+C-C02446 | ____ is a slippery slope that leads to ____.
+C-C00002 | ____ is back! Only at McDonald's.
+C-C00005 | ____ would be woefully incomplete without ____.
+C-C02447 | ____: good to the last drop.
+C-C02448 | ____: kid tested, mother approved.
+C-C02450 | ____: Mwah. [A render of a chef doing a chef's kiss]
+C-C02452 | ____? There's an app for that.
+C-C02453 | ____? Yeah, nah.
+C-C00008 | ____. Awesome in theory, kind of a mess in practice.
+C-C02454 | ____. Betcha can't have just one!
+C-C02455 | ____. High five, bro.
+C-C02456 | ____. It's a trap!
+C-C02458 | ____. That was so metal.
+C-C02459 | ____. That's how I want to die.
+C-C06020 | ★✰✰✰✰ Do NOT go here! Found ____ in my chicken curry!
+C-C02461 | ★✰✰✰✰ Do NOT go here! Found ____ in my fettuccine alfredo!
+C-C02462 | ★✰✰✰✰ Do NOT go here! Found ____ in my Kung Pao chicken!
+C-C02464 | 50% of all marriages end in ____.
+C-C02465 | A recent laboratory study shows that undergraduates have 50% less sex after being exposed to ____.
+C-C00012 | A remarkable new study has shown that chimps have evolved their own primitive version of ____.
+C-C02466 | A romantic candlelit dinner would be incomplete without ____.
+C-C00013 | A successful job interview begins with a firm handshake and ends with ____.
+C-C02468 | ABC presents "____: The Story of ____."
+C-C02470 | After four platinum albums and three Grammys, it's time to get back to my roots, to what inspired me to make music in the first place: ____.
+C-C02472 | After Hurricane Katrina, Sean Penn brought ____ to the people of New Orleans.
+C-C00017 | After months of practice with ____, I think I'm finally ready for ____.
+C-C02475 | Airport security guidelines now prohibit ____ on airplanes.
+C-C02476 | Alternative medicine is now embracing the curative powers of ____.
+C-C02477 | And the Academy Award for ____ goes to ____.
+C-C00026 | And today's soup is Cream of ____.
+C-C00027 | And what did you bring for show and tell?
+C-C02479 | Anthropologists have recently discovered a primitive tribe that worships ____.
+C-C02481 | Are you thinking what I'm thinking, B1? I think I am, B2: it's ____ time!
+C-C00032 | As king, how will I keep the peasants in line?
+C-C02482 | As my New Year's resolution, I vow to give up ____.
+C-C00035 | As reparations for slavery, all African Americans will receive ____.
+C-C02483 | As the mom of five rambunctious boys, I'm no stranger to ____.
+C-C00445 | Attention Walmart shoppers. Unfortunately, we will be closing early due to ____.
+C-C02486 | BILLY MAYS HERE FOR ____.
+C-C00046 | Bitch, you're nasty. You're disgusting. You're ____. Go home, bitch.
+C-C02527 | Holy shit! My video of ____ has ten million views!
+C-C02487 | Bravo's new reality show features eight washed-up celebrities living with ____.
+C-C02488 | Brought to you by Bud Light®, the Official Beer of ____.
+C-C02491 | But before I kill you, Mr. Bond, I must show you ____.
+C-C00051 | Charades was ruined for me forever when my mom had to act out ____.
+C-C02496 | Check me out, yo! I call this dance move "____."
+C-C02497 | Click Here for ____!!!
+C-C02498 | Coming this season, Samuel Beckett's classic existential play: Waiting for ____.
+C-C02499 | Coming to Broadway this season, ____: The Musical.
+C-C02501 | Crikey! I've never seen ____ like this before! Let's get a bit closer.
+C-C02504 | Daddy, why is mommy crying?
+C-C02506 | Dear Abby, I'm having some trouble with ____ and would like your advice.
+C-C00061 | Dear Sir or Madam, We regret to inform you that the Office of ____ has denied your request for ____.
+C-C02508 | Designers! For this week's challenge, you must make a dress designed for ____.
+C-C00066 | Doctor, you've gone too far! The human body wasn't meant to withstand that amount of ____!
+C-C00067 | Don't forget! Beginning this week, Casual Friday will officially become "____ Friday."
+C-C02509 | Dude, do not go in that bathroom. There's ____ in there.
+C-C02511 | Dudes. I just found out that ____ is ____.
+C-C02512 | Due to a PR fiasco, Walmart no longer offers ____.
+C-C00069 | During high school, I never really fit in until I found ____ club.
+C-C02513 | During his childhood, Salvador Dalí produced hundreds of paintings of ____.
+C-C00070 | During his midlife crisis, my dad got really into ____.
+C-C02514 | During Picasso's often-overlooked Brown Period, he produced hundreds of paintings of ____.
+C-C02515 | During sex, I like to think about ____.
+C-C00079 | Finally! A service that delivers ____ right to your door.
+C-C02516 | For my next trick, I will pull ____ out of ____.
+C-C02517 | Fun tip! When your man asks you to go down on him, try surprising him with ____ instead.
+C-C00084 | Future historians will agree that ____ marked the beginning of America's decline.
+C-C00092 | Having problems with ____? Try ____!
+C-C02519 | Here is the church Here is the steeple Open the doors And there is ____.
+C-C06659 | Hey gang! Get ready with me while I tell you all about ____.
+C-C02524 | Hey guys, welcome to TGI Fridays! Would you like to start the night off right with ____?
+C-C02526 | Hey Reddit! I'm ____. Ask me anything.
+C-C02528 | How am I maintaining my relationship status?
+C-C02529 | How did I lose my virginity?
+C-C02530 | Howdy, neighbor! I couldn't help but notice you struggling with ____. Need a hand?
+C-C02531 | Hulu's new reality show features twelve hot singles living with ____.
+C-C02532 | I do not know with what weapons World War III will be fought, but World War IV will be fought with ____.
+C-C02533 | I drink to forget ____.
+C-C02534 | I get by with a little help from ____.
+C-C02535 | I got 99 problems but ____ ain't one.
+C-C00122 | I learned the hard way that you can't cheer up a grieving friend with ____.
+C-C02537 | I never truly understood ____ until I encountered ____.
+C-C00127 | I spent my whole life working toward ____, only to have it ruined by ____.
+C-C02538 | I wish I hadn't lost the instruction manual for ____.
+C-C02539 | I'm going on a cleanse this week. Nothing but kale juice and ____.
+C-C02540 | I'm Lebron James, and when I'm not slamming dunks, I love ____.
+C-C02541 | I'm no doctor, but I'm pretty sure what you're suffering from is called "____."
+C-C00146 | I'm not like the rest of you. I'm too rich and busy for ____.
+C-C02542 | I'm sorry, Professor, but I couldn't complete my homework because of ____.
+C-C00141 | I'm sorry, sir, but we don't allow ____ at the country club.
+C-C02544 | I'm Tony Robbins, and over the next sixty minutes I'm going to teach you how to harness the power of ____!
+C-C00149 | If at first you don't succeed, try ____.
+C-C02545 | If you can't be with the one you love, love ____.
+C-C02546 | IF you like ____, YOU MIGHT BE A REDNECK.
+C-C02547 | In 1,000 years, when paper money is a distant memory, how will we pay for goods and services?
+C-C02548 | In 1,000 years, when paper money is but a distant memory, ____ will be our currency.
+C-C02550 | In a world ravaged by ____, our only solace is ____.
+C-C02553 | In an attempt to reach a wider audience, the Smithsonian Museum of Natural History has opened an interactive exhibit on ____.
+C-C02554 | In Australia, ____ is twice as big and twice as deadly.

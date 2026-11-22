@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Po 22:00 (pikantniejsze) · język: es · paczka 03 (karty 201–300 z 501)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-C201 | La peor decisión después de la tercera copa de vino: ____.
+N-C202 | ¿Qué pasa en un autobús lleno de hinchas?
+N-C203 | ¿Qué hay en un mensaje que dice «Tenemos que hablar»?
+N-C204 | Mi reseña de la vida adulta: ____.
+N-C205 | Lo único que me motiva hoy: ____.
+N-C206 | ¿Qué pienso para mis adentros en una reunión que podría haber sido un correo?
+N-C207 | El mejor complemento para una pelea de pareja: ____.
+N-C208 | Mi primera relación. Ventajas: ____. Inconvenientes: ____.
+N-C209 | ¿Qué hace un polaco en la cola para embarcar?
+N-C210 | Lo peor que puede pasar en una boda es ____.
+N-C211 | El verdadero motivo por el que me fui de casa de mis padres: ____.
+N-C212 | El verdadero motivo por el que volví a casa de mis padres: ____.
+N-C213 | ¿Qué dicen de mí las vecinas del banco?
+N-C214 | La maldición de la vida adulta: ____.
+N-C215 | ¿Qué digo cuando mi marido pregunta cuánto costaron estos zapatos?
+N-C216 | ¿Qué digo cuando mi mujer pregunta cuánto costó esta caña de pescar?
+N-C217 | Lo más caro de mi piso es ____.
+N-C218 | ¿Qué me mantiene vivo en noviembre?
+N-C219 | El peor regalo de Navidad del jefe: ____.
+N-C220 | El dúo fiestero de todos los tiempos: ____ y ____.
+N-C221 | ¿Qué hago cuando el jefe se sube al ascensor?
+N-C222 | Lo más sospechoso de mi carrito de compra: ____.
+N-C223 | Mi primer pensamiento al despertar con resaca: ____.
+N-C224 | ¿Qué les cuento a mis amigos de mi «startup»?
+N-C225 | El mejor consejo financiero del tío: ____.
+N-C226 | ¿Qué hay en las notas de mi móvil?
+N-C227 | El verdadero motivo por el que salgo a correr: ____.
+N-C228 | La mejor respuesta a «¿y tú para cuándo?»: ____.
+N-C229 | ¿Qué digo cuando me preguntan por mis planes de futuro?
+N-C230 | Mi momento favorito del día es ____.
+N-C231 | Lo peor que te puede decir tu peluquero: ____.
+N-C232 | ¿Qué hago con los regalos que no quiero?
+N-C233 | Mis vacaciones ideales. Hay: ____. No hay: ____.
+N-C234 | Una nueva app de citas para mayores de cuarenta: ____.
+N-C235 | ¿Qué digo en la caja cuando rechazan mi tarjeta?
+N-C236 | La forma más polaca de resolver un problema: ____.
+N-C237 | ¿Qué hacen los mayores en el cumple de un niño de tres años cuando los niños no miran?
+N-C238 | El verdadero propósito del grupo de padres de la guardería: ____.
+N-C239 | ¿Qué no digo delante de los padres de mi novia?
+N-C240 | ¿Qué le escondo a mi mujer en el sótano?
+N-C241 | ¿Qué le escondo a mi marido en el armario?
+N-C242 | ¿Qué digo cuando alguien pregunta si ya me voy de la oficina?
+N-C243 | La mejor forma de librarse de un invitado aburrido: ____.
+N-C244 | Mi reseña de la última cita: ____.
+N-C245 | ¿Qué hace que un hombre de más de cuarenta se compre una moto?
+N-C246 | El peor regalo para un baby shower: ____.
+N-C247 | El verdadero motivo por el que tengo un gato: ____.
+N-C248 | ¿Qué se esconde en el armario de un soltero?
+N-C249 | El mejor argumento en una pelea por fregar: ____.
+N-C250 | ¿Qué dice mi nevera de mi vida?
+N-C251 | La relación más tóxica de mi vida es ____.
+N-C252 | ¿Qué hacen los padres cuando los niños por fin se duermen?
+N-C253 | La mejor razón para no ir a trabajar: ____.
+N-C254 | Mi mayor enemigo en la cocina es ____.
+N-C255 | ¿Qué pasa en el grupo «Divorciados y divorciadas 40+»?
+N-C256 | El mejor truco de fiesta de mi cuñado: ____.
+N-C257 | ¿Qué me da más miedo que casarme?
+N-C258 | ¿Qué significa «llego en 5 minutos» cuando lo dice mi mejor amiga?
+N-C259 | El sitio más raro donde me he dormido después de una fiesta es ____.
+N-C260 | La atracción principal de una boda en el salón del pueblo: ____.
+N-C261 | ¿Qué dice la abuela de mi tatuaje?
+N-C262 | El último recurso antes de la bancarrota: ____.
+N-C263 | ¿Qué digo la primera vez que veo a mi suegro?
+N-C264 | La peor idea de negocio de la historia: ____.
+N-C265 | Mi estrategia para el Black Friday: ____.
+N-C266 | ¿Qué dice la gente en la cola del baño en un festival?
+N-C267 | ¿Qué no se debe comprar después de medianoche?
+N-C268 | Algo de lo que me arrepiento de mis 18: ____.
+N-C269 | Mi mayor gasto de este mes: ____.
+N-C270 | ¿Qué hago cuando mi pareja quiere «hablar con calma»?
+N-C271 | La mejor medicina para un corazón roto: ____.
+N-C272 | ¿Qué dicen mis compañeros del instituto en la reunión de los 15 años?
+N-C273 | El verdadero motivo por el que estoy a dieta: ____.
+N-C274 | ¿Qué hago cuando tengo la casa para mí solo?
+N-C275 | La nueva definición de lujo después de los treinta: ____.
+N-C276 | ¿Qué le digo a mi hijo cuando pregunta de dónde vienen los niños?
+N-C277 | El peor sitio para pedir matrimonio: ____.
+N-C278 | El cargo más sospechoso de mi extracto bancario: ____.
+N-C279 | ¿Qué se esconde en la contraseña del wifi del vecino?
+N-C280 | La pregunta más rara en una entrevista de trabajo: ____.
+N-C281 | ¿Qué hace mi gato cuando tengo visitas?
+N-C282 | Mi voz interior dice: ____.
+N-C283 | ¿Qué digo cuando el camarero pregunta si me ha gustado?
+N-C284 | El secreto de un buen matrimonio según el abuelo: ____.
+N-C285 | El secreto de un buen matrimonio según la abuela: ____.
+N-C286 | Lo peor que se puede decir durante un parto: ____.
+N-C287 | ¿Qué dice papá cuando traigo a alguien nuevo a casa?
+N-C288 | Mi única regla en las fiestas: ____.
+N-C289 | El verdadero motivo por el que no tengo carné de conducir: ____.
+N-C290 | ¿Qué tiene un soltero en la nevera?
+N-C291 | ¿Qué tiene una soltera en la nevera?
+N-C292 | La peor canción para el primer baile: ____.
+N-C293 | Lo mejor del lunes después de un puente es ____.
+N-C294 | ¿Qué digo cuando llama un teleoperador?
+N-C295 | El deporte favorito de mi cuñado: ____.
+N-C296 | Algo que solo diré después de un vino: ____.
+N-C297 | ¿Qué digo cuando mi mujer pregunta si está gorda?
+N-C298 | ¿Qué digo cuando mi marido pregunta si sé aparcar?
+N-C299 | Lo único que tenemos en común con los vecinos: ____.
+N-C300 | ¿Qué me enseñó mi primer préstamo?

@@ -1,0 +1,18 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Bez tabu (18+) · język: el · paczka 03 (karty 201–208 z 208)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - X-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+X-C201 | Τι πιστεύει ο εφημέριος ότι θα καταστρέψει την οικογένεια;
+X-C202 | Τι κατέστρεψε στ’ αλήθεια την οικογένειά μας στο χριστουγεννιάτικο τραπέζι;
+X-C203 | Η καλύτερη απάντηση στο «Πότε θα βρεις κοπέλα;»: ____.
+X-C204 | Τι θα πει η γιαγιά στον Θεό για τον άντρα μου;
+X-C205 | Το επόμενο θαύμα στην ενορία μας: ____.
+X-C206 | Τι θα υπάρχει στο νέο λογότυπο του δήμου μας;
+X-C207 | Τι περνάει λαθραία ο θείος από τη Γερμανία εκτός από τσιγάρα;
+X-C208 | Ο πραγματικός λόγος της διαμαρτυρίας έξω από τη Βουλή: ____.

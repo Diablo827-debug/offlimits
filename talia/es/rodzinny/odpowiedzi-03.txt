@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Rodzinny (dla wszystkich) · język: es · paczka 03 (karty 401–600 z 1512)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-B0401 | Batería al 1 %.
+R-B0402 | Una notificación de actualización.
+R-B0403 | Un juego del móvil que se comió todos los datos.
+R-B0404 | Un selfi con la abuela.
+R-B0405 | Un filtro de orejas de perro.
+R-B0406 | Hacerle foto a la comida antes de comer.
+R-B0407 | Una videollamada con el abuelo enseñando el techo.
+R-B0408 | Una foto familiar de salvapantallas.
+R-B0409 | Un portátil que se pone caliente como un horno.
+R-B0410 | Una impresora que no imprime cuando hace falta.
+R-B0411 | Un wifi que solo funciona en la cocina.
+R-B0412 | Un router que hay que reiniciar.
+R-B0413 | Una tablet con dibujos animados.
+R-B0414 | Una consola bajo el árbol.
+R-B0415 | Un mando con los botones pegajosos.
+R-B0416 | Un juego de mesa al que le faltan la mitad de las fichas.
+R-B0417 | Un puzle sin la última pieza.
+R-B0418 | Un cubo de Rubik que nadie ha resuelto.
+R-B0419 | Fichas de dominó colocadas por toda la habitación.
+R-B0420 | Jugar a la mímica con el abuelo.
+R-B0421 | Stop con la letra X.
+R-B0422 | Un torneo familiar de cartas.
+R-B0423 | Una abuela que hace trampas al rummy.
+R-B0424 | Un parchís en el que nadie sabe perder.
+R-B0425 | Damas con chapas en vez de fichas.
+R-B0426 | Ajedrez al que solo juega el abuelo.
+R-B0427 | Un escondite en el que todos se olvidaron de mí.
+R-B0428 | Jugar al pilla-pilla en el patio.
+R-B0429 | Jugar a la goma.
+R-B0430 | Una rayuela dibujada con tiza.
+R-B0431 | La barra para sacudir alfombras del patio.
+R-B0432 | Un columpio que chirría.
+R-B0433 | Un arenero con un gato.
+R-B0434 | Una casa en el árbol.
+R-B0435 | Una cabaña de mantas en el salón.
+R-B0436 | Una pelea de almohadas.
+R-B0437 | Una carrera de caracoles.
+R-B0438 | Volar una cometa.
+R-B0439 | Pompas de jabón.
+R-B0440 | Una pistola de agua.
+R-B0441 | Un globo que explotó en el coche.
+R-B0442 | Un payaso en un cumpleaños.
+R-B0443 | Pintacaras en la feria.
+R-B0444 | Algodón de azúcar.
+R-B0445 | Un tiovivo en la feria del pueblo.
+R-B0446 | Una caseta de tiro con rosas de plástico.
+R-B0447 | Un parque de atracciones.
+R-B0448 | Una noria.
+R-B0449 | Un circo sin animales.
+R-B0450 | Un espectáculo de magia.
+R-B0451 | Un cine al aire libre.
+R-B0452 | Palomitas por todo el sofá.
+R-B0453 | Ver los mismos dibujos por centésima vez.
+R-B0454 | La misma peli de Navidad todos los años.
+R-B0455 | Una canción que no te puedes sacar de la cabeza.
+R-B0456 | Música de verbena en una boda.
+R-B0457 | La orquesta de la boda tocando el mayor éxito de verbena.
+R-B0458 | Un trenecito en la boda.
+R-B0459 | Los juegos de la liga y el ramo en la boda.
+R-B0460 | Lanzar el velo.
+R-B0461 | Vodka con compota de fruta.
+R-B0462 | Un tío bailando con una silla.
+R-B0463 | La abuela en la pista hasta las 4 de la mañana.
+R-B0464 | Una tarta nupcial que entra con bengalas.
+R-B0465 | La fiesta del día después de la boda.
+R-B0466 | Sobres en una cesta.
+R-B0467 | Un fotomatón con bigotes de palo.
+R-B0468 | Un DJ que solo pone música de los ochenta.
+R-B0469 | Un salón de bodas con lámparas de cristal.
+R-B0470 | Una Primera Comunión con una bici de regalo.
+R-B0471 | Un bautizo con tarta en forma de patuco.
+R-B0472 | Un cumpleaños de 18 en el salón del pueblo.
+R-B0473 | Una fiesta del santo con gelatina.
+R-B0474 | Hacerse el dormido mientras mamá limpia.
+R-B0475 | Comerse el postre antes de la comida.
+R-B0476 | Tirar zumo en la alfombra nueva.
+R-B0477 | Dormirse en clase de historia.
+R-B0478 | Perderse en el supermercado.
+R-B0479 | Confundir la sal con el azúcar.
+R-B0480 | Saludar a alguien que saludaba a otra persona.
+R-B0481 | Decir «igualmente» al camarero que te dice «que aproveche».
+R-B0482 | Buscar las llaves que tienes en la mano.
+R-B0483 | Entrar en una habitación y olvidar a qué ibas.
+R-B0484 | Mandarle un mensaje a mamá en vez de a un amigo.
+R-B0485 | Estornudar diez veces seguidas.
+R-B0486 | Tropezar en un camino totalmente llano.
+R-B0487 | Cantar en la ducha.
+R-B0488 | Bailar cuando nadie mira.
+R-B0489 | Hablar con el gato como si fuera una persona.
+R-B0490 | Comerse una bolsa entera de patatas «sin querer».
+R-B0491 | Despertarse un minuto antes de que suene el despertador.
+R-B0492 | Tirar de una puerta que dice «empujar».
+R-B0493 | Saludar a la cámara en la tele.
+R-B0494 | Fingir que entiendes el chiste.
+R-B0495 | Llamar a un perro que finge no oír.
+R-B0496 | Meter un calcetín rojo en la colada blanca.
+R-B0497 | Sentarse encima de las gafas.
+R-B0498 | Perder el otro zapato.
+R-B0499 | Pasarte la parada por quedarte dormido.
+R-B0500 | Abrazar un árbol.
+R-B0501 | Robar la última galleta.
+R-B0502 | Probar la sopa de la abuela y pedir más.
+R-B0503 | Huir de la aspiradora.
+R-B0504 | Hacer una foto familiar con temporizador.
+R-B0505 | Bajar deslizándose por la barandilla.
+R-B0506 | Ganar a piedra, papel o tijera.
+R-B0507 | Contar ovejas hasta mil.
+R-B0508 | Silbar mientras trabajas.
+R-B0509 | Hacer flexiones durante los anuncios.
+R-B0510 | Hacer la pasta hasta que quede papilla.
+R-B0511 | Olvidarse del cumpleaños de la tía.
+R-B0512 | Desayunar pizza fría.
+R-B0513 | Sacar al perro en pijama.
+R-B0514 | Saludar a un tren.
+R-B0515 | Recoger castañas.
+R-B0516 | Saltar en los charcos.
+R-B0517 | Hacer la rana con piedras en el lago.
+R-B0518 | Atrapar copos de nieve con la lengua.
+R-B0519 | Romper la hucha.
+R-B0520 | Contar las estrellas.
+R-B0521 | Comerse un milhojas a cucharadas.
+R-B0522 | Jugar al tren con sillas.
+R-B0523 | Cocinar con el abuelo.
+R-B0524 | Enseñar a la abuela a mandar emojis.
+R-B0525 | Correr detrás del autobús.
+R-B0526 | Perder el mando dentro de la nevera.
+R-B0527 | Hablar con las plantas.
+R-B0528 | Discutir con el GPS.
+R-B0529 | Dormir en el coche en un área de descanso.
+R-B0530 | Contar tu sueño en el desayuno.
+R-B0531 | Disfrazarse de fantasma con una sábana.
+R-B0532 | Mezclar todas las bebidas a la vez.
+R-B0533 | Escribirse una carta a uno mismo.
+R-B0534 | Construir una base con almohadas.
+R-B0535 | Leer debajo del edredón con una linterna.
+R-B0536 | Tomar helado en invierno.
+R-B0537 | Andar en calcetines por el suelo mojado.
+R-B0538 | Dejar una taza de té tres días en la mesa.
+R-B0539 | Ir a comprar sin lista.
+R-B0540 | Ir a un cumpleaños con un regalo para ti.
+R-B0541 | Olvidarse del texto en la función del colegio.
+R-B0542 | Reírse en el funeral del hámster.
+R-B0543 | Dormirse en el autobús con la boca abierta.
+R-B0544 | Cavar un agujero hasta China.
+R-B0545 | Echar una carrera con el gato.
+R-B0546 | Charlar con el vecino por encima de la valla.
+R-B0547 | Subirse a un árbol y no saber bajar.
+R-B0548 | Poner una lavadora y olvidarse de ella.
+R-B0549 | No reconocer a tu madre con el pelo nuevo.
+R-B0550 | Cortarse el flequillo uno mismo.
+R-B0551 | Apagar las velas a la primera.
+R-B0552 | Cantar el «Cumpleaños feliz» demasiado rápido.
+R-B0553 | Contar todos los regalos.
+R-B0554 | Rebañar el bol de la crema.
+R-B0555 | Enseñarle trucos nuevos al perro.
+R-B0556 | Pelearse por el último trozo de tarta.
+R-B0557 | Fingir que escuchas.
+R-B0558 | Mirar la nevera esperando que aparezca algo.
+R-B0559 | Abrazarse al radiador.
+R-B0560 | Beber un té que ya se ha enfriado.
+R-B0561 | Hacer muecas delante del espejo.
+R-B0562 | Inventar un idioma propio con tu hermano.
+R-B0563 | Llamar a la abuela solo para pedirle una receta.
+R-B0564 | Hacer un ángel en la nieve.
+R-B0565 | Saltar en la cama elástica de los vecinos.
+R-B0566 | Dormir hasta mediodía el sábado.
+R-B0567 | Levantarse a las 5 para ir a pescar.
+R-B0568 | Correr por casa con una capa.
+R-B0569 | Bostezar en el peor momento.
+R-B0570 | Confundir los nombres de tus hijos.
+R-B0571 | Decir «venga, nos vamos» y seguir una hora más.
+R-B0572 | Teñir huevos de Pascua con piel de cebolla.
+R-B0573 | Esconder el brócoli debajo de las patatas.
+R-B0574 | Leer las instrucciones hasta el final.
+R-B0575 | Salir de casa en zapatillas.
+R-B0576 | Tener hipo todo el día.
+R-B0577 | Batir el récord de saltar a la comba.
+R-B0578 | Roncar como un tractor.
+R-B0579 | Acariciar un erizo.
+R-B0580 | Ganar el concurso del eructo más largo.
+R-B0581 | Decir el abecedario eructando.
+R-B0582 | Resbalar con una piel de plátano.
+R-B0583 | Jugar al fútbol en el salón.
+R-B0584 | Romper el jarrón de la abuela.
+R-B0585 | Dar pan a los patos.
+R-B0586 | Fingir estar enfermo antes de un examen.
+R-B0587 | Comer en casa de la abuela y luego dos cenas.
+R-B0588 | Que te sirvan más sin pedirlo.
+R-B0589 | Tirar cacao sobre el cuaderno.
+R-B0590 | Pintar la pared con rotuladores.
+R-B0591 | Cortarle el pelo a la muñeca de tu hermana.
+R-B0592 | Esconderse en el armario.
+R-B0593 | Dormir con el perro en la cama.
+R-B0594 | Ver dibujos en pijama.
+R-B0595 | Tener siempre la razón.
+R-B0596 | No tener nunca la razón.
+R-B0597 | Comerse un huevo de chocolate de un bocado.
+R-B0598 | Sacarse un diente con un hilo y el pomo de la puerta.
+R-B0599 | Buscar al Ratoncito Pérez.
+R-B0600 | Esperar la primera estrella en Nochebuena.

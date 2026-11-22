@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Rodzinny (dla wszystkich) · język: en · paczka 06 (karty 1001–1200 z 1512)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-B1001 | A late countdown to midnight.
+R-B1002 | Kids’ champagne.
+R-B1003 | The dog hiding under the bed on New Year’s Eve.
+R-B1004 | The neighbor’s fireworks.
+R-B1005 | A New Year’s Day walk.
+R-B1006 | Doughnut day all week long.
+R-B1007 | The last days of carnival with angel wings pastries.
+R-B1008 | The first day of spring with a straw effigy.
+R-B1009 | Pussy willows in a vase.
+R-B1010 | An Easter egg that cracked in the basket.
+R-B1011 | Easter Monday water fights between apartment blocks.
+R-B1012 | A long weekend in May with a barbecue.
+R-B1013 | Mother’s Day with a handmade card.
+R-B1014 | Father’s Day with a tie.
+R-B1015 | Corpus Christi with flower petals.
+R-B1016 | Midsummer night.
+R-B1017 | Wreaths floating down the river.
+R-B1018 | The end of the school year.
+R-B1019 | Summer holidays at the grandparents’.
+R-B1020 | Harvest festival bread.
+R-B1021 | Mushroom picking in September.
+R-B1022 | The first day of school with a satchel.
+R-B1023 | All Saints’ Day in a traffic jam.
+R-B1024 | St. Andrew’s Eve fortune-telling.
+R-B1025 | An Advent calendar that’s empty after three days.
+R-B1026 | St. Nicholas Day with a birch switch.
+R-B1027 | The great chase for the last Christmas tree.
+R-B1028 | Singing “Happy Birthday” to Grandma.
+R-B1029 | The great family secret.
+R-B1030 | Grandma’s missing ring.
+R-B1031 | Great-grandma’s diary.
+R-B1032 | Grandpa’s old love letter.
+R-B1033 | Grandpa’s medal for exemplary work.
+R-B1034 | My parents’ framed wedding photo.
+R-B1035 | First baby shoes in a display case.
+R-B1036 | A lock of hair in an envelope.
+R-B1037 | A box of keepsakes nobody opens.
+R-B1038 | Great-grandpa’s watch.
+R-B1039 | Grandma’s sewing machine.
+R-B1040 | A crochet hook and some needlework.
+R-B1041 | A ball of wool for the cat.
+R-B1042 | A childhood blanket.
+R-B1043 | Dad’s favorite mug with a broken handle.
+R-B1044 | The plate “for special occasions”.
+R-B1045 | The dinner set we never use.
+R-B1046 | A china set inherited from Auntie.
+R-B1047 | Cutlery in a velvet box.
+R-B1048 | A holiday tablecloth with a beet soup stain.
+R-B1049 | Napkins folded into swans.
+R-B1050 | A crystal bowl for potato salad.
+R-B1051 | Potato salad for every occasion.
+R-B1052 | Eggs in mayonnaise.
+R-B1053 | Pork trotter jelly.
+R-B1054 | Steak tartare for the brave.
+R-B1055 | Herring under a fur coat salad.
+R-B1056 | Fish in tomato and carrot sauce.
+R-B1057 | Egg spread sandwiches.
+R-B1058 | Bites on cocktail sticks.
+R-B1059 | Grandma’s pâté.
+R-B1060 | Lard with crackling.
+R-B1061 | A pickle straight from the jar.
+R-B1062 | Porcini mushroom soup.
+R-B1063 | Sour rye soup in a bread bowl.
+R-B1064 | Tripe soup nobody wants.
+R-B1065 | Barley soup the next day.
+R-B1066 | Potato dumplings with a dimple.
+R-B1067 | Potato gnocchi with butter.
+R-B1068 | Apple fritters.
+R-B1069 | Meat-filled potato dumplings.
+R-B1070 | Lazy cheese dumplings with sugar.
+R-B1071 | Milk soup with noodles.
+R-B1072 | Semolina pudding for breakfast.
+R-B1073 | Porridge that sticks to the spoon.
+R-B1074 | Cereal with milk at midnight.
+R-B1075 | Cheese toasties.
+R-B1076 | A homemade burger.
+R-B1077 | Oven fries.
+R-B1078 | Spaghetti that ends up everywhere.
+R-B1079 | Tomato sauce on the ceiling.
+R-B1080 | Lasagna that lasts three days.
+R-B1081 | Sushi that Grandpa doesn’t trust.
+R-B1082 | A kebab with garlic sauce.
+R-B1083 | A hot dog from a stand.
+R-B1084 | Paprika-flavored chips.
+R-B1085 | Microwave popcorn.
+R-B1086 | Gummy bears.
+R-B1087 | A lollipop the size of your head.
+R-B1088 | Candy from Grandma’s pocket.
+R-B1089 | Chocolate hidden for a rainy day.
+R-B1090 | A candy bar for the school snack.
+R-B1091 | A fortune cookie.
+R-B1092 | Whipped cream straight from the can.
+R-B1093 | A cream slice with whipped cream.
+R-B1094 | No-bake cheesecake.
+R-B1095 | Auntie’s tiramisu.
+R-B1096 | Cream cupcakes.
+R-B1097 | A sweet bun with crumble topping.
+R-B1098 | A St. Martin’s croissant.
+R-B1099 | A Kraków pretzel ring.
+R-B1100 | A toasted open baguette from Kraków’s old Jewish quarter.
+R-B1101 | A waffle with fruit.
+R-B1102 | Soft-serve ice cream from a machine.
+R-B1103 | Tap-water lemonade.
+R-B1104 | Rhubarb compote.
+R-B1105 | Hot cocoa with marshmallows.
+R-B1106 | Tea with raspberry syrup.
+R-B1107 | Onion syrup.
+R-B1108 | Honey for every illness.
+R-B1109 | Garlic for a cold.
+R-B1110 | Grandma’s cupping glasses.
+R-B1111 | A thermometer under the armpit.
+R-B1112 | Cough syrup that tastes like cherry juice from a carton.
+R-B1113 | A dinosaur band-aid.
+R-B1114 | A bandage on the whole arm for a tiny scratch.
+R-B1115 | The green ointment that cures everything.
+R-B1116 | Fizzy vitamin C tablets.
+R-B1117 | Tissues in every pocket.
+R-B1118 | Coughing at the theater.
+R-B1119 | A doctor with illegible handwriting.
+R-B1120 | A week of sick leave.
+R-B1121 | A vaccination with a sticker.
+R-B1122 | Glasses on a chain.
+R-B1123 | Braces.
+R-B1124 | Dad’s first gray hairs.
+R-B1125 | Grandpa’s shiny bald spot.
+R-B1126 | Uncle’s mustache.
+R-B1127 | A beard where something has moved in.
+R-B1128 | A bowl haircut.
+R-B1129 | Auntie’s perm.
+R-B1130 | Pigtails done by Dad.
+R-B1131 | Grandma’s braids.
+R-B1132 | Little sister’s nail polish.
+R-B1133 | Auntie’s perfume filling the whole elevator.
+R-B1134 | Grandpa’s cologne.
+R-B1135 | Spray deodorant that kills flies.
+R-B1136 | A hairbrush full of pet hair.
+R-B1137 | Dad’s razor in my brother’s hands.
+R-B1138 | Mom’s five-minute makeup.
+R-B1139 | A bottomless handbag.
+R-B1140 | A wallet full of receipts.
+R-B1141 | A loyalty card from every store.
+R-B1142 | Money in a sock.
+R-B1143 | Pocket money spent in one day.
+R-B1144 | A cinema ticket left in your trousers.
+R-B1145 | A bus ticket used as a bookmark.
+R-B1146 | A book I’ve been reading for three years.
+R-B1147 | A school reading assignment read as a summary.
+R-B1148 | A twenty-volume encyclopedia.
+R-B1149 | A spelling dictionary used as a doorstop.
+R-B1150 | A newspaper with the TV listings.
+R-B1151 | Grandpa’s crossword.
+R-B1152 | Grandma’s sudoku.
+R-B1153 | The horoscope from the newspaper.
+R-B1154 | The national team match with the whole family in front of the TV.
+R-B1155 | Uncle yelling at the referee through the TV.
+R-B1156 | A last-minute goal.
+R-B1157 | A penalty you can’t bear to watch.
+R-B1158 | Ski jumping on New Year’s Day.
+R-B1159 | Volleyball at 3 a.m.
+R-B1160 | Cheering on the team in pajamas.
+R-B1161 | Grandpa’s club scarf.
+R-B1162 | A ball that landed in the neighbor’s garden.
+R-B1163 | A smashed garage window.
+R-B1164 | A goal made out of two backpacks.
+R-B1165 | An exercise bike nobody rides.
+R-B1166 | Dumbbells under the bed.
+R-B1167 | A pool pass unused since January.
+R-B1168 | Yoga in the living room with the cat.
+R-B1169 | Chasing a dog that ran away.
+R-B1170 | Dancing with Grandpa at a wedding.
+R-B1171 | Morning exercises from the radio.
+R-B1172 | Auntie’s Zumba.
+R-B1173 | A sack race.
+R-B1174 | Tug of war at the fair.
+R-B1175 | An egg-and-spoon race.
+R-B1176 | Bouncy castles at the picnic.
+R-B1177 | A bungee jump off a chair.
+R-B1178 | A chocolate medal.
+R-B1179 | A trophy for every participant.
+R-B1180 | A certificate of participation.
+R-B1181 | First place counting from the bottom.
+R-B1182 | The grand final of the family table football tournament.
+R-B1183 | A ping-pong table in the garage.
+R-B1184 | Darts stuck in the door.
+R-B1185 | Bowling at the office Christmas party.
+R-B1186 | Pool at Uncle’s place.
+R-B1187 | A fishing rod that never catches anything.
+R-B1188 | A fish that was “thiiis big”.
+R-B1189 | A kayak that capsized.
+R-B1190 | A dinghy with a hole in it.
+R-B1191 | A life jacket two sizes too big.
+R-B1192 | A sailboat with no wind.
+R-B1193 | Skis borrowed from the neighbor.
+R-B1194 | A T-bar ski lift.
+R-B1195 | Falling on the slope in front of the whole family.
+R-B1196 | My brother’s snowboard.
+R-B1197 | Ice skates that rub your ankles raw.
+R-B1198 | A watermelon-shaped bike helmet.
+R-B1199 | Reflectors on everything.
+R-B1200 | Grandpa’s hi-vis vest.

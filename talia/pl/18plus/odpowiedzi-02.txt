@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Bez tabu (18+) · język: pl · paczka 02 (karty 201–400 z 997)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - X-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+X-B0201 | „Jak się nie podoba, to wyjedź”.
+X-B0202 | Polak, który zna się na medycynie, piłce i polityce.
+X-B0203 | Teściowa z zasadami z 1970 roku.
+X-B0204 | Rodzina, w której nie ma tematów tabu.
+X-B0205 | Wigilia, po której nikt ze sobą nie rozmawia.
+X-B0206 | Rozmowa o seksie z babcią.
+X-B0207 | Babcia, która wie więcej o seksie niż wnuki.
+X-B0208 | Dziadek, który ma swoje sposoby z czasów wojska.
+X-B0209 | Rodzinny sekret, o którym wiedzą wszyscy oprócz dziadka.
+X-B0210 | Testament, przez który rodzina przestała się odzywać.
+X-B0211 | Spadek w postaci długów i obrazu Matki Boskiej.
+X-B0212 | Ksiądz, który przyszedł po kolędzie i został na wódkę.
+X-B0213 | Wujek, który na kolędzie pyta księdza o jego dziewczynę.
+X-B0214 | Ksiądz, który ma więcej obserwujących niż parafian.
+X-B0215 | Parafia, która organizuje wycieczkę do Rzymu za trzy pensje.
+X-B0216 | Papieskie kremówki jako tradycja.
+X-B0217 | Obraz świętego, który podobno płacze.
+X-B0218 | Medalik na szczęście przed maturą.
+X-B0219 | Świeczka zapalona w intencji, żeby wujek się zamknął.
+X-B0220 | Msza w intencji wygranej reprezentacji.
+X-B0221 | Modlitwa przed rzutem karnym.
+X-B0222 | Koronka do Miłosierdzia w radiu w samochodzie babci.
+X-B0223 | Radio z kazaniami w taksówce.
+X-B0224 | Bóg, który ma dość polskiej rodziny.
+X-B0225 | Pan Bóg na urlopie.
+X-B0226 | Apokalipsa, którą przewidziała ciocia.
+X-B0227 | Koniec świata przełożony z powodu świąt.
+X-B0228 | Mój chłopak na rodzinnym grillu.
+X-B0229 | Mój chłopak, którego tata nazywa „kolegą”.
+X-B0230 | Mój chłopak, który zna więcej przepisów babci niż ja.
+X-B0231 | Mąż, który gotuje lepiej niż mama.
+X-B0232 | Dwóch tatusiów na wywiadówce.
+X-B0233 | Dwie mamy na zebraniu z rodzicami.
+X-B0234 | Lesbijki z vanem i dwoma psami.
+X-B0235 | Lesbijka, która naprawiła wujkowi auto.
+X-B0236 | Bi kuzynka, która nie umie się zdecydować na nic, nawet na pizzę.
+X-B0237 | Zaimki w podpisie maila do urzędu.
+X-B0238 | Wujek, który myli zaimki i wszystko inne.
+X-B0239 | Teczka z napisem „ideologia”.
+X-B0240 | Ideologia, która nauczyła mnie gotować.
+X-B0241 | Gender, którego boi się proboszcz.
+X-B0242 | Gender jako straszak na dzieci.
+X-B0243 | Lekcja wychowania do życia w rodzinie z bocianem.
+X-B0244 | Edukacja seksualna z podręcznika z 1987 roku.
+X-B0245 | Bocian, który przynosi dzieci za 500 plus.
+X-B0246 | Kapusta, w której znaleziono dziecko.
+X-B0247 | Rozmowa o pszczółkach z księdzem.
+X-B0248 | Prezerwatywa w portfelu od 2014 roku.
+X-B0249 | Ciąża, o której dowiedziała się cała parafia przed tatą.
+X-B0250 | Wesele „na szybko” w piątym miesiącu.
+X-B0251 | Chrzciny, na których ksiądz pyta o ślub rodziców.
+X-B0252 | Rozwód kościelny za 20 tysięcy.
+X-B0253 | Unieważnienie małżeństwa po 15 latach i trójce dzieci.
+X-B0254 | Druga żona wujka na pierwszej komunii.
+X-B0255 | Kochanka na pogrzebie.
+X-B0256 | Romans z organistą.
+X-B0257 | Romans w chórze kościelnym.
+X-B0258 | Ksiądz, który poleca swatkę.
+X-B0259 | Swatka z Radia, która łączy pary po 60.
+X-B0260 | Babcia na portalu randkowym dla seniorów.
+X-B0261 | Dziadek, który znalazł dziewczynę w sanatorium.
+X-B0262 | Sanatorium, z którego wraca się z nową rodziną.
+X-B0263 | Seks przed ślubem jako największy grzech.
+X-B0264 | Seks po ślubie jako największa rzadkość.
+X-B0265 | Ślub z rozsądku, czyli z kredytem.
+X-B0266 | Kredyt na komunię.
+X-B0267 | Kredyt na wesele, którego nikt nie pamięta.
+X-B0268 | Kredyt we frankach jako spadek po rodzicach.
+X-B0269 | Bank, który ma lepsze życie niż ja.
+X-B0270 | Kryzys wiary w wieku 15 lat.
+X-B0271 | Ateista na wigilii łamiący się opłatkiem.
+X-B0272 | Ateista, który zna wszystkie kolędy.
+X-B0273 | Agnostyk, który modli się przed lotem.
+X-B0274 | Świadkowie Jehowy pod drzwiami w sobotę o 9 rano.
+X-B0275 | Odpowiedź „Jestem gejem” do Świadków Jehowy.
+X-B0276 | Mormoni na rowerach na polskiej wsi.
+X-B0277 | Sekta, do której zapisała się sąsiadka.
+X-B0278 | Medytacja jako grzech według babci.
+X-B0279 | Joga jako opętanie według cioci.
+X-B0280 | Halloween jako satanizm według proboszcza.
+X-B0281 | Harry Potter na liście zakazanych lektur.
+X-B0282 | Egzorcysta na telefon.
+X-B0283 | Egzorcyzm wujka po weselu.
+X-B0284 | Opętanie, które okazało się kacem.
+X-B0285 | Diabeł w szczegółach umowy z bankiem.
+X-B0286 | Piekło jako ciągła wigilia z rodziną.
+X-B0287 | Raj z darmowym Wi-Fi.
+X-B0288 | Niebo dla wszystkich oprócz polityków.
+X-B0289 | Ostatnie namaszczenie przed kolonoskopią.
+X-B0290 | Odpust w parafii z waty cukrowej i plastikowych pistoletów.
+X-B0291 | Kremówka z jedną trzecią cukru.
+X-B0292 | Pielgrzymka, po której wujek wrócił z nową żoną.
+X-B0293 | Grzechy spisane na kartce i zgubione w autobusie.
+X-B0294 | Spowiedź u księdza, który zna moją mamę.
+X-B0295 | Tajemnica spowiedzi, którą zna cała wieś.
+X-B0296 | Pokuta: trzy razy obejrzeć obrady Sejmu.
+X-B0297 | Pokuta: zjeść całą wigilię u teściowej.
+X-B0298 | Post w piątek ze śledziem za 80 złotych.
+X-B0299 | Post w Wielki Piątek z pizzą wegetariańską.
+X-B0300 | Środa Popielcowa z popiołem na czole przez cały dzień w pracy.
+X-B0301 | Droga krzyżowa w korku na autostradzie.
+X-B0302 | Rorata z lampionem ze sklepu meblowego.
+X-B0303 | Jasełka z politykami w roli Heroda.
+X-B0304 | Szopka bożonarodzeniowa z krasnalem ogrodowym.
+X-B0305 | Choinka z bombką z wizerunkiem papieża.
+X-B0306 | Wigilijny karp z imieniem.
+X-B0307 | Pusty talerz dla wędrowca, którego nikt nie wpuści.
+X-B0308 | Wędrowiec, który przyszedł i okazał się byłym chłopakiem.
+X-B0309 | Pierwsza gwiazdka, którą okazał się dron.
+X-B0310 | Prezent pod choinką: Biblia z dedykacją od cioci.
+X-B0311 | Prezent pod choinką: książka „Jak znaleźć żonę”.
+X-B0312 | Prezent pod choinką: perfumy z napisem „dla prawdziwego mężczyzny”.
+X-B0313 | Prezent pod choinką: tęczowe skarpetki od babci.
+X-B0314 | Babcia, która kupiła tęczową flagę, bo była ładna.
+X-B0315 | Mama na paradzie równości z transparentem „Kocham syna”.
+X-B0316 | Tata, który nie przyszedł na paradę, ale przyniósł kanapki.
+X-B0317 | Wujek na kontrmanifestacji po drugiej stronie ulicy.
+X-B0318 | Kanapki z jajkiem na paradzie równości.
+X-B0319 | Brokat, który zostaje na całe życie.
+X-B0320 | Drag queen na komunii kuzyna.
+X-B0321 | Drag queen, która śpiewa lepiej niż organista.
+X-B0322 | Szpilki rozmiar 45.
+X-B0323 | Makijaż, który zrobiłem cioci na wesele.
+X-B0324 | Brwi lepsze niż u wszystkich kobiet w rodzinie.
+X-B0325 | Taniec do Madonny na stole w remizie.
+X-B0326 | Cher na każdej imprezie.
+X-B0327 | Musical oglądany 47 razy.
+X-B0328 | Eurowizja z punktacją prowadzoną w Excelu.
+X-B0329 | Polski występ na Eurowizji, który zajął przedostatnie miejsce.
+X-B0330 | Głosowanie na Eurowizji ważniejsze niż wybory.
+X-B0331 | Chłopak, który ma lepsze włosy niż ja.
+X-B0332 | Siłownia jako druga religia.
+X-B0333 | Białko jako sakrament.
+X-B0334 | Lustro na siłowni jako ołtarz.
+X-B0335 | Selfie po treningu jako modlitwa.
+X-B0336 | Klub gejowski w piwnicy w Radomiu.
+X-B0337 | Bar, w którym wszyscy się znają przez byłych.
+X-B0338 | Były mojego byłego, który jest teraz moim kolegą z pracy.
+X-B0339 | Mała społeczność, w której wszyscy byli z każdym.
+X-B0340 | Wesele, na którym połowa gości to moi byli.
+X-B0341 | Polska wieś, która wie o mnie więcej niż ja.
+X-B0342 | Sąsiadka, która sprawdza, ile szczoteczek mam w łazience.
+X-B0343 | Szczoteczka chłopaka schowana przed mamą.
+X-B0344 | Przemeblowanie mieszkania przed wizytą rodziców.
+X-B0345 | Dwie kołdry dla zachowania pozorów.
+X-B0346 | Druga sypialnia dla rodziców do wierzenia.
+X-B0347 | Zdjęcie chłopaka podpisane „z kolegą na wakacjach”.
+X-B0348 | Wakacje „z kolegą” od 8 lat.
+X-B0349 | „Kolega”, z którym mieszkam, gotuję i adoptowałem psa.
+X-B0350 | Pies, który ma dwóch tatusiów.
+X-B0351 | Kot, który jest jedynym hetero w domu.
+X-B0352 | Wujek, który mówi, że to przez wodę z kranu.
+X-B0353 | Teoria cioci, że to przez szczepionki.
+X-B0354 | Teoria babci, że to przez komputer.
+X-B0355 | Teoria proboszcza, że to przez Unię Europejską.
+X-B0356 | Unia Europejska jako winna wszystkiemu.
+X-B0357 | Bruksela, która zabrała nam żarówki.
+X-B0358 | Dopłaty unijne do traktora wujka.
+X-B0359 | Wujek, który nienawidzi Unii i kocha jej pieniądze.
+X-B0360 | Rolnik z dotacją i opinią o rządzie.
+X-B0361 | Strefa wolna od wszystkiego.
+X-B0362 | Gmina, która ogłosiła się wolną od mojej obecności.
+X-B0363 | Mój przyjazd do tej gminy z tęczową walizką.
+X-B0364 | Ksiądz, który wyklął mnie z ambony, a potem zamówił u mnie stronę internetową.
+X-B0365 | Proboszcz, który prosi mnie o pomoc z Facebookiem.
+X-B0366 | Ksiądz, który wie o modzie więcej niż ja.
+X-B0367 | Ksiądz w za ciasnej sutannie.
+X-B0368 | Sutanna w szafie razem z moim wyjściem z niej.
+X-B0369 | Wyjście z szafy, po którym nie da się już wejść.
+X-B0370 | Szafa, w której było naprawdę ciasno.
+X-B0371 | Narnia, którą znalazłem w szafie.
+X-B0372 | Tęczowy jednorożec jako maskotka rodziny.
+X-B0373 | Wujek, który przyszedł na moje urodziny z księdzem.
+X-B0374 | Rodzinne rekolekcje w mojej intencji.
+X-B0375 | Msza w intencji mojego „nawrócenia”.
+X-B0376 | Moja intencja: żeby ciocia się nawróciła na tolerancję.
+X-B0377 | Tolerancja w wersji „byle nie u nas”.
+X-B0378 | Akceptacja po trzecim kieliszku.
+X-B0379 | Akceptacja, która przyszła razem z wnukiem z adopcji za granicą.
+X-B0380 | Dziadek, który na łożu śmierci powiedział, że zawsze lubił mojego chłopaka.
+X-B0381 | Pogrzeb, na którym ksiądz nie wie, kim jest „ten pan obok”.
+X-B0382 | Grób rodzinny, w którym zabrakło miejsca dla męża.
+X-B0383 | Nagrobek z dwoma imionami męskimi i ciocią w szoku.
+X-B0384 | Wszystkich Świętych z kłótnią o znicze.
+X-B0385 | Znicze z dyskontu w promocji 3 za 2.
+X-B0386 | Korek na cmentarz jak do Zakopanego.
+X-B0387 | Cmentarz jako miejsce rodzinnych plotek.
+X-B0388 | Cmentarna Wigilia, na której wujek opowiada politykę zmarłym.
+X-B0389 | Debata w Sejmie o tym, czy pizza z ananasem jest zgodna z konstytucją.
+X-B0390 | Ustawa o obowiązkowym schabowym w niedzielę.
+X-B0391 | Podatek od narzekania.
+X-B0392 | Podatek od singli.
+X-B0393 | Ulga podatkowa za posiadanie teściowej.
+X-B0394 | Ministerstwo do spraw wigilii.
+X-B0395 | Ministerstwo szczęścia z budżetem 12 złotych.
+X-B0396 | Pełnomocnik rządu do spraw karpia.
+X-B0397 | Komisja do spraw zbadania, gdzie są pieniądze.
+X-B0398 | Raport NIK, którego nikt nie czyta.
+X-B0399 | Prokurator, który bada sprawę od 2009 roku.
+X-B0400 | Sąd, który ma rozprawę w 2034 roku.

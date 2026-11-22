@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Cards Against Humanity (CC BY-NC-SA) · język: pl · paczka 05 (karty 801–1000 z 2042)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - C-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+C-B03467 | Dużo nietoperzy.
+C-B03468 | Mapy bez Nowej Zelandii.
+C-B03469 | Boysband z lat 90.
+C-B06782 | Ślub z miłym chłopakiem z Pakistanu.
+C-B03470 | Magda Gessler.
+C-B03472 | Ogromna, rozległa susza.
+C-B01415 | Masturbowanie się w szlafroku jak bogacz.
+C-B06674 | Masturbacja w autonomicznej taksówce i włączenie alarmu masturbacyjnego.
+C-B03473 | Masturbowanie się.
+C-B03474 | Masturbacja.
+C-B03475 | Olimpijczycy z matmy.
+C-B03477 | MDMA.
+C-B03478 | Moje cycuszki.
+C-B03479 | Czas dla siebie.
+C-B01422 | Ja.
+C-B03480 | MechaHitler.
+C-B01428 | Przeciętność.
+C-B03481 | Czerniak.
+C-B03482 | Memy.
+C-B03483 | Faceci rozmawiający o uczuciach w zdrowy emocjonalnie sposób.
+C-B03484 | Faceci.
+C-B03485 | Wściekłość okresowa.
+C-B03486 | Miesiączka.
+C-B03487 | Mefedron.
+C-B06705 | Michael B. Jordan.
+C-B03488 | Michael Jackson.
+C-B03489 | Ramiona Michelle Obamy.
+C-B06720 | Mikrodawka LSD przed wywiadówką.
+C-B03490 | Mike Pence.
+C-B03491 | Miley Cyrus w wieku 55 lat.
+C-B03492 | Miley Cyrus.
+C-B03493 | Miliony ropuch agi.
+C-B03494 | Kibole.
+C-B03495 | Wypadki w kopalni.
+C-B01441 | Mieszanie M&M'sów ze Skittlesami jak jakiś psychopata.
+C-B01442 | Umiarkowany do silnego ból stawów.
+C-B01444 | Mama.
+C-B01449 | Muczenie.
+C-B02390 | Wielbłądzia stópka w obcisłych dżinsach.
+C-B01451 | Moralna dwuznaczność.
+C-B03498 | Głos Krystyny Czubówny.
+C-B03499 | Napój energetyczny o smaku wiśni.
+C-B03500 | Opryszczka.
+C-B03501 | Powrót na wieś.
+C-B03502 | Pan Proper tuż za tobą.
+C-B05960 | Pan Proper.
+C-B03503 | Pan Kleks.
+C-B03504 | Pan Kuleczka.
+C-B01454 | Scena śmierci Mufasy.
+C-B01456 | Wielokrotne orgazmy.
+C-B03508 | Wielokrotne rany kłute.
+C-B03509 | Morderstwo.
+C-B03510 | Wzajemnie zagwarantowane zniszczenie.
+C-B03512 | Kurs językowy z kreskówką.
+C-B03514 | Moje jaja na twojej twarzy.
+C-B03515 | Mój czarny tyłek.
+C-B03517 | Mój szef.
+C-B03518 | Moja różowiutka dziurka.
+C-B01464 | Mój kot, który umarł.
+C-B03519 | Mój zdradziecki kutas mąż.
+C-B03521 | Moja kolekcja zaawansowanych technicznie zabawek erotycznych.
+C-B03523 | Moja była żona.
+C-B03524 | Moja gruba córka.
+C-B01470 | Mój ojciec, który zmarł, gdy miałem siedem lat.
+C-B01471 | Moje pierwsze zabójstwo.
+C-B03525 | Mój seksniewolnik, Zdzisio.
+C-B03526 | Mój najlepszy przyjaciel gej.
+C-B03527 | Moje genitalia.
+C-B03528 | Mój dobry stanik.
+C-B03530 | Moje krągłości.
+C-B03531 | Moje wewnętrzne demony.
+C-B03532 | Mój mały wzwodzik.
+C-B01477 | Moja maczeta.
+C-B03533 | Mój kumpel Darek.
+C-B03534 | Moja szyja, moje plecy, moja cipka i mój rowek.
+C-B03535 | Mój skorpion Tina.
+C-B03536 | Mój status związku.
+C-B03537 | Moje życie seksualne.
+C-B03538 | Moja dusza.
+C-B03539 | Mój kierowca z Ubera, Paweł.
+C-B03541 | Moja brzydka gęba i paskudny charakter.
+C-B03542 | Moja wagina.
+C-B03543 | Moja żona uprawiająca seks z twoją żoną.
+C-B03544 | Nachosy dla całego stołu.
+C-B03545 | Wiadomości nago.
+C-B05724 | Majonez kielecki.
+C-B03546 | Obrzydliwe gówno, naprawdę chore rzeczy.
+C-B03547 | Natalie Portman.
+C-B03548 | Gaz ziemny.
+C-B03549 | Naturalne powiększanie penisa.
+C-B03550 | Dobór naturalny.
+C-B03551 | Naziści.
+C-B03552 | Gwiazda NBA LeBron James.
+C-B03553 | Nekrofilia.
+C-B06719 | Nigdy niespłacone długi.
+C-B03554 | Muzyka relaksacyjna.
+C-B03556 | NFT.
+C-B03557 | Nickelback.
+C-B03558 | Nicki Minaj.
+C-B03559 | Nicolas Cage.
+C-B03560 | Wypadnięty sutek.
+C-B03561 | Szczypce kraba.
+C-B03562 | Ostrza na sutkach.
+C-B03563 | To, że już nikogo nic nie obchodzi.
+C-B03564 | Zmazy nocne.
+C-B01516 | Brak jakiegokolwiek sensownego wkładu w społeczeństwo.
+C-B03565 | Totalne olewanie Trzeciego Świata.
+C-B01517 | Brak seksu.
+C-B03566 | Nieodwzajemnianie seksu oralnego.
+C-B03567 | Nieszczepienie dzieci, bo jestem głupi.
+C-B03568 | Brak spodni.
+C-B03570 | Nic tylko piasek.
+C-B01518 | Nic.
+C-B01520 | Ruchy z nunczako.
+C-B03571 | Otyłość.
+C-B03572 | Stałość przedmiotu.
+C-B06692 | A, nieważne.
+C-B03574 | Zapach starszych ludzi.
+C-B01523 | Złowroga muzyka w tle.
+C-B01528 | Jeden pierścień, by wszystkimi rządzić.
+C-B03576 | Jeden cycek na wierzchu.
+C-B03577 | Bilion złotych.
+C-B03578 | Umawianie się tylko z Azjatkami.
+C-B03579 | Umpa Lumpy.
+C-B03580 | Przeciwstawne kciuki.
+C-B03581 | Oprah.
+C-B03582 | Nasze dildo.
+C-B03583 | Nasz pierwszy prezydent szympans.
+C-B01539 | Nasz wspólny znajomy Brajan.
+C-B01541 | Wymykające się spod kontroli nastoletnie imprezy z lodzikami.
+C-B03585 | Ponad 10 000 migrantów.
+C-B03586 | Nadkompensacja.
+C-B01545 | Pokonanie własnego ojca.
+C-B03587 | Mówienie za dużo o sobie.
+C-B03588 | Gigantyczne lizaki.
+C-B03589 | Prowadzenie franczyzy Pizza Hut.
+C-B03592 | Najtańsze piwo z Lidla.
+C-B03593 | Pac-Man, który bez opamiętania pochłania spermę.
+C-B03595 | Seks pand.
+C-B03596 | Paris Hilton.
+C-B03597 | Rozstąpienie się Morza Czerwonego.
+C-B03598 | Psujący zabawę.
+C-B03600 | Rodzenie kamienia nerkowego.
+C-B03601 | Pasywna agresja.
+C-B03602 | Pasywno-agresywne karteczki na lodówce.
+C-B05725 | Paul Hollywood.
+C-B03604 | Anielski pył.
+C-B03605 | Pora na masło orzechowe z dżemem.
+C-B03607 | Lekkie posikanie się.
+C-B03608 | Oddech jak penis.
+C-B03609 | Zazdrość o penisa.
+C-B03610 | Ludzie, którzy wąchają własne skarpetki.
+C-B03611 | Gra wstępna z obowiązku.
+C-B03612 | Trwała mina orgazmowa.
+C-B03614 | Zdjęcia cycków.
+C-B03616 | Tabletki na imprezę.
+C-B03617 | Sikanie do moich spragnionych ust.
+C-B03618 | Rozpikselowane bukkake.
+C-B03619 | Robienie sobie jaj.
+C-B06672 | Odmowa składania zeznań.
+C-B03620 | Brutalność policji.
+C-B03621 | Polacy.
+C-B06784 | Kupka.
+C-B03622 | Robienie kupy w tę i z powrotem. Na zawsze.
+C-B03623 | Zrobienie kupy do laptopa i zamknięcie go.
+C-B03624 | Zrobienie kupy do zupy.
+C-B03625 | Zasrane pieluchy.
+C-B03626 | Kiepskie wybory życiowe.
+C-B03627 | Biedni ludzie.
+C-B03629 | Postawione kołnierzyki.
+C-B03630 | Gwiazdy porno.
+C-B01581 | Ziemniak.
+C-B03631 | Frytki z sosem i serem.
+C-B03632 | Bieda.
+C-B01582 | Władza.
+C-B03633 | Potężne uda.
+C-B03634 | Podskakiwanie.
+C-B03635 | Wymodlenie bycia gejem.
+C-B03636 | Leki przeciwbólowe na receptę.
+C-B06724 | Wciśnij 2, aby kontynuować po ukraińsku.
+C-B03638 | Udawanie dentysty.
+C-B01589 | Udawanie hetero.
+C-B03639 | Udawanie, że mnie to obchodzi.
+C-B06785 | Prywatyzacja NFZ.
+C-B03640 | Pikieta pro-life.
+C-B03641 | Głęboki szacunek i uznanie dla kultury rdzennej.
+C-B03642 | Wymawianie nazw kaszubskich wsi.
+C-B03643 | Stymulacja prostaty.
+C-B03645 | Jaja pterodaktyla.
+C-B03646 | PTSD.
+C-B03647 | Dojrzewanie.
+C-B03648 | Publiczne pośmiewisko.
+C-B03649 | Stosunek przerywany.
+C-B01601 | Rodzenie dziecka co dziewięć miesięcy.
+C-B03651 | Walnięcie posła w twarz.
+C-B03652 | Szczeniaczki!
+C-B03653 | Pussy Galore.
+C-B05972 | Putin.
+C-B03655 | Odkładanie rzeczy na miejsce.
+C-B06679 | Rodzinny czas, gdy wszyscy gapimy się w telefony.

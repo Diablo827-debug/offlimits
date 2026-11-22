@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Po 22:00 (pikantniejsze) · język: es · paczka 06 (karty 1001–1200 z 1502)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-B1001 | Un amanecer que solo veo después de las fiestas.
+N-B1002 | Pájaros cantando cuando vuelvo a casa.
+N-B1003 | Desayunar con gente que conocí a las 3 de la mañana.
+N-B1004 | Despertarse con un gato sentado en el pecho.
+N-B1005 | Un mensaje de mamá: «¿Estás vivo?».
+N-B1006 | Respuesta a mamá: «Sí».
+N-B1007 | Fotos de anoche que alguien subió al grupo.
+N-B1008 | Un vídeo de karaoke circulando por la oficina.
+N-B1009 | Un meme con mi cara.
+N-B1010 | Un mote puesto en un viaje de empresa.
+N-B1011 | Un recuerdo que preferiría no tener.
+N-B1012 | Una historia que todos conocen menos yo.
+N-B1013 | Una leyenda que crece cada año.
+N-B1014 | El misterio del viaje a Praga.
+N-B1015 | Una foto con un patinete dentro de una fuente.
+N-B1016 | Una multa de la policía local por cantar.
+N-B1017 | Una noche en comisaría de la que nadie habla.
+N-B1018 | Una charla con un policía sobre el sentido de la vida.
+N-B1019 | Pedir perdón a los vecinos con una tarta.
+N-B1020 | Una tarta que no fue suficiente.
+N-B1021 | La gran vuelta a casa el domingo por la noche.
+N-B1022 | La ropa sucia del viaje que nadie quiere deshacer.
+N-B1023 | Una maleta sin deshacer durante una semana.
+N-B1024 | El síndrome posfinde.
+N-B1025 | El lunes como castigo por el fin de semana.
+N-B1026 | Un martes que parece lunes.
+N-B1027 | El miércoles, o sea, el pequeño viernes.
+N-B1028 | El jueves como el nuevo viernes.
+N-B1029 | Un viernes 13 en el trabajo.
+N-B1030 | Un fin de semana que pasó en 5 minutos.
+N-B1031 | El domingo, o sea, la preparación para el lunes.
+N-B1032 | Una noche de series que acaba a las 3 de la mañana.
+N-B1033 | «Un capítulo más» seis veces.
+N-B1034 | Un final de serie que me arruinó la vida.
+N-B1035 | Un spoiler en el titular de una noticia.
+N-B1036 | Un documental sobre un asesino en serie antes de dormir.
+N-B1037 | Una peli de terror después de la cual dormimos con la luz encendida.
+N-B1038 | Una comedia romántica con la que lloró el chico.
+N-B1039 | Una película que todos han visto menos yo.
+N-B1040 | Unos dibujos que veo sin los niños.
+N-B1041 | Un juego de mesa que destrozó una amistad.
+N-B1042 | Un juego de mesa de inmuebles que duró siete horas.
+N-B1043 | Mímica con pistas para adultos.
+N-B1044 | Un juego de cartas en el que pierdes amigos.
+N-B1045 | Un torneo de videojuego de fútbol para ver quién friega.
+N-B1046 | Una consola comprada «para el niño».
+N-B1047 | Videojuegos a las 4 de la mañana con 38 años.
+N-B1048 | Unos auriculares dignos de un piloto.
+N-B1049 | Una silla gamer para un oficinista.
+N-B1050 | Una conversación sincera a las 3 de la mañana en la cocina.
+N-B1051 | Filosofía de vida después de la cuarta cerveza.
+N-B1052 | Un plan de vida escrito en una servilleta de bar.
+N-B1053 | La promesa de que el lunes todo cambiará.
+N-B1054 | Una lista de cosas que hacer antes de los cuarenta.
+N-B1055 | Una lista de cosas que nunca haré.
+N-B1056 | Una lista de deseos con un solo punto: dormir.
+N-B1057 | Un niño interior que quiere helado para cenar.
+N-B1058 | Un jubilado interior que quiere silencio.
+N-B1059 | La vida adulta como un gran error.
+N-B1060 | Una responsabilidad que nadie quería.
+N-B1061 | Facturas que no se pagan solas.
+N-B1062 | La primera cana y el primer préstamo en el mismo mes.
+N-B1063 | La edad en la que el dolor de espalda es tema de conversación.
+N-B1064 | La edad en la que una fiesta hasta las 22:00 es un éxito.
+N-B1065 | La edad en la que te alegra una escobilla de váter nueva.
+N-B1066 | La edad en la que dejas de conocer las canciones nuevas.
+N-B1067 | La música de los 2000 como «los buenos tiempos».
+N-B1068 | Un grupo al que voy a ver en concierto desde hace 20 años.
+N-B1069 | Un concierto en el que soy el más viejo.
+N-B1070 | Una discoteca en la que me siento como un padre.
+N-B1071 | La música demasiado alta y yo demasiado viejo.
+N-B1072 | Auriculares con cancelación de ruido como refugio de la familia.
+N-B1073 | Un grupo familiar silenciado.
+N-B1074 | El modo «no molestar» de viernes a lunes.
+N-B1075 | La respuesta «lo he leído, pero no tengo fuerzas».
+N-B1076 | Un introvertido en una boda.
+N-B1077 | Un extrovertido en un funeral.
+N-B1078 | Alguien que dice «yo solo soy sincero».
+N-B1079 | Alguien que dice «no juzgo» y juzga.
+N-B1080 | «Sin ánimo de ofender, pero…»
+N-B1081 | «No quiero decir nada, pero…»
+N-B1082 | «Yo digo lo que pienso.»
+N-B1083 | «Te lo digo yo, todo saldrá bien.»
+N-B1084 | «¿No te lo dije?»
+N-B1085 | «Haz lo que te parezca» como amenaza.
+N-B1086 | «Me da igual» como trampa.
+N-B1087 | «No estoy enfadada» de una mujer furiosa.
+N-B1088 | «Ahora voy» de un marido delante de la tele.
+N-B1089 | «Ya voy» de alguien que no va a venir.
+N-B1090 | «Ya te diremos algo» de un reclutador.
+N-B1091 | «Ya retomaremos el tema» del jefe.
+N-B1092 | «No hay problema» de un operario a punto de desaparecer.
+N-B1093 | «Estará para mañana» del mecánico.
+N-B1094 | «En mi ordenador funciona» del informático.
+N-B1095 | «Solo tenemos un pequeño problema» del piloto del avión.
+N-B1096 | «No se ponga nervioso» de la funcionaria.
+N-B1097 | «No te asustes» del peluquero.
+N-B1098 | «Sigamos en contacto» de un ex.
+N-B1099 | «¿Qué tal estás?» de alguien que quiere dinero prestado.
+N-B1100 | «¿Te acuerdas de mí?» de alguien de quien no me acuerdo.
+N-B1101 | El negocio multinivel de una compañera del instituto.
+N-B1102 | Una invitación a una «reunión de oportunidad de negocio».
+N-B1103 | Ollas vendidas en una excursión gratis.
+N-B1104 | Una demostración de ropa de cama para jubilados.
+N-B1105 | Un préstamo rápido para los regalos de Navidad.
+N-B1106 | Ganar un concurso que resultó ser una estafa.
+N-B1107 | Un mensaje de un príncipe lejano que quiere compartir su herencia.
+N-B1108 | Un SMS: «Mamá, he perdido el móvil, mándame un código para una transferencia».
+N-B1109 | Un repartidor que pide 30 céntimos de más.
+N-B1110 | Un correo del banco lleno de faltas de ortografía.
+N-B1111 | La contraseña «qwerty123».
+N-B1112 | Todas las contraseñas apuntadas en un cuaderno.
+N-B1113 | La contraseña olvidada de un correo de 2008.
+N-B1114 | Verificación en dos pasos en mitad de la noche.
+N-B1115 | Un captcha que no consigo resolver.
+N-B1116 | La prueba de que no soy un robot.
+N-B1117 | Un robot que dice que no es un robot.
+N-B1118 | Una inteligencia artificial que escribe mis correos.
+N-B1119 | Un chatbot que me entiende mejor que mi pareja.
+N-B1120 | Un asistente de voz que se activa solo.
+N-B1121 | Una nevera conectada que delata mi estilo de vida.
+N-B1122 | Un reloj inteligente que me juzga.
+N-B1123 | Una app de meditación que me estresa.
+N-B1124 | Una app de ahorro que muestra la verdad.
+N-B1125 | Una app de citas como juego para el móvil.
+N-B1126 | Una app para beber agua a la que no hago caso.
+N-B1127 | La notificación «Tu tiempo de pantalla ha subido un 40 %».
+N-B1128 | El móvil como extensión de la mano.
+N-B1129 | Un móvil que se cayó al váter.
+N-B1130 | Una pantalla rota que no cambio por principios.
+N-B1131 | Un cargador prestado y nunca devuelto.
+N-B1132 | Una batería externa para una boda.
+N-B1133 | El 2 % de batería en una cita.
+N-B1134 | Fotos de todo un año en la galería que nunca miraré.
+N-B1135 | Una nube llena de capturas de pantalla.
+N-B1136 | Una captura de una conversación enviada a la persona equivocada.
+N-B1137 | El grupo «Chicas» criticando a los chicos.
+N-B1138 | El grupo «Chicos» solo con memes.
+N-B1139 | El grupo de la boda de unos amigos activo tres años después.
+N-B1140 | Un grupo familiar en el que alguien añadió a la exmujer.
+N-B1141 | Un calendario compartido que nadie mira.
+N-B1142 | Un recordatorio de cumpleaños de Facebook.
+N-B1143 | Felicitaciones de copiar y pegar.
+N-B1144 | Una tarjeta de Navidad con el logo de la empresa.
+N-B1145 | Una caja de bombones para cualquier ocasión.
+N-B1146 | Una botella de vino de regalo que circula por toda la familia.
+N-B1147 | Un set de cosméticos del súper para el Día de la Mujer.
+N-B1148 | Calcetines con «Mejor papá del mundo».
+N-B1149 | Una taza de «Mejor suegra» con sarcasmo.
+N-B1150 | Una camiseta con «No preguntes para cuándo la boda».
+N-B1151 | Un cojín con la cara de mi pareja.
+N-B1152 | Un fotolibro de nuestras vacaciones.
+N-B1153 | Un vale para saltar en paracaídas para alguien con vértigo.
+N-B1154 | Un vale de spa caducado.
+N-B1155 | Entradas de teatro para una obra sobre el divorcio.
+N-B1156 | Una cena sorpresa con mi ex de camarera.
+N-B1157 | Un crucero romántico con mareo.
+N-B1158 | Una montaña rusa en una primera cita.
+N-B1159 | Un escape room con los suegros.
+N-B1160 | Paintball con recursos humanos.
+N-B1161 | Bolos con la dirección de la empresa.
+N-B1162 | Karaoke con la contable.
+N-B1163 | Una cena de Navidad de empresa con encuesta sobre integración.
+N-B1164 | Un concurso de jerséis navideños.
+N-B1165 | Un amigo invisible al que siempre le toca el jefe.
+N-B1166 | Un regalo del jefe de 5 euros.
+N-B1167 | Un vale de 12 euros para la droguería como paga extra.
+N-B1168 | El día de los dónuts en la oficina con dónuts de ayer.
+N-B1169 | Una tarta en la cocina de la oficina que desaparece en 4 minutos.
+N-B1170 | El cumpleaños de un compañero con una colecta para el regalo.
+N-B1171 | Una colecta en la que todos ponen 1 euro.
+N-B1172 | Una tarjeta de felicitación firmada por gente que no le conoce.
+N-B1173 | Un compañero que trae comida con ajo al trabajo.
+N-B1174 | El microondas de la oficina con cola a las 12:00.
+N-B1175 | La nevera de la oficina como escena del crimen.
+N-B1176 | Una taza con el nombre de otro.
+N-B1177 | La eterna pregunta «¿quién no ha lavado su taza?».
+N-B1178 | Un cartel en el fregadero: «Tu madre no trabaja aquí».
+N-B1179 | El aire acondicionado a 16 grados.
+N-B1180 | Una ventana abierta en enero por el compañero que se baña en agua helada.
+N-B1181 | Un compañero que estornuda sin taparse la boca.
+N-B1182 | Una compañera que siempre tiene tarta.
+N-B1183 | Gente que come manzanas en las reuniones.
+N-B1184 | Una silla de oficina que se va hundiendo.
+N-B1185 | Un escritorio junto a una ventana sin persianas.
+N-B1186 | Un reposapiés ergonómico que nadie usa.
+N-B1187 | Un póster motivador con un águila.
+N-B1188 | Los valores de la empresa impresos en la pared.
+N-B1189 | Una misión de empresa que nadie entiende.
+N-B1190 | Una estrategia anual que se derrumba en febrero.
+N-B1191 | Una reorganización cada seis meses.
+N-B1192 | Un nuevo director general con una nueva visión.
+N-B1193 | Una reestructuración, o sea, despidos.
+N-B1194 | Una charla «tomando un café» con recursos humanos.
+N-B1195 | Una encuesta de satisfacción que solo lee su autor.
+N-B1196 | El mismo empleado del mes desde hace tres años.
+N-B1197 | Un ascenso sin subida de sueldo.
+N-B1198 | Una subida de sueldo sin ascenso.
+N-B1199 | Un nuevo nombre de puesto en lugar de dinero.
+N-B1200 | «Especialista Junior Senior».

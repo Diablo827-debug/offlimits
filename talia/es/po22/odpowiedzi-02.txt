@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Po 22:00 (pikantniejsze) · język: es · paczka 02 (karty 201–400 z 1502)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-B0201 | Un romance de verano con un socorrista.
+N-B0202 | Una boda en Las Vegas.
+N-B0203 | Una boda con vodka y banquete para 200.
+N-B0204 | Una pedida de mano con el anillo dentro de una tarta.
+N-B0205 | Un anillo que se tragó el perro.
+N-B0206 | Un vestido de novia que no se cerraba.
+N-B0207 | Un traje prestado por el cuñado.
+N-B0208 | Un discurso del padrino que nunca debió existir.
+N-B0209 | Un padrino que perdió los anillos.
+N-B0210 | Un cura que confundió los nombres.
+N-B0211 | Una suegra vestida de blanco.
+N-B0212 | Un baile con el suegro.
+N-B0213 | Un regalo de boda en un sobre con una tarjeta «para vuestra nueva vida».
+N-B0214 | Una luna de miel en un pueblo de playa barato.
+N-B0215 | Una luna de miel a crédito.
+N-B0216 | La primera pelea por el tapón de la pasta de dientes.
+N-B0217 | Una pelea por quién dejó la toalla mojada.
+N-B0218 | Un silencio que lo dice todo.
+N-B0219 | Dormir en el sofá.
+N-B0220 | El sofá como segundo dormitorio.
+N-B0221 | Una hora en el baño con el móvil.
+N-B0222 | Un marido que «no ve nada» en la nevera.
+N-B0223 | Una mujer que «no tiene nada que ponerse».
+N-B0224 | Una chaqueta comprada solo porque estaba rebajada.
+N-B0225 | Un armario lleno de ropa con etiquetas.
+N-B0226 | Zapatos con los que no se puede andar.
+N-B0227 | Un bolso que costó tres sueldos.
+N-B0228 | Un reloj que solo cuenta pasos.
+N-B0229 | Un podómetro que siente vergüenza ajena por mí.
+N-B0230 | Los treinta y el dolor de espalda.
+N-B0231 | La rodilla que cruje al levantarte.
+N-B0232 | Dolor de cabeza después de una copa.
+N-B0233 | Una cana en la barba.
+N-B0234 | La primera arruga.
+N-B0235 | Una crema antiarrugas comprada en secreto.
+N-B0236 | Gafas de cerca.
+N-B0237 | Una siesta a las 19:00.
+N-B0238 | Dormirse en el sofá antes del telediario.
+N-B0239 | Acostarse a las 21:30 un sábado.
+N-B0240 | La ilusión por una aspiradora nueva.
+N-B0241 | Hablar de hipotecas en vez de fiestas.
+N-B0242 | Un debate sobre el precio de la mantequilla.
+N-B0243 | Emocionarse por una oferta de detergente.
+N-B0244 | El día en que empecé a entender a mis padres.
+N-B0245 | Decir «en mis tiempos» con 32 años.
+N-B0246 | Escuchar la radio en el coche por el estado del tráfico.
+N-B0247 | La lista de la compra en las notas del móvil.
+N-B0248 | Pastillas para el estómago en el bolso.
+N-B0249 | El cuchillo favorito de la cocina.
+N-B0250 | Una colección de tarros por si acaso.
+N-B0251 | La bolsa de las bolsas.
+N-B0252 | Planificar las vacaciones en Excel.
+N-B0253 | Mi primer seguro de vida.
+N-B0254 | Una visita a la gestoría.
+N-B0255 | La declaración de la renta presentada en el último momento.
+N-B0256 | Una inspección de Hacienda.
+N-B0257 | Una carta certificada del juzgado.
+N-B0258 | Un aviso de Correos que nadie fue a recoger.
+N-B0259 | Una multa de radar con una foto preciosa.
+N-B0260 | Una revisión del coche que costó más que el coche.
+N-B0261 | Un mecánico que dice «uf, jefe…».
+N-B0262 | Neumáticos de invierno en mayo.
+N-B0263 | Un golpe en el aparcamiento del súper.
+N-B0264 | Una pelea por un sitio de aparcamiento delante del bloque.
+N-B0265 | El coche del vecino en mi plaza.
+N-B0266 | Una nota debajo del limpiaparabrisas.
+N-B0267 | Una cámara en el coche que lo graba todo.
+N-B0268 | Un GPS en el idioma equivocado.
+N-B0269 | Un coche de empresa usado para las vacaciones.
+N-B0270 | Un viaje de trabajo a un pueblo perdido.
+N-B0271 | Un hotel con desayuno solo hasta las 9:00.
+N-B0272 | Un minibar que se come el sueldo.
+N-B0273 | Una piscina de hotel llena de niños.
+N-B0274 | Un spa en el que es imposible relajarse.
+N-B0275 | Un masaje que duele.
+N-B0276 | Una sauna con un vecino charlatán.
+N-B0277 | Una toalla en la tumbona desde las 6 de la mañana.
+N-B0278 | Todo incluido con pulserita.
+N-B0279 | Un bufé donde los polacos pierden la dignidad.
+N-B0280 | Un plato con cinco pisos de comida.
+N-B0281 | Un animador de hotel que no se rinde.
+N-B0282 | Una noche polaca en un hotel de Egipto.
+N-B0283 | Un polaco con calcetines y sandalias en Croacia.
+N-B0284 | Una riñonera de turista para el dinero.
+N-B0285 | Una toalla del hotel en la maleta.
+N-B0286 | Un recuerdo de vacaciones que nadie quiere.
+N-B0287 | Un moreno con forma de camiseta.
+N-B0288 | Una foto con un camello por 20 euros.
+N-B0289 | Una maleta perdida.
+N-B0290 | Un vuelo con escala en mitad de la noche.
+N-B0291 | El aeropuerto a las 5 de la mañana.
+N-B0292 | El control de seguridad con el cinturón en la mano.
+N-B0293 | Líquidos en una bolsa con cierre.
+N-B0294 | Un pasajero que aplaude al aterrizar.
+N-B0295 | Un billete de avión de 5 euros y una maleta de 70.
+N-B0296 | Una habitación de hotel con vistas a una pared.
+N-B0297 | Una reseña de hotel escrita con rabia.
+N-B0298 | Las vacaciones de tu vida a crédito.
+N-B0299 | Un puente de mayo en el embalse de al lado.
+N-B0300 | Un huerto con barbacoa y un vecino con taladro.
+N-B0301 | Una tumbona en el balcón del piso.
+N-B0302 | Tomar el sol en el tejado del garaje.
+N-B0303 | Vacaciones «en casa» en el sofá.
+N-B0304 | Un fin de semana sin móvil que duró dos horas.
+N-B0305 | Una desintoxicación digital publicada en Instagram.
+N-B0306 | Meditar con una app.
+N-B0307 | Yoga para oficinistas estresados.
+N-B0308 | Un coach que conoce el sentido de la vida.
+N-B0309 | Un webinar sobre cómo ganar un millón.
+N-B0310 | Un curso de inglés comprado cinco veces.
+N-B0311 | Un libro sobre productividad que nunca leí.
+N-B0312 | Una agenda que se acaba en febrero.
+N-B0313 | Propósitos de Año Nuevo que duran hasta el 3 de enero.
+N-B0314 | Un menú de dieta a domicilio que nadie se come.
+N-B0315 | Una ensalada pedida con remordimientos.
+N-B0316 | Patatas fritas en lugar de ensalada.
+N-B0317 | Dulces, «solo un trocito».
+N-B0318 | La nevera abierta por quinta vez a las 23:00.
+N-B0319 | Picotear de noche a la luz de la nevera.
+N-B0320 | Un kebab para llevar después del gimnasio.
+N-B0321 | El gimnasio una vez al año.
+N-B0322 | Un entrenador personal que grita.
+N-B0323 | Proteína en polvo con sabor a cartón.
+N-B0324 | Mallas que nunca han pisado un gimnasio.
+N-B0325 | Correr para poder comer pizza.
+N-B0326 | Una maratón vista desde el sofá.
+N-B0327 | Una bici de spinning como perchero.
+N-B0328 | Un reloj deportivo que dice «muévete».
+N-B0329 | Una encuesta de una app: «¿cómo te sientes hoy?».
+N-B0330 | Una báscula que dice la verdad.
+N-B0331 | Una foto de «antes» sin foto de «después».
+N-B0332 | Unos análisis de sangre que te obligan a cambiar de vida.
+N-B0333 | Un médico que dice «hay que adelgazar».
+N-B0334 | Una factura del dentista como si fuera un coche.
+N-B0335 | Un empaste que se cayó en Nochebuena.
+N-B0336 | Una lista de espera para el especialista hasta 2029.
+N-B0337 | El doctor Google.
+N-B0338 | Un diagnóstico sacado de un foro de internet.
+N-B0339 | Las pastillas de mamá para todo.
+N-B0340 | Una infusión para los nervios.
+N-B0341 | La tila como estilo de vida.
+N-B0342 | El estrés como compañero de piso permanente.
+N-B0343 | Una crisis de los cuarenta en versión light.
+N-B0344 | Un tatuaje con el nombre de mi ex.
+N-B0345 | Un tatuaje con una falta de ortografía.
+N-B0346 | Un piercing en la lengua del instituto.
+N-B0347 | Un peinado de 2005.
+N-B0348 | Fotos del instituto en Facebook.
+N-B0349 | Una madre que comenta todas las fotos.
+N-B0350 | Una abuela que comparte bulos.
+N-B0351 | Un tío con una teoría para todo.
+N-B0352 | Un cuñado con su «opinión».
+N-B0353 | Un primo que te pide un préstamo.
+N-B0354 | Una tía preguntando «¿y el bebé para cuándo?».
+N-B0355 | Una tía preguntando «¿y el segundo para cuándo?».
+N-B0356 | Un grupo familiar en plena guerra.
+N-B0357 | Una pelea por quién organiza la Nochebuena este año.
+N-B0358 | Rencillas familiares desde 1998.
+N-B0359 | La herencia de la abuela, o sea, un juego de ollas.
+N-B0360 | Un testamento en forma de nota en la nevera.
+N-B0361 | Familiares que solo ves en los entierros.
+N-B0362 | Un velatorio que se convirtió en boda.
+N-B0363 | Un primo que solo vino a comer.
+N-B0364 | Una foto familiar en la que nadie se soporta.
+N-B0365 | Un suegro que corrige cómo hago la barbacoa.
+N-B0366 | Una suegra que me cambia los muebles de sitio.
+N-B0367 | Una cuñada que lo sabe todo mejor.
+N-B0368 | Los padres de mi pareja, que «vinieron un ratito» y se quedaron una semana.
+N-B0369 | Los hijos de unos amigos destrozando el piso.
+N-B0370 | Un baby shower con el juego de adivinar el contorno de la barriga.
+N-B0371 | Una fiesta de revelación de sexo que incendió un bosque.
+N-B0372 | Un nombre de bebé que todos critican.
+N-B0373 | La primera noche sin dormir.
+N-B0374 | Pañales en lugar de fiestas.
+N-B0375 | Toallitas húmedas para todo.
+N-B0376 | Un padre zombi a las 6 de la mañana.
+N-B0377 | Quedarse dormido al dormir al niño.
+N-B0378 | Unos dibujos puestos por trigésima vez.
+N-B0379 | Una canción de dibujos metida en la cabeza una semana.
+N-B0380 | Un juguete que se pone a sonar a las 3 de la mañana.
+N-B0381 | Una pieza de construcción bajo el pie a oscuras.
+N-B0382 | Un niño que dice la verdad delante de las visitas.
+N-B0383 | «Mamá, ¿esa señora está gorda?»
+N-B0384 | Un adolescente que solo contesta «guay».
+N-B0385 | Una adolescente encerrada en su cuarto desde 2023.
+N-B0386 | Un padre que quiere ser «guay».
+N-B0387 | Un padre bailando en la graduación de su hija.
+N-B0388 | La charla sobre las abejas y las flores.
+N-B0389 | Una excursión familiar con pelea en el coche.
+N-B0390 | Niños debajo de la mesa en un restaurante.
+N-B0391 | Una Nochevieja en familia que termina a las 22:00.
+N-B0392 | Una noche libre que nos pasamos durmiendo.
+N-B0393 | Una cita de matrimonio en el súper de descuento.
+N-B0394 | La compra como la mejor cita de la semana.
+N-B0395 | Una noche romántica con una serie y un portátil.
+N-B0396 | Una serie que veo sin mi pareja y finjo que no.
+N-B0397 | Un spoiler de la suegra.
+N-B0398 | El mando como fuente de poder en casa.
+N-B0399 | Una tele en el dormitorio.
+N-B0400 | El móvil en la cama hasta las 2 de la mañana.

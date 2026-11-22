@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Rodzinny (dla wszystkich) · język: pl · paczka 01 (karty 1–100 z 560)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-C001 | Co babcia trzyma w szafie „na czarną godzinę”?
+R-C002 | Najgorszy prezent pod choinkę to ____.
+R-C003 | Za czasów taty wszystko załatwiało się tak: ____.
+R-C004 | Co naprawdę robi kot, kiedy nikogo nie ma w domu?
+R-C005 | Nowa tradycja naszej rodziny: ____.
+R-C006 | Sekretny składnik bigosu cioci to ____.
+R-C007 | Za co można wylecieć z rodzinnej grupy na WhatsAppie?
+R-C008 | Idealny plan na weekend to ____.
+R-C009 | Dlaczego wujek zawsze wychodzi z wesela ostatni?
+R-C010 | Co sąsiad robi w garażu o 3 w nocy?
+R-C011 | Hit tegorocznego grilla: ____.
+R-C012 | Prezent na komunię, o którym nikt nie mówi: ____.
+R-C013 | Instrukcja przetrwania świąt, punkt pierwszy: ____.
+R-C014 | Co mama mówi, kiedy myśli, że nikt nie słyszy?
+R-C015 | Największy wynalazek ludzkości to ____.
+R-C016 | Supermoc, której nikt nie chce: ____.
+R-C017 | W tym roku na Wigilię zamiast karpia będzie ____.
+R-C018 | Powód mojego spóźnienia: ____.
+R-C019 | Przepis na udane wakacje: ____ i ____.
+R-C020 | Nowy teleturniej w telewizji: „____ kontra ____”.
+R-C021 | Co dziadek chowa w piwnicy?
+R-C022 | Najgorszy temat przy niedzielnym obiedzie to ____.
+R-C023 | Czego nie powinno się wkładać do mikrofalówki?
+R-C024 | Nowa dyscyplina olimpijska: ____.
+R-C025 | Co babcia uważa za największe zagrożenie dla młodzieży?
+R-C026 | Główna atrakcja tegorocznych urodzin: ____.
+R-C027 | Gdyby nasz pies umiał mówić, pierwsze słowa brzmiałyby: ____.
+R-C028 | Prawdziwy powód, dla którego tata nie pyta o drogę: ____.
+R-C029 | Co zawsze ginie w czasie przeprowadzki?
+R-C030 | Najdziwniejsza rzecz w lodówce to ____.
+R-C031 | Na każdym rodzinnym zdjęciu w tle: ____.
+R-C032 | Czego uczy się dziecko w pierwszej klasie, a dorośli do dziś nie potrafią?
+R-C033 | Zakazany temat na weselu: ____.
+R-C034 | Tajna broń mamy na bałagan w pokoju: ____.
+R-C035 | Co wujek przywiózł z wakacji nad morzem?
+R-C036 | Nowy smak chipsów: ____.
+R-C037 | Ulubiona rozrywka dziadka w niedzielę: ____.
+R-C038 | Najlepsza wymówka, żeby nie zmywać naczyń: ____.
+R-C039 | Co znalazłem pod kanapą po latach?
+R-C040 | W naszym domu zawsze jest ____.
+R-C041 | Babcia twierdzi, że na każdą chorobę najlepszy jest ____.
+R-C042 | Nowy obowiązkowy przedmiot w szkole: ____.
+R-C043 | Co ciocia zawsze przynosi na imieniny?
+R-C044 | Gdyby Mikołaj miał dość, zastąpiłby go ____.
+R-C045 | Najbardziej przereklamowana rzecz na świecie to ____.
+R-C046 | Czego się boję bardziej niż pająków?
+R-C047 | Najlepszy prezent dla teściowej to ____.
+R-C048 | Prezent od wielkanocnego zajączka: ____.
+R-C049 | Co rodzice robią, kiedy dzieci są na koloniach?
+R-C050 | Ostatnia rzecz, jaką chcesz usłyszeć od mechanika: ____.
+R-C051 | Moja supermoc to ____.
+R-C052 | Co kot strąca ze stołu najchętniej?
+R-C053 | Rodzinny sposób na katar: ____.
+R-C054 | Hasło przewodnie naszych wakacji: ____.
+R-C055 | Co robi tata, kiedy nikt nie patrzy na grilla?
+R-C056 | Najgorsza zabawka dla trzylatka: ____.
+R-C057 | Słynna potrawa naszej rodziny: ____.
+R-C058 | Co babcia ogląda w telewizji z wypiekami na twarzy?
+R-C059 | Atrakcja turystyczna naszego miasta: ____.
+R-C060 | Plan na sobotę: rano ____, wieczorem ____.
+R-C061 | Czego nie mówi się przy wujku?
+R-C062 | Pierwsza rzecz, którą zrobię po wygranej w totka: ____.
+R-C063 | Co się dzieje z drugą skarpetką?
+R-C064 | Najsmutniejszy widok w lodówce to ____.
+R-C065 | Co mieszka w szafie pod schodami?
+R-C066 | Temat zebrania z rodzicami: ____.
+R-C067 | Ulubione zajęcie naszego chomika: ____.
+R-C068 | Gwiazda tegorocznego wesela: ____.
+R-C069 | Co sprawia, że dziadek zaczyna opowiadać historie z młodości?
+R-C070 | Najnowszy zakup sąsiada: ____.
+R-C071 | Wynalazek, który ułatwi życie rodzicom: ____.
+R-C072 | Co jest w tajemniczym pudełku na strychu?
+R-C073 | Główna nagroda w szkolnej loterii: ____.
+R-C074 | Czego potrzebuje każdy dom?
+R-C075 | Moja ulubiona część świąt to ____.
+R-C076 | Najlepsza para wszech czasów: ____ i ____.
+R-C077 | Co naprawdę jest w kiełbasie?
+R-C078 | Pierwszy krok do zostania milionerem: ____.
+R-C079 | Obowiązkowa rzecz na kolonie: ____.
+R-C080 | Najgłośniejszy dźwięk w naszym domu to ____.
+R-C081 | Czego tata szuka w internecie o 2 w nocy?
+R-C082 | Co dzieci robią na lekcji online z wyłączoną kamerą?
+R-C083 | Tajemnica długowieczności pradziadka: ____.
+R-C084 | Nowe danie w szkolnej stołówce: ____.
+R-C085 | Co zawsze psuje się w wakacje?
+R-C086 | Rodzinny konkurs talentów wygrał ____.
+R-C087 | Co odróżnia nas od sąsiadów?
+R-C088 | Największe osiągnięcie kuzyna to ____.
+R-C089 | Najlepszy sposób na nudę w samochodzie: ____.
+R-C090 | Temat najdziwniejszego telefonu od babci: ____.
+R-C091 | Wybór mamy: ____. Wybór taty: ____.
+R-C092 | Czego nie wolno robić w bibliotece?
+R-C093 | Najlepszy dodatek do ziemniaków to ____.
+R-C094 | Co się stanie, jeśli przerwiemy dziadkowi drzemkę?
+R-C095 | Mój pierwszy samochód to będzie ____.
+R-C096 | Na rodzinnym grillu zawsze pojawia się ____.
+R-C097 | Co kryje się w torebce mamy?
+R-C098 | Najgorszy prezent na Dzień Ojca: ____.
+R-C099 | Tematem przewodnim urodzin siostry jest ____.
+R-C100 | Czego dowiedziałem się z encyklopedii dziadka?

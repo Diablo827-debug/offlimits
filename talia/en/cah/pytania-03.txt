@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Cards Against Humanity (CC BY-NC-SA) · język: en · paczka 03 (karty 201–300 z 416)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - C-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+C-C02678 | What is George W. Bush thinking about right now?
+C-C00322 | What left this stain on my couch?
+C-C02682 | What made my first kiss so awkward?
+C-C00323 | What makes Grandma feel young again?
+C-C02683 | What makes life worth living?
+C-C02684 | What makes me a true blue Aussie?
+C-C00324 | What makes me cry every time?
+C-C02685 | What never fails to liven up the party?
+C-C02686 | What will always get you laid?
+C-C02687 | What will I bring back in time to convince people that I am a powerful wizard?
+C-C02688 | What would grandma find disturbing, yet oddly charming?
+C-C02689 | What's a girl's best friend?
+C-C02690 | What's my anti-drug?
+C-C02691 | What's my secret power?
+C-C02692 | What's Teach for America using to inspire inner city students to succeed?
+C-C02693 | What's that smell?
+C-C02694 | What's that sound?
+C-C02695 | What's the best metaphor for our political system?
+C-C02697 | What's the crustiest?
+C-C02698 | What's the most emo?
+C-C02699 | What's the new fad diet?
+C-C02700 | What's the next Happy Meal® toy?
+C-C02701 | What's the next superhero/sidekick duo? {2}
+C-C02702 | What's there a ton of in heaven?
+C-C00346 | When all else fails, I can always masturbate to ____.
+C-C02704 | When I am a billionaire, I shall erect a 20-meter statue to commemorate ____.
+C-C02708 | When I am President, I will create the Department of ____.
+C-C00347 | When I pooped, what came out of my butt?
+C-C02714 | When I was tripping on acid, ____ turned into ____.
+C-C02715 | When I'm in prison, I'll have ____ smuggled in.
+C-C02716 | When Pharaoh remained unmoved, Moses called down a Plague of ____.
+C-C00350 | When you get right down to it, ____ is just ____.
+C-C02717 | While the United States raced the Soviet Union to the moon, the Mexican government funneled millions of pesos into research on ____.
+C-C02718 | White people like ____.
+C-C06660 | Who put all of this ____ porn on my laptop?
+C-C02719 | Who stole the cookies from the cookie jar?
+C-C00351 | WHOOO! God damn I love ____!
+C-C02720 | Why am I sticky?
+C-C02721 | Why can't I sleep at night?
+C-C02722 | Why do I hurt all over?
+C-C05698 | Why is Alan so sweaty?
+C-C00358 | With enough time and pressure, ____ will turn into ____.
+C-C02725 | Your dreams are one click away! Learn more at ____.com.
+C-C00376 | Your persistence is admirable, my dear Prince. But you cannot win my heart with ____ alone.
+C-C00023 | An international tribunal has found ____ guilty of ____.
+C-C00024 | And I would have gotten away with it, too, if it hadn't been for ____!
+C-C00040 | Awww, sick! I just saw this skater do a 720 kickflip into ____!
+C-C00094 | He who controls ____ controls the world.
+C-C00154 | In a pinch, ____ can be a suitable substitute for ____.
+C-C00161 | In its new tourism campaign, Detroit proudly proclaims that it has finally eliminated ____.
+C-C00200 | Michael Bay's new three-hour action epic pits ____ against ____.
+C-C00224 | Next week on the Discovery Channel, one man must survive in the depths of the Amazon with only ____ and his wits.
+C-C00252 | Science will never explain the origin of ____.
+C-C00267 | The CIA now interrogates enemy agents by repeatedly subjecting them to ____.
+C-C00275 | The socialist governments of Scandinavia have declared that access to ____ is a basic human right.
+C-C00340 | What's the gift that keeps on giving?
+C-C00016 | After months of debate, the Occupy Wall Street General Assembly could only agree on "More ____!"
+C-C00042 | Before ____, all we had was ____.
+C-C00043 | Before I run for president, I must destroy all evidence of my involvement with ____.
+C-C00076 | Everyone down on the ground! We don't want to hurt anyone. We're just here for ____.
+C-C00150 | If God didn't want us to enjoy ____, he wouldn't have given us ____.
+C-C00159 | In his newest and most difficult stunt, David Blaine must escape from ____.
+C-C00198 | Members of New York's social elite are paying thousands of dollars just to experience ____.
+C-C00223 | Next time on Dr. Phil: How to talk to your child about ____.
+C-C00277 | The votes are in, and the new high school mascot is ____.
+C-C00288 | This month's Cosmo: "Spice up your sex life by bringing ____ into the bedroom."
+C-C00335 | What's harshing my mellow, man?
+C-C00369 | You haven't truly lived until you've experienced ____ and ____ at the same time.
+C-C00007 | ____: Hours of fun. Easy to use. Perfect for ____!
+C-C00033 | As part of his contract, Prince won't perform without ____ in his dressing room.
+C-C00034 | As part of his daily regimen, Anderson Cooper sets aside 15 minutes for ____.
+C-C00049 | Call the law offices of Goldstein & Goldstein, because no one should have to tolerate ____ in the workplace.
+C-C00101 | Hey baby, come back to my place and I'll show you ____.
+C-C00187 | Listen, son. If you want to get involved with ____, I won't stop you. Just steer clear of ____.
+C-C00211 | My gym teacher got fired for adding ____ to the obstacle course.
+C-C00212 | My life is ruled by a vicious cycle of ____ and ____.
+C-C00294 | To prepare for his upcoming role, Daniel Day-Lewis immersed himself in the world of ____.
+C-C00123 | I love being a mom. But it's tough when my kids come home filthy from ____. That's why there's Tide®.
+C-C00160 | In Irish culture, mourners express their grief through a traditional practice of ____.
+C-C00295 | Today's #1 Tip: Spice up your sex life by bringing ____ into the bedroom!
+C-C00310 | Welcome to Señor Frog's! Would you like to try our signature cocktail, "____ on the Beach"?
+C-C00349 | When the dog bites / When the bee stings / When I'm feeling sad / I simply remember ____ / And then I don't feel so bad.
+C-C00003 | ____ may pass, but ____ will last forever.
+C-C00004 | ____ will never be the same after ____.
+C-C00010 | 2 AM in the city that never sleeps. The door swings open and she walks in, legs up to here. Something in her eyes tells me she's looking for ____.
+C-C00015 | Adventure. Romance. ____. From Paramount Pictures, "____."
+C-C00020 | Alright, bros. Our frat house is condemned, and all the hot slampieces are over at Gamma Phi. The time has come to commence Operation ____.
+C-C00057 | Dammit, Gary. You can't just solve every problem with ____.
+C-C00060 | Dear Leader Kim Jong-un, our village praises your infinite wisdom with a humble offering of ____.
+C-C00062 | Do not fuck with me! I am literally ____ right now.
+C-C00073 | Every step towards ____ gets me a little bit closer to ____.
+C-C00083 | Forget everything you know about ____, because now we've supercharged it with ____!
+C-C00109 | Honey, I have a new role-play I want to try tonight! You can be ____, and I'll be ____.
+C-C00111 | How am I compensating for my tiny penis?
+C-C00113 | I am become ____, destroyer of ____!
+C-C00139 | I'm pretty sure I'm high right now, because I'm absolutely mesmerized by ____.
+C-C00151 | If you can't handle ____, you'd better stay away from ____.
+C-C00164 | In return for my soul, the Devil promised me ____, but all I got was ____.
+C-C00167 | In the beginning, there was ____. And the Lord said, "Let there be ____."
+C-C00173 | It lurks in the night. It hungers for flesh. This summer, no one is safe from ____.

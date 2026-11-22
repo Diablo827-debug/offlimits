@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Rodzinny (dla wszystkich) · język: es · paczka 04 (karty 301–400 z 560)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-C301 | Nueva atracción en el zoo: ____.
+R-C302 | ¿Qué hay siempre en la nevera de un estudiante?
+R-C303 | Lo mejor del lunes es ____.
+R-C304 | ¿Qué entierra el perro en el jardín?
+R-C305 | La receta más famosa de la tía: ____.
+R-C306 | El deporte nacional de la familia: ____.
+R-C307 | La abuela siempre dice: «Lo más importante es ____ y ____».
+R-C308 | ¿Qué pasa con los bolígrafos?
+R-C309 | Lo más raro de la tienda del colegio: ____.
+R-C310 | ¿Qué llama papá «una pequeña reforma»?
+R-C311 | La mejor idea de San Valentín para mis padres: ____.
+R-C312 | ¿Qué no se hace en el funeral de un hámster?
+R-C313 | La atracción principal de la fiesta en casa de mi primo: ____.
+R-C314 | ¿Qué hay en el misterioso tarro del abuelo?
+R-C315 | El momento favorito del día de nuestro perro es ____.
+R-C316 | Últimas palabras antes de meterse en el agua fría: ____.
+R-C317 | Los dos bandos de nuestra familia: ____ contra ____.
+R-C318 | Lo más raro del coche de papá es ____.
+R-C319 | ¿Qué hace la familia cuando se cae internet?
+R-C320 | El mejor acompañamiento para cualquier plato: ____.
+R-C321 | ¿Qué dice la abuela cuando gana a las cartas?
+R-C322 | El mejor juego para niños en una boda: ____.
+R-C323 | ¿Qué se esconde tras la puerta del cuarto de mi hermano?
+R-C324 | Mi peor peinado de la historia es ____.
+R-C325 | ¿Qué nos quedó después de las vacaciones?
+R-C326 | El premio al mejor disfraz: ____.
+R-C327 | Carta a Papá Noel. Petición: ____. Promesa: ____.
+R-C328 | ¿Qué hace el abuelo junto a la hoguera?
+R-C329 | La mejor forma de sobrevivir a una clase aburrida: ____.
+R-C330 | ¿Qué no se debe llevar a una excursión a la montaña?
+R-C331 | El gran descubrimiento de mi hermana: ____.
+R-C332 | ¿Qué hará mamá cuando vea este desastre?
+R-C333 | El momento más familiar del año es ____.
+R-C334 | ¿Qué dicen los animales en Nochebuena?
+R-C335 | La mejor idea para una noche en familia: ____.
+R-C336 | ¿Qué es lo peor de las excursiones escolares?
+R-C337 | La camiseta del tío. Delante: ____. Detrás: ____.
+R-C338 | Lo peor que puedes pisar a medianoche es ____.
+R-C339 | ¿Qué hacer si el perro se come los deberes?
+R-C340 | La señal de tráfico más rara es ____.
+R-C341 | ¿Qué pasa de contrabando la abuela en la bolsa al volver de vacaciones?
+R-C342 | El protagonista de los cotilleos del colegio: ____.
+R-C343 | ¿Qué acaba siempre en el cesto de la ropa sucia?
+R-C344 | La mejor forma de aguantar un viaje largo en coche: ____.
+R-C345 | Lo peor de un móvil nuevo es ____.
+R-C346 | ¿Qué llama el tío «una apuesta segura»?
+R-C347 | Receta para una buena celebración del santo: ____, ____ y buen humor.
+R-C348 | ¿Qué le dice mamá a la tía por teléfono?
+R-C349 | El mejor invento para la cocina: ____.
+R-C350 | ¿Qué no decimos delante de los vecinos?
+R-C351 | El sitio más raro donde se ha dormido papá es ____.
+R-C352 | ¿Qué hace un gato en una caja de cartón?
+R-C353 | Lo primero que veo por la mañana es ____.
+R-C354 | En nuestro árbol genealógico hay ____ y ____.
+R-C355 | ¿Qué guarda la abuela debajo de la cama?
+R-C356 | Lo mejor de las fiestas es ____.
+R-C357 | ¿Qué no nos gusta de las vacaciones?
+R-C358 | ¿Qué encontró el arqueólogo en nuestro jardín?
+R-C359 | La diversión favorita del tío en las bodas: ____.
+R-C360 | ¿Qué pasó en el último cumpleaños del abuelo?
+R-C361 | La mejor forma de deshacerse de las visitas: ____.
+R-C362 | Lo más loco que ha hecho mamá es ____.
+R-C363 | Olimpiadas familiares. Oro: ____. Plata: ____.
+R-C364 | ¿Qué acecha en el bosque cuando vamos a por setas?
+R-C365 | La mejor golosina de mi infancia: ____.
+R-C366 | ¿Qué hay en el paquete de la abuela para el nieto universitario?
+R-C367 | La mayor mentira de mis padres es ____.
+R-C368 | ¿Qué nos enseña vivir en un bloque de pisos?
+R-C369 | ¿Qué considera el abuelo tecnología moderna?
+R-C370 | Lo mejor del recreo es ____.
+R-C371 | ¿Qué esconde mamá en el armario de las especias?
+R-C372 | El tema favorito de pelea entre hermanos: ____.
+R-C373 | ¿Qué vuelve siempre de vacaciones en la maleta?
+R-C374 | El último recurso antes de un examen: ____.
+R-C375 | El gran escándalo del grupo familiar: ____.
+R-C376 | ¿Qué piensa el gato de los lunes?
+R-C377 | El mayor tesoro de la abuela es ____.
+R-C378 | El domingo perfecto: ____ y ____.
+R-C379 | ¿Qué hay en el fondo de la bolsa de la compra?
+R-C380 | La mejor forma de celebrar la primera nevada: ____.
+R-C381 | La principal razón por la que perdemos el tren: ____.
+R-C382 | ¿Qué hace el tío cuando alguien empieza a cantar?
+R-C383 | Nueva función en el móvil del abuelo: ____.
+R-C384 | Lo más triste que se puede ver en la cocina es ____.
+R-C385 | ¿Qué necesita todo niño de preescolar?
+R-C386 | El personaje de dibujos favorito de mi hermana: ____.
+R-C387 | ¿Qué heredamos de la bisabuela?
+R-C388 | La futura profesión de mi hermano: por la mañana ____, por la noche ____.
+R-C389 | La mejor idea para comer cuando la nevera está vacía: ____.
+R-C390 | ¿Qué tiene un adolescente en la cabeza?
+R-C391 | El juego de mesa más familiar es ____.
+R-C392 | El peor regalo de Papá Noel: ____.
+R-C393 | ¿Qué hace la abuela con las sobras de Nochebuena?
+R-C394 | La excusa más habitual del tío: ____.
+R-C395 | ¿Qué es más importante que el postre?
+R-C396 | Lo más gracioso de una boda es ____.
+R-C397 | ¿Qué sabe solo el perro?
+R-C398 | Tarta de cumpleaños familiar: abajo ____, arriba ____.
+R-C399 | La mejor forma de combatir el calor: ____.
+R-C400 | ¿Qué dice papá cuando pierde a los juegos de mesa?

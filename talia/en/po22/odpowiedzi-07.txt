@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Po 22:00 (pikantniejsze) · język: en · paczka 07 (karty 1201–1400 z 1502)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-B1201 | An office with no windows.
+N-B1202 | An open space with 200 people and one toilet.
+N-B1203 | A coworking space with free coffee and an expensive life.
+N-B1204 | Hybrid work, a.k.a. working all the time.
+N-B1205 | A weekend on call.
+N-B1206 | A beach vacation with a laptop.
+N-B1207 | Leaving work at 5 p.m. like a prison break.
+N-B1208 | Coworkers’ looks when I leave on time.
+N-B1209 | Overtime paid in job satisfaction.
+N-B1210 | A job that’s “like a family”.
+N-B1211 | A family that’s like a job.
+N-B1212 | A boss who’s like a father.
+N-B1213 | A father who’s like a boss.
+N-B1214 | A mother-in-law who’s like a ticket inspector.
+N-B1215 | A relationship that’s like a full-time job.
+N-B1216 | A full-time job that’s like a toxic relationship.
+N-B1217 | A crisis that’s like an old friend.
+N-B1218 | Bad luck that always comes back.
+N-B1219 | Good luck that always goes to the neighbor.
+N-B1220 | Karma that caught up with me.
+N-B1221 | A horoscope that came true.
+N-B1222 | A fortune teller who predicted a wedding this year.
+N-B1223 | Tarot at midnight with the girls.
+N-B1224 | Mercury retrograde as an excuse.
+N-B1225 | Your star sign as an excuse for everything.
+N-B1226 | A conversation about astrology with an engineer.
+N-B1227 | Uncle’s fluoride conspiracy theory.
+N-B1228 | Flat Earth at Christmas Eve dinner.
+N-B1229 | A brother-in-law who was on TV once in 2004.
+N-B1230 | A cousin who knows someone who knows a celebrity.
+N-B1231 | An uncle who claims he played for the national team.
+N-B1232 | A grandpa who claims he saw a UFO.
+N-B1233 | A grandma who knows every soap opera by heart.
+N-B1234 | A mother-in-law who watches wedding shows.
+N-B1235 | An aunt who watches divorce shows.
+N-B1236 | A buddy who watches wilderness survival shows from the couch.
+N-B1237 | Surviving a weekend with a two-year-old.
+N-B1238 | Surviving Christmas Eve with your partner’s family.
+N-B1239 | Surviving a wedding without alcohol.
+N-B1240 | Surviving a vacation with the in-laws.
+N-B1241 | Surviving a renovation without a divorce.
+N-B1242 | Surviving winter without vitamin D.
+N-B1243 | Surviving November.
+N-B1244 | A January that lasts 85 days.
+N-B1245 | February as the month of regretting your resolutions.
+N-B1246 | Spring that always takes the road crews by surprise.
+N-B1247 | Summer in the city without air conditioning.
+N-B1248 | Autumn with a sweater and the blues.
+N-B1249 | Winter that arrives unexpectedly every year.
+N-B1250 | My ex, who is now a life coach.
+N-B1251 | My ex, who is now an influencer.
+N-B1252 | A relationship that only survived in photos.
+N-B1253 | An engagement that’s lasted nine years.
+N-B1254 | A fiancée who’s been planning the wedding since childhood.
+N-B1255 | A fiancé who found out about the wedding on Facebook.
+N-B1256 | A guest list that tore the family apart.
+N-B1257 | Seating the guests as a NATO-level logistics problem.
+N-B1258 | The “everybody else” table at a wedding.
+N-B1259 | A cousin who showed up in a wedding dress.
+N-B1260 | An aunt who gave a speech without being asked.
+N-B1261 | Grandpa who fell asleep in church.
+N-B1262 | A priest who joked about divorce.
+N-B1263 | An organist playing at the wrong tempo.
+N-B1264 | Rings mixed up by the best man.
+N-B1265 | An “I do” said too fast.
+N-B1266 | An “I do” said too slowly.
+N-B1267 | A kiss at the altar that went on too long.
+N-B1268 | Leaving the church in a shower of rice and coins.
+N-B1269 | A wedding photo shoot in a field with a combine harvester.
+N-B1270 | A late coach full of guests.
+N-B1271 | A bride and groom who ran away from their own wedding.
+N-B1272 | A cake that toppled over.
+N-B1273 | A first dance rehearsed for six months and then forgotten.
+N-B1274 | A wedding conga line across the whole hall.
+N-B1275 | A “who can drink fastest” contest won by Grandma.
+N-B1276 | Wedding games where the groom gets dressed up.
+N-B1277 | An uncle who took the microphone from the band.
+N-B1278 | An aunt who cries at every wedding ballad.
+N-B1279 | Vodka on the table in wholesale quantities.
+N-B1280 | Envelopes counted in the hotel at 6 a.m.
+N-B1281 | A bet on how much the envelopes will add up to.
+N-B1282 | The first marital fight on the wedding night.
+N-B1283 | A honeymoon postponed because of the loan.
+N-B1284 | A civil wedding in tracksuits.
+N-B1285 | A divorce by text message.
+N-B1286 | Dividing assets: you get the dog, I get the sofa.
+N-B1287 | A “Divorced in 30 Days” support group.
+N-B1288 | The first date after a divorce.
+N-B1289 | A date with someone who only talks about their ex.
+N-B1290 | A date with someone who ordered me tap water.
+N-B1291 | A date at a cat café with an allergy.
+N-B1292 | A roller-skating date after many years.
+N-B1293 | A date where his whole family showed up.
+N-B1294 | A date after which I got an invoice.
+N-B1295 | A date that turned into a job interview.
+N-B1296 | A date I escaped from through the restroom window.
+N-B1297 | A date where I ran into my ex at the same restaurant.
+N-B1298 | A second date that never happened.
+N-B1299 | The third date and the question “so what is this?”.
+N-B1300 | An “it’s complicated” relationship.
+N-B1301 | A nameless relationship that’s lasted two years.
+N-B1302 | Friends with benefits without the benefits.
+N-B1303 | A guy who isn’t ready yet.
+N-B1304 | A girl who isn’t over her ex yet.
+N-B1305 | A boyfriend who lives with his mom at 37.
+N-B1306 | A mom who irons his shirts.
+N-B1307 | A girl with seven cats.
+N-B1308 | A guy with a samurai sword collection.
+N-B1309 | A figurine collection you’re not allowed to touch.
+N-B1310 | A coworker who only talks about crypto.
+N-B1311 | A friend who only talks about her dog.
+N-B1312 | A buddy who only talks about the gym.
+N-B1313 | A friend who only talks about weddings.
+N-B1314 | Friends who only talk about their kids.
+N-B1315 | Parents who only talk about illnesses.
+N-B1316 | Grandparents who only talk about funerals.
+N-B1317 | Dinner table conversations that make your teeth hurt.
+N-B1318 | Talking politics over dessert.
+N-B1319 | Talking money in front of the in-laws.
+N-B1320 | Talking about sex in front of Grandma.
+N-B1321 | Talking about work on vacation.
+N-B1322 | Talking about kids at a bachelor party.
+N-B1323 | Talking about exes on a date.
+N-B1324 | Talking about health after thirty.
+N-B1325 | Talking about apartment prices at every party.
+N-B1326 | Talking about what it was like in high school.
+N-B1327 | A fight about whether pineapple pizza is a crime.
+N-B1328 | A fight about how to hang toilet paper.
+N-B1329 | A fight about who’ll say “I love you” first.
+N-B1330 | A fight about who has to stay sober at the party.
+N-B1331 | A fight about who drives home.
+N-B1332 | A designated driver who drank only water and remembers everything.
+N-B1333 | A 50-euro taxi home from a wedding.
+N-B1334 | Sleeping in the car in the wedding venue parking lot.
+N-B1335 | Getting home in broad daylight.
+N-B1336 | Breakfast at a roadside diner with a hangover.
+N-B1337 | Bacon and eggs as a rescue.
+N-B1338 | Beet soup in a mug as medicine.
+N-B1339 | Sour rye soup at the day-after party.
+N-B1340 | Herring after a wedding.
+N-B1341 | Pickle soup that brings you back to life.
+N-B1342 | Mom’s chicken soup in a jar.
+N-B1343 | A mom who knows there was a party last night.
+N-B1344 | A dad who pretends not to know.
+N-B1345 | A grandma who was at the party too.
+N-B1346 | A dog that saw everything.
+N-B1347 | A neighbor who heard everything.
+N-B1348 | CCTV that recorded everything.
+N-B1349 | A photo in the local newspaper.
+N-B1350 | A video in the local Facebook group.
+N-B1351 | The comments under the video.
+N-B1352 | Fame within a three-block radius.
+N-B1353 | Being recognized at the grocery store.
+N-B1354 | The shop lady who knows what I buy on Fridays.
+N-B1355 | The kiosk guy who knows my cigarettes.
+N-B1356 | A priest who knows my sins.
+N-B1357 | A hairdresser who knows my secrets.
+N-B1358 | A mom who knows my passwords.
+N-B1359 | A best friend who knows all my embarrassing moments.
+N-B1360 | A brother who has dirt on me.
+N-B1361 | A sister who knows where I was in 2009.
+N-B1362 | A family that remembers my worst moment.
+N-B1363 | A story told at every wedding.
+N-B1364 | A childhood photo shown to my partner.
+N-B1365 | The first meeting with my partner’s parents.
+N-B1366 | The first Christmas Eve together at the future in-laws’.
+N-B1367 | A father-in-law who asks about my salary.
+N-B1368 | A mother-in-law who asks if I can cook.
+N-B1369 | A brother-in-law who wants to arm-wrestle me.
+N-B1370 | My partner’s grandma who loved me right away.
+N-B1371 | My partner’s dog who hates me.
+N-B1372 | My partner’s cat who sleeps on my pillow.
+N-B1373 | My partner’s apartment with no towels.
+N-B1374 | My partner’s bathroom with one soap for everything.
+N-B1375 | My partner’s closet where their whole past lives.
+N-B1376 | A toothbrush at my partner’s place as a declaration.
+N-B1377 | Apartment keys as a milestone.
+N-B1378 | A joint shopping account as a vow.
+N-B1379 | A shared dog as a test.
+N-B1380 | A shared child as an exam.
+N-B1381 | A shared retirement as a dream.
+N-B1382 | Complaining together as a hobby.
+N-B1383 | A joint grave plot bought on sale.
+N-B1384 | A funeral with a brass band.
+N-B1385 | A wake with karaoke.
+N-B1386 | A eulogy that made everyone laugh.
+N-B1387 | A will with a surprise.
+N-B1388 | An inheritance made of debts.
+N-B1389 | An inheritance consisting of an old wall unit.
+N-B1390 | The family house that needs a million in repairs.
+N-B1391 | A plot of land with a view of the highway.
+N-B1392 | Grandma’s apartment with a rug on the wall.
+N-B1393 | A china collection nobody wants.
+N-B1394 | Grandma’s fur coat that smells of mothballs.
+N-B1395 | Great-grandma’s jewelry in a tea tin.
+N-B1396 | A clock that stopped on the wedding day.
+N-B1397 | Grandpa’s old car kept in the garage for sentimental reasons.
+N-B1398 | ’80s skis in the basement.
+N-B1399 | A communist-era vacuum cleaner that still works.
+N-B1400 | A fridge that has survived three generations.

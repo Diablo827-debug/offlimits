@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Po 22:00 (pikantniejsze) · język: en · paczka 02 (karty 201–400 z 1502)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-B0201 | A holiday fling with a lifeguard.
+N-B0202 | A wedding in Las Vegas.
+N-B0203 | A wedding with vodka and a reception for 200.
+N-B0204 | A proposal with the ring hidden in a cake.
+N-B0205 | A ring swallowed by the dog.
+N-B0206 | A wedding dress that wouldn’t zip up.
+N-B0207 | A suit borrowed from my brother-in-law.
+N-B0208 | A best man’s speech that should never have happened.
+N-B0209 | A best man who lost the rings.
+N-B0210 | A priest who mixed up the names.
+N-B0211 | A mother-in-law in a white dress.
+N-B0212 | A dance with the father-in-law.
+N-B0213 | A wedding gift in an envelope with a card saying “for your new life together”.
+N-B0214 | A honeymoon at a cheap seaside town.
+N-B0215 | A honeymoon on credit.
+N-B0216 | The first fight over the toothpaste cap.
+N-B0217 | A fight over who left the wet towel.
+N-B0218 | A silence that says it all.
+N-B0219 | Sleeping on the couch.
+N-B0220 | The couch as a second bedroom.
+N-B0221 | An hour in the bathroom with your phone.
+N-B0222 | A husband who “can’t see anything” in the fridge.
+N-B0223 | A wife who “has nothing to wear”.
+N-B0224 | A jacket bought only because it was on sale.
+N-B0225 | A closet full of clothes with the tags still on.
+N-B0226 | Shoes you can’t walk in.
+N-B0227 | A handbag that cost three paychecks.
+N-B0228 | A smartwatch that only shows steps.
+N-B0229 | A step counter that’s embarrassed for me.
+N-B0230 | Turning thirty and back pain.
+N-B0231 | A knee that cracks when you stand up.
+N-B0232 | A headache after one glass.
+N-B0233 | A gray hair in your beard.
+N-B0234 | The first wrinkle.
+N-B0235 | Anti-wrinkle cream bought in secret.
+N-B0236 | Reading glasses.
+N-B0237 | A nap at 7 p.m.
+N-B0238 | Falling asleep on the couch before the evening news.
+N-B0239 | Going to bed at 9:30 p.m. on a Saturday.
+N-B0240 | The joy of a new vacuum cleaner.
+N-B0241 | Talking about mortgages instead of parties.
+N-B0242 | A debate about the price of butter.
+N-B0243 | Getting excited about a laundry detergent deal.
+N-B0244 | The day I started understanding my parents.
+N-B0245 | Saying “back in my day” at 32.
+N-B0246 | Listening to the radio in the car for the traffic news.
+N-B0247 | A shopping list in your phone notes.
+N-B0248 | Antacids in your handbag.
+N-B0249 | A favorite kitchen knife.
+N-B0250 | A collection of jars just in case.
+N-B0251 | The bag of bags.
+N-B0252 | Planning a vacation in Excel.
+N-B0253 | My first life insurance policy.
+N-B0254 | A visit to the accountant.
+N-B0255 | A tax return filed at the last minute.
+N-B0256 | A tax audit.
+N-B0257 | A registered letter from the court.
+N-B0258 | A missed-delivery slip nobody followed up on.
+N-B0259 | A speed camera ticket with a lovely photo.
+N-B0260 | A car inspection that cost more than the car.
+N-B0261 | A mechanic sighing “well, sir…”.
+N-B0262 | Winter tires in May.
+N-B0263 | A fender bender in the supermarket parking lot.
+N-B0264 | A fight over a parking space outside the block.
+N-B0265 | The neighbor’s car in my spot.
+N-B0266 | A note under the windshield wiper.
+N-B0267 | A dashcam recording everything.
+N-B0268 | A GPS in the wrong language.
+N-B0269 | A company car used for vacations.
+N-B0270 | A business trip to the middle of nowhere.
+N-B0271 | A hotel with breakfast only until 9:00.
+N-B0272 | A minibar that eats your salary.
+N-B0273 | A hotel pool full of kids.
+N-B0274 | A spa where it’s impossible to relax.
+N-B0275 | A massage that hurts.
+N-B0276 | A sauna with a chatty neighbor.
+N-B0277 | A towel on the sunbed from 6 a.m.
+N-B0278 | All-inclusive with a wristband.
+N-B0279 | A buffet where Poles lose their dignity.
+N-B0280 | A plate with five stories of food.
+N-B0281 | A hotel entertainer who won’t give up.
+N-B0282 | A Polish night at a hotel in Egypt.
+N-B0283 | A Pole in socks and sandals in Croatia.
+N-B0284 | A tourist money belt.
+N-B0285 | A hotel towel in the suitcase.
+N-B0286 | A vacation souvenir nobody wants.
+N-B0287 | A T-shirt-shaped tan.
+N-B0288 | A photo with a camel for 20 euros.
+N-B0289 | A lost suitcase.
+N-B0290 | A flight with a layover in the middle of the night.
+N-B0291 | The airport at 5 a.m.
+N-B0292 | Security check holding your belt in your hand.
+N-B0293 | Liquids in a zip-lock bag.
+N-B0294 | A passenger who claps after landing.
+N-B0295 | A 5-euro plane ticket and a 70-euro bag.
+N-B0296 | A hotel room with a view of a wall.
+N-B0297 | A hotel review written in anger.
+N-B0298 | The vacation of a lifetime on credit.
+N-B0299 | A long May weekend at the local reservoir.
+N-B0300 | An allotment with a grill and a neighbor with a drill.
+N-B0301 | A deck chair on an apartment balcony.
+N-B0302 | Sunbathing on the garage roof.
+N-B0303 | A “staycation” on the couch.
+N-B0304 | A phone-free weekend that lasted two hours.
+N-B0305 | A digital detox posted on Instagram.
+N-B0306 | Meditation with an app.
+N-B0307 | Yoga for stressed-out office drones.
+N-B0308 | A life coach who knows the meaning of life.
+N-B0309 | A webinar on how to make a million.
+N-B0310 | An English course bought five times.
+N-B0311 | A productivity book I never read.
+N-B0312 | A planner that ends in February.
+N-B0313 | New Year’s resolutions that last until January 3rd.
+N-B0314 | A meal-plan delivery nobody eats.
+N-B0315 | A salad ordered with a guilty conscience.
+N-B0316 | Fries instead of a salad.
+N-B0317 | Sweets, “just one piece”.
+N-B0318 | The fridge opened for the fifth time at 11 p.m.
+N-B0319 | Midnight snacking by the light of the fridge.
+N-B0320 | A takeaway kebab after the gym.
+N-B0321 | The gym once a year.
+N-B0322 | A personal trainer who yells.
+N-B0323 | Cardboard-flavored protein powder.
+N-B0324 | Leggings that have never seen a gym.
+N-B0325 | Running so you can eat pizza.
+N-B0326 | A marathon watched from the couch.
+N-B0327 | A spinning bike used as a clothes rack.
+N-B0328 | A sports watch that says “get moving”.
+N-B0329 | An app survey asking “how do you feel today?”.
+N-B0330 | A scale that tells the truth.
+N-B0331 | A “before” photo with no “after” photo.
+N-B0332 | Blood test results that mean you have to change your life.
+N-B0333 | A doctor who says “you need to lose weight”.
+N-B0334 | A dentist’s bill the size of a car payment.
+N-B0335 | A filling that fell out on Christmas Eve.
+N-B0336 | A waiting list for a specialist until 2029.
+N-B0337 | Dr. Google.
+N-B0338 | A diagnosis from an online forum.
+N-B0339 | Mom’s pills for everything.
+N-B0340 | A calming herbal tea.
+N-B0341 | Lemon balm tea as a lifestyle.
+N-B0342 | Stress as a permanent roommate.
+N-B0343 | A midlife crisis, light version.
+N-B0344 | A tattoo with my ex’s name.
+N-B0345 | A tattoo with a spelling mistake.
+N-B0346 | A tongue piercing from high school.
+N-B0347 | A hairstyle from 2005.
+N-B0348 | Middle school photos on Facebook.
+N-B0349 | A mom who comments on every photo.
+N-B0350 | A grandma who shares fake news.
+N-B0351 | An uncle with a theory about everything.
+N-B0352 | A brother-in-law with his “opinion”.
+N-B0353 | A cousin asking for a loan.
+N-B0354 | An aunt asking “so when’s the baby coming?”.
+N-B0355 | An aunt asking “so when’s the second one?”.
+N-B0356 | A family group chat at war.
+N-B0357 | A fight over who hosts Christmas Eve this year.
+N-B0358 | Family grudges going back to 1998.
+N-B0359 | An inheritance from Grandma, namely a set of pots.
+N-B0360 | A will in the form of a note on the fridge.
+N-B0361 | Relatives you only see at funerals.
+N-B0362 | A wake that turned into a wedding party.
+N-B0363 | A cousin who only came for the food.
+N-B0364 | A family photo where nobody likes each other.
+N-B0365 | A father-in-law who corrects my grilling.
+N-B0366 | A mother-in-law who rearranges my furniture.
+N-B0367 | A sister-in-law who knows better.
+N-B0368 | My partner’s parents who “dropped by for a bit” for a week.
+N-B0369 | Friends’ kids who trash the apartment.
+N-B0370 | A baby shower with a guess-the-bump-size game.
+N-B0371 | A gender reveal that set a forest on fire.
+N-B0372 | A baby name everyone criticizes.
+N-B0373 | The first sleepless night.
+N-B0374 | Diapers instead of parties.
+N-B0375 | Wet wipes for everything.
+N-B0376 | A zombie parent at 6 a.m.
+N-B0377 | Falling asleep while putting the kid to sleep.
+N-B0378 | A cartoon played for the thirtieth time.
+N-B0379 | A cartoon song stuck in your head for a week.
+N-B0380 | A toy that plays music at 3 a.m.
+N-B0381 | A building block underfoot in the dark.
+N-B0382 | A kid who tells the truth in front of guests.
+N-B0383 | “Mommy, is that lady fat?”
+N-B0384 | A teenager who only answers “cool”.
+N-B0385 | A teenage girl locked in her room since 2023.
+N-B0386 | A parent who wants to be “cool”.
+N-B0387 | A dad dancing at his daughter’s prom.
+N-B0388 | The birds and the bees talk.
+N-B0389 | A family trip with a fight in the car.
+N-B0390 | Kids under the table at a restaurant.
+N-B0391 | A family New Year’s Eve that ends at 10 p.m.
+N-B0392 | A free evening we slept through.
+N-B0393 | A married couple’s date at a discount store.
+N-B0394 | Grocery shopping as the best date of the week.
+N-B0395 | A romantic evening with a series and a laptop.
+N-B0396 | A series I watch without my partner and pretend I don’t.
+N-B0397 | A spoiler from the mother-in-law.
+N-B0398 | The remote as the seat of power in the home.
+N-B0399 | A TV in the bedroom.
+N-B0400 | A phone in bed until 2 a.m.

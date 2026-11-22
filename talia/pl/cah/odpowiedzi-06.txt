@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Cards Against Humanity (CC BY-NC-SA) · język: pl · paczka 06 (karty 1001–1200 z 2042)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - C-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+C-B03656 | Bąki z pochwy.
+C-B03658 | Stanie w kolejce.
+C-B03659 | Rasistowskie pytania na maturze.
+C-B03660 | Rasizm.
+C-B03661 | Radykalny terroryzm islamski.
+C-B03662 | Rap.
+C-B03664 | Ataki welociraptorów.
+C-B03665 | Przekazywanie prezentów dalej.
+C-B06712 | Naprawdę zdrowo wyglądająca kupa.
+C-B06701 | Szczere żałowanie, że trzy razy z rzędu głosowało się na Trumpa.
+C-B03666 | Prostokąty.
+C-B03667 | Odwyk.
+C-B03668 | Wyparcie.
+C-B03669 | Republikanie.
+C-B01647 | Odwrócona na jeźdźca.
+C-B01649 | Bogacze.
+C-B03670 | Odjazd w stronę zachodzącego słońca.
+C-B03671 | Lizaki-pierścionki.
+C-B03674 | Zrzynanie z Beatlesów.
+C-B01653 | Rozerwanie klatki piersiowej i wyrwanie wciąż bijącego serca.
+C-B01654 | Powstanie z grobu.
+C-B03675 | Lodzik w czasie jazdy.
+C-B03677 | Napad na bank spermy.
+C-B03678 | Robert Downey Jr.
+C-B03680 | RoboCop.
+C-B03681 | Rohypnol.
+C-B03682 | Ronald Reagan.
+C-B06703 | Różowe wino przez cały dzień, suki!!!
+C-B03685 | Głaskanie Borisa Johnsona po brzuchu, aż zaśnie.
+C-B01661 | Pocieranie moim buszem po twojej łysinie.
+C-B01667 | Bieganie nago po galerii handlowej i sikanie i sranie wszędzie.
+C-B03686 | Skończenie się spermy.
+C-B03687 | Rupert Murdoch.
+C-B05981 | Rosja.
+C-B01672 | Ryan Gosling przybywający na białym koniu.
+C-B03690 | Ryanair.
+C-B03691 | Zbawienie.
+C-B03692 | Taniec na lodzie par jednopłciowych.
+C-B01675 | Samuel L. Jackson.
+C-B01676 | Szlifowanie facetowi nosa.
+C-B01678 | Święty Mikołaj.
+C-B05964 | Szatan.
+C-B03694 | Saudyjskie pieniądze z ropy.
+C-B03695 | Solówki na saksofonie.
+C-B03696 | Powiedzenie „kocham cię”.
+C-B03697 | Mówienie, że wszystko w porządku, gdy wyraźnie nic nie jest w porządku.
+C-B03700 | Skalpowanie.
+C-B03702 | Nauka.
+C-B03703 | Scjentologia.
+C-B03704 | Niepodległość Śląska.
+C-B03705 | Ludzie z Radomia.
+C-B06664 | Drapanie i wąchanie czegoś, czego nie powinno się ani drapać, ani wąchać.
+C-B01690 | Wrzeszczenie jak wariat.
+C-B01692 | Łaskotanie moszny.
+C-B03706 | Szorowanie pod fałdkami.
+C-B03707 | Sean Connery.
+C-B03708 | Sean Penn.
+C-B03709 | Uwodzenie.
+C-B03710 | Zobaczenie babci nago.
+C-B03712 | Widok płaczącego ojca.
+C-B03713 | Sprawdzenie, co się stanie, gdy zamkniesz ludzi w pokoju z głodnymi mewami.
+C-B03714 | Kipienie cichą urazą.
+C-B01697 | Samobiczowanie.
+C-B01698 | Przedstawianie się jako DJ.
+C-B03715 | Nienawiść do samego siebie.
+C-B03719 | Sprzedaż Bałtyku Nestlé.
+C-B05968 | Sprzedawanie broni Iranowi.
+C-B03720 | Seppuku.
+C-B03721 | Pańszczyzna.
+C-B03722 | Siedmiu zabitych i trzech w stanie krytycznym.
+C-B03725 | Sexting.
+C-B01705 | Upokorzenie seksualne.
+C-B03726 | Seksualne sikanie.
+C-B06714 | Drapieżcy seksualni, a także zwykłe drapieżniki, jak oceloty.
+C-B03727 | Napięcie seksualne.
+C-B03728 | Aktywni seksualnie kujoni z orkiestry szkolnej.
+C-B03729 | Seksowne bitwy na poduszki.
+C-B05978 | WSTYD!
+C-B03731 | Wstyd.
+C-B03732 | Zmiennokształtni.
+C-B03733 | Kariera aktorska Mariusza Pudzianowskiego.
+C-B03734 | Pożyczanie sobie igieł.
+C-B01711 | Rekiny z nogami.
+C-B03735 | Błyszczące przedmioty.
+C-B03736 | Zsyłka skazańców na Syberię.
+C-B03737 | Totalne gówno-pierdolenie.
+C-B03738 | Wysranie idealnej kiełbasy śląskiej.
+C-B01720 | Wysranie krzyczącej twarzy.
+C-B03739 | Laski i blanty.
+C-B03740 | Przyjście na orgię dla jedzenia.
+C-B01730 | Zamknięcie, kurwa, mordy.
+C-B03741 | Zamknięcie się, żebym mógł obejrzeć mecz.
+C-B03743 | Bok cycka.
+C-B03744 | Cisza.
+C-B03745 | Popijanie sztucznego masła do popcornu.
+C-B03746 | Popijanie kombuchy jak zadowolony z siebie dupek.
+C-B06786 | Sir Keir Starmer.
+C-B03747 | Siedzenie całą noc w słoiku z octem, bo jestem ogórkiem.
+C-B01731 | Siedzenie na kutasie i popijanie zielonej herbaty.
+C-B03748 | Siadanie mi na twarz i mówienie, że jestem śmieciem.
+C-B03749 | Siadanie mi na twarz.
+C-B03750 | Szkieletor.
+C-B03751 | Kangur Skippy.
+C-B01732 | Wsad do kosza.
+C-B03752 | Wytrącenie sierocie ciastka z ust.
+C-B01734 | Spoliczkowanie rasistowskiej staruszki.
+C-B03754 | Klepnięcie się w kolana na znak, że zaraz wychodzisz.
+C-B03755 | Mordowanie niewinnych cywilów.
+C-B03756 | Słowianie.
+C-B01737 | Smukłe palce u stóp, które błagają, żeby je ssać.
+C-B03758 | Mastka.
+C-B03759 | Zapach spermy.
+C-B01751 | Kichnięcie, pierdnięcie i dojście jednocześnie.
+C-B03760 | Wąchanie i całowanie moich stóp.
+C-B03761 | Wąchanie kleju.
+C-B03762 | Zamarznięte gluty.
+C-B03763 | Szlochanie nad mrożonym daniem obiadowym.
+C-B03764 | Delikatny, czuły seks na misjonarza.
+C-B03765 | Zesranie się.
+C-B03766 | Rozwiązywanie problemów przemocą.
+C-B03767 | Somalijscy piraci.
+C-B03768 | Jakaś laska, która kocha ananasa.
+C-B03769 | Trochę cholernego spokoju.
+C-B01757 | Jakiś dupek z gitarą akustyczną.
+C-B03770 | Podkład, tusz do rzęs i odrobina różu.
+C-B03772 | Jakiś koleś.
+C-B02395 | Jakiś człowiek-ptak.
+C-B03773 | Jedni z najlepszych raperów w branży.
+C-B03774 | Jakiś gówniarz, który ukradł mi kanapkę z indykiem.
+C-B05963 | Naprawdę ostre krewetki.
+C-B01766 | Naprawdę popieprzone rzeczy.
+C-B06699 | Cudze dzieci.
+C-B03775 | Przepraszamy, ta treść jest niedostępna w twoim regionie.
+C-B03776 | Za gorąca zupa.
+C-B03777 | Spaghetti? Znowu?
+C-B03779 | Hiszpanie.
+C-B03780 | Spektakularny kaloryfer na brzuchu.
+C-B01780 | Wydawanie mnóstwa kasy.
+C-B03781 | Kaszaloty.
+C-B03782 | Najtańsze linie lotnicze świata.
+C-B03783 | Samozapłon człowieka.
+C-B06787 | Sperma.
+C-B03784 | Squirting.
+C-B03785 | Stalin.
+C-B01790 | Gapienie się na obraz i mruczenie „hmmmmm…”.
+C-B01792 | Założenie gównianego podcastu.
+C-B03788 | Steve Bannon.
+C-B03789 | Steve Irwin.
+C-B03791 | Wciąż bycie prawiczkiem.
+C-B01798 | Śmierdzenie jak gówno.
+C-B01799 | Syndrom sztokholmski.
+C-B03792 | Szturmowcy.
+C-B03793 | Nie rozmawiaj z obcymi.
+C-B03794 | Australia, mordo.
+C-B03795 | Silne postacie kobiece.
+C-B03796 | Wpychanie sobie tic taców do cewki.
+C-B03797 | Kaskaderzy.
+C-B03798 | Nauczyciele na zastępstwo.
+C-B03799 | Ssanie paru kutasów, żeby nie iść do wojska.
+C-B01816 | Choroba nagłego wybuchu kupy.
+C-B03800 | Przywołanie z morza zaginionego premiera w godzinie wielkiej potrzeby.
+C-B03801 | Słoneczko i tęcza.
+C-B03802 | Seks z zaskoczenia!
+C-B03803 | Swag.
+C-B03804 | Spocony tyłek.
+C-B03806 | Słodka, słodka zemsta.
+C-B03807 | Zmiana ubezpieczyciela.
+C-B03808 | Ataki srok w sezonie lęgowym.
+C-B03809 | Synergiczne rozwiązania menedżerskie.
+C-B03810 | Syropowy seks z klonem.
+C-B03811 | Odbieranie, co się dało.
+C-B01833 | Wyjęcie facetowi oczu i jaj, włożenie oczu tam, gdzie były jaja, a jaj w oczodoły.
+C-B03813 | Zdjęcie koszulki.
+C-B03814 | Zabieranie hobbitów do Isengardu.
+C-B06689 | Gadanie.
+C-B03815 | Splątane sprężynki.
+C-B03816 | Stepowanie, jakby jutra miało nie być.
+C-B03817 | Gustowny bok cycka.
+C-B05955 | Taylor Swift.
+C-B03818 | Uczenie robota miłości.
+C-B03819 | Ćwiczenia integracyjne w firmie.
+C-B03821 | Rozrywanie tego tyłka jak papieru od prezentu w Wigilię.
+C-B05967 | Startupowcy w kamizelkach.
+C-B03822 | Nastoletnia ciąża.
+C-B05726 | Opowiadanie beznadziejnej historii, która prowadzi donikąd.
+C-B06698 | Kazanie żonie, żeby sama się, kurwa, wylizała.
+C-B03824 | Porno z mackami.
+C-B03825 | Terroryści.
+C-B03827 | Skręt jądra.
+C-B01843 | Ten tyłek.
+C-B01845 | Ta suka, Karyna.
+C-B06788 | Ta seksowna nauczycielka francuskiego, którą miałem.
+C-B03828 | Ten łysy mały gnojek Caillou.
+C-B03829 | Ten jeden gejowski Teletubiś.
+C-B03830 | To urządzenie, które razi prądem mięśnie brzucha.
+C-B03831 | Złota drużyna siatkarzy.
+C-B03832 | Amerykański sen.
+C-B03833 | Amisze.
+C-B03834 | Przyjazd pizzy.
+C-B03835 | Sztuka uwodzenia.

@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Po 22:00 (pikantniejsze) · język: en · paczka 05 (karty 801–1000 z 1502)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-B0801 | A savings deposit at 0.5%.
+N-B0802 | A loan from the brother-in-law the whole family knows about.
+N-B0803 | A debt of gratitude to the buddy who helped you move.
+N-B0804 | A house move paid for with pizza.
+N-B0805 | A buddy with a van.
+N-B0806 | Carrying a sofa up to the fourth floor with no elevator.
+N-B0807 | A wardrobe that wouldn’t fit through the door.
+N-B0808 | Boxes that have been in the hallway for three years.
+N-B0809 | My ex’s stuff in the basement.
+N-B0810 | A box labeled “miscellaneous”.
+N-B0811 | The drawer of shame.
+N-B0812 | A closet of memories that can’t be opened.
+N-B0813 | A high school diary.
+N-B0814 | 18th birthday photos that resurfaced.
+N-B0815 | An old profile on a social site from years ago.
+N-B0816 | An old email address like “sexyboy1990”.
+N-B0817 | A gamer tag you’re embarrassed to say out loud.
+N-B0818 | A first love who now has three kids and a house.
+N-B0819 | An ex who has changed, meaning he hasn’t.
+N-B0820 | An ex who married my buddy.
+N-B0821 | A best friend who was always secretly in love.
+N-B0822 | My old desk mate who became a CEO.
+N-B0823 | The class genius who works at a kebab stand.
+N-B0824 | The class troublemaker who is now a cop.
+N-B0825 | A teacher who still terrifies me.
+N-B0826 | School nicknames that come back years later.
+N-B0827 | A prom with partner dancing.
+N-B0828 | Final exams passed by the skin of my teeth.
+N-B0829 | A degree that took seven years.
+N-B0830 | A dorm with one kitchen per floor.
+N-B0831 | Student festival days nobody remembers.
+N-B0832 | Last-minute exam cramming.
+N-B0833 | A lecturer who doesn’t believe in top grades.
+N-B0834 | A master’s thesis written in three nights.
+N-B0835 | Defending your thesis with a hangover.
+N-B0836 | A diploma in a drawer.
+N-B0837 | A job that has nothing to do with your degree.
+N-B0838 | A career in a completely different industry.
+N-B0839 | A passion that’s now a job and is no longer a passion.
+N-B0840 | A weekend project that was supposed to make millions.
+N-B0841 | A home brewery in the basement.
+N-B0842 | Keeping chickens on the balcony.
+N-B0843 | Bees on the roof of the apartment block.
+N-B0844 | An allotment as a retirement plan.
+N-B0845 | A camper van as a lifelong dream.
+N-B0846 | A lake house we don’t have.
+N-B0847 | The remote mountains as an escape plan.
+N-B0848 | A trip to Iceland that’s been in the works for 10 years.
+N-B0849 | Learning Spanish starting in January.
+N-B0850 | A guitar in the corner for four years.
+N-B0851 | A piano that serves as a photo stand.
+N-B0852 | A dance class I went to three times.
+N-B0853 | Photography as a hobby with a 1,200-euro camera.
+N-B0854 | Fishing as an escape from the family.
+N-B0855 | Golf, because the boss plays golf.
+N-B0856 | Online chess at 2 a.m.
+N-B0857 | A 5,000-piece puzzle on the dining table.
+N-B0858 | A vinyl collection without a turntable.
+N-B0859 | A fridge containing only mustard and the light.
+N-B0860 | Frozen pizza as dinner for three days.
+N-B0861 | Instant noodles with an egg for luxury.
+N-B0862 | Pasta with ketchup as a student dish.
+N-B0863 | A sandwich with something that used to be cheese.
+N-B0864 | An expired yogurt that “smells fine”.
+N-B0865 | Wedding leftovers in jars.
+N-B0866 | Herring all through January.
+N-B0867 | Potato salad lasting until Easter.
+N-B0868 | A stew that has become a member of the family.
+N-B0869 | Pickles from the mother-in-law with a secret.
+N-B0870 | A jar of something unidentified in the basement.
+N-B0871 | Cherry moonshine inherited from Grandpa.
+N-B0872 | Vodka straight from Uncle’s fridge.
+N-B0873 | Grandma’s liqueur that knocks you off your feet.
+N-B0874 | Beer from a discount store deal.
+N-B0875 | Sparkling wine for 2.49.
+N-B0876 | A sommelier’s wine from the supermarket.
+N-B0877 | Whisky that must not be touched.
+N-B0878 | A bottle for a special occasion that never comes.
+N-B0879 | A drink with a colorful straw.
+N-B0880 | A boxed-wine hangover.
+N-B0881 | A three-day wedding hangover.
+N-B0882 | A headache the size of a skyscraper.
+N-B0883 | Desert-level thirst at 6 a.m.
+N-B0884 | The couch as your only friend on Sunday.
+N-B0885 | Sunglasses on a cloudy day.
+N-B0886 | Calling the boss with a “sudden and mysterious” illness.
+N-B0887 | Man flu.
+N-B0888 | A deadly runny nose.
+N-B0889 | A thermometer reading 99°F and a last will.
+N-B0890 | A man with a fever.
+N-B0891 | A woman with a fever who keeps cleaning.
+N-B0892 | Going to the doctor just for peace of mind.
+N-B0893 | Discharging yourself from the hospital.
+N-B0894 | A nurse who has seen it all.
+N-B0895 | A physiotherapist who inflicts pain with a smile.
+N-B0896 | A chiropractor from the internet.
+N-B0897 | A dentist with loud music.
+N-B0898 | An optician with 500-euro frames.
+N-B0899 | A hairdresser who cut it too short.
+N-B0900 | A beautician who knows all the town gossip.
+N-B0901 | Leg waxing.
+N-B0902 | Hair removal before vacation.
+N-B0903 | A carrot-colored spray tan.
+N-B0904 | Nails you can’t actually use.
+N-B0905 | Eyelash extensions falling off at a wedding.
+N-B0906 | Makeup that melted in the rain.
+N-B0907 | A dress you can’t sit down in.
+N-B0908 | High heels carried in hand after midnight.
+N-B0909 | A tie around the head at 3 a.m.
+N-B0910 | A shirt with a beet soup stain.
+N-B0911 | Trousers that split at a wedding.
+N-B0912 | A suit from ten kilos ago.
+N-B0913 | A belt moved two holes over.
+N-B0914 | A belly as a place to rest the remote.
+N-B0915 | A beach body under construction.
+N-B0916 | A six-pack in the fridge instead of on the stomach.
+N-B0917 | My shape, namely the shape of a baking tin.
+N-B0918 | A treadmill in the bedroom covered in towels.
+N-B0919 | A bike I only ride in my dreams.
+N-B0920 | Dumbbells for lifting the remote.
+N-B0921 | A resolution to walk to work.
+N-B0922 | Spring cleaning in January.
+N-B0923 | A big closet clear-out that ended in shopping.
+N-B0924 | Donating clothes to the bin and buying them back.
+N-B0925 | Selling stuff online for 1 euro.
+N-B0926 | A buyer who asks “is it still available?” and disappears.
+N-B0927 | Haggling over 50 cents.
+N-B0928 | A parcel that got lost.
+N-B0929 | A parcel locker on the other side of town.
+N-B0930 | A parcel the neighbor took in and opened.
+N-B0931 | Purchases I hide from my partner.
+N-B0932 | Parcels collected in secret.
+N-B0933 | A box with a box inside with a box inside.
+N-B0934 | A kitchen gadget used once.
+N-B0935 | An air fryer that changed my life.
+N-B0936 | A food processor used as a fruit stand.
+N-B0937 | A coffee machine more expensive than the car.
+N-B0938 | A washing machine that plays a tune like in a sitcom.
+N-B0939 | A dishwasher loaded “my way”.
+N-B0940 | A fridge that beeps when left open.
+N-B0941 | A vacuum cleaner the dog is scared of.
+N-B0942 | A robot vacuum that smeared the cat’s surprise everywhere.
+N-B0943 | A cat that runs the apartment.
+N-B0944 | A dog with more followers than me.
+N-B0945 | A dog sleeping in bed instead of my husband.
+N-B0946 | A cat sleeping on my face.
+N-B0947 | Fish as a no-strings-attached relationship.
+N-B0948 | A cactus as the only tenant that survived.
+N-B0949 | A plant that dies no matter what.
+N-B0950 | Balcony tomatoes worth 12 euros apiece.
+N-B0951 | Potted herbs eaten by the cat.
+N-B0952 | The garden as cover for hiding from the family.
+N-B0953 | A gazebo for deep thoughts.
+N-B0954 | The garage as a man cave.
+N-B0955 | The basement as a shelter from the mother-in-law.
+N-B0956 | The bathroom as the only quiet place.
+N-B0957 | The car as a second home.
+N-B0958 | The office as a break from the kids.
+N-B0959 | Work as an escape from the renovation.
+N-B0960 | A renovation as a relationship test.
+N-B0961 | Choosing tiles as a marital crisis.
+N-B0962 | Grout color as a life decision.
+N-B0963 | A renovation crew that vanishes for two weeks.
+N-B0964 | A tradesman who says “I didn’t do it like that”.
+N-B0965 | The guy who fixes everything.
+N-B0966 | A cost estimate that doubled.
+N-B0967 | A renovation that needs another renovation.
+N-B0968 | A socket in the wrong place.
+N-B0969 | An outlet behind the wardrobe.
+N-B0970 | A lamp that shines like an interrogation light.
+N-B0971 | A window without curtains and neighbors with binoculars.
+N-B0972 | A balcony full of stuff “for later”.
+N-B0973 | A bike from university days on the balcony.
+N-B0974 | An artificial Christmas tree in a box since 2015.
+N-B0975 | Christmas decorations on the door until April.
+N-B0976 | Fairy lights on the balcony all year round.
+N-B0977 | A wax Easter hen.
+N-B0978 | A chocolate bunny with a huge sugar stockpile.
+N-B0979 | Beet soup from a packet.
+N-B0980 | Frozen dumplings pretending to be homemade.
+N-B0981 | Dumplings from the lady at the market passed off as your own.
+N-B0982 | A store-bought cake moved onto Grandma’s plate.
+N-B0983 | An online recipe that “never fails”.
+N-B0984 | A dish that looked better in the photo.
+N-B0985 | Fusion cuisine made from leftovers.
+N-B0986 | Dinner at a fancy restaurant after which you need to eat something.
+N-B0987 | A tasting portion the size of a coin.
+N-B0988 | A waiter who recommends the most expensive wine.
+N-B0989 | A bill at which everyone suddenly goes to the restroom.
+N-B0990 | A tip in a foreign currency at a lake resort.
+N-B0991 | An open-faced baguette at 2 a.m.
+N-B0992 | Fries from the stand by the station.
+N-B0993 | A gas station hot dog as lunch on the road.
+N-B0994 | Egg sandwiches on the train.
+N-B0995 | A train where the air conditioning doesn’t work.
+N-B0996 | A conductor who wakes me up at my destination.
+N-B0997 | A train change in a small town at 4 a.m.
+N-B0998 | A train station where it all begins.
+N-B0999 | A night bus with loud music.
+N-B1000 | A dawn walk after a party.

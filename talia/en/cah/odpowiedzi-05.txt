@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Cards Against Humanity (CC BY-NC-SA) · język: en · paczka 05 (karty 801–1000 z 2042)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - C-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+C-B03467 | Many bats.
+C-B03468 | Maps without New Zealand.
+C-B03469 | Marky Mark and the Funky Bunch.
+C-B06782 | Marrying a nice Pakistani boy.
+C-B03470 | Martha Stewart.
+C-B03472 | Massive, widespread drought.
+C-B01415 | Masturbating in a robe like a rich person.
+C-B06674 | Masturbating in a Waymo and setting off the masturbation alarm.
+C-B03473 | Masturbating.
+C-B03474 | Masturbation.
+C-B03475 | Mathletes.
+C-B03477 | MDMA.
+C-B03478 | Me jubbly bubblies.
+C-B03479 | Me time.
+C-B01422 | Me.
+C-B03480 | MechaHitler.
+C-B01428 | Mediocrity.
+C-B03481 | Melanoma.
+C-B03482 | Memes.
+C-B03483 | Men discussing their feelings in an emotionally healthy way.
+C-B03484 | Men.
+C-B03485 | Menstrual rage.
+C-B03486 | Menstruation.
+C-B03487 | Meth.
+C-B06705 | Michael B. Jordan
+C-B03488 | Michael Jackson.
+C-B03489 | Michelle Obama's arms.
+C-B06720 | Microdosing LSD before the parent/teacher conference.
+C-B03490 | Mike Pence.
+C-B03491 | Miley Cyrus at 55.
+C-B03492 | Miley Cyrus.
+C-B03493 | Millions of cane toads.
+C-B03494 | Millwall fans.
+C-B03495 | Mining accidents.
+C-B01441 | Mixing M&Ms and Skittles like some kind of psychopath.
+C-B01442 | Moderate-to-severe joint pain.
+C-B01444 | Mom.
+C-B01449 | Mooing.
+C-B02390 | Moose knuckles in a pair of Wranglers.
+C-B01451 | Moral ambiguity.
+C-B03498 | Morgan Freeman's voice.
+C-B03499 | Mountain Dew® Code Red.
+C-B03500 | Mouth herpes.
+C-B03501 | Moving back to Saskatchewan.
+C-B03502 | Mr. Clean, right behind you.
+C-B05960 | Mr. Clean.
+C-B03503 | Mr. Dressup.
+C-B03504 | Mr. Snuffleupagus.
+C-B01454 | Mufasa's death scene.
+C-B01456 | Multiple orgasms.
+C-B03508 | Multiple stab wounds.
+C-B03509 | Murder.
+C-B03510 | Mutually assured destruction.
+C-B03512 | Muzzy.
+C-B03514 | My balls on your face.
+C-B03515 | My black ass.
+C-B03517 | My boss.
+C-B03518 | My bright pink fuckhole.
+C-B01464 | My cat that died.
+C-B03519 | My cheating prick of a husband.
+C-B03521 | My collection of high-tech sex toys.
+C-B03523 | My ex-wife.
+C-B03524 | My fat daughter.
+C-B01470 | My father, who died when I was seven.
+C-B01471 | My first kill.
+C-B03525 | My fuckslave, Reginald.
+C-B03526 | My gay best friend.
+C-B03527 | My genitals.
+C-B03528 | My good bra.
+C-B03530 | My humps.
+C-B03531 | My inner demons.
+C-B03532 | My little boner.
+C-B01477 | My machete.
+C-B03533 | My mate Dave.
+C-B03534 | My neck, my back, my pussy, and my crack.
+C-B03535 | My pet scorpion, Tina.
+C-B03536 | My relationship status.
+C-B03537 | My sex life.
+C-B03538 | My soul.
+C-B03539 | My Uber driver, Ajay.
+C-B03541 | My ugly face and bad personality.
+C-B03542 | My vagina.
+C-B03543 | My wife having sex with your wife.
+C-B03544 | Nachos for the table.
+C-B03545 | Naked News.
+C-B05724 | Nando's® Perinaise.
+C-B03546 | Nasty shit, like real sick stuff.
+C-B03547 | Natalie Portman.
+C-B03548 | Natural gas.
+C-B03549 | Natural male enhancement.
+C-B03550 | Natural selection.
+C-B03551 | Nazis.
+C-B03552 | NBA superstar LeBron James.
+C-B03553 | Necrophilia.
+C-B06719 | Never getting out of debt.
+C-B03554 | New Age music.
+C-B03556 | NFTs.
+C-B03557 | Nickelback.
+C-B03558 | Nicki Minaj.
+C-B03559 | Nicolas Cage.
+C-B03560 | Nip slips.
+C-B03561 | Nippers.
+C-B03562 | Nipple blades.
+C-B03563 | Nobody giving a shit about anything anymore.
+C-B03564 | Nocturnal emissions.
+C-B01516 | Not contributing to society in any meaningful way.
+C-B03565 | Not giving a shit about the Third World.
+C-B01517 | Not having sex.
+C-B03566 | Not reciprocating oral sex.
+C-B03567 | Not vaccinating my children because I am stupid.
+C-B03568 | Not wearing pants.
+C-B03570 | Nothing but sand.
+C-B01518 | Nothing.
+C-B01520 | Nunchuck moves.
+C-B03571 | Obesity.
+C-B03572 | Object permanence.
+C-B06692 | Oh, never mind.
+C-B03574 | Old-people smell.
+C-B01523 | Ominous background music.
+C-B01528 | One Ring to rule them all.
+C-B03576 | One titty hanging out.
+C-B03577 | One trillion dollars.
+C-B03578 | Only dating Asian women.
+C-B03579 | Oompa-Loompas.
+C-B03580 | Opposable thumbs.
+C-B03581 | Oprah.
+C-B03582 | Our dildo.
+C-B03583 | Our first chimpanzee President.
+C-B01539 | Our mutual friend Brad.
+C-B01541 | Out-of-control teenage blowjob parties.
+C-B03585 | Over 10,000 Guatemalan migrants.
+C-B03586 | Overcompensation.
+C-B01545 | Overpowering your father.
+C-B03587 | Oversharing.
+C-B03588 | Oversized lollipops.
+C-B03589 | Owning and operating a Chili's franchise.
+C-B03592 | Pabst Blue Ribbon.
+C-B03593 | Pac-Man uncontrollably guzzling cum.
+C-B03595 | Panda sex.
+C-B03596 | Paris Hilton.
+C-B03597 | Parting the Red Sea.
+C-B03598 | Party poopers.
+C-B03600 | Passing a kidney stone.
+C-B03601 | Passive-aggression.
+C-B03602 | Passive-aggressive Post-it notes.
+C-B05725 | Paul Hollywood.
+C-B03604 | PCP.
+C-B03605 | Peanut Butter Jelly Time.
+C-B03607 | Peeing a little bit.
+C-B03608 | Penis breath.
+C-B03609 | Penis envy.
+C-B03610 | People who smell their own socks.
+C-B03611 | Perfunctory foreplay.
+C-B03612 | Permanent Orgasm-Face Disorder.
+C-B03614 | Pictures of boobs.
+C-B03616 | Pingers.
+C-B03617 | Pissing in my thirsty mouth.
+C-B03618 | Pixelated bukkake.
+C-B03619 | Playing silly buggers.
+C-B06672 | Pleading the Fifth.
+C-B03620 | Police brutality.
+C-B03621 | Polish people.
+C-B06784 | Poo-poo.
+C-B03622 | Pooping back and forth. Forever.
+C-B03623 | Pooping in a laptop and closing it.
+C-B03624 | Pooping in the soup.
+C-B03625 | Poopy diapers.
+C-B03626 | Poor life choices.
+C-B03627 | Poor people.
+C-B03629 | Popped collars.
+C-B03630 | Porn stars.
+C-B01581 | Potato.
+C-B03631 | Poutine.
+C-B03632 | Poverty.
+C-B01582 | Power.
+C-B03633 | Powerful thighs.
+C-B03634 | Prancing.
+C-B03635 | Praying the gay away.
+C-B03636 | Prescription pain killers.
+C-B06724 | Pressing 2 for Spanish.
+C-B03638 | Pretending to be a dentist.
+C-B01589 | Pretending to be straight.
+C-B03639 | Pretending to care.
+C-B06785 | Privatising the NHS.
+C-B03640 | Pro-life protesters.
+C-B03641 | Profound respect and appreciation for indigenous culture.
+C-B03642 | Pronouncing the names of northern Welsh towns.
+C-B03643 | Prostate stimulation.
+C-B03645 | Pterodactyl eggs.
+C-B03646 | PTSD.
+C-B03647 | Puberty.
+C-B03648 | Public ridicule.
+C-B03649 | Pulling out.
+C-B01601 | Pumping out a baby every nine months.
+C-B03651 | Punching an MP in the face.
+C-B03652 | Puppies!
+C-B03653 | Pussy Galore.
+C-B05972 | Putin.
+C-B03655 | Putting things where they go.
+C-B06679 | Quality family time where we all look at our phones.

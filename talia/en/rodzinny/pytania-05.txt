@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Rodzinny (dla wszystkich) · język: en · paczka 05 (karty 401–500 z 560)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-C401 | Mom’s favorite sound is ____.
+R-C402 | The main problem in every family car: ____.
+R-C403 | What must Auntie never be shown?
+R-C404 | The best team at the family football match: ____.
+R-C405 | What goes on in the attic?
+R-C406 | Grandma’s worst enemy in the kitchen is ____.
+R-C407 | My childhood dream: ____.
+R-C408 | Fight over the last slice of pizza. Side one: ____. Side two: ____.
+R-C409 | What does Grandpa say to the pigeons?
+R-C410 | The worst present for a teacher is ____.
+R-C411 | What’s in the envelope from the grandparents?
+R-C412 | The best thing to do in the rain: ____.
+R-C413 | What does the goldfish do when we turn off the light?
+R-C414 | Our family’s new dumpling-eating record: ____.
+R-C415 | What does Mom hide from Dad?
+R-C416 | The weirdest thing Dad bought online is ____.
+R-C417 | At every family reunion there’s always ____.
+R-C418 | Mom’s kitchen. Dish of the day: ____. Dessert: ____.
+R-C419 | What did we do with the Christmas tree in February?
+R-C420 | The best snack for movie night: ____.
+R-C421 | What does every uncle bring to a wedding?
+R-C422 | Grandpa’s most famous story begins with the words: ____.
+R-C423 | What should you not do on Christmas Eve?
+R-C424 | My favorite part of dinner at Grandma’s: ____.
+R-C425 | What did the dog bring back from its walk?
+R-C426 | The worst place for a vacation: ____.
+R-C427 | What happens when we run out of coffee?
+R-C428 | New video game. Hero: ____. Enemy: ____.
+R-C429 | The weirdest street name is ____.
+R-C430 | What does my little brother do when nobody’s looking?
+R-C431 | The best present for a cat: ____.
+R-C432 | What does Grandma say about my girlfriend?
+R-C433 | The star of family karaoke: ____.
+R-C434 | What did the cat steal from the table?
+R-C435 | The worst thing about kindergarten is ____.
+R-C436 | What does Mom always keep in her handbag for emergencies?
+R-C437 | My most beautiful vacation memory: ____.
+R-C438 | Dream birthday: ____, ____ and cake.
+R-C439 | What does the neighbor say through the wall?
+R-C440 | The best thing that can happen on a Monday is ____.
+R-C441 | What does Dad do with Mom’s credit card?
+R-C442 | A two-year-old’s favorite word: ____.
+R-C443 | The weirdest dish at a wedding is ____.
+R-C444 | What happens in a shop after closing time?
+R-C445 | Dad’s biggest cooking disaster: ____.
+R-C446 | What does Grandma keep in her bedside table?
+R-C447 | The best way to handle family arguments at the table: ____.
+R-C448 | Charades. The answer: ____. What everyone guesses: ____.
+R-C449 | What does Uncle do on fishing trips?
+R-C450 | The best idea for Grandparents’ Day: ____.
+R-C451 | What appeared on our street overnight?
+R-C452 | The worst time to talk to your parents is ____.
+R-C453 | What does the hamster think of its wheel?
+R-C454 | The most popular dish in our house: ____.
+R-C455 | What haunts the school locker room?
+R-C456 | The best thing on a Sunday morning is ____.
+R-C457 | What does Auntie smuggle into the wedding in her handbag?
+R-C458 | The family on vacation. Dad: ____. Mom: ____.
+R-C459 | What does the dog do during a thunderstorm?
+R-C460 | Our family’s strangest custom: ____.
+R-C461 | What’s hidden in the old photo album?
+R-C462 | The best reward for tidying your room: ____.
+R-C463 | What does Grandma do with the remote?
+R-C464 | The worst housewarming present is ____.
+R-C465 | What do you do when you get lost in a furniture store?
+R-C466 | Grandpa’s favorite saying: ____.
+R-C467 | What happened to the last cookie?
+R-C468 | My grandparents’ first date: the cinema, ____ and ____.
+R-C469 | The best way to liven up a boring wedding: ____.
+R-C470 | What does the cat say when its bowl is empty?
+R-C471 | The weirdest present from Auntie is ____.
+R-C472 | What does Dad keep in the car’s glove compartment?
+R-C473 | The greatest mystery in mathematics: ____.
+R-C474 | What goes on in the bathroom at 7 a.m.?
+R-C475 | The best idea for a family vacation is ____.
+R-C476 | What will Mom do after winning the lottery?
+R-C477 | Grandma’s favorite color is ____.
+R-C478 | New cheesy pop song: “You are ____, and I am ____”.
+R-C479 | What do the garden gnomes do in the garden?
+R-C480 | The worst present from a sibling: ____.
+R-C481 | What’s in the parcel nobody ordered?
+R-C482 | The best fun at a family reunion: ____.
+R-C483 | What does the fridge say at night?
+R-C484 | My favorite part of school is ____.
+R-C485 | What do you need at a family picnic?
+R-C486 | Family fight about vacation: mountains, the sea or ____? The winner is ____.
+R-C487 | The weirdest thing our dog ever did is ____.
+R-C488 | What does Grandma cook when she’s sad?
+R-C489 | The best word in the world is ____.
+R-C490 | What’s in the pocket of last year’s winter coat?
+R-C491 | The best thing about being the youngest in the family: ____.
+R-C492 | The worst thing about being the oldest in the family: ____.
+R-C493 | What do you do when everyone forgets your birthday?
+R-C494 | New ice cream. Flavor: ____. Sprinkles: ____.
+R-C495 | What is Uncle hiding from Auntie in the garage?
+R-C496 | The school caretaker’s greatest secret: ____.
+R-C497 | What are parents doing at 10:30 p.m. on New Year’s Eve?
+R-C498 | The weirdest gift idea for Dad is ____.
+R-C499 | What’s really in toothpaste?
+R-C500 | The best thing in family photos is ____.

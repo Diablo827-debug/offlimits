@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Bez tabu (18+) · język: es · paczka 02 (karty 101–200 z 208)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - X-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+X-C101 | Confesión después de años. Pecado uno: ____. Pecado dos: ____.
+X-C102 | Entrevista a un diputado. Pregunta del periodista: ____. Respuesta del diputado: ____.
+X-C103 | Bendición de la casa del tío. El cura ve: ____. El tío explica: ____.
+X-C104 | La escena política en dos palabras: ____ y ____.
+X-C105 | La boda de mi primo. El cura en el banquete: ____. Yo en el banquete: ____.
+X-C106 | La nueva televisión pública. Presentador: ____. Programa del día: ____.
+X-C107 | El Ministerio de la Familia recomienda: ____ por la mañana y ____ por la noche.
+X-C108 | Receta para una Nochebuena tranquila con una familia de ideas distintas: ____ y ____.
+X-C109 | Mi primera vez en un club gay. Me esperaba: ____. Me encontré: ____.
+X-C110 | Sermón del domingo. Tema: ____. Moraleja: ____.
+X-C111 | Escándalo en el Congreso. El culpable: ____. La excusa: ____.
+X-C112 | Foto familiar de la Primera Comunión. En primer plano: ____. Al fondo: ____.
+X-C113 | Mi protesta frente al Congreso. Pancarta: ____. Grito: ____.
+X-C114 | Plan para el Corpus: la procesión y ____, y por la noche ____.
+X-C115 | Una nueva campaña social. Lema: ____. Imagen de la campaña: ____.
+X-C116 | Salir del armario ante el abuelo. Yo: ____. El abuelo: ____.
+X-C117 | Los presupuestos del Estado. Para sanidad: ____. Para los diputados: ____.
+X-C118 | Un examen de conciencia a la polaca: ____, ____ y pereza.
+X-C119 | La visita pastoral. El cura pregunta: ____. El gato responde: ____.
+X-C120 | ¿Qué lleva el cura en el maletero?
+X-C121 | La mejor tapadera para la aventura de un diputado: ____.
+X-C122 | El verdadero mensaje de mis calcetines arcoíris: ____.
+X-C123 | ¿Qué aman los polacos más que a Dios?
+X-C124 | El pecado más común en nuestra familia: ____.
+X-C125 | Un nuevo programa de televisión sobre política: ____.
+X-C126 | ¿Qué dice el cura en un funeral cuando no conocía al difunto?
+X-C127 | Mi forma de hablar de política con el tío: ____.
+X-C128 | ¿Qué hace la familia cuando se entera de que soy gay?
+X-C129 | Lo primero que hará el nuevo gobierno: ____.
+X-C130 | Lo último que hará el gobierno saliente: ____.
+X-C131 | ¿Qué les quita el sueño a los diputados?
+X-C132 | El verdadero contenido de la pila de agua bendita: ____.
+X-C133 | ¿Qué dice la tía cuando ve a dos hombres de la mano?
+X-C134 | La mejor respuesta de un gay a «¿y la boda para cuándo?»: ____.
+X-C135 | El verdadero motivo por el que los polacos discuten de política: ____.
+X-C136 | ¿Qué lleva el ministro de Hacienda en la cartera?
+X-C137 | La novedad del año en la Iglesia: ____.
+X-C138 | ¿Qué le dice el diputado a su mujer al volver de un viaje oficial?
+X-C139 | La mejor forma de sobrevivir a unos ejercicios espirituales: ____.
+X-C140 | La forma de mi familia de pasar la jornada de reflexión: ____.
+X-C141 | ¿Qué hacen los curas de vacaciones?
+X-C142 | El regalo de Navidad más gay: ____.
+X-C143 | La frase de la camiseta que llevo a la comida familiar: ____.
+X-C144 | La palabra más polaca del año: ____.
+X-C145 | ¿Qué dice la abuela del gobierno con cada plato de sopa?
+X-C146 | La verdadera causa del agujero presupuestario: ____.
+X-C147 | ¿Qué hace el cura cuando se acaba el vino de misa?
+X-C148 | Un nuevo deporte en el Congreso: ____.
+X-C149 | Mi reacción cuando el cura pregunta si vivo en pecado: ____.
+X-C150 | ¿Qué encontraré en el historial de búsqueda de un diputado?
+X-C151 | El tema más polémico en una Primera Comunión: ____.
+X-C152 | La verdadera cara de la política: ____.
+X-C153 | ¿Qué hacen los gais el sábado por la noche según el tío?
+X-C154 | El verdadero objetivo de los misioneros que vienen al bloque: ____.
+X-C155 | ¿Qué dice papá cuando vemos un debate juntos?
+X-C156 | La mejor promesa electoral de todos los tiempos: ____.
+X-C157 | ¿Qué pasa en el sínodo fuera de horario?
+X-C158 | La mejor excusa para no ir a votar: ____.
+X-C159 | El verdadero motivo por el que el obispo tiene dos coches: ____.
+X-C160 | ¿Qué le esconde mamá al párroco?
+X-C161 | El verdadero tema de la pelea familiar en Pascua: ____.
+X-C162 | ¿Qué hace un concejal cuando no le llama nadie?
+X-C163 | La película más gay que ha visto el abuelo es ____.
+X-C164 | Mi receta para la paz en una familia polaca: ____.
+X-C165 | ¿Qué dice el cura de los vecinos desde el púlpito sin dar nombres?
+X-C166 | El milagro más sobrevalorado es ____.
+X-C167 | Mi voto en las elecciones va para ____.
+X-C168 | Una nueva prohibición que introducirá el gobierno: ____.
+X-C169 | ¿Qué hacen los políticos con el dinero de los impuestos?
+X-C170 | ¿Por qué llora la tía delante de la estampa del santo?
+X-C171 | El invitado más sorprendente en una boda de pueblo es ____.
+X-C172 | El verdadero motivo por el que un gay no va al gimnasio: ____.
+X-C173 | El verdadero motivo por el que un gay va al gimnasio: ____.
+X-C174 | ¿Qué hacen los diputados en el baño del Congreso?
+X-C175 | Lo peor que se puede decir en el funeral de un tío militante: ____.
+X-C176 | ¿Qué dice la parroquia cuando la iglesia necesita un tejado nuevo?
+X-C177 | El nuevo patrón de Polonia: ____.
+X-C178 | Mi secreto familiar que conoce toda la parroquia: ____.
+X-C179 | ¿Qué guarda el obispado en la caja fuerte?
+X-C180 | ¿Qué hacen los gais cuando se jubilan?
+X-C181 | Nuevo mandamiento número once: ____. Castigo por incumplirlo: ____.
+X-C182 | Un programa electoral en una hoja de cuaderno. Punto uno: ____. Punto dos: ____.
+X-C183 | Comida familiar del domingo. Tema número uno: ____. Tema prohibido: ____.
+X-C184 | La abuela reza el rosario por ____ y por ____.
+X-C185 | Sermón de la fiesta de la cosecha. Primero sobre el pan y luego sobre ____ y ____.
+X-C186 | Mi boda con mi marido. Primer baile: ____. Regalo de la tía: ____.
+X-C187 | Entrevista en el magacín matinal. Pregunta: ____. Respuesta del diputado: ____.
+X-C188 | Debate de candidatos a la presidencia. Promesa número uno: ____. El plan real: ____.
+X-C189 | Bendición de nuestra casa. El cura ve ____ y enseguida pregunta por ____.
+X-C190 | Mamá le explica mi relación a la vecina: ____. La vecina responde: ____.
+X-C191 | El tío confiesa después del tercer chupito: ____. La tía grita: ____.
+X-C192 | Un nuevo impuesto sobre ____. El dinero irá a ____.
+X-C193 | Mi confesión en una frase: ____. Penitencia: ____.
+X-C194 | ¿Qué hay en el sobre que el abuelo le da al cura cada año?
+X-C195 | ¿Qué lleva la tía en el bolso por si se encuentra con un gay?
+X-C196 | ¿Qué oirá en el Congreso el primer presidente gay del país?
+X-C197 | ¿Qué hará el tío si gana el partido que no soporta?
+X-C198 | ¿Qué hace mi ángel de la guarda cuando me voy de fiesta?
+X-C199 | ¿Qué ve el cura por la noche en la casa parroquial?
+X-C200 | Lo más polaco que hice en una boda en el extranjero es ____.

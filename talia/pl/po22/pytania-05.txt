@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Po 22:00 (pikantniejsze) · język: pl · paczka 05 (karty 401–500 z 501)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-C401 | Moja randka w ciemno. Spodziewałem się: ____. Przyszedł: ____.
+N-C402 | Dorosłe życie. Spodziewałem się: ____. Dostałem: ____.
+N-C403 | Mój poranek. Budzik: ____. Pierwsza kawa: ____.
+N-C404 | Romans w biurze. On: ____. Ona: ____.
+N-C405 | Nowy reality show. Uczestnicy: ____. Zadanie: ____.
+N-C406 | Moje mieszkanie po imprezie. W wannie: ____. Na balkonie: ____.
+N-C407 | Moje życie. Zostało mi: ____. Odeszło ode mnie: ____.
+N-C408 | Nowy biznes szwagra. Pomysł: ____. Inwestor: ____.
+N-C409 | Wesele w remizie. Przystawka: ____. Powód bójki: ____.
+N-C410 | Spotkanie z byłym. Ja mówię: ____. On mówi: ____.
+N-C411 | Nowa aplikacja. Funkcja: ____. Efekt uboczny: ____.
+N-C412 | Moje święta. Prezent marzeń: ____. Prezent prawdziwy: ____.
+N-C413 | Moja przemowa weselna. Wstęp: ____. Puenta: ____.
+N-C414 | Urodziny szefa. Prezent od działu: ____. Toast: ____.
+N-C415 | Szczery horoskop. Miłość: ____. Pieniądze: ____.
+N-C416 | Nowa dieta celebrytów: ____ rano i ____ wieczorem.
+N-C417 | Ostatni wieczór przed ślubem: ____ i ____.
+N-C418 | Moja sobota. Przed północą: ____. Po północy: ____.
+N-C419 | Mój telefon. Ekran główny: ____. Ukryty folder: ____.
+N-C420 | Zakład z kumplem. Stawka: ____. Kara dla przegranego: ____.
+N-C421 | Polskie wakacje. Pogoda: ____. Cena gofra: ____.
+N-C422 | Wielka kłótnia przy wódce. Temat: ____. Zwycięzca: ____.
+N-C423 | Bilans roku. Sukces: ____. Porażka: ____.
+N-C424 | Gala rozdania nagród. Kategoria: ____. Zwycięzca: ____.
+N-C425 | List do Mikołaja po trzydziestce. Przynieś: ____. Zabierz: ____.
+N-C426 | Moja grupa przyjaciół. Lider: ____. Problem: ____.
+N-C427 | Romantyczny SMS. Wersja pierwsza: ____. Wersja wysłana: ____.
+N-C428 | Nowy program kulinarny po północy. Danie: ____. Składnik tajny: ____.
+N-C429 | Moja sąsiadka wie o mnie dwie rzeczy: ____ i ____.
+N-C430 | Plan na emeryturę. Miejsce: ____. Zajęcie: ____.
+N-C431 | Prawdziwy powód, dla którego zmieniłem pracę: ____.
+N-C432 | Co mówią ludzie przy grillu po trzeciej kiełbasie?
+N-C433 | Najlepsza rzecz na poprawę humoru po kłótni: ____.
+N-C434 | Co mówię barmanowi o 2 w nocy?
+N-C435 | Główna zasada mojego związku: ____.
+N-C436 | Co robi kot, kiedy myślę, że śpi?
+N-C437 | Najgorsza rzecz, która może się zepsuć w zimie: ____.
+N-C438 | Co ukrywam w zamrażarce?
+N-C439 | Mój pierwszy samochód w trzech słowach: ____.
+N-C440 | Najgorsza rzecz do powiedzenia na weselu byłej: ____.
+N-C441 | Co mówię, kiedy partner chce iść do sklepu meblowego w sobotę?
+N-C442 | Najlepszy sposób na długi weekend: ____.
+N-C443 | Co mówi wróżka o moim życiu uczuciowym?
+N-C444 | Najbardziej przerażająca rzecz w dorosłości: ____.
+N-C445 | Co mówią rodzice na pierwszym spotkaniu z moim partnerem?
+N-C446 | Najlepsza imprezowa przekąska: ____.
+N-C447 | Najgorsza imprezowa przekąska: ____.
+N-C448 | Co mówię w poniedziałek na pytanie „jak weekend?”?
+N-C449 | Moja najlepsza decyzja w życiu: ____.
+N-C450 | Moja najgorsza decyzja w życiu: ____.
+N-C451 | Co robię, gdy w pracy wysiądzie internet?
+N-C452 | Co mówi tata o moim samochodzie?
+N-C453 | Ulubiony temat rozmów po pięciu latach małżeństwa: ____.
+N-C454 | Co mówię, kiedy partner pyta, o czym myślę?
+N-C455 | Prawdziwy powód, dla którego chodzę na jogę: ____.
+N-C456 | Jedyne, czego potrzebuję w piątek wieczorem: ____.
+N-C457 | Najgorsza niespodzianka na urodziny: ____.
+N-C458 | Co robię, kiedy rodzice pytają o wnuki?
+N-C459 | Najlepszy sposób na przetrwanie wizyty u teściów: ____.
+N-C460 | Moja recenzja ostatniego wesela: ____.
+N-C461 | Co mówię na widok rachunku w restauracji?
+N-C462 | Najgorsza rzecz w mieszkaniu w bloku: ____.
+N-C463 | Co mówi o mnie historia mojego GPS-a?
+N-C464 | Moja ulubiona część związku: ____.
+N-C465 | Najlepsza rzecz w poniedziałkowym zebraniu: ____.
+N-C466 | Co sprawia, że sąsiedzi dzwonią na policję?
+N-C467 | Najbardziej szczery toast weselny: ____.
+N-C468 | Co mówię szefowi, kiedy pyta o postępy?
+N-C469 | Najlepszy wynalazek dla zmęczonych rodziców: ____.
+N-C470 | Co mówię, kiedy dziecko pyta, co to jest kac?
+N-C471 | Najbardziej romantyczne słowa po dziesięciu latach małżeństwa: ____.
+N-C472 | Co robię, kiedy kończy się serial i trzeba rozmawiać?
+N-C473 | Prawdziwy powód, dla którego wyjeżdżam w delegację: ____.
+N-C474 | Najlepszy sposób na nudne urodziny teściowej: ____.
+N-C475 | Co mówię, gdy przypadkiem odpowiem „wszystkim” na firmowego maila?
+N-C476 | Najgorsza rzecz do znalezienia w kieszeni po praniu: ____.
+N-C477 | Moja reakcja na „mamy gości za 10 minut”: ____.
+N-C478 | Co mówię, kiedy partner chce adoptować trzeciego kota?
+N-C479 | Najdziwniejszy prezent od byłego to ____.
+N-C480 | Najgorszy sposób na rozpoczęcie przemowy weselnej: ____.
+N-C481 | Co robię, kiedy kurier dzwoni, a ja jestem w ręczniku?
+N-C482 | Ulubiony temat rozmowy wujka po północy: ____.
+N-C483 | Najbardziej podejrzany SMS od mamy: ____.
+N-C484 | Co mówią koleżanki z pracy na urodzinach szefowej?
+N-C485 | Moja najsłabsza wymówka w historii: ____.
+N-C486 | Najlepsza rzecz, jaką można kupić za ostatnie 20 złotych: ____.
+N-C487 | Co robi szwagier na weselu po drugiej butelce?
+N-C488 | Najbardziej przerażający dźwięk w nocy w bloku: ____.
+N-C489 | Co mówi kumpel, kiedy pożycza pieniądze?
+N-C490 | Prawdziwy powód, dla którego biorę udział w maratonie: ____.
+N-C491 | Najgorszy sposób na poznanie sąsiadów: ____.
+N-C492 | Co znaczy „spotkajmy się kiedyś na piwo”?
+N-C493 | Moja metoda na przetrwanie wigilii z rodziną partnera: ____.
+N-C494 | Najgorsza wiadomość od szefa w piątek o 16:55: ____.
+N-C495 | Co mówię dziecku, które pyta, dlaczego tata śpi na kanapie?
+N-C496 | Ostatni krzyk mody wśród czterdziestolatków: ____.
+N-C497 | Co mówię, kiedy partner kupuje kolejny gadżet do kuchni?
+N-C498 | Najgorsza rzecz do usłyszenia na pierwszej randce: ____.
+N-C499 | Mój sposób na zapomnienie o rachunkach: ____.
+N-C500 | Co robię, kiedy na imprezie zostaję sam w kuchni z obcym?

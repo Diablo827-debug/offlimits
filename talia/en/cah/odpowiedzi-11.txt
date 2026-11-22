@@ -1,0 +1,51 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Cards Against Humanity (CC BY-NC-SA) · język: en · paczka 11 (karty 2001–2042 z 2042)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - C-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+C-B02094 | Watching a hot person eat.
+C-B02096 | Watching you die.
+C-B02098 | Water.
+C-B02119 | When the big truck goes "Toot! Toot!"
+C-B02128 | Whomsoever let the dogs out.
+C-B02141 | You.
+C-B05783 | $8.27.
+C-B05780 | 14,000 unread emails.
+C-B05787 | A bomb that detonates if you stop masturbating.
+C-B05760 | A metaphor for something.
+C-B05793 | A pinky up the butt.
+C-B05762 | A superspreader event.
+C-B05764 | A website dedicated entirely to pornography.
+C-B05779 | A zero-risk way to make $5,000 from home.
+C-B05757 | American cultural hegemony.
+C-B05794 | Being high all the time.
+C-B05773 | Body dysmorphia.
+C-B05792 | Chonk in the donk.
+C-B05749 | Copyright infringement.
+C-B05791 | Destigmatizing sex work.
+C-B05766 | Doing pervert stuff in the shed.
+C-B05761 | Eating human flesh.
+C-B05790 | Former gifted kids with self-diagnosed ADHD.
+C-B05752 | Having been dead the whole time.
+C-B05778 | Immunity from criminal prosecution.
+C-B05753 | Intellectual masturbation.
+C-B05776 | Liver failure.
+C-B05772 | Looking all fucked-up from plastic surgery.
+C-B05769 | Looking at my underpants and saying, "oh no."
+C-B05763 | My third husband.
+C-B05784 | My wife spending all my money on bullshit.
+C-B05770 | Old lesbians.
+C-B05795 | Profound regret.
+C-B05756 | Saying something problematic.
+C-B05782 | Sluts.
+C-B05765 | Supporting small businesses.
+C-B05767 | The collapse of the Chinese real estate market.
+C-B05788 | The intoxicating fragrance of my own balls.
+C-B05758 | The jizz-summoning ritual.
+C-B05755 | Verizon customer service.
+C-B05744 | White people getting offended on behalf of people who aren't offended.
+C-B05796 | Work.

@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Rodzinny (dla wszystkich) · język: en · paczka 03 (karty 401–600 z 1512)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-B0401 | 1% battery.
+R-B0402 | An update notification.
+R-B0403 | A phone game that ate all the data.
+R-B0404 | A selfie with Grandma.
+R-B0405 | A dog-ears filter.
+R-B0406 | Photographing food before eating it.
+R-B0407 | A video call with Grandpa showing the ceiling.
+R-B0408 | A family photo as the screensaver.
+R-B0409 | A laptop that gets as hot as an oven.
+R-B0410 | A printer that won’t print when you need it.
+R-B0411 | Wi-Fi that only works in the kitchen.
+R-B0412 | A router that needs resetting.
+R-B0413 | A tablet with cartoons.
+R-B0414 | A game console under the Christmas tree.
+R-B0415 | A controller with sticky buttons.
+R-B0416 | A board game missing half its pieces.
+R-B0417 | A jigsaw puzzle missing the last piece.
+R-B0418 | A Rubik’s cube nobody has ever solved.
+R-B0419 | Dominoes set up across the whole room.
+R-B0420 | Charades with Grandpa.
+R-B0421 | Name, place, animal with the letter X.
+R-B0422 | A family card tournament.
+R-B0423 | A grandma who cheats at rummy.
+R-B0424 | A game of Ludo where nobody can lose gracefully.
+R-B0425 | Checkers with bottle caps instead of pieces.
+R-B0426 | Chess that only Grandpa plays.
+R-B0427 | Hide-and-seek where everyone forgot about me.
+R-B0428 | Playing tag in the yard.
+R-B0429 | Playing elastics.
+R-B0430 | Hopscotch drawn in chalk.
+R-B0431 | The carpet-beating rack in the yard.
+R-B0432 | A creaky swing.
+R-B0433 | A sandbox with a cat in it.
+R-B0434 | A tree house.
+R-B0435 | A blanket fort in the living room.
+R-B0436 | A pillow fight.
+R-B0437 | A snail race.
+R-B0438 | Flying a kite.
+R-B0439 | Soap bubbles.
+R-B0440 | A water pistol.
+R-B0441 | A balloon that popped in the car.
+R-B0442 | A clown at a birthday party.
+R-B0443 | Face painting at the fair.
+R-B0444 | Cotton candy.
+R-B0445 | A carousel at the parish fair.
+R-B0446 | A shooting gallery with plastic roses.
+R-B0447 | An amusement park.
+R-B0448 | A Ferris wheel.
+R-B0449 | A circus with no animals.
+R-B0450 | A magic show.
+R-B0451 | An open-air cinema.
+R-B0452 | Popcorn all over the sofa.
+R-B0453 | Watching the same cartoon for the hundredth time.
+R-B0454 | The same Christmas movie every single year.
+R-B0455 | A song you can’t get out of your head.
+R-B0456 | Cheesy pop at a wedding.
+R-B0457 | A wedding band playing the biggest cheesy pop hit.
+R-B0458 | A conga line at a wedding.
+R-B0459 | The garter-and-bouquet games at a wedding.
+R-B0460 | Tossing the veil.
+R-B0461 | Vodka chased with fruit compote.
+R-B0462 | An uncle dancing with a chair.
+R-B0463 | Grandma on the dance floor until 4 a.m.
+R-B0464 | A wedding cake rolled in with a fountain of sparklers.
+R-B0465 | The day-after wedding party.
+R-B0466 | Envelopes in a basket.
+R-B0467 | A photo booth with mustaches on sticks.
+R-B0468 | A DJ who only plays the ’80s.
+R-B0469 | A wedding hall with crystal chandeliers.
+R-B0470 | A First Communion with a bike as a present.
+R-B0471 | A christening with a cake shaped like a baby shoe.
+R-B0472 | An 18th birthday party in the village hall.
+R-B0473 | A name-day party with jelly.
+R-B0474 | Pretending to sleep while Mom is cleaning.
+R-B0475 | Eating dessert before dinner.
+R-B0476 | Spilling juice on the new carpet.
+R-B0477 | Falling asleep in history class.
+R-B0478 | Getting lost in the supermarket.
+R-B0479 | Mixing up salt and sugar.
+R-B0480 | Waving back at someone who was waving at someone else.
+R-B0481 | Saying “you too” to the waiter who says “enjoy your meal”.
+R-B0482 | Looking for the keys you’re holding.
+R-B0483 | Walking into a room and forgetting why.
+R-B0484 | Texting Mom instead of a friend.
+R-B0485 | Sneezing ten times in a row.
+R-B0486 | Tripping on a perfectly flat path.
+R-B0487 | Singing in the shower.
+R-B0488 | Dancing when nobody’s watching.
+R-B0489 | Talking to the cat like it’s a person.
+R-B0490 | Eating a whole bag of chips “by accident”.
+R-B0491 | Waking up one minute before the alarm.
+R-B0492 | Pulling a door that says “push”.
+R-B0493 | Waving at the camera on live TV.
+R-B0494 | Pretending to get the joke.
+R-B0495 | Calling a dog that pretends it can’t hear.
+R-B0496 | Throwing a red sock in with the whites.
+R-B0497 | Sitting on your glasses.
+R-B0498 | Losing your other shoe.
+R-B0499 | Sleeping through your stop.
+R-B0500 | Hugging a tree.
+R-B0501 | Stealing the last cookie.
+R-B0502 | Tasting Grandma’s soup and asking for seconds.
+R-B0503 | Running away from the vacuum cleaner.
+R-B0504 | Taking a family photo with the self-timer.
+R-B0505 | Sliding down the banister.
+R-B0506 | Winning at rock, paper, scissors.
+R-B0507 | Counting sheep up to a thousand.
+R-B0508 | Whistling while you work.
+R-B0509 | Doing push-ups during the commercials.
+R-B0510 | Cooking pasta into mush.
+R-B0511 | Forgetting Auntie’s birthday.
+R-B0512 | Eating cold pizza for breakfast.
+R-B0513 | Walking the dog in your pajamas.
+R-B0514 | Waving at a train.
+R-B0515 | Collecting chestnuts.
+R-B0516 | Jumping in puddles.
+R-B0517 | Skipping stones on the lake.
+R-B0518 | Catching snowflakes on your tongue.
+R-B0519 | Smashing the piggy bank.
+R-B0520 | Counting the stars.
+R-B0521 | Eating a cream slice with a spoon.
+R-B0522 | Playing trains with chairs.
+R-B0523 | Cooking with Grandpa.
+R-B0524 | Teaching Grandma to send emojis.
+R-B0525 | Running after the bus.
+R-B0526 | Losing the remote in the fridge.
+R-B0527 | Talking to plants.
+R-B0528 | Arguing with the GPS.
+R-B0529 | Sleeping in the car at a rest stop.
+R-B0530 | Telling your dream at breakfast.
+R-B0531 | Dressing up as a ghost in a bedsheet.
+R-B0532 | Mixing all the drinks together.
+R-B0533 | Writing a letter to yourself.
+R-B0534 | Building a pillow fort.
+R-B0535 | Reading under the duvet with a flashlight.
+R-B0536 | Eating ice cream in winter.
+R-B0537 | Walking in socks on a wet floor.
+R-B0538 | Leaving a mug of tea out for three days.
+R-B0539 | Going shopping without a list.
+R-B0540 | Showing up at a birthday party with a present for yourself.
+R-B0541 | Forgetting your lines at the school show.
+R-B0542 | Laughing at the hamster’s funeral.
+R-B0543 | Falling asleep on the bus with your mouth open.
+R-B0544 | Digging a hole to China.
+R-B0545 | Racing the cat.
+R-B0546 | Chatting with the neighbor over the fence.
+R-B0547 | Climbing a tree and not being able to get down.
+R-B0548 | Starting the laundry and forgetting about it.
+R-B0549 | Not recognizing your own mom after a new haircut.
+R-B0550 | Cutting your own bangs.
+R-B0551 | Blowing out all the birthday candles on the first try.
+R-B0552 | Singing “Happy Birthday” too fast.
+R-B0553 | Counting all the presents.
+R-B0554 | Licking the frosting bowl clean.
+R-B0555 | Teaching the dog new tricks.
+R-B0556 | Fighting over the last slice of cake.
+R-B0557 | Pretending to listen.
+R-B0558 | Staring into the fridge hoping something will appear.
+R-B0559 | Hugging the radiator.
+R-B0560 | Drinking tea that’s already gone cold.
+R-B0561 | Pulling faces in the mirror.
+R-B0562 | Inventing a secret language with your brother.
+R-B0563 | Calling Grandma only to get a recipe.
+R-B0564 | Making a snow angel.
+R-B0565 | Jumping on the neighbors’ trampoline.
+R-B0566 | Sleeping until noon on Saturday.
+R-B0567 | Getting up at 5 a.m. to go fishing.
+R-B0568 | Running around the house in a cape.
+R-B0569 | Yawning at the worst possible moment.
+R-B0570 | Mixing up your kids’ names.
+R-B0571 | Saying “right, let’s go” and standing there for another hour.
+R-B0572 | Dyeing Easter eggs with onion skins.
+R-B0573 | Hiding broccoli under the potatoes.
+R-B0574 | Reading the instructions all the way through.
+R-B0575 | Leaving the house in slippers.
+R-B0576 | Having hiccups all day long.
+R-B0577 | Breaking the jump rope record.
+R-B0578 | Snoring like a tractor.
+R-B0579 | Petting a hedgehog.
+R-B0580 | Winning the longest burp contest.
+R-B0581 | Burping the alphabet.
+R-B0582 | Slipping on a banana peel.
+R-B0583 | Playing football in the living room.
+R-B0584 | Breaking Grandma’s vase.
+R-B0585 | Feeding the ducks bread.
+R-B0586 | Faking an illness before a test.
+R-B0587 | Eating lunch at Grandma’s and then two dinners.
+R-B0588 | Getting seconds without asking.
+R-B0589 | Spilling cocoa on your notebook.
+R-B0590 | Drawing on the wall with markers.
+R-B0591 | Cutting the hair of your sister’s doll.
+R-B0592 | Hiding in the wardrobe.
+R-B0593 | Sleeping with the dog in your bed.
+R-B0594 | Watching cartoons in your pajamas.
+R-B0595 | Always being right.
+R-B0596 | Never being right.
+R-B0597 | Eating a chocolate egg in one go.
+R-B0598 | Pulling out a tooth with a string and a door handle.
+R-B0599 | Looking for the tooth fairy.
+R-B0600 | Waiting for the first star on Christmas Eve.

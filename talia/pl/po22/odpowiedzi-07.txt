@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Po 22:00 (pikantniejsze) · język: pl · paczka 07 (karty 1201–1400 z 1502)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-B1201 | Biuro bez okien.
+N-B1202 | Open space z 200 osobami i jedną toaletą.
+N-B1203 | Coworking z darmową kawą i drogim życiem.
+N-B1204 | Praca hybrydowa, czyli praca zawsze.
+N-B1205 | Weekend pod telefonem.
+N-B1206 | Urlop z laptopem nad morzem.
+N-B1207 | Wyjście z pracy o 17:00 jak ucieczka z więzienia.
+N-B1208 | Spojrzenia kolegów, gdy wychodzę o czasie.
+N-B1209 | Nadgodziny, za które płacą satysfakcją.
+N-B1210 | Praca, która jest „jak rodzina”.
+N-B1211 | Rodzina, która jest jak praca.
+N-B1212 | Szef, który jest jak ojciec.
+N-B1213 | Ojciec, który jest jak szef.
+N-B1214 | Teściowa, która jest jak kontroler biletów.
+N-B1215 | Związek, który jest jak praca na etacie.
+N-B1216 | Etat, który jest jak toksyczny związek.
+N-B1217 | Kryzys, który jest jak stary znajomy.
+N-B1218 | Pech, który zawsze wraca.
+N-B1219 | Szczęście, które zawsze trafia do sąsiada.
+N-B1220 | Karma, która mnie dogoniła.
+N-B1221 | Horoskop, który się sprawdził.
+N-B1222 | Wróżka, która przepowiedziała ślub w tym roku.
+N-B1223 | Tarot o północy z przyjaciółkami.
+N-B1224 | Merkury w retrogradacji jako wymówka.
+N-B1225 | Znak zodiaku jako wymówka na wszystko.
+N-B1226 | Rozmowa o astrologii z inżynierem.
+N-B1227 | Teoria spiskowa wujka o fluorze.
+N-B1228 | Płaska Ziemia na wigilijnej kolacji.
+N-B1229 | Szwagier, który był w telewizji raz w 2004.
+N-B1230 | Kuzyn, który zna kogoś, kto zna celebrytę.
+N-B1231 | Wujek, który mówi, że grał w reprezentacji.
+N-B1232 | Dziadek, który twierdzi, że widział UFO.
+N-B1233 | Babcia, która zna wszystkie seriale na pamięć.
+N-B1234 | Teściowa, która ogląda programy o ślubach.
+N-B1235 | Ciocia, która ogląda programy o rozwodach.
+N-B1236 | Kolega, który ogląda programy o przetrwaniu w dziczy z kanapy.
+N-B1237 | Przetrwanie weekendu z dwulatkiem.
+N-B1238 | Przetrwanie wigilii z rodziną partnera.
+N-B1239 | Przetrwanie wesela bez alkoholu.
+N-B1240 | Przetrwanie urlopu z teściami.
+N-B1241 | Przetrwanie remontu bez rozwodu.
+N-B1242 | Przetrwanie zimy bez witaminy D.
+N-B1243 | Przetrwanie listopada.
+N-B1244 | Styczeń, który trwa 85 dni.
+N-B1245 | Luty jako miesiąc żalu za postanowienia.
+N-B1246 | Wiosna, która zawsze zaskakuje drogowców.
+N-B1247 | Lato w mieście bez klimatyzacji.
+N-B1248 | Jesień ze swetrem i chandrą.
+N-B1249 | Zima, która przychodzi niespodziewanie co roku.
+N-B1250 | Mój były, który teraz jest coachem.
+N-B1251 | Była, która teraz jest influencerką.
+N-B1252 | Związek, który przetrwał tylko na zdjęciach.
+N-B1253 | Zaręczyny, które trwają dziewięć lat.
+N-B1254 | Narzeczona, która planuje ślub od dziecka.
+N-B1255 | Narzeczony, który dowiedział się o ślubie z Facebooka.
+N-B1256 | Lista gości, przez którą rozpadła się rodzina.
+N-B1257 | Usadzenie gości jako problem logistyczny NATO.
+N-B1258 | Stół dla „reszty” na weselu.
+N-B1259 | Kuzynka, która przyszła w sukni ślubnej.
+N-B1260 | Ciotka, która wygłosiła mowę bez zaproszenia.
+N-B1261 | Dziadek, który zasnął w kościele.
+N-B1262 | Ksiądz, który żartował o rozwodach.
+N-B1263 | Organista grający w złym tempie.
+N-B1264 | Pierścionki zamienione przez świadka.
+N-B1265 | „Tak” powiedziane za szybko.
+N-B1266 | „Tak” powiedziane za wolno.
+N-B1267 | Pocałunek przed ołtarzem, który trwał za długo.
+N-B1268 | Wyjście z kościoła w deszczu ryżu i monet.
+N-B1269 | Sesja zdjęciowa w polu z kombajnem.
+N-B1270 | Spóźniony autokar z gośćmi.
+N-B1271 | Para młoda, która uciekła z własnego wesela.
+N-B1272 | Tort, który się przewrócił.
+N-B1273 | Pierwszy taniec ćwiczony pół roku i zapomniany.
+N-B1274 | Weselny pociąg przez całą salę.
+N-B1275 | Konkurs „kto szybciej wypije” wygrany przez babcię.
+N-B1276 | Oczepiny z przebieraniem pana młodego.
+N-B1277 | Wujek, który zabrał mikrofon zespołowi.
+N-B1278 | Ciocia, która płacze przy każdej weselnej balladzie.
+N-B1279 | Wódka na stole w ilościach hurtowych.
+N-B1280 | Koperty liczone w hotelu o 6 rano.
+N-B1281 | Zakład o to, ile wyniesie zawartość kopert.
+N-B1282 | Pierwsza kłótnia małżeńska w noc poślubną.
+N-B1283 | Podróż poślubna przełożona przez kredyt.
+N-B1284 | Ślub cywilny w dresie.
+N-B1285 | Rozwód przez SMS.
+N-B1286 | Podział majątku: ty bierzesz psa, ja kanapę.
+N-B1287 | Grupa wsparcia „Po rozwodzie w 30 dni”.
+N-B1288 | Pierwsza randka po rozwodzie.
+N-B1289 | Randka z kimś, kto mówi tylko o byłej.
+N-B1290 | Randka z kimś, kto zamówił dla mnie wodę z kranu.
+N-B1291 | Randka w kawiarni z kotami i alergią.
+N-B1292 | Randka na rolkach po latach.
+N-B1293 | Randka, na której przyszła cała jego rodzina.
+N-B1294 | Randka, po której dostałem fakturę.
+N-B1295 | Randka, która zamieniła się w rozmowę o pracę.
+N-B1296 | Randka, z której uciekłem przez okno w toalecie.
+N-B1297 | Randka, na której spotkałem byłą w tej samej restauracji.
+N-B1298 | Druga randka, która nigdy nie nastąpiła.
+N-B1299 | Trzecia randka i pytanie „to co to jest?”.
+N-B1300 | Związek „to skomplikowane”.
+N-B1301 | Związek bez nazwy od dwóch lat.
+N-B1302 | Przyjaciele z korzyściami bez korzyści.
+N-B1303 | Facet, który jeszcze nie jest gotowy.
+N-B1304 | Dziewczyna, która jeszcze nie skończyła z byłym.
+N-B1305 | Chłopak, który mieszka z mamą w wieku 37 lat.
+N-B1306 | Mama, która prasuje mu koszule.
+N-B1307 | Dziewczyna z siedmioma kotami.
+N-B1308 | Facet z kolekcją mieczy samurajskich.
+N-B1309 | Kolekcja figurek, której nie wolno dotykać.
+N-B1310 | Kolega, który mówi tylko o kryptowalutach.
+N-B1311 | Koleżanka, która mówi tylko o swoim psie.
+N-B1312 | Kumpel, który mówi tylko o siłowni.
+N-B1313 | Przyjaciółka, która mówi tylko o ślubach.
+N-B1314 | Znajomi, którzy mówią tylko o dzieciach.
+N-B1315 | Rodzice, którzy mówią tylko o chorobach.
+N-B1316 | Dziadkowie, którzy mówią tylko o pogrzebach.
+N-B1317 | Rozmowy przy stole, od których bolą zęby.
+N-B1318 | Rozmowa o polityce przy deserze.
+N-B1319 | Rozmowa o pieniądzach przy teściach.
+N-B1320 | Rozmowa o seksie przy babci.
+N-B1321 | Rozmowa o pracy na wakacjach.
+N-B1322 | Rozmowa o dzieciach na wieczorze kawalerskim.
+N-B1323 | Rozmowa o byłych na randce.
+N-B1324 | Rozmowa o zdrowiu po trzydziestce.
+N-B1325 | Rozmowa o cenach mieszkań na każdej imprezie.
+N-B1326 | Rozmowa o tym, jak to było w liceum.
+N-B1327 | Kłótnia o to, czy pizza z ananasem to zbrodnia.
+N-B1328 | Kłótnia o to, jak wieszać papier toaletowy.
+N-B1329 | Kłótnia o to, kto pierwszy powie „kocham cię”.
+N-B1330 | Kłótnia o to, kto ma pilnować imprezy.
+N-B1331 | Kłótnia o to, kto prowadzi w drodze powrotnej.
+N-B1332 | Kierowca, który pił tylko wodę i pamięta wszystko.
+N-B1333 | Taksówka za 200 złotych z wesela.
+N-B1334 | Spanie w samochodzie na parkingu pod salą weselną.
+N-B1335 | Powrót do domu w świetle dnia.
+N-B1336 | Śniadanie w restauracji przydrożnej z kacem.
+N-B1337 | Jajecznica na boczku jako ratunek.
+N-B1338 | Barszcz czerwony w kubku jako lek.
+N-B1339 | Żurek na poprawinach.
+N-B1340 | Śledź po weselu.
+N-B1341 | Ogórkowa, która przywraca życie.
+N-B1342 | Rosół od mamy w słoiku.
+N-B1343 | Mama, która wie, że wczoraj była impreza.
+N-B1344 | Tata, który udaje, że nie wie.
+N-B1345 | Babcia, która też była na imprezie.
+N-B1346 | Pies, który widział wszystko.
+N-B1347 | Sąsiad, który słyszał wszystko.
+N-B1348 | Monitoring, który nagrał wszystko.
+N-B1349 | Zdjęcie w lokalnej gazecie.
+N-B1350 | Film na lokalnej grupie.
+N-B1351 | Komentarze pod filmem.
+N-B1352 | Sława w promieniu trzech osiedli.
+N-B1353 | Rozpoznawalność w sklepie spożywczym.
+N-B1354 | Pani w sklepie, która wie, co kupuję w piątek.
+N-B1355 | Pan w kiosku, który zna moje papierosy.
+N-B1356 | Ksiądz, który zna moje grzechy.
+N-B1357 | Fryzjerka, która zna moje sekrety.
+N-B1358 | Mama, która zna moje hasła.
+N-B1359 | Przyjaciółka, która zna moje wszystkie kompromitacje.
+N-B1360 | Brat, który ma na mnie haka.
+N-B1361 | Siostra, która wie, gdzie byłem w 2009.
+N-B1362 | Rodzina, która pamięta mój najgorszy moment.
+N-B1363 | Historia, którą opowiada się na każdym weselu.
+N-B1364 | Zdjęcie z dzieciństwa pokazane partnerowi.
+N-B1365 | Pierwsze spotkanie z rodzicami partnera.
+N-B1366 | Pierwsza wspólna Wigilia u przyszłych teściów.
+N-B1367 | Teść, który pyta o moje zarobki.
+N-B1368 | Teściowa, która pyta, czy umiem gotować.
+N-B1369 | Szwagier, który chce się ze mną zmierzyć na ręce.
+N-B1370 | Babcia partnera, która mnie od razu pokochała.
+N-B1371 | Pies partnera, który mnie nienawidzi.
+N-B1372 | Kot partnera, który śpi na mojej poduszce.
+N-B1373 | Mieszkanie partnera, w którym nie ma ręczników.
+N-B1374 | Łazienka partnera z jednym mydłem do wszystkiego.
+N-B1375 | Szafa partnera, w której mieszka cała przeszłość.
+N-B1376 | Szczoteczka do zębów w mieszkaniu partnera jako deklaracja.
+N-B1377 | Klucze do mieszkania jako krok milowy.
+N-B1378 | Wspólne konto na zakupy jako przysięga.
+N-B1379 | Wspólny pies jako test.
+N-B1380 | Wspólne dziecko jako egzamin.
+N-B1381 | Wspólna emerytura jako marzenie.
+N-B1382 | Wspólne narzekanie jako hobby.
+N-B1383 | Wspólny grób kupiony na promocji.
+N-B1384 | Pogrzeb z orkiestrą dętą.
+N-B1385 | Stypa z karaoke.
+N-B1386 | Mowa pożegnalna, która rozbawiła wszystkich.
+N-B1387 | Testament z niespodzianką.
+N-B1388 | Dziedzictwo w postaci długów.
+N-B1389 | Spadek w postaci starej meblościanki.
+N-B1390 | Rodzinny dom do remontu za milion.
+N-B1391 | Działka z widokiem na autostradę.
+N-B1392 | Mieszkanie po babci z dywanem na ścianie.
+N-B1393 | Kolekcja porcelany, której nikt nie chce.
+N-B1394 | Futro po babci, które pachnie naftaliną.
+N-B1395 | Biżuteria po prababci w pudełku po herbacie.
+N-B1396 | Zegar, który zatrzymał się w dniu ślubu.
+N-B1397 | Stary samochód dziadka trzymany w garażu z sentymentu.
+N-B1398 | Narty z lat 80. w piwnicy.
+N-B1399 | Odkurzacz z czasów PRL-u, który dalej działa.
+N-B1400 | Lodówka, która przetrwała trzy pokolenia.

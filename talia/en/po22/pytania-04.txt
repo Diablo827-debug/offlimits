@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Po 22:00 (pikantniejsze) · język: en · paczka 04 (karty 301–400 z 501)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-C301 | The real reason I have houseplants: ____.
+N-C302 | My relationship with Mondays: ____.
+N-C303 | The best way to pretend to be an adult: ____.
+N-C304 | What do my coworkers say behind my back?
+N-C305 | The weirdest thing in my online shopping cart: ____.
+N-C306 | The best revenge on an ex: ____.
+N-C307 | What does the boss do on vacation?
+N-C308 | The most honest sentence on my CV: ____.
+N-C309 | The least honest sentence on my CV: ____.
+N-C310 | What does the clerk at the government office say after 3 p.m.?
+N-C311 | The best present for a friend after a breakup: ____.
+N-C312 | The worst present for a friend after a breakup: ____.
+N-C313 | The best thing that can happen at a bachelorette party: ____.
+N-C314 | What do I say when I come home at 4 a.m.?
+N-C315 | What does the dog say when I come home at 4 a.m.?
+N-C316 | My partner’s favorite excuse: ____.
+N-C317 | My cure for the Sunday blues: ____.
+N-C318 | The scariest words in adult life: ____.
+N-C319 | What do the neighbors say about my new partner?
+N-C320 | The worst Valentine’s Day present: ____.
+N-C321 | The best Valentine’s Day present: ____.
+N-C322 | What do I say when my mother-in-law calls?
+N-C323 | The best way to survive the holidays with your family: ____.
+N-C324 | What makes me happy after 10 p.m.?
+N-C325 | A single person’s favorite part of a wedding: ____.
+N-C326 | My biggest shame from high school: ____.
+N-C327 | The best story from Erasmus: ____.
+N-C328 | What do people at the gym say when nobody’s listening?
+N-C329 | The worst thing to lose at a party: ____.
+N-C330 | What does the pharmacist say when I buy hangover pills?
+N-C331 | The best thing that can happen when you’re hungover: ____.
+N-C332 | What does my mom say about my love life?
+N-C333 | The last thing I expected on a date: ____.
+N-C334 | What does my kid say at kindergarten about our home?
+N-C335 | The worst thing my kid repeated in front of Grandma: ____.
+N-C336 | The real cause of a midlife crisis: ____.
+N-C337 | What do I say when someone asks about my savings?
+N-C338 | My secret weapon at parties: ____.
+N-C339 | The new trend among thirty-somethings: ____.
+N-C340 | What do I do at a wedding when they play cheesy pop?
+N-C341 | The best way to make up after a fight: ____.
+N-C342 | What do my plants say about my life?
+N-C343 | The most useful skill after thirty: ____.
+N-C344 | What am I hiding in my video watch history?
+N-C345 | Something I’d pay any money for: ____.
+N-C346 | The worst present from my mother-in-law: ____.
+N-C347 | What does a Pole do at a foreign airport?
+N-C348 | My favorite excuse not to clean: ____.
+N-C349 | What do people say in the dentist’s waiting room?
+N-C350 | The best way out of an awkward situation: ____.
+N-C351 | What does my phone say about my life?
+N-C352 | The real reason I didn’t call back: ____.
+N-C353 | My evening in three steps: ____, ____ and bed.
+N-C354 | A Tinder date. In the photos: ____. In real life: ____.
+N-C355 | A new series about my life. Title: ____. Main problem: ____.
+N-C356 | Office Christmas party. Present from the boss: ____. Gossip of the year: ____.
+N-C357 | My cousin’s wedding. First dance: ____. Last dance: ____.
+N-C358 | My relationship. At the start: ____. After five years: ____.
+N-C359 | Bachelor party. The plan: ____. What we remember: ____.
+N-C360 | Bachelorette party. Highlight: ____. Victim: ____.
+N-C361 | My apartment. In the photos: ____. In reality: ____.
+N-C362 | My career. The dream: ____. The reality: ____.
+N-C363 | All-inclusive holiday. Breakfast: ____. Dinner: ____.
+N-C364 | A neighbors’ feud. Cause: ____. Solution: ____.
+N-C365 | Recipe for a happy relationship: ____ and ____.
+N-C366 | Job interview. My strength: ____. My weakness: ____.
+N-C367 | Romantic weekend. The plan: ____. What went wrong: ____.
+N-C368 | A party at friends’. It started with: ____. It ended with: ____.
+N-C369 | My hangover. Cause: ____. Cure: ____.
+N-C370 | My budget. Income: ____. Expenses: ____.
+N-C371 | Meeting the in-laws. Safe topic: ____. Forbidden topic: ____.
+N-C372 | My wish list for my 40th birthday: ____ and ____.
+N-C373 | New segment on morning TV. Guest: ____. Topic: ____.
+N-C374 | Parenthood. Expectations: ____. Reality: ____.
+N-C375 | My type. Looks: ____. Personality: ____.
+N-C376 | Dating profile. Hobbies: ____. Looking for: ____.
+N-C377 | My future. In 5 years: ____. In 20 years: ____.
+N-C378 | The boss says: “We have a problem”. The problem: ____. Who’s to blame: ____.
+N-C379 | A new political party. Name: ____. Platform: ____.
+N-C380 | New Year’s Eve. Plan A: ____. Plan B: ____.
+N-C381 | The best combination in the world: ____ and ____.
+N-C382 | My diet. Breakfast: ____. Midnight dinner: ____.
+N-C383 | My autobiography. Title: ____. Subtitle: ____.
+N-C384 | Long-distance relationship. Me: ____. My partner: ____.
+N-C385 | Company team-building trip. The team-building: ____. The consequences: ____.
+N-C386 | School reunion years later. Who changed: ____. Who didn’t: ____.
+N-C387 | My bedroom. Under the bed: ____. On the nightstand: ____.
+N-C388 | Girls’ night. Wine and ____. Gossip topic: ____.
+N-C389 | Guys’ night. Beer and ____. Topic of conversation: ____.
+N-C390 | Polish Christmas Eve. On the table: ____. At the table: ____.
+N-C391 | My two biggest fears: ____ and ____.
+N-C392 | Midlife crisis. Symptom: ____. Treatment: ____.
+N-C393 | A new podcast. Host: ____. Episode topic: ____.
+N-C394 | My revenge on my ex. Step one: ____. Step two: ____.
+N-C395 | A single person’s shopping list: ____, ____ and frozen pizza.
+N-C396 | First shared apartment. First fight: ____. First make-up: ____.
+N-C397 | My therapy. The problem: ____. The diagnosis: ____.
+N-C398 | Work meeting. The goal: ____. The outcome: ____.
+N-C399 | My dream. Honest version: ____. LinkedIn version: ____.
+N-C400 | Party rules. Rule one: ____. Rule two: ____.

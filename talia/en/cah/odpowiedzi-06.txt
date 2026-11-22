@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Cards Against Humanity (CC BY-NC-SA) · język: en · paczka 06 (karty 1001–1200 z 2042)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - C-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+C-B03656 | Queefing.
+C-B03658 | Queuing.
+C-B03659 | Racially-biased SAT questions.
+C-B03660 | Racism.
+C-B03661 | Radical Islamic terrorism.
+C-B03662 | Rap music.
+C-B03664 | Raptor attacks.
+C-B03665 | Re-gifting.
+C-B06712 | Really healthy-looking stool.
+C-B06701 | Really regretting voting for Trump in three consecutive elections.
+C-B03666 | Rectangles.
+C-B03667 | Rehab.
+C-B03668 | Repression.
+C-B03669 | Republicans.
+C-B01647 | Reverse cowgirl.
+C-B01649 | Rich people.
+C-B03670 | Riding off into the sunset.
+C-B03671 | Ring Pops.
+C-B03674 | Ripping off the Beatles.
+C-B01653 | Ripping open a man's chest and pulling out his still-beating heart.
+C-B01654 | Rising from the grave.
+C-B03675 | Road head.
+C-B03677 | Robbing a sperm bank.
+C-B03678 | Robert Downey Jr.
+C-B03680 | RoboCop.
+C-B03681 | Rohypnol.
+C-B03682 | Ronald Reagan.
+C-B06703 | Rosé all day, bitches!!!
+C-B03685 | Rubbing Boris Johnson's belly until he falls asleep.
+C-B01661 | Rubbing my bush all over your bald head.
+C-B01667 | Running naked through a mall, pissing and shitting everywhere.
+C-B03686 | Running out of semen.
+C-B03687 | Rupert Murdoch.
+C-B05981 | Russia.
+C-B01672 | Ryan Gosling riding in on a white horse.
+C-B03690 | Ryanair.
+C-B03691 | Salvation.
+C-B03692 | Same-sex ice dancing.
+C-B01675 | Samuel L. Jackson.
+C-B01676 | Sanding off a man's nose.
+C-B01678 | Santa Claus.
+C-B05964 | Satan.
+C-B03694 | Saudi oil money.
+C-B03695 | Saxophone solos.
+C-B03696 | Saying "I love you."
+C-B03697 | Saying everything is fine when everything is clearly not fine.
+C-B03700 | Scalping.
+C-B03702 | Science.
+C-B03703 | Scientology.
+C-B03704 | Scottish independence.
+C-B03705 | Scousers.
+C-B06664 | Scratching and sniffing something that was neither meant to be scratched nor sniffed.
+C-B01690 | Screaming like a maniac.
+C-B01692 | Scrotum tickling.
+C-B03706 | Scrubbing under the folds.
+C-B03707 | Sean Connery.
+C-B03708 | Sean Penn.
+C-B03709 | Seduction.
+C-B03710 | Seeing Grandma naked.
+C-B03712 | Seeing my father cry.
+C-B03713 | Seeing what happens when you lock people in a room with hungry seagulls.
+C-B03714 | Seething with quiet resentment.
+C-B01697 | Self-flagellation.
+C-B01698 | Self-identifying as a DJ.
+C-B03715 | Self-loathing.
+C-B03719 | Selling the Great Lakes to Nestlé.
+C-B05968 | Selling weapons to Iran.
+C-B03720 | Seppuku.
+C-B03721 | Serfdom.
+C-B03722 | Seven dead and three in critical condition.
+C-B03725 | Sexting.
+C-B01705 | Sexual humiliation.
+C-B03726 | Sexual peeing.
+C-B06714 | Sexual predators and also regular predators like ocelots.
+C-B03727 | Sexual tension.
+C-B03728 | Sexually active band geeks.
+C-B03729 | Sexy pillow fights.
+C-B05978 | SHAME!
+C-B03731 | Shame.
+C-B03732 | Shapeshifters.
+C-B03733 | Shaquille O'Neal's acting career.
+C-B03734 | Sharing needles.
+C-B01711 | Sharks with legs.
+C-B03735 | Shiny objects.
+C-B03736 | Shipping convicts to Australia.
+C-B03737 | Shitfuckery.
+C-B03738 | Shitting out a perfect Cumberland sausage.
+C-B01720 | Shitting out a screaming face.
+C-B03739 | Shorties and blunts.
+C-B03740 | Showing up to an orgy for the food.
+C-B01730 | Shutting the fuck up.
+C-B03741 | Shutting up so I can watch the game.
+C-B03743 | Sideboob.
+C-B03744 | Silence.
+C-B03745 | Sipping artificial popcorn butter.
+C-B03746 | Sipping kombucha like a smug piece of shit.
+C-B06786 | Sir Keir Starmer.
+C-B03747 | Sitting in a jar of vinegar all night because I am gherkin.
+C-B01731 | Sitting on a dick and sipping green tea.
+C-B03748 | Sitting on my face and telling me I'm garbage.
+C-B03749 | Sitting on my face.
+C-B03750 | Skeletor.
+C-B03751 | Skippy the Bush Kangaroo.
+C-B01732 | Slamming a dunk.
+C-B03752 | Slapping a biscuit out of an orphan's mouth.
+C-B01734 | Slapping a racist old lady.
+C-B03754 | Slapping your knees to signal your imminent departure.
+C-B03755 | Slaughtering innocent civilians.
+C-B03756 | Slavs.
+C-B01737 | Slender toes begging to be sucked.
+C-B03758 | Smegma.
+C-B03759 | Smelling of cum.
+C-B01751 | Sneezing, farting, and cumming at the same time.
+C-B03760 | Sniffing and kissing my feet.
+C-B03761 | Sniffing glue.
+C-B03762 | Snotsicles.
+C-B03763 | Sobbing into a Hungry-Man™ Frozen Dinner.
+C-B03764 | Soft, kissy missionary sex.
+C-B03765 | Soiling oneself.
+C-B03766 | Solving problems with violence.
+C-B03767 | Somali pirates.
+C-B03768 | Some bitch who loves pineapple.
+C-B03769 | Some bloody peace and quiet.
+C-B01757 | Some douche with an acoustic guitar.
+C-B03770 | Some foundation, mascara, and a touch of blush.
+C-B03772 | Some guy.
+C-B02395 | Some kind of bird man.
+C-B03773 | Some of the best rappers in the game.
+C-B03774 | Some punk kid who stole my turkey sandwich.
+C-B05963 | Some real spicy shramps.
+C-B01766 | Some really fucked-up shit.
+C-B06699 | Someone else's kids.
+C-B03775 | Sorry, this content cannot be viewed in your region.
+C-B03776 | Soup that is too hot.
+C-B03777 | Spag bol? Again?
+C-B03779 | Spaniards.
+C-B03780 | Spectacular abs.
+C-B01780 | Spending lots of money.
+C-B03781 | Sperm whales.
+C-B03782 | Spirit Airlines.
+C-B03783 | Spontaneous human combustion.
+C-B06787 | Spunk.
+C-B03784 | Squirting.
+C-B03785 | Stalin.
+C-B01790 | Staring at a painting and going "hmmmmmm..."
+C-B01792 | Starting a shitty podcast.
+C-B03788 | Steve Bannon.
+C-B03789 | Steve Irwin.
+C-B03791 | Still being a virgin.
+C-B01798 | Stinking like shit.
+C-B01799 | Stockholm Syndrome.
+C-B03792 | Stormtroopers.
+C-B03793 | Stranger danger.
+C-B03794 | Straya.
+C-B03795 | Strong female characters.
+C-B03796 | Stuffing my peehole with Tic Tacs.
+C-B03797 | Stunt doubles.
+C-B03798 | Substitute teachers.
+C-B03799 | Sucking some dicks to not get drafted.
+C-B01816 | Sudden Poop Explosion Disease.
+C-B03800 | Summoning Harold Holt from the sea in a time of great need.
+C-B03801 | Sunshine and rainbows.
+C-B03802 | Surprise sex!
+C-B03803 | Swag.
+C-B03804 | Swamp arse.
+C-B03806 | Sweet, sweet vengeance.
+C-B03807 | Switching to Geico®.
+C-B03808 | Swooping.
+C-B03809 | Synergistic management solutions.
+C-B03810 | Syrupy sex with a maple tree.
+C-B03811 | Take-backsies.
+C-B01833 | Taking a man's eyes and balls out and putting his eyes where his balls go and then his balls in the eye holes.
+C-B03813 | Taking off your shirt.
+C-B03814 | Taking the hobbits to Isengard.
+C-B06689 | Talking.
+C-B03815 | Tangled Slinkys.
+C-B03816 | Tap dancing like there's no tomorrow.
+C-B03817 | Tasteful sideboob.
+C-B05955 | Taylor Swift.
+C-B03818 | Teaching a robot to love.
+C-B03819 | Team building exercises.
+C-B03821 | Tearing that ass up like wrapping paper on Christmas morning.
+C-B05967 | Tech bros.
+C-B03822 | Teenage pregnancy.
+C-B05726 | Telling a crap story that goes nowhere.
+C-B06698 | Telling my wife to lick her own damn pussy.
+C-B03824 | Tentacle porn.
+C-B03825 | Terrorists.
+C-B03827 | Testicular torsion.
+C-B01843 | That ass.
+C-B01845 | That bitch, Stacy.
+C-B06788 | That fit French teacher I had.
+C-B03828 | That hairless little shitstain Callou.
+C-B03829 | That one gay Teletubby.
+C-B03830 | That thing that electrocutes your abs.
+C-B03831 | The 2010 Canadian men's hockey team.
+C-B03832 | The American Dream.
+C-B03833 | The Amish.
+C-B03834 | The arrival of the pizza.
+C-B03835 | The art of seduction.

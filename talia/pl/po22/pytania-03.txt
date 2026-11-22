@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Po 22:00 (pikantniejsze) · język: pl · paczka 03 (karty 201–300 z 501)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-C201 | Najgorsza decyzja po trzecim winie: ____.
+N-C202 | Co dzieje się w autokarze z kibicami?
+N-C203 | Co jest w wiadomości „Musimy pogadać”?
+N-C204 | Moja recenzja dorosłości: ____.
+N-C205 | Jedyna rzecz, która mnie dziś motywuje: ____.
+N-C206 | Co mówię w duchu podczas zebrania, które mogło być mailem?
+N-C207 | Najlepszy dodatek do kłótni małżeńskiej: ____.
+N-C208 | Mój pierwszy związek. Plusy: ____. Minusy: ____.
+N-C209 | Co robi Polak w kolejce do samolotu?
+N-C210 | Najgorsze, co może się stać na weselu, to ____.
+N-C211 | Prawdziwy powód, dla którego wyprowadziłem się od rodziców: ____.
+N-C212 | Prawdziwy powód, dla którego wróciłem do rodziców: ____.
+N-C213 | Co mówią moje sąsiadki na ławce?
+N-C214 | Przekleństwo dorosłości: ____.
+N-C215 | Co mówię, gdy mąż pyta, ile kosztowały te buty?
+N-C216 | Co mówię, gdy żona pyta, ile kosztowała ta wędka?
+N-C217 | Najdroższa rzecz w moim mieszkaniu to ____.
+N-C218 | Co trzyma mnie przy życiu w listopadzie?
+N-C219 | Najgorszy prezent od szefa na święta: ____.
+N-C220 | Imprezowy duet wszech czasów: ____ i ____.
+N-C221 | Co robię, gdy w windzie wsiada szef?
+N-C222 | Najbardziej podejrzana rzecz w moim koszyku zakupowym: ____.
+N-C223 | Moja pierwsza myśl po przebudzeniu na kacu: ____.
+N-C224 | Co mówię znajomym o swoim „startupie”?
+N-C225 | Najlepsza rada finansowa wujka: ____.
+N-C226 | Co jest w notatkach w moim telefonie?
+N-C227 | Prawdziwy powód, dla którego biegam: ____.
+N-C228 | Najlepsza riposta na „a ty kiedy?”: ____.
+N-C229 | Co mówię, gdy pytają mnie o plany na przyszłość?
+N-C230 | Moja ulubiona część dnia to ____.
+N-C231 | Najgorsza rzecz do usłyszenia od fryzjera: ____.
+N-C232 | Co robię z prezentami, których nie chcę?
+N-C233 | Mój idealny urlop. Jest: ____. Nie ma: ____.
+N-C234 | Nowa aplikacja randkowa dla ludzi po czterdziestce: ____.
+N-C235 | Co mówię przy kasie, kiedy karta nie przechodzi?
+N-C236 | Najbardziej polski sposób na rozwiązanie problemu: ____.
+N-C237 | Co robią ludzie na urodzinach trzylatka, kiedy dzieci nie patrzą?
+N-C238 | Prawdziwy cel grupowego czatu z rodzicami z przedszkola: ____.
+N-C239 | Czego nie mówię przy rodzicach dziewczyny?
+N-C240 | Co ukrywam w piwnicy przed żoną?
+N-C241 | Co ukrywam w szafie przed mężem?
+N-C242 | Co mówię, kiedy ktoś pyta, czy już wychodzę z biura?
+N-C243 | Najlepszy sposób na pozbycie się nudnego gościa: ____.
+N-C244 | Moja recenzja ostatniej randki: ____.
+N-C245 | Co sprawia, że facet po czterdziestce kupuje motocykl?
+N-C246 | Najgorszy prezent na baby shower: ____.
+N-C247 | Prawdziwy powód, dla którego mam kota: ____.
+N-C248 | Co ukrywa się w szafie singla?
+N-C249 | Najlepszy argument w kłótni o zmywanie: ____.
+N-C250 | Co mówi moja lodówka o moim życiu?
+N-C251 | Najbardziej toksyczna relacja w moim życiu to ____.
+N-C252 | Co robią rodzice, kiedy dzieci w końcu zasną?
+N-C253 | Najlepszy powód, żeby nie iść do pracy: ____.
+N-C254 | Mój największy wróg w kuchni to ____.
+N-C255 | Co się dzieje w grupie „Rozwódki i rozwodnicy 40+”?
+N-C256 | Najlepsza imprezowa sztuczka szwagra: ____.
+N-C257 | Czego się boję bardziej niż ślubu?
+N-C258 | Co oznacza „będę za 5 minut” u mojej przyjaciółki?
+N-C259 | Najdziwniejsze miejsce, w którym zasnąłem po imprezie, to ____.
+N-C260 | Główna atrakcja wesela w remizie: ____.
+N-C261 | Co mówi babcia o moim tatuażu?
+N-C262 | Ostatnia deska ratunku przed bankructwem: ____.
+N-C263 | Co mówię przy pierwszym spotkaniu z teściem?
+N-C264 | Najgorszy pomysł na biznes w historii: ____.
+N-C265 | Moja strategia na Black Friday: ____.
+N-C266 | Co mówią ludzie w kolejce do toalety na festiwalu?
+N-C267 | Czego nie powinno się kupować po północy?
+N-C268 | Rzecz, której żałuję z osiemnastki: ____.
+N-C269 | Mój największy wydatek w tym miesiącu: ____.
+N-C270 | Co robię, kiedy partner chce „spokojnie porozmawiać”?
+N-C271 | Najlepsze lekarstwo na złamane serce: ____.
+N-C272 | Co mówią moje znajomości z liceum na zjeździe po 15 latach?
+N-C273 | Prawdziwy powód, dla którego jestem na diecie: ____.
+N-C274 | Co robię, gdy mam dom tylko dla siebie?
+N-C275 | Nowa definicja luksusu po trzydziestce: ____.
+N-C276 | Co mówię dziecku, kiedy pyta, skąd się biorą dzieci?
+N-C277 | Najgorsze miejsce na oświadczyny: ____.
+N-C278 | Najbardziej podejrzana pozycja na wyciągu z konta: ____.
+N-C279 | Co ukrywa się w kodzie Wi-Fi sąsiada?
+N-C280 | Najdziwniejsze pytanie na rozmowie o pracę: ____.
+N-C281 | Co robi mój kot, kiedy mam gości?
+N-C282 | Mój wewnętrzny głos mówi: ____.
+N-C283 | Co mówię, gdy kelner pyta, czy smakowało?
+N-C284 | Tajemnica udanego małżeństwa według dziadka: ____.
+N-C285 | Tajemnica udanego małżeństwa według babci: ____.
+N-C286 | Najgorsze, co można powiedzieć przy porodzie: ____.
+N-C287 | Co mówi tata, kiedy przyprowadzam kogoś nowego?
+N-C288 | Moja jedyna zasada na imprezach: ____.
+N-C289 | Prawdziwy powód, dla którego nie mam prawa jazdy: ____.
+N-C290 | Co ma w lodówce kawaler?
+N-C291 | Co ma w lodówce panna?
+N-C292 | Najgorsza piosenka do pierwszego tańca: ____.
+N-C293 | Najlepsza rzecz w poniedziałek po długim weekendzie to ____.
+N-C294 | Co mówię, kiedy dzwoni telemarketer?
+N-C295 | Ulubiony sport mojego szwagra: ____.
+N-C296 | Rzecz, którą powiem tylko po winie: ____.
+N-C297 | Co mówię, kiedy żona pyta, czy wyglądam grubo?
+N-C298 | Co mówię, kiedy mąż pyta, czy umiem parkować?
+N-C299 | Jedyna rzecz, która łączy nas z sąsiadami: ____.
+N-C300 | Czego nauczył mnie pierwszy kredyt?

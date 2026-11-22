@@ -1,0 +1,85 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Karty Dżentelmenów (CC BY-NC-SA) · język: pl · paczka 01 (karty 1–75 z 75)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - K-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+K-C000 | ____: Uczy i bawi!
+K-C001 | ____? Nasi fachowcy tym się zajmą!
+K-C002 | Z czego słynie Szczebrzeszyn?
+K-C003 | ____ i jest impreza!
+K-C004 | Hasło wyborcze mojej partii brzmi: „____ w każdym polskim domu!”.
+K-C005 | Niewielu ludzi wie, że grecki bóg Hefajstos jest patronem ____ oraz ____.
+K-C006 | Czterej Pancerni i ____
+K-C007 | Bruksela rozważa zalegalizowanie ____.
+K-C008 | Ala ma kota a kot ma ____.
+K-C009 | Bardzo mi przykro ale regulamin zabrania ____ pod prysznicem.
+K-C010 | Co sprawiło sąsiadowi kolejną nieprzespaną noc?
+K-C011 | Co Amerykanie wysłali głodującym Afrykańczykom?
+K-C012 | W podstawówce notorycznie lądowałem na dywaniku dyrektora za ____.
+K-C013 | Co było powodem mojego wzwodu?
+K-C014 | Co ja pacze?
+K-C015 | W szczęśliwym małżeństwie każdy dzień zaczyna się od pocałunku a kończy na ____.
+K-C016 | Co jest powszechną walutą w więzieniu?
+K-C017 | Co musiałem zrobić by dostać świadectwo z paskiem?
+K-C018 | Co odziedziczę w spadku po rodzicach?
+K-C019 | Co pamiętam po ostatniej imprezie?
+K-C020 | Pracuję 80 godzin tygodniowo i nadal nie stać mnie na ____.
+K-C021 | Co przeważyło szalę zwycięstwa podczas bitwy pod Grunwaldem?
+K-C023 | Co spowodowało w moim domu wielką rodzinną awanturę?
+K-C024 | Co spowodowało, że Sahara stała się pustynią?
+K-C025 | Przychodzi baba do lekarza a tam ____.
+K-C026 | Co sprezentowałem mojemu przyjacielowi na osiemnastkę?
+K-C027 | Co stoi na przeszkodzie aby na całym świecie zapanowała miłość?
+K-C028 | Co ukrywam przed rodzicami?
+K-C029 | Co uwielbiam w swojej pracy?
+K-C030 | Przez ____ teraz panicznie boję się ____.
+K-C031 | Uwaga! Produkt może zawierać śladowe ilości orzechów arachidowych oraz ____.
+K-C032 | Co zmusiło pilota samolotu do awaryjnego lądowania?
+K-C033 | Czy ____ w sypialni to dziwactwo?
+K-C034 | Czy się stoi, czy się leży - ____ się należy.
+K-C035 | Tanie wino „Zemsta Teściowej” zawiera nuty ____ oraz ____.
+K-C036 | W co uczniowie bawią się podczas nudnych lekcji?
+K-C037 | Czym zwabiam potencjalnych kochanków do mego domu?
+K-C038 | Dalej dalej ____ Gadżeta!
+K-C040 | Tylko szlachta może sobie pozwolić na ____.
+K-C041 | Dzięki diecie „____” szybko i bezproblemowo udało mi się pozbyć 15 zbędnych kilogramów!
+K-C042 | Egzotyczna wycieczka: 9000zł. Romantyczna przejażdżka na słoniu: 400zł. Jej mina podczas tej magicznej nocy z ____: bezcenna.
+K-C043 | Europejski Fundusz Społeczny gwarantuje ____ dzieciom z biednych regionów Europy. Człowiek - najlepsza inwestycja!
+K-C044 | W następnym odcinku kolumbijskiej telenoweli „Zakazana Miłość” Ernesto Contreras zmierzy się z ____.
+K-C046 | Gdy Chiny i USA wysyłają człowieka na Marsa, rząd Zimbabwe przeznacza połowę swojego budżetu na ____.
+K-C047 | Gdy dwóch się bije, tam ____ korzysta.
+K-C048 | Co mi się upiekło?
+K-C049 | W urzędzie skarbowym musiałem się tłumaczyć z faktury na 8000zł zatyłuowanej „____”.
+K-C050 | - Na swojej drodze napotykasz smoka. Co robisz? - Dobieram ____ i ruszam do walki!
+K-C051 | Jaka jest pańska specjalizacja doktorze?
+K-C052 | Jeśli zamówisz ____ w ciągu 15 minut, to otrzymasz ____ całkowicie za darmo!
+K-C053 | Kobietę można szybko zaspokoić za pomocą ____.
+K-C054 | Za jedyne 5zł zafundujesz ____ afrykańskim dzieciom na cały dzień.
+K-C055 | Lepszy ____ w garści, niż ____ na dachu.
+K-C056 | Mężczyźni myślą tylko o ____.
+K-C057 | Polskie Radio "Trójka" zaprasza na debiutancki koncert zespołu "____".
+K-C058 | Moja firma importuje ____, a eksportuje ____.
+K-C059 | W Wałbrzychu możesz dostać wpierdol za ____.
+K-C060 | Mój pradziadek został wyrzucony ze szkoły mimów, gdy pokazał ____ podczas pantomimy.
+K-C061 | Na co poszła moja pierwsza wypłata?
+K-C062 | Na pierwszej randce nie można zapomnieć o ____.
+K-C063 | Na potęgę posępnego ____! Mocy przybywaj!
+K-C064 | Za co wyleciałem z roboty?
+K-C065 | Nasza miłość jest łatwa, bo jesteś ____.
+K-C067 | Nie miałem pojęcia, że zbiję majątek na ____.
+K-C068 | Za moich czasów ____ było jedyną potrzebną rzeczą by świetnie się bawić.
+K-C069 | Zamiast swojej wizytówki wręczam ____.
+K-C070 | Opowieści z Narnii: Lew, Czarownica i ____.
+K-C071 | Panie doktorze, pomocy! Mam ____ w cewce moczowej!
+K-C072 | Panie generale, nasi żołnierze są na pozycjach. Czas rozpocząć operację „____”.
+K-C073 | Żona to luksus, ____ to konieczność.
+K-C074 | Podczas Ramadanu jestem zmuszony odpuścić sobie ____.
+K-C075 | Podczas stosunku nie mogę przestać myśleć o ____.
+K-C076 | Polska marynarka wojenna zwodowała lotniskowiec ORP „ ____”.
+K-C077 | Polska: ____ Europy.
+K-C079 | Powodzianie zawsze mogą liczyć na sprawną organizację ____ przez polski rząd.

@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Rodzinny (dla wszystkich) · język: pl · paczka 07 (karty 1201–1400 z 1512)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-B1201 | Latarka czołówka.
+R-B1202 | Scyzoryk wujka z 30 funkcjami.
+R-B1203 | Lornetka do podglądania ptaków.
+R-B1204 | Teleskop, przez który widać tylko sąsiada.
+R-B1205 | Mapa skarbów narysowana przez brata.
+R-B1206 | Skrzynia skarbów pełna kamieni.
+R-B1207 | Zakopana kapsuła czasu.
+R-B1208 | Wykrywacz metalu na plaży.
+R-B1209 | Zgubiony kolczyk w piasku.
+R-B1210 | Butelka z listem.
+R-B1211 | Muszla, w której słychać morze.
+R-B1212 | Rozgwiazda na zdjęciu.
+R-B1213 | Kamień w kształcie serca.
+R-B1214 | Patyk idealny do wszystkiego.
+R-B1215 | Szyszka do kolekcji.
+R-B1216 | Kasztanowe ludziki.
+R-B1217 | Liście w zielniku.
+R-B1218 | Herbarium z łąki.
+R-B1219 | Akwarium z kijankami.
+R-B1220 | Mrówkowisko pod lupą.
+R-B1221 | Biedronka liczona po kropkach.
+R-B1222 | Dżdżownica po deszczu.
+R-B1223 | Ślimak bez skorupki.
+R-B1224 | Konik polny w pudełku.
+R-B1225 | Mysz polna w stodole.
+R-B1226 | Bocian na łące.
+R-B1227 | Kukułka, która kuka dwanaście razy.
+R-B1228 | Wróbel przy stole w ogródku piwnym.
+R-B1229 | Sikorka w karmniku.
+R-B1230 | Dzięcioł, który budzi wszystkich.
+R-B1231 | Wrona, która kradnie błyszczące rzeczy.
+R-B1232 | Kaczka w stawie.
+R-B1233 | Łabędź, który syczy.
+R-B1234 | Gęś, która goni dzieci.
+R-B1235 | Indyk na podwórku u babci.
+R-B1236 | Królik, który ucieka z klatki.
+R-B1237 | Kot, który przynosi myszy w prezencie.
+R-B1238 | Pies, który zakopuje kości w kanapie.
+R-B1239 | Pies, który boi się kota.
+R-B1240 | Kot, który zrzuca wszystko ze stołu.
+R-B1241 | Pies jedzący trawę.
+R-B1242 | Kot, który śpi 20 godzin dziennie.
+R-B1243 | Pies przebrany za dynię.
+R-B1244 | Kot w pudełku po butach.
+R-B1245 | Pies, który ukradł kiełbasę z grilla.
+R-B1246 | Kot, który siedzi na laptopie.
+R-B1247 | Pies, który kocha listonosza.
+R-B1248 | Psia buda zbudowana przez tatę.
+R-B1249 | Kocie zabawki, którymi bawi się tylko pies.
+R-B1250 | Karma, której kot nie chce.
+R-B1251 | Psie ciasteczka, które zjadł dziadek.
+R-B1252 | Szczeniak gryzący buty.
+R-B1253 | Kocię na firance.
+R-B1254 | Leniwy kot sąsiadów.
+R-B1255 | Pies rasy „kundelek”.
+R-B1256 | Kot o imieniu Pan Mruczek.
+R-B1257 | Pies o imieniu Burek.
+R-B1258 | Rybka o imieniu Nemo.
+R-B1259 | Chomik o imieniu Pan Kanapka.
+R-B1260 | Żółw o imieniu Błyskawica.
+R-B1261 | Papuga, która naśladuje dzwonek telefonu.
+R-B1262 | Pies, który umie otwierać lodówkę.
+R-B1263 | Kot, który umie otwierać drzwi.
+R-B1264 | Zwierzak, który rządzi całym domem.
+R-B1265 | Wizyta u fryzjera dla psa.
+R-B1266 | Kąpiel kota, czyli wojna.
+R-B1267 | Spacer z kotem na smyczy.
+R-B1268 | Zdjęcie psa z rogami renifera.
+R-B1269 | Konto psa na Instagramie.
+R-B1270 | Rodzinny czat, na którym wszyscy piszą jednocześnie.
+R-B1271 | Wiadomość głosowa babci trwająca 6 minut.
+R-B1272 | Zdjęcie zachodu słońca od cioci.
+R-B1273 | Emotka kupy wysłana przez babcię przez pomyłkę.
+R-B1274 | Łańcuszek szczęścia.
+R-B1275 | Życzenia świąteczne z GIF-em.
+R-B1276 | Odpisanie po trzech dniach.
+R-B1277 | Powiadomienie „przeczytano”.
+R-B1278 | Rozmowa wideo, w której słychać tylko echo.
+R-B1279 | Mama ucząca się nowej aplikacji.
+R-B1280 | Tata ustawiający dzwonek na „najgłośniej”.
+R-B1281 | Dziadek, który pyta, czy internet się nie zepsuje.
+R-B1282 | Babcia, która dzwoni z pytaniem, jak wyłączyć telefon.
+R-B1283 | Telefon w trybie samolotowym przez tydzień.
+R-B1284 | Pilot do klimatyzacji, którego nikt nie rozumie.
+R-B1285 | Inteligentny głośnik, który nie rozumie dziadka.
+R-B1286 | Odkurzacz, który mówi.
+R-B1287 | Lodówka z ekranem.
+R-B1288 | Ekspres do kawy z aplikacją.
+R-B1289 | Hasło „1234”.
+R-B1290 | Kod PIN zapisany na karcie.
+R-B1291 | Konto bankowe dziadka obsługiwane przez wnuka.
+R-B1292 | Przelew na złe konto.
+R-B1293 | Zakupy przez internet, które przyszły w złym rozmiarze.
+R-B1294 | Paczka w paczkomacie, który jest zepsuty.
+R-B1295 | Kurier pod złym adresem.
+R-B1296 | Zamówiona pizza, która przyjechała zimna.
+R-B1297 | Jedzenie z dowozem, na które czeka się dwie godziny.
+R-B1298 | Wirtualna wycieczka po muzeum.
+R-B1299 | Lekcja online, na której wszyscy mają wyłączone mikrofony.
+R-B1300 | Nauczycielka, która „nie widzi ekranu”.
+R-B1301 | Szkolna platforma, która nie działa.
+R-B1302 | Praca domowa wysłana o 23:59.
+R-B1303 | Prezentacja z animacją każdej litery.
+R-B1304 | Referat skopiowany z encyklopedii.
+R-B1305 | Tablica interaktywna, której nikt nie umie włączyć.
+R-B1306 | Projektor, który zawsze się przegrzewa.
+R-B1307 | Kreda, która piszczy na tablicy.
+R-B1308 | Gąbka, która nie zmywa.
+R-B1309 | Mapa świata z ZSRR.
+R-B1310 | Globus, który się kręci za szybko.
+R-B1311 | Kalkulator z ulubionym słowem wpisanym do góry nogami.
+R-B1312 | Linijka używana jako miecz.
+R-B1313 | Cyrkiel, który kłuje wszystkich.
+R-B1314 | Gumka do mazania w kształcie truskawki.
+R-B1315 | Długopis z czterema kolorami.
+R-B1316 | Zakreślacze w neonowych kolorach.
+R-B1317 | Temperówka, która nic nie temperuje.
+R-B1318 | Klej w sztyfcie bez nakrętki.
+R-B1319 | Nożyczki dla leworęcznych.
+R-B1320 | Teczka z gumką.
+R-B1321 | Okładka na zeszyt z bohaterem bajki.
+R-B1322 | Naklejka z imieniem na każdym przedmiocie.
+R-B1323 | Worek na kapcie.
+R-B1324 | Kapcie zmienne, które zawsze zostają w domu.
+R-B1325 | Szafka szkolna, której nie da się otworzyć.
+R-B1326 | Klucz od szafki zgubiony pierwszego dnia.
+R-B1327 | Rozkład lekcji na lodówce.
+R-B1328 | Kartka z wynikami na drzwiach.
+R-B1329 | Medal za czytanie książek.
+R-B1330 | Wyróżnienie za frekwencję.
+R-B1331 | Pierwsza miłość z ławki obok.
+R-B1332 | Walentynka bez podpisu.
+R-B1333 | Laurka dla mamy z błędem ortograficznym.
+R-B1334 | Wierszyk na Dzień Babci.
+R-B1335 | Piosenka na akademię.
+R-B1336 | Taniec w przedstawieniu, który wszyscy pomylili.
+R-B1337 | Kostium z bibuły.
+R-B1338 | Korona z papieru.
+R-B1339 | Skrzydła anioła z kartonu.
+R-B1340 | Rogi diabełka z drutu.
+R-B1341 | Maska lwa z talerzyka.
+R-B1342 | Peleryna z firanki.
+R-B1343 | Miecz z patyka.
+R-B1344 | Tarcza z pokrywki od garnka.
+R-B1345 | Zbroja z kartonu po lodówce.
+R-B1346 | Rakieta z rolki po papierze.
+R-B1347 | Statek z łupiny orzecha.
+R-B1348 | Łódka z kory puszczana na rzece.
+R-B1349 | Papierowy samolot, który doleciał do dyrektora.
+R-B1350 | Latawiec na drzewie.
+R-B1351 | Bańka gumy do żucia we włosach.
+R-B1352 | Plaster na kolanie.
+R-B1353 | Siniak, którego pochodzenia nikt nie zna.
+R-B1354 | Guz na czole po drzwiach.
+R-B1355 | Drzazga z ławki.
+R-B1356 | Oparzenie od pokrzywy.
+R-B1357 | Ugryzienie komara w najgorszym miejscu.
+R-B1358 | Kleszcz po spacerze.
+R-B1359 | Katar sienny w maju.
+R-B1360 | Zatkany nos w nocy.
+R-B1361 | Czkawka podczas przemowy.
+R-B1362 | Ziewanie zaraźliwe na całą rodzinę.
+R-B1363 | Śmiech, którego nie da się powstrzymać w kościele.
+R-B1364 | Śmiech przez łzy.
+R-B1365 | Łzy przy filmie o psie.
+R-B1366 | Wzruszenie dziadka na weselu wnuczki.
+R-B1367 | Duma mamy na akademii.
+R-B1368 | Wstyd taty na wywiadówce.
+R-B1369 | Radość z pierwszego śniegu.
+R-B1370 | Rozczarowanie, że skończyły się ferie.
+R-B1371 | Ekscytacja w Wigilię rano.
+R-B1372 | Strach przed dentystą.
+R-B1373 | Nuda w czasie mszy.
+R-B1374 | Tęsknota za wakacjami.
+R-B1375 | Zazdrość o nowy rower kolegi.
+R-B1376 | Ciekawość, co jest w prezencie.
+R-B1377 | Złość, kiedy zgaśnie prąd w czasie gry.
+R-B1378 | Ulga po klasówce.
+R-B1379 | Szczęście w małych rzeczach.
+R-B1380 | Miłość od pierwszego wejrzenia do szczeniaka.
+R-B1381 | Przyjaźń na całe życie.
+R-B1382 | Pierwsza randka w kinie.
+R-B1383 | Trzymanie się za ręce w parku.
+R-B1384 | Taniec w kuchni z mamą.
+R-B1385 | Rodzinny uścisk.
+R-B1386 | Buziak od babci, który zostawia szminkę.
+R-B1387 | Uścisk dziadka, który łamie żebra.
+R-B1388 | Pocałunek na dobranoc.
+R-B1389 | Bajka czytana przez tatę na głosy.
+R-B1390 | Kołysanka mamy.
+R-B1391 | Opowieść przy ognisku.
+R-B1392 | Wspólne śpiewanie w samochodzie.
+R-B1393 | Wieczór gier planszowych.
+R-B1394 | Leniwa niedziela w piżamach.
+R-B1395 | Śniadanie do łóżka.
+R-B1396 | Rodzinny spacer po obiedzie.
+R-B1397 | Wspólne pieczenie pierników.
+R-B1398 | Ubieranie choinki z całą rodziną.
+R-B1399 | Zdjęcie całej rodziny w jednakowych swetrach.
+R-B1400 | Rodzina, która jest najlepsza na świecie.

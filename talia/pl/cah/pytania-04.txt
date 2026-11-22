@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Cards Against Humanity (CC BY-NC-SA) · język: pl · paczka 04 (karty 301–400 z 416)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - C-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+C-C00238 | Książka miesiąca u Oprah: „____ dla ____. Opowieść o nadziei”.
+C-C00254 | Ona nie śpi całą noc dla zabawy. Ja nie śpię całą noc przez ____.
+C-C00271 | Japończycy opracowali mniejszą i wydajniejszą wersję ____.
+C-C00286 | To najlepszy okres mojego życia. Jestem młody, gorący i pełen ____.
+C-C00290 | Najgorętsza płyta roku to „____” w wykonaniu ____.
+C-C00306 | Nigdy nie znaleźliśmy ____, ale po drodze nauczyliśmy się sporo o ____.
+C-C00316 | Nowy film Wesa Andersona opowiada o rezolutnym dziecku, które próbuje pogodzić się z ____.
+C-C00334 | Co jest fajne, dopóki nie zrobi się dziwnie?
+C-C00375 | Widzieliście kobietę z brodą! Widzieliście ognisty krąg! A teraz, panie i panowie, podziwiajcie ____!
+C-C00029 | Garnitur od Armaniego: 4000 zł. Kolacja we dwoje w eleganckiej restauracji: 1200 zł. Jej mina, gdy zaskoczysz ją ____: bezcenna.
+C-C00063 | Spróbuj naszego najbardziej ekstremalnego smaku! Nadchodzi napój energetyczny o smaku ____!
+C-C00065 | Brakuje ci energii? Czasem masz wrażenie, że cały świat to ____? Zapytaj lekarza.
+C-C00085 | Szykuj się na film lata! Jeden glina działa zgodnie z przepisami. Drugiego interesuje tylko jedno: ____.
+C-C00093 | Mam NAJGORSZY dzień w życiu. #____
+C-C00095 | Słuchajcie, śmiertelnicy! Jestem bogiem ____ i nie będę tolerował ____!
+C-C00098 | Pomocy, doktorze, mam w tyłku ____!
+C-C00099 | W naszej Akademii dla Wybitnie Zdolnych Dzieci uczniowie poznają ____ we własnym tempie.
+C-C00105 | Cześć, MTV! Jestem Kendra, mieszkam w Malibu, kręci mnie ____ i uwielbiam dobrą zabawę.
+C-C00107 | Cześć, tu Janek z księgowości. Widzimy obciążenie na 4800 zł z opisem „____”. Może pan wyjaśnić?
+C-C00116 | Nie chwaląc się, mówią na mnie Michael Jordan ____.
+C-C00156 | W mowie pożegnalnej Józef Piłsudski ostrzegał Polaków przed niebezpieczeństwem ____.
+C-C00157 | W nowej komedii akcji Jackie Chan musi odpierać ataki ninja i jednocześnie radzić sobie z ____.
+C-C00185 | Życie na pełnym gazie jest ciężkie. Dlatego nigdy nie wychodzę z domu bez ____.
+C-C00226 | Już w księgarniach: „Zuchwałość ____” Baracka Obamy.
+C-C00240 | Pacjent zgłasza się z ____. Prawdopodobnie skutek ____.
+C-C00313 | Skoro ____ jest dość dobre dla ____, to i dla mnie się nada.
+C-C00314 | No i co masz na swoją obronę, Kacper? Trzeci raz trafiasz do dyrektora za ____.
+C-C00321 | Co zabiło mi wzwód?
+C-C00338 | Co sprawia, że w saunie robi się niezręcznie?
+C-C00352 | Czemu jestem spłukany?
+C-C00362 | Twoja stara jest taka gruba, że ____!
+C-C00009 | „To szaleństwo!” „Nie. TO JEST ____!”
+C-C00028 | Skrzydełka łagodne, ostre czy ____?
+C-C00044 | Za każdym potężnym mężczyzną stoi ____.
+C-C00053 | Przyjedź do Dubaju! Zrelaksuj się w słynnym spa, poznaj nocne życie albo po prostu ciesz się ____ przy basenie.
+C-C00068 | Nie martw się, młody. Będzie lepiej. Ja żyję z ____ od 20 lat.
+C-C00075 | Złapcie się za ręce i zamknijcie oczy. Czujecie to? To obecność ____ w tym pokoju.
+C-C00119 | Mam twardą zasadę. Pierwsza randka: kolacja. Druga randka: pocałunek. Trzecia randka: ____.
+C-C00132 | Pojechałem na pustynię i zjadłem pejotl. Okazało się, że moje zwierzę mocy to ____.
+C-C00133 | Haruję cały dzień dla tej rodziny i do czego wracam? Do ____!?
+C-C00138 | Jestem Miss Polonia i gdybym mogła zmienić jedną rzecz na świecie, pozbyłabym się ____.
+C-C00140 | Przykro mi, pani Nowak, nic nie mogliśmy zrobić. Dziś o 4:15 pani syn przegrał walkę z ____.
+C-C00153 | Gdybyś miał opisać mnie, sędziego, jedną kartą z ręki, która by to była?
+C-C00179 | Kuba jest samotnym chłopcem. Ale gdy odkrywa tajemne drzwi na strychu, poznaje nowego, magicznego przyjaciela: ____.
+C-C00186 | Słuchaj, Gary, lubię cię. Ale jeśli chcesz gabinet narożny, będziesz musiał mi pokazać ____.
+C-C00210 | Dziadek zaczynał od zera. Gdy przyjechał do miasta, miał tylko buty na nogach i ____.
+C-C00245 | Dojrzewanie to czas zmian. Włosy mogą rosnąć w nowych miejscach. Możesz zainteresować się ____. To normalne.
+C-C00274 | Sześć rzeczy, bez których nie przeżyję: tlen, Facebook, czekolada, Netflix, przyjaciele i ____ XD!
+C-C00284 | To jest Ameryka. Jak nie harujesz, nie odniesiesz sukcesu. Nie obchodzi mnie, czy jesteś czarny, biały, fioletowy czy ____.
+C-C00293 | Żeby zostać prawdziwym wojownikiem plemienia, musisz wytrzymać ____ bez jednego krzyku.
+C-C00298 | Dziś wieczorem będziemy się kochać. A potem, jeśli zechcesz, odrobinę ____.
+C-C00348 | Jak byłem mały, bawiliśmy się w kowbojów i ____.
+C-C00356 | Czemu już się ze mną nie kochasz? Chodzi o ____?
+C-C00359 | Gotowi? Zaczynamy! To jest Mam ____!
+C-C00364 | Nie jesteś sam. Miliony Polaków codziennie zmagają się z ____.
+C-C00371 | Wiesz, jak już przebrniesz przez ____, to ____ nie jest takie złe.
+C-C00372 | Nie uwierzysz! 15 przezabawnych wpadek z ____!
+C-C00169 | W nowym filmie John Wick musi odpierać ataki ninja i jednocześnie radzić sobie z ____.
+C-C00195 | Mamusia dostaje, co chce, a mamusia chce ____.
+C-C00001 | ____ zachowuje się jak ____.
+C-C00006 | ____. Sponsorem jest ____.
+C-C00030 | Sztuka to nie tylko obraz w dusznym muzeum. Sztuka żyje. Sztuka to ____.
+C-C00036 | Jak mawiał Piłsudski, cztery męskie cnoty to honor, umiar, pracowitość i ____.
+C-C00039 | O kurde! ____ jest w budynku!
+C-C00045 | Lepiej wracaj, skąd przyszedłeś. Tutaj nie przepadamy za ____.
+C-C00052 | Pilne! Naukowcy odkryli ____.
+C-C00054 | W tym miesiącu w KFC: ____.
+C-C00055 | Gratulacje! Zostałeś przyjęty na letni staż. Nie możemy zaoferować pensji, ale oferujemy ____.
+C-C00058 | Tańcz, jakby nikt nie patrzył, kochaj, jakby nikt nie mógł cię zranić, i żyj, jakbyś był ____.
+C-C00072 | Wszyscy w klubie: ____!
+C-C00077 | Jestem taka wdzięczna! #wspaniale #mojeżycie #____
+C-C00086 | Dziewczyny chcą tylko ____.
+C-C00091 | Przypomnienie z kalendarza: ____ za 10 minut.
+C-C00117 | Nie wierzę w Boga. Wierzę w ____.
+C-C00121 | Zrobiłem test DNA. Okazało się, że jestem w 100% ____.
+C-C00124 | Może nie jestem przystojny, ale w łóżku jestem jak ____.
+C-C00144 | Mam rytm, mam muzykę, mam ____. Czego chcieć więcej?
+C-C00147 | Przykro mi, ale pana ubezpieczenie nie obejmuje urazów spowodowanych przez ____.
+C-C00148 | Miałem straszną wizję, ojcze. Widziałem kruszące się góry i gwiazdy spadające z nieba. Widziałem ____.
+C-C00166 | W latach 50. psycholodzy przepisywali ____ jako lek na homoseksualizm.
+C-C00193 | LSD + ____ = bardzo zły czas.
+C-C00203 | Lista zadań mamy: * zakupy * posprzątać ____ * trening piłki
+C-C00206 | Większość Polaków nie zagłosowałaby na kandydata, który otwarcie jest ____.
+C-C00225 | Nie, nie, nie, NIE! NIE pozwolę, żeby ____ zepsuło to wesele.
+C-C00234 | Jeszcze jedno. Uważaj na Wielkiego Mietka. Mówią, że zabił człowieka za pomocą ____.
+C-C00237 | Ooo, tatuś lubi ____.
+C-C00243 | Biedny Brajan, dalej mieszka w piwnicy u rodziców. Podobno nigdy się nie otrząsnął po ____.
+C-C00249 | Uciekaj, uciekaj, ile sił! Nie złapiesz mnie, jestem ____!
+C-C00255 | Na ulicy dama, w łóżku ____.
+C-C00256 | Ona jest jak jedna z chłopaków, wiesz? Lubi piwo, piłkę nożną i ____.
+C-C00258 | Synu, posłuchaj kogoś, kto niejedno przeżył. Nic jej tak nie nastraja jak ____.
+C-C00276 | Najczęstsze podpowiedzi Google dla „Robert Lewandowski”: Robert Lewandowski wzrost. Robert Lewandowski majątek. Robert Lewandowski ____.
+C-C00279 | Wtedy księżniczka pocałowała żabę i nagle żaba zamieniła się w ____!
+C-C00281 | Nie ma Boga. Jest tylko ____, a potem umierasz.
+C-C00283 | W ten piątek w klubie: Noc ____! Panie piją za darmo.
+C-C00305 | W tym kraju nie podajemy lewej ręki. Tej ręki używamy do ____.
+C-C00315 | Kurde, wzrok już nie ten, ale zjem własny but, jeśli to nie jest ____!
+C-C00317 | O czym śpiewają te wszystkie wieloryby?
+C-C00326 | Co jest do bani?
+C-C00328 | Co zrobiło ze mnie konserwatystę?

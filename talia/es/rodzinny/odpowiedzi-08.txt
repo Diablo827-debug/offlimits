@@ -1,0 +1,121 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Rodzinny (dla wszystkich) · język: es · paczka 08 (karty 1401–1512 z 1512)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-B1401 | Un gran plan familiar que nunca salió bien.
+R-B1402 | Un mapa de carreteras con el atajo de papá marcado.
+R-B1403 | Una hora buscando aparcamiento.
+R-B1404 | Una excursión en bici que acabó en la heladería.
+R-B1405 | Una tienda de campaña montada al revés.
+R-B1406 | Un colchón hinchable que se deshincha por la noche.
+R-B1407 | Un saco de dormir del que no puedes salir.
+R-B1408 | Un camping con un baño para cien personas.
+R-B1409 | La caravana del abuelo.
+R-B1410 | Un hornillo de camping que no enciende.
+R-B1411 | Una salchicha quemada en la hoguera.
+R-B1412 | Una nube en un palo.
+R-B1413 | Patatas asadas en la hoguera.
+R-B1414 | Una guitarra junto a la hoguera con tres acordes.
+R-B1415 | Una historia de fantasmas con linterna.
+R-B1416 | Que te despierte un gallo.
+R-B1417 | Leche recién ordeñada.
+R-B1418 | Huevos de gallinas felices.
+R-B1419 | Segar el heno en casa del abuelo.
+R-B1420 | Ir montado en el remolque del tractor.
+R-B1421 | Recoger arándanos y acabar con la lengua azul.
+R-B1422 | Fresas silvestres ensartadas en una brizna de hierba.
+R-B1423 | Cerezas del árbol del vecino.
+R-B1424 | Compota en tarros para el invierno.
+R-B1425 | Las mermeladas de la abuela.
+R-B1426 | Mermelada con la etiqueta «2014».
+R-B1427 | Una despensa llena de tarros.
+R-B1428 | Fermentar chucrut en un barril.
+R-B1429 | Hacer conserva de pepinillos con toda la familia.
+R-B1430 | Una lista de regalos de seis páginas.
+R-B1431 | Un calendario con la cuenta atrás para las vacaciones.
+R-B1432 | Un reloj que va cinco minutos adelantado.
+R-B1433 | Llegar «solo un cuarto de hora» tarde.
+R-B1434 | La puerta siempre abierta de la abuela.
+R-B1435 | Comida para diez preparada para tres.
+R-B1436 | La pregunta «¿por qué?» hecha cien veces.
+R-B1437 | Un dibujo de su hijo colgado en el trabajo de papá.
+R-B1438 | Una nevera llena de imanes.
+R-B1439 | Un buzón lleno de propaganda.
+R-B1440 | La factura de la luz.
+R-B1441 | Un paquete que nos recogió el vecino.
+R-B1442 | Una tarta de disculpa para los vecinos.
+R-B1443 | Una taza de azúcar prestada.
+R-B1444 | Una barbacoa vecinal en el patio.
+R-B1445 | Una reunión de vecinos en la que todos gritan.
+R-B1446 | Un cartel en la escalera: «¿De quién es esta bici?».
+R-B1447 | Un carrito de bebé en el rellano.
+R-B1448 | Un gato en la escalera.
+R-B1449 | Un árbol de Navidad tirado en marzo.
+R-B1450 | Contenedores de reciclaje que nadie entiende.
+R-B1451 | Botellas retornables de todo un año.
+R-B1452 | Tapones recogidos para una buena causa.
+R-B1453 | Papel para reciclar amontonado en el garaje.
+R-B1454 | Una bici vieja que lleva 10 años esperando arreglo.
+R-B1455 | Una tele que da pena tirar.
+R-B1456 | La chaqueta «para el huerto».
+R-B1457 | Los pantalones «de estar por casa».
+R-B1458 | El jersey «para ocasiones especiales».
+R-B1459 | Los zapatos «para cuando haga falta».
+R-B1460 | El chándal más cómodo del mundo.
+R-B1461 | Una camiseta de las vacaciones en Croacia.
+R-B1462 | Una gorra con publicidad de piensos.
+R-B1463 | La corbata de papá para bodas y funerales.
+R-B1464 | Un traje de Comunión que todavía te queda bien.
+R-B1465 | El mismo vestido para todas las bodas.
+R-B1466 | Chanclas para la ducha de la piscina.
+R-B1467 | Gafas de sol en la cabeza todo el año.
+R-B1468 | Un paraguas que se da la vuelta con la primera ráfaga.
+R-B1469 | Un chubasquero amarillo.
+R-B1470 | Una mochila de montaña que pesa más que el abuelo.
+R-B1471 | Una maleta con una rueda que chirría.
+R-B1472 | Un pasaporte con una foto de cuando eras niño.
+R-B1473 | Un DNI en el que nadie sale bien.
+R-B1474 | Un carné de estudiante con el sello torcido.
+R-B1475 | Un carné de biblioteca de primaria.
+R-B1476 | Un abono mensual con la foto de un gato.
+R-B1477 | Un descuento para jubilados.
+R-B1478 | Una cola en una oficina pública.
+R-B1479 | Un número de turno en el centro de salud.
+R-B1480 | Un centro de salud que abre a las 8:00 con cola desde las 6:00.
+R-B1481 | Una farmacéutica que sabe más que el médico.
+R-B1482 | Una revisión de la vista leyendo letritas.
+R-B1483 | Un examen de vista en el que adivino las letras.
+R-B1484 | La revisión de los seis años.
+R-B1485 | Medirse la altura en el marco de la puerta.
+R-B1486 | Alturas marcadas con boli a lo largo de los años.
+R-B1487 | Los primeros pasos grabados en vídeo.
+R-B1488 | Una cinta VHS de la boda de mis padres.
+R-B1489 | Un vídeo de la Comunión con música de fondo.
+R-B1490 | Una presentación de diapositivas de las vacaciones del tío.
+R-B1491 | Fotos del álbum en las que todos tienen los ojos rojos.
+R-B1492 | La foto más vergonzosa de la infancia.
+R-B1493 | Una foto en la bañera que se enseña a todas las visitas.
+R-B1494 | La anécdota familiar que se cuenta en cada fiesta.
+R-B1495 | La historia de cómo papá se perdió en Roma.
+R-B1496 | La historia de cómo la abuela conoció al abuelo.
+R-B1497 | La leyenda del tío y la cabra.
+R-B1498 | La profecía de la tía de que todo saldrá bien.
+R-B1499 | La sonrisa de la abuela cuando estamos todos.
+R-B1500 | Una foto de cuatro generaciones juntas.
+R-B1501 | El acogedor piso de la abuela.
+R-B1502 | El olor de las galletas de Navidad.
+R-B1503 | El olor a césped recién cortado.
+R-B1504 | El olor de la lluvia en verano.
+R-B1505 | El olor de un cuaderno nuevo.
+R-B1506 | El olor del caldo de pollo el domingo.
+R-B1507 | El olor a café por la mañana.
+R-B1508 | El sonido del timbre al final de la clase.
+R-B1509 | El rumor del mar.
+R-B1510 | El crepitar de la chimenea.
+R-B1511 | El silencio del bosque.
+R-B1512 | La nieve crujiendo bajo las botas.

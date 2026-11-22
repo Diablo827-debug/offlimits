@@ -12,7 +12,14 @@ for (const [lang, targets] of Object.entries(TARGETS)) {
         const auto = Math.max(1, (v[0].match(/____/g) || []).length);
         return id + ' | ' + v[0] + (v[1] !== auto ? ' {' + v[1] + '}' : '');
       });
-      fs.writeFileSync(new URL(`../talia/${lang}/${pack.file}-${kind === 'c' ? 'pytania' : 'odpowiedzi'}.txt`, import.meta.url), HEADER(pack, kind, lang) + lines.join('\n') + '\n');
+      // Paczki po 100 pytań / 200 odpowiedzi – łatwiej przejrzeć i poprawić.
+      const size = kind === 'c' ? 100 : 200, base = kind === 'c' ? 'pytania' : 'odpowiedzi';
+      const folder = new URL(`../talia/${lang}/${pack.file}/`, import.meta.url);
+      fs.mkdirSync(folder, { recursive: true });
+      for (let i = 0, n = 1; i < lines.length; i += size, n++) {
+        const nr = String(n).padStart(2, '0');
+        fs.writeFileSync(new URL(`${base}-${nr}.txt`, folder), HEADER(pack, kind, lang).replace('język: ' + lang, `język: ${lang} · paczka ${nr} (karty ${i + 1}–${Math.min(i + size, lines.length)} z ${lines.length})`) + lines.slice(i, i + size).join('\n') + '\n');
+      }
     }
   }
 }

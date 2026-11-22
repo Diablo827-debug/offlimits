@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Rodzinny (dla wszystkich) · język: pl · paczka 04 (karty 301–400 z 560)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-C301 | Nowa atrakcja w zoo: ____.
+R-C302 | Co zawsze jest w lodówce studenta?
+R-C303 | Najlepsza rzecz w poniedziałek to ____.
+R-C304 | Co pies chowa w ogródku?
+R-C305 | Najsłynniejszy przepis cioci: ____.
+R-C306 | Rodzinny sport narodowy: ____.
+R-C307 | Babcia zawsze mówi: „Najważniejsze to ____ i ____”.
+R-C308 | Co dzieje się z długopisami?
+R-C309 | Najdziwniejsza rzecz w szkolnym sklepiku: ____.
+R-C310 | Co tata nazywa „małym remontem”?
+R-C311 | Najlepszy pomysł na Walentynki rodziców: ____.
+R-C312 | Czego się nie robi na pogrzebie chomika?
+R-C313 | Główna atrakcja domówki u kuzyna: ____.
+R-C314 | Co jest w tajemniczym słoiku dziadka?
+R-C315 | Ulubiona pora dnia naszego psa to ____.
+R-C316 | Ostatnie słowa przed wejściem do zimnej wody: ____.
+R-C317 | Dwa obozy w naszej rodzinie: ____ kontra ____.
+R-C318 | Najdziwniejsza rzecz w aucie taty to ____.
+R-C319 | Co robi rodzina, gdy wysiądzie internet?
+R-C320 | Najlepszy dodatek do każdego dania: ____.
+R-C321 | Co mówi babcia, kiedy wygrywa w karty?
+R-C322 | Najlepsza zabawa na weselu dla dzieci: ____.
+R-C323 | Co kryje się za drzwiami pokoju brata?
+R-C324 | Moja najgorsza fryzura to ____.
+R-C325 | Co nam zostało po wakacjach?
+R-C326 | Nagroda za najlepsze przebranie: ____.
+R-C327 | List do Mikołaja. Prośba: ____. Obietnica: ____.
+R-C328 | Co dziadek robi przy ognisku?
+R-C329 | Najlepszy sposób na nudną lekcję: ____.
+R-C330 | Czego nie powinno się brać na wycieczkę w góry?
+R-C331 | Wielkie odkrycie mojej siostry: ____.
+R-C332 | Co mama zrobi, kiedy zobaczy ten bałagan?
+R-C333 | Najbardziej rodzinny moment roku to ____.
+R-C334 | Co w Wigilię mówią zwierzęta?
+R-C335 | Najlepszy pomysł na rodzinny wieczór: ____.
+R-C336 | Co jest najgorsze w szkolnych wycieczkach?
+R-C337 | Koszulka wujka. Z przodu: ____. Z tyłu: ____.
+R-C338 | Najgorsza rzecz na podłodze o północy to ____.
+R-C339 | Co zrobić, gdy pies zje pracę domową?
+R-C340 | Najdziwniejszy znak drogowy to ____.
+R-C341 | Co babcia przemyca w torbie z wakacji?
+R-C342 | Główny bohater szkolnych plotek: ____.
+R-C343 | Co zawsze ląduje w koszu na pranie?
+R-C344 | Najlepszy sposób na długą podróż autem: ____.
+R-C345 | Najgorsza rzecz w nowym telefonie to ____.
+R-C346 | Co wujek nazywa „pewniakiem” w zakładach?
+R-C347 | Przepis na udane imieniny: ____, ____ i dobry humor.
+R-C348 | Co mama mówi przez telefon do cioci?
+R-C349 | Najlepszy wynalazek do kuchni: ____.
+R-C350 | Czego nie mówimy przy sąsiadach?
+R-C351 | Najdziwniejsze miejsce, w którym zasnął tata, to ____.
+R-C352 | Co robi kot w kartonie?
+R-C353 | Pierwsza rzecz, którą widzę rano, to ____.
+R-C354 | Na rodzinnym drzewie genealogicznym są ____ i ____.
+R-C355 | Co babcia trzyma pod łóżkiem?
+R-C356 | Najlepsza rzecz w święta to ____.
+R-C357 | Czego nie lubimy w wakacjach?
+R-C358 | Co znalazł archeolog w naszym ogródku?
+R-C359 | Ulubiona zabawa wujka na weselu: ____.
+R-C360 | Co wydarzyło się na ostatnich urodzinach dziadka?
+R-C361 | Najlepszy sposób na pozbycie się gości: ____.
+R-C362 | Najbardziej szalona rzecz, jaką zrobiła mama, to ____.
+R-C363 | Rodzinna olimpiada. Złoto: ____. Srebro: ____.
+R-C364 | Co straszy w lesie podczas grzybobrania?
+R-C365 | Najlepszy przysmak z dzieciństwa: ____.
+R-C366 | Co jest w paczce od babci dla wnuka na studiach?
+R-C367 | Największe kłamstwo rodziców to ____.
+R-C368 | Czego uczy nas życie w bloku?
+R-C369 | Co dziadek uważa za nowoczesną technologię?
+R-C370 | Najlepsza rzecz w szkolnej przerwie to ____.
+R-C371 | Co mama ukrywa w szafce z przyprawami?
+R-C372 | Ulubiony temat kłótni rodzeństwa: ____.
+R-C373 | Co zawsze wraca z wakacji w walizce?
+R-C374 | Ostatnia deska ratunku przed sprawdzianem: ____.
+R-C375 | Wielka afera na rodzinnym czacie: ____.
+R-C376 | Co kot myśli o poniedziałkach?
+R-C377 | Największy skarb babci to ____.
+R-C378 | Idealna niedziela: ____ i ____.
+R-C379 | Co jest na dnie torby na zakupy?
+R-C380 | Najlepszy sposób na pierwszy śnieg: ____.
+R-C381 | Główny powód, dla którego spóźniamy się na pociąg: ____.
+R-C382 | Co robi wujek, kiedy ktoś zaczyna śpiewać?
+R-C383 | Nowa funkcja w telefonie dziadka: ____.
+R-C384 | Najsmutniejszy widok w kuchni to ____.
+R-C385 | Czego potrzebuje każdy przedszkolak?
+R-C386 | Ulubiony bohater bajek mojej siostry: ____.
+R-C387 | Co znaleźliśmy w spadku po prababci?
+R-C388 | Przyszły zawód brata: rano ____, wieczorem ____.
+R-C389 | Najlepszy pomysł na obiad, kiedy nic nie ma w lodówce: ____.
+R-C390 | Co ma w głowie nastolatek?
+R-C391 | Najbardziej rodzinna gra planszowa to ____.
+R-C392 | Najgorszy prezent od Mikołaja: ____.
+R-C393 | Co babcia robi z resztkami z Wigilii?
+R-C394 | Najczęstsza wymówka wujka: ____.
+R-C395 | Co jest ważniejsze od deseru?
+R-C396 | Najzabawniejsza rzecz na weselu to ____.
+R-C397 | Co wie tylko pies?
+R-C398 | Rodzinny tort urodzinowy: na dole ____, na górze ____.
+R-C399 | Najlepszy sposób na upał: ____.
+R-C400 | Co mówi tata, kiedy przegrywa w planszówki?

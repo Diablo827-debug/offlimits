@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Cards Against Humanity (CC BY-NC-SA) · język: en · paczka 07 (karty 1201–1400 z 2042)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - C-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+C-B06662 | The asshole to my right.
+C-B01859 | The baby that ruined my pussy.
+C-B03836 | The Bachelorette season finale.
+C-B03837 | The bastard seagull who stole my chips.
+C-B03838 | The Big Bang.
+C-B03839 | The big fucking hole in the ozone layer.
+C-B03840 | The Black Death.
+C-B03841 | The Blood of Christ.
+C-B03843 | The BNP.
+C-B01870 | The bond between a woman and her horse.
+C-B01871 | The boners of the elderly.
+C-B03845 | The Boy Scouts of America.
+C-B05727 | The British Establishment.
+C-B03846 | The bush.
+C-B03847 | The Canadarm.
+C-B03848 | The Care Bear Stare.
+C-B06789 | The cheapest Ann Summers dildo.
+C-B03849 | The Chinese gymnastics team.
+C-B03850 | The chronic.
+C-B03851 | The clitoris.
+C-B01876 | The clown that followed me home from the grocery store.
+C-B01879 | The complex geopolitical quagmire that is the Middle East.
+C-B03853 | The cool, refreshing taste of Coca-Cola®.
+C-B03854 | The cool, refreshing taste of Pepsi.
+C-B03856 | The crazy, ball-slapping sex your parents are having right now.
+C-B03857 | The Daily Mail.
+C-B03858 | The Dalai Lama.
+C-B03859 | The Dance of the Sugar Plum Fairy.
+C-B03860 | The death penalty.
+C-B03862 | The Devil himself.
+C-B03863 | The Donald Trump Seal of Approval.™
+C-B03864 | The drama club.
+C-B01887 | The economy.
+C-B03866 | The end of days.
+C-B03867 | The entire cast of Downton Abbey.
+C-B01892 | The entire Internet.
+C-B03868 | The entire Mormon Tabernacle Choir.
+C-B03869 | The Famous Five.
+C-B03870 | The female orgasm.
+C-B01902 | The flute.
+C-B03872 | The folly of man.
+C-B03873 | The forbidden fruit.
+C-B03874 | The Force.
+C-B06790 | The Franco-Prussian War.
+C-B03875 | The French.
+C-B03876 | The gays.
+C-B03877 | The glass ceiling.
+C-B03878 | The Great Depression.
+C-B03879 | The Great Emu War.
+C-B06791 | The Green Party.
+C-B05975 | The Grinch.
+C-B03880 | The guys from Queer Eye.
+C-B03881 | The Hamburglar.
+C-B03883 | The heart of a child.
+C-B03884 | The Hemsworth brothers.
+C-B01919 | The hiccups.
+C-B03886 | The Holy Bible.
+C-B03887 | The homosexual agenda.
+C-B03888 | The homosexual lifestyle.
+C-B03889 | The Honey Monster.
+C-B01923 | The human body.
+C-B03890 | The Hustle.
+C-B03891 | The illusion of choice in a late-stage capitalist society.
+C-B03892 | The inevitable heat death of the universe.
+C-B03893 | The invisible hand.
+C-B01926 | The Joe Rogan Experience.
+C-B03896 | The Kool-Aid Man.
+C-B06140 | The land of chocolate.
+C-B03897 | The light of a billion suns.
+C-B03898 | The Little Engine That Could.
+C-B03899 | The magic of live theatre.
+C-B03900 | The Make-A-Wish Foundation.
+C-B06677 | The meats.
+C-B01943 | The mere concept of Applebee's®.
+C-B01944 | The milk that comes out of a person.
+C-B03903 | The milkman.
+C-B03904 | The miracle of childbirth.
+C-B03905 | The morbidly obese.
+C-B03906 | The North.
+C-B01953 | The ol' penis-in-the-popcorn surprise.
+C-B03908 | The only gay person in a hundred kilometers.
+C-B03910 | The opioid crisis.
+C-B03912 | The past.
+C-B03913 | The Patriarchy.
+C-B03914 | The penny whistle solo from "My Heart Will Go On."
+C-B03915 | The People's Elbow.
+C-B03916 | The petty troubles of the aristrocracy.
+C-B03918 | The pirate's life.
+C-B03919 | The placenta.
+C-B03920 | The plot of a Michael Bay movie.
+C-B03921 | The Pope.
+C-B03923 | The prostate.
+C-B01967 | The prunes I've been saving for you in my armpits.
+C-B06726 | The punishment shed.
+C-B05728 | The racist monarchy.
+C-B03924 | The Rapture.
+C-B03925 | The Red Hot Chili Peppers.
+C-B03926 | The Red Menace.
+C-B03927 | The Rev. Dr. Martin Luther King, Jr.
+C-B03928 | The rhythms of Africa.
+C-B03929 | The Royal Canadian Mounted Police.
+C-B03930 | The Russians.
+C-B03931 | The Scouts.
+C-B03932 | The screams...the terrible screams.
+C-B03933 | The smell of a Primark.
+C-B03935 | The South.
+C-B03936 | The Stig.
+C-B06668 | The Strait of Hormuz.
+C-B03937 | The Strictly Come Dancing final.
+C-B03939 | The sudden appearance of the Go Compare man.
+C-B03940 | The Superdome.
+C-B03941 | The taint; the grundle; the fleshy fun-bridge.
+C-B03942 | The tampon from my vagina.
+C-B03943 | The Tempur-Pedic® Swedish Sleep System™.
+C-B03944 | The terrorists.
+C-B03945 | The Thong Song.
+C-B01993 | The tiger that killed my father.
+C-B03948 | The token minority.
+C-B01995 | The total collapse of the global financial system.
+C-B03950 | The true meaning of Christmas.
+C-B03951 | The Übermensch.
+C-B05729 | The ugliest boy in the village.
+C-B03954 | The unstoppable tide of Islam.
+C-B05985 | The vanishing line between truth and misinformation.
+C-B03955 | The violation of our most basic human rights.
+C-B03957 | The way James Bond treats women.
+C-B03958 | The Welsh.
+C-B03959 | The Wendy's Spicy Chicken Sandwich.
+C-B02001 | The white man.
+C-B03961 | The whole enchilada.
+C-B03962 | The wifi password.
+C-B03963 | The wonders of the Orient.
+C-B03964 | The World of Warcraft.
+C-B03965 | The wrath of Vladimir Putin.
+C-B03966 | Therapy.
+C-B03967 | Theresa May.
+C-B03968 | These hoes.
+C-B03969 | Third base.
+C-B03970 | This answer is postmodern.
+C-B03973 | Those times when you get sand in your vagina.
+C-B02019 | Three consecutive seconds of happiness.
+C-B03974 | Three dicks at the same time.
+C-B03975 | Three drag queens, a bus, and a dream.
+C-B03976 | Three ounces of clean urine.
+C-B03977 | Throwing a virgin into a volcano.
+C-B03978 | Throwing grapes at a man until he loses touch with reality.
+C-B03979 | Tickle Me Elmo.
+C-B03981 | Tickling Sean Hannity, even after he tells you to stop.
+C-B03982 | Tiger Woods.
+C-B02031 | Tiny nipples.
+C-B03983 | Tiny tits that say "Yippee!" when you touch them.
+C-B03984 | Tom Cruise.
+C-B02037 | Tongue.
+C-B03986 | Tony Abbott in budgie smugglers.
+C-B06792 | Too many Scotch eggs.
+C-B03987 | Too much hair gel.
+C-B03988 | Tories.
+C-B03989 | Total control of the media.
+C-B03991 | Toxic masculinity.
+C-B06708 | Transitioning.
+C-B06686 | Trauma dumping.
+C-B03992 | Trench foot.
+C-B02049 | Tripping balls.
+C-B05974 | Trump.
+C-B02357 | Tweeting.
+C-B02057 | Twenty bucks.
+C-B02058 | Twenty cheerleaders laughing at your tiny penis.
+C-B03994 | Twenty tonnes of bat shit.
+C-B03995 | Twinkies®.
+C-B05971 | Twinks.
+C-B02065 | Two whales fucking the shit out of each other.
+C-B03997 | Two Xanax and a bottle of wine.
+C-B03998 | Unfathomable stupidity.
+C-B02071 | Unlimited soup, salad, and breadsticks.
+C-B03999 | Uppercuts.
+C-B04000 | Used knickers.
+C-B04002 | Using a condom.
+C-B04003 | Using comedy as a coping mechanism.
+C-B04004 | Vegemite™.
+C-B04005 | Vehicular homicide.
+C-B06671 | Viagra.®
+C-B04008 | Vigilante justice.
+C-B04009 | Vigorous jazz hands.
+C-B04010 | Vikings.
+C-B04011 | Vladimir Putin.
+C-B04012 | Vomiting into a kangaroo's pouch.
+C-B02086 | Vomiting mid-blowjob.
+C-B04013 | Vomiting seafood and bleeding anally.
+C-B05979 | Voter fraud.
+C-B04014 | Waiting 'til marriage.
+C-B04016 | Waking up half-naked in a Denny's parking lot.
+C-B04020 | Waking up in Idris Elba's arms.
+C-B04022 | War crimes.
+C-B06710 | Wasting taxpayer dollars.
+C-B04023 | Waterboarding.
+C-B02100 | Weapons-grade plutonium.
+C-B02103 | Wearing an octopus for a hat.
+C-B04024 | Wearing underwear inside out to avoid doing laundry.
+C-B04026 | Website.
+C-B02110 | Wet butt.

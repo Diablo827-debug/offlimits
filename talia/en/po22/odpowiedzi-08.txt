@@ -1,0 +1,111 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Po 22:00 (pikantniejsze) · język: en · paczka 08 (karty 1401–1502 z 1502)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-B1401 | A TV that only works after you hit it.
+N-B1402 | A radio that only picks up the polka station.
+N-B1403 | A radio station only the taxi driver listens to.
+N-B1404 | Elevator music.
+N-B1405 | Hold music on a hotline.
+N-B1406 | A hotline where “your call is important to us”.
+N-B1407 | Consultant number 47 in the queue.
+N-B1408 | Talking to an automated system that doesn’t understand.
+N-B1409 | Press one, press two, press cry.
+N-B1410 | A complaint that takes three months.
+N-B1411 | A receipt that has faded.
+N-B1412 | A warranty that expired the day before the breakdown.
+N-B1413 | A user manual in 24 languages and none of them understandable.
+N-B1414 | Equipment that breaks right after the warranty ends.
+N-B1415 | A washing machine with more programs than I have plans.
+N-B1416 | “Cotton 40” as the only program ever used.
+N-B1417 | A dryer that shrank a sweater.
+N-B1418 | A sweater that now fits the dog.
+N-B1419 | A dog wearing its owner’s clothes.
+N-B1420 | A cat in a cardboard box instead of its 80-euro bed.
+N-B1421 | A 20-euro cat toy, and the string wins.
+N-B1422 | A vet bill bigger than my doctor’s bill.
+N-B1423 | Pet insurance for the dog.
+N-B1424 | A dog’s birthday party with a cake.
+N-B1425 | A dog café.
+N-B1426 | A spa for cats.
+N-B1427 | An influencer cat that earns more than me.
+N-B1428 | A cat that taught me humility.
+N-B1429 | A dog that taught me unconditional love.
+N-B1430 | A hamster that taught me about the passage of time.
+N-B1431 | A goldfish that taught me silence.
+N-B1432 | A parrot that spilled all the family secrets.
+N-B1433 | A parrot that talks in my ex’s voice.
+N-B1434 | A rat in the basement that already has a name.
+N-B1435 | A pigeon that flew into a meeting.
+N-B1436 | A seagull that stole my sandwich on the pier.
+N-B1437 | A wasp at a romantic picnic.
+N-B1438 | A tick in a place we don’t talk about.
+N-B1439 | Mosquitoes at an outdoor wedding.
+N-B1440 | A thunderstorm at a garden wedding.
+N-B1441 | A heatwave in a suit.
+N-B1442 | Freezing cold at the prom in a thin dress.
+N-B1443 | Rain at a festival.
+N-B1444 | Sun in an office with no blinds.
+N-B1445 | Weather that always ruins the plans.
+N-B1446 | A weather forecast only I believe in.
+N-B1447 | The last thing I expected.
+N-B1448 | A grand finale nobody wanted.
+N-B1449 | A happy ending with a mortgage.
+N-B1450 | Happiness in small doses.
+N-B1451 | Peace and quiet that lasted five minutes.
+N-B1452 | A Sunday with no plans and no guilt.
+N-B1453 | Adulthood, where nobody knows what they’re doing.
+N-B1454 | A life that went differently, but well.
+N-B1455 | The first paycheck and the first disappointment.
+N-B1456 | The last mortgage installment I’ll never live to see.
+N-B1457 | A 6-euro takeaway coffee.
+N-B1458 | Breakfast out, a.k.a. avocado for half a day’s pay.
+N-B1459 | A brunch you have to wait an hour for.
+N-B1460 | A queue at a trendy bakery.
+N-B1461 | Artisan ice cream priced like gold.
+N-B1462 | A 17-euro burger with fries.
+N-B1463 | Ramen that was supposed to change my life.
+N-B1464 | A vegan pork chop at the mother-in-law’s.
+N-B1465 | A keto diet for three days.
+N-B1466 | Intermittent fasting interrupted by a kebab.
+N-B1467 | A smoothie that tastes like a lawn.
+N-B1468 | Celery juice for a detox.
+N-B1469 | Homemade kombucha by the brother-in-law.
+N-B1470 | A sourdough starter with more followers than me.
+N-B1471 | Pandemic bread nobody bakes anymore.
+N-B1472 | A buttered roll as the pinnacle of cuisine.
+N-B1473 | Mom’s cutlet carried in a bag across the whole country.
+N-B1474 | Jars from Mom as currency.
+N-B1475 | Swapping stew for dumplings with the neighbor.
+N-B1476 | A cake from the mother-in-law you can’t refuse.
+N-B1477 | A third helping out of politeness.
+N-B1478 | Trousers unbuttoned after Christmas dinner.
+N-B1479 | A nap after chicken soup.
+N-B1480 | Fighting sleepiness on a Sunday afternoon.
+N-B1481 | Coffee after lunch for the uncle who “won’t fall asleep”.
+N-B1482 | An uncle who fell asleep mid-sentence.
+N-B1483 | Grandpa snoring to the rhythm of the carols.
+N-B1484 | Carols sung karaoke-style off a phone.
+N-B1485 | Family karaoke with a supermarket microphone.
+N-B1486 | Dancing to cheesy pop with the mother-in-law.
+N-B1487 | A brother-in-law who wants to breakdance.
+N-B1488 | A bet on who’ll leave the party first.
+N-B1489 | An Irish goodbye nobody noticed.
+N-B1490 | Going back for your jacket and extending the party by three hours.
+N-B1491 | A friend’s couch as a hotel.
+N-B1492 | Breakfast in the host’s pajamas.
+N-B1493 | A towel borrowed from a stranger.
+N-B1494 | A toothbrush from a hotel kit.
+N-B1495 | A toilet where the lock doesn’t work.
+N-B1496 | A bathroom door with no handle.
+N-B1497 | Toilet paper running out at someone else’s house.
+N-B1498 | Chatting with the hosts’ cat at 4 a.m.
+N-B1499 | A goodbye to the hosts’ dog more tender than to the hosts.
+N-B1500 | A promise of a return visit nobody will keep.
+N-B1501 | An invitation to “come round sometime”.
+N-B1502 | A get-together we’ve been postponing since 2019.

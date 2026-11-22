@@ -1,0 +1,26 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Cards Against Humanity (CC BY-NC-SA) · język: pl · paczka 05 (karty 401–416 z 416)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - C-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+C-C00329 | Co raz na zawsze skończy z rasizmem?
+C-C00343 | Co zaraz przeniesie parkiet na wyższy poziom?
+C-C00344 | Co jest najbardziej gejowe?
+C-C00345 | Co jest najbardziej problematyczne?
+C-C00353 | Czemu się śmieję, płaczę i zdejmuję ubrania?
+C-C00357 | Jednorazową wpłatą 10 zł możesz uratować to dziecko przed ____.
+C-C00370 | Wiesz, kto jeszcze lubił ____? Hitler.
+C-C05734 | Stary, ona szaleje za mną. Wysłała mi zdjęcie swojego ____.
+C-C05736 | Księże proboszczu, skoro Bóg jest dobry i wszechmocny, czemu pozwala na ____?
+C-C05733 | Przepraszam, kochanie. Po prostu nie mam dziś nastroju na ____.
+C-C05735 | John Wick to człowiek skupienia i determinacji. Raz widziałem, jak zabił trzech ludzi… za pomocą ____.
+C-C05741 | Chyba zadziałały ciasteczka z niespodzianką, bo jestem totalnie zahipnotyzowany ____.
+C-C05737 | Mamo, to niesprawiedliwe! Czemu tylko ja w szkole muszę się użerać z ____?
+C-C05731 | Synu, przestań się bawić ____, bo ludzie pomyślą, że jesteś gejem.
+C-C05743 | Najczęstsze podpowiedzi Google dla „Taylor Swift”: Taylor Swift wiek. Taylor Swift majątek. Taylor Swift ____.
+C-C05732 | Co sprawia, że dziadek znowu czuje się młodo?

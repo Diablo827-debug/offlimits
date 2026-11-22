@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Po 22:00 (pikantniejsze) · język: en · paczka 01 (karty 1–100 z 501)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-C001 | The worst thing you can say on a first date is ____.
+N-C002 | What really happens on company team-building trips?
+N-C003 | My therapist says the root of the problem is ____.
+N-C004 | Tinder should add a filter for: ____.
+N-C005 | What don’t you see in the bachelorette party photos?
+N-C006 | The real reason the neighbors got divorced: ____.
+N-C007 | Saturday plans: wine, a blanket and ____.
+N-C008 | Adulthood is when ____ makes you happier than a party.
+N-C009 | What do you say to your boss on Monday at 8 a.m.?
+N-C010 | My household budget in one picture: ____.
+N-C011 | What’s hidden in my brother-in-law’s browser history?
+N-C012 | The best hangover cure is ____.
+N-C013 | The trait of the ideal partner: ____.
+N-C014 | Wedding vows, the realistic version: “There will always be ____ between us”.
+N-C015 | What do I do when nobody has replied for 4 minutes?
+N-C016 | A midlife crisis in all its glory: ____.
+N-C017 | “Honey, we need to talk.” The topic: ____.
+N-C018 | The inscription on my tombstone: ____.
+N-C019 | First date: ____, and for dessert ____.
+N-C020 | New Year’s Eve plan: first ____, then ____.
+N-C021 | What do people really do when working from home?
+N-C022 | The worst thing to find on your partner’s phone: ____.
+N-C023 | A new line on my CV: ____.
+N-C024 | The reason I didn’t get a raise: ____.
+N-C025 | What happens at the office Christmas party stays at the office Christmas party. For example, ____.
+N-C026 | The worst wedding anniversary present is ____.
+N-C027 | The secret ingredient of every house party: ____.
+N-C028 | What do I tell myself in the mirror before a job interview?
+N-C029 | The real cause of the crisis in my relationship: ____.
+N-C030 | The most romantic gesture a Polish guy can make: ____.
+N-C031 | What should you never tell your mother-in-law over vodka?
+N-C032 | My retirement in one word: ____.
+N-C033 | New dating show. Contestant: ____. Prize: ____.
+N-C034 | What’s in my shopping history after midnight?
+N-C035 | The best excuse to leave a party early: ____.
+N-C036 | The theme of my thirtieth birthday: ____.
+N-C037 | What’s worse than a hangover?
+N-C038 | The reason I sit in the car outside my house for 20 minutes: ____.
+N-C039 | My boss’s biggest secret: ____.
+N-C040 | The worst topic for small talk in an elevator is ____.
+N-C041 | What does a Pole pack for an all-inclusive holiday?
+N-C042 | My strategy for surviving a meeting: ____.
+N-C043 | The real reason I go to the gym: ____.
+N-C044 | The most expensive mistake of my life: ____.
+N-C045 | My love life in two words: ____ and ____.
+N-C046 | What’s hiding in the drawer of “important papers”?
+N-C047 | My reaction to the electricity bill: ____.
+N-C048 | The highlight of the bachelor party: ____.
+N-C049 | The best way to waste a vacation: ____.
+N-C050 | What did I learn about myself after three years in a relationship?
+N-C051 | Facebook relationship status: ____.
+N-C052 | The most toxic trait in the office is ____.
+N-C053 | The reason I don’t pick up when Mom calls: ____.
+N-C054 | What do adults do on vacation without the kids?
+N-C055 | The true face of the neighborhood moms’ group: ____.
+N-C056 | Wedding of the year. Highlight: ____. Scandal: ____.
+N-C057 | A new bedtime ritual: ____.
+N-C058 | My idea of a first date is ____.
+N-C059 | What’s missing from my employment contract that should be there?
+N-C060 | What does “drop by for coffee” really mean?
+N-C061 | The best thing that can happen to me on Friday at 3 p.m. is ____.
+N-C062 | What do I say to the dentist with my mouth full?
+N-C063 | The only thing missing at the company party: ____.
+N-C064 | The real reason I’m single: ____.
+N-C065 | What’s scarier than a mortgage?
+N-C066 | The most Polish thing on a holiday abroad is ____.
+N-C067 | A marital argument. The wife’s point: ____. The husband’s point: ____.
+N-C068 | What does “I’m starting my diet tomorrow” mean?
+N-C069 | The main cause of wrinkles: ____.
+N-C070 | My first thought in the morning: ____.
+N-C071 | The last thing I see before falling asleep: ____.
+N-C072 | What will I do with my first paycheck after a raise?
+N-C073 | Grandma’s best advice about men: ____.
+N-C074 | Grandpa’s best advice about women: ____.
+N-C075 | What goes on in the neighborhood help group on Facebook?
+N-C076 | What do I do when my parents go away for the weekend?
+N-C077 | What should you not do after three beers?
+N-C078 | The worst moment for a call from your ex: ____.
+N-C079 | A night in. The plan: ____. The reality: ____.
+N-C080 | What subscription do I pay for but never use?
+N-C081 | My passion that nobody understands: ____.
+N-C082 | The true meaning of life according to Uncle after a wedding: ____.
+N-C083 | What does the doctor say when he thinks I can’t hear?
+N-C084 | Something I’ll only tell my therapist: ____.
+N-C085 | The weirdest thing on a thirty-year-old’s wish list: ____.
+N-C086 | What do I do at work when nobody’s watching?
+N-C087 | The best way to deal with an existential crisis: ____.
+N-C088 | What do the neighbors hear through the wall?
+N-C089 | The most honest description of my apartment: ____.
+N-C090 | My horoscope for today: in the morning ____, in the evening ____.
+N-C091 | What did I say when I saw the price of the apartment?
+N-C092 | The big discovery after thirty: ____.
+N-C093 | What am I ashamed of in my Spotify history?
+N-C094 | The best anniversary idea when I forgot the anniversary: ____.
+N-C095 | When’s the wedding? Answer: ____.
+N-C096 | What does my partner do in the bathroom for an hour?
+N-C097 | The worst thing to do with a hangover: ____.
+N-C098 | My relationship with coffee is ____.
+N-C099 | The accountant’s real hobby: ____.
+N-C100 | What does the boss say when he asks for “a quick word”?

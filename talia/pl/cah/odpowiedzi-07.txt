@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Cards Against Humanity (CC BY-NC-SA) · język: pl · paczka 07 (karty 1201–1400 z 2042)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - C-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+C-B06662 | Dupek po mojej prawej.
+C-B01859 | Dziecko, które zniszczyło mi cipkę.
+C-B03836 | Finał „Rolnik szuka żony”.
+C-B03837 | Pieprzona mewa, która ukradła mi frytki.
+C-B03838 | Wielki Wybuch.
+C-B03839 | Wielka, pieprzona dziura ozonowa.
+C-B03840 | Czarna śmierć.
+C-B03841 | Krew Chrystusa.
+C-B03843 | Narodowcy w kominiarkach.
+C-B01870 | Więź między kobietą a jej koniem.
+C-B01871 | Erekcje starszych panów.
+C-B03845 | Harcerze.
+C-B05727 | Warszawskie elity.
+C-B03846 | Busz.
+C-B03847 | Ramię robota na stacji kosmicznej.
+C-B03848 | Spojrzenie Troskliwych Misiów.
+C-B06789 | Najtańsze dildo z sex shopu.
+C-B03849 | Chińska drużyna gimnastyczek.
+C-B03850 | Najlepsze zioło.
+C-B03851 | Łechtaczka.
+C-B01876 | Klaun, który szedł za mną ze sklepu do domu.
+C-B01879 | Złożone bagno geopolityczne, jakim jest Bliski Wschód.
+C-B03853 | Zimny, orzeźwiający smak Coca-Coli.
+C-B03854 | Zimny, orzeźwiający smak Pepsi.
+C-B03856 | Szalony seks z klepaniem jaj, który twoi rodzice uprawiają właśnie teraz.
+C-B03857 | Pudelek.
+C-B03858 | Dalajlama.
+C-B03859 | Taniec Wieszczki Cukrowej.
+C-B03860 | Kara śmierci.
+C-B03862 | Sam diabeł.
+C-B03863 | Pieczątka „zatwierdzone przez Donalda Trumpa”.
+C-B03864 | Kółko teatralne.
+C-B01887 | Gospodarka.
+C-B03866 | Koniec dni.
+C-B03867 | Cała obsada „M jak miłość”.
+C-B01892 | Cały internet.
+C-B03868 | Cały chór kościelny.
+C-B03869 | Pięcioro przyjaciół.
+C-B03870 | Kobiecy orgazm.
+C-B01902 | Flet.
+C-B03872 | Głupota człowieka.
+C-B03873 | Zakazany owoc.
+C-B03874 | Moc.
+C-B06790 | Wojna francusko-pruska.
+C-B03875 | Francuzi.
+C-B03876 | Geje.
+C-B03877 | Szklany sufit.
+C-B03878 | Wielki kryzys.
+C-B03879 | Wielka wojna z emu.
+C-B06791 | Partia Zielonych.
+C-B05975 | Grinch.
+C-B03880 | Faceci z „Queer Eye”.
+C-B03881 | Hamburglar.
+C-B03883 | Serce dziecka.
+C-B03884 | Bracia Hemsworthowie.
+C-B01919 | Czkawka.
+C-B03886 | Pismo Święte.
+C-B03887 | Gejowska agenda.
+C-B03888 | Gejowski styl życia.
+C-B03889 | Miodowy Potwór.
+C-B01923 | Ludzkie ciało.
+C-B03890 | Taniec Hustle.
+C-B03891 | Iluzja wyboru w społeczeństwie późnego kapitalizmu.
+C-B03892 | Nieunikniona śmierć cieplna wszechświata.
+C-B03893 | Niewidzialna ręka rynku.
+C-B01926 | Podcast Joego Rogana.
+C-B03896 | Kool-Aid Man.
+C-B06140 | Kraina czekolady.
+C-B03897 | Światło miliarda słońc.
+C-B03898 | Lokomotywa Tuwima.
+C-B03899 | Magia teatru na żywo.
+C-B03900 | Fundacja Mam Marzenie.
+C-B06677 | Mięsiwa.
+C-B01943 | Sama idea restauracji sieciowej.
+C-B01944 | Mleko, które wypływa z człowieka.
+C-B03903 | Mleczarz.
+C-B03904 | Cud narodzin.
+C-B03905 | Chorobliwie otyli.
+C-B03906 | Ściana Wschodnia.
+C-B01953 | Stara niespodzianka: penis w popcornie.
+C-B03908 | Jedyny gej w promieniu stu kilometrów.
+C-B03910 | Kryzys opioidowy.
+C-B03912 | Przeszłość.
+C-B03913 | Patriarchat.
+C-B03914 | Solówka na flecie z „My Heart Will Go On”.
+C-B03915 | Łokieć Ludu.
+C-B03916 | Drobne kłopoty arystokracji.
+C-B03918 | Życie pirata.
+C-B03919 | Łożysko.
+C-B03920 | Fabuła filmu Michaela Baya.
+C-B03921 | Papież.
+C-B03923 | Prostata.
+C-B01967 | Suszone śliwki, które trzymam dla ciebie pod pachami.
+C-B06726 | Szopa kar.
+C-B05728 | Rasistowska monarchia.
+C-B03924 | Pochwycenie do nieba.
+C-B03925 | Red Hot Chili Peppers.
+C-B03926 | Czerwona zaraza.
+C-B03927 | Pastor Martin Luther King.
+C-B03928 | Rytmy Afryki.
+C-B03929 | Kanadyjska konna policja.
+C-B03930 | Rosjanie.
+C-B03931 | Harcerstwo.
+C-B03932 | Te krzyki… te straszne krzyki.
+C-B03933 | Zapach Pepco.
+C-B03935 | Południe.
+C-B03936 | Stig.
+C-B06668 | Cieśnina Ormuz.
+C-B03937 | Finał „Tańca z gwiazdami”.
+C-B03939 | Nagłe pojawienie się faceta z reklamy porównywarki.
+C-B03940 | Hala widowiskowa.
+C-B03941 | Krocze; perineum; mięsisty most rozkoszy.
+C-B03942 | Tampon z mojej pochwy.
+C-B03943 | Szwedzki system snu z materacem z pianki.
+C-B03944 | Terroryści.
+C-B03945 | Thong Song.
+C-B01993 | Tygrys, który zabił mojego ojca.
+C-B03948 | Mniejszość na pokaz.
+C-B01995 | Całkowity upadek światowego systemu finansowego.
+C-B03950 | Prawdziwy sens świąt.
+C-B03951 | Nadczłowiek.
+C-B05729 | Najbrzydszy chłopak we wsi.
+C-B03954 | Niepowstrzymana fala islamu.
+C-B05985 | Zacierająca się granica między prawdą a dezinformacją.
+C-B03955 | Pogwałcenie naszych najbardziej podstawowych praw człowieka.
+C-B03957 | Sposób, w jaki James Bond traktuje kobiety.
+C-B03958 | Kaszubi.
+C-B03959 | Ostra kanapka z kurczakiem z fast foodu.
+C-B02001 | Biały człowiek.
+C-B03961 | Cała ta enchilada.
+C-B03962 | Hasło do wifi.
+C-B03963 | Cuda Orientu.
+C-B03964 | World of Warcraft.
+C-B03965 | Gniew Władimira Putina.
+C-B03966 | Terapia.
+C-B03967 | Theresa May.
+C-B03968 | Te dziwki.
+C-B03969 | Trzecia baza.
+C-B03970 | Ta odpowiedź jest postmodernistyczna.
+C-B03973 | Te chwile, gdy masz piasek w pochwie.
+C-B02019 | Trzy kolejne sekundy szczęścia.
+C-B03974 | Trzy kutasy naraz.
+C-B03975 | Trzy drag queen, autobus i marzenie.
+C-B03976 | Sto mililitrów czystego moczu.
+C-B03977 | Wrzucenie dziewicy do wulkanu.
+C-B03978 | Rzucanie w faceta winogronami, aż straci kontakt z rzeczywistością.
+C-B03979 | Elmo do łaskotania.
+C-B03981 | Łaskotanie polityka, nawet gdy każe przestać.
+C-B03982 | Tiger Woods.
+C-B02031 | Malutkie sutki.
+C-B03983 | Malutkie cycuszki, które mówią „Juhu!”, gdy je dotkniesz.
+C-B03984 | Tom Cruise.
+C-B02037 | Język.
+C-B03986 | Polityk w obcisłych kąpielówkach.
+C-B06792 | Za dużo jajek po szkocku.
+C-B03987 | Za dużo żelu do włosów.
+C-B03988 | Konserwatyści.
+C-B03989 | Pełna kontrola nad mediami.
+C-B03991 | Toksyczna męskość.
+C-B06708 | Tranzycja.
+C-B06686 | Zrzucanie traum na innych.
+C-B03992 | Stopa okopowa.
+C-B02049 | Konkretna faza.
+C-B05974 | Trump.
+C-B02357 | Tweetowanie.
+C-B02057 | Dwie dychy.
+C-B02058 | Dwadzieścia cheerleaderek śmiejących się z twojego małego penisa.
+C-B03994 | Dwadzieścia ton nietoperzowego gówna.
+C-B03995 | Biszkopty z kremem.
+C-B05971 | Młodzi, gładcy geje.
+C-B02065 | Dwa wieloryby, które pieprzą się do nieprzytomności.
+C-B03997 | Dwa xanaxy i butelka wina.
+C-B03998 | Niewyobrażalna głupota.
+C-B02071 | Zupa, sałatka i paluszki chlebowe bez limitu.
+C-B03999 | Podbródkowe.
+C-B04000 | Używane majtki.
+C-B04002 | Używanie prezerwatywy.
+C-B04003 | Humor jako sposób radzenia sobie.
+C-B04004 | Vegemite.
+C-B04005 | Zabójstwo samochodem.
+C-B06671 | Viagra.
+C-B04008 | Samosąd.
+C-B04009 | Energiczne machanie rączkami jak w musicalu.
+C-B04010 | Wikingowie.
+C-B04011 | Władimir Putin.
+C-B04012 | Rzyganie do torby kangura.
+C-B02086 | Rzyganie w trakcie loda.
+C-B04013 | Rzyganie owocami morza i krwawienie z odbytu.
+C-B05979 | Fałszerstwa wyborcze.
+C-B04014 | Czekanie do ślubu.
+C-B04016 | Obudzenie się półnago na parkingu przy McDonaldzie.
+C-B04020 | Obudzenie się w ramionach Idrisa Elby.
+C-B04022 | Zbrodnie wojenne.
+C-B06710 | Marnowanie pieniędzy podatników.
+C-B04023 | Podtapianie.
+C-B02100 | Pluton do celów wojskowych.
+C-B02103 | Ośmiornica zamiast czapki.
+C-B04024 | Noszenie majtek na lewą stronę, żeby nie robić prania.
+C-B04026 | Strona internetowa.
+C-B02110 | Mokry tyłek.

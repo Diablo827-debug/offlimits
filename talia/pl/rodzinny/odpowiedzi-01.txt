@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Rodzinny (dla wszystkich) · język: pl · paczka 01 (karty 1–200 z 1512)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-B0001 | Pilot od telewizora, którego nikt nie może znaleźć.
+R-B0002 | Ciocia pytająca, kiedy ślub.
+R-B0003 | Ostatni pieróg.
+R-B0004 | Skarpetki do sandałów.
+R-B0005 | Rodzinna grupa na WhatsAppie.
+R-B0006 | Wujek, który zna się na wszystkim.
+R-B0007 | Zapasowy klucz pod wycieraczką.
+R-B0008 | Pies sąsiada.
+R-B0009 | Wieczne „zaraz”.
+R-B0010 | Zgubić telefon i godność.
+R-B0011 | Taniec belgijski na weselu.
+R-B0012 | Rosół w niedzielę o 13:00.
+R-B0013 | Słoik ogórków od babci.
+R-B0014 | Reklamówka z reklamówkami.
+R-B0015 | Kot na klawiaturze.
+R-B0016 | Zdjęcie z wakacji z 2009 roku.
+R-B0017 | Mandat za parkowanie.
+R-B0018 | Ładowarka, która działa tylko pod kątem.
+R-B0019 | Kanapa rozłożona od wczoraj.
+R-B0020 | Teściowa z niezapowiedzianą wizytą.
+R-B0021 | Kolejka do łazienki.
+R-B0022 | Hasło do Wi-Fi przyklejone do lodówki.
+R-B0023 | Dziadek opowiadający o wojsku.
+R-B0024 | Szukać okularów, które ma się na głowie.
+R-B0025 | Gumowy kurczak.
+R-B0026 | Sernik, który się nie udał.
+R-B0027 | Kapcie dla gości.
+R-B0028 | Lody o smaku ogórka.
+R-B0029 | Majówka w deszczu.
+R-B0030 | Sąsiad z wiertarką w niedzielę rano.
+R-B0031 | Tajny przepis babci.
+R-B0032 | Zasnąć po 5 minutach filmu.
+R-B0033 | Sweter z reniferem.
+R-B0034 | Kłótnia o pilota.
+R-B0035 | Za mała walizka.
+R-B0036 | Nawigacja, która ciągle mówi „zawróć”.
+R-B0037 | Fajerwerki w lipcu.
+R-B0038 | Pierwszy post taty na Facebooku.
+R-B0039 | Dmuchany flaming.
+R-B0040 | Lepienie pierogów całą rodziną.
+R-B0041 | Wieczne „za moich czasów”.
+R-B0042 | Krzesło, na którym leżą ubrania.
+R-B0043 | Kebab o 2 w nocy.
+R-B0044 | Ślimak w sałacie.
+R-B0045 | Laurka zrobiona własnoręcznie.
+R-B0046 | Wujek grillmistrz.
+R-B0047 | Przypalona jajecznica.
+R-B0048 | Pudełko po ciastkach pełne nici.
+R-B0049 | Rowerek stacjonarny jako wieszak.
+R-B0050 | Pomidorowa z wczorajszego rosołu.
+R-B0051 | Podkradanie frytek.
+R-B0052 | Zegar w piekarniku mrugający 00:00.
+R-B0053 | „Sto lat” w trzech tonacjach naraz.
+R-B0054 | Wyjazd z parkingu pod galerią w grudniu.
+R-B0055 | Pies w sweterku.
+R-B0056 | Spór o to, kto wygrał w Chińczyka w 1998.
+R-B0057 | Opalenizna tylko na jednej ręce.
+R-B0058 | Zapomniane hasło do wszystkiego.
+R-B0059 | Kuzyn, który „robi w kryptowalutach”.
+R-B0060 | Telewizor na cały regulator, bo dziadek nie słyszy.
+R-B0061 | Babcia na TikToku.
+R-B0062 | Ciepłe mleko z kożuchem.
+R-B0063 | Śledź w trzech smakach.
+R-B0064 | Karp w wannie.
+R-B0065 | Opłatek, który wszyscy łamią krzywo.
+R-B0066 | Dwunasta potrawa wigilijna, której nikt nie je.
+R-B0067 | Choinka, która przewróciła się sama.
+R-B0068 | Lampki, z których świeci połowa.
+R-B0069 | Prezent zapakowany w gazetę.
+R-B0070 | Skarpetki od cioci, znowu.
+R-B0071 | Mikołaj z doklejaną brodą.
+R-B0072 | Wujek przebrany za Mikołaja.
+R-B0073 | Sylwester przed telewizorem.
+R-B0074 | Pierwszy dzień diety po świętach.
+R-B0075 | Jajko z wydmuszki.
+R-B0076 | Śmigus-dyngus z wiadrem.
+R-B0077 | Koszyczek ze święconką.
+R-B0078 | Baranek z masła.
+R-B0079 | Kolorowe pisanki z wosku.
+R-B0080 | Babka, która opadła.
+R-B0081 | Mazurek z napisem „Alleluja”.
+R-B0082 | Szarlotka babci.
+R-B0083 | Kompot z suszu.
+R-B0084 | Bigos odgrzewany piąty raz.
+R-B0085 | Pączek z różą w tłusty czwartek.
+R-B0086 | Pierniki twarde jak cegła.
+R-B0087 | Barszcz z uszkami.
+R-B0088 | Kutia, której nikt nie rozumie.
+R-B0089 | Makowiec z dużą ilością rodzynek.
+R-B0090 | Mielony jak u mamy.
+R-B0091 | Schabowy wielkości talerza.
+R-B0092 | Mizeria.
+R-B0093 | Ziemniaki z koperkiem.
+R-B0094 | Kotlet sojowy udający mięso.
+R-B0095 | Zupa, która „sama się zrobiła”.
+R-B0096 | Kisiel z proszku.
+R-B0097 | Budyń z kożuchem.
+R-B0098 | Pierogi ruskie.
+R-B0099 | Gołąbki w słoiku.
+R-B0100 | Kanapka z keczupem.
+R-B0101 | Parówki na śniadanie.
+R-B0102 | Jajecznica z dziewięciu jaj.
+R-B0103 | Placki ziemniaczane.
+R-B0104 | Naleśniki z dżemem.
+R-B0105 | Kopiec frytek.
+R-B0106 | Pizza z ananasem.
+R-B0107 | Zapiekanka z budki.
+R-B0108 | Lody na patyku z kiosku.
+R-B0109 | Oranżada w proszku.
+R-B0110 | Guma z historyjką w środku.
+R-B0111 | Chrupki kukurydziane.
+R-B0112 | Wafelek w złotku.
+R-B0113 | Paluszki w słoiku.
+R-B0114 | Herbata z cytryną i trzema łyżeczkami cukru.
+R-B0115 | Kawa z ekspresu, który hałasuje jak traktor.
+R-B0116 | Woda gazowana, która już nie jest gazowana.
+R-B0117 | Lemoniada z cytryn sąsiada.
+R-B0118 | Ciasto, które upadło na podłogę.
+R-B0119 | Tort w kształcie samochodu.
+R-B0120 | Świeczki, które się nie gasną.
+R-B0121 | Ostatni kawałek pizzy.
+R-B0122 | Konserwa turystyczna.
+R-B0123 | Słoik kremu czekoladowego zjedzony łyżką.
+R-B0124 | Kanapka z ogórkiem na wycieczce.
+R-B0125 | Jabłko z sadu dziadka.
+R-B0126 | Truskawki z działki.
+R-B0127 | Cukinia wielkości psa.
+R-B0128 | Ogórki małosolne.
+R-B0129 | Grzybobranie o świcie.
+R-B0130 | Prawdziwek, który okazał się muchomorem.
+R-B0131 | Działka za miastem.
+R-B0132 | Altanka z dzikim winem.
+R-B0133 | Krasnal ogrodowy.
+R-B0134 | Kosiarka, która nie chce zapalić.
+R-B0135 | Grill na węgiel, który nie chce się rozpalić.
+R-B0136 | Hamak między dwiema brzozami.
+R-B0137 | Basen ogrodowy z liśćmi.
+R-B0138 | Zraszacz, który zawsze trafia w ludzi.
+R-B0139 | Kret pod trawnikiem.
+R-B0140 | Pomidory na balkonie.
+R-B0141 | Kaktus, który przeżył wszystko.
+R-B0142 | Storczyk mamy.
+R-B0143 | Paprotka babci.
+R-B0144 | Fikus, który rośnie od 1987 roku.
+R-B0145 | Kot śpiący w doniczce.
+R-B0146 | Pies, który zjadł kapcia.
+R-B0147 | Chomik uciekinier.
+R-B0148 | Złota rybka, która nie spełnia życzeń.
+R-B0149 | Papuga, która mówi tylko brzydkie słowa.
+R-B0150 | Żółw, który mieszka z nami od 30 lat.
+R-B0151 | Kot, który udaje, że nie słyszy.
+R-B0152 | Pies, który boi się odkurzacza.
+R-B0153 | Kot sąsiadów, który stołuje się u nas.
+R-B0154 | Gołębie na parapecie.
+R-B0155 | Biedronka na szybie.
+R-B0156 | Pająk w wannie.
+R-B0157 | Komar o 3 w nocy.
+R-B0158 | Mysz w spiżarni.
+R-B0159 | Bocian na kominie.
+R-B0160 | Kaczki w parku.
+R-B0161 | Wiewiórka, która kradnie orzechy.
+R-B0162 | Jeż w ogródku.
+R-B0163 | Kot śpiący na pranie.
+R-B0164 | Pies szczekający na swój ogon.
+R-B0165 | Spacer z psem w deszczu.
+R-B0166 | Wizyta u weterynarza.
+R-B0167 | Kocia kuweta.
+R-B0168 | Sierść na każdym swetrze.
+R-B0169 | Smycz zaplątana wokół nóg.
+R-B0170 | Akwarium, które trzeba wyczyścić.
+R-B0171 | Klatka dla świnki morskiej.
+R-B0172 | Świnka morska, która piszczy na lodówkę.
+R-B0173 | Kanarek w klatce.
+R-B0174 | Ser w pułapce na mysz.
+R-B0175 | Odkurzacz, który wciągnął skarpetkę.
+R-B0176 | Robot sprzątający, który utknął pod łóżkiem.
+R-B0177 | Pralka, która skacze po łazience.
+R-B0178 | Zmywarka, którą trzeba umyć.
+R-B0179 | Lodówka pełna jedzenia, w której nie ma nic do jedzenia.
+R-B0180 | Mikrofalówka z niespodzianką.
+R-B0181 | Toster, który pali wszystko.
+R-B0182 | Czajnik z kamieniem.
+R-B0183 | Szuflada pełna kabli.
+R-B0184 | Szuflada pełna długopisów, które nie piszą.
+R-B0185 | Gumka recepturka.
+R-B0186 | Klej, który klei wszystko oprócz tego, co trzeba.
+R-B0187 | Taśma klejąca, której koniec zniknął.
+R-B0188 | Śrubka, która została po skręceniu szafy.
+R-B0189 | Instrukcja po szwedzku.
+R-B0190 | Szafa ze sklepu meblowego.
+R-B0191 | Klucz imbusowy.
+R-B0192 | Młotek dziadka.
+R-B0193 | Wiertarka wujka.
+R-B0194 | Skrzynka z narzędziami, w której brakuje narzędzi.
+R-B0195 | Żarówka, która przepala się co tydzień.
+R-B0196 | Bezpiecznik, który wywala przy czajniku.
+R-B0197 | Kran, który kapie od lat.
+R-B0198 | Drzwi, które skrzypią.
+R-B0199 | Okno, które nie chce się domknąć.
+R-B0200 | Dzwonek do drzwi grający „Dla Elizy”.

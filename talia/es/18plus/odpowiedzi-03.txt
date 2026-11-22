@@ -1,0 +1,209 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Bez tabu (18+) · język: es · paczka 03 (karty 401–600 z 997)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - X-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+X-B0401 | Un tribunal cuyas sentencias son «opiniones».
+X-B0402 | La constitución como calzo para la mesa.
+X-B0403 | Una ley electoral cambiada seis meses antes de las elecciones.
+X-B0404 | Un partido con un 0,8 % y opinión sobre todo.
+X-B0405 | Un diputado que cambió de grupo cinco veces en una legislatura.
+X-B0406 | Un diputado que llegó al Congreso en patinete.
+X-B0407 | Una diputada que entra en el Congreso con un cubo.
+X-B0408 | Gritos desde los escaños como en un partido de fútbol.
+X-B0409 | Un presidente de la cámara que apaga los micrófonos.
+X-B0410 | Un micrófono que se encendió en el peor momento.
+X-B0411 | Una grabación en un restaurante que cambió la historia.
+X-B0412 | Unas cintas secretas en las que solo se oye al camarero.
+X-B0413 | Pulpo de lujo pagado por los contribuyentes.
+X-B0414 | Un vuelo en avión oficial a la boda de un primo.
+X-B0415 | Kilometraje cobrado en la ruta Congreso-huerto.
+X-B0416 | Una delegación a países cálidos para estudiar las heladas.
+X-B0417 | Un coche oficial que lleva al perro del ministro.
+X-B0418 | Escoltas para un exviceministro de nada.
+X-B0419 | La pensión de un diputado tras una legislatura.
+X-B0420 | Medallas repartidas antes de las elecciones.
+X-B0421 | Una medalla al mérito para el alcalde, otorgada por el alcalde.
+X-B0422 | Una prima para los ministros «por su duro trabajo».
+X-B0423 | Una prima para el consejo de una empresa con pérdidas.
+X-B0424 | Un director que gana más que todo un hospital.
+X-B0425 | El cuñado en el consejo de administración.
+X-B0426 | Un primo en la dirección de la central eléctrica.
+X-B0427 | Una suegra en una fundación que no hace nada.
+X-B0428 | Una fundación que hace de todo menos aquello para lo que se creó.
+X-B0429 | Una asociación de jubilados fans de un solo partido.
+X-B0430 | Un periódico que siempre alaba al gobierno.
+X-B0431 | Un periódico que siempre critica al gobierno.
+X-B0432 | Un portal que escribe lo que quieres leer.
+X-B0433 | Los comentarios de un artículo sobre política.
+X-B0434 | Una pelea en los comentarios entre un tío y su nieto.
+X-B0435 | Un troll con 3 seguidores y una bandera en el nombre.
+X-B0436 | Un bot que adora al gobierno.
+X-B0437 | Un bot que odia a la oposición.
+X-B0438 | Una encuesta encargada por los interesados.
+X-B0439 | Una encuesta en la que el 120 % está a favor.
+X-B0440 | Un referéndum al que no fue nadie.
+X-B0441 | Una participación más baja que en misa.
+X-B0442 | Una iglesia más vacía que el Congreso un viernes.
+X-B0443 | Un Congreso más lleno que la iglesia en la Misa del Gallo, solo el día de cobro.
+X-B0444 | Una televisión que solo da buenas noticias.
+X-B0445 | Una televisión que solo da malas noticias.
+X-B0446 | Una tía que ve las dos y está en shock.
+X-B0447 | Un abuelo que cambia entre las dos para enfadarse.
+X-B0448 | Un canal de noticias de fondo durante la comida.
+X-B0449 | Un rótulo de «última hora» cada cinco minutos.
+X-B0450 | Una rueda de prensa en un atril con bandera y la sala vacía.
+X-B0451 | Un político que dice «señoras y señores» y nada más.
+X-B0452 | Un político que responde a una pregunta con otra pregunta.
+X-B0453 | Un político con jersey en el campo para la foto.
+X-B0454 | Un político con un bebé en brazos para la foto.
+X-B0455 | Un político con casco en una obra que no existe.
+X-B0456 | Un político comiendo una salchicha en una feria.
+X-B0457 | Un político bailando en la fiesta de la cosecha.
+X-B0458 | Un político en el primer banco de la iglesia antes de las elecciones.
+X-B0459 | Un político de peregrinación con cámaras.
+X-B0460 | Un cura que bendice una campaña electoral.
+X-B0461 | Un cura que dice que no habla de política y habla de política.
+X-B0462 | Una carta pastoral leída en lugar del sermón.
+X-B0463 | Un obispo experto en economía.
+X-B0464 | Un economista experto en obispos.
+X-B0465 | Un cardenal con calcetines escarlata.
+X-B0466 | El Vaticano como resort de lujo.
+X-B0467 | El papamóvil con techo blindado.
+X-B0468 | El Papa en un póster en cada instituto.
+X-B0469 | Clase de religión en vez de matemáticas.
+X-B0470 | Un profesor de religión que pone nota a las oraciones.
+X-B0471 | Una nota de religión que cuenta para la media.
+X-B0472 | Salirse de clase de religión como acto de valentía.
+X-B0473 | Una clase de ética a la que van tres alumnos.
+X-B0474 | Un cura en el colegio que no sabe qué es TikTok.
+X-B0475 | Un cura en TikTok bailando música de verbena.
+X-B0476 | Un seminario al que se apuntó un solo candidato.
+X-B0477 | Una crisis de vocaciones en nuestra parroquia.
+X-B0478 | Un cura importado que habla el idioma mejor que el tío.
+X-B0479 | Una monja que conduce como una piloto de rallies.
+X-B0480 | Monjas haciendo cola para una oferta en el súper.
+X-B0481 | Un párroco con mejor vino que un sumiller.
+X-B0482 | Vino de misa comprado al por mayor.
+X-B0483 | Una hostia en oferta.
+X-B0484 | Una iglesia con datáfono para pagos sin contacto.
+X-B0485 | Un cepillo con código para pagar con el móvil.
+X-B0486 | Una intención de misa encargada por internet.
+X-B0487 | Una misa retransmitida por internet con el gato delante de la pantalla.
+X-B0488 | Misa desde la tumbona en vacaciones.
+X-B0489 | La Misa del Gallo con resaca de la cena de Nochebuena.
+X-B0490 | La confesión de Pascua con los pecados de todo el año.
+X-B0491 | El pecado de gula en las fiestas.
+X-B0492 | El pecado de pereza en domingo.
+X-B0493 | El pecado de envidia por el coche del párroco.
+X-B0494 | El pecado de soberbia en redes sociales.
+X-B0495 | El pecado de impureza según la tía, o sea, todo.
+X-B0496 | Un mandamiento que rompo cada fin de semana.
+X-B0497 | El sexto mandamiento en versión para adultos.
+X-B0498 | El noveno mandamiento y la vecina del cuarto.
+X-B0499 | El décimo mandamiento y la barbacoa del vecino.
+X-B0500 | El séptimo mandamiento y un boli del trabajo.
+X-B0501 | El octavo mandamiento y mi excusa para el jefe.
+X-B0502 | El cuarto mandamiento y una pelea familiar por política.
+X-B0503 | El primer mandamiento y el móvil en la iglesia.
+X-B0504 | El segundo mandamiento y el tío arreglando el coche.
+X-B0505 | El tercer mandamiento y una tienda abierta en domingo.
+X-B0506 | El domingo de compras como fiesta nacional.
+X-B0507 | La prohibición de abrir en domingo, esquivada por el tío vendiendo huevos.
+X-B0508 | Una gasolinera como única tienda abierta en domingo.
+X-B0509 | Un perrito caliente de gasolinera como comida del domingo.
+X-B0510 | Una resaca moral después de confesarse.
+X-B0511 | Remordimientos después de repetir por tercera vez.
+X-B0512 | Los remordimientos que el tío no tiene.
+X-B0513 | La conciencia como una app que nunca actualicé.
+X-B0514 | Mi ángel de la guarda, que se rindió.
+X-B0515 | El diablillo en mi hombro, que tiene razón.
+X-B0516 | Un infierno donde suenan villancicos en versión verbena.
+X-B0517 | El purgatorio como la lista de espera de la sanidad pública.
+X-B0518 | Un paraíso con un solo mando de la tele.
+X-B0519 | El Juicio Final con abogado de oficio.
+X-B0520 | El fin del mundo aplazado hasta después de las elecciones.
+X-B0521 | Un tío que ha sobrevivido a tres fines del mundo.
+X-B0522 | Una abuela con línea directa con Dios.
+X-B0523 | Un Dios con el móvil apagado.
+X-B0524 | Una oración para que el cura acorte el sermón.
+X-B0525 | Una oración para que toque la lotería.
+X-B0526 | Una oración para que no venga la suegra.
+X-B0527 | Una oración para que se acaben las quejas en el país.
+X-B0528 | Un milagro, o sea, un tren puntual.
+X-B0529 | Un milagro, o sea, un médico sin cola.
+X-B0530 | Un milagro, o sea, un diputado que cumplió una promesa.
+X-B0531 | Un milagro, o sea, una Nochebuena familiar sin peleas.
+X-B0532 | Un milagro, o sea, papá diciéndonos «te quiero, hijo» a mí y a mi marido.
+X-B0533 | Una aparición de la cara de un líder del partido en una crepe.
+X-B0534 | Una estampita en la cartera junto a un preservativo.
+X-B0535 | Preservativos que la abuela encontró en mi mochila.
+X-B0536 | Explicarle a la abuela para qué quiero preservativos si no tengo novia.
+X-B0537 | Una abuela que dijo «al menos no habrá nietos por ese lado».
+X-B0538 | No tener nietos como la mayor tragedia familiar.
+X-B0539 | Adoptar un gato como sustituto de los nietos.
+X-B0540 | Nietos en forma de tres perros.
+X-B0541 | Perros en la foto familiar de Navidad.
+X-B0542 | Una familia que por fin aceptó a mi marido porque sabe arreglar un grifo.
+X-B0543 | Un marido que es el yerno favorito de mamá.
+X-B0544 | Un marido que se lleva mejor con mi padre que yo.
+X-B0545 | Un suegro enseñándole su garaje a mi marido.
+X-B0546 | El garaje como lugar de amistad masculina por encima de todo.
+X-B0547 | El vodka como herramienta de reconciliación nacional.
+X-B0548 | Un brindis «por la tolerancia» del tío tras media botella.
+X-B0549 | Un tío que confiesa tras media botella que también besó a un compañero en la mili.
+X-B0550 | La mili, donde pasaban cosas.
+X-B0551 | El compañero de la mili del abuelo del que no se habla.
+X-B0552 | Una tía que vive «con una amiga» desde hace 40 años.
+X-B0553 | La amiga de la tía, que está en todas las Nochebuenas.
+X-B0554 | Un secreto familiar que ya no es secreto.
+X-B0555 | Una familia en la que uno de cada tres es «diferente».
+X-B0556 | Yo como la persona menos polémica de la mesa.
+X-B0557 | El cura en la mesa como la persona más polémica.
+X-B0558 | El político en la mesa como la persona que peor cae.
+X-B0559 | La suegra en la mesa como jefa de todo.
+X-B0560 | El gato en la mesa como único periodista independiente.
+X-B0561 | El país en versión demo.
+X-B0562 | Un Estado de cartón.
+X-B0563 | Un Estado teórico.
+X-B0564 | Una reforma fiscal en versión beta.
+X-B0565 | Una reforma después de la cual todo va peor.
+X-B0566 | Una reforma de la reforma.
+X-B0567 | Un programa del gobierno con un nombre más largo que sus resultados.
+X-B0568 | Un logo nuevo del ministerio por un cuarto de millón.
+X-B0569 | Una web del gobierno que no funciona en Chrome.
+X-B0570 | Una app del gobierno que no se puede instalar.
+X-B0571 | Una identidad digital de confianza en la que nadie confía.
+X-B0572 | Una cola en la oficina pública con el número 247.
+X-B0573 | Una funcionaria en su descanso de 9 a 15.
+X-B0574 | Un sello como el documento más importante del país.
+X-B0575 | Un certificado de que tienes un certificado.
+X-B0576 | Una fotocopia del DNI para cada oficina.
+X-B0577 | Un formulario por triplicado.
+X-B0578 | Una solicitud rechazada por el color del boli.
+X-B0579 | La señora de la ventanilla que sabe quién soy.
+X-B0580 | Arreglar papeles a través de un conocido del cuñado.
+X-B0581 | Un regalo para el médico en un sobre que pone «gracias».
+X-B0582 | Una caja de bombones como moneda en el hospital.
+X-B0583 | Coñac para el director del colegio.
+X-B0584 | Flores para la señora de Hacienda.
+X-B0585 | Vodka para el mecánico.
+X-B0586 | Embutido para el electricista.
+X-B0587 | Un bizcocho para el vecino para que no llame a la policía.
+X-B0588 | La hospitalidad polaca con repetición obligatoria.
+X-B0589 | El orgullo nacional después de ganar un partido.
+X-B0590 | La depresión nacional después de perder un partido.
+X-B0591 | Una selección que lleva 20 años jugando por el honor.
+X-B0592 | Un aficionado que sabe más que el entrenador.
+X-B0593 | Un aficionado que llora con el himno.
+X-B0594 | El salto de esquí como religión de invierno.
+X-B0595 | El voleibol como la última esperanza de la nación.
+X-B0596 | Un conductor local en una zona residencial.
+X-B0597 | Un conductor local en el carril izquierdo.
+X-B0598 | Un conductor con bigote y un rosario en el retrovisor.
+X-B0599 | Un rosario en el retrovisor y un radar.
+X-B0600 | Un ambientador de pino y una figurita de San Cristóbal.

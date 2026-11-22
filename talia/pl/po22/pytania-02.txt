@@ -1,0 +1,110 @@
+# OFFLIMITS – PYTANIA (czarne karty) · Po 22:00 (pikantniejsze) · język: pl · paczka 02 (karty 101–200 z 501)
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - N-C001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Luka do uzupełnienia to cztery podkreślniki: ____ . Pytanie bez luki = odpowiedź na końcu.
+#  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+N-C101 | Polska majówka: ____, ____ i ból głowy.
+N-C102 | Co jest w tajemniczym przelewie z opisem „za wczoraj”?
+N-C103 | Słowo, które najlepiej opisuje moje lata dwudzieste: ____.
+N-C104 | Co się stało w Pradze?
+N-C105 | Najgorszy prezent od byłej to ____.
+N-C106 | Co ukrywam przed księgową?
+N-C107 | Najczęstsze kłamstwo na Tinderze: ____.
+N-C108 | Moja słabość to ____.
+N-C109 | Co mi zostało po weselu kuzyna?
+N-C110 | Największy sukces mojego życia zawodowego: ____.
+N-C111 | Prawdziwy powód, dla którego kupiłem psa: ____.
+N-C112 | Co mówię, kiedy dzwoni windykator?
+N-C113 | Romantyczna kolacja. Danie główne: ____. Niespodzianka: ____.
+N-C114 | Moja metoda na oszczędzanie: ____.
+N-C115 | Co znajduje się na dnie damskiej torebki po imprezie?
+N-C116 | Najbardziej przereklamowana rzecz w dorosłym życiu to ____.
+N-C117 | Czego nie mówimy przy dzieciach?
+N-C118 | Najlepsza puenta wieczoru panieńskiego: ____.
+N-C119 | Co mówi teściowa o moim gotowaniu?
+N-C120 | Mój plan na emeryturę: ____.
+N-C121 | Co sprawia, że jestem gotów rzucić pracę?
+N-C122 | Prawdziwy cel wyjazdu do spa: ____.
+N-C123 | Temat mojej najbardziej żenującej wiadomości o 3 w nocy: ____.
+N-C124 | Co naprawdę znaczy „muszę to przemyśleć”?
+N-C125 | Najgorszy moment na odkrycie, że skończył się papier toaletowy, to ____.
+N-C126 | Moje życie po trzydziestce w jednym obrazku: ____.
+N-C127 | Co robię, gdy partner mówi „nic się nie stało”?
+N-C128 | Najlepszy sposób na zerwanie: ____.
+N-C129 | Czego się nauczyłem z randek w internecie?
+N-C130 | Najdziwniejszy powód kłótni w moim związku: ____.
+N-C131 | Moja recenzja ostatniego związku: ____.
+N-C132 | Co zabrałbym ze sobą na bezludną wyspę zamiast partnera?
+N-C133 | Ulubiony sport narodowy Polaków po 30.: ____.
+N-C134 | Co mówi kurier, kiedy dzwoni domofonem o 7 rano?
+N-C135 | Najgorsze, co może się stać na rozmowie kwalifikacyjnej, to ____.
+N-C136 | Dwie prawdy o mnie: ____ i ____.
+N-C137 | Co naprawdę jest w moim kubku w pracy?
+N-C138 | Najlepsza odpowiedź na pytanie „co tam u ciebie?”: ____.
+N-C139 | Najgorszy sposób na poznanie teściów: ____.
+N-C140 | Co ma w portfelu typowy Polak przed wypłatą?
+N-C141 | Główny powód nocnego podjadania: ____.
+N-C142 | Moja metoda na stres: ____.
+N-C143 | Prawdziwy powód, dla którego przyszedłem na tę imprezę: ____.
+N-C144 | Co mówię, kiedy nie pamiętam czyjegoś imienia?
+N-C145 | Najbardziej romantyczne miejsce w moim mieście to ____.
+N-C146 | Najgorsza wiadomość od banku to ____.
+N-C147 | Mój związek to połączenie ____ i ____.
+N-C148 | Czego nie powinien wiedzieć szef?
+N-C149 | Najczęstsza przyczyna kłótni w samochodzie: ____.
+N-C150 | Co mówię, kiedy ktoś pokazuje mi zdjęcia swojego dziecka?
+N-C151 | Najlepsze, co może przynieść poniedziałek: ____.
+N-C152 | Co sprawia, że żałuję, że zostałem dorosłym?
+N-C153 | Mój prawdziwy talent: ____.
+N-C154 | Ulubiona zabawa na nudnym weselu: ____.
+N-C155 | Co robi księgowa po godzinach?
+N-C156 | Najlepsze, co wymyślił człowiek po trzydziestce: ____.
+N-C157 | Nowy sport olimpijski dla zmęczonych rodziców: ____.
+N-C158 | Co jest w schowku samochodu, którego nikt nie otwiera?
+N-C159 | Moje dwa największe nałogi: ____ i ____.
+N-C160 | Co mówią sąsiedzi po naszej imprezie?
+N-C161 | Najgorszy komplement w historii: ____.
+N-C162 | Najlepsza rada przed ślubem: ____.
+N-C163 | Czego nikt ci nie powie przed przeprowadzką z partnerem?
+N-C164 | Prawdziwy koszt wesela: ____.
+N-C165 | Moja reakcja na „będziesz miał rodzeństwo”: ____.
+N-C166 | Co znaczy „tylko jedno piwo”?
+N-C167 | Na wieczorze kawalerskim zginął ____.
+N-C168 | Mój największy życiowy przeciwnik to ____.
+N-C169 | Co mówię, kiedy dostaję mandat?
+N-C170 | Nowy dział w sklepie meblowym: ____.
+N-C171 | Kalendarz dorosłego. Poniedziałek: ____. Weekend: ____.
+N-C172 | Co znaleźliśmy w szafie po rozwodzie?
+N-C173 | Najlepsza rzecz w byciu singlem to ____.
+N-C174 | Najgorsza rzecz w byciu singlem to ____.
+N-C175 | Co mówi kumpel o mojej nowej dziewczynie?
+N-C176 | Co mówi przyjaciółka o moim nowym chłopaku?
+N-C177 | Prawdziwy powód, dla którego sąsiad kupił kabriolet: ____.
+N-C178 | Co robię w niedzielę o 15:00?
+N-C179 | Rzecz, której nie odda mi już żaden kumpel: ____.
+N-C180 | Mój plan awaryjny na życie: ____.
+N-C181 | Najgorsze, co można zrobić na stypie: ____.
+N-C182 | Co mówię po pierwszym łyku poniedziałkowej kawy?
+N-C183 | Mój dom w skrócie: w kuchni ____, w sypialni ____.
+N-C184 | Czego nie mówi się na pierwszej randce?
+N-C185 | Najlepsza wymówka na spóźnienie do pracy: ____.
+N-C186 | Co znaczy „przyjdę z osobą towarzyszącą”?
+N-C187 | Prawdziwy cel wyjazdu na ryby: ____.
+N-C188 | Co robią dziewczyny w toalecie w grupie?
+N-C189 | Co robią faceci w garażu?
+N-C190 | Najczęstszy prezent na czterdziestkę: ____.
+N-C191 | Najlepszy opis mojego stylu życia: ____.
+N-C192 | Moja reakcja na widok wagi rano: ____.
+N-C193 | Co jest groźniejsze niż zła teściowa?
+N-C194 | Rzecz, którą dorośli robią, ale nikt się nie przyznaje: ____.
+N-C195 | Moja sobota. Plan: siłownia i ____. Rzeczywistość: kanapa i ____.
+N-C196 | Co robię, kiedy szef dzwoni w urlop?
+N-C197 | Najbardziej nieodpowiedni moment na śmiech: ____.
+N-C198 | Co mówię mamie o swojej pensji?
+N-C199 | Prawdziwy powód, dla którego biorę wolne w piątek: ____.
+N-C200 | Najlepsza decyzja po drugim winie: ____.
