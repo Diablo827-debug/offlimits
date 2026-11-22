@@ -3,6 +3,8 @@ on: workflow_dispatch
 jobs:
   test:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Próbki
         run: |
@@ -16,6 +18,15 @@ jobs:
           q 4-zwyciezca pl-PL-Chirp3-HD-Aoede "Punkt dla Kamila!" w
           q 5-babcia pl-PL-Chirp3-HD-Gacrux "Babcia założy okulary… o, jest pytanie! Kto nie słucha, nie dostanie kompotu." hg
           q 6-babcia-odp pl-PL-Chirp3-HD-Gacrux "Najgorszy prezent pod choinkę to ⟦teściowa w białej sukience⟧." a
+          q 7-babcia-pytanie pl-PL-Chirp3-HD-Gacrux "Co babcia trzyma w szafie na czarną godzinę?" q
+          q 8-babcia-zwyciezca pl-PL-Chirp3-HD-Gacrux "Punkt dla Kamila! Masz u babci dodatkową porcję ciasta." w
+          q 9-babcia-sarkazm pl-PL-Chirp3-HD-Gacrux "Oj, Kamil, takie zdolne dziecko, a takie bezeceństwa pisze." hs
+          q 10-babcia-zlosliwa pl-PL-Chirp3-HD-Gacrux "Marta, wybierz. Babcia i tak wie, kto co napisał." hc
           curl -s -H "$O" -G "$B" --data-urlencode "v=pl-PL-Chirp3-HD-Gacrux" --data-urlencode "t=Test numer $(date +%s)" --data-urlencode "m=q" --data-urlencode "dbg=gm"; echo
+      - name: Próbki na gałąź probki
+        continue-on-error: true
+        run: |
+          cd out && git init -q -b probki && git add . && git -c user.name=gha -c user.email=gha@x commit -qm probki
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" probki
       - uses: actions/upload-artifact@v4
         with: { name: probki-lektora, path: out }
