@@ -70,8 +70,9 @@ export function ttsUrl(text, voice, lang, mood) {
     + (mood ? '&m=' + mood : '');
 }
 // Rozgrzewa pamięć podręczną, żeby lektor nie czekał na nagranie.
+// Po kolei (nie wszystkie naraz) – zbyt wiele zapytań jednocześnie ElevenLabs odrzuca i wtedy zmieniał się głos.
 export function prefetchSpeech(texts, voice, lang, mood) {
-  texts.forEach((t) => { try { fetch(ttsUrl(t, voice, lang, mood)).catch(() => {}); } catch (e) { /* nic */ } });
+  texts.reduce((p, t) => p.then(() => fetch(ttsUrl(t, voice, lang, mood)).then((r) => r.arrayBuffer()).catch(() => {})), Promise.resolve());
 }
 
 // Głośność lektora na żywo (0–1) – avatar 3D rusza ustami i głową w rytm mowy.
@@ -143,7 +144,10 @@ async function speakNow(text, opts) {
     if (enabled && opts && opts.cloud !== false && typeof Audio !== 'undefined') {
       const started = Date.now();
       try {
-        await playCloud(text, opts.voice, opts.lang, opts.mood);
+        try { await playCloud(text, opts.voice, opts.lang, opts.mood); } catch (e1) {
+          // druga próba tym samym głosem, zanim przełączymy na głos przeglądarki
+          await playCloud(text, opts.voice, opts.lang, opts.mood);
+        }
         const left = 900 - (Date.now() - started);
         if (left > 0) await new Promise((r) => setTimeout(r, left));
         return;

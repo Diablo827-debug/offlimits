@@ -14,10 +14,10 @@ const ANIMS = {
   talk: ['talk_full', 'Talk_with_Hands_Open', 'Talk_Passionately', 'Talk_with_Left_Hand_on_Hip'],
   read: ['read'],
   laugh: ['laugh_full'],
-  shocked: ['surprised', 'Mummy_Stagger'],
+  shocked: ['surprised'],
   happy: ['Victory_Cheer', 'Motivational_Cheer'],
   smug: ['sarcastic', 'Hand_on_Hip_Gesture', 'Finger_Wag_No'],
-  bored: ['yawn', 'Confused_Scratch', 'Look_Around_Dumbfounded'],
+  bored: ['yawn', 'Confused_Scratch'],
   wave: ['Big_Wave_Hello'],
   bow: ['Formal_Bow'],
   dance: ['FunnyDancing_01'],
@@ -329,7 +329,7 @@ export default function Avatar3D({ url, room }) {
           });
         }
         if (!hips && o.isBone && /Hips$/.test(o.name)) hips = o;
-        if (!headBone && o.isBone && /(^|[^a-z])Head$/i.test(o.name)) headBone = o;
+        if (!headBone && o.isBone && /Head$/.test(o.name) && !/Top/.test(o.name)) headBone = o;
         if (o.isBone && /Neck$/.test(o.name)) bones.neck = o;
         if (o.isBone && /Spine2$/.test(o.name)) bones.chest = o;
         if (o.isBone && /Spine$/.test(o.name)) bones.spine = o;
@@ -419,7 +419,7 @@ export default function Avatar3D({ url, room }) {
       if (model && walk) {
         const c = current && clips[current.name];
         // prędkość przesuwu = dokładnie prędkość kroku z animacji (× tempo) – stopy nie ślizgają się
-        const WALK_TEMPO = 1.7;
+        const WALK_TEMPO = 1.4;
         if (current && current.state === 'walk') current.action.timeScale = WALK_TEMPO;
         const speed = Math.abs((c && c.drift) || 0.1) * hipsScale * WALK_TEMPO;
         const dx = walk.to.x - model.position.x;
@@ -455,14 +455,14 @@ export default function Avatar3D({ url, room }) {
       const t = simT;
       const calm = current && /^(idle|sit|sitRead|read|sitBored|walk)$/.test(current.state) ? 1 : 0.35;
       const br = Math.sin(t * 1.7);
-      if (bones.chest) bones.chest.rotation.x += br * 0.018;
-      if (bones.spine) bones.spine.rotation.z += Math.sin(t * 0.43) * 0.012 * calm;
+      if (bones.chest) bones.chest.rotation.x += br * 0.01;
+      if (bones.spine) bones.spine.rotation.z += Math.sin(t * 0.43) * 0.005 * calm;
       if (bones.lSh) bones.lSh.rotation.z += br * 0.012;
       if (bones.rSh) bones.rSh.rotation.z -= br * 0.012;
       lookT -= dt;
       if (lookT <= 0) {
         lookT = 1.6 + Math.random() * 3.2;
-        lookTarget = Math.random() < 0.35 ? [0, 0] : [(Math.random() - 0.5) * 0.55, (Math.random() - 0.4) * 0.18];
+        lookTarget = Math.random() < 0.4 ? [0, 0] : [(Math.random() - 0.5) * 0.3, (Math.random() - 0.4) * 0.1];
       }
       const ease = Math.min(1, dt * 2.4);
       lookYaw += (lookTarget[0] - lookYaw) * ease;
@@ -471,13 +471,13 @@ export default function Avatar3D({ url, room }) {
       if (headBone) {
         headBone.rotation.y += lookYaw * 0.6 * calm;
         headBone.rotation.x += lookPitch * 0.6 * calm;
-        headBone.rotation.z += Math.sin(t * 0.7) * 0.025 * calm;
+        headBone.rotation.z += Math.sin(t * 0.7) * 0.012 * calm;
       }
       // mowa: głowa w rytm lektora (model nie ma kształtów ust – mówi całym ciałem i głową)
       const lvl = speechLevel();
       if (headBone && lvl > 0.02) {
-        headBone.rotation.x += Math.sin(t * 9) * lvl * 0.07;
-        headBone.rotation.z += Math.sin(t * 4.3) * lvl * 0.05;
+        headBone.rotation.x += Math.sin(t * 5) * lvl * 0.04;
+        headBone.rotation.z += Math.sin(t * 3.1) * lvl * 0.025;
       }
       renderer.render(scene, camera);
     };

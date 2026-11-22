@@ -60,13 +60,20 @@ async function eleven(env, voice, text, mood) {
   // Najpierw głos dla danego języka (np. polski lektor z Voice Library), potem domyślny.
   const id = (PL_VOICES[loc] && PL_VOICES[loc][short]) || (map[loc] && map[loc][short]) || map[short];
   if (!id) return null;
-  const r = await fetch('https://api.elevenlabs.io/v1/text-to-speech/' + id + '?output_format=mp3_44100_128', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'xi-api-key': env.ELEVENLABS_API_KEY },
-    body: JSON.stringify({ text: direct(text, mood), model_id: env.ELEVEN_MODEL || 'eleven_v4', voice_settings: { stability: 0.0, similarity_boost: 0.7 } }),
-  });
-  if (!r.ok) { lastElevenError = r.status + ' ' + (await r.text()).slice(0, 500); return null; }
-  return new Uint8Array(await r.arrayBuffer());
+  // Przy zbyt wielu zapytaniach naraz (429) lub chwilowej awarii (5xx) próbujemy ponownie,
+  // zamiast od razu przełączać na inny głos – babcia ma mówić zawsze swoim głosem.
+  for (let attempt = 0; attempt < 4; attempt++) {
+    const r = await fetch('https://api.elevenlabs.io/v1/text-to-speech/' + id + '?output_format=mp3_44100_128', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'xi-api-key': env.ELEVENLABS_API_KEY },
+      body: JSON.stringify({ text: direct(text, mood), model_id: env.ELEVEN_MODEL || 'eleven_v4', voice_settings: { stability: 0.0, similarity_boost: 0.7 } }),
+    });
+    if (r.ok) return new Uint8Array(await r.arrayBuffer());
+    lastElevenError = r.status + ' ' + (await r.text()).slice(0, 500);
+    if (r.status !== 429 && r.status < 500) return null;
+    await new Promise((res) => setTimeout(res, 800 * (attempt + 1)));
+  }
+  return null;
 }
 let lastElevenError = '';
 
@@ -133,6 +140,10 @@ export async function onRequestGet({ request, env, waitUntil }) {
   const mood = /^([qaws]|h[gasbc])$/.test(url.searchParams.get('m') || '') ? url.searchParams.get('m') : '';
   const cache = caches.default;
   const headers = { 'Content-Type': 'audio/mpeg', 'Cache-Control': 'public, max-age=31536000' };
+  // Głos zastępczy (gdy ElevenLabs chwilowo nie odpowiedział) nie może zostać w pamięci przeglądarki –
+  // inaczej ten tekst już zawsze brzmiałby innym głosem.
+  const elOn = !!(env && env.ELEVENLABS_API_KEY);
+  const fallback = (res) => (elOn ? new Response(res.body, { status: res.status, headers: { 'Content-Type': 'audio/mpeg', 'Cache-Control': 'no-store', 'X-Lektor': res.headers.get('X-Lektor') || 'zastepczy' } }) : res);
 
   // Diagnostyka (bez ujawniania klucza): ?dbg=el
   if (url.searchParams.get('dbg') === 'el') {
@@ -158,14 +169,14 @@ export async function onRequestGet({ request, env, waitUntil }) {
   // Gemini-TTS: ten sam klucz Google, a styl ustawiamy zwykłym poleceniem.
   if (!(env && env.GEMINI_TTS === 'off')) {
     const gKey = new Request('https://tts.cache/gm/' + encodeURIComponent(voice) + '/' + mood + '/' + encodeURIComponent(text));
-    const gHit = await cache.match(gKey);
+    const gHit = elOn ? null : await cache.match(gKey);
     if (gHit) return gHit;
     try {
       const bin = await gemini(voice, text, mood);
       if (bin && bin.length > 1000) {
         const res = new Response(bin, { headers: Object.assign({ 'X-Lektor': 'gemini' }, headers) });
-        waitUntil(cache.put(gKey, res.clone()));
-        return res;
+        if (!elOn) waitUntil(cache.put(gKey, res.clone()));
+        return fallback(res);
       }
     } catch (e) { /* zostaje zwykły głos Google */ }
   }
@@ -174,7 +185,7 @@ export async function onRequestGet({ request, env, waitUntil }) {
   const plain = text.replace(/[⟦⟧]/g, '');
   const cacheKey = new Request('https://tts.cache/' + encodeURIComponent(voice) + '/' + encodeURIComponent(plain));
   const hit = await cache.match(cacheKey);
-  if (hit) return hit;
+  if (hit) return fallback(hit);
 
   const r = await fetch('https://texttospeech.googleapis.com/v1/text:synthesize?key=' + KEY, {
     method: 'POST',
@@ -186,5 +197,5 @@ export async function onRequestGet({ request, env, waitUntil }) {
   const bin = Uint8Array.from(atob(j.audioContent), (c) => c.charCodeAt(0));
   const res = new Response(bin, { headers: Object.assign({ 'X-Lektor': 'chirp' }, headers) });
   waitUntil(cache.put(cacheKey, res.clone()));
-  return res;
+  return fallback(res);
 }

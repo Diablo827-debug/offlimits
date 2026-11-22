@@ -64,6 +64,19 @@ if (fs.existsSync(bazaP)) {
   const txt = (v) => (Array.isArray(v) ? v[0] : v);
   for (const id of Object.keys(o.f || {})) if (pl[id] === undefined || txt(pl[id]) !== baza[id]) { delete o.f[id]; dropped++; }
   for (const id of Object.keys(o.c || {})) if (pl[id] === undefined || txt(pl[id]) !== baza[id]) { delete o.c[id]; dropped++; }
+  // Ręczne poprawki nazw własnych (tools/odmiana/poprawki.json): "=" – nieodmienne, albo [D, C, B, N, Ms].
+  const popP = new URL('../tools/odmiana/poprawki.json', import.meta.url);
+  if (fs.existsSync(popP)) {
+    const pop = JSON.parse(fs.readFileSync(popP, 'utf8'));
+    o.w = o.w || [];
+    for (const [id, v] of Object.entries(pop)) {
+      if (pl[id] === undefined) continue;
+      const base = txt(pl[id]);
+      const [g, d, a, i, l] = v === '=' ? [base, base, base, base, base] : v;
+      o.f[id] = { g, d, a, i, l };
+      if (!o.w.includes(id)) o.w.push(id);
+    }
+  }
   fs.writeFileSync(pub('odmiana.json'), JSON.stringify(o));
   if (dropped) console.log('talia: odmiana usunięta dla zmienionych kart:', dropped);
 }
