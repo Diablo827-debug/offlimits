@@ -1,0 +1,565 @@
+02446	2	______ is a slippery slope that leads to ______.
+00002	1	______ is back! Only at McDonald's.
+00005	2	______ would be woefully incomplete without ______.
+02447	1	______: good to the last drop.
+02448	1	______: kid tested, mother approved.
+02449	1	______: kid-tested, mother-approved.
+02450	1	______: Mwah. [A render of a chef doing a chef's kiss]
+02451	1	______? Jim'll fix it!
+02452	1	______? There's an app for that.
+02453	1	______? Yeah, nah.
+00008	1	______. Awesome in theory, kind of a mess in practice.
+02454	1	______. Betcha can't have just one!
+02455	1	______. High five, bro.
+02456	1	______. It's a trap!
+02457	1	______. Once you pop, the fun don't stop!
+02458	1	______. That was so metal.
+02459	1	______. That's how I want to die.
+02460	1	______. That's why mums go to Iceland.
+06020	1	★✰✰✰✰ Do NOT go here! Found ______ in my chicken curry!
+02461	1	★✰✰✰✰ Do NOT go here! Found ______ in my fettuccine alfredo!
+02462	1	★✰✰✰✰ Do NOT go here! Found ______ in my Kung Pao chicken!
+02463	1	★✰✰✰✰ Do NOT go here! Found ______ in my spag bol!
+05697	1	★✰✰✰✰ Do NOT go here! Found ______ in my spaghetti bolognese!
+06745	1	★✰✰✰✰ Do NOT go here! Found ______ in my tikka masala!
+02464	1	50% of all marriages end in ______.
+02465	1	A recent laboratory study shows that undergraduates have 50% less sex after being exposed to ______.
+00012	1	A remarkable new study has shown that chimps have evolved their own primitive version of ______.
+02466	1	A romantic candlelit dinner would be incomplete without ______.
+02467	1	A romantic, candlelit dinner would be incomplete without ______.
+00013	1	A successful job interview begins with a firm handshake and ends with ______.
+02468	2	ABC presents "______: The Story of ______."
+02469	1	After eight years in the White House, how is Obama finally letting loose?
+02470	1	After four platinum albums and three Grammys, it's time to get back to my roots, to what inspired me to make music in the first place: ______.
+	1	After Hurricane Katrina, Sean Penn brought ______ to all the people of New Orleans.
+02472	1	After Hurricane Katrina, Sean Penn brought ______ to the people of New Orleans.
+00017	2	After months of practice with ______, I think I'm finally ready for ______.
+02473	1	After the earthquake, Sean Penn brought ______ to the people of Haiti.
+02474	1	Air Canada guidelines now prohibit ______ on airplanes.
+02475	1	Airport security guidelines now prohibit ______ on airplanes.
+02476	1	Alternative medicine is now embracing the curative powers of ______.
+02477	2	And the Academy Award for ______ goes to ______.
+02478	2	And the BAFTA for ______ goes to ______.
+00026	1	And today's soup is Cream of ______.
+00027	1	And what did you bring for show and tell?
+02479	1	Anthropologists have recently discovered a primitive tribe that worships ______.
+02480	1	Arby's: We Have ______.
+02481	1	Are you thinking what I'm thinking, B1? I think I am, B2: it's ______ time!
+00032	1	As king, how will I keep the peasants in line?
+02482	1	As my New Year's resolution, I vow to give up ______.
+00035	1	As reparations for slavery, all African Americans will receive ______.
+02483	1	As the mom of five rambunctious boys, I'm no stranger to ______.
+02484	1	As the mum of five rambunctious boys, I'm no stranger to ______.
+06746	1	Attention Sainsbury's shoppers. Unfortunately, we will be closing early due to ______.
+00038	1	Attention Target shoppers. Unfortunately, we will be closing early due to ______.
+00445	1	Attention Walmart shoppers. Unfortunately, we will be closing early due to ______.
+02485	1	Betcha can't have just one!
+02486	1	BILLY MAYS HERE FOR ______.
+00046	1	Bitch, you're nasty. You're disgusting. You're ______. Go home, bitch.
+05710	1	Bloody hell! My video of ______ has ten million views!
+02487	1	Bravo's new reality show features eight washed-up celebrities living with ______.
+02488	1	Brought to you by Bud Light®, the Official Beer of ______.
+02489	1	Brought to you by Molson Canadian, the Official Beer of ______.
+02490	1	Brought to you by XXXX Gold, the Official Beer of ______.
+02491	1	But before I kill you, Mr. Bond, I must show you ______.
+02492	2	CBC presents "______: the Story of ______."
+06054	2	Channel 4 presents ______, the story of ______.
+02493	2	Channel 4 presents "______: the Story of ______."
+02494	1	Channel 5's new reality show features eight washed-up celebrities living with ______.
+02495	1	Channel 9 is pleased to present its new variety show, "Hey Hey It's ______."
+00051	1	Charades was ruined for me forever when my mom had to act out ______.
+02496	1	Check me out, yo! I call this dance move "______."
+02497	1	Click Here for ______!!!
+02498	1	Coming this season, Samuel Beckett's classic existential play: Waiting for ______.
+02499	1	Coming to Broadway this season, ______: The Musical.
+06747	1	Coming to Nando's this month, ______.
+02500	1	Coming to the West End this year, ______: The Musical.
+02501	1	Crikey! I've never seen ______ like this before! Let's get a bit closer.
+02502	2	CTV presents ______, the story of ______.
+02503	2	CTV presents "______: the Story of ______."
+02504	1	Daddy, why is mommy crying?
+02505	1	Daddy, why is mummy crying?
+02506	1	Dear Abby, I'm having some trouble with ______ and would like your advice.
+02507	1	Dear Agony Aunt, I'm having some trouble with ______ and would like your advice.
+00061	2	Dear Sir or Madam, We regret to inform you that the Office of ______ has denied your request for ______.
+02508	1	Designers! For this week's challenge, you must make a dress designed for ______.
+00066	1	Doctor, you've gone too far! The human body wasn't meant to withstand that amount of ______!
+00067	1	Don't forget! Beginning this week, Casual Friday will officially become "______ Friday."
+00446	1	Drake can't cum without ______.
+02509	1	Dude, do not go in that bathroom. There's ______ in there.
+02510	1	Dude, do not go in that washroom. There's ______ in there.
+02511	2	Dudes. I just found out that ______ is ______.
+02512	1	Due to a PR fiasco, Walmart no longer offers ______.
+00069	1	During high school, I never really fit in until I found ______ club.
+02513	1	During his childhood, Salvador Dalí produced hundreds of paintings of ______.
+00070	1	During his midlife crisis, my dad got really into ______.
+02514	1	During Picasso's often-overlooked Brown Period, he produced hundreds of paintings of ______.
+06748	1	During school, I never really fit in until I found ______ club.
+02515	1	During sex, I like to think about ______.
+00079	1	Finally! A service that delivers ______ right to your door.
+02516	2	For my next trick, I will pull ______ out of ______.
+02517	1	Fun tip! When your man asks you to go down on him, try surprising him with ______ instead.
+00084	1	Future historians will agree that ______ marked the beginning of America's decline.
+06749	1	Future historians will agree that ______ marked the beginning of Britian's decline.
+02518	2	Guys. I just found out that ______ is ______.
+00092	2	Having problems with ______? Try ______!
+02519	1	Here is the church Here is the steeple Open the doors And there is ______.
+06659	1	Hey gang! Get ready with me while I tell you all about ______.
+02520	1	Hey guys, welcome to Boston Pizza! Would you like to start the night off right with ______?
+02521	1	Hey guys, welcome to Chili's! Would you like to start the night off right with ______?
+02522	1	Hey guys, welcome to Hog's Breath Cafe! Would you like to start the night off right with ______?
+02523	1	Hey guys, welcome to Sizzler! Would you like to start the night off right with ______?
+02524	1	Hey guys, welcome to TGI Fridays! Would you like to start the night off right with ______?
+02525	1	Hey guys, welcome to TGIF! Would you like to start the night off right with ______?
+02526	1	Hey Reddit! I'm ______. Ask me anything.
+02527	1	Holy shit! My video of ______ has ten million views!
+02528	1	How am I maintaining my relationship status?
+02529	1	How did I lose my virginity?
+05986	1	Howdy, neighbor! Couldn't help but notice you struggling with ______. Need a hand?
+02530	1	Howdy, neighbor! I couldn't help but notice you struggling with ______. Need a hand?
+00447	1	Howdy, neighbour! Couldn't help but notice you struggling with ______. Need a hand?
+02531	1	Hulu's new reality show features twelve hot singles living with ______.
+02532	1	I do not know with what weapons World War III will be fought, but World War IV will be fought with ______.
+02533	1	I drink to forget ______.
+02534	1	I get by with a little help from ______.
+02535	1	I got 99 problems but ______ ain't one.
+02536	1	I know when that hotline bling, that can only mean one thing: ______.
+00122	1	I learned the hard way that you can't cheer up a grieving friend with ______.
+02537	2	I never truly understood ______ until I encountered ______.
+00127	2	I spent my whole life working toward ______, only to have it ruined by ______.
+02538	1	I wish I hadn't lost the instruction manual for ______.
+02539	1	I'm going on a cleanse this week. Nothing but kale juice and ______.
+02540	1	I'm Lebron James, and when I'm not slamming dunks, I love ______.
+02541	1	I'm no doctor, but I'm pretty sure what you're suffering from is called "______."
+00146	1	I'm not like the rest of you. I'm too rich and busy for ______.
+05948	1	I'm sorry, Mrs. Brown, but I couldn't complete my homework because of ______.
+02542	1	I'm sorry, Professor, but I couldn't complete my homework because of ______.
+02543	1	I'm sorry, Sir, but I couldn't complete my homework because of ______.
+00141	1	I'm sorry, sir, but we don't allow ______ at the country club.
+06750	1	I'm sorry, sir, but we don't allow ______ at the cricket club.
+02544	1	I'm Tony Robbins, and over the next sixty minutes I'm going to teach you how to harness the power of ______!
+00149	1	If at first you don't succeed, try ______.
+02545	1	If you can't be with the one you love, love ______.
+02546	1	IF you like ______, YOU MIGHT BE A REDNECK.
+02547	1	In 1,000 years, when paper money is a distant memory, how will we pay for goods and services?
+02548	1	In 1,000 years, when paper money is but a distant memory, ______ will be our currency.
+02549	1	In a new education initiative, Healthy Harold will teach Australia's youth about ______.
+00450	2	In a world ravaged by ______ our only solace is ______.
+02550	2	In a world ravaged by ______, our only solace is ______.
+02551	1	In an attempt to reach a wider audience, the National Museum of Australia has opened an interactive exhibit on ______.
+02552	1	In an attempt to reach a wider audience, the Royal Ontario Museum has opened an interactive exhibit on ______.
+02553	1	In an attempt to reach a wider audience, the Smithsonian Museum of Natural History has opened an interactive exhibit on ______.
+02554	1	In Australia, ______ is twice as big and twice as deadly.
+02555	1	In Belmarsh Prison, word is you can trade 200 cigarettes for ______.
+02556	1	In her latest feature-length film, Tracy Beaker struggles with ______ for the first time.
+00158	1	In his new self-produced album, Kanye West raps over the sounds of ______.
+02557	2	In his new summer comedy, Rob Schneider is ______ trapped in the body of ______.
+02558	2	In Jordan Peele's new thriller, a young family discovers that ______ had really been ______ all along.
+02559	1	In L.A. County Jail, word is you can trade 200 cigarettes for ______.
+02560	2	In M. Night Shyamalan's new movie, Bruce Willis discovers that ______ had really been ______ all along.
+02561	1	In Michael Jackson's final moments, he thought about ______.
+00165	1	In Rome, there are whisperings that the Vatican has a secret room devoted to ______.
+02562	1	In the new Disney Channel Original Movie, Hannah Montana struggles with ______ for the first time.
+00170	1	In the seventh circle of Hell, sinners must endure ______ for all eternity.
+02563	1	In Wormwood Scrubs, word is you can trade 200 cigarettes for ______.
+02564	1	Instead of coal, Father Christmas now gives the bad children ______.
+02565	1	Instead of coal, Santa now gives the bad children ______.
+02566	2	Introducing the amazing superhero/sidekick duo! It's ______ and ______!
+02567	1	Introducing X-Treme Baseball! It's like baseball, but with ______!
+02569	1	It's a pity that kids these days are all getting involved with ______.
+02568	1	It's a trap!
+06657	1	JD Vance can't cum without ______.
+02570	1	Just once, I'd like to hear you say "Thanks, Mom. Thanks for ______."
+02571	1	Just once, I'd like to hear you say "Thanks, Mum. Thanks for ______."
+02572	1	Just saw this upsetting video! Please retweet!! #stop______
+05952	1	Just saw this upsetting video! Please share!! #stop______
+02573	1	Kids, I don't need drugs to get high. I'm high on ______.
+02574	1	Life for Aboriginal people was forever changed when the white man introduced them to ______.
+02575	1	Life for American Indians was forever changed when the White Man introduced them to ______.
+05711	1	Life on the Subcontinent was forever changed when the British Empire introduced Indians to ______.
+02576	1	Life was difficult for cavemen before ______.
+02577	2	Lifetime® presents ______, the story of ______.
+02578	2	Lifetime® presents "______: the Story of ______."
+06751	1	Listen Karen, you can't just call the cops every time you see a Black person enjoying ______.
+00192	1	Lovin' you is easy 'cause you're ______.
+02579	1	Major League Baseball has banned ______ for giving players an unfair advantage.
+02581	1	Mamma Mia. Here I go again. My my! How can I resist ______?
+00196	1	Man, this is bullshit. Fuck ______.
+02583	1	Mate, do not go in that bathroom. There's ______ in there.
+02585	1	Mate, do not go in that toilet. There's ______ in there.
+02586	1	Maybe she's born with it. Maybe it's ______.
+02587	1	Men's Wearhouse: You're gonna like ______. I guarantee it.
+02588	1	Military historians remember Alexander the Great for his brilliant use of ______ against the Persians.
+02589	1	Mitch McConnell can't cum without ______.
+00205	1	Money can't buy me love, but it can buy me ______.
+05712	1	Mr. and Mrs. Barton, we called you in because we're concerned about Sophie. Are you aware that your daughter is ______?
+02590	1	Mr. and Mrs. Diaz, we called you in because we're concerned about Cynthia. Are you aware that your daughter is ______?
+02591	1	Mr. and Mrs. Parker, we called you in because we're concerned about Willow. Are you aware that your daughter is ______?
+02592	1	MTV's new reality show features eight washed-up celebrities living with ______.
+00208	1	My country, 'tis of thee, sweet land of ______.
+02593	1	My favorite sex position is called "______-style."
+02594	1	My fellow Americans: Before this decade is out, we will have ______ on the moon!
+00214	2	My mom freaked out when she looked at my browser history and found ______.com/______.
+02595	1	My name is Peter Parker. I was bitten by a radioactive spider, and now I'm ______.
+00216	1	My new favorite porn star is Joey "______" McGee.
+00218	2	My plan for world domination begins with ______.
+02596	1	Netflix's new reality show features twelve hot singles living with ______.
+02597	1	Next from J.K. Rowling: Harry Potter and the Chamber of ______.
+05713	1	Next on BBC4, Historian Simon Schama explores the enduring legacy of ______ on British life and culture.
+02599	1	Next on ESPN2: The World Series of ______.
+02600	1	Next on Eurosport: The World Championship of ______.
+02601	1	Next on Nine's Wide World of Sports: The World Championship of ______.
+02602	1	Next on Nine's Wide World of Sports: The World Series of ______.
+02603	1	Next on Sky Sports: The World Championship of ______.
+02604	1	Next on Sky Sports: The World Champsion of ______.
+02605	1	Next on TSN: The World Series of ______.
+02606	1	Next up on Channel 4: Ramsay's ______ Nightmares.
+06752	1	Nigel Farage can't cum without ______.
+06056	1	Nobody expects the Spanish Inquisition! Our chief weapons are fear, surprise, and ______.
+02607	1	Nobody expects the Spanish Inquisition. Our chief weapons are fear, surprise, and ______.
+05953	1	Not to brag, but I've been called the "Picasso of ______."
+02608	1	Now at the National Museum of Australia: an interactive exhibit on ______.
+02609	1	Now at the Natural History Museum: an interactive exhibit on ______.
+02610	1	Now at the Royal Ontario Museum: an interactive exhibit on ______.
+02611	1	Now at the Smithsonian: an interactive exhibit on ______.
+02612	1	O Canada, we stand on guard for ______.
+06658	1	Of course my dog is a service animal! He protects me from ______.
+00230	1	Oh no! Siri, how do I fix ______?
+02613	1	Oh! The good ol' ______ game, is the best game you can name.
+02614	1	Oi! Show us ______!
+02615	1	Old MacDonald had ______. E-I-E-I-O.
+00236	1	Only two things in life are certain: death and ______.
+06655	1	Parents are concerned about a new TikTok craze known as the "______ Challenge."
+00239	1	Parents are concerned about a new YouTube craze known as the "______ Challenge."
+02616	1	Penalty! ______: that's 5 minutes in the box!
+00448	1	Premiering tonight: CTV's new heartfelt family drama, This Is ______.
+02617	1	Premiering tonight: NBC's new heartfelt family drama, This Is ______.
+02618	1	Qantas now prohibits ______ on aeroplanes.
+02619	1	Qantas now prohibits ______ on airplanes.
+06753	1	Reform UK: Putting ______ First!
+06754	1	Rule Britannia! Britannia rules ______.
+02620	2	Rumor has it that Vladimir Putin's favorite delicacy is ______ stuffed with ______.
+05703	2	Rumor has it that Vladimir Putin's favorite dish is ______ stuffed with ______.
+00251	1	Science will never explain ______.
+02621	1	Skidamarink a dink a dink, skidamarink a doo, I love ______.
+02622	1	Sorry everyone, I just ______.
+02623	2	Step 1: ______. Step 2: ______. Step 3: Profit.
+02624	1	Studies show that lab rats navigate mazes 50% faster after being exposed to ______.
+00261	1	Summer lovin', had me a blast. ______, happened so fast.
+02625	1	TFL apologizes for the delay in train service due to ______.
+02626	2	That's right, I killed ______. How, you ask? ______.
+00266	1	The blind date was going horribly until we discovered our shared interest in ______.
+02627	1	The class field trip was completely ruined by ______.
+05714	1	The Daily Mail EXCLUSIVE! Meghan Markle's Secret Battle With ______!
+00269	1	The Five Stages of Grief: denial, anger, bargaining, ______, acceptance.
+00270	1	The healing process began when I joined a support group for victims of ______.
+02628	1	The Natural History Museum has just opened an interactive exhibit on ______.
+02629	1	The new Chevy Tahoe. With the power and space to take ______ everywhere you go.
+02630	1	The Royal Ontario Museum has just opened an interactive exhibit on ______.
+02631	1	The school excursion was completely ruined by ______.
+02633	1	The school trip was completely ruined by ______.
+00272	1	The secret to a lasting marriage is communication, communication, and ______.
+02634	1	The Smithsonian Museum of Natural History has just opened an interactive exhibit on ______.
+02635	1	The TFL apologizes for the delay in train service due to ______.
+02636	1	The theme for next year's Eurovision Song Contest is "We are ______."
+02637	1	The U.S. has begun airdropping ______ to the children of Afghanistan.
+06661	1	These boots were made for ______.
+02638	2	They said we were crazy. They said we couldn't put ______ inside of ______. They were wrong.
+02639	1	This is the way the world ends This is the way the world ends Not with a bang but with ______.
+00287	1	This is your captain speaking. Fasten your seatbelts and prepare for ______.
+05951	1	This season at Steppenwolf Theatre, Samuel Beckett's classic existential play: Waiting for ______.
+02640	1	This season at Steppenwolf, Samuel Beckett's classic existential play: Waiting for ______.
+02642	1	This season at the Old Vic, Samuel Beckett's classic existential play: Waiting for ______.
+02643	1	This season at the Princess of Wales Theatre, Samuel Beckett's classic existential play: Waiting for ______.
+02644	1	This season at the Sydney Opera House, Samuel Beckett's classic existential play: Waiting for ______.
+02646	1	Today on Jerry Springer: "Help! My son is ______!"
+02647	1	Today on Maury: "Help! My son is ______!"
+02648	1	Today on The Jeremy Kyle Show: "Help! My son is ______!"
+02649	1	Tonight's top story: What you don't know about ______ could kill you.
+02650	1	TSA guidelines now prohibit ______ on airplanes.
+00299	1	Turns out that ______-Man was neither the hero we needed nor wanted.
+02651	1	Uh, hey guys, I know this was my idea, but I'm having serious doubts about ______.
+02652	1	UKIP: Putting ______ First!
+02653	1	US WEEKLY EXCLUSIVE! Meghan Markle's Secret Battle With ______!
+02654	1	War! What is it good for?
+06656	1	We've got spirit, yes we do! We've got ______, how about you?
+02655	1	Welcome, future business leaders! Over the next sixty minutes, I'm going to teach you how to harness the power of ______!
+00312	1	Well if ______ is a crime, then lock me up!
+02656	1	Well if you'll excuse me, gentlemen, I have a date with ______.
+02657	1	What am I giving up for Lent?
+02658	1	What are my parents hiding from me?
+02659	1	What are school administrators using to curb rampant teenage pregnancy?
+02660	1	What broke up the original Wiggles?
+00318	1	What brought the orgy to a grinding halt?
+02661	1	What did I bring back from Amsterdam?
+02662	1	What did I bring back from Bali?
+02663	1	What did I bring back from Mexico?
+02664	1	What did the US airdrop to the children of Afghanistan?
+02665	1	What did Vin Diesel eat for dinner?
+02666	1	What do old people smell like?
+02667	1	What does Dick Cheney prefer?
+02668	1	What don't you want to find in your Chinese food?
+02669	1	What don't you want to find in your doner kebab?
+02670	1	What don't you want to find in your Kung Pao chicken?
+02671	1	What don't you want to find in your Mongolian beef?
+02672	1	What ended my last relationship?
+02673	1	What gets better with age?
+02674	1	What gives me uncontrollable gas?
+00319	1	What has been making life difficult at the nudist colony?
+02675	1	What helps Barack Obama unwind?
+02676	1	What helps Obama unwind?
+02677	1	What is Batman's guilty pleasure?
+02678	1	What is George W. Bush thinking about right now?
+02679	1	What is Jacinda Ardern's guilty pleasure?
+02680	1	What is Kamala Harris's guilty pleasure?
+02681	1	What kept Margaret Thatcher busy in her waning years?
+00322	1	What left this stain on my couch?
+02682	1	What made my first kiss so awkward?
+00323	1	What makes Grandma feel young again?
+02683	1	What makes life worth living?
+02684	1	What makes me a true blue Aussie?
+00324	1	What makes me cry every time?
+02685	1	What never fails to liven up the party?
+02686	1	What will always get you laid?
+02687	1	What will I bring back in time to convince people that I am a powerful wizard?
+02688	1	What would grandma find disturbing, yet oddly charming?
+02689	1	What's a girl's best friend?
+02690	1	What's my anti-drug?
+02691	1	What's my secret power?
+05947	1	What's Stephen Harper thinking about right now?
+02692	1	What's Teach for America using to inspire inner city students to succeed?
+02693	1	What's that smell?
+02694	1	What's that sound?
+02695	1	What's the best metaphor for our political system?
+02696	1	What's the Canadian government using to inspire rural students to succeed?
+02697	1	What's the crustiest?
+02698	1	What's the most emo?
+02699	1	What's the new fad diet?
+02700	1	What's the next Happy Meal® toy?
+02701	2	What's the next superhero/sidekick duo?
+02702	1	What's there a ton of in heaven?
+02703	1	What's there a tonne of in heaven?
+00346	1	When all else fails, I can always masturbate to ______.
+02704	1	When I am a billionaire, I shall erect a 20-meter statue to commemorate ______.
+02705	1	When I am a billionaire, I shall erect a 20-metre statue to commemorate ______.
+02706	1	When I am a billionaire, I shall erect a 50-foot statue to commemorate ______.
+02707	1	When I am President of the United States, I will create the Department of ______.
+02708	1	When I am President, I will create the Department of ______.
+02709	1	When I am Prime Minister of Canada, I will create the Department of ______.
+02710	1	When I am Prime Minister of Canada, I will create the Ministry of ______.
+02711	1	When I am Prime Minister of the United Kingdom, I will create the Ministry of ______.
+02712	1	When I am Prime Minister, I will create the Department of ______.
+02713	1	When I am Prime Minister, I will create the Ministry of ______.
+06755	1	When I did a poo, what came out of my bum?
+00347	1	When I pooped, what came out of my butt?
+02714	2	When I was tripping on acid, ______ turned into ______.
+02715	1	When I'm in prison, I'll have ______ smuggled in.
+02716	1	When Pharaoh remained unmoved, Moses called down a Plague of ______.
+00350	2	When you get right down to it, ______ is just ______.
+02717	1	While the United States raced the Soviet Union to the moon, the Mexican government funneled millions of pesos into research on ______.
+02718	1	White people like ______.
+06660	1	Who put all of this ______ porn on my laptop?
+02719	1	Who stole the cookies from the cookie jar?
+00351	1	WHOOO! God damn I love ______!
+02720	1	Why am I sticky?
+02721	1	Why can't I sleep at night?
+02722	1	Why do I hurt all over?
+05698	1	Why is Alan so sweaty?
+02723	1	Why is Brett so sweaty?
+02724	1	Why is Daryl so sweaty?
+00449	1	Why is Gord so sweaty?
+00358	2	With enough time and pressure, ______ will turn into ______.
+05715	1	Your dreams are one click away! Learn more at ______.co.uk.
+02725	1	Your dreams are one click away! Learn more at ______.com.
+00376	1	Your persistence is admirable, my dear Prince. But you cannot win my heart with ______ alone.
+00023	2	An international tribunal has found ______ guilty of ______.
+00024	1	And I would have gotten away with it, too, if it hadn't been for ______!
+00040	1	Awww, sick! I just saw this skater do a 720 kickflip into ______!
+00094	1	He who controls ______ controls the world.
+00154	2	In a pinch, ______ can be a suitable substitute for ______.
+00161	1	In its new tourism campaign, Detroit proudly proclaims that it has finally eliminated ______.
+00168	1	In the distant future, historians will agree that ______ marked the beginning of America's decline.
+00200	2	Michael Bay's new three-hour action epic pits ______ against ______.
+05695	1	Next season on Man vs. Wild, Bear Grylls must survive in the depths of the Amazon with only ______ and his wits.
+00224	1	Next week on the Discovery Channel, one man must survive in the depths of the Amazon with only ______ and his wits.
+00252	1	Science will never explain the origin of ______.
+00267	1	The CIA now interrogates enemy agents by repeatedly subjecting them to ______.
+00275	1	The socialist governments of Scandinavia have declared that access to ______ is a basic human right.
+00289	1	This season on Man vs. Wild, Bear Grylls must survive in the depths of the Amazon with only ______ and his wits.
+00340	1	What's the gift that keeps on giving?
+00016	1	After months of debate, the Occupy Wall Street General Assembly could only agree on "More ______!"
+00042	2	Before ______, all we had was ______.
+00043	1	Before I run for president, I must destroy all evidence of my involvement with ______.
+00076	1	Everyone down on the ground! We don't want to hurt anyone. We're just here for ______.
+00150	2	If God didn't want us to enjoy ______, he wouldn't have given us ______.
+00159	1	In his newest and most difficult stunt, David Blaine must escape from ______.
+00189	1	Little Miss Muffet Sat on a tuffet, Eating her curds and ______.
+00198	1	Members of New York's social elite are paying thousands of dollars just to experience ______.
+00223	1	Next time on Dr. Phil: How to talk to your child about ______.
+00277	1	The votes are in, and the new high school mascot is ______.
+00288	1	This month's Cosmo: "Spice up your sex life by bringing ______ into the bedroom."
+00297	1	Tonight on 20/20: What you don't know about ______ could kill you.
+00335	1	What's harshing my mellow, man?
+00369	2	You haven't truly lived until you've experienced ______ and ______ at the same time.
+00007	2	______: Hours of fun. Easy to use. Perfect for ______!
+00033	1	As part of his contract, Prince won't perform without ______ in his dressing room.
+00034	1	As part of his daily regimen, Anderson Cooper sets aside 15 minutes for ______.
+00049	1	Call the law offices of Goldstein & Goldstein, because no one should have to tolerate ______ in the workplace.
+00101	1	Hey baby, come back to my place and I'll show you ______.
+00187	2	Listen, son. If you want to get involved with ______, I won't stop you. Just steer clear of ______.
+00211	1	My gym teacher got fired for adding ______ to the obstacle course.
+00212	2	My life is ruled by a vicious cycle of ______ and ______.
+00294	1	To prepare for his upcoming role, Daniel Day-Lewis immersed himself in the world of ______.
+00123	1	I love being a mom. But it's tough when my kids come home filthy from ______. That's why there's Tide®.
+00160	1	In Irish culture, mourners express their grief through a traditional practice of ______.
+00184	1	Legend has it Prince wouldn't perform without ______ in his dressing room.
+00295	1	Today's #1 Tip: Spice up your sex life by bringing ______ into the bedroom!
+00310	1	Welcome to Señor Frog's! Would you like to try our signature cocktail, "______ on the Beach"?
+00349	1	When the dog bites / When the bee stings / When I'm feeling sad / I simply remember ______ / And then I don't feel so bad.
+00003	2	______ may pass, but ______ will last forever.
+00004	2	______ will never be the same after ______.
+00010	1	2 AM in the city that never sleeps. The door swings open and she walks in, legs up to here. Something in her eyes tells me she's looking for ______.
+00015	2	Adventure. Romance. ______. From Paramount Pictures, "______."
+00020	1	Alright, bros. Our frat house is condemned, and all the hot slampieces are over at Gamma Phi. The time has come to commence Operation ______.
+00057	1	Dammit, Gary. You can't just solve every problem with ______.
+00060	1	Dear Leader Kim Jong-un, our village praises your infinite wisdom with a humble offering of ______.
+00062	1	Do not fuck with me! I am literally ______ right now.
+00073	2	Every step towards ______ gets me a little bit closer to ______.
+00083	2	Forget everything you know about ______, because now we've supercharged it with ______!
+00109	2	Honey, I have a new role-play I want to try tonight! You can be ______, and I'll be ______.
+00111	1	How am I compensating for my tiny penis?
+00113	2	I am become ______, destroyer of ______!
+00139	1	I'm pretty sure I'm high right now, because I'm absolutely mesmerized by ______.
+00151	2	If you can't handle ______, you'd better stay away from ______.
+00164	2	In return for my soul, the Devil promised me ______, but all I got was ______.
+00167	2	In the beginning, there was ______. And the Lord said, "Let there be ______."
+00173	1	It lurks in the night. It hungers for flesh. This summer, no one is safe from ______.
+00238	2	Oprah's book of the month is "______ For ______: A Story of Hope."
+00254	1	She's up all night for good fun. I'm up all night for ______.
+00271	1	The Japanese have developed a smaller, more efficient version of ______.
+00286	1	This is the prime of my life. I'm young, hot, and full of ______.
+00290	2	This year's hottest album is "______" by ______.
+00306	2	We never did find ______, but along the way we sure learned a lot about ______.
+00316	1	Wes Anderson's new film tells the story of a precocious child coming to terms with ______.
+00334	1	What's fun until it gets weird?
+00375	1	You've seen the bearded lady! You've seen the ring of fire! Now, ladies and gentlemen, feast your eyes upon ______!
+00029	1	Armani suit: $1,000. Dinner for two at that swanky restaurant: $300. The look on her face when you surprise her with ______: priceless.
+00063	1	Do the Dew® with our most extreme flavor yet! Get ready for Mountain Dew ______!
+00065	1	Do you lack energy? Does it sometimes feel like the whole world is ______ ? Zoloft®.
+00085	1	Get ready for the movie of the summer! One cop plays by the book. The other's only interested in one thing: ______.
+00093	1	Having the worst day EVER. #______
+00095	2	Heed my voice, mortals! I am the god of ______ , and I will not tolerate ______!
+00098	1	Help me doctor, I've got ______ in my butt!
+00099	1	Here at the Academy for Gifted Children, we allow students to explore ______ at their own pace.
+00105	1	Hi MTV! My name is Kendra, I live in Malibu, I'm into ______, and I love to have a good time.
+00107	1	Hi, this is Jim from accounting. We noticed a $1,200 charge labeled "______." Can you explain?
+00116	1	I don't mean to brag, but they call me the Micheal Jordan of ______.
+00156	1	In his farewell address, George Washington famously warned Americans about the dangers of ______.
+00157	1	In his new action comedy, Jackie Chan must fend off ninjas while also dealing with ______.
+00185	1	Life's pretty tough in the fast lane. That's why I never leave the house without ______.
+00226	1	Now in bookstores: "The Audacity of ______," by Barack Obama.
+00240	2	Patient presents with ______. Likely a result of ______.
+00313	2	Well if ______ is good enough for ______, it's good enough for me.
+00314	1	Well what do you have to say for yourself, Casey? This is the third time you've been sent to the principal's office for ______.
+00321	1	What killed my boner?
+00338	1	What's making things awkward in the sauna?
+00352	1	Why am I broke?
+00362	1	Yo' mama so fat she ______!
+00009	1	"This is madness!" "No. THIS IS ______!"
+00028	1	And would you like those buffalo wings mild, hot, or ______?
+00044	1	Behind every powerful man is ______.
+00053	1	Come to Dubai, where you can relax in our world-famous spas, experience the nightlife, or simply enjoy ______ by the poolside.
+00068	1	Don't worry, kid. It gets better. I've been living with ______ for 20 years.
+00075	1	Everybody join hands and close your eyes. Do you sense that? That's the presence of ______ in this room.
+00119	1	I have a strict policy. First date, dinner. Second date, kiss. Third date, ______.
+00132	1	I went to the desert and ate of the peyote cactus. Turns out my spirit animal is ______.
+00133	1	I work my ass off all day for this family, and this is what I come home to? ______!?
+00138	1	I'm Miss Tennessee, and if I could make the world better by changing one thing, I would get rid of ______.
+00140	1	I'm sorry, Mrs. Chen, but there was nothing we could do. At 4:15 this morning, your son succumbed to ______.
+00153	1	If you had to describe me, the Card Czar, using only one of the cards in your hand, which one would it be?
+00179	1	James is a lonely boy. But when he discovers a secret door in his attic, he meets a magical new friend: ______.
+00186	1	Listen Gary, I like you. But if you want that corner office, you're going to have to show me ______.
+00210	1	My grandfather worked his way up from nothing. When he came to this country, all he had was the shoes on his feet and ______.
+00245	1	Puberty is a time of change. You might notice hair growing in new places. You might develop an interest in ______. This is normal.
+00274	1	The six things I could never do without: oxygen, facebook, chocolate, netflix, friends, and ______ LOL!
+00284	1	This is America. If you don't work hard, you don't succeed. I don't care if you're black, white, purple, or ______.
+00293	1	To become a true Yanomamo warrior, you must prove that you can withstand ______ without crying out.
+00298	1	Tonight we will have sex. And afterwards, If you'd like, a little bit of ______.
+00348	1	When I was a kid, we used to play Cowboys and ______.
+00356	1	Why won't you make love to me anymore? Is it ______?
+00359	1	Y'all ready to get this thing started? I'm Nick Cannon, and this is America's Got ______.
+00364	1	You are not alone. Millions of Americans struggle with ______ every day.
+00371	2	You know, once you get past ______, ______ ain't so bad.
+00372	1	You Won't Believe These 15 Hilarious ______ Bloopers!
+00064	1	Do you lack energy? Does it sometimes feel like the whole world is ______ ? Ask your doctor about Zoloft®.
+00169	1	In the new John Wick movie, Keanu Reeves must fend off ninjas while also dealing with ______.
+00195	1	Mama gets what Mama wants, and Mama wants ______.
+00285	1	This is AMURICA. If you don't WORK HARD, you don't succeed. I don't care if you're black, white, purple, or ______.
+00292	1	To become a true Yanomami warrior, you must prove that you can withstand ______ without crying out.
+00001	2	______ be all like ______.
+00006	2	______: Brought to you by ______.
+00030	1	Art isn't just a painting in a stuffy museum. Art is alive. Art is ______.
+00036	1	As Teddy Roosevelt said, the four manly virtues are honor, temperance, industry, and ______.
+00039	1	Awww shit! ______ in da house!
+00045	1	Best you go back where you came from, now. We don't take too kindly to ______ in these parts.
+00052	1	CNN breaking news! Scientists discover ______.
+00054	1	Coming to Red Lobster® this month, ______.
+00055	1	Congratulations! You have been selected for our summer internship program. While we are unable to offer a salary, we can offer you ______.
+00058	1	Dance like there's nobody watching, love like you'll never be hurt, and live like you're ______.
+00072	1	Errbody in the club ______.
+00077	1	Feeling so grateful! #amazing #mylife #______.
+00086	1	Girls just wanna have ______.
+00091	1	Google Calendar alert: ______ in 10 minutes.
+00117	1	I don't believe in God. I believe in ______.
+00121	1	I just took a DNA test. Turns out I'm 100% ______.
+00124	1	I may not be much to look at, but I fuck like ______.
+00130	1	I tell you, it was a non-stop fuckfest. When it was over, my asshole looked like ______.
+00144	1	I've got rhythm, I've got music, I've got ______. Who could ask for anything more?
+00145	1	I'll take the BBQ bacon burger with friend egg and fuck it how about ______.
+00147	1	I'm sorry, sir, but your insurance plan doesn't cover injuries caused by ______.
+00148	1	I've had a horrible vision, father. I saw mountains crumbling, stars falling from the sky. I saw ______.
+00166	1	In the 1950s, psychologists prescribed ______ as a cure for homosexually.
+00193	1	LSD + ______ = really bad time.
+00203	1	Mom's to-do list: * Buy groceries * Clean up ______ * Soccer practice
+00206	1	Most Americans would not vote for a candidate who is openly ______.
+00225	1	No, no, no, no, no, no, NO! I will NOT let ______ ruin this wedding.
+00234	1	One more thing. Watch out for Big Mike. They say he killed a man with ______.
+00237	1	Ooo, daddy like ______.
+00243	1	Poor Brandon, still living in his parent's basement. I heard he never got over ______.
+00249	1	Run, run, as fast as you can! You can't catch me, I'm ______!
+00255	1	She's a lady in the streets, ______ in the sheets.
+00256	1	She's just one of the guys, you know? She likes beer, and football, and ______.
+00258	1	Son, take it from someone who's been around the block a few times. Nothin' puts her in the mood like ______.
+00276	1	The top Google auto-complete results for "Barack Obama": Barack Obama height. Barack Obama net worth. Barack Obama ______.
+00279	1	Then the princess kissed the frog, and all of a sudden the frog was ______!
+00281	1	There is no God. It's just ______ and then you die.
+00283	1	This Friday at the Liquid Lounge, it's ______ Night! Ladies drink free.
+00305	1	We do not shake with our left hands in this country. That is the hand we use for ______.
+00315	1	Well, shit. My eyes ain't so good, but I'll eat my own boot if that ain't ______!
+00317	1	What are all those whales singing about?
+00326	1	What sucks balls?
+00327	1	What totally destroyed my asshole?
+00328	1	What turned me into a Republican?
+00329	1	What will end racism once and for all?
+00342	1	What's a total waste of Hillary Clinton's time?
+00343	1	What's about to take dance floor to the next level?
+00344	1	What's the gayest?
+00345	1	What's the most problematic?
+00353	1	Why am I laughing and crying and taking off my clothes?
+00357	1	With a one-time gift of just $10, you can save this child from ______.
+00370	1	You know who else liked ______? Hitler.
+00373	1	You won't believe what's in my pussy. It's ______.
+05738	1	Bay Area tech bros are paying thousands of dollars just to experience ______.
+05734	1	Bro, she's so into me. She sent me a pic of her ______.
+05742	1	Coming soon to Netflix! One cop plays by the book. The other's only interested in one thing: ______.
+05736	1	Father O'Connor, if God is all-good and all-powerful, why does he allow ______?
+05740	1	I love my life! I'm young, hot, and full of ______.
+05733	1	I'm sorry, honey. I'm just not in the mood for ______ tonight.
+05735	1	John Wick is a man of focus, commitment. I once saw him kill three men... with ______.
+05950	1	Mom's to-do list: * Buy groceries * Deal with ______ * Soccer practice
+05741	1	Oh man, the edibles must have kicked in because I'm absolutely mesmerized by ______.
+05737	1	Oh my god, Mom, it's so unfair! Why am I the only kid at school who has to deal with ______?
+05739	1	Our first date was going horribly until we discovered our shared interest in ______.
+05731	1	Son, quit messin' with ______ or folks will think you're queer.
+05743	1	The top Google auto-complete results for Taylor Swift": Taylor Swift age. Taylor Swift net worth. Taylor Swift ______.
+05732	1	What makes Grandpa feel young again?

@@ -10,11 +10,17 @@ export function loadDeck(lang, fresh) {
   const v = fresh ? String(Date.now()) : V;
   if (fresh) { Object.keys(cache).forEach((k) => { delete cache[k]; }); }
   // Polska talia + odmiana odpowiedzi przez przypadki (odmiana.json: c = przypadki luk, f = formy kart).
+  // Pakiet Cards Against Humanity (CC BY-NC-SA 2.0): cah.json – polskie tłumaczenie i angielski oryginał.
+  if (!cache.cah) cache.cah = getJson('/cah.json?v=' + v);
   if (!cache.pl) {
     cache.pl = Promise.all([
       fetch('/talia.json?v=' + v, { cache: 'no-cache' }).then((r) => r.json()),
       getJson('/odmiana.json?v=' + v),
-    ]).then(([d, o]) => Object.assign(d, { k: o.c || {}, f: o.f || {}, lang: 'pl' }));
+      cache.cah,
+    ]).then(([d, o, cah]) => {
+      if (cah && cah.pl) { Object.assign(d.c, cah.pl.c); Object.assign(d.b, cah.pl.b); }
+      return Object.assign(d, { k: o.c || {}, f: o.f || {}, lang: 'pl' });
+    });
   }
   if (l === 'pl') return cache.pl;
   if (!cache[l]) {
@@ -26,7 +32,11 @@ export function loadDeck(lang, fresh) {
         c[id] = x && x[0] && x[0].split('____').length === pl.c[id][0].split('____').length ? [x[0], pl.c[id][1]] : pl.c[id];
       });
       Object.keys(pl.b).forEach((id) => { b[id] = tb[id] || pl.b[id]; });
-      return { c, b, lang: l };
+      return cache.cah.then((cah) => {
+        // po angielsku pakiet CAH w oryginale
+        if (l === 'en' && cah && cah.en) { Object.assign(c, cah.en.c); Object.assign(b, cah.en.b); }
+        return { c, b, lang: l };
+      });
     });
   }
   return cache[l];
@@ -50,7 +60,8 @@ export function idsFor(deck, mode, kind) {
     if (kind === 'c') return own.length ? own : idsFor(deck, 'wszystkie', kind);
     return own.length >= 150 ? own : own.concat(idsFor(deck, 'wszystkie', kind));
   }
-  if (mode === 'wszystkie') prefixes = ['R', 'N', 'X', 'P'];
+  if (mode === 'cah') return Object.keys(deck[kind]).filter((id) => id[0] === 'C');
+  if (mode === 'wszystkie') prefixes = ['R', 'N', 'X', 'P', 'C'];
   else if (mode === 'bez') prefixes = kind === 'c' ? ['X'] : ['X', 'N', 'R'];
   else if (kind === 'c') prefixes = mode === 'po22' ? ['N'] : ['R'];
   else prefixes = mode === 'po22' ? ['N', 'R'] : ['R'];

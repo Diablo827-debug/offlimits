@@ -56,7 +56,8 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
         <div className="wordmark gold-text">OFFLIMITS</div>
         <div className="tagline">The Unrestricted Game Club</div>
         <div className="script">Good company. Worse answers.</div>
-        {room.mode !== 'rodzinny' ? <div className="chip done" style={{ borderColor: '#8C3446' }}>{t(room.mode === 'po22' ? 'chip22' : room.mode === 'bez' ? 'chipBez' : room.mode === 'moja' ? 'chipMine' : 'chipAll')}</div> : null}
+        {room.mode !== 'rodzinny' ? <div className="chip done" style={{ borderColor: '#8C3446' }}>{t(room.mode === 'po22' ? 'chip22' : room.mode === 'bez' ? 'chipBez' : room.mode === 'moja' ? 'chipMine' : room.mode === 'cah' ? 'modeCah' : 'chipAll')}</div> : null}
+        {room.mode === 'cah' || room.mode === 'wszystkie' || !room.mode ? <div className="muted" style={{ fontSize: '.75vw', maxWidth: '30vw', textAlign: 'center', marginTop: '.8vw' }}>{t('cahLicense')}</div> : null}
       </div>
       <div className="join-box fade-in">
         <div className="join-top">
@@ -80,7 +81,7 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
                 options={LANGS.map((x) => ({ v: x.v, l: x.l }))} /></div>
             <div className="set-row"><span>{t('mode')}</span>
               <Seg value={room.mode} onChange={(v) => onSettings({ mode: v })}
-                options={[{ v: 'wszystkie', l: t('modeAll') }, { v: 'rodzinny', l: t('modeFamily') }, { v: 'po22', l: t('mode22') }, { v: 'bez', l: t('modeBez') }].concat(Object.keys(deck.c).some((id) => id[0] === 'P') ? [{ v: 'moja', l: t('modeMine') }] : [])} /></div>
+                options={[{ v: 'wszystkie', l: t('modeAll') }, { v: 'rodzinny', l: t('modeFamily') }, { v: 'po22', l: t('mode22') }, { v: 'bez', l: t('modeBez') }, { v: 'cah', l: 'CAH' }].concat(Object.keys(deck.c).some((id) => id[0] === 'P') ? [{ v: 'moja', l: t('modeMine') }] : [])} /></div>
             <div className="set-row"><span>{t('cards')}</span>
               <Seg value={room.fresh === false ? 'all' : 'fresh'} onChange={(v) => onSettings({ fresh: v === 'fresh' })}
                 options={[{ v: 'fresh', l: t('cardsFresh') }, { v: 'all', l: t('cardsAll') }]} /></div>

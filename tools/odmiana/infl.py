@@ -50,7 +50,7 @@ def phrase(words, start, case):
     pre=[]; i=start; head=None
     while i < len(words):
         pf,core,sf=split_w(words[i])
-        if not core or core.lower() in STOP: return None
+        if not core or core.lower() in STOP or '-' in core: return None
         nouns=cands(core,('subst','ger','depr'))
         adjs=cands(core,ADJP)
         nxt = words[i+1] if i+1<len(words) else ''
@@ -88,7 +88,7 @@ def phrase(words, start, case):
         # dopowiedzenie: „Barman psycholog”, „Pan Zdzisio”
         if not last and k<len(words):
             pf2,core2,sf2=split_w(words[k])
-            if core2.lower() not in POSTSTOP:
+            if core2.lower() not in POSTSTOP and not any('gen' in sp(a[2],2) for a in an(core2) if a[2].startswith('subst:')):
                 ap=[b for b in cands(core2,('subst',)) if num in sp(b[2],1) and 'gen' not in sp(b[2],2)]
                 if ap and not cands(core2,ADJP) and (core2[:1].isupper() or ('m1' in gnd and 'm1' in sp(ap[0][2],3))):
                     bt=ap[0][2]
@@ -97,7 +97,9 @@ def phrase(words, start, case):
                         out[k]=pf2+keepcap(core2,f2)+sf2; last=sf2; k+=1
         while k<len(words) and not last:
             pf,core,sf=split_w(words[k])
-            if core.lower() in POSTSTOP: break
+            if core.lower() in POSTSTOP or '-' in core: break
+            # rzeczownik w dopełniaczu („Rytmy Afryki”) – to dopowiedzenie, nie przymiotnik
+            if any(a[2].startswith('subst:') and 'gen' in sp(a[2],2) for a in an(core)) and not any(a[2].startswith(ADJP) and 'nom' in sp(a[2],2) and 'gen' not in sp(a[2],2) for a in an(core.lower())): break
             ac=[b for b in cands(core,ADJP) if num in sp(b[2],1) and any(x in sp(b[2],3) for x in gnd)]
             if not ac or cands(core,('subst',)) and not ac: break
             f=None
@@ -123,9 +125,9 @@ def phrase(words, start, case):
             j+=1
         return out, k, last
     return None
-PRON={'ktoś':{'acc':'kogoś','gen':'kogoś','inst':'kimś','loc':'kimś'},'coś':{'acc':'coś','gen':'czegoś','inst':'czymś','loc':'czymś'},
-      'nikt':{'acc':'nikogo','gen':'nikogo','inst':'nikim','loc':'nikim'},'nic':{'acc':'nic','gen':'niczego','inst':'niczym','loc':'niczym'},
-      'wszystko':{'acc':'wszystko','gen':'wszystkiego','inst':'wszystkim','loc':'wszystkim'}}
+PRON={'ktoś':{'acc':'kogoś','gen':'kogoś','inst':'kimś','loc':'kimś','dat':'komuś'},'coś':{'acc':'coś','gen':'czegoś','inst':'czymś','loc':'czymś','dat':'czemuś'},
+      'nikt':{'acc':'nikogo','gen':'nikogo','inst':'nikim','loc':'nikim','dat':'nikomu'},'nic':{'acc':'nic','gen':'niczego','inst':'niczym','loc':'niczym','dat':'niczemu'},
+      'wszystko':{'acc':'wszystko','gen':'wszystkiego','inst':'wszystkim','loc':'wszystkim','dat':'wszystkiemu'}}
 def inflect(text, case):
     if case=='n': return text
     words=text.split(' ')
