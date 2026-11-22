@@ -15,11 +15,11 @@ const ELEVEN_VOICES = {
   Algenib: 'pNInz6obpgDQGcFmaJgB', // Adam – męski 2
   Kore: '21m00Tcm4TlvDq8ikWAM', // Rachel – kobiecy 1
   Aoede: 'EXAVITQu4vr4xnSDxMaL', // Sarah – kobiecy 2
-  Gacrux: 'EXAVITQu4vr4xnSDxMaL', // Babcia – podmienimy na głos starszej pani z Voice Library
+  Gacrux: 'xqff9loc6z8C4FeoFKz8', // Babcia („Babuszka” – głos zaprojektowany w ElevenLabs)
 };
 // Polscy lektorzy z Voice Library ElevenLabs (uzupełnimy ID, gdy wybierzesz głosy).
 const PL_VOICES = {
-  pl: { Charon: '', Algenib: '', Kore: '', Aoede: '' },
+  pl: { Charon: '', Algenib: '', Kore: '', Aoede: '', Gacrux: 'xqff9loc6z8C4FeoFKz8' },
 };
 // Reżyseria lektora „z jajem”: ma brzmieć jak kumpel, który czyta kartę i sam się z niej śmieje.
 // Wybór wariantu zależy od tekstu (to samo zdanie = to samo nagranie w pamięci, różne zdania = różne miny).

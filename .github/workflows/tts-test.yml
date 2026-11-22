@@ -14,7 +14,7 @@ jobs:
           q 2-odpowiedz pl-PL-Chirp3-HD-Charon "Co zabrałbym ze sobą na bezludną wyspę zamiast partnera? ⟦Pijanego kuzyna z mikrofonem⟧." a
           q 3-odpowiedz pl-PL-Chirp3-HD-Kore "Najlepszy sposób na poniedziałek to ⟦teściowa w białej sukience⟧." a
           q 4-zwyciezca pl-PL-Chirp3-HD-Aoede "Punkt dla Kamila!" w
-          q 5-babcia pl-PL-Chirp3-HD-Gacrux "Babcia założy okulary… o, jest pytanie." hg
+          q 5-babcia pl-PL-Chirp3-HD-Gacrux "Babcia założy okulary… o, jest pytanie! Kto nie słucha, nie dostanie kompotu." hg
           q 6-babcia-odp pl-PL-Chirp3-HD-Gacrux "Najgorszy prezent pod choinkę to ⟦teściowa w białej sukience⟧." a
           curl -s -H "$O" -G "$B" --data-urlencode "v=pl-PL-Chirp3-HD-Gacrux" --data-urlencode "t=Test numer $(date +%s)" --data-urlencode "m=q" --data-urlencode "dbg=gm"; echo
       - uses: actions/upload-artifact@v4
