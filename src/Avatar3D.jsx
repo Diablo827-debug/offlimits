@@ -97,6 +97,42 @@ function prepClip(clip, { inPlace = false, seatY = 0, fadeSeat = false } = {}) {
   return { drift: inPlace ? dz / T : 0, end: [v[(n - 1) * 3], v[(n - 1) * 3 + 2]] };
 }
 
+// Wygładzanie ruchu: ruchy z AI mają drobne drgania między klatkami – filtr (okno 5 klatek) usuwa „szarpanie”,
+// zachowując pierwszą i ostatnią klatkę. Kwaterniony uśredniamy z wyrównaniem znaku i normalizacją.
+function smoothClip(clip, passes = 2) {
+  const W = [1, 4, 6, 4, 1];
+  clip.tracks.forEach((tr) => {
+    const isQ = /quaternion$/.test(tr.name);
+    if (!isQ && !/position$/.test(tr.name)) return;
+    const d = isQ ? 4 : 3;
+    const n = tr.times.length;
+    if (n < 7) return;
+    for (let pass = 0; pass < passes; pass++) {
+      const src = tr.values.slice();
+      for (let i = 2; i < n - 2; i++) {
+        const acc = [0, 0, 0, 0];
+        let wsum = 0;
+        for (let k = -2; k <= 2; k++) {
+          const j = i + k;
+          const w = W[k + 2];
+          let sign = 1;
+          if (isQ) {
+            let dot = 0;
+            for (let c = 0; c < 4; c++) dot += src[j * 4 + c] * src[i * 4 + c];
+            sign = dot < 0 ? -1 : 1;
+          }
+          for (let c = 0; c < d; c++) acc[c] += src[j * d + c] * w * sign;
+          wsum += w;
+        }
+        let len = 0;
+        for (let c = 0; c < d; c++) { acc[c] /= wsum; len += acc[c] * acc[c]; }
+        len = isQ ? Math.sqrt(len) || 1 : 1;
+        for (let c = 0; c < d; c++) tr.values[i * d + c] = acc[c] / len;
+      }
+    }
+  });
+}
+
 export default function Avatar3D({ url, room }) {
   const host = React.useRef(null);
   const api = React.useRef(null);
@@ -109,7 +145,7 @@ export default function Avatar3D({ url, room }) {
     const H = () => el.clientHeight || 500;
     const lite = /[?&]lite=1/.test(location.search);
     const renderer = new THREE.WebGLRenderer({ antialias: !lite, alpha: true, powerPreference: 'high-performance' });
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, lite ? 1 : 1.5));
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, lite ? 1 : 2));
     renderer.setSize(W(), H());
     renderer.outputColorSpace = THREE.SRGBColorSpace;
     renderer.toneMapping = THREE.ACESFilmicToneMapping;
@@ -152,6 +188,12 @@ export default function Avatar3D({ url, room }) {
     let current = null; // { action, state, name }
     let model = null; // korzeń postaci (przesuwamy go po scenie)
     let headBone = null;
+    const bones = {};
+    let lookYaw = 0;
+    let lookPitch = 0;
+    let lookT = 0;
+    let simT = 0;
+    let lookTarget = [0, 0];
     let hipsScale = 1; // jednostki ścieżki biodra → metry sceny
     let place = 'stand'; // stand | sofa | walking | sitting | standing
     let walk = null;
@@ -280,6 +322,11 @@ export default function Avatar3D({ url, room }) {
         }
         if (!hips && o.isBone && /Hips$/.test(o.name)) hips = o;
         if (!headBone && o.isBone && /(^|[^a-z])Head$/i.test(o.name)) headBone = o;
+        if (o.isBone && /Neck$/.test(o.name)) bones.neck = o;
+        if (o.isBone && /Spine2$/.test(o.name)) bones.chest = o;
+        if (o.isBone && /Spine$/.test(o.name)) bones.spine = o;
+        if (o.isBone && /LeftShoulder$/.test(o.name)) bones.lSh = o;
+        if (o.isBone && /RightShoulder$/.test(o.name)) bones.rSh = o;
       });
       scene.add(model);
       model.updateMatrixWorld(true);
@@ -295,6 +342,7 @@ export default function Avatar3D({ url, room }) {
       gltf.animations.forEach((c) => {
         const walkClip = (ANIMS.walk || []).includes(c.name);
         const seated = seatY && hipsY0(c) < (seatY + standY) / 2;
+        smoothClip(c, /_full$|^read$|^yawn$|^surprised$|^sarcastic$|^sit_read$/.test(c.name) ? 3 : 1);
         const info = prepClip(c, { inPlace: walkClip, seatY: seated ? seatY : 0, fadeSeat: ANIMS.standUp.includes(c.name) });
         const clone = c.clone();
         clone.name = c.name + '#b';
@@ -357,7 +405,7 @@ export default function Avatar3D({ url, room }) {
       if (current && LOOP[current.state] && !current.onEnd) {
         const a = current.action;
         const left = a.getClip().duration - a.time;
-        if (left < (current.fade || 0.5) + 0.05) play(current.state, 0.6, { restart: true });
+        if (left < 0.95) play(current.state, 0.9, { restart: true });
       }
       if (mixer) mixer.update(dt);
       if (model && walk) {
@@ -390,10 +438,33 @@ export default function Avatar3D({ url, room }) {
         while (diff < -Math.PI) diff += Math.PI * 2;
         model.rotation.y += diff * Math.min(1, dt * 4);
       }
+      // Warstwa „życia” na wierzch animacji: oddech (klatka, ramiona), rozglądanie się głową z płynnym
+      // dociąganiem do celu, lekkie kołysanie – żeby nigdy nie stała jak manekin.
+      simT += dt;
+      const t = simT;
+      const calm = current && /^(idle|sit|sitRead|read|sitBored|walk)$/.test(current.state) ? 1 : 0.35;
+      const br = Math.sin(t * 1.7);
+      if (bones.chest) bones.chest.rotation.x += br * 0.018;
+      if (bones.spine) bones.spine.rotation.z += Math.sin(t * 0.43) * 0.012 * calm;
+      if (bones.lSh) bones.lSh.rotation.z += br * 0.012;
+      if (bones.rSh) bones.rSh.rotation.z -= br * 0.012;
+      lookT -= dt;
+      if (lookT <= 0) {
+        lookT = 1.6 + Math.random() * 3.2;
+        lookTarget = Math.random() < 0.35 ? [0, 0] : [(Math.random() - 0.5) * 0.55, (Math.random() - 0.4) * 0.18];
+      }
+      const ease = Math.min(1, dt * 2.4);
+      lookYaw += (lookTarget[0] - lookYaw) * ease;
+      lookPitch += (lookTarget[1] - lookPitch) * ease;
+      if (bones.neck) { bones.neck.rotation.y += lookYaw * 0.4 * calm; bones.neck.rotation.x += lookPitch * 0.4 * calm; }
+      if (headBone) {
+        headBone.rotation.y += lookYaw * 0.6 * calm;
+        headBone.rotation.x += lookPitch * 0.6 * calm;
+        headBone.rotation.z += Math.sin(t * 0.7) * 0.025 * calm;
+      }
       // mowa: głowa w rytm lektora (model nie ma kształtów ust – mówi całym ciałem i głową)
       const lvl = speechLevel();
       if (headBone && lvl > 0.02) {
-        const t = performance.now() / 1000;
         headBone.rotation.x += Math.sin(t * 9) * lvl * 0.07;
         headBone.rotation.z += Math.sin(t * 4.3) * lvl * 0.05;
       }
