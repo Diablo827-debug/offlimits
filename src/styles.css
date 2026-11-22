@@ -289,3 +289,5 @@ html.tv-portrait .tv.with-host .host-stage { flex: 0 0 auto; height: calc(55 * v
 html.tv-portrait .tv.with-host .tv-side { width: auto; }
 html.tv-portrait .host.big .host-bubble { left: auto; right: calc(3 * var(--u)); top: calc(3 * var(--u)); width: calc(40 * var(--u)); font-size: calc(2.2 * var(--u)); }
 .tv.with-host .side-title { font-size: calc(.95 * var(--u, 1vw)); letter-spacing: .15em; }
+/* Dół postaci łagodnie znika (klatki bywają ucięte w pasie). */
+.host-img { -webkit-mask-image: linear-gradient(to bottom, #000 78%, transparent 99%); mask-image: linear-gradient(to bottom, #000 78%, transparent 99%); }
