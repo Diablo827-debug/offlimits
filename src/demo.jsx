@@ -3,6 +3,7 @@ import React from 'react';
 import QRCode from 'qrcode';
 import { loadDeck } from './deck.js';
 import TvView from './TvView.jsx';
+import { quip } from './prowadzacy.js';
 import GrajView from './GrajView.jsx';
 
 const P = {
@@ -57,7 +58,10 @@ export default function Demo({ screen, demo }) {
         </>
       );
     }
-    return <TvView room={room} code="8F3K" deck={deck} qr={qr} joinUrl="https://offlimits-esn.pages.dev/graj?kod=8F3K" subs={subs} minPlayers={3} onSettings={() => {}} onStart={() => {}} onAgain={() => {}} />;
+    // ?cue=a|s|b|c – podgląd dymka prowadzącego
+    const cueP = new URLSearchParams(location.search).get('cue');
+    const hostCue = cueP ? Object.assign({ at: Date.now() }, quip(cueP, 'winner', 'pl', { name: 'Kamil', nameG: 'Kamila' })) : null;
+    return <TvView room={room} code="8F3K" deck={deck} qr={qr} joinUrl="https://offlimits-esn.pages.dev/graj?kod=8F3K" subs={subs} minPlayers={3} onSettings={() => {}} onStart={() => {}} onAgain={() => {}} hostCue={hostCue} />;
   }
   // telefon: hand | hand2 | judge | wait | played | lobby | result | end
   const map = { hand: 'picking', hand2: 'pick2', judge: 'judging', wait: 'judging', played: 'picking', lobby: 'lobby', result: 'result', end: 'end', reveal: 'reveal', sedzia: 'picking', glos: 'voting' };

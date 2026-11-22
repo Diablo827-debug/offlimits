@@ -11,6 +11,7 @@ import * as M from './master.js';
 import TvView from './TvView.jsx';
 import { useWakeLock } from './Graj.jsx';
 import { tr, okLang } from './i18n.js';
+import { quip, CHANCE } from './prowadzacy.js';
 
 const params = new URLSearchParams(location.search);
 const MIN_PLAYERS = Math.max(1, parseInt(params.get('min') || '3', 10));
@@ -45,6 +46,7 @@ export default function Tv() {
   const retry = (key) => (e) => { delete done.current[key]; console.warn('[offlimits]', key, e); };
   // Zegar – co 2 s sprawdzamy, czy gra nie stoi.
   const [now, setNow] = React.useState(Date.now());
+  const [hostCue, setHostCue] = React.useState(null);
   React.useEffect(() => { const i = setInterval(() => setNow(Date.now()), 2000); return () => clearInterval(i); }, []);
   // Od kiedy gracz jest poza grą (zegar telewizora) i kiedy ostatnio ktoś zagrał.
   const awaySince = React.useRef({});
@@ -181,6 +183,16 @@ export default function Tv() {
     const stageKey = r.state + '-' + r.round;
     if (stageSince.current.key !== stageKey) stageSince.current = { key: stageKey, at: now };
     const inStage = (now - stageSince.current.at) / 1000;
+    const nm = (u) => (players[u] ? players[u].name : '');
+    // Prowadzący: krótki tekst zależny od charakteru (czasem milczy, żeby nie przegadać gry).
+    const host = r.host || 'mix';
+    const hostSay = (ev, vars, force) => {
+      if (!force && Math.random() > (CHANCE[ev] || 0)) return Promise.resolve();
+      const q = quip(host, ev, lang, Object.assign({}, vars, vars && vars.name ? { nameG: nameFor(lang, vars.name) } : {}));
+      if (!q) return Promise.resolve();
+      setHostCue(Object.assign({ at: Date.now() }, q));
+      return speak(q.text, Object.assign({}, so, { mood: q.mood })).catch(() => {});
+    };
 
     // Tryb testowy: boty grają, sędziują i głosują z „ludzkim” opóźnieniem.
     const bots = Object.keys(players).filter(M.isBot);
@@ -200,7 +212,13 @@ export default function Tv() {
     }
 
     if (r.state === 'picking') {
-      if (black && once('read-' + r.round + '-' + r.black)) speak(black[0], Object.assign({}, so, { mood: 'q' }));
+      if (black && once('read-' + r.round + '-' + r.black)) {
+        (async () => {
+          await hostSay(r.round <= 1 ? 'start' : 'question');
+          const cur = roomRef.current;
+          if (cur && cur.state === 'picking' && cur.black === r.black) await speak(black[0], Object.assign({}, so, { mood: 'q' }));
+        })();
+      }
       const played = (u) => subs[u] && subs[u].round === r.round && (subs[u].cards || []).length > 0;
       // Czekamy na graczy w grze; ktoś, kto zniknął na dłużej (telefon w tle), nie blokuje rundy.
       const needed = M.activeOrder(r).filter((u) => u !== r.judge && !(away(u, AWAY_SECONDS) && !played(u)));
@@ -208,6 +226,8 @@ export default function Tv() {
       const subKey = r.round + '-' + r.black;
       if (lastSub.current.key !== subKey || lastSub.current.n !== n) lastSub.current = { key: subKey, n, at: now };
       const ready = needed.length > 0 && needed.every(played);
+      const slowOne = needed.find((u) => !played(u) && !M.isBot(u));
+      if (!ready && slowOne && inStage > 40 && once('slow-' + r.round)) hostSay('slow', { name: nm(slowOne) });
       const tooLong = n > 0 && now - lastSub.current.at > AUTO_REVEAL_SECONDS * 1000;
       const go = () => { const k = 'reveal-' + subKey; if (once(k)) M.toReveal(code, r, deck, subs).catch(retry(k)); };
       if (ready || tooLong) go();
@@ -219,6 +239,7 @@ export default function Tv() {
       if (once('seq-' + r.round)) {
         (async () => {
           if (lektor) prefetchSpeech(list.map((e) => fillTextMarked(black ? black[0] : '', answersFor(deck, r.black, e.cards))), r.voice, lang, 'a');
+          await hostSay('reveal');
           for (let i = 0; i < list.length; i++) {
             if (roomRef.current && roomRef.current.state !== 'reveal') return;
             await M.setRevealIdx(code, i).catch(() => {});
@@ -226,6 +247,7 @@ export default function Tv() {
             await speak(fillTextMarked(black ? black[0] : '', answers), Object.assign({}, so, { mood: 'a' }));
           }
           await M.toJudging(code);
+          hostSay('judge', { judge: nm(r.judge) });
         })().catch(retry('seq-' + r.round));
       } else if (inStage > 25 * Math.max(1, list.length) + 20 && once('seq-guard-' + r.round)) {
         // Lektor albo sieć utknęły – przechodzimy dalej.
@@ -249,6 +271,11 @@ export default function Tv() {
       }
     }
 
+    if (r.state === 'end' && once('end-' + r.round)) {
+      const best = Object.keys(players).sort((x, y) => (players[y].score || 0) - (players[x].score || 0))[0];
+      if (best) setTimeout(() => hostSay('end', { name: nm(best) }), 1200);
+    }
+
     if (r.state === 'result') {
       const next = () => {
         const cur = roomRef.current;
@@ -258,7 +285,8 @@ export default function Tv() {
       };
       if (once('res-' + r.round)) {
         const w = r.players && r.players[r.winner];
-        speak(t('pointFor') + ' ' + (w ? nameFor(lang, w.name) : '') + '!', Object.assign({}, so, { mood: 'w' }));
+        speak(t('pointFor') + ' ' + (w ? nameFor(lang, w.name) : '') + '!', Object.assign({}, so, { mood: 'w' }))
+          .then(() => { const cur = roomRef.current; if (w && cur && cur.state === 'result' && cur.round === r.round) return hostSay('winner', { name: w.name }); return null; });
         // Licznik niezależny od odświeżeń ekranu (zegar co 2 s nie może go kasować).
         setTimeout(next, M.RESULT_SECONDS * 1000);
       } else if (inStage > M.RESULT_SECONDS + 10) next();
@@ -282,7 +310,7 @@ export default function Tv() {
   return (
     <>
     <TvView
-      room={room} code={code} deck={deck} qr={qr} joinUrl={joinUrl} subs={subs} lite={LITE}
+      room={room} code={code} deck={deck} qr={qr} joinUrl={joinUrl} subs={subs} lite={LITE} hostCue={hostCue}
       minPlayers={MIN_PLAYERS}
       onSettings={(p) => { if ('bots' in p) { M.setBots(code, room, p.bots); return; } M.saveSettings(code, p); if (p.lang) localStorage.setItem('ol_tv_lang', p.lang); if (p.voice || (p.lang && room.lektor !== false)) { unlockSpeech(); setSound(true); speak(tr(okLang(p.lang || room.lang))('voiceSample'), { voice: p.voice || room.voice, lang: okLang(p.lang || room.lang), mood: 's' }); } }}
       onStart={handleStart}

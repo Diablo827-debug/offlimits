@@ -3,6 +3,8 @@ import { createPortal } from 'react-dom';
 import { BlackCard, Avatar, Logo, sortedPlayers, useCountdown, endLabel, Parts } from './ui.jsx';
 import { fillParts, answersFor } from './deck.js';
 import { VOICES } from './lektor.js';
+import Prowadzacy from './Prowadzacy.jsx';
+import { HOSTS } from './prowadzacy.js';
 import { votesOf, voters } from './master.js';
 import { nameFor } from './imiona.js';
 import { okLang } from './i18n.js';
@@ -16,6 +18,18 @@ const END_OPTIONS = {
 };
 
 function Seg({ value, options, onChange, disabled }) {
+  // Długą listę opcji pokazujemy jako jeden przycisk „‹ wartość ›” – mieści się w linii i łatwo go przełączać pilotem.
+  if (options.length > 4) {
+    const i = Math.max(0, options.findIndex((o) => o.v === value));
+    const go = (d) => onChange(options[(i + d + options.length) % options.length].v);
+    return (
+      <span className="seg cycle">
+        <button type="button" disabled={disabled} onClick={() => go(-1)} aria-label="‹">‹</button>
+        <button type="button" className="on" disabled={disabled} onClick={() => go(1)}>{options[i].l}</button>
+        <button type="button" disabled={disabled} onClick={() => go(1)} aria-label="›">›</button>
+      </span>
+    );
+  }
   return (
     <span className="seg">
       {options.map((o) => (
@@ -98,11 +112,12 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
             {showBots ? <div className="set-row"><span>{t('botsRow')}</span>
               <Seg value={String(Object.keys(room.players || {}).filter((u) => /^bot\d$/.test(u)).length)} onChange={(v) => onSettings({ bots: Number(v) })}
                 options={[{ v: '0', l: t('off') }, { v: '1', l: '1' }, { v: '2', l: '2' }, { v: '3', l: '3' }]} /></div> : null}
+            <div className="set-row"><span>{t('hostRow')}</span>
+              <Seg value={room.host || 'mix'} onChange={(v) => onSettings({ host: v })}
+                options={HOSTS.map((x) => ({ v: x.v, l: t(x.key) }))} /></div>
             <div className="set-row"><span>{t('music')}</span>
               <Seg value={room.music === false ? 'off' : 'on'} onChange={(v) => onSettings({ music: v === 'on' })}
                 options={[{ v: 'on', l: t('musicOn') }, { v: 'off', l: t('musicOff') }]} /></div>
-            {!showBots ? <div className="set-row"><span>{t('soloRow')}</span>
-              <button type="button" className="btn btn-ghost btn-small" onClick={() => { location.href = '/tv?solo=1'; }}>{t('soloBtn')}</button></div> : null}
           </div>
         </details>
         <button type="button" className="btn btn-primary" disabled={!can} onClick={onStart}>
@@ -110,6 +125,7 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
         </button>
         <div style={{ display: 'flex', gap: 'calc(1 * var(--u, 1vw))', flexWrap: 'wrap', justifyContent: 'center' }}>
           <button type="button" className="btn btn-ghost btn-small" onClick={onNewRoom}>{t('newRoom')}</button>
+          {!showBots ? <button type="button" className="btn btn-ghost btn-small" onClick={() => { location.href = '/tv?solo=1'; }}>{t('soloBtn')}</button> : null}
           <InstallTv t={t} />
           {inApp() ? <button type="button" className="btn btn-ghost btn-small" onClick={() => switchRole('graj')}>{t('thisIsPhone')}</button> : null}
         </div>
@@ -118,7 +134,7 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
   );
 }
 
-function Scoreboard({ room, t }) {
+function Scoreboard({ room, t, hostCue }) {
   const players = sortedPlayers(room);
   return (
     <aside className="tv-side">
@@ -131,12 +147,13 @@ function Scoreboard({ room, t }) {
           <span className="pts">{p.score || 0}</span>
         </div>
       ))}
+      <Prowadzacy room={room} cue={hostCue} />
     </aside>
   );
 }
 
 
-export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings, onStart, onAgain, onEnd, onNewRoom, minPlayers, lite, onForce, autoIn, showBots }) {
+export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings, onStart, onAgain, onEnd, onNewRoom, minPlayers, lite, onForce, autoIn, showBots, hostCue }) {
   const [confirmEnd, setConfirmEnd] = React.useState(false);
   const t = tr(room.lang || 'pl');
   const pl2 = t('pick2');
@@ -253,7 +270,7 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
         </div>
         <div className="tv-stage">{stage}</div>
       </div>
-      {room.state !== 'end' ? <Scoreboard room={room} t={t} /> : null}
+      {room.state !== 'end' ? <Scoreboard room={room} t={t} hostCue={hostCue} /> : <aside className="tv-side host-only"><Prowadzacy room={room} cue={hostCue} /></aside>}
     </div>
   );
 }

@@ -84,9 +84,15 @@ function playCloud(text, voice, lang, mood) {
   });
 }
 
+// Prowadzący na ekranie słucha tych zdarzeń: rusza ustami, gdy lektor mówi.
+function emit(on, opts) {
+  try { window.dispatchEvent(new CustomEvent('ol-speak', { detail: { on, mood: (opts && opts.mood) || '', enabled: !opts || opts.enabled !== false } })); } catch (e) { /* stare przeglądarki */ }
+}
+
 export async function speak(text, opts) {
   const enabled = !opts || opts.enabled !== false;
   if (enabled) musicDuck(true);
+  emit(true, opts);
   try {
     if (enabled && opts && opts.cloud !== false && typeof Audio !== 'undefined') {
       const started = Date.now();
@@ -100,6 +106,7 @@ export async function speak(text, opts) {
     return await speakBrowser(text, opts);
   } finally {
     if (enabled) musicDuck(false);
+    emit(false, opts);
   }
 }
 

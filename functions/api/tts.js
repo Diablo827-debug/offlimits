@@ -38,11 +38,15 @@ function direct(text, mood) {
     const body = text.replace(/⟦/g, () => { const t = first ? pick(EL_BEFORE, text) + ' ' : ''; first = false; return t; }).replace(/⟧/g, '');
     return body + ' ' + pick(EL_AFTER, text, 3);
   }
-  if (url.searchParams.get('dbg') === 'gm') return new Response('gemini: ' + lastGeminiError, { status: 200 });
   const plain = text.replace(/[⟦⟧]/g, '');
   if (mood === 'q') return pick(EL_Q, plain) + ' ' + plain;
   if (mood === 'w') return pick(EL_WIN, plain) + plain;
   if (mood === 's') return '[warmly] ' + plain + ' [chuckles]';
+  // Prowadzący – charakter: a absurdalny, s sarkastyczny, b bezczelny, c czarny humor
+  if (mood === 'ha') return '[excited] [silly voice] ' + plain + ' [giggles]';
+  if (mood === 'hs') return '[sarcastically] [deadpan] ' + plain + ' [sighs]';
+  if (mood === 'hb') return '[mischievously] [cocky] ' + plain + ' [laughs]';
+  if (mood === 'hc') return '[ominous] [darkly] ' + plain + ' [evil chuckle]';
   return plain;
 }
 
@@ -69,12 +73,20 @@ const G_STYLE = {
     a: 'Jesteś kumplem, który na imprezie czyta na głos kartę z głupią odpowiedzią i sam ledwo powstrzymuje śmiech. Przeczytaj początek normalnie, przed odpowiedzią zrób krótką pauzę dla efektu, puentę powiedz z niedowierzaniem i rozbawieniem, a na końcu parsknij albo zaśmiej się krótko. Ma być naturalnie, głupio i śmiesznie, nie sztywno.',
     w: 'Ogłoś zwycięzcę rundy radośnie i z przesadną pompą, jak rozbawiony prowadzący teleturnieju, ze śmiechem w głosie.',
     s: 'Powiedz to ciepło i z uśmiechem, luźno, jak kumpel na imprezie.',
+    ha: 'Jesteś kompletnie odklejonym, absurdalnym prowadzącym teleturnieju. Powiedz to z szaloną energią, dziwacznie, z przesadną emfazą i chichotem.',
+    hs: 'Jesteś sarkastycznym, błyskotliwym prowadzącym. Powiedz to z kamienną twarzą, kąśliwie, z ironicznym westchnieniem.',
+    hb: 'Jesteś bezczelnym prowadzącym, który prowokuje graczy. Powiedz to zadziornie, pewnie siebie, z łobuzerskim śmiechem.',
+    hc: 'Jesteś mrocznym prowadzącym z czarnym humorem. Powiedz to powoli, złowieszczo, cynicznie, z cichym, złym chichotem.',
   },
   en: {
     q: 'You are an amused host of a party card game among friends. Read the question casually and naturally, with mischievous curiosity, like you are already smirking. Never stiff.',
     a: 'You are a friend at a party reading a silly card out loud and barely holding back laughter. Read the start normally, pause briefly before the answer for effect, deliver the punchline with amused disbelief, then snort or laugh briefly. Natural, silly and funny, not stiff.',
     w: 'Announce the round winner joyfully with exaggerated pomp, like an amused game-show host, laughing a little.',
     s: 'Say it warmly and with a smile, casually, like a friend at a party.',
+    ha: 'You are a completely unhinged, absurd game-show host. Say it with crazy energy, weirdly, with exaggerated emphasis and a giggle.',
+    hs: 'You are a sarcastic, witty host. Say it deadpan and biting, with an ironic sigh.',
+    hb: 'You are a cheeky host who provokes the players. Say it cocky and teasing, with a mischievous laugh.',
+    hc: 'You are a dark-humoured host. Say it slowly, ominously, cynically, with a quiet evil chuckle.',
   },
 };
 G_STYLE.es = G_STYLE.en; G_STYLE.el = G_STYLE.en;
@@ -111,7 +123,7 @@ export async function onRequestGet({ request, env, waitUntil }) {
   const voice = url.searchParams.get('v') || DEFAULT_VOICE;
   if (!text || !/^(pl-PL|en-US|es-ES|el-GR)-[A-Za-z0-9-]+$/.test(voice)) return new Response('Zły parametr', { status: 400 });
 
-  const mood = /^[qaws]$/.test(url.searchParams.get('m') || '') ? url.searchParams.get('m') : '';
+  const mood = /^([qaws]|h[asbc])$/.test(url.searchParams.get('m') || '') ? url.searchParams.get('m') : '';
   const cache = caches.default;
   const headers = { 'Content-Type': 'audio/mpeg', 'Cache-Control': 'public, max-age=31536000' };
 
