@@ -291,3 +291,9 @@ html.tv-portrait .host.big .host-bubble { left: auto; right: calc(3 * var(--u));
 .tv.with-host .side-title { font-size: calc(.95 * var(--u, 1vw)); letter-spacing: .15em; }
 /* Dół postaci łagodnie znika (klatki bywają ucięte w pasie). */
 .host-img { -webkit-mask-image: linear-gradient(to bottom, #000 78%, transparent 99%); mask-image: linear-gradient(to bottom, #000 78%, transparent 99%); }
+
+/* Prowadzący jako animacja wideo: tło klipu wtapia się w ekran przez miękką maskę. */
+.host-vids { position: relative; width: 100%; flex: 1 1 auto; min-height: 0; max-height: calc(30 * var(--u, 1vw)); }
+.host.big .host-vids { max-height: none; height: 100%; }
+.host-vid { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: bottom; opacity: 0; transition: opacity .25s ease; -webkit-mask-image: linear-gradient(to right, transparent, #000 15%, #000 85%, transparent), linear-gradient(to bottom, transparent, #000 12%); -webkit-mask-composite: source-in; mask-image: linear-gradient(to right, transparent, #000 15%, #000 85%, transparent), linear-gradient(to bottom, transparent, #000 12%); mask-composite: intersect; }
+.host-vid.on { opacity: 1; }

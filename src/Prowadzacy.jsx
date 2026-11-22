@@ -19,9 +19,41 @@ function checkFrames() {
 
 // Czy klatki postaci są wgrane (bez nich zostaje stary układ ekranu z dymkiem w kolumnie wyników).
 export function useHostFrames() {
-  const [ok, setOk] = React.useState(available);
-  React.useEffect(() => { checkFrames().then(setOk); }, []);
+  const [ok, setOk] = React.useState(available || videoOk);
+  React.useEffect(() => { Promise.all([checkFrames(), checkVideo()]).then(([f, v]) => setOk(f || v)); }, []);
   return !!ok;
+}
+
+// Animacje wideo (lepsze niż klatki): public/prowadzacy/wideo/<klip>.mp4
+export const CLIPS = ['idle', 'talk', 'read', 'laugh', 'shocked', 'smug', 'evil', 'bored', 'happy', 'crazy'];
+const clipSrc = (c) => '/prowadzacy/wideo/' + c + '.mp4';
+let videoOk = null;
+function checkVideo() {
+  if (videoOk !== null) return Promise.resolve(videoOk);
+  return fetch(clipSrc('idle'), { method: 'HEAD' })
+    .then((r) => { videoOk = r.ok && /^video\//.test(r.headers.get('content-type') || ''); return videoOk; })
+    .catch(() => { videoOk = false; return false; });
+}
+const EMO_CLIP = { neutral: 'idle', happy: 'happy', laugh: 'laugh', smug: 'smug', shocked: 'shocked', evil: 'evil', bored: 'bored', crazy: 'crazy', card: 'read' };
+
+// Dwa odtwarzacze na zmianę – nowy klip pojawia się płynnie nad starym.
+function VideoHost({ clip }) {
+  const a = React.useRef(null);
+  const b = React.useRef(null);
+  const [front, setFront] = React.useState(0);
+  const cur = React.useRef('');
+  React.useEffect(() => {
+    if (cur.current === clip) return;
+    cur.current = clip;
+    const next = front === 0 ? b.current : a.current;
+    if (!next) return;
+    const show = () => { next.removeEventListener('canplay', show); setFront((f) => (f === 0 ? 1 : 0)); try { next.play(); } catch (e) { /* nic */ } };
+    next.addEventListener('canplay', show);
+    next.src = clipSrc(clip);
+    next.load();
+  }, [clip]); // eslint-disable-line react-hooks/exhaustive-deps
+  const v = (r, i) => <video ref={r} className={'host-vid' + (front === i ? ' on' : '')} muted playsInline loop autoPlay preload="auto" />;
+  return <div className="host-vids">{v(a, 0)}{v(b, 1)}</div>;
 }
 
 function baseEmo(room, stageAt) {
@@ -46,6 +78,8 @@ export default function Prowadzacy({ room, cue, compact, big }) {
   const key = room.state + '-' + room.round;
   if (stage.current.key !== key) stage.current = { key, at: Date.now() };
 
+  const [vid, setVid] = React.useState(videoOk);
+  React.useEffect(() => { checkVideo().then(setVid); }, []);
   React.useEffect(() => {
     checkFrames().then((v) => {
       setOk(v);
@@ -93,11 +127,13 @@ export default function Prowadzacy({ room, cue, compact, big }) {
   if (now < laughUntil) emo = 'laugh';
   if (cueOn && (talk || now - cue.at < 2500)) emo = cue.emo;
   const frame = talk && open ? 'o' : blink ? 'b' : 'c';
+  let clip = EMO_CLIP[emo] || 'idle';
+  if (talk && !(talk.mood === 'q' || talk.mood === 'a')) clip = ['laugh', 'shocked', 'evil', 'crazy', 'smug'].indexOf(clip) >= 0 && cueOn ? clip : 'talk';
 
   return (
     <div className={'host' + (big ? ' big' : '') + (compact ? ' compact' : '') + (talk ? ' talking' : '') + (emo === 'laugh' ? ' laughing' : '')}>
       {cueOn ? <div className="host-bubble" key={cue.at}>{cue.text}</div> : null}
-      {ok ? <img className="host-img" src={src(emo, frame)} alt="" draggable="false" /> : null}
+      {vid ? <VideoHost clip={clip} /> : ok ? <img className="host-img" src={src(emo, frame)} alt="" draggable="false" /> : null}
     </div>
   );
 }
