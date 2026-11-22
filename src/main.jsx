@@ -120,6 +120,16 @@ async function boot() {
   else if (path === '/glosy') El = Voices;
   else if (path === '/start') El = () => <Home remember />;
   else El = Home;
+  // Jednostka --u: ekran TV skaluje się do mniejszego z wymiarów (16:9), więc nic nie ucieka przy 4:3, 21:9 ani po obróceniu.
+  const fit = () => {
+    const w = window.innerWidth, h = window.innerHeight, root = document.documentElement;
+    const portrait = h > w * 1.05;
+    root.classList.toggle('tv-portrait', portrait);
+    root.style.setProperty('--u', (portrait ? w / 52 : Math.min(w, h * 16 / 9) / 100) + 'px');
+  };
+  fit();
+  window.addEventListener('resize', fit);
+  window.addEventListener('orientationchange', () => setTimeout(fit, 250));
   createRoot(document.getElementById('root')).render(<El />);
 }
 boot();

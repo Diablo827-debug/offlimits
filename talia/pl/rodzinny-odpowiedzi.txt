@@ -1,0 +1,1521 @@
+# OFFLIMITS – ODPOWIEDZI (białe karty) · Rodzinny (dla wszystkich) · język: pl
+#
+# Jedna linijka = jedna karta. Format:   ID | tekst karty
+#  • Edycja: popraw tekst po znaku „|”. ID zostaw bez zmian.
+#  • Usunięcie: postaw minus na początku linijki, np.   - R-B0001 | tekst
+#  • Nowa karta: dopisz samą treść w nowej linijce (bez ID) – numer nada się sam.
+#  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
+#  • Linijki zaczynające się od # to komentarze – gra je pomija.
+#
+R-B0001 | Pilot od telewizora, którego nikt nie może znaleźć.
+R-B0002 | Ciocia pytająca, kiedy ślub.
+R-B0003 | Ostatni pieróg.
+R-B0004 | Skarpetki do sandałów.
+R-B0005 | Rodzinna grupa na WhatsAppie.
+R-B0006 | Wujek, który zna się na wszystkim.
+R-B0007 | Zapasowy klucz pod wycieraczką.
+R-B0008 | Pies sąsiada.
+R-B0009 | Wieczne „zaraz”.
+R-B0010 | Zgubić telefon i godność.
+R-B0011 | Taniec belgijski na weselu.
+R-B0012 | Rosół w niedzielę o 13:00.
+R-B0013 | Słoik ogórków od babci.
+R-B0014 | Reklamówka z reklamówkami.
+R-B0015 | Kot na klawiaturze.
+R-B0016 | Zdjęcie z wakacji z 2009 roku.
+R-B0017 | Mandat za parkowanie.
+R-B0018 | Ładowarka, która działa tylko pod kątem.
+R-B0019 | Kanapa rozłożona od wczoraj.
+R-B0020 | Teściowa z niezapowiedzianą wizytą.
+R-B0021 | Kolejka do łazienki.
+R-B0022 | Hasło do Wi-Fi przyklejone do lodówki.
+R-B0023 | Dziadek opowiadający o wojsku.
+R-B0024 | Szukać okularów, które ma się na głowie.
+R-B0025 | Gumowy kurczak.
+R-B0026 | Sernik, który się nie udał.
+R-B0027 | Kapcie dla gości.
+R-B0028 | Lody o smaku ogórka.
+R-B0029 | Majówka w deszczu.
+R-B0030 | Sąsiad z wiertarką w niedzielę rano.
+R-B0031 | Tajny przepis babci.
+R-B0032 | Zasnąć po 5 minutach filmu.
+R-B0033 | Sweter z reniferem.
+R-B0034 | Kłótnia o pilota.
+R-B0035 | Za mała walizka.
+R-B0036 | Nawigacja, która ciągle mówi „zawróć”.
+R-B0037 | Fajerwerki w lipcu.
+R-B0038 | Pierwszy post taty na Facebooku.
+R-B0039 | Dmuchany flaming.
+R-B0040 | Lepienie pierogów całą rodziną.
+R-B0041 | Wieczne „za moich czasów”.
+R-B0042 | Krzesło, na którym leżą ubrania.
+R-B0043 | Kebab o 2 w nocy.
+R-B0044 | Ślimak w sałacie.
+R-B0045 | Laurka zrobiona własnoręcznie.
+R-B0046 | Wujek grillmistrz.
+R-B0047 | Przypalona jajecznica.
+R-B0048 | Pudełko po ciastkach pełne nici.
+R-B0049 | Rowerek stacjonarny jako wieszak.
+R-B0050 | Pomidorowa z wczorajszego rosołu.
+R-B0051 | Podkradanie frytek.
+R-B0052 | Zegar w piekarniku mrugający 00:00.
+R-B0053 | „Sto lat” w trzech tonacjach naraz.
+R-B0054 | Wyjazd z parkingu pod galerią w grudniu.
+R-B0055 | Pies w sweterku.
+R-B0056 | Spór o to, kto wygrał w Chińczyka w 1998.
+R-B0057 | Opalenizna tylko na jednej ręce.
+R-B0058 | Zapomniane hasło do wszystkiego.
+R-B0059 | Kuzyn, który „robi w kryptowalutach”.
+R-B0060 | Telewizor na cały regulator, bo dziadek nie słyszy.
+R-B0061 | Babcia na TikToku.
+R-B0062 | Ciepłe mleko z kożuchem.
+R-B0063 | Śledź w trzech smakach.
+R-B0064 | Karp w wannie.
+R-B0065 | Opłatek, który wszyscy łamią krzywo.
+R-B0066 | Dwunasta potrawa wigilijna, której nikt nie je.
+R-B0067 | Choinka, która przewróciła się sama.
+R-B0068 | Lampki, z których świeci połowa.
+R-B0069 | Prezent zapakowany w gazetę.
+R-B0070 | Skarpetki od cioci, znowu.
+R-B0071 | Mikołaj z doklejaną brodą.
+R-B0072 | Wujek przebrany za Mikołaja.
+R-B0073 | Sylwester przed telewizorem.
+R-B0074 | Pierwszy dzień diety po świętach.
+R-B0075 | Jajko z wydmuszki.
+R-B0076 | Śmigus-dyngus z wiadrem.
+R-B0077 | Koszyczek ze święconką.
+R-B0078 | Baranek z masła.
+R-B0079 | Kolorowe pisanki z wosku.
+R-B0080 | Babka, która opadła.
+R-B0081 | Mazurek z napisem „Alleluja”.
+R-B0082 | Szarlotka babci.
+R-B0083 | Kompot z suszu.
+R-B0084 | Bigos odgrzewany piąty raz.
+R-B0085 | Pączek z różą w tłusty czwartek.
+R-B0086 | Pierniki twarde jak cegła.
+R-B0087 | Barszcz z uszkami.
+R-B0088 | Kutia, której nikt nie rozumie.
+R-B0089 | Makowiec z dużą ilością rodzynek.
+R-B0090 | Mielony jak u mamy.
+R-B0091 | Schabowy wielkości talerza.
+R-B0092 | Mizeria.
+R-B0093 | Ziemniaki z koperkiem.
+R-B0094 | Kotlet sojowy udający mięso.
+R-B0095 | Zupa, która „sama się zrobiła”.
+R-B0096 | Kisiel z proszku.
+R-B0097 | Budyń z kożuchem.
+R-B0098 | Pierogi ruskie.
+R-B0099 | Gołąbki w słoiku.
+R-B0100 | Kanapka z keczupem.
+R-B0101 | Parówki na śniadanie.
+R-B0102 | Jajecznica z dziewięciu jaj.
+R-B0103 | Placki ziemniaczane.
+R-B0104 | Naleśniki z dżemem.
+R-B0105 | Kopiec frytek.
+R-B0106 | Pizza z ananasem.
+R-B0107 | Zapiekanka z budki.
+R-B0108 | Lody na patyku z kiosku.
+R-B0109 | Oranżada w proszku.
+R-B0110 | Guma z historyjką w środku.
+R-B0111 | Chrupki kukurydziane.
+R-B0112 | Wafelek w złotku.
+R-B0113 | Paluszki w słoiku.
+R-B0114 | Herbata z cytryną i trzema łyżeczkami cukru.
+R-B0115 | Kawa z ekspresu, który hałasuje jak traktor.
+R-B0116 | Woda gazowana, która już nie jest gazowana.
+R-B0117 | Lemoniada z cytryn sąsiada.
+R-B0118 | Ciasto, które upadło na podłogę.
+R-B0119 | Tort w kształcie samochodu.
+R-B0120 | Świeczki, które się nie gasną.
+R-B0121 | Ostatni kawałek pizzy.
+R-B0122 | Konserwa turystyczna.
+R-B0123 | Słoik kremu czekoladowego zjedzony łyżką.
+R-B0124 | Kanapka z ogórkiem na wycieczce.
+R-B0125 | Jabłko z sadu dziadka.
+R-B0126 | Truskawki z działki.
+R-B0127 | Cukinia wielkości psa.
+R-B0128 | Ogórki małosolne.
+R-B0129 | Grzybobranie o świcie.
+R-B0130 | Prawdziwek, który okazał się muchomorem.
+R-B0131 | Działka za miastem.
+R-B0132 | Altanka z dzikim winem.
+R-B0133 | Krasnal ogrodowy.
+R-B0134 | Kosiarka, która nie chce zapalić.
+R-B0135 | Grill na węgiel, który nie chce się rozpalić.
+R-B0136 | Hamak między dwiema brzozami.
+R-B0137 | Basen ogrodowy z liśćmi.
+R-B0138 | Zraszacz, który zawsze trafia w ludzi.
+R-B0139 | Kret pod trawnikiem.
+R-B0140 | Pomidory na balkonie.
+R-B0141 | Kaktus, który przeżył wszystko.
+R-B0142 | Storczyk mamy.
+R-B0143 | Paprotka babci.
+R-B0144 | Fikus, który rośnie od 1987 roku.
+R-B0145 | Kot śpiący w doniczce.
+R-B0146 | Pies, który zjadł kapcia.
+R-B0147 | Chomik uciekinier.
+R-B0148 | Złota rybka, która nie spełnia życzeń.
+R-B0149 | Papuga, która mówi tylko brzydkie słowa.
+R-B0150 | Żółw, który mieszka z nami od 30 lat.
+R-B0151 | Kot, który udaje, że nie słyszy.
+R-B0152 | Pies, który boi się odkurzacza.
+R-B0153 | Kot sąsiadów, który stołuje się u nas.
+R-B0154 | Gołębie na parapecie.
+R-B0155 | Biedronka na szybie.
+R-B0156 | Pająk w wannie.
+R-B0157 | Komar o 3 w nocy.
+R-B0158 | Mysz w spiżarni.
+R-B0159 | Bocian na kominie.
+R-B0160 | Kaczki w parku.
+R-B0161 | Wiewiórka, która kradnie orzechy.
+R-B0162 | Jeż w ogródku.
+R-B0163 | Kot śpiący na pranie.
+R-B0164 | Pies szczekający na swój ogon.
+R-B0165 | Spacer z psem w deszczu.
+R-B0166 | Wizyta u weterynarza.
+R-B0167 | Kocia kuweta.
+R-B0168 | Sierść na każdym swetrze.
+R-B0169 | Smycz zaplątana wokół nóg.
+R-B0170 | Akwarium, które trzeba wyczyścić.
+R-B0171 | Klatka dla świnki morskiej.
+R-B0172 | Świnka morska, która piszczy na lodówkę.
+R-B0173 | Kanarek w klatce.
+R-B0174 | Ser w pułapce na mysz.
+R-B0175 | Odkurzacz, który wciągnął skarpetkę.
+R-B0176 | Robot sprzątający, który utknął pod łóżkiem.
+R-B0177 | Pralka, która skacze po łazience.
+R-B0178 | Zmywarka, którą trzeba umyć.
+R-B0179 | Lodówka pełna jedzenia, w której nie ma nic do jedzenia.
+R-B0180 | Mikrofalówka z niespodzianką.
+R-B0181 | Toster, który pali wszystko.
+R-B0182 | Czajnik z kamieniem.
+R-B0183 | Szuflada pełna kabli.
+R-B0184 | Szuflada pełna długopisów, które nie piszą.
+R-B0185 | Gumka recepturka.
+R-B0186 | Klej, który klei wszystko oprócz tego, co trzeba.
+R-B0187 | Taśma klejąca, której koniec zniknął.
+R-B0188 | Śrubka, która została po skręceniu szafy.
+R-B0189 | Instrukcja po szwedzku.
+R-B0190 | Szafa ze sklepu meblowego.
+R-B0191 | Klucz imbusowy.
+R-B0192 | Młotek dziadka.
+R-B0193 | Wiertarka wujka.
+R-B0194 | Skrzynka z narzędziami, w której brakuje narzędzi.
+R-B0195 | Żarówka, która przepala się co tydzień.
+R-B0196 | Bezpiecznik, który wywala przy czajniku.
+R-B0197 | Kran, który kapie od lat.
+R-B0198 | Drzwi, które skrzypią.
+R-B0199 | Okno, które nie chce się domknąć.
+R-B0200 | Dzwonek do drzwi grający „Dla Elizy”.
+R-B0201 | Domofon, który nie działa.
+R-B0202 | Winda, która staje między piętrami.
+R-B0203 | Sąsiad z góry, który chyba ćwiczy step.
+R-B0204 | Piwnica pełna rupieci.
+R-B0205 | Strych pełen tajemnic.
+R-B0206 | Garaż, w którym nie ma miejsca na auto.
+R-B0207 | Wycieraczka z napisem „Witaj”.
+R-B0208 | Firanki babci.
+R-B0209 | Meblościanka z PRL-u.
+R-B0210 | Kryształowy wazon na meblościance.
+R-B0211 | Dywan na ścianie.
+R-B0212 | Kanapa przykryta folią.
+R-B0213 | Fotel taty, na którym nikt inny nie siada.
+R-B0214 | Telewizor kineskopowy w piwnicy.
+R-B0215 | Radio z anteną z wieszaka.
+R-B0216 | Magnetowid.
+R-B0217 | Kaseta przewinięta ołówkiem.
+R-B0218 | Płyta CD jako podkładka pod kubek.
+R-B0219 | Telefon stacjonarny babci.
+R-B0220 | Książka telefoniczna.
+R-B0221 | Kalendarz z 2019 roku.
+R-B0222 | Zegar z kukułką.
+R-B0223 | Budzik, który dzwoni o 5:30.
+R-B0224 | Lampka nocna w kształcie księżyca.
+R-B0225 | Koc z owczej wełny, który drapie.
+R-B0226 | Poduszka, na której śpi kot.
+R-B0227 | Kołdra, która nie chce wejść do poszewki.
+R-B0228 | Piżama w misie.
+R-B0229 | Kapcie z pomponami.
+R-B0230 | Szlafrok taty.
+R-B0231 | Kurtka, której nikt nie odbiera z szatni.
+R-B0232 | Parasol zostawiony w autobusie.
+R-B0233 | Rękawiczka bez pary.
+R-B0234 | Czapka z pomponem od babci.
+R-B0235 | Szalik dziergany przez ciocię.
+R-B0236 | Kalosze w kaczuszki.
+R-B0237 | Buty, które cisną.
+R-B0238 | Sznurówka, która ciągle się rozwiązuje.
+R-B0239 | Babcia, która wie wszystko o wszystkich.
+R-B0240 | Dziadek śpiący w fotelu z otwartymi ustami.
+R-B0241 | Mama w trybie „sprzątamy przed gośćmi”.
+R-B0242 | Tata czytający instrukcję dopiero po fakcie.
+R-B0243 | Młodszy brat z lepkimi rękami.
+R-B0244 | Starsza siostra w łazience od godziny.
+R-B0245 | Kuzynka, która wszystko nagrywa telefonem.
+R-B0246 | Ciocia, która płacze na każdym weselu.
+R-B0247 | Wujek opowiadający ten sam dowcip od 20 lat.
+R-B0248 | Pradziadek, który pamięta wojnę i Gierka.
+R-B0249 | Chrzestny z kopertą.
+R-B0250 | Chrzestna, która zawsze przywozi ciasto.
+R-B0251 | Teść, który wie, jak lepiej.
+R-B0252 | Szwagier z nowym samochodem.
+R-B0253 | Bratowa wegetarianka na świniobiciu.
+R-B0254 | Daleka rodzina, której nikt nie zna.
+R-B0255 | Kuzyn z Anglii, który zapomniał polskiego.
+R-B0256 | Rodzeństwo w wiecznej wojnie.
+R-B0257 | Bliźniaki, których nikt nie odróżnia.
+R-B0258 | Najmłodszy wnuk, któremu wszystko wolno.
+R-B0259 | Pierworodny z przywilejami.
+R-B0260 | Rodzinne drzewo genealogiczne narysowane kredkami.
+R-B0261 | Zjazd rodzinny na sto osób.
+R-B0262 | Rodzinny obiad w ciszy przerywanej mlaskaniem.
+R-B0263 | Wspólne zdjęcie, na którym ktoś zawsze mruga.
+R-B0264 | Rodzinny spór o spadek po kanapie.
+R-B0265 | Mama, która dzwoni 5 razy dziennie.
+R-B0266 | Tata, który odpisuje „OK.” z kropką.
+R-B0267 | Babcia, która wysyła łańcuszki.
+R-B0268 | Dziadek, który pisze SMS-y wielkimi literami.
+R-B0269 | Wujek, który komentuje wszystko na Facebooku.
+R-B0270 | Ciocia, która dzwoni na wideo z ucha.
+R-B0271 | Rodzinny kalendarz na lodówce.
+R-B0272 | Lista zakupów, której nikt nie bierze do sklepu.
+R-B0273 | Kartka „Wrócę za 5 minut”.
+R-B0274 | Notatka „Nie ruszać!” na jedzeniu w lodówce.
+R-B0275 | Kieszonkowe wypłacane w drobnych.
+R-B0276 | Skarbonka w kształcie świnki.
+R-B0277 | Moneta znaleziona w kanapie.
+R-B0278 | Kupon na darmową kawę, który wygasł wczoraj.
+R-B0279 | Paragon długi jak rolka papieru.
+R-B0280 | Promocja „drugi gratis”.
+R-B0281 | Wózek sklepowy z krzywym kółkiem.
+R-B0282 | Kolejka do jednej czynnej kasy.
+R-B0283 | Kasa samoobsługowa, która woła obsługę.
+R-B0284 | Gazetka promocyjna babci.
+R-B0285 | Polowanie na wyprzedaże.
+R-B0286 | Bon na zakupy od szefa.
+R-B0287 | Zakupy na święta 23 grudnia.
+R-B0288 | Torba z zakupami, która pęka przed domem.
+R-B0289 | Jajka rozbite w torbie.
+R-B0290 | Mleko, które się przeterminowało dzień temu.
+R-B0291 | Chleb sprzed tygodnia.
+R-B0292 | Bułka, która zmieniła się w kamień.
+R-B0293 | Szkoła w poniedziałek o 7:10.
+R-B0294 | Dzwonek na przerwę.
+R-B0295 | Sprawdzian z zaskoczenia.
+R-B0296 | Kartkówka, o której nikt nie wiedział.
+R-B0297 | Zeszyt w kratkę.
+R-B0298 | Piórnik z dwoma piętrami.
+R-B0299 | Plecak cięższy niż uczeń.
+R-B0300 | Kanapka zgnieciona w plecaku.
+R-B0301 | Uwaga w dzienniku.
+R-B0302 | Jedynka z matematyki.
+R-B0303 | Szóstka z w-fu.
+R-B0304 | Świadectwo z paskiem.
+R-B0305 | Zwolnienie z w-fu na całe życie.
+R-B0306 | Wychowawczyni z gwizdkiem.
+R-B0307 | Pan od fizyki, który eksploduje.
+R-B0308 | Pani od polskiego z czerwonym długopisem.
+R-B0309 | Woźny, który wie wszystko.
+R-B0310 | Szkolna stołówka w piątek.
+R-B0311 | Mielony ze stołówki.
+R-B0312 | Sklepik szkolny z drożdżówkami.
+R-B0313 | Szkolny apel na mrozie.
+R-B0314 | Akademia z okazji dnia matki.
+R-B0315 | Jasełka, w których byłem osiołkiem.
+R-B0316 | Strój galowy.
+R-B0317 | Biała koszula z plamą od keczupu.
+R-B0318 | Dzień bez mundurka.
+R-B0319 | Wycieczka do Wieliczki.
+R-B0320 | Wycieczka do Krakowa, na której padał deszcz.
+R-B0321 | Zielona szkoła.
+R-B0322 | Kolonie nad morzem.
+R-B0323 | Obóz harcerski.
+R-B0324 | Ognisko z kiełbaskami.
+R-B0325 | Spanie pod namiotem w ulewie.
+R-B0326 | Mapa, której nikt nie umie złożyć.
+R-B0327 | Kompas, który pokazuje zawsze na lodówkę.
+R-B0328 | Plecak pełen batonów.
+R-B0329 | Termos z herbatą.
+R-B0330 | Kanapki z jajkiem w autokarze.
+R-B0331 | Autokar, w którym wszystkich mdli.
+R-B0332 | Śpiewanie w autokarze.
+R-B0333 | Pani przewodnik z parasolką.
+R-B0334 | Pamiątka z Zakopanego.
+R-B0335 | Ciupaga z Krupówek.
+R-B0336 | Oscypek z budki.
+R-B0337 | Magnes na lodówkę z każdego miasta.
+R-B0338 | Muszelki z Bałtyku.
+R-B0339 | Parawan na plaży.
+R-B0340 | Gofry z bitą śmietaną.
+R-B0341 | Rybka w budce nad morzem.
+R-B0342 | Zimne morze w lipcu.
+R-B0343 | Kamyk w bucie.
+R-B0344 | Krem z filtrem, którego nikt nie użył.
+R-B0345 | Spieczony nos.
+R-B0346 | Zgubione klapki.
+R-B0347 | Zamek z piasku.
+R-B0348 | Mewa, która ukradła frytki.
+R-B0349 | Lody, które kapią na koszulkę.
+R-B0350 | Wiatr, który porwał parasol.
+R-B0351 | Molo w Sopocie.
+R-B0352 | Kolejka linowa na Kasprowy.
+R-B0353 | Szlak, który okazał się dłuższy, niż mówił tata.
+R-B0354 | Schronisko z szarlotką.
+R-B0355 | Burza w górach.
+R-B0356 | Kijki do nordic walkingu.
+R-B0357 | Rower z koszykiem.
+R-B0358 | Rower bez powietrza w kole.
+R-B0359 | Hulajnoga po starszym bracie.
+R-B0360 | Rolki z czasów podstawówki.
+R-B0361 | Sanki na pierwszym śniegu.
+R-B0362 | Bałwan z marchewką.
+R-B0363 | Bitwa na śnieżki.
+R-B0364 | Lodowisko w parku.
+R-B0365 | Odśnieżanie auta o 6 rano.
+R-B0366 | Skrobaczka do szyb.
+R-B0367 | Zimowe opony na wiosnę.
+R-B0368 | Samochód taty, który „jeszcze pociągnie”.
+R-B0369 | Fiat 126p dziadka.
+R-B0370 | Klimatyzacja, która dmucha tylko w kierowcę.
+R-B0371 | Choinka zapachowa w aucie.
+R-B0372 | Korek na zakopiance.
+R-B0373 | Postój na stacji benzynowej.
+R-B0374 | Hot dog ze stacji.
+R-B0375 | „Daleko jeszcze?”
+R-B0376 | Dzieci kłócące się na tylnym siedzeniu.
+R-B0377 | Pies, który wymiotuje w samochodzie.
+R-B0378 | Bagażnik, który się nie domyka.
+R-B0379 | Tata, który nie zatrzyma się na siku.
+R-B0380 | Parkowanie równoległe mamy.
+R-B0381 | Prawo jazdy zdane za piątym razem.
+R-B0382 | Instruktor jazdy z nerwami ze stali.
+R-B0383 | Fotoradar.
+R-B0384 | Policjant z suszarką.
+R-B0385 | Rondo, z którego nie da się zjechać.
+R-B0386 | Mapa samochodowa z 1995 roku.
+R-B0387 | Szyberdach.
+R-B0388 | Kaseta z disco polo w samochodzie.
+R-B0389 | Radio, które łapie tylko jedną stację.
+R-B0390 | Pociąg, który się spóźnia.
+R-B0391 | Bilet, którego nikt nie skasował.
+R-B0392 | Kontroler biletów.
+R-B0393 | Autobus, który odjechał przed czasem.
+R-B0394 | Przystanek w szczerym polu.
+R-B0395 | Tramwaj pełen ludzi.
+R-B0396 | Rowerzysta na chodniku.
+R-B0397 | Hulajnoga elektryczna na środku drogi.
+R-B0398 | Pies na rowerze.
+R-B0399 | Smartfon babci w etui z klapką.
+R-B0400 | Ekran pełen rys.
+R-B0401 | Bateria 1%.
+R-B0402 | Powiadomienie o aktualizacji.
+R-B0403 | Gra na telefonie, która zjadła wszystkie dane.
+R-B0404 | Selfie z babcią.
+R-B0405 | Filtr z psimi uszami.
+R-B0406 | Zdjęcie jedzenia przed jedzeniem.
+R-B0407 | Wideorozmowa z dziadkiem, który pokazuje sufit.
+R-B0408 | Rodzinne zdjęcie na wygaszaczu ekranu.
+R-B0409 | Laptop, który robi się gorący jak piekarnik.
+R-B0410 | Drukarka, która nie drukuje, gdy trzeba.
+R-B0411 | Wi-Fi, które działa tylko w kuchni.
+R-B0412 | Router, który trzeba zresetować.
+R-B0413 | Tablet z bajkami.
+R-B0414 | Konsola pod choinką.
+R-B0415 | Pad z lepkimi przyciskami.
+R-B0416 | Gra planszowa bez połowy pionków.
+R-B0417 | Puzzle bez ostatniego elementu.
+R-B0418 | Kostka Rubika, której nikt nie ułożył.
+R-B0419 | Domino ułożone przez cały pokój.
+R-B0420 | Kalambury z dziadkiem.
+R-B0421 | Państwa-miasta na literę X.
+R-B0422 | Rodzinny turniej w karty.
+R-B0423 | Babcia, która oszukuje w remika.
+R-B0424 | Chińczyk, w którym nikt nie umie przegrywać.
+R-B0425 | Warcaby z nakrętkami zamiast pionków.
+R-B0426 | Szachy, w które gra tylko dziadek.
+R-B0427 | Zabawa w chowanego, w której wszyscy o mnie zapomnieli.
+R-B0428 | Berek na podwórku.
+R-B0429 | Gra w gumę.
+R-B0430 | Klasy narysowane kredą.
+R-B0431 | Trzepak.
+R-B0432 | Huśtawka, która skrzypi.
+R-B0433 | Piaskownica z kotem.
+R-B0434 | Domek na drzewie.
+R-B0435 | Szałas z koców w salonie.
+R-B0436 | Bitwa na poduszki.
+R-B0437 | Wyścigi ślimaków.
+R-B0438 | Puszczanie latawca.
+R-B0439 | Bańki mydlane.
+R-B0440 | Pistolet na wodę.
+R-B0441 | Balon, który pękł w samochodzie.
+R-B0442 | Klaun na urodzinach.
+R-B0443 | Malowanie twarzy na festynie.
+R-B0444 | Wata cukrowa.
+R-B0445 | Karuzela na odpuście.
+R-B0446 | Strzelnica z plastikowymi różami.
+R-B0447 | Lunapark.
+R-B0448 | Diabelski młyn.
+R-B0449 | Cyrk bez zwierząt.
+R-B0450 | Pokaz iluzjonisty.
+R-B0451 | Kino w plenerze.
+R-B0452 | Popcorn wszędzie na kanapie.
+R-B0453 | Seans bajki po raz setny.
+R-B0454 | Ten sam film na święta co roku.
+R-B0455 | Piosenka, której nie można wyrzucić z głowy.
+R-B0456 | Disco polo na weselu.
+R-B0457 | Orkiestra weselna grająca największy hit disco polo.
+R-B0458 | Pociąg na weselu.
+R-B0459 | Oczepiny.
+R-B0460 | Rzucanie welonem.
+R-B0461 | Wódka z kompotem.
+R-B0462 | Wujek tańczący z krzesłem.
+R-B0463 | Babcia na parkiecie do 4 rano.
+R-B0464 | Tort weselny wjeżdżający z fontanną.
+R-B0465 | Poprawiny.
+R-B0466 | Koperty w koszyku.
+R-B0467 | Fotobudka z wąsami na patyku.
+R-B0468 | DJ, który puszcza tylko lata 80.
+R-B0469 | Sala weselna z kryształowymi żyrandolami.
+R-B0470 | Komunia z rowerem w prezencie.
+R-B0471 | Chrzciny z tortem w kształcie bucika.
+R-B0472 | Osiemnastka w remizie.
+R-B0473 | Imieniny z galaretką.
+R-B0474 | Udawać, że się śpi, kiedy mama sprząta.
+R-B0475 | Zjeść deser przed obiadem.
+R-B0476 | Wylać sok na nowy dywan.
+R-B0477 | Zasnąć w szkole na lekcji historii.
+R-B0478 | Zgubić się w supermarkecie.
+R-B0479 | Pomylić sól z cukrem.
+R-B0480 | Pomachać do kogoś, kto machał do kogoś innego.
+R-B0481 | Powiedzieć „wzajemnie” kelnerowi, który życzy smacznego.
+R-B0482 | Szukać kluczy, które ma się w ręce.
+R-B0483 | Wejść do pokoju i zapomnieć po co.
+R-B0484 | Wysłać SMS do mamy zamiast do kolegi.
+R-B0485 | Kichnąć dziesięć razy z rzędu.
+R-B0486 | Potknąć się na prostej drodze.
+R-B0487 | Śpiewać pod prysznicem.
+R-B0488 | Tańczyć, kiedy nikt nie patrzy.
+R-B0489 | Rozmawiać z kotem jak z człowiekiem.
+R-B0490 | Zjeść całą paczkę chipsów „przez przypadek”.
+R-B0491 | Obudzić się minutę przed budzikiem.
+R-B0492 | Pociągnąć drzwi z napisem „pchać”.
+R-B0493 | Pomachać do kamery w telewizji.
+R-B0494 | Udawać, że rozumie się żart.
+R-B0495 | Wołać psa, który udaje, że nie słyszy.
+R-B0496 | Wrzucić czerwoną skarpetkę do białego prania.
+R-B0497 | Usiąść na okularach.
+R-B0498 | Zgubić drugi but.
+R-B0499 | Przespać przystanek.
+R-B0500 | Przytulić drzewo.
+R-B0501 | Ukraść ostatnie ciastko.
+R-B0502 | Spróbować zupy babci i poprosić o dokładkę.
+R-B0503 | Uciec przed odkurzaczem.
+R-B0504 | Zrobić rodzinne zdjęcie samowyzwalaczem.
+R-B0505 | Zjechać po poręczy.
+R-B0506 | Wygrać w kamień, papier, nożyce.
+R-B0507 | Liczyć barany do tysiąca.
+R-B0508 | Gwizdać przy pracy.
+R-B0509 | Robić pompki na reklamach.
+R-B0510 | Ugotować makaron na papkę.
+R-B0511 | Zapomnieć o urodzinach cioci.
+R-B0512 | Zjeść pizzę na zimno na śniadanie.
+R-B0513 | Wyprowadzić psa w piżamie.
+R-B0514 | Machać do pociągu.
+R-B0515 | Zbierać kasztany.
+R-B0516 | Skakać po kałużach.
+R-B0517 | Puszczać kaczki na jeziorze.
+R-B0518 | Łapać płatki śniegu językiem.
+R-B0519 | Rozbić skarbonkę.
+R-B0520 | Liczyć gwiazdy.
+R-B0521 | Wyjeść kremówkę łyżką.
+R-B0522 | Udawać pociąg z krzesłami.
+R-B0523 | Gotować z dziadkiem.
+R-B0524 | Nauczyć babcię wysyłać emotki.
+R-B0525 | Pobiec za autobusem.
+R-B0526 | Zgubić pilota w lodówce.
+R-B0527 | Mówić do roślin.
+R-B0528 | Kłócić się z nawigacją.
+R-B0529 | Spać w samochodzie na postoju.
+R-B0530 | Opowiadać sen przy śniadaniu.
+R-B0531 | Przebrać się za ducha w prześcieradło.
+R-B0532 | Mieszać wszystkie napoje naraz.
+R-B0533 | Napisać list do samego siebie.
+R-B0534 | Zbudować bazę z poduszek.
+R-B0535 | Czytać pod kołdrą z latarką.
+R-B0536 | Jeść lody zimą.
+R-B0537 | Chodzić w skarpetkach po mokrej podłodze.
+R-B0538 | Zostawić kubek z herbatą na trzy dni.
+R-B0539 | Zrobić zakupy bez listy.
+R-B0540 | Przyjść na urodziny z prezentem dla siebie.
+R-B0541 | Zapomnieć tekstu na akademii.
+R-B0542 | Śmiać się na pogrzebie chomika.
+R-B0543 | Zasnąć z otwartymi ustami w autobusie.
+R-B0544 | Wykopać dziurę do Chin.
+R-B0545 | Ścigać się z kotem.
+R-B0546 | Rozmawiać z sąsiadem przez płot.
+R-B0547 | Wejść na drzewo i nie umieć zejść.
+R-B0548 | Nastawić pranie i o nim zapomnieć.
+R-B0549 | Nie rozpoznać własnej mamy w nowej fryzurze.
+R-B0550 | Zrobić sobie grzywkę samemu.
+R-B0551 | Zgasić świeczki na torcie za pierwszym razem.
+R-B0552 | Zaśpiewać „Sto lat” za szybko.
+R-B0553 | Policzyć wszystkie prezenty.
+R-B0554 | Wylizać miskę po kremie.
+R-B0555 | Uczyć psa nowych sztuczek.
+R-B0556 | Pokłócić się o ostatni kawałek tortu.
+R-B0557 | Udawać, że się słucha.
+R-B0558 | Patrzeć w lodówkę, licząc, że coś się pojawi.
+R-B0559 | Przytulać się do kaloryfera.
+R-B0560 | Wypić herbatę, która już wystygła.
+R-B0561 | Robić miny do lustra.
+R-B0562 | Wymyślić własny język z bratem.
+R-B0563 | Dzwonić do babci tylko po przepis.
+R-B0564 | Robić orła na śniegu.
+R-B0565 | Skakać na trampolinie u sąsiadów.
+R-B0566 | Spać do południa w sobotę.
+R-B0567 | Wstać o 5 rano na ryby.
+R-B0568 | Biegać po domu w pelerynie.
+R-B0569 | Ziewnąć w najgorszym momencie.
+R-B0570 | Pomylić imiona dzieci.
+R-B0571 | Mówić „no to ruszamy” i stać jeszcze godzinę.
+R-B0572 | Malować pisanki z cebulowych łupin.
+R-B0573 | Ukryć brokuły pod ziemniakami.
+R-B0574 | Przeczytać instrukcję do końca.
+R-B0575 | Wyjść z domu w kapciach.
+R-B0576 | Mieć czkawkę przez cały dzień.
+R-B0577 | Pobić rekord w skakaniu na skakance.
+R-B0578 | Chrapać jak traktor.
+R-B0579 | Głaskać jeża.
+R-B0580 | Wygrać konkurs na najdłuższe beknięcie.
+R-B0581 | Bekać alfabet.
+R-B0582 | Poślizgnąć się na skórce od banana.
+R-B0583 | Grać w piłkę w salonie.
+R-B0584 | Stłuc wazon babci.
+R-B0585 | Nakarmić kaczki chlebem.
+R-B0586 | Udawać chorobę przed klasówką.
+R-B0587 | Zjeść obiad u babci i dwie kolacje.
+R-B0588 | Dostać dokładkę bez pytania.
+R-B0589 | Rozlać kakao na zeszyt.
+R-B0590 | Pomalować ścianę flamastrami.
+R-B0591 | Obciąć włosy lalce siostry.
+R-B0592 | Schować się w szafie.
+R-B0593 | Spać z psem w łóżku.
+R-B0594 | Oglądać bajki w piżamie.
+R-B0595 | Mieć zawsze rację.
+R-B0596 | Nigdy nie mieć racji.
+R-B0597 | Zjeść czekoladowe jajko w całości.
+R-B0598 | Wyrwać ząb nitką i klamką.
+R-B0599 | Szukać wróżki zębuszki.
+R-B0600 | Czekać na pierwszą gwiazdkę.
+R-B0601 | Być ostatnim na zdjęciu.
+R-B0602 | Być pierwszym w kolejce do tortu.
+R-B0603 | Zmyślać zakończenie bajki.
+R-B0604 | Kupić coś tylko dlatego, że było w promocji.
+R-B0605 | Wyjść ze sklepu meblowego z lampą i dwudziestoma świeczkami.
+R-B0606 | Wysiąść na złym przystanku.
+R-B0607 | Pomylić siostrę z mamą przez telefon.
+R-B0608 | Zapomnieć, jak ma się na imię, przy przedstawianiu się.
+R-B0609 | Wejść w kałużę w nowych butach.
+R-B0610 | Mieć kanapkę w kieszeni od tygodnia.
+R-B0611 | Wąchać nową książkę.
+R-B0612 | Kopać w automat z napojami.
+R-B0613 | Strzelić gola do własnej bramki.
+R-B0614 | Wygrać w loterii fantowej.
+R-B0615 | Przebiec maraton do lodówki.
+R-B0616 | Zrobić kawę i nie wypić.
+R-B0617 | Nauczyć się żonglować pomarańczami.
+R-B0618 | Wymyślić nową potrawę z resztek.
+R-B0619 | Zjeść ostrą papryczkę dla zakładu.
+R-B0620 | Kąpać się w jeziorze w październiku.
+R-B0621 | Lepić bałwana z błota.
+R-B0622 | Odkryć nową planetę z balkonu.
+R-B0623 | Biegać z wiatrakiem po łące.
+R-B0624 | Spać na lekcji z otwartymi oczami.
+R-B0625 | Drapać się po plecach widelcem.
+R-B0626 | Sprzątać pokój, wpychając wszystko pod łóżko.
+R-B0627 | Rozpakować prezent i udawać zachwyt.
+R-B0628 | Ziewać na weselu.
+R-B0629 | Piec ciasto bez przepisu.
+R-B0630 | Zgadywać, co jest na obiad, po zapachu.
+R-B0631 | Przegapić koniec meczu przez reklamę.
+R-B0632 | Kupić bilet na zły pociąg.
+R-B0633 | Szukać ładowarki po całym domu.
+R-B0634 | Rozmawiać przez puszki na sznurku.
+R-B0635 | Leżeć na trawie i patrzeć w chmury.
+R-B0636 | Nosić koszulkę na lewą stronę cały dzień.
+R-B0637 | Złapać złotą rybkę i wypuścić.
+R-B0638 | Udawać dinozaura przed młodszym bratem.
+R-B0639 | Mieć urodziny 24 grudnia.
+R-B0640 | Zapomnieć, gdzie zaparkowało się auto.
+R-B0641 | Przyjść do szkoły w sobotę.
+R-B0642 | Podać rękę lewą ręką.
+R-B0643 | Nie zauważyć, że kot śpi na fotelu, i usiąść.
+R-B0644 | Robić zdjęcia każdemu posiłkowi.
+R-B0645 | Wyjść z kina przed końcem.
+R-B0646 | Śmiać się z własnego żartu najgłośniej.
+R-B0647 | Udawać mądrego przed teściową.
+R-B0648 | Robić 10 tysięcy kroków po domu.
+R-B0649 | Przegrać z dziadkiem w szachy.
+R-B0650 | Przytulić dziadka na powitanie.
+R-B0651 | Machać babci z okna pociągu.
+R-B0652 | Kłaść się spać i myśleć o jutrze.
+R-B0653 | Dostać czekoladę na pocieszenie.
+R-B0654 | Wygrać z siostrą w wyścigu do łazienki.
+R-B0655 | Mieć wolne w poniedziałek.
+R-B0656 | Zrobić niespodziankę mamie.
+R-B0657 | Ugotować rodzinie śniadanie.
+R-B0658 | Pierwszy raz pojechać na rowerze bez kółek.
+R-B0659 | Pierwszy mleczny ząb w szklance.
+R-B0660 | Wakacje bez zadania domowego.
+R-B0661 | Dzień bez telefonu.
+R-B0662 | Wieczór bez telewizora.
+R-B0663 | Spokój w domu przez całe pięć minut.
+R-B0664 | Cisza po wyjściu gości.
+R-B0665 | Zmywanie po Wigilii.
+R-B0666 | Wielkie porządki przed świętami.
+R-B0667 | Mycie okien przed Wielkanocą.
+R-B0668 | Trzepanie dywanu na trzepaku.
+R-B0669 | Pranie firanek.
+R-B0670 | Wymiana żarówki przez trzy osoby.
+R-B0671 | Przestawianie mebli co pół roku.
+R-B0672 | Malowanie przedpokoju na kolor „łosoś”.
+R-B0673 | Remont, który trwa od 2017 roku.
+R-B0674 | Kafelki położone krzywo.
+R-B0675 | Tapeta w kwiatki.
+R-B0676 | Panele, które skrzypią.
+R-B0677 | Lustro, w którym wszyscy wyglądają szczuplej.
+R-B0678 | Waga łazienkowa, która kłamie.
+R-B0679 | Szczoteczka do zębów, której właściciela nikt nie zna.
+R-B0680 | Pasta do zębów wyciśnięta od środka.
+R-B0681 | Ręcznik, który nigdy nie schnie.
+R-B0682 | Gumowa kaczka w wannie.
+R-B0683 | Piana po sam sufit.
+R-B0684 | Kąpiel psa w wannie.
+R-B0685 | Woda, która nagle robi się zimna.
+R-B0686 | Papier toaletowy założony odwrotnie.
+R-B0687 | Lektura w toalecie.
+R-B0688 | Odświeżacz o zapachu „morska bryza”.
+R-B0689 | Święty spokój.
+R-B0690 | Poniedziałek.
+R-B0691 | Piątek po południu.
+R-B0692 | Niedzielna drzemka.
+R-B0693 | Wolne od szkoły z powodu mrozu.
+R-B0694 | Pierwszy dzień wakacji.
+R-B0695 | Ostatni dzień wakacji.
+R-B0696 | Zmiana czasu na zimowy.
+R-B0697 | Wieczór przed klasówką.
+R-B0698 | Śnieg w kwietniu.
+R-B0699 | Upał w czerwcu.
+R-B0700 | Burza z piorunami nad domem.
+R-B0701 | Tęcza po deszczu.
+R-B0702 | Mgła, w której nie widać sąsiada.
+R-B0703 | Wichura, która przewróciła trampolinę.
+R-B0704 | Grad wielkości orzechów.
+R-B0705 | Mróz minus dwadzieścia.
+R-B0706 | Słońce, które świeci prosto w telewizor.
+R-B0707 | Kałuża przed szkołą.
+R-B0708 | Błoto po kolana.
+R-B0709 | Pogoda „pod psem”.
+R-B0710 | Prognoza, która zawsze kłamie.
+R-B0711 | Zachód słońca nad jeziorem.
+R-B0712 | Pełnia księżyca.
+R-B0713 | Spadająca gwiazda.
+R-B0714 | Kosmici w ogródku działkowym.
+R-B0715 | Duch w starym zamku.
+R-B0716 | Smok wawelski.
+R-B0717 | Syrenka z Warszawy.
+R-B0718 | Krasnoludki z Wrocławia.
+R-B0719 | Bazyliszek w piwnicy.
+R-B0720 | Wróżka zębuszka.
+R-B0721 | Święty Mikołaj na urlopie.
+R-B0722 | Zajączek wielkanocny na diecie.
+R-B0723 | Elf, który nie chce pracować.
+R-B0724 | Renifer z katarem.
+R-B0725 | Bałwan, który się roztopił.
+R-B0726 | Czarodziej z dyplomem z internetu.
+R-B0727 | Rycerz na hulajnodze.
+R-B0728 | Księżniczka, która woli piłkę nożną.
+R-B0729 | Pirat z papugą i GPS-em.
+R-B0730 | Dinozaur w muzeum.
+R-B0731 | Robot, który chce być kucharzem.
+R-B0732 | Superbohater w pelerynie z ręcznika.
+R-B0733 | Ninja w kapciach.
+R-B0734 | Kowboj na kucyku.
+R-B0735 | Astronauta z kanapką.
+R-B0736 | Detektyw szukający skarpetki.
+R-B0737 | Strażak ratujący kota z drzewa.
+R-B0738 | Policjant z lizakiem.
+R-B0739 | Listonosz, który zawsze przychodzi, gdy nikogo nie ma.
+R-B0740 | Kurier, który rzuca paczką.
+R-B0741 | Pan od wodociągów.
+R-B0742 | Hydraulik, który przyszedł po trzech tygodniach.
+R-B0743 | Fryzjer, który „tylko podetnie końcówki”.
+R-B0744 | Dentysta z wiertłem.
+R-B0745 | Pani w okienku na poczcie.
+R-B0746 | Kasjerka, która widziała wszystko.
+R-B0747 | Kierowca autobusu, który nie poczeka.
+R-B0748 | Ksiądz po kolędzie.
+R-B0749 | Sołtys z megafonem.
+R-B0750 | Ratownik na basenie.
+R-B0751 | Instruktor aerobiku.
+R-B0752 | Trener piłkarski z podwórka.
+R-B0753 | Nauczyciel na emeryturze.
+R-B0754 | Pani przedszkolanka.
+R-B0755 | Lekarz rodzinny z kolejką do korytarza.
+R-B0756 | Weterynarz zakochany w kotach.
+R-B0757 | Rolnik z traktorem.
+R-B0758 | Kucharz z telewizji.
+R-B0759 | Sprzedawca na targu.
+R-B0760 | Pan z budki z lodami.
+R-B0761 | Muzyk uliczny grający jedną piosenkę.
+R-B0762 | Pani z kwiaciarni.
+R-B0763 | Piekarz o 4 rano.
+R-B0764 | Pszczelarz w pełnym rynsztunku.
+R-B0765 | Leśniczy, który zna każde drzewo.
+R-B0766 | Złota rączka z sąsiedztwa.
+R-B0767 | Sąsiadka, która wszystko widzi zza firanki.
+R-B0768 | Sąsiad, który zawsze pożycza drabinę.
+R-B0769 | Dzieci sąsiadów grające w piłkę o 22:00.
+R-B0770 | Pies, który szczeka na listonosza od 10 lat.
+R-B0771 | Najlepszy przyjaciel z podstawówki.
+R-B0772 | Pierwsza miłość z przedszkola.
+R-B0773 | Kolega, który zawsze się spóźnia.
+R-B0774 | Koleżanka, która wszystko wie pierwsza.
+R-B0775 | Klasowy klaun.
+R-B0776 | Prymus z pierwszej ławki.
+R-B0777 | Nowy uczeń z innego miasta.
+R-B0778 | Starosta klasy.
+R-B0779 | Przewodniczący samorządu.
+R-B0780 | Babcia klozetowa w kinie.
+R-B0781 | Bileter z latarką.
+R-B0782 | Pan, który zawsze siada na moim miejscu.
+R-B0783 | Turysta w skarpetkach i sandałach.
+R-B0784 | Kibic w szaliku latem.
+R-B0785 | Rowerzysta w obcisłym stroju.
+R-B0786 | Biegacz o 6 rano.
+R-B0787 | Pani z wózkiem pełnym zakupów.
+R-B0788 | Dziecko płaczące w samolocie.
+R-B0789 | Pasażer, który je jajka w pociągu.
+R-B0790 | Ktoś, kto rozmawia przez głośnik w autobusie.
+R-B0791 | Sobotni bazarek.
+R-B0792 | Rynek w małym miasteczku.
+R-B0793 | Dworzec o północy.
+R-B0794 | Przystanek autobusowy w deszczu.
+R-B0795 | Galeria handlowa w niedzielę handlową.
+R-B0796 | Plac zabaw z jedną huśtawką.
+R-B0797 | Boisko szkolne.
+R-B0798 | Park miejski z karmnikiem.
+R-B0799 | Kościół z mszą o 7:00.
+R-B0800 | Remiza strażacka.
+R-B0801 | Kino z jednym ekranem.
+R-B0802 | Biblioteka z kotem.
+R-B0803 | Basen miejski w zimie.
+R-B0804 | Lodowisko pod chmurką.
+R-B0805 | Zoo z leniwym lwem.
+R-B0806 | Ogród botaniczny.
+R-B0807 | Muzeum, w którym nie wolno dotykać.
+R-B0808 | Wesołe miasteczko.
+R-B0809 | Aquapark ze zjeżdżalnią.
+R-B0810 | Skansen.
+R-B0811 | Zamek z duchem.
+R-B0812 | Las pełen kleszczy.
+R-B0813 | Jezioro z komarami.
+R-B0814 | Góry w chmurach.
+R-B0815 | Bałtyk w sierpniu.
+R-B0816 | Mazury pod żaglami.
+R-B0817 | Bieszczady bez zasięgu.
+R-B0818 | Wieś u babci.
+R-B0819 | Stodoła pełna siana.
+R-B0820 | Kurnik.
+R-B0821 | Krowa, która patrzy.
+R-B0822 | Koń, który nie chce iść.
+R-B0823 | Koza, która zjadła pranie.
+R-B0824 | Kogut, który pieje o 4 rano.
+R-B0825 | Traktor na wiejskiej drodze.
+R-B0826 | Pole kukurydzy.
+R-B0827 | Sad jabłkowy.
+R-B0828 | Studnia z wiadrem.
+R-B0829 | Wiejska zabawa w remizie.
+R-B0830 | Dożynki.
+R-B0831 | Festyn z kiełbaskami.
+R-B0832 | Koncert w amfiteatrze.
+R-B0833 | Parada na Dzień Dziecka.
+R-B0834 | Wigilia w pracy taty.
+R-B0835 | Spotkanie klasowe po latach.
+R-B0836 | Wywiadówka.
+R-B0837 | Dzień otwarty w szkole.
+R-B0838 | Bal karnawałowy w przedszkolu.
+R-B0839 | Andrzejki z laniem wosku.
+R-B0840 | Mikołajki w szkole.
+R-B0841 | Dzień Babci i Dziadka.
+R-B0842 | Walentynki rodziców.
+R-B0843 | Dzień Kobiet z goździkiem.
+R-B0844 | Prima aprilis.
+R-B0845 | Noc muzeów.
+R-B0846 | Wybory do samorządu klasowego.
+R-B0847 | Wielka zbiórka makulatury.
+R-B0848 | Sprzątanie świata.
+R-B0849 | Akcja „podaruj misia”.
+R-B0850 | Konkurs recytatorski.
+R-B0851 | Turniej szachowy.
+R-B0852 | Zawody pływackie.
+R-B0853 | Szkolny turniej piłki nożnej.
+R-B0854 | Bieg na sto metrów w trampkach.
+R-B0855 | Skok w dal do piaskownicy.
+R-B0856 | Rzut piłką lekarską.
+R-B0857 | Lekcja w-fu na dworze w listopadzie.
+R-B0858 | Kozioł gimnastyczny.
+R-B0859 | Lina, na którą nikt nie umie wejść.
+R-B0860 | Szatnia, w której wszystko pachnie skarpetkami.
+R-B0861 | Basen szkolny z chlorem.
+R-B0862 | Dzwonek telefonu na lekcji.
+R-B0863 | Ściąga na gumce.
+R-B0864 | Kartka przekazywana pod ławką.
+R-B0865 | Liścik od cichego wielbiciela.
+R-B0866 | Pamiętnik z kłódką.
+R-B0867 | Album z naklejkami.
+R-B0868 | Kolekcja kapsli.
+R-B0869 | Kolekcja znaczków dziadka.
+R-B0870 | Karty z piłkarzami.
+R-B0871 | Tamagotchi.
+R-B0872 | Gameboy z lat 90.
+R-B0873 | Walkman z kasetą.
+R-B0874 | Zeszyt z wklejonymi karteczkami.
+R-B0875 | Plastelina wbita w dywan.
+R-B0876 | Klocki, na które się nadepnęło.
+R-B0877 | Lalka bez głowy.
+R-B0878 | Miś bez oka.
+R-B0879 | Samochodzik bez kółka.
+R-B0880 | Kolejka elektryczna dziadka.
+R-B0881 | Rower na kartę miejską.
+R-B0882 | Pociąg towarowy z tysiącem wagonów.
+R-B0883 | Sterowiec nad miastem.
+R-B0884 | Wielki dmuchany zamek.
+R-B0885 | Konfetti, które znajduje się jeszcze w maju.
+R-B0886 | Brokat na wszystkim.
+R-B0887 | Kredki świecowe na ścianie.
+R-B0888 | Bańka mydlana wielka jak samochód.
+R-B0889 | Fontanna czekolady.
+R-B0890 | Tęczowy jednorożec.
+R-B0891 | Słoń w składzie porcelany.
+R-B0892 | Kot w butach.
+R-B0893 | Żyrafa w szaliku.
+R-B0894 | Pingwin w kapeluszu.
+R-B0895 | Lama, która pluje.
+R-B0896 | Hipopotam w basenie.
+R-B0897 | Lew, który boi się myszy.
+R-B0898 | Wielbłąd na Krupówkach.
+R-B0899 | Kangur z torbą zakupów.
+R-B0900 | Sowa, która nie śpi w nocy.
+R-B0901 | Lis, który ukradł kurę.
+R-B0902 | Wilk, który został wegetarianinem.
+R-B0903 | Niedźwiedź po zimowym śnie.
+R-B0904 | Bóbr budujący tamę na podwórku.
+R-B0905 | Ślimak w wyścigu.
+R-B0906 | Mrówki w cukiernicy.
+R-B0907 | Pszczoła w tramwaju.
+R-B0908 | Osa nad kompotem.
+R-B0909 | Motyl w słoiku.
+R-B0910 | Świetlik w ogródku.
+R-B0911 | Żaba, która zamieniła się w księcia.
+R-B0912 | Książę, który zamienił się w żabę.
+R-B0913 | Smok, który boi się ognia.
+R-B0914 | Potwór spod łóżka.
+R-B0915 | Cień na ścianie.
+R-B0916 | Skrzypiąca podłoga w nocy.
+R-B0917 | Szelest za oknem.
+R-B0918 | Kroki na strychu.
+R-B0919 | „Bo ja tak mówię”.
+R-B0920 | „Zjedz, bo wystygnie”.
+R-B0921 | „Załóż czapkę, bo zmarzniesz”.
+R-B0922 | „Jak będziesz starszy, to zrozumiesz”.
+R-B0923 | „A jakby wszyscy skakali z mostu?”
+R-B0924 | „Pieniądze nie rosną na drzewach”.
+R-B0925 | „Nie ma, bo nie ma”.
+R-B0926 | „Za pięć minut wychodzimy”.
+R-B0927 | „Kto to rozlał?”
+R-B0928 | „Przecież to dla twojego dobra”.
+R-B0929 | „Zobaczymy”.
+R-B0930 | „Zapytaj taty”.
+R-B0931 | „Zapytaj mamy”.
+R-B0932 | „Dobra, ostatni raz”.
+R-B0933 | „Nie wiem, nie znam się, nie orientuję się”.
+R-B0934 | „Co ty tam wiesz”.
+R-B0935 | „Kiedyś to było”.
+R-B0936 | „Uważaj, bo się przewrócisz”.
+R-B0937 | „Masz kurtkę?”
+R-B0938 | „Ubierz się cieplej”.
+R-B0939 | „Jak dojedziesz, to zadzwoń”.
+R-B0940 | „A ty kiedy?”
+R-B0941 | „Zjesz jeszcze kawałeczek?”
+R-B0942 | „Ja tylko na chwilkę”.
+R-B0943 | „Nie przeszkadzajcie sobie”.
+R-B0944 | „Taki tam drobiazg”.
+R-B0945 | „Coś mi tu nie pasuje”.
+R-B0946 | „Byłem tu pierwszy”.
+R-B0947 | „To nie ja”.
+R-B0948 | „On zaczął”.
+R-B0949 | „Ona zaczęła”.
+R-B0950 | „Nudzi mi się”.
+R-B0951 | „Jestem głodny” pięć minut po obiedzie.
+R-B0952 | „Jeszcze jeden odcinek”.
+R-B0953 | „Ostatnia gra i idę spać”.
+R-B0954 | Wieczne „nie mam co na siebie włożyć”.
+R-B0955 | Wieczne „gdzie są moje klucze?”.
+R-B0956 | Odwieczne pytanie „co na obiad?”.
+R-B0957 | Odpowiedź „cokolwiek”.
+R-B0958 | Cisza w samochodzie po kłótni.
+R-B0959 | Foch na cały dzień.
+R-B0960 | Wielkie przeprosiny z czekoladą.
+R-B0961 | Przytulas na zgodę.
+R-B0962 | Zakład o kanapkę.
+R-B0963 | Obietnica bez pokrycia.
+R-B0964 | Słowo honoru.
+R-B0965 | Obietnica na małe palce.
+R-B0966 | Tajemnica, którą zna całe osiedle.
+R-B0967 | Plotka z kolejki do piekarni.
+R-B0968 | Wielka afera o nic.
+R-B0969 | Burza w szklance wody.
+R-B0970 | Zamieszanie z prezentami.
+R-B0971 | Pomyłka z imionami na kartkach świątecznych.
+R-B0972 | Prezent podarowany dalej.
+R-B0973 | Prezent, który wraca po roku do tej samej osoby.
+R-B0974 | Karteczka z ceną na prezencie.
+R-B0975 | Kokardka, która się nie trzyma.
+R-B0976 | Papier prezentowy, który zawsze się kończy.
+R-B0977 | Pudełko większe niż prezent.
+R-B0978 | Niespodzianka, która się wydała.
+R-B0979 | Przyjęcie-niespodzianka, o którym wszyscy wiedzieli.
+R-B0980 | Balon z helem pod sufitem.
+R-B0981 | Girlanda „Wszystkiego najlepszego”.
+R-B0982 | Czapeczki urodzinowe na gumce.
+R-B0983 | Trąbki, które doprowadzają rodziców do szału.
+R-B0984 | Piñata, której nie da się rozbić.
+R-B0985 | Konkurs na najładniejszy rysunek.
+R-B0986 | Zdjęcie z Mikołajem w galerii.
+R-B0987 | Ozdoby choinkowe z dzieciństwa taty.
+R-B0988 | Bombka, która przetrwała trzy pokolenia.
+R-B0989 | Szopka z figurkami z plasteliny.
+R-B0990 | Jasełkowy osiołek.
+R-B0991 | Kolędnicy z gwiazdą.
+R-B0992 | Kolęda w wersji rockowej.
+R-B0993 | Pasterka o północy.
+R-B0994 | Sianko pod obrusem.
+R-B0995 | Puste miejsce przy stole dla wędrowca.
+R-B0996 | Łuska karpia w portfelu.
+R-B0997 | Życzenia przy opłatku, które trwają godzinę.
+R-B0998 | Pierwsza gwiazdka, której nikt nie widzi.
+R-B0999 | Prezenty otwierane o 18:01.
+R-B1000 | Sylwestrowe postanowienia.
+R-B1001 | Odliczanie do północy z opóźnieniem.
+R-B1002 | Szampan dla dzieci.
+R-B1003 | Pies ukryty pod łóżkiem w Sylwestra.
+R-B1004 | Fajerwerki sąsiada.
+R-B1005 | Noworoczny spacer.
+R-B1006 | Tłusty czwartek przez cały tydzień.
+R-B1007 | Ostatki z faworkami.
+R-B1008 | Pierwszy dzień wiosny z marzanną.
+R-B1009 | Bazie w wazonie.
+R-B1010 | Pisanka, która pękła w koszyku.
+R-B1011 | Lany poniedziałek w blokach.
+R-B1012 | Majówka z grillem.
+R-B1013 | Dzień Matki z laurką.
+R-B1014 | Dzień Ojca z krawatem.
+R-B1015 | Boże Ciało z płatkami kwiatów.
+R-B1016 | Noc Kupały.
+R-B1017 | Wianki na rzece.
+R-B1018 | Koniec roku szkolnego.
+R-B1019 | Wakacje u dziadków.
+R-B1020 | Dożynkowy chleb.
+R-B1021 | Grzybobranie we wrześniu.
+R-B1022 | Pierwszy dzień szkoły z tornistrem.
+R-B1023 | Wszystkich Świętych w korku.
+R-B1024 | Andrzejkowe wróżby.
+R-B1025 | Kalendarz adwentowy pusty po trzech dniach.
+R-B1026 | Mikołajki z rózgą.
+R-B1027 | Wielki pościg za ostatnią choinką.
+R-B1028 | Sto lat dla babci.
+R-B1029 | Wielka rodzinna tajemnica.
+R-B1030 | Zaginiony pierścionek babci.
+R-B1031 | Pamiętnik prababci.
+R-B1032 | Stary list miłosny dziadka.
+R-B1033 | Medal dziadka za wzorową pracę.
+R-B1034 | Zdjęcie ślubne rodziców w ramce.
+R-B1035 | Pierwsze buciki w gablocie.
+R-B1036 | Kosmyk włosów w kopercie.
+R-B1037 | Pudło pamiątek, którego nikt nie otwiera.
+R-B1038 | Zegarek po pradziadku.
+R-B1039 | Maszyna do szycia babci.
+R-B1040 | Szydełko i robótka ręczna.
+R-B1041 | Kłębek wełny dla kota.
+R-B1042 | Kocyk z dzieciństwa.
+R-B1043 | Ulubiony kubek taty z ułamanym uchem.
+R-B1044 | Talerz „na specjalne okazje”.
+R-B1045 | Zastawa, której nigdy nie używamy.
+R-B1046 | Serwis po cioci.
+R-B1047 | Sztućce w pudełku z aksamitem.
+R-B1048 | Obrus na święta z plamą po barszczu.
+R-B1049 | Serwetki złożone w łabędzie.
+R-B1050 | Kryształowa misa na sałatkę jarzynową.
+R-B1051 | Sałatka jarzynowa na każdą okazję.
+R-B1052 | Jajka w majonezie.
+R-B1053 | Galaretka z nóżek.
+R-B1054 | Tatar dla odważnych.
+R-B1055 | Śledzik pod pierzynką.
+R-B1056 | Ryba po grecku.
+R-B1057 | Kanapki z pastą jajeczną.
+R-B1058 | Koreczki na wykałaczkach.
+R-B1059 | Pasztet babci.
+R-B1060 | Smalec ze skwarkami.
+R-B1061 | Ogórek kiszony prosto ze słoika.
+R-B1062 | Zupa grzybowa z prawdziwków.
+R-B1063 | Żurek w chlebie.
+R-B1064 | Flaki, których nikt nie chce.
+R-B1065 | Krupnik na drugi dzień.
+R-B1066 | Kluski śląskie z dziurką.
+R-B1067 | Kopytka z masłem.
+R-B1068 | Racuchy z jabłkami.
+R-B1069 | Pyzy z mięsem.
+R-B1070 | Leniwe z cukrem.
+R-B1071 | Zupa mleczna z makaronem.
+R-B1072 | Kasza manna na śniadanie.
+R-B1073 | Owsianka, która klei się do łyżki.
+R-B1074 | Płatki z mlekiem o północy.
+R-B1075 | Tosty z serem.
+R-B1076 | Hamburger domowej roboty.
+R-B1077 | Frytki z piekarnika.
+R-B1078 | Spaghetti, które ląduje wszędzie.
+R-B1079 | Sos pomidorowy na suficie.
+R-B1080 | Lasagne na trzy dni.
+R-B1081 | Sushi, któremu dziadek nie ufa.
+R-B1082 | Kebab z sosem czosnkowym.
+R-B1083 | Hot dog z budki.
+R-B1084 | Chipsy o smaku papryki.
+R-B1085 | Popcorn z mikrofalówki.
+R-B1086 | Żelki w kształcie misiów.
+R-B1087 | Lizak wielkości głowy.
+R-B1088 | Cukierki z kieszeni babci.
+R-B1089 | Czekolada schowana na czarną godzinę.
+R-B1090 | Batonik na drugie śniadanie.
+R-B1091 | Ciastko z wróżbą.
+R-B1092 | Bita śmietana prosto z puszki.
+R-B1093 | Kremówka z bitą śmietaną.
+R-B1094 | Sernik na zimno.
+R-B1095 | Tiramisu cioci.
+R-B1096 | Babeczki z kremem.
+R-B1097 | Drożdżówka z kruszonką.
+R-B1098 | Rogal świętomarciński.
+R-B1099 | Obwarzanek krakowski.
+R-B1100 | Zapiekanka z Kazimierza.
+R-B1101 | Gofr z owocami.
+R-B1102 | Lody włoskie z automatu.
+R-B1103 | Lemoniada z kranu.
+R-B1104 | Kompot z rabarbaru.
+R-B1105 | Kakao z pianką.
+R-B1106 | Herbata z sokiem malinowym.
+R-B1107 | Syrop z cebuli.
+R-B1108 | Miód na wszystkie choroby.
+R-B1109 | Czosnek na przeziębienie.
+R-B1110 | Bańki babci.
+R-B1111 | Termometr pod pachą.
+R-B1112 | Syrop, który smakuje jak wiśnie z kartonu.
+R-B1113 | Plaster z dinozaurem.
+R-B1114 | Bandaż na całą rękę za małe zadrapanie.
+R-B1115 | Zielona maść na wszystko.
+R-B1116 | Witamina C w tabletkach musujących.
+R-B1117 | Chusteczki w każdej kieszeni.
+R-B1118 | Kaszel w teatrze.
+R-B1119 | Wizyta u lekarza, który pisze nieczytelnie.
+R-B1120 | Zwolnienie lekarskie na tydzień.
+R-B1121 | Szczepionka z naklejką.
+R-B1122 | Okulary na łańcuszku.
+R-B1123 | Aparat na zęby.
+R-B1124 | Pierwsze siwe włosy taty.
+R-B1125 | Łysina dziadka, która błyszczy.
+R-B1126 | Wąsy wujka.
+R-B1127 | Broda, w której coś zamieszkało.
+R-B1128 | Fryzura na grzyba.
+R-B1129 | Trwała ondulacja cioci.
+R-B1130 | Kucyki zrobione przez tatę.
+R-B1131 | Warkocze babci.
+R-B1132 | Lakier do paznokci młodszej siostry.
+R-B1133 | Perfumy cioci na całą windę.
+R-B1134 | Woda kolońska dziadka.
+R-B1135 | Dezodorant w sprayu, który zabija muchy.
+R-B1136 | Szczotka do włosów pełna sierści.
+R-B1137 | Golarka taty w rękach brata.
+R-B1138 | Makijaż mamy w pięć minut.
+R-B1139 | Torebka bez dna.
+R-B1140 | Portfel pełen paragonów.
+R-B1141 | Karta lojalnościowa z każdego sklepu.
+R-B1142 | Pieniądze w skarpecie.
+R-B1143 | Kieszonkowe wydane w jeden dzień.
+R-B1144 | Bilet do kina, który został w spodniach.
+R-B1145 | Zakładka z biletu tramwajowego.
+R-B1146 | Książka, którą czytam od trzech lat.
+R-B1147 | Lektura szkolna w streszczeniu.
+R-B1148 | Encyklopedia w dwudziestu tomach.
+R-B1149 | Słownik ortograficzny jako podpórka pod drzwi.
+R-B1150 | Gazeta z programem telewizyjnym.
+R-B1151 | Krzyżówka dziadka.
+R-B1152 | Sudoku babci.
+R-B1153 | Horoskop z gazety.
+R-B1154 | Mecz reprezentacji z całą rodziną przed telewizorem.
+R-B1155 | Wujek krzyczący na sędziego przez telewizor.
+R-B1156 | Gol w ostatniej minucie.
+R-B1157 | Rzut karny, na który nie można patrzeć.
+R-B1158 | Skoki narciarskie w Nowy Rok.
+R-B1159 | Siatkówka o 3 w nocy.
+R-B1160 | Kibicowanie w pidżamie.
+R-B1161 | Szalik klubowy dziadka.
+R-B1162 | Piłka, która wpadła do ogrodu sąsiada.
+R-B1163 | Wybita szyba w garażu.
+R-B1164 | Bramka z dwóch plecaków.
+R-B1165 | Rower stacjonarny, na którym nikt nie jeździ.
+R-B1166 | Hantle pod łóżkiem.
+R-B1167 | Karnet na basen niewykorzystany od stycznia.
+R-B1168 | Joga w salonie z kotem.
+R-B1169 | Bieganie za psem, który uciekł.
+R-B1170 | Taniec z dziadkiem na weselu.
+R-B1171 | Gimnastyka poranna z radia.
+R-B1172 | Zumba cioci.
+R-B1173 | Wyścig w workach.
+R-B1174 | Przeciąganie liny na festynie.
+R-B1175 | Bieg z jajkiem na łyżce.
+R-B1176 | Dmuchańce na pikniku.
+R-B1177 | Skok na bungee z wysokości krzesła.
+R-B1178 | Medal z czekolady.
+R-B1179 | Puchar dla wszystkich uczestników.
+R-B1180 | Dyplom za udział.
+R-B1181 | Pierwsze miejsce od końca.
+R-B1182 | Wielki finał rodzinnego turnieju w piłkarzyki.
+R-B1183 | Stół do ping-ponga w garażu.
+R-B1184 | Lotki w drzwiach.
+R-B1185 | Kręgle na Wigilii firmowej.
+R-B1186 | Bilard u wujka.
+R-B1187 | Wędka, na którą nic nie bierze.
+R-B1188 | Ryba, która była „taaaka duża”.
+R-B1189 | Kajak, który się przewrócił.
+R-B1190 | Ponton z dziurą.
+R-B1191 | Kapok o dwa rozmiary za duży.
+R-B1192 | Żaglówka bez wiatru.
+R-B1193 | Narty pożyczone od sąsiada.
+R-B1194 | Wyciąg orczykowy.
+R-B1195 | Upadek na stoku przed całą rodziną.
+R-B1196 | Snowboard brata.
+R-B1197 | Łyżwy, które obcierają kostki.
+R-B1198 | Kask rowerowy w kształcie arbuza.
+R-B1199 | Odblaski na wszystkim.
+R-B1200 | Kamizelka odblaskowa dziadka.
+R-B1201 | Latarka czołówka.
+R-B1202 | Scyzoryk wujka z 30 funkcjami.
+R-B1203 | Lornetka do podglądania ptaków.
+R-B1204 | Teleskop, przez który widać tylko sąsiada.
+R-B1205 | Mapa skarbów narysowana przez brata.
+R-B1206 | Skrzynia skarbów pełna kamieni.
+R-B1207 | Zakopana kapsuła czasu.
+R-B1208 | Wykrywacz metalu na plaży.
+R-B1209 | Zgubiony kolczyk w piasku.
+R-B1210 | Butelka z listem.
+R-B1211 | Muszla, w której słychać morze.
+R-B1212 | Rozgwiazda na zdjęciu.
+R-B1213 | Kamień w kształcie serca.
+R-B1214 | Patyk idealny do wszystkiego.
+R-B1215 | Szyszka do kolekcji.
+R-B1216 | Kasztanowe ludziki.
+R-B1217 | Liście w zielniku.
+R-B1218 | Herbarium z łąki.
+R-B1219 | Akwarium z kijankami.
+R-B1220 | Mrówkowisko pod lupą.
+R-B1221 | Biedronka liczona po kropkach.
+R-B1222 | Dżdżownica po deszczu.
+R-B1223 | Ślimak bez skorupki.
+R-B1224 | Konik polny w pudełku.
+R-B1225 | Mysz polna w stodole.
+R-B1226 | Bocian na łące.
+R-B1227 | Kukułka, która kuka dwanaście razy.
+R-B1228 | Wróbel przy stole w ogródku piwnym.
+R-B1229 | Sikorka w karmniku.
+R-B1230 | Dzięcioł, który budzi wszystkich.
+R-B1231 | Wrona, która kradnie błyszczące rzeczy.
+R-B1232 | Kaczka w stawie.
+R-B1233 | Łabędź, który syczy.
+R-B1234 | Gęś, która goni dzieci.
+R-B1235 | Indyk na podwórku u babci.
+R-B1236 | Królik, który ucieka z klatki.
+R-B1237 | Kot, który przynosi myszy w prezencie.
+R-B1238 | Pies, który zakopuje kości w kanapie.
+R-B1239 | Pies, który boi się kota.
+R-B1240 | Kot, który zrzuca wszystko ze stołu.
+R-B1241 | Pies jedzący trawę.
+R-B1242 | Kot, który śpi 20 godzin dziennie.
+R-B1243 | Pies przebrany za dynię.
+R-B1244 | Kot w pudełku po butach.
+R-B1245 | Pies, który ukradł kiełbasę z grilla.
+R-B1246 | Kot, który siedzi na laptopie.
+R-B1247 | Pies, który kocha listonosza.
+R-B1248 | Psia buda zbudowana przez tatę.
+R-B1249 | Kocie zabawki, którymi bawi się tylko pies.
+R-B1250 | Karma, której kot nie chce.
+R-B1251 | Psie ciasteczka, które zjadł dziadek.
+R-B1252 | Szczeniak gryzący buty.
+R-B1253 | Kocię na firance.
+R-B1254 | Leniwy kot sąsiadów.
+R-B1255 | Pies rasy „kundelek”.
+R-B1256 | Kot o imieniu Pan Mruczek.
+R-B1257 | Pies o imieniu Burek.
+R-B1258 | Rybka o imieniu Nemo.
+R-B1259 | Chomik o imieniu Pan Kanapka.
+R-B1260 | Żółw o imieniu Błyskawica.
+R-B1261 | Papuga, która naśladuje dzwonek telefonu.
+R-B1262 | Pies, który umie otwierać lodówkę.
+R-B1263 | Kot, który umie otwierać drzwi.
+R-B1264 | Zwierzak, który rządzi całym domem.
+R-B1265 | Wizyta u fryzjera dla psa.
+R-B1266 | Kąpiel kota, czyli wojna.
+R-B1267 | Spacer z kotem na smyczy.
+R-B1268 | Zdjęcie psa z rogami renifera.
+R-B1269 | Konto psa na Instagramie.
+R-B1270 | Rodzinny czat, na którym wszyscy piszą jednocześnie.
+R-B1271 | Wiadomość głosowa babci trwająca 6 minut.
+R-B1272 | Zdjęcie zachodu słońca od cioci.
+R-B1273 | Emotka kupy wysłana przez babcię przez pomyłkę.
+R-B1274 | Łańcuszek szczęścia.
+R-B1275 | Życzenia świąteczne z GIF-em.
+R-B1276 | Odpisanie po trzech dniach.
+R-B1277 | Powiadomienie „przeczytano”.
+R-B1278 | Rozmowa wideo, w której słychać tylko echo.
+R-B1279 | Mama ucząca się nowej aplikacji.
+R-B1280 | Tata ustawiający dzwonek na „najgłośniej”.
+R-B1281 | Dziadek, który pyta, czy internet się nie zepsuje.
+R-B1282 | Babcia, która dzwoni z pytaniem, jak wyłączyć telefon.
+R-B1283 | Telefon w trybie samolotowym przez tydzień.
+R-B1284 | Pilot do klimatyzacji, którego nikt nie rozumie.
+R-B1285 | Inteligentny głośnik, który nie rozumie dziadka.
+R-B1286 | Odkurzacz, który mówi.
+R-B1287 | Lodówka z ekranem.
+R-B1288 | Ekspres do kawy z aplikacją.
+R-B1289 | Hasło „1234”.
+R-B1290 | Kod PIN zapisany na karcie.
+R-B1291 | Konto bankowe dziadka obsługiwane przez wnuka.
+R-B1292 | Przelew na złe konto.
+R-B1293 | Zakupy przez internet, które przyszły w złym rozmiarze.
+R-B1294 | Paczka w paczkomacie, który jest zepsuty.
+R-B1295 | Kurier pod złym adresem.
+R-B1296 | Zamówiona pizza, która przyjechała zimna.
+R-B1297 | Jedzenie z dowozem, na które czeka się dwie godziny.
+R-B1298 | Wirtualna wycieczka po muzeum.
+R-B1299 | Lekcja online, na której wszyscy mają wyłączone mikrofony.
+R-B1300 | Nauczycielka, która „nie widzi ekranu”.
+R-B1301 | Szkolna platforma, która nie działa.
+R-B1302 | Praca domowa wysłana o 23:59.
+R-B1303 | Prezentacja z animacją każdej litery.
+R-B1304 | Referat skopiowany z encyklopedii.
+R-B1305 | Tablica interaktywna, której nikt nie umie włączyć.
+R-B1306 | Projektor, który zawsze się przegrzewa.
+R-B1307 | Kreda, która piszczy na tablicy.
+R-B1308 | Gąbka, która nie zmywa.
+R-B1309 | Mapa świata z ZSRR.
+R-B1310 | Globus, który się kręci za szybko.
+R-B1311 | Kalkulator z ulubionym słowem wpisanym do góry nogami.
+R-B1312 | Linijka używana jako miecz.
+R-B1313 | Cyrkiel, który kłuje wszystkich.
+R-B1314 | Gumka do mazania w kształcie truskawki.
+R-B1315 | Długopis z czterema kolorami.
+R-B1316 | Zakreślacze w neonowych kolorach.
+R-B1317 | Temperówka, która nic nie temperuje.
+R-B1318 | Klej w sztyfcie bez nakrętki.
+R-B1319 | Nożyczki dla leworęcznych.
+R-B1320 | Teczka z gumką.
+R-B1321 | Okładka na zeszyt z bohaterem bajki.
+R-B1322 | Naklejka z imieniem na każdym przedmiocie.
+R-B1323 | Worek na kapcie.
+R-B1324 | Kapcie zmienne, które zawsze zostają w domu.
+R-B1325 | Szafka szkolna, której nie da się otworzyć.
+R-B1326 | Klucz od szafki zgubiony pierwszego dnia.
+R-B1327 | Rozkład lekcji na lodówce.
+R-B1328 | Kartka z wynikami na drzwiach.
+R-B1329 | Medal za czytanie książek.
+R-B1330 | Wyróżnienie za frekwencję.
+R-B1331 | Pierwsza miłość z ławki obok.
+R-B1332 | Walentynka bez podpisu.
+R-B1333 | Laurka dla mamy z błędem ortograficznym.
+R-B1334 | Wierszyk na Dzień Babci.
+R-B1335 | Piosenka na akademię.
+R-B1336 | Taniec w przedstawieniu, który wszyscy pomylili.
+R-B1337 | Kostium z bibuły.
+R-B1338 | Korona z papieru.
+R-B1339 | Skrzydła anioła z kartonu.
+R-B1340 | Rogi diabełka z drutu.
+R-B1341 | Maska lwa z talerzyka.
+R-B1342 | Peleryna z firanki.
+R-B1343 | Miecz z patyka.
+R-B1344 | Tarcza z pokrywki od garnka.
+R-B1345 | Zbroja z kartonu po lodówce.
+R-B1346 | Rakieta z rolki po papierze.
+R-B1347 | Statek z łupiny orzecha.
+R-B1348 | Łódka z kory puszczana na rzece.
+R-B1349 | Papierowy samolot, który doleciał do dyrektora.
+R-B1350 | Latawiec na drzewie.
+R-B1351 | Bańka gumy do żucia we włosach.
+R-B1352 | Plaster na kolanie.
+R-B1353 | Siniak, którego pochodzenia nikt nie zna.
+R-B1354 | Guz na czole po drzwiach.
+R-B1355 | Drzazga z ławki.
+R-B1356 | Oparzenie od pokrzywy.
+R-B1357 | Ugryzienie komara w najgorszym miejscu.
+R-B1358 | Kleszcz po spacerze.
+R-B1359 | Katar sienny w maju.
+R-B1360 | Zatkany nos w nocy.
+R-B1361 | Czkawka podczas przemowy.
+R-B1362 | Ziewanie zaraźliwe na całą rodzinę.
+R-B1363 | Śmiech, którego nie da się powstrzymać w kościele.
+R-B1364 | Śmiech przez łzy.
+R-B1365 | Łzy przy filmie o psie.
+R-B1366 | Wzruszenie dziadka na weselu wnuczki.
+R-B1367 | Duma mamy na akademii.
+R-B1368 | Wstyd taty na wywiadówce.
+R-B1369 | Radość z pierwszego śniegu.
+R-B1370 | Rozczarowanie, że skończyły się ferie.
+R-B1371 | Ekscytacja w Wigilię rano.
+R-B1372 | Strach przed dentystą.
+R-B1373 | Nuda w czasie mszy.
+R-B1374 | Tęsknota za wakacjami.
+R-B1375 | Zazdrość o nowy rower kolegi.
+R-B1376 | Ciekawość, co jest w prezencie.
+R-B1377 | Złość, kiedy zgaśnie prąd w czasie gry.
+R-B1378 | Ulga po klasówce.
+R-B1379 | Szczęście w małych rzeczach.
+R-B1380 | Miłość od pierwszego wejrzenia do szczeniaka.
+R-B1381 | Przyjaźń na całe życie.
+R-B1382 | Pierwsza randka w kinie.
+R-B1383 | Trzymanie się za ręce w parku.
+R-B1384 | Taniec w kuchni z mamą.
+R-B1385 | Rodzinny uścisk.
+R-B1386 | Buziak od babci, który zostawia szminkę.
+R-B1387 | Uścisk dziadka, który łamie żebra.
+R-B1388 | Pocałunek na dobranoc.
+R-B1389 | Bajka czytana przez tatę na głosy.
+R-B1390 | Kołysanka mamy.
+R-B1391 | Opowieść przy ognisku.
+R-B1392 | Wspólne śpiewanie w samochodzie.
+R-B1393 | Wieczór gier planszowych.
+R-B1394 | Leniwa niedziela w piżamach.
+R-B1395 | Śniadanie do łóżka.
+R-B1396 | Rodzinny spacer po obiedzie.
+R-B1397 | Wspólne pieczenie pierników.
+R-B1398 | Ubieranie choinki z całą rodziną.
+R-B1399 | Zdjęcie całej rodziny w jednakowych swetrach.
+R-B1400 | Rodzina, która jest najlepsza na świecie.
+R-B1401 | Wielki rodzinny plan, który nigdy się nie udał.
+R-B1402 | Mapa drogowa z zaznaczonym skrótem taty.
+R-B1403 | Godzina szukania miejsca na parkingu.
+R-B1404 | Wycieczka rowerowa, która skończyła się w lodziarni.
+R-B1405 | Namiot rozstawiony do góry nogami.
+R-B1406 | Materac dmuchany, który flaczeje w nocy.
+R-B1407 | Śpiwór, z którego nie da się wyjść.
+R-B1408 | Kemping z jedną łazienką na sto osób.
+R-B1409 | Przyczepa kempingowa dziadka.
+R-B1410 | Kuchenka turystyczna, która nie chce się zapalić.
+R-B1411 | Kiełbaska spalona na ognisku.
+R-B1412 | Pianka marshmallow na patyku.
+R-B1413 | Ziemniaki z ogniska.
+R-B1414 | Gitara przy ognisku z trzema akordami.
+R-B1415 | Opowieść o duchu przy latarce.
+R-B1416 | Pobudka przez koguta.
+R-B1417 | Mleko prosto od krowy.
+R-B1418 | Jajka od szczęśliwych kur.
+R-B1419 | Sianokosy u dziadka.
+R-B1420 | Jazda na przyczepie traktora.
+R-B1421 | Zbieranie jagód z niebieskim językiem.
+R-B1422 | Poziomki nawleczone na trawkę.
+R-B1423 | Wiśnie z drzewa sąsiada.
+R-B1424 | Kompot w słoikach na zimę.
+R-B1425 | Konfitury babci.
+R-B1426 | Dżem z etykietą „2014”.
+R-B1427 | Spiżarnia pełna słoików.
+R-B1428 | Kiszenie kapusty w beczce.
+R-B1429 | Wekowanie ogórków z całą rodziną.
+R-B1430 | Lista prezentów na sześć stron.
+R-B1431 | Kalendarz z odliczaniem do wakacji.
+R-B1432 | Zegarek, który spieszy się pięć minut.
+R-B1433 | Spóźnienie „tylko kwadrans”.
+R-B1434 | Zawsze otwarte drzwi u babci.
+R-B1435 | Obiad dla dziesięciu osób przygotowany dla trzech.
+R-B1436 | Pytanie „dlaczego?” zadane sto razy.
+R-B1437 | Rysunek dziecka, który wisi w pracy taty.
+R-B1438 | Lodówka oklejona magnesami.
+R-B1439 | Skrzynka na listy pełna ulotek.
+R-B1440 | Rachunek za prąd.
+R-B1441 | Paczka, którą sąsiad odebrał za nas.
+R-B1442 | Ciasto dla sąsiadów na przeprosiny.
+R-B1443 | Pożyczona szklanka cukru.
+R-B1444 | Sąsiedzki grill na podwórku.
+R-B1445 | Zebranie wspólnoty, na którym wszyscy krzyczą.
+R-B1446 | Kartka na klatce: „Kto zostawił rower?”.
+R-B1447 | Wózek w korytarzu.
+R-B1448 | Kot na klatce schodowej.
+R-B1449 | Choinka wyrzucona w marcu.
+R-B1450 | Śmietnik z segregacją, której nikt nie rozumie.
+R-B1451 | Butelki zwrotne z całego roku.
+R-B1452 | Nakrętki zbierane dla potrzebujących.
+R-B1453 | Makulatura w garażu.
+R-B1454 | Stary rower czekający na naprawę od 10 lat.
+R-B1455 | Telewizor, którego szkoda wyrzucić.
+R-B1456 | Kurtka „na działkę”.
+R-B1457 | Spodnie „po domu”.
+R-B1458 | Sweter „na specjalne okazje”.
+R-B1459 | Buty „na dobre czasy”.
+R-B1460 | Najwygodniejsze dresy świata.
+R-B1461 | Koszulka z wakacji w Chorwacji.
+R-B1462 | Czapka z daszkiem z reklamą pasz.
+R-B1463 | Krawat taty na pogrzeby i wesela.
+R-B1464 | Garnitur z komunii, który pasuje do dziś.
+R-B1465 | Sukienka na każde wesele ta sama.
+R-B1466 | Klapki pod prysznicem na basenie.
+R-B1467 | Okulary przeciwsłoneczne na głowie przez cały rok.
+R-B1468 | Parasolka, która wywraca się przy pierwszym wietrze.
+R-B1469 | Peleryna przeciwdeszczowa w kolorze żółtym.
+R-B1470 | Plecak turystyczny cięższy niż dziadek.
+R-B1471 | Walizka z kółkiem, które piszczy.
+R-B1472 | Paszport ze zdjęciem z dzieciństwa.
+R-B1473 | Dowód osobisty, na którym nikt nie wygląda dobrze.
+R-B1474 | Legitymacja szkolna z krzywą pieczątką.
+R-B1475 | Karta biblioteczna z czasów podstawówki.
+R-B1476 | Bilet miesięczny z kotem na zdjęciu.
+R-B1477 | Zniżka dla seniora.
+R-B1478 | Kolejka w urzędzie.
+R-B1479 | Numerek w przychodni.
+R-B1480 | Przychodnia otwarta od 8:00, kolejka od 6:00.
+R-B1481 | Pani w aptece, która wie lepiej niż lekarz.
+R-B1482 | Wizyta u okulisty z czytaniem literek.
+R-B1483 | Badanie wzroku, na którym zgaduję literki.
+R-B1484 | Bilans sześciolatka.
+R-B1485 | Mierzenie wzrostu na framudze drzwi.
+R-B1486 | Wzrost zaznaczony długopisem przez lata.
+R-B1487 | Pierwsze kroki nagrane kamerą.
+R-B1488 | Kaseta VHS z wesela rodziców.
+R-B1489 | Film z komunii z muzyką w tle.
+R-B1490 | Pokaz slajdów z wakacji u wujka.
+R-B1491 | Zdjęcia z albumu, na których wszyscy mają czerwone oczy.
+R-B1492 | Najbardziej obciachowe zdjęcie z dzieciństwa.
+R-B1493 | Zdjęcie w wanience pokazywane każdemu gościowi.
+R-B1494 | Rodzinna anegdota opowiadana na każdej imprezie.
+R-B1495 | Historia o tym, jak tata zgubił się w Rzymie.
+R-B1496 | Historia o tym, jak babcia poznała dziadka.
+R-B1497 | Legenda o wujku i kozie.
+R-B1498 | Przepowiednia cioci, że wszystko się ułoży.
+R-B1499 | Uśmiech babci, kiedy wszyscy są w komplecie.
+R-B1500 | Wspólna fotografia czterech pokoleń.
+R-B1501 | Przytulne mieszkanie babci.
+R-B1502 | Zapach świątecznych pierniczków.
+R-B1503 | Zapach skoszonej trawy.
+R-B1504 | Zapach deszczu latem.
+R-B1505 | Zapach nowego zeszytu.
+R-B1506 | Zapach rosołu w niedzielę.
+R-B1507 | Zapach kawy rano.
+R-B1508 | Dźwięk dzwonka na koniec lekcji.
+R-B1509 | Szum morza.
+R-B1510 | Trzask ognia w kominku.
+R-B1511 | Cisza w lesie.
+R-B1512 | Skrzypienie śniegu pod butami.

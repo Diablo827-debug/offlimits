@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/ocr-assets.mjs && vite build",
+    "build": "node scripts/talia-build.mjs && node scripts/ocr-assets.mjs && vite build",
     "preview": "vite preview"
   },
   "repository": {

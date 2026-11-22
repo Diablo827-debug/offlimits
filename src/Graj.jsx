@@ -27,6 +27,7 @@ function Join({ onJoin, busy, err, lang, onLang, onMine }) {
         {err ? <div className="err">{t(err)}</div> : null}
         <button type="submit" className="btn btn-primary" style={{ width: '100%' }} disabled={busy || code.length !== 4 || !name}>{t('joinBtn')}</button>
         <LangPick lang={lang} onLang={onLang} t={t} />
+        <a className="btn btn-ghost" style={{ width: '100%' }} href="/tv?solo=1">🎧 {t('soloPhone')}</a>
         <button type="button" className="btn btn-ghost" style={{ width: '100%' }} onClick={onMine}>🃏 {t('myDeckCount', { n: countMine(loadMine()) })}</button>
         {inApp()
           ? <button type="button" className="btn btn-ghost btn-small" onClick={() => switchRole('tv')}>{t('thisIsTv')}</button>

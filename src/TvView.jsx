@@ -57,7 +57,7 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
         <div className="tagline">The Unrestricted Game Club</div>
         <div className="script">Good company. Worse answers.</div>
         {room.mode !== 'rodzinny' ? <div className="chip done" style={{ borderColor: '#8C3446' }}>{t(room.mode === 'po22' ? 'chip22' : room.mode === 'bez' ? 'chipBez' : room.mode === 'moja' ? 'chipMine' : room.mode === 'cah' ? 'modeCah' : room.mode === 'kd' ? 'modeKd' : 'chipAll')}</div> : null}
-        {['cah', 'kd', 'wszystkie'].indexOf(room.mode || 'wszystkie') >= 0 ? <div className="muted" style={{ fontSize: '.75vw', maxWidth: '30vw', textAlign: 'center', marginTop: '.8vw' }}>{room.mode !== 'kd' ? t('cahLicense') : ''} {room.mode !== 'cah' ? t('kdLicense') : ''}</div> : null}
+        {['cah', 'kd', 'wszystkie'].indexOf(room.mode || 'wszystkie') >= 0 ? <div className="muted" style={{ fontSize: 'calc(.75 * var(--u, 1vw))', maxWidth: 'calc(30 * var(--u, 1vw))', textAlign: 'center', marginTop: 'calc(.8 * var(--u, 1vw))' }}>{room.mode !== 'kd' ? t('cahLicense') : ''} {room.mode !== 'cah' ? t('kdLicense') : ''}</div> : null}
       </div>
       <div className="join-box fade-in">
         <div className="join-top">
@@ -108,7 +108,7 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
         <button type="button" className="btn btn-primary" disabled={!can} onClick={onStart}>
           {can ? t('start') : t('needMin', { n: minPlayers })}
         </button>
-        <div style={{ display: 'flex', gap: '1vw', flexWrap: 'wrap', justifyContent: 'center' }}>
+        <div style={{ display: 'flex', gap: 'calc(1 * var(--u, 1vw))', flexWrap: 'wrap', justifyContent: 'center' }}>
           <button type="button" className="btn btn-ghost btn-small" onClick={onNewRoom}>{t('newRoom')}</button>
           <InstallTv t={t} />
           {inApp() ? <button type="button" className="btn btn-ghost btn-small" onClick={() => switchRole('graj')}>{t('thisIsPhone')}</button> : null}
@@ -206,7 +206,7 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
           })}
         </div>
         <div className="hint">
-          {result ? <>{t('pointFor')} <b className="gold-text" style={{ fontSize: '1.8vw' }}>{nameFor(okLang(room.lang), names[room.winner] || '')}</b></>
+          {result ? <>{t('pointFor')} <b className="gold-text" style={{ fontSize: 'calc(1.8 * var(--u, 1vw))' }}>{nameFor(okLang(room.lang), names[room.winner] || '')}</b></>
             : room.state === 'voting' ? <><b className="gold-text">{room.voteKs ? t('finalVote') : t('voteTv')}</b> · {t('votesCount', { a: Object.keys(votesOf(room)).length, b: voters(room).length })}{voteLeft != null ? ' · ' + voteLeft + ' s' : ''}</>
               : <>{t('judgeWord')} <b>{judge ? judge.name : ''}</b> {t('judgePicks')}</>}
         </div>
@@ -217,17 +217,17 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
     const top3 = [ranking[1], ranking[0], ranking[2]];
     stage = (
       <div className="center">
-        <div className="wordmark gold-text" style={{ fontSize: '4vw' }}>{t('gameOverTv')}</div>
+        <div className="wordmark gold-text" style={{ fontSize: 'calc(4 * var(--u, 1vw))' }}>{t('gameOverTv')}</div>
         <div className="podium">
           {top3.map((p, i) => p ? (
             <div key={p.uid} className={'col pop-in' + (i === 1 ? ' first' : '')} style={{ animationDelay: (i * 150) + 'ms' }}>
               <Avatar uid={p.uid} name={p.name} className="" />
               <div className="nm">{p.name}</div>
-              <div className="bar" style={{ height: i === 1 ? '16vw' : i === 0 ? '11vw' : '8vw' }}>{p.score || 0}</div>
+              <div className="bar" style={{ height: i === 1 ? 'calc(16 * var(--u, 1vw))' : i === 0 ? 'calc(11 * var(--u, 1vw))' : 'calc(8 * var(--u, 1vw))' }}>{p.score || 0}</div>
             </div>
           ) : <div key={i} className="col" />)}
         </div>
-        <div style={{ display: 'flex', gap: '1.2vw' }}>
+        <div style={{ display: 'flex', gap: 'calc(1.2 * var(--u, 1vw))' }}>
           <button type="button" className="btn btn-primary" onClick={onAgain}>{t('again')}</button>
           <button type="button" className="btn btn-ghost" onClick={onNewRoom}>{t('newRoom')}</button>
         </div>

@@ -1,0 +1,21 @@
+OFFLIMITS – baza pytań i odpowiedzi
+===================================
+
+Każdy pakiet ma dwa pliki: …-pytania.txt (czarne karty) i …-odpowiedzi.txt (białe karty).
+Foldery: pl = polski, en = angielski, es = hiszpański, el = grecki.
+
+  rodzinny   – Rodzinny (dla wszystkich)
+  po22       – Po 22:00 (pikantniejsze)
+  18plus     – Bez tabu (18+)
+  cah        – Cards Against Humanity (licencja CC BY-NC-SA)
+  kd         – Karty Dżentelmenów (licencja CC BY-NC-SA)
+
+Jedna linijka = jedna karta:   ID | tekst karty
+
+  Poprawić kartę   → zmień tekst za znakiem „|”, ID zostaw.
+  Usunąć kartę     → postaw minus na początku linijki:   - R-B0002 | Ciocia pytająca, kiedy ślub.
+  Dodać kartę      → dopisz samą treść w nowej linijce (bez ID).
+  Komentarz        → linijka zaczynająca się od #.
+
+Po zmianie pliki trafiają do gry przy najbliższym wgraniu (każda zmiana w repozytorium wgrywa się sama).
+Odmiana przez przypadki dla poprawionych i nowych kart: do czasu przeliczenia lektor czyta je w mianowniku.
