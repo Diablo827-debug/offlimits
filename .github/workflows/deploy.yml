@@ -25,7 +25,10 @@ jobs:
           cache: gradle
       - name: Zbuduj aplikację Android (telefon + Android TV)
         run: |
+          # Aplikacja wczytuje grę z serwera – ciężkich plików (animacje, czytnik OCR) nie pakujemy do APK.
+          mkdir -p /tmp/ciezkie && mv dist/prowadzacy dist/ocr /tmp/ciezkie/ 2>/dev/null || true
           npx cap sync android
+          mv /tmp/ciezkie/* dist/ 2>/dev/null || true
           cd android
           chmod +x gradlew
           ./gradlew assembleRelease --no-daemon -q
