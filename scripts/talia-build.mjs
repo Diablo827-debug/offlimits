@@ -80,4 +80,10 @@ if (fs.existsSync(bazaP)) {
   fs.writeFileSync(pub('odmiana.json'), JSON.stringify(o));
   if (dropped) console.log('talia: odmiana usunięta dla zmienionych kart:', dropped);
 }
+// Karty TOP (talia/pl/top.txt) – w grze wypadają częściej.
+const topP = new URL('pl/top.txt', dir);
+if (fs.existsSync(topP)) {
+  const ids = fs.readFileSync(topP, 'utf8').split(/\r?\n/).map((l) => l.trim()).filter((l) => l && l[0] !== '#');
+  fs.writeFileSync(pub('top.json'), JSON.stringify(ids));
+}
 console.log('talia: zbudowano', total, 'kart z plików talia/*.txt');

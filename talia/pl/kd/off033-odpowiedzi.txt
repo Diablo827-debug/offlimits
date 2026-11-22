@@ -19,14 +19,14 @@ K-B014 | Białystok.
 K-B015 | Biedawczasy.
 K-B016 | Bitwa o jedzenie w domu starców.
 K-B018 | Wypełnianie PIT-u.
-K-B019 | Niski poziom życia.
+- K-B019 | Niski poziom życia.
 K-B020 | Branie z połykiem dla szpanu.
 K-B021 | Brązowy zmaz, który niekoniecznie jest śladem po czekoladzie.
 K-B022 | Brzydkie koleżanki.
 K-B023 | Budowa kolejnego meczetu.
-K-B024 | Budyń.
+- K-B024 | Budyń.
 K-B026 | Buty na rzepy.
-K-B027 | Bycie jedyną białą, samicą w barze pełnym erasmusów.
+K-B027 | Bycie jedyną białą samicą w barze pełnym erasmusów.
 K-B029 | Związki zawodowe pracowników fabryk gadżetów erotycznych.
 K-B030 | Używanie gazu pieprzowego jako dezodorantu.
 K-B031 | Cellulit.
@@ -41,7 +41,7 @@ K-B040 | Zbrodnie wojenne.
 K-B043 | Czeski imperializm.
 K-B044 | Czopki z gwintem.
 K-B045 | Zdzirowata córka.
-K-B046 | Ćwiczenie mięśni Keggla w miejscu pracy.
+K-B046 | Ćwiczenie mięśni Kegla w miejscu pracy.
 K-B048 | Defraudacja pieniędzy Caritasu.
 K-B049 | Demonicznie opętany toster.
 K-B050 | Deskorolka na pedały.
@@ -63,7 +63,7 @@ K-B067 | Erotyczne sny z udziałem twoich najbliższych.
 K-B068 | Złapanie choroby wenerycznej podczas masturbacji.
 K-B069 | Adopcja na odległość.
 K-B070 | Faszyzm.
-K-B071 | Filc.
+- K-B071 | Filc.
 K-B072 | Śmietana szefa kuchni.
 K-B073 | Żyletki w cukierkach.
 K-B074 | Gender.
@@ -72,7 +72,7 @@ K-B076 | Glutaminian sodu.
 K-B077 | Górniczo-hutnicza orkiestra dęta.
 K-B078 | Życie na kredyt.
 K-B079 | Granie w Tetris ciałami zamrożonych dziadków.
-K-B080 | Grube dziewczyny w leginsach.
+K-B080 | Grube dziewczyny w legginsach.
 K-B081 | Gułag.
 K-B083 | Sraczka.
 K-B084 | Hipsterstwo.
@@ -85,17 +85,17 @@ K-B091 | Zobaczenie babci nago.
 K-B092 | Jagodzianki z truskawkami.
 K-B093 | Zespół Napięcia Przedmiesiączkowego.
 K-B094 | Jazda na rowerze bez siodełka.
-K-B096 | Kalafior.
+- K-B096 | Kalafior.
 K-B097 | Kalambury w psychiatryku.
-K-B098 | Karmienie piersią jednocześnie pijąc browar.
-K-B099 | Karta: "Wychodzisz wolny z więzienia".
+K-B098 | Karmienie piersią i jednoczesne picie browaru.
+K-B099 | Karta „Wychodzisz wolny z więzienia”.
 K-B100 | Karygodny taniec godowy.
 K-B101 | Kaszubska pieśń patriotyczna.
-K-B102 | Katechizm kolorowanka.
+K-B102 | Katechizm-kolorowanka.
 K-B103 | Kiełbasa śląska.
 K-B104 | Kierowcy BMW.
 K-B105 | Zatrzaśnięcie się w drzwiach obrotowych.
-K-B106 | Kisiel.
+- K-B106 | Kisiel.
 K-B107 | Klawisz urządzający wyścigi rzędów w więzieniu o zaostrzonym rygorze.
 K-B108 | Kleszczowe zapalenie mózgu.
 K-B109 | Kobieta za kierownicą.
@@ -115,7 +115,7 @@ K-B122 | Toksyczny związek.
 K-B123 | Kutasosanki.
 K-B124 | Leczenie HIV ibupromem.
 K-B125 | Wyjściowy dres.
-K-B126 | Logicznie myśląca kobieta.
+- K-B126 | Logicznie myśląca kobieta.
 K-B127 | Flaszka niedopitka.
 K-B128 | Ładne Niemki.
 K-B129 | Ładowanie w cewkę moczową.
@@ -123,23 +123,23 @@ K-B130 | Łysy z Brazzers.
 K-B131 | Jasełka w KGB.
 K-B132 | Magiczny czosnek.
 K-B133 | Makao na śmierć i życie.
-K-B134 | Margaryna.
+- K-B134 | Margaryna.
 K-B135 | Marsz trędowatych.
 K-B136 | Zboczone opowieści weterynarza.
 K-B138 | Mąż utrzymanek.
-K-B141 | Miejsce do którego wędruje Włóczykij.
+K-B141 | Miejsce, do którego wędruje Włóczykij.
 K-B142 | Mikołaj Kopernik siadający gołą dupą na mrowisku.
 K-B143 | Mimowolne słyszenie rodziców podczas seksu.
 K-B144 | Mineta na sucho.
 K-B145 | Mikrosutki.
 K-B146 | Wypadek podczas palcówki.
-K-B147 | Moja była.
+- K-B147 | Moja była.
 K-B148 | Mokry sen.
-K-B149 | Moment w którym feministki mają rację.
+K-B149 | Moment, w którym feministki mają rację.
 K-B151 | Motylek roznoszący HIV.
-K-B152 | Mój były.
+- K-B152 | Mój były.
 K-B153 | Mój dziwny brat.
-K-B154 | Zabawa w chowanego na OIOM-ie.
+K-B154 | Zabawa w chowanego na oiomie.
 K-B155 | Mój zaganiacz na ośmiogodzinnej warcie.
 K-B156 | Mściwe ruchanie.
 K-B158 | Musztarda bez akcyzy.
@@ -161,11 +161,11 @@ K-B173 | Zapomniana przez wszystkich ekologów dziura ozonowa.
 K-B174 | Niespodziewana wizyta rodziców.
 K-B176 | Zbereźne szeptanie.
 K-B177 | Obliczanie całki.
-K-B179 | Ocet.
+- K-B179 | Ocet.
 K-B180 | Ociekanie zajebistością.
 K-B181 | Odmrożenie moszny.
 K-B182 | Oglądanie filmów porno dla fabuły.
-K-B183 | Opierdol od pani psycholog z "Rozmów w toku".
+K-B183 | Opierdol od pani psycholog z „Rozmów w toku”.
 K-B184 | Oporny anal.
 K-B185 | Orgie drwali.
 K-B187 | Owoce Jogobelli.
@@ -176,8 +176,8 @@ K-B191 | Parkowanie mojego różowego Poloneza w twoim garażu miłości.
 K-B192 | Emerytura ZUS.
 K-B193 | Zatwardzenie.
 K-B194 | Pierd z farszem.
-K-B195 | Pierwsza komunia.
-K-B196 | Pierwsza miłość.
+- K-B195 | Pierwsza komunia.
+- K-B196 | Pierwsza miłość.
 K-B197 | Pierwszy wzwód.
 K-B198 | Sabotaż Gryffindoru.
 K-B199 | Wzbogacony uran.
@@ -185,7 +185,7 @@ K-B200 | Pijany trójkącik z nauczycielami z mojego liceum.
 K-B201 | Pisiont groszy.
 K-B202 | Plaga bezdomnych.
 K-B203 | Plan minimum.
-K-B204 | Pleśń.
+- K-B204 | Pleśń.
 K-B205 | Płaca minimalna.
 K-B206 | Płaskostopie.
 K-B207 | Płatny wolontariat.
@@ -195,15 +195,15 @@ K-B210 | Podcieranie się konwencją praw człowieka.
 K-B211 | Wynurzający się peryskop podczas kąpieli w wannie.
 K-B213 | Popijanie ibupromu majonezem.
 K-B214 | Poranny drągal.
-K-B215 | Porno w kodzie Morse'a.
+K-B215 | Porno w alfabecie Morse’a.
 K-B216 | Wsteczne kolana.
 K-B217 | Pozbycie się dziewictwa na własną rękę.
-K-B218 | Półamatorska brygada remontowobudowlana "Szwagier".
+K-B218 | Półamatorska brygada remontowo-budowlana „Szwagier”.
 K-B219 | Prawdziwy Polak.
 K-B221 | Prochy dziadka.
 K-B222 | Przedwczesny wytrysk.
 K-B223 | Przegłosowanie kolejnego rozbioru Polski.
 K-B224 | Przerabianie bezdomnych na mobilne punkty Wi-Fi.
 K-B225 | Radioaktywni grzybiarze.
-K-B226 | Wewnętrzna warstwa tłustej, śliskiej substancji przeciwpotnej.
+- K-B226 | Wewnętrzna warstwa tłustej, śliskiej substancji przeciwpotnej.
 K-B227 | Przyjaźń damsko-męska.

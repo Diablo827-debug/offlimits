@@ -29,7 +29,7 @@ R-B0219 | Telefon stacjonarny babci.
 R-B0220 | Książka telefoniczna.
 R-B0221 | Kalendarz z 2019 roku.
 R-B0222 | Zegar z kukułką.
-R-B0223 | Budzik, który dzwoni o 5:30.
+R-B0223 | Budzik, który dzwoni o wpół do szóstej.
 R-B0224 | Lampka nocna w kształcie księżyca.
 R-B0225 | Koc z owczej wełny, który drapie.
 R-B0226 | Poduszka, na której śpi kot.
@@ -99,7 +99,7 @@ R-B0289 | Jajka rozbite w torbie.
 R-B0290 | Mleko, które się przeterminowało dzień temu.
 R-B0291 | Chleb sprzed tygodnia.
 R-B0292 | Bułka, która zmieniła się w kamień.
-R-B0293 | Szkoła w poniedziałek o 7:10.
+R-B0293 | Szkoła w poniedziałek o siódmej dziesięć.
 R-B0294 | Dzwonek na przerwę.
 R-B0295 | Sprawdzian z zaskoczenia.
 R-B0296 | Kartkówka, o której nikt nie wiedział.
@@ -109,9 +109,9 @@ R-B0299 | Plecak cięższy niż uczeń.
 R-B0300 | Kanapka zgnieciona w plecaku.
 R-B0301 | Uwaga w dzienniku.
 R-B0302 | Jedynka z matematyki.
-R-B0303 | Szóstka z w-fu.
+R-B0303 | Szóstka z WF-u.
 R-B0304 | Świadectwo z paskiem.
-R-B0305 | Zwolnienie z w-fu na całe życie.
+R-B0305 | Zwolnienie z WF-u na całe życie.
 R-B0306 | Wychowawczyni z gwizdkiem.
 R-B0307 | Pan od fizyki, który eksploduje.
 R-B0308 | Pani od polskiego z czerwonym długopisem.
@@ -132,7 +132,7 @@ R-B0322 | Kolonie nad morzem.
 R-B0323 | Obóz harcerski.
 R-B0324 | Ognisko z kiełbaskami.
 R-B0325 | Spanie pod namiotem w ulewie.
-R-B0326 | Mapa, której nikt nie umie złożyć.
+- R-B0326 | Mapa, której nikt nie umie złożyć.
 R-B0327 | Kompas, który pokazuje zawsze na lodówkę.
 R-B0328 | Plecak pełen batonów.
 R-B0329 | Termos z herbatą.
@@ -175,13 +175,13 @@ R-B0365 | Odśnieżanie auta o 6 rano.
 R-B0366 | Skrobaczka do szyb.
 R-B0367 | Zimowe opony na wiosnę.
 R-B0368 | Samochód taty, który „jeszcze pociągnie”.
-R-B0369 | Fiat 126p dziadka.
+R-B0369 | Mały fiat dziadka.
 R-B0370 | Klimatyzacja, która dmucha tylko w kierowcę.
 R-B0371 | Choinka zapachowa w aucie.
 R-B0372 | Korek na zakopiance.
 R-B0373 | Postój na stacji benzynowej.
 R-B0374 | Hot dog ze stacji.
-R-B0375 | „Daleko jeszcze?”
+R-B0375 | Pytanie „daleko jeszcze?”.
 R-B0376 | Dzieci kłócące się na tylnym siedzeniu.
 R-B0377 | Pies, który wymiotuje w samochodzie.
 R-B0378 | Bagażnik, który się nie domyka.

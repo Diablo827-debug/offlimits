@@ -30,7 +30,7 @@ N-B0220 | Kanapa jako druga sypialnia.
 N-B0221 | Godzina w łazience z telefonem.
 N-B0222 | Mąż, który „nic nie widzi” w lodówce.
 N-B0223 | Żona, która „nie ma się w co ubrać”.
-N-B0224 | Kurtka kupiona tylko dlatego, że była w promocji.
+- N-B0224 | Kurtka kupiona tylko dlatego, że była w promocji.
 N-B0225 | Szafa pełna ubrań z metkami.
 N-B0226 | Buty, w których nie da się chodzić.
 N-B0227 | Torebka za trzy wypłaty.
@@ -43,9 +43,9 @@ N-B0233 | Siwy włos w brodzie.
 N-B0234 | Pierwsza zmarszczka.
 N-B0235 | Krem przeciwzmarszczkowy kupiony w tajemnicy.
 N-B0236 | Okulary do czytania.
-N-B0237 | Drzemka o 19:00.
+N-B0237 | Drzemka o siódmej wieczorem.
 N-B0238 | Zasypianie na kanapie przed dziennikiem.
-N-B0239 | Pójście spać o 21:30 w sobotę.
+N-B0239 | Pójście spać o wpół do dziesiątej w sobotę.
 N-B0240 | Radość z nowego odkurzacza.
 N-B0241 | Rozmowy o kredytach zamiast o imprezach.
 N-B0242 | Dyskusja o cenach masła.
@@ -57,8 +57,8 @@ N-B0247 | Lista zakupów w notatkach telefonu.
 N-B0248 | Tabletki na żołądek w torebce.
 N-B0249 | Ulubiony nóż w kuchni.
 N-B0250 | Kolekcja słoików na wszelki wypadek.
-N-B0251 | Torba z torbami.
-N-B0252 | Planowanie urlopu w excelu.
+- N-B0251 | Torba z torbami.
+N-B0252 | Planowanie urlopu w Ekselu.
 N-B0253 | Pierwsze ubezpieczenie na życie.
 N-B0254 | Wizyta u księgowej.
 N-B0255 | PIT złożony w ostatniej chwili.
@@ -77,7 +77,7 @@ N-B0267 | Kamera w samochodzie nagrywająca wszystko.
 N-B0268 | Nawigacja w złym języku.
 N-B0269 | Samochód służbowy używany na wakacje.
 N-B0270 | Delegacja do Radomia.
-N-B0271 | Hotel ze śniadaniem do 9:00.
+N-B0271 | Hotel ze śniadaniem do dziewiątej.
 N-B0272 | Minibar, który zjada pensję.
 N-B0273 | Basen hotelowy z dziećmi.
 N-B0274 | Spa, w którym nie da się zrelaksować.
@@ -101,7 +101,7 @@ N-B0291 | Lotnisko o 5 rano.
 N-B0292 | Kontrola bezpieczeństwa z paskiem w ręku.
 N-B0293 | Płyny w woreczku strunowym.
 N-B0294 | Pasażer, który klaszcze po lądowaniu.
-N-B0295 | Bilet lotniczy za 19 złotych i bagaż za 300.
+N-B0295 | Bilet lotniczy za dziewiętnaście złotych i bagaż za trzysta.
 N-B0296 | Pokój hotelowy z widokiem na ścianę.
 N-B0297 | Recenzja hotelu napisana w złości.
 N-B0298 | Wakacje życia na kredyt.
@@ -124,7 +124,7 @@ N-B0314 | Dieta pudełkowa, której nikt nie zjada.
 N-B0315 | Sałatka zamówiona z wyrzutami sumienia.
 N-B0316 | Frytki zamiast sałatki.
 N-B0317 | Słodycze „tylko jeden kawałek”.
-N-B0318 | Lodówka otwierana o 23:00 po raz piąty.
+N-B0318 | Lodówka otwierana o jedenastej w nocy po raz piąty.
 N-B0319 | Nocne podjadanie przy świetle lodówki.
 N-B0320 | Kebab na wynos po siłowni.
 N-B0321 | Siłownia raz w roku.
@@ -133,7 +133,7 @@ N-B0323 | Białko w proszku o smaku tektury.
 N-B0324 | Legginsy, które nigdy nie widziały siłowni.
 N-B0325 | Bieganie, żeby móc zjeść pizzę.
 N-B0326 | Maraton oglądany z kanapy.
-N-B0327 | Rower spinningowy jako wieszak.
+- N-B0327 | Rower spinningowy jako wieszak.
 N-B0328 | Zegarek sportowy, który mówi „rusz się”.
 N-B0329 | Ankieta „jak się dziś czujesz” od aplikacji.
 N-B0330 | Waga, która mówi prawdę.
@@ -177,7 +177,7 @@ N-B0367 | Szwagierka, która wie lepiej.
 N-B0368 | Rodzice partnera, którzy „wpadli na chwilę” na tydzień.
 N-B0369 | Dzieci przyjaciół, które rozwalają mieszkanie.
 N-B0370 | Baby shower z grą w zgadywanie obwodu brzucha.
-N-B0371 | Gender reveal, który podpalił las.
+N-B0371 | Impreza z ujawnieniem płci dziecka, która podpaliła las.
 N-B0372 | Imię dziecka, które wszyscy krytykują.
 N-B0373 | Pierwsza nieprzespana noc.
 N-B0374 | Pieluchy zamiast imprez.
@@ -189,7 +189,7 @@ N-B0379 | Piosenka z bajki w głowie przez tydzień.
 N-B0380 | Zabawka, która gra o 3 w nocy.
 N-B0381 | Klocek pod stopą w ciemności.
 N-B0382 | Dziecko, które mówi prawdę przy gościach.
-N-B0383 | „Mamo, a ta pani jest gruba?”
+- N-B0383 | Pytanie dziecka: „Mamo, a ta pani jest gruba?”.
 N-B0384 | Nastolatek, który odpowiada tylko „spoko”.
 N-B0385 | Nastolatka zamknięta w pokoju od 2023 roku.
 N-B0386 | Rodzic, który chce być „fajny”.

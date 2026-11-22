@@ -7,7 +7,7 @@
 #  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
 #  • Linijki zaczynające się od # to komentarze – gra je pomija.
 #
-N-B0801 | Lokata na 0,5%.
+N-B0801 | Lokata na pół procenta.
 N-B0802 | Pożyczka u szwagra, o której wie cała rodzina.
 N-B0803 | Dług wdzięczności wobec kumpla z przeprowadzki.
 N-B0804 | Przeprowadzka z pizzą zamiast zapłaty.
@@ -22,7 +22,7 @@ N-B0812 | Szafa wspomnień, której nie da się otworzyć.
 N-B0813 | Pamiętnik z liceum.
 N-B0814 | Zdjęcia z osiemnastki, które wypłynęły.
 N-B0815 | Stary profil na portalu sprzed lat.
-N-B0816 | Stary e-mail typu „sexyboy1990”.
+N-B0816 | Stary e-mail typu „seksboj tysiąc dziewięćset dziewięćdziesiąt”.
 N-B0817 | Nick z gry, który wstyd podawać.
 N-B0818 | Pierwsza miłość, która ma teraz troje dzieci i dom.
 N-B0819 | Były, który się zmienił, czyli nie.
@@ -81,7 +81,7 @@ N-B0871 | Bimber z wiśni po dziadku.
 N-B0872 | Wódka z lodówki u wujka.
 N-B0873 | Nalewka babci, która zwala z nóg.
 N-B0874 | Piwo z promocji w dyskoncie.
-N-B0875 | Wino musujące za 9,99.
+N-B0875 | Wino musujące za dziewięć dziewięćdziesiąt dziewięć.
 N-B0876 | Wino dla sommeliera z marketu.
 N-B0877 | Whisky, której nie wolno ruszać.
 N-B0878 | Butelka na specjalną okazję, która nigdy nie przychodzi.
@@ -95,7 +95,7 @@ N-B0885 | Ciemne okulary w pochmurny dzień.
 N-B0886 | Telefon do szefa z chorobą „nagłą i tajemniczą”.
 N-B0887 | Grypa męska.
 N-B0888 | Katar, który zabija.
-N-B0889 | Termometr pokazujący 37,2 i testament.
+N-B0889 | Termometr pokazujący trzydzieści siedem i dwa oraz testament.
 N-B0890 | Mężczyzna z gorączką.
 N-B0891 | Kobieta z gorączką, która dalej sprząta.
 N-B0892 | Wizyta u lekarza dla świętego spokoju.
@@ -147,7 +147,7 @@ N-B0937 | Ekspres do kawy droższy niż samochód.
 N-B0938 | Pralka, która gra melodię jak w komedii.
 N-B0939 | Zmywarka ułożona po swojemu.
 N-B0940 | Lodówka, która piszczy, gdy jest otwarta.
-N-B0941 | Odkurzacz, którego boi się pies.
+- N-B0941 | Odkurzacz, którego boi się pies.
 N-B0942 | Robot sprzątający, który rozmazał niespodziankę od kota.
 N-B0943 | Kot, który rządzi mieszkaniem.
 N-B0944 | Pies, który ma więcej obserwujących niż ja.
@@ -156,7 +156,7 @@ N-B0946 | Kot śpiący na twarzy.
 N-B0947 | Rybki jako związek bez zobowiązań.
 N-B0948 | Kaktus jako jedyny lokator, który przeżył.
 N-B0949 | Roślina, która umiera mimo wszystko.
-N-B0950 | Pomidory na balkonie warte 50 złotych za sztukę.
+N-B0950 | Pomidory na balkonie warte pięćdziesiąt złotych za sztukę.
 N-B0951 | Zioła w doniczce, które zjadł kot.
 N-B0952 | Ogród jako przykrywka do ukrywania się przed rodziną.
 N-B0953 | Altana do przemyśleń.

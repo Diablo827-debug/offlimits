@@ -13,7 +13,7 @@ N-B1203 | Coworking z darmową kawą i drogim życiem.
 N-B1204 | Praca hybrydowa, czyli praca zawsze.
 N-B1205 | Weekend pod telefonem.
 N-B1206 | Urlop z laptopem nad morzem.
-N-B1207 | Wyjście z pracy o 17:00 jak ucieczka z więzienia.
+N-B1207 | Wyjście z pracy o piątej jak ucieczka z więzienia.
 N-B1208 | Spojrzenia kolegów, gdy wychodzę o czasie.
 N-B1209 | Nadgodziny, za które płacą satysfakcją.
 N-B1210 | Praca, która jest „jak rodzina”.
@@ -139,7 +139,7 @@ N-B1329 | Kłótnia o to, kto pierwszy powie „kocham cię”.
 N-B1330 | Kłótnia o to, kto ma pilnować imprezy.
 N-B1331 | Kłótnia o to, kto prowadzi w drodze powrotnej.
 N-B1332 | Kierowca, który pił tylko wodę i pamięta wszystko.
-N-B1333 | Taksówka za 200 złotych z wesela.
+N-B1333 | Taksówka za dwieście złotych z wesela.
 N-B1334 | Spanie w samochodzie na parkingu pod salą weselną.
 N-B1335 | Powrót do domu w świetle dnia.
 N-B1336 | Śniadanie w restauracji przydrożnej z kacem.

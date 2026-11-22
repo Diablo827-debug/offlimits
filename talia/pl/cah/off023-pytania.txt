@@ -10,9 +10,9 @@
 #
 C-C02559 | W więzieniu mówią, że za 200 papierosów można dostać ____.
 C-C00158 | Na nowej płycie raper nawija do dźwięków ____.
-C-C02557 | W nowej letniej komedii Rob Schneider to ____ uwięziony w ciele ____.
-C-C02560 | W nowym filmie Shyamalana Bruce Willis odkrywa, że ____ przez cały czas było tak naprawdę ____.
-C-C02561 | W ostatnich chwilach Michael Jackson myślał o ____.
+C-C02557 | W nowej letniej komedii Tomasz Karolak to ____ uwięziony w ciele ____.
+C-C02560 | W nowym filmie M. Nighta Shyamalana Bruce Willis odkrywa, że ____ przez cały czas było tak naprawdę ____.
+- C-C02561 | W ostatnich chwilach Michael Jackson myślał o ____.
 C-C00165 | W Rzymie szepczą, że Watykan ma tajny pokój poświęcony ____.
 C-C02562 | W nowym filmie Disneya Hannah Montana pierwszy raz zmaga się z ____.
 C-C00170 | W siódmym kręgu piekła grzesznicy muszą przez wieczność znosić ____.

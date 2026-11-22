@@ -166,7 +166,7 @@ R-B1156 | Gol w ostatniej minucie.
 R-B1157 | Rzut karny, na który nie można patrzeć.
 R-B1158 | Skoki narciarskie w Nowy Rok.
 R-B1159 | Siatkówka o 3 w nocy.
-R-B1160 | Kibicowanie w pidżamie.
+R-B1160 | Kibicowanie w piżamie.
 R-B1161 | Szalik klubowy dziadka.
 R-B1162 | Piłka, która wpadła do ogrodu sąsiada.
 R-B1163 | Wybita szyba w garażu.

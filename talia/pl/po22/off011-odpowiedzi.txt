@@ -23,8 +23,8 @@ N-B0413 | Zdjęcie z rybą w profilu randkowym.
 N-B0414 | Zdjęcie z tygrysem z wakacji w Tajlandii.
 N-B0415 | Dopasowanie z kuzynem.
 N-B0416 | Randka z kimś, kto wygląda zupełnie inaczej niż na zdjęciu.
-N-B0417 | „Jestem tu tylko dla przyjaźni”.
-N-B0418 | „Szukam czegoś poważnego, ale bez zobowiązań”.
+N-B0417 | Tekst „jestem tu tylko dla przyjaźni”.
+N-B0418 | Opis „szukam czegoś poważnego, ale bez zobowiązań”.
 N-B0419 | Wymiana wiadomości trwająca trzy miesiące bez spotkania.
 N-B0420 | Spotkanie trwające 12 minut.
 N-B0421 | Telefon od przyjaciółki ratujący z randki.
@@ -34,7 +34,7 @@ N-B0424 | Napiwek, który był pomyłką.
 N-B0425 | Drugi deser zamiast drugiej randki.
 N-B0426 | Pocałunek na pożegnanie w policzek.
 N-B0427 | Przytulenie jak od wujka.
-N-B0428 | „Odezwę się”.
+N-B0428 | Obietnica „odezwę się”.
 N-B0429 | Brak odpowiedzi od tygodnia.
 N-B0430 | Romantyczny spacer w deszczu bez parasola.
 N-B0431 | Kino, w którym nikt nie oglądał filmu.
@@ -47,13 +47,13 @@ N-B0437 | Pierścionek z automatu z zabawkami.
 N-B0438 | Romantyczny weekend w Ciechocinku.
 N-B0439 | Spacer po tężni z babciami.
 N-B0440 | Sanatorium, gdzie dzieje się więcej niż w klubie.
-N-B0441 | Dancing dla 60+.
+N-B0441 | Dansing dla sześćdziesiąt plus.
 N-B0442 | Babcia, która ma lepsze życie towarzyskie niż ja.
 N-B0443 | Dziadek na Tinderze.
 N-B0444 | Emeryci na wycieczce do Grecji.
 N-B0445 | Klub seniora z karaoke.
 N-B0446 | Teść z nowym smartfonem.
-N-B0447 | Wyjazd do Egiptu za 13. emeryturę.
+N-B0447 | Wyjazd do Egiptu za trzynastą emeryturę.
 N-B0448 | Ławka pod blokiem jako centrum plotek.
 N-B0449 | Pani z okna, która wie, o której wróciłem.
 N-B0450 | Monitoring osiedlowy zrobiony przez sąsiadkę.
@@ -70,7 +70,7 @@ N-B0460 | Wiertarka udarowa w sobotę o 8 rano.
 N-B0461 | Udawać, że się pracuje, gdy szef przechodzi.
 N-B0462 | Mieć otwarte 47 kart w przeglądarce.
 N-B0463 | Spóźnić się na własne urodziny.
-N-B0464 | Zapomnieć o rocznicy i kupić kwiaty na stacji.
+- N-B0464 | Zapomnieć o rocznicy i kupić kwiaty na stacji.
 N-B0465 | Pomylić imię partnera z imieniem byłego.
 N-B0466 | Zasnąć na pierwszej randce.
 N-B0467 | Zgubić się w drodze z toalety na weselu.
@@ -171,22 +171,22 @@ N-B0561 | Obudzić się z nowym numerem w telefonie.
 N-B0562 | Mieć 14 nieodebranych połączeń od mamy.
 N-B0563 | Odpisywać na wiadomości z wczoraj z przeprosinami.
 N-B0564 | Udawać chorobę w poniedziałek.
-N-B0565 | Wziąć L4 na mecz reprezentacji.
+N-B0565 | Wzięcie el cztery na mecz reprezentacji.
 N-B0566 | Oglądać mecz w pracy na telefonie.
 N-B0567 | Pić kawę w kubku z napisem „Najlepszy szef”.
 N-B0568 | Podpisać się pod mailem „Pozdrawiam serdecznie” z wściekłością.
 N-B0569 | Odpisać na maila w weekend i żałować.
-N-B0570 | Mieć skrzynkę mailową z 12 tysiącami nieprzeczytanych.
+N-B0570 | Skrzynka mailowa z dwunastoma tysiącami nieprzeczytanych wiadomości.
 N-B0571 | Zapisać się na newsletter, żeby dostać rabat.
 N-B0572 | Mieć kartę lojalnościową z każdej sieciówki.
 N-B0573 | Mieć konto w 47 aplikacjach.
 N-B0574 | Zapomnieć hasła do konta bankowego.
 N-B0575 | Wpisać PIN trzy razy źle.
-N-B0576 | Zrobić przelew na 5000 zamiast na 50.
+N-B0576 | Zrobienie przelewu na pięć tysięcy zamiast na pięćdziesiąt.
 N-B0577 | Wydać na cele charytatywne cały budżet na prezenty.
 N-B0578 | Kupić prezent sobie zamiast partnerowi.
-N-B0579 | Podarować dalej prezent od tej samej osoby.
-N-B0580 | Zostawić metkę z ceną na prezencie.
+- N-B0579 | Podarować dalej prezent od tej samej osoby.
+- N-B0580 | Zostawić metkę z ceną na prezencie.
 N-B0581 | Kupić prezent na ostatnią chwilę na stacji.
 N-B0582 | Spóźnić się na pociąg przez kawę.
 N-B0583 | Przespać lot.

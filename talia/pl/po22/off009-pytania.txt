@@ -16,15 +16,15 @@ N-C005 | Czego nie widać na zdjęciach z wieczoru panieńskiego?
 N-C006 | Prawdziwy powód rozwodu sąsiadów: ____.
 N-C007 | Plan na sobotę: wino, kocyk i ____.
 N-C008 | Dorosłość to moment, gdy bardziej od imprezy cieszy ____.
-N-C009 | Co powiedzieć szefowi w poniedziałek o 8:00?
+N-C009 | Co powiedzieć szefowi w poniedziałek o ósmej rano?
 N-C010 | Mój budżet domowy w jednym obrazku: ____.
 N-C011 | Co kryje historia przeglądarki szwagra?
 N-C012 | Najlepszy sposób na kaca to ____.
 N-C013 | Cecha idealnego partnera: ____.
 N-C014 | Przysięga małżeńska, wersja realistyczna: „Zawsze będzie między nami ____”.
-N-C015 | Co robię, kiedy nikt nie odpisuje od 4 minut?
+N-C015 | Co robię, kiedy nikt nie odpisuje od czterech minut?
 N-C016 | Kryzys wieku średniego w pełnej krasie: ____.
-N-C017 | „Kochanie, musimy porozmawiać.” Temat rozmowy: ____.
+N-C017 | „Kochanie, musimy porozmawiać”. Temat rozmowy: ____.
 N-C018 | Napis na moim nagrobku: ____.
 N-C019 | Pierwsza randka: ____, a na deser ____.
 N-C020 | Plan na sylwestra: najpierw ____, potem ____.
@@ -45,7 +45,7 @@ N-C034 | Co jest w historii zakupów po północy?
 N-C035 | Najlepsza wymówka, żeby wyjść wcześniej z imprezy: ____.
 N-C036 | Hasło przewodnie mojej trzydziestki: ____.
 N-C037 | Co jest gorsze od kaca?
-N-C038 | Powód, dla którego siedzę w samochodzie pod domem przez 20 minut: ____.
+N-C038 | Powód, dla którego siedzę w samochodzie pod domem przez dwadzieścia minut: ____.
 N-C039 | Największy sekret mojego szefa: ____.
 N-C040 | Najgorszy temat na rozmowę w windzie to ____.
 N-C041 | Co zabiera ze sobą Polak na all inclusive?
@@ -68,7 +68,7 @@ N-C057 | Nowy rytuał przed snem: ____.
 N-C058 | Mój typ na pierwszą randkę to ____.
 N-C059 | Czego nie ma w umowie o pracę, a powinno?
 N-C060 | Co naprawdę znaczy „wpadnij na kawę”?
-N-C061 | Najlepsze, co może mnie spotkać w piątek o 15:00, to ____.
+N-C061 | Najlepsze, co może mnie spotkać w piątek o piętnastej, to ____.
 N-C062 | Co mówię dentystce z pełnymi ustami?
 N-C063 | Jedyne, czego zabrakło na imprezie firmowej: ____.
 N-C064 | Prawdziwy powód, dla którego zostałem singlem: ____.

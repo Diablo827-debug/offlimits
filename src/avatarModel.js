@@ -6,6 +6,8 @@ const TEST_URL = '/prowadzacy/3d/test-robot.glb';
 let modelUrl = null;
 export function checkModel() {
   if (modelUrl !== null) return Promise.resolve(modelUrl);
+  // ?avatar=wideo – prowadząca z filmików (Kling) zamiast postaci 3D
+  if (/[?&]avatar=wideo/.test(location.search)) { modelUrl = ''; return Promise.resolve(''); }
   const test = /[?&]avatar=test/.test(location.search);
   const url = test ? TEST_URL : MODEL_URL;
   return fetch(url, { method: 'HEAD' })

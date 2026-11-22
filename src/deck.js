@@ -20,9 +20,10 @@ export function loadDeck(lang, fresh) {
       getJson('/odmiana.json?v=' + v),
       cache.cah,
       cache.kd,
-    ]).then(([d, o, cah, kd]) => {
+      getJson('/top.json?v=' + v),
+    ]).then(([d, o, cah, kd, top]) => {
       [cah, kd].forEach((x) => { if (x && x.pl) { Object.assign(d.c, x.pl.c); Object.assign(d.b, x.pl.b); } });
-      return Object.assign(d, { k: o.c || {}, f: o.f || {}, w: new Set(o.w || []), lang: 'pl' });
+      return Object.assign(d, { k: o.c || {}, f: o.f || {}, w: new Set(o.w || []), top: new Set(Array.isArray(top) ? top : []), lang: 'pl' });
     });
   }
   if (l === 'pl') return cache.pl;
@@ -38,7 +39,7 @@ export function loadDeck(lang, fresh) {
       return cache.cah.then((cah) => {
         // po angielsku pakiet CAH w oryginale
         if (l === 'en' && cah && cah.en) { Object.assign(c, cah.en.c); Object.assign(b, cah.en.b); }
-        return { c, b, lang: l };
+        return { c, b, lang: l, top: pl.top };
       });
     });
   }
@@ -79,6 +80,16 @@ export function shuffle(arr) {
     const t = a[i]; a[i] = a[j]; a[j] = t;
   }
   return a;
+}
+
+// Tasowanie z premią dla kart TOP (najlepsze wg oceny): trafiają częściej na początek stosu.
+export function shuffleTop(arr, deck) {
+  const top = deck && deck.top;
+  if (!top || !top.size) return shuffle(arr);
+  return arr
+    .map((id) => [id, Math.pow(Math.random(), 1 / (top.has(id) ? 3 : 1))])
+    .sort((x, y) => y[1] - x[1])
+    .map((x) => x[0]);
 }
 
 function stripEnd(t) { return t.replace(/[.!]+$/, ''); }

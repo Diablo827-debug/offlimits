@@ -53,7 +53,7 @@ X-B0643 | Uczelnia z rektorem i radą do spraw niczego.
 X-B0644 | Absolwent filozofii jako kierowca w aplikacji.
 X-B0645 | Pokolenie, które nie stać na mieszkanie.
 X-B0646 | Mieszkanie dla młodych dla tych, co mają już dwa.
-X-B0647 | Kawalerka w bloku z wielkiej płyty za 600 tysięcy.
+X-B0647 | Kawalerka w bloku z wielkiej płyty za sześćset tysięcy.
 X-B0648 | Deweloper z apartamentem na 22 metrach.
 X-B0649 | Apartament z widokiem na apartament.
 X-B0650 | Wynajmujący, który nie pozwala mieć zwierząt i gejów.
@@ -67,12 +67,12 @@ X-B0657 | Szpital, który nie wpuszcza partnera, bo „nie rodzina”.
 X-B0658 | Akt notarialny jako jedyny dowód miłości.
 X-B0659 | Pełnomocnictwo jako polski akt ślubu.
 X-B0660 | Ślub w Berlinie i rejestracja w Sopocie, której nie ma.
-X-B0661 | Wesele za granicą z babcią na Skypie.
+X-B0661 | Wesele za granicą z babcią na Skajpie.
 X-B0662 | Babcia, która pokazuje zdjęcia z wesela wnuka całej parafii.
 X-B0663 | Ksiądz, który pyta babcię o synową.
 X-B0664 | Babcia, która mówi księdzu, że ma dwóch zięciów.
 X-B0665 | Ksiądz, który zemdlał.
-X-B0666 | Ksiądz, który przyszedł na wesele.
+- X-B0666 | Ksiądz, który przyszedł na wesele.
 X-B0667 | Ksiądz, który przyszedł na wesele i tańczył do rana.
 X-B0668 | Ksiądz, który był najlepszym gościem.
 X-B0669 | Ksiądz, który był moim byłym.
@@ -102,7 +102,7 @@ X-B0692 | Pies, który się cieszy z każdego.
 X-B0693 | Pies, który jest bardziej tolerancyjny niż proboszcz.
 X-B0694 | Proboszcz, który jest bardziej gejowski niż ja.
 X-B0695 | Wujek, który jest bardziej gejowski niż ja i o tym nie wie.
-X-B0696 | Ciocia, która gra na mnie w swoich modlitwach.
+X-B0696 | Ciocia, która wymienia mnie w swoich modlitwach.
 X-B0697 | Ciocia, która dzwoni do egzorcysty.
 X-B0698 | Egzorcysta, który przyszedł i został na rosół.
 X-B0699 | Rosół, który leczy z homofobii.
@@ -122,7 +122,7 @@ X-B0712 | Elf, który wyoutował się na wigilii firmowej.
 X-B0713 | Choinka, która jest bardziej kolorowa niż parada.
 X-B0714 | Kolęda w wersji techno.
 X-B0715 | Kolędnicy, którzy śpiewają o inflacji.
-X-B0716 | Gwiazda betlejemska z LED-ów za 300 złotych.
+X-B0716 | Gwiazda betlejemska z ledów za trzysta złotych.
 X-B0717 | Pasterze, którzy przyszli z flagą.
 X-B0718 | Trzej Królowie, którzy pytają o drogę w urzędzie.
 X-B0719 | Herod, który kandyduje w wyborach.
@@ -144,8 +144,8 @@ X-B0734 | Sklep, w którym zawsze wiadomo, kto z kim.
 X-B0735 | Ławka pod sklepem jako parlament ludowy.
 X-B0736 | Parlament ludowy z piwem w ręku.
 X-B0737 | Piwo jako ostatnia instytucja zaufania publicznego.
-X-B0738 | Zaufanie publiczne na poziomie 3%.
-X-B0739 | Moje zaufanie do polityków na poziomie minus 40.
+X-B0738 | Zaufanie publiczne na poziomie trzech procent.
+X-B0739 | Moje zaufanie do polityków na poziomie minus czterdzieści.
 X-B0740 | Moje zaufanie do cioci po jej poście na Facebooku.
 X-B0741 | Post cioci o „zagrożeniu dla rodziny”.
 X-B0742 | Moja rodzina, która ma się świetnie, dziękuję.
@@ -164,8 +164,8 @@ X-B0754 | Ksiądz, który pomylił imię panny młodej.
 X-B0755 | Ksiądz, który pomylił imię zmarłego.
 X-B0756 | Kazanie o rozpuście wygłoszone po weselu.
 X-B0757 | Ministrant, który zasnął przy ołtarzu.
-X-B0758 | Organista z kacem w niedzielę o 8 rano.
-X-B0759 | Dzwony o 6 rano w sobotę.
+X-B0758 | Organista z kacem w niedzielę o ósmej rano.
+X-B0759 | Dzwony o szóstej rano w sobotę.
 X-B0760 | Kościół z ogrzewaniem tylko w ławce proboszcza.
 X-B0761 | Ławka zarezerwowana dla rodziny sołtysa.
 X-B0762 | Pierwsza ławka dla tych, co dają najwięcej.
@@ -205,5 +205,5 @@ X-B0795 | Ksiądz, który zostawił obrazek i numer do psychologa.
 X-B0796 | Proboszcz, który zamówił u nas catering na odpust.
 X-B0797 | Siostra zakonna, która zna wszystkie hity Kylie.
 X-B0798 | Zakonnica, która lepiej pije niż wujek.
-X-B0799 | Zakonnice na Open'erze.
+X-B0799 | Zakonnice na Openerze.
 X-B0800 | Bracia zakonni z brodami jak hipsterzy.

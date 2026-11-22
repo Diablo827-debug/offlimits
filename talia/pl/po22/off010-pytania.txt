@@ -30,7 +30,7 @@ N-C119 | Co mówi teściowa o moim gotowaniu?
 N-C120 | Mój plan na emeryturę: ____.
 N-C121 | Co sprawia, że jestem gotów rzucić pracę?
 N-C122 | Prawdziwy cel wyjazdu do spa: ____.
-N-C123 | Temat mojej najbardziej żenującej wiadomości o 3 w nocy: ____.
+N-C123 | Temat mojej najbardziej żenującej wiadomości o trzeciej w nocy: ____.
 N-C124 | Co naprawdę znaczy „muszę to przemyśleć”?
 N-C125 | Najgorszy moment na odkrycie, że skończył się papier toaletowy, to ____.
 N-C126 | Moje życie po trzydziestce w jednym obrazku: ____.
@@ -40,8 +40,8 @@ N-C129 | Czego się nauczyłem z randek w internecie?
 N-C130 | Najdziwniejszy powód kłótni w moim związku: ____.
 N-C131 | Moja recenzja ostatniego związku: ____.
 N-C132 | Co zabrałbym ze sobą na bezludną wyspę zamiast partnera?
-N-C133 | Ulubiony sport narodowy Polaków po 30.: ____.
-N-C134 | Co mówi kurier, kiedy dzwoni domofonem o 7 rano?
+N-C133 | Ulubiony sport narodowy Polaków po trzydziestce: ____.
+N-C134 | Co mówi kurier, kiedy dzwoni domofonem o siódmej rano?
 N-C135 | Najgorsze, co może się stać na rozmowie kwalifikacyjnej, to ____.
 N-C136 | Dwie prawdy o mnie: ____ i ____.
 N-C137 | Co naprawdę jest w moim kubku w pracy?
@@ -85,7 +85,7 @@ N-C174 | Najgorsza rzecz w byciu singlem to ____.
 N-C175 | Co mówi kumpel o mojej nowej dziewczynie?
 N-C176 | Co mówi przyjaciółka o moim nowym chłopaku?
 N-C177 | Prawdziwy powód, dla którego sąsiad kupił kabriolet: ____.
-N-C178 | Co robię w niedzielę o 15:00?
+N-C178 | Co robię w niedzielę o piętnastej?
 N-C179 | Rzecz, której nie odda mi już żaden kumpel: ____.
 N-C180 | Mój plan awaryjny na życie: ____.
 N-C181 | Najgorsze, co można zrobić na stypie: ____.
@@ -103,7 +103,7 @@ N-C192 | Moja reakcja na widok wagi rano: ____.
 N-C193 | Co jest groźniejsze niż zła teściowa?
 N-C194 | Rzecz, którą dorośli robią, ale nikt się nie przyznaje: ____.
 N-C195 | Moja sobota. Plan: siłownia i ____. Rzeczywistość: kanapa i ____.
-N-C196 | Co robię, kiedy szef dzwoni w urlop?
+N-C196 | Co robię, kiedy szef dzwoni na urlopie?
 N-C197 | Najbardziej nieodpowiedni moment na śmiech: ____.
 N-C198 | Co mówię mamie o swojej pensji?
 N-C199 | Prawdziwy powód, dla którego biorę wolne w piątek: ____.

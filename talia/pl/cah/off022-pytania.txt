@@ -13,7 +13,7 @@ C-C00002 | ____ wraca! Tylko w McDonald's.
 C-C00005 | ____ bez ____ byłoby żałośnie niekompletne.
 C-C02447 | ____: do ostatniej kropli.
 C-C02448 | ____: przetestowane przez dzieci, zatwierdzone przez mamy.
-C-C02450 | ____. Mniam! *pocałunek szefa kuchni*
+C-C02450 | ____. Mniam!
 C-C02452 | ____? Jest na to aplikacja.
 C-C02453 | ____? No, raczej nie.
 C-C00008 | ____. W teorii super, w praktyce trochę bajzel.
@@ -22,11 +22,11 @@ C-C02455 | ____. Piątka, ziomek.
 C-C02456 | ____. To pułapka!
 C-C02458 | ____. To było mega metalowe.
 C-C02459 | ____. Tak właśnie chcę umrzeć.
-C-C06020 | ★☆☆☆☆ NIE IDŹCIE TAM! Znalazłem ____ w swoim kurczaku curry!
-C-C02461 | ★☆☆☆☆ NIE IDŹCIE TAM! Znalazłem ____ w swoim spaghetti!
+- C-C06020 | ★☆☆☆☆ NIE IDŹCIE TAM! Znalazłem ____ w swoim kurczaku curry!
+- C-C02461 | ★☆☆☆☆ NIE IDŹCIE TAM! Znalazłem ____ w swoim spaghetti!
 C-C02462 | ★☆☆☆☆ NIE IDŹCIE TAM! Znalazłem ____ w schabowym!
-C-C02464 | 50% małżeństw kończy się przez ____.
-C-C02465 | Najnowsze badania pokazują, że studenci uprawiają o 50% mniej seksu po kontakcie z ____.
+C-C02464 | Pięćdziesiąt procent małżeństw kończy się przez ____.
+C-C02465 | Najnowsze badania pokazują, że studenci uprawiają o połowę mniej seksu po kontakcie z ____.
 C-C00012 | Przełomowe badanie wykazało, że szympansy wykształciły własną, prymitywną wersję ____.
 C-C02466 | Romantyczna kolacja przy świecach byłaby niepełna bez ____.
 C-C00013 | Udana rozmowa o pracę zaczyna się od mocnego uścisku dłoni, a kończy na ____.
@@ -40,13 +40,13 @@ C-C02477 | A Oscar w kategorii ____ wędruje do… ____!
 C-C00026 | Dzisiejsza zupa to krem z ____.
 C-C00027 | A co przyniosłeś na lekcję „pokaż i opowiedz”?
 C-C02479 | Antropolodzy odkryli prymitywne plemię, które czci ____.
-C-C02481 | Myślisz o tym samym co ja, Bananie 1? Tak, Bananie 2: czas na ____!
+C-C02481 | Myślisz o tym samym co ja, Bananie pierwszy? Tak, Bananie drugi: czas na ____!
 C-C00032 | Jak jako król utrzymam chłopów w ryzach?
 C-C02482 | Moje postanowienie noworoczne: rzucam ____.
-C-C00035 | W ramach zadośćuczynienia za niewolnictwo każdy potomek niewolników dostanie ____.
+C-C00035 | W ramach zadośćuczynienia za niewolnictwo każdy potomek pańszczyźnianych chłopów dostanie ____.
 C-C02483 | Jako mama pięciu rozbrykanych chłopaków niejedno widziałam, w tym ____.
 C-C00445 | Uwaga, klienci Biedronki! Niestety zamykamy wcześniej z powodu ____.
-C-C02486 | TU SPRZEDAWCA Z TELEZAKUPÓW, A TO JEST ____!
+C-C02486 | Tu sprzedawca z Telezakupów Mango, a to jest ____!
 C-C00046 | Laska, jesteś ohydna. Obrzydliwa. Jesteś ____. Idź do domu.
 C-C02527 | Ja cię kręcę! Mój filmik z ____ ma dziesięć milionów wyświetleń!
 C-C02487 | Nowy reality show: ośmioro podstarzałych celebrytów mieszka razem z ____.
@@ -60,7 +60,7 @@ C-C02499 | Już wkrótce w Teatrze Roma: ____ – musical.
 C-C02501 | O rany! Jeszcze nigdy nie widziałem czegoś takiego jak ____! Podejdźmy bliżej.
 C-C02504 | Tato, czemu mama płacze?
 C-C02506 | Droga redakcjo „Bravo”, mam problem z ____ i proszę o radę.
-C-C00061 | Szanowni Państwo, z przykrością informujemy, że Urząd ds. ____ odrzucił Państwa wniosek o ____.
+C-C00061 | Szanowni Państwo, z przykrością informujemy, że Urząd do spraw ____ odrzucił Państwa wniosek o ____.
 C-C02508 | Projektanci! W tym tygodniu zadanie: suknia dla ____.
 C-C00066 | Doktorze, posunął się pan za daleko! Ludzkie ciało nie wytrzyma takiej dawki ____!
 C-C00067 | Pamiętajcie! Od tego tygodnia luźny piątek oficjalnie staje się „piątkiem z ____”.
@@ -88,7 +88,7 @@ C-C02531 | Nowy reality show: dwunastu gorących singli mieszka razem z ____.
 C-C02532 | Nie wiem, jaką bronią będzie toczona III wojna światowa, ale IV wojna będzie toczona za pomocą ____.
 C-C02533 | Piję, żeby zapomnieć o ____.
 C-C02534 | Daję radę z małą pomocą ____.
-C-C02535 | Mam 99 problemów, ale ____ nie jest jednym z nich.
+C-C02535 | Mam dziewięćdziesiąt dziewięć problemów, ale ____ nie jest jednym z nich.
 C-C00122 | Przekonałem się na własnej skórze, że nie pocieszysz przyjaciela w żałobie za pomocą ____.
 C-C02537 | Nigdy naprawdę nie rozumiałem ____, dopóki nie spotkałem ____.
 C-C00127 | Całe życie pracowałem na ____, a wszystko diabli wzięli przez ____.
@@ -102,8 +102,8 @@ C-C00141 | Przepraszam pana, ale w klubie golfowym nie tolerujemy ____.
 C-C02544 | Jestem coachem motywacyjnym i przez najbliższą godzinę nauczę was, jak okiełznać moc ____!
 C-C00149 | Jak coś nie wychodzi za pierwszym razem, spróbuj ____.
 C-C02545 | Jeśli nie możesz być z tym, kogo kochasz, pokochaj ____.
-C-C02546 | JEŚLI LUBISZ ____, MOŻESZ BYĆ JANUSZEM.
-C-C02547 | Za tysiąc lat, gdy pieniądze będą tylko wspomnieniem, czym będziemy płacić?
+C-C02546 | Jeśli lubisz ____, możesz być Januszem.
+- C-C02547 | Za tysiąc lat, gdy pieniądze będą tylko wspomnieniem, czym będziemy płacić?
 C-C02548 | Za tysiąc lat, gdy banknoty będą odległym wspomnieniem, walutą będzie ____.
 C-C02550 | W świecie spustoszonym przez ____ jedyną pociechą jest ____.
 C-C02553 | Żeby przyciągnąć więcej zwiedzających, Muzeum Narodowe otworzyło interaktywną wystawę o ____.

@@ -18,7 +18,7 @@ R-B1408 | Kemping z jedną łazienką na sto osób.
 R-B1409 | Przyczepa kempingowa dziadka.
 R-B1410 | Kuchenka turystyczna, która nie chce się zapalić.
 R-B1411 | Kiełbaska spalona na ognisku.
-R-B1412 | Pianka marshmallow na patyku.
+R-B1412 | Pianka z ogniska na patyku.
 R-B1413 | Ziemniaki z ogniska.
 R-B1414 | Gitara przy ognisku z trzema akordami.
 R-B1415 | Opowieść o duchu przy latarce.
@@ -86,9 +86,9 @@ R-B1476 | Bilet miesięczny z kotem na zdjęciu.
 R-B1477 | Zniżka dla seniora.
 R-B1478 | Kolejka w urzędzie.
 R-B1479 | Numerek w przychodni.
-R-B1480 | Przychodnia otwarta od 8:00, kolejka od 6:00.
+R-B1480 | Przychodnia otwarta od ósmej, kolejka od szóstej.
 R-B1481 | Pani w aptece, która wie lepiej niż lekarz.
-R-B1482 | Wizyta u okulisty z czytaniem literek.
+- R-B1482 | Wizyta u okulisty z czytaniem literek.
 R-B1483 | Badanie wzroku, na którym zgaduję literki.
 R-B1484 | Bilans sześciolatka.
 R-B1485 | Mierzenie wzrostu na framudze drzwi.
@@ -119,3 +119,14 @@ R-B1509 | Szum morza.
 R-B1510 | Trzask ognia w kominku.
 R-B1511 | Cisza w lesie.
 R-B1512 | Skrzypienie śniegu pod butami.
+Pytanie dziecka: „Mamo, a ta pani jest gruba?”.
+Parawan na plaży rozstawiony o piątej rano.
+Słoik z bigosem wieziony przez pół Polski.
+Klapki Kubota i białe skarpety.
+Pytanie „a kiedy ślub?” przy wielkanocnym żurku.
+Pilot do telewizora owinięty w folię.
+Walka o ostatniego pieroga z kapustą i grzybami.
+Kompot z suszu, którego nikt nie chce pić.
+Pani w dziekanacie na przerwie śniadaniowej.
+Mistrz kierownicy z rejestracją z sąsiedniego powiatu.
+Sernik z rodzynkami jako zbrodnia przeciwko ludzkości.

@@ -67,8 +67,8 @@ X-B0857 | Sejm w kształcie tortu, z którego każdy coś bierze.
 X-B0858 | Sztuka kompromisu na wigilii.
 X-B0859 | Polski kompromis: wszyscy niezadowoleni.
 X-B0860 | Kłótnia, która zaczęła się o karpia, a skończyła o aborcję.
-X-B0861 | Wujek, który nie wie, co to znaczy LGBT, ale jest przeciw.
-X-B0862 | Ciocia, która myli LGBT z LPG.
+X-B0861 | Wujek, który nie wie, co to znaczy el gie be te, ale jest przeciw.
+X-B0862 | Ciocia, która myli LGBT z el pe gie.
 X-B0863 | Literki, których dziadek nie umie wymówić.
 X-B0864 | Plus na końcu, który wkurza wujka najbardziej.
 X-B0865 | Słowo „gender” wypowiedziane szeptem.
@@ -154,7 +154,7 @@ X-B0944 | Sypanie kwiatów pod nogi proboszcza.
 X-B0945 | Proboszcz pod baldachimem jak gwiazda rocka.
 X-B0946 | Rock and roll na plebanii.
 X-B0947 | Plebania jako najlepszy klub w okolicy.
-X-B0948 | Ksiądz DJ.
+X-B0948 | Ksiądz didżej.
 X-B0949 | Ksiądz raper z płytą o grzechu.
 X-B0950 | Ksiądz, który ma więcej fanek niż boysband.
 X-B0951 | Fanki księdza w pierwszej ławce.
@@ -179,7 +179,7 @@ X-B0969 | Wesele, które kosztowało tyle co mieszkanie.
 X-B0970 | Mieszkanie, które dostaje się dopiero po śmierci babci.
 X-B0971 | Babcia, która zapisała mieszkanie kotu.
 X-B0972 | Kot, który odziedziczył wszystko.
-X-B0973 | Kot, który jest prawdziwym głową rodziny.
+X-B0973 | Kot, który jest prawdziwą głową rodziny.
 X-B0974 | Rodzina, w której rządzi babcia, a babcią rządzi kot.
 X-B0975 | Pies, który poszedł z nami na mszę.
 X-B0976 | Msza dla zwierząt, na której koza zjadła modlitewnik.
@@ -204,3 +204,4 @@ X-B0994 | Rodzina, która dopiero teraz zrozumiała, kim był wujek.
 X-B0995 | Szacunek, który przyszedł za późno.
 X-B0996 | Tolerancja jako najnowszy trend w naszej rodzinie.
 X-B0997 | Moja rodzina, która nie ma tematów tabu.
+Kleszcz w miejscu, o którym nie mówimy.

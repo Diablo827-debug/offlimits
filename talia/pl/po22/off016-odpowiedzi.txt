@@ -10,12 +10,12 @@
 N-B1401 | Telewizor, który działa tylko po uderzeniu.
 N-B1402 | Radio, które łapie tylko stację z polkami.
 N-B1403 | Stacja radiowa, której słucha tylko taksówkarz.
-N-B1404 | Muzyka w windzie.
+- N-B1404 | Muzyka w windzie.
 N-B1405 | Muzyka w poczekalni na infolinii.
 N-B1406 | Infolinia, gdzie „połączenie jest dla nas ważne”.
 N-B1407 | Konsultant numer 47 w kolejce.
 N-B1408 | Rozmowa z automatem, który nie rozumie.
-N-B1409 | Wciśnij jeden, wciśnij dwa, wciśnij płacz.
+N-B1409 | Komunikat „wciśnij jeden, wciśnij dwa, wciśnij płacz”.
 N-B1410 | Reklamacja, która trwa trzy miesiące.
 N-B1411 | Paragon, który wyblakł.
 N-B1412 | Gwarancja, która skończyła się dzień przed awarią.
@@ -26,8 +26,8 @@ N-B1416 | Program „bawełna 40” jako jedyny używany.
 N-B1417 | Suszarka, która zmniejszyła sweter.
 N-B1418 | Sweter, który teraz pasuje na psa.
 N-B1419 | Pies w ubraniach właściciela.
-N-B1420 | Kot w kartonie zamiast w legowisku za 300 złotych.
-N-B1421 | Zabawka dla kota za 80 złotych i sznurek wygrywa.
+N-B1420 | Kot w kartonie zamiast w legowisku za trzysta złotych.
+N-B1421 | Zabawka dla kota za osiemdziesiąt złotych, przy której sznurek wygrywa.
 N-B1422 | Rachunek u weterynarza wyższy niż mój u lekarza.
 N-B1423 | Ubezpieczenie dla psa.
 N-B1424 | Urodziny psa z tortem.
@@ -44,7 +44,7 @@ N-B1434 | Szczur w piwnicy, który ma już imię.
 N-B1435 | Gołąb, który wleciał na zebranie.
 N-B1436 | Mewa, która ukradła mi kanapkę na molo.
 N-B1437 | Osa na pikniku romantycznym.
-N-B1438 | Kleszcz w miejscu, o którym nie mówimy.
+- N-B1438 | Kleszcz w miejscu, o którym nie mówimy.
 N-B1439 | Komary na weselu w plenerze.
 N-B1440 | Burza na ślubie w ogrodzie.
 N-B1441 | Upał w garniturze.
@@ -63,12 +63,12 @@ N-B1453 | Dorosłość, w której nikt nie wie, co robi.
 N-B1454 | Życie, które poszło inaczej, ale dobrze.
 N-B1455 | Pierwsza wypłata i pierwsze rozczarowanie.
 N-B1456 | Ostatnia rata kredytu, której nigdy nie dożyję.
-N-B1457 | Kawa na wynos za 24 złote.
+N-B1457 | Kawa na wynos za dwadzieścia cztery złote.
 N-B1458 | Śniadanie na mieście, czyli awokado za pół dniówki.
 N-B1459 | Brunch, na który trzeba czekać godzinę.
 N-B1460 | Kolejka do modnej piekarni.
 N-B1461 | Lody rzemieślnicze w cenie złota.
-N-B1462 | Burger z frytkami za 69 złotych.
+N-B1462 | Burger z frytkami za sześćdziesiąt dziewięć złotych.
 N-B1463 | Ramen, który miał zmienić moje życie.
 N-B1464 | Wegański schabowy u teściowej.
 N-B1465 | Dieta keto przez trzy dni.
@@ -109,3 +109,13 @@ N-B1499 | Pożegnanie z psem gospodarzy bardziej czułe niż z gospodarzami.
 N-B1500 | Obietnica rewizyty, której nikt nie dotrzyma.
 N-B1501 | Zaproszenie „wpadajcie kiedyś”.
 N-B1502 | Spotkanie, które przekładamy od 2019 roku.
+Kac moralny większy niż kac fizyczny.
+Wysłanie screena rozmowy do osoby, której dotyczył.
+Obietnica „od poniedziałku nie piję i idę na siłownię”.
+Szukanie kluczy w kieszeni, trzymając je w ręku.
+Udawanie, że rozumie się wykresy na spotkaniu zarządu.
+Zamówienie kebaba na cienkim o trzeciej nad ranem.
+Zasnęcie na kanapie w połowie pierwszego odcinka.
+Awaria terminala płatniczego w Biedronce przed samą Wigilią.
+Trzy nieodebrane połączenia od mamy w środku nocy.
+Tłumaczenie policjantowi, że to tylko jedno piwo bezalkoholowe.

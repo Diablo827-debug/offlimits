@@ -17,12 +17,12 @@ N-C306 | Najlepsza zemsta na byłym: ____.
 N-C307 | Co robi szef na urlopie?
 N-C308 | Najbardziej szczere zdanie w moim CV: ____.
 N-C309 | Najmniej szczere zdanie w moim CV: ____.
-N-C310 | Co mówi pani w urzędzie po 15:00?
+N-C310 | Co mówi pani w urzędzie po piętnastej?
 N-C311 | Najlepszy prezent dla przyjaciółki po rozstaniu: ____.
 N-C312 | Najgorszy prezent dla przyjaciela po rozstaniu: ____.
 N-C313 | Najlepsze, co może cię spotkać na wieczorze panieńskim: ____.
-N-C314 | Co mówię, kiedy wracam o 4 rano?
-N-C315 | Co mówi pies, kiedy wracam o 4 rano?
+N-C314 | Co mówię, kiedy wracam o czwartej rano?
+N-C315 | Co mówi pies, kiedy wracam o czwartej rano?
 N-C316 | Ulubiona wymówka mojego partnera: ____.
 N-C317 | Mój sposób na niedzielne smutki: ____.
 N-C318 | Najbardziej przerażające słowa w dorosłym życiu: ____.
@@ -31,7 +31,7 @@ N-C320 | Najgorszy prezent na Walentynki: ____.
 N-C321 | Najlepszy prezent na Walentynki: ____.
 N-C322 | Co mówię, kiedy dzwoni teściowa?
 N-C323 | Najlepszy sposób na przeżycie świąt z rodziną: ____.
-N-C324 | Co sprawia, że jestem szczęśliwy po 22:00?
+N-C324 | Co sprawia, że jestem szczęśliwy po dwudziestej drugiej?
 N-C325 | Ulubiona część wesela dla singla: ____.
 N-C326 | Mój największy wstyd z liceum: ____.
 N-C327 | Najlepsza historia z Erasmusa: ____.

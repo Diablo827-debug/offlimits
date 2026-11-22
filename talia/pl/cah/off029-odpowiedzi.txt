@@ -141,7 +141,7 @@ C-B01806 | Pokonanie niedźwiedzicy grizzly i poślubienie jej.
 C-B01822 | Wina ocalałego.
 C-B01825 | Błyskawiczne osiągnięcie orgazmu.
 C-B01867 | Czarny Power Ranger.
-C-B01880 | Korporacje.
+- C-B01880 | Korporacje.
 C-B01884 | Dzień, w którym zaatakowały ptaki.
 C-B01908 | Ten cały Google.
 C-B01912 | Szary bulion odżywczy, który trzyma przy życiu polityka.
@@ -165,7 +165,7 @@ C-B01479 | Mój służący, Klaudiusz.
 C-B01607 | Włożenie całej kanapki z masłem orzechowym do magnetowidu.
 C-B01623 | Profilowanie rasowe.
 C-B01657 | Roland Pierdzioch, nadworny pierdziel króla.
-C-B01758 | Jakiś człowiek-ptak.
+- C-B01758 | Jakiś człowiek-ptak.
 C-B01915 | Harlem Globetrotters.
 C-B01946 | Wilgotna, wymagająca otchłań jego ust.
 C-B01968 | Wybuchowa sałatka z quesadillą.

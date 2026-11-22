@@ -2,7 +2,7 @@
 // Telefony zapisują tylko swoje odpowiedzi (subs), wybór sędziego (picks) i komendy (cmd).
 import { ref, set, update, get, remove } from 'firebase/database';
 import { db } from './firebase.js';
-import { idsFor, shuffle } from './deck.js';
+import { idsFor, shuffle, shuffleTop } from './deck.js';
 
 export const HAND = 10;
 export const PICK_SECONDS = 60;
@@ -103,8 +103,8 @@ async function dealAndBlack(code, room, deck, secret, patch) {
   Object.keys(hands).forEach((u) => (hands[u].cards || []).forEach((id) => { inHands[id] = 1; }));
   const allWhite = idsFor(deck, room.mode, 'b');
   const allBlack = idsFor(deck, room.mode, 'c');
-  let whitePile = secret.white || shuffle(allWhite);
-  let blackPile = secret.black || shuffle(allBlack);
+  let whitePile = secret.white || shuffleTop(allWhite, deck);
+  let blackPile = secret.black || shuffleTop(allBlack, deck);
   const handUpdates = {};
   Object.keys(players).forEach((u) => {
     const cur = (hands[u] && hands[u].cards) || [];
@@ -115,7 +115,7 @@ async function dealAndBlack(code, room, deck, secret, patch) {
     markUsed('b', d.cards);
     handUpdates[u] = { cards: cur.concat(d.cards) };
   });
-  if (!blackPile.length) blackPile = shuffle(allBlack);
+  if (!blackPile.length) blackPile = shuffleTop(allBlack, deck);
   const black = blackPile.shift();
   markUsed('c', [black]);
   await update(ref(db, 'hands/' + code), handUpdates);
@@ -152,8 +152,8 @@ export async function startGame(code, room, deck) {
     if (w.length < order.length * HAND * 3) { used.b = {}; w = allWhite; }
     if (c.length < 25) { used.c = {}; c = allBlack; }
     saveUsed(used);
-    secret.white = shuffle(w);
-    secret.black = shuffle(c);
+    secret.white = shuffleTop(w, deck);
+    secret.black = shuffleTop(c, deck);
   }
   await dealAndBlack(code, fresh, deck, secret, {
     round: 1,

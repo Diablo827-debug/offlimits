@@ -10,7 +10,7 @@
 X-B0401 | Trybunał, którego wyroki są „opiniami”.
 X-B0402 | Konstytucja jako podkładka pod stół.
 X-B0403 | Kodeks wyborczy zmieniony pół roku przed wyborami.
-X-B0404 | Partia, która ma 0,8% i opinię o wszystkim.
+X-B0404 | Partia, która ma zero przecinek osiem procent i opinię o wszystkim.
 X-B0405 | Poseł, który zmienił klub pięć razy w jednej kadencji.
 X-B0406 | Poseł, który przyszedł do Sejmu na hulajnodze.
 X-B0407 | Posłanka, która wnosi do Sejmu wiadro.
@@ -45,7 +45,7 @@ X-B0435 | Troll z 3 obserwującymi i flagą w nicku.
 X-B0436 | Bot, który kocha rząd.
 X-B0437 | Bot, który nienawidzi opozycji.
 X-B0438 | Sondaż zamówiony przez zainteresowanych.
-X-B0439 | Sondaż, w którym 120% jest za.
+X-B0439 | Sondaż, w którym sto dwadzieścia procent jest za.
 X-B0440 | Referendum, na które nikt nie przyszedł.
 X-B0441 | Frekwencja niższa niż w kościele.
 X-B0442 | Kościół pustszy niż Sejm w piątek.
@@ -178,7 +178,7 @@ X-B0568 | Nowe logo ministerstwa za milion złotych.
 X-B0569 | Strona rządowa, która nie działa w Chrome.
 X-B0570 | Aplikacja rządowa, której nie da się zainstalować.
 X-B0571 | Profil zaufany, któremu nikt nie ufa.
-X-B0572 | Kolejka w urzędzie z numerkiem 247.
+X-B0572 | Kolejka w urzędzie z numerkiem dwieście czterdzieści siedem.
 X-B0573 | Urzędniczka, która ma przerwę od 9 do 15.
 X-B0574 | Pieczątka jako najważniejszy dokument w Polsce.
 X-B0575 | Zaświadczenie o posiadaniu zaświadczenia.

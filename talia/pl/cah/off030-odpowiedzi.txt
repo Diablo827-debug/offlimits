@@ -28,7 +28,7 @@ C-B00710 | Wszystkie samotne panie.
 C-B00714 | Prawie danie pieniędzy bezdomnemu.
 C-B00715 | Dwuznaczny sarkazm.
 C-B00737 | Uścisk dłoni ponad podziałami.
-C-B00755 | Anielscy hipsterzy płonący z tęsknoty za niebiańskim połączeniem z gwiezdnym dynamem w maszynerii nocy.
+- C-B00755 | Anielscy hipsterzy płonący z tęsknoty za niebiańskim połączeniem z gwiezdnym dynamem w maszynerii nocy.
 C-B00853 | Czarnula.
 C-B00868 | Podskakiwanie w górę i w dół.
 C-B00889 | Kalkulowanie każdego gestu, żeby nie wyglądał na gejowski.

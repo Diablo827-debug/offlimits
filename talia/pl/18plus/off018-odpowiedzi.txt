@@ -7,7 +7,7 @@
 #  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
 #  • Linijki zaczynające się od # to komentarze – gra je pomija.
 #
-X-B0201 | „Jak się nie podoba, to wyjedź”.
+X-B0201 | Tekst „jak się nie podoba, to wyjedź”.
 X-B0202 | Polak, który zna się na medycynie, piłce i polityce.
 X-B0203 | Teściowa z zasadami z 1970 roku.
 X-B0204 | Rodzina, w której nie ma tematów tabu.
@@ -65,7 +65,7 @@ X-B0255 | Kochanka na pogrzebie.
 X-B0256 | Romans z organistą.
 X-B0257 | Romans w chórze kościelnym.
 X-B0258 | Ksiądz, który poleca swatkę.
-X-B0259 | Swatka z Radia, która łączy pary po 60.
+X-B0259 | Swatka z radia, która łączy pary po sześćdziesiątce.
 X-B0260 | Babcia na portalu randkowym dla seniorów.
 X-B0261 | Dziadek, który znalazł dziewczynę w sanatorium.
 X-B0262 | Sanatorium, z którego wraca się z nową rodziną.
@@ -81,7 +81,7 @@ X-B0271 | Ateista na wigilii łamiący się opłatkiem.
 X-B0272 | Ateista, który zna wszystkie kolędy.
 X-B0273 | Agnostyk, który modli się przed lotem.
 X-B0274 | Świadkowie Jehowy pod drzwiami w sobotę o 9 rano.
-X-B0275 | Odpowiedź „Jestem gejem” do Świadków Jehowy.
+X-B0275 | Odpowiedź „jestem gejem” do Świadków Jehowy.
 X-B0276 | Mormoni na rowerach na polskiej wsi.
 X-B0277 | Sekta, do której zapisała się sąsiadka.
 X-B0278 | Medytacja jako grzech według babci.
@@ -104,7 +104,7 @@ X-B0294 | Spowiedź u księdza, który zna moją mamę.
 X-B0295 | Tajemnica spowiedzi, którą zna cała wieś.
 X-B0296 | Pokuta: trzy razy obejrzeć obrady Sejmu.
 X-B0297 | Pokuta: zjeść całą wigilię u teściowej.
-X-B0298 | Post w piątek ze śledziem za 80 złotych.
+X-B0298 | Post w piątek ze śledziem za osiemdziesiąt złotych.
 X-B0299 | Post w Wielki Piątek z pizzą wegetariańską.
 X-B0300 | Środa Popielcowa z popiołem na czole przez cały dzień w pracy.
 X-B0301 | Droga krzyżowa w korku na autostradzie.
@@ -201,7 +201,7 @@ X-B0391 | Podatek od narzekania.
 X-B0392 | Podatek od singli.
 X-B0393 | Ulga podatkowa za posiadanie teściowej.
 X-B0394 | Ministerstwo do spraw wigilii.
-X-B0395 | Ministerstwo szczęścia z budżetem 12 złotych.
+X-B0395 | Ministerstwo szczęścia z budżetem dwunastu złotych.
 X-B0396 | Pełnomocnik rządu do spraw karpia.
 X-B0397 | Komisja do spraw zbadania, gdzie są pieniądze.
 X-B0398 | Raport NIK, którego nikt nie czyta.

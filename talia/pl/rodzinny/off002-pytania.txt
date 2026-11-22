@@ -48,7 +48,7 @@ R-C137 | Co dzieje się w łazience, kiedy jest zamknięta od godziny?
 R-C138 | Jedyna rzecz, która uspokaja babcię: ____.
 R-C139 | Najnowszy trend wśród nastolatków: ____.
 R-C140 | Czego nauczył mnie dziadek?
-R-C141 | Podstawa diety studenta: ____.
+- R-C141 | Podstawa diety studenta: ____.
 R-C142 | Najstraszniejszy dźwięk w nocy to ____.
 R-C143 | Co wujek nazywa „lekkim posiłkiem”?
 R-C144 | Najlepszy duet kuchenny: ____ i ____.
@@ -86,7 +86,7 @@ R-C175 | Najdziwniejsza rzecz w szafie wujka to ____.
 R-C176 | Co mówi ryba, kiedy nikt nie słyszy?
 R-C177 | Najlepsza nagroda za dobre świadectwo: ____.
 R-C178 | Co robi robot sprzątający, gdy nas nie ma?
-R-C179 | Hasło do naszego Wi-Fi brzmi: ____.
+R-C179 | Hasło do naszego Wi-Fi brzmi: „____”.
 R-C180 | Najsłynniejszy wynalazek dziadka: ____.
 R-C181 | Co babcia mówi o moich spodniach?
 R-C182 | Gdyby rodzina była zespołem rockowym, wokalistą byłby ____, a perkusistą ____.

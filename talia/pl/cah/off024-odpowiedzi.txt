@@ -21,7 +21,7 @@ C-B03088 | Szalony, gorący seks z kuzynką.
 C-B03089 | Creed.
 C-B03090 | Cringe.
 C-B03091 | Paraliżujące długi.
-C-B03092 | Krytyczna teoria rasy.
+- C-B03092 | Krytyczna teoria rasy.
 C-B03093 | Ukrzyżowanie.
 C-B03094 | Okruchy na całym cholernym dywanie.
 C-B03096 | Herbatka z królem Karolem.
@@ -56,7 +56,7 @@ C-B00992 | Depresja.
 C-B03122 | Niszczenie dowodów.
 C-B03124 | Palce jak penisy.
 C-B03125 | Fotki penisów.
-C-B00997 | Kolacja z kartonowymi postaciami z „Przyjaciół”.
+- C-B00997 | Kolacja z kartonowymi postaciami z „Przyjaciół”.
 C-B03126 | Brudne pieluchy.
 C-B00999 | Gorączka disco.
 C-B03127 | Odkrycie, że on głosuje na Konfederację.

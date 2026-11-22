@@ -54,7 +54,7 @@ R-B0644 | Robić zdjęcia każdemu posiłkowi.
 R-B0645 | Wyjść z kina przed końcem.
 R-B0646 | Śmiać się z własnego żartu najgłośniej.
 R-B0647 | Udawać mądrego przed teściową.
-R-B0648 | Robić 10 tysięcy kroków po domu.
+R-B0648 | Robienie dziesięciu tysięcy kroków po domu.
 R-B0649 | Przegrać z dziadkiem w szachy.
 R-B0650 | Przytulić dziadka na powitanie.
 R-B0651 | Machać babci z okna pociągu.
@@ -72,7 +72,7 @@ R-B0662 | Wieczór bez telewizora.
 R-B0663 | Spokój w domu przez całe pięć minut.
 R-B0664 | Cisza po wyjściu gości.
 R-B0665 | Zmywanie po Wigilii.
-R-B0666 | Wielkie porządki przed świętami.
+- R-B0666 | Wielkie porządki przed świętami.
 R-B0667 | Mycie okien przed Wielkanocą.
 R-B0668 | Trzepanie dywanu na trzepaku.
 R-B0669 | Pranie firanek.
@@ -135,7 +135,7 @@ R-B0725 | Bałwan, który się roztopił.
 R-B0726 | Czarodziej z dyplomem z internetu.
 R-B0727 | Rycerz na hulajnodze.
 R-B0728 | Księżniczka, która woli piłkę nożną.
-R-B0729 | Pirat z papugą i GPS-em.
+R-B0729 | Pirat z papugą i dżipiesem.
 R-B0730 | Dinozaur w muzeum.
 R-B0731 | Robot, który chce być kucharzem.
 R-B0732 | Superbohater w pelerynie z ręcznika.
@@ -145,7 +145,7 @@ R-B0735 | Astronauta z kanapką.
 R-B0736 | Detektyw szukający skarpetki.
 R-B0737 | Strażak ratujący kota z drzewa.
 R-B0738 | Policjant z lizakiem.
-R-B0739 | Listonosz, który zawsze przychodzi, gdy nikogo nie ma.
+- R-B0739 | Listonosz, który zawsze przychodzi, gdy nikogo nie ma.
 R-B0740 | Kurier, który rzuca paczką.
 R-B0741 | Pan od wodociągów.
 R-B0742 | Hydraulik, który przyszedł po trzech tygodniach.
@@ -175,7 +175,7 @@ R-B0765 | Leśniczy, który zna każde drzewo.
 R-B0766 | Złota rączka z sąsiedztwa.
 R-B0767 | Sąsiadka, która wszystko widzi zza firanki.
 R-B0768 | Sąsiad, który zawsze pożycza drabinę.
-R-B0769 | Dzieci sąsiadów grające w piłkę o 22:00.
+R-B0769 | Dzieci sąsiadów grające w piłkę o dziesiątej wieczorem.
 R-B0770 | Pies, który szczeka na listonosza od 10 lat.
 R-B0771 | Najlepszy przyjaciel z podstawówki.
 R-B0772 | Pierwsza miłość z przedszkola.
@@ -205,5 +205,5 @@ R-B0795 | Galeria handlowa w niedzielę handlową.
 R-B0796 | Plac zabaw z jedną huśtawką.
 R-B0797 | Boisko szkolne.
 R-B0798 | Park miejski z karmnikiem.
-R-B0799 | Kościół z mszą o 7:00.
+R-B0799 | Kościół z mszą o siódmej rano.
 R-B0800 | Remiza strażacka.

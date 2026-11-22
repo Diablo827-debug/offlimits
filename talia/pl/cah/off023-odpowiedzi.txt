@@ -17,7 +17,7 @@ C-B02908 | Ameryka.
 C-B02909 | Gladiatorzy z telewizji.
 C-B02910 | Amerykanizacja.
 C-B02911 | Osoby po amputacji.
-C-B02912 | Aborcja.
+- C-B02912 | Aborcja.
 C-B02913 | Kałasznikow.
 C-B02914 | Ława przysięgłych złożona z samych białych.
 C-B02915 | Karabin szturmowy AR-15.
@@ -180,7 +180,7 @@ C-B05956 | Chińska propaganda państwowa.
 C-B03049 | Rycerskość.
 C-B03050 | Christopher Walken.
 C-B00918 | Wypicie lampy z lawą duszkiem.
-C-B03051 | Rzyganie do torby kangura.
+- C-B03051 | Rzyganie do torby kangura.
 C-B03052 | Kawałki martwego autostopowicza.
 C-B03054 | Kawałki martwej prostytutki.
 C-B03055 | Tupet.
@@ -203,7 +203,7 @@ C-B03070 | Narzekanie.
 C-B03071 | Kompletnie nieuzasadniona pewność siebie.
 C-B03072 | Ukrywanie wzwodu.
 C-B03074 | Seks za obopólną zgodą.
-C-B03075 | Konserwatyści.
+- C-B03075 | Konserwatyści.
 C-B03076 | Konsultanci.
 C-B03077 | Zaraźliwy rak twarzy.
 C-B00938 | Przejście na islam.

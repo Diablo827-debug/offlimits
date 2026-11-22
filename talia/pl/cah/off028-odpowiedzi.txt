@@ -171,7 +171,7 @@ C-B06686 | Zrzucanie traum na innych.
 C-B03992 | Stopa okopowa.
 C-B02049 | Konkretna faza.
 C-B05974 | Trump.
-C-B02357 | Tweetowanie.
+- C-B02357 | Tweetowanie.
 C-B02057 | Dwie dychy.
 C-B02058 | Dwadzieścia cheerleaderek śmiejących się z twojego małego penisa.
 C-B03994 | Dwadzieścia ton nietoperzowego gówna.

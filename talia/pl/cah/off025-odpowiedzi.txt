@@ -145,7 +145,7 @@ C-B06722 | Jeremy Renner.
 C-B01339 | Jezus.
 C-B03397 | Ryanair.
 C-B03401 | Paplanina.
-C-B03403 | Praca.
+- C-B03403 | Praca.
 C-B03404 | Joe Biden.
 C-B03405 | Brwi polityka.
 C-B03407 | Sędzia Anna Maria Wesołowska.

@@ -42,7 +42,7 @@ R-C331 | Wielkie odkrycie mojej siostry: ____.
 R-C332 | Co mama zrobi, kiedy zobaczy ten bałagan?
 R-C333 | Najbardziej rodzinny moment roku to ____.
 R-C334 | Co w Wigilię mówią zwierzęta?
-R-C335 | Najlepszy pomysł na rodzinny wieczór: ____.
+- R-C335 | Najlepszy pomysł na rodzinny wieczór: ____.
 R-C336 | Co jest najgorsze w szkolnych wycieczkach?
 R-C337 | Koszulka wujka. Z przodu: ____. Z tyłu: ____.
 R-C338 | Najgorsza rzecz na podłodze o północy to ____.
@@ -53,7 +53,7 @@ R-C342 | Główny bohater szkolnych plotek: ____.
 R-C343 | Co zawsze ląduje w koszu na pranie?
 R-C344 | Najlepszy sposób na długą podróż autem: ____.
 R-C345 | Najgorsza rzecz w nowym telefonie to ____.
-R-C346 | Co wujek nazywa „pewniakiem” w zakładach?
+- R-C346 | Co wujek nazywa „pewniakiem” w zakładach?
 R-C347 | Przepis na udane imieniny: ____, ____ i dobry humor.
 R-C348 | Co mama mówi przez telefon do cioci?
 R-C349 | Najlepszy wynalazek do kuchni: ____.

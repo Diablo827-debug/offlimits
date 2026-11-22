@@ -81,7 +81,7 @@ R-B1271 | Wiadomość głosowa babci trwająca 6 minut.
 R-B1272 | Zdjęcie zachodu słońca od cioci.
 R-B1273 | Emotka kupy wysłana przez babcię przez pomyłkę.
 R-B1274 | Łańcuszek szczęścia.
-R-B1275 | Życzenia świąteczne z GIF-em.
+R-B1275 | Życzenia świąteczne z gifem.
 R-B1276 | Odpisanie po trzech dniach.
 R-B1277 | Powiadomienie „przeczytano”.
 R-B1278 | Rozmowa wideo, w której słychać tylko echo.
@@ -95,7 +95,7 @@ R-B1285 | Inteligentny głośnik, który nie rozumie dziadka.
 R-B1286 | Odkurzacz, który mówi.
 R-B1287 | Lodówka z ekranem.
 R-B1288 | Ekspres do kawy z aplikacją.
-R-B1289 | Hasło „1234”.
+R-B1289 | Hasło „jeden, dwa, trzy, cztery”.
 R-B1290 | Kod PIN zapisany na karcie.
 R-B1291 | Konto bankowe dziadka obsługiwane przez wnuka.
 R-B1292 | Przelew na złe konto.
@@ -108,14 +108,14 @@ R-B1298 | Wirtualna wycieczka po muzeum.
 R-B1299 | Lekcja online, na której wszyscy mają wyłączone mikrofony.
 R-B1300 | Nauczycielka, która „nie widzi ekranu”.
 R-B1301 | Szkolna platforma, która nie działa.
-R-B1302 | Praca domowa wysłana o 23:59.
+R-B1302 | Praca domowa wysłana za minutę północ.
 R-B1303 | Prezentacja z animacją każdej litery.
 R-B1304 | Referat skopiowany z encyklopedii.
 R-B1305 | Tablica interaktywna, której nikt nie umie włączyć.
 R-B1306 | Projektor, który zawsze się przegrzewa.
 R-B1307 | Kreda, która piszczy na tablicy.
 R-B1308 | Gąbka, która nie zmywa.
-R-B1309 | Mapa świata z ZSRR.
+R-B1309 | Mapa świata ze Związkiem Radzieckim.
 R-B1310 | Globus, który się kręci za szybko.
 R-B1311 | Kalkulator z ulubionym słowem wpisanym do góry nogami.
 R-B1312 | Linijka używana jako miecz.

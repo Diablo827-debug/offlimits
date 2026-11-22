@@ -12,7 +12,7 @@ N-B1002 | Ptaki śpiewające, kiedy wracam do domu.
 N-B1003 | Śniadanie z ludźmi, których poznałem o 3 w nocy.
 N-B1004 | Pobudka z kotem siedzącym na klatce piersiowej.
 N-B1005 | Wiadomość od mamy: „Żyjesz?”.
-N-B1006 | Odpowiedź do mamy: „Tak”.
+N-B1006 | Odpowiedź do mamy: „Tak.”.
 N-B1007 | Zdjęcia z wczoraj, które ktoś wrzucił na grupę.
 N-B1008 | Film z karaoke krążący po firmie.
 N-B1009 | Mem z moją twarzą.
@@ -86,27 +86,27 @@ N-B1076 | Introwertyk na weselu.
 N-B1077 | Ekstrawertyk na pogrzebie.
 N-B1078 | Ktoś, kto mówi „ja jestem po prostu szczery”.
 N-B1079 | Ktoś, kto mówi „nie oceniam”, i ocenia.
-N-B1080 | „Bez obrazy, ale…”
-N-B1081 | „Nie chcę nic mówić, ale…”
-N-B1082 | „Mówię tylko, co myślę”.
-N-B1083 | „Ja ci mówię, będzie dobrze”.
-N-B1084 | „A nie mówiłam?”
-N-B1085 | „Rób, jak uważasz” jako groźba.
-N-B1086 | „Wszystko mi jedno” jako pułapka.
-N-B1087 | „Nie jestem zła” od wściekłej żony.
-N-B1088 | „Za chwilę” od męża przed telewizorem.
-N-B1089 | „Zaraz przyjdę” od kogoś, kto nie przyjdzie.
-N-B1090 | „Odezwę się” od rekrutera.
-N-B1091 | „Wrócimy do tematu” od szefa.
-N-B1092 | „To nie problem” od fachowca, który zaraz zniknie.
-N-B1093 | „Będzie gotowe na jutro” od mechanika.
-N-B1094 | „U mnie działa” od informatyka.
-N-B1095 | „Mamy tylko jeden mały problem” od pilota samolotu.
-N-B1096 | „Proszę się nie denerwować” od urzędniczki.
-N-B1097 | „Tylko się nie przestrasz” od fryzjera.
-N-B1098 | „Zostańmy w kontakcie” od byłego.
-N-B1099 | „Co u ciebie?” od kogoś, kto chce pożyczyć pieniądze.
-N-B1100 | „Pamiętasz mnie?” od kogoś, kogo nie pamiętam.
+N-B1080 | Tekst „bez obrazy, ale…”.
+N-B1081 | Tekst „nie chcę nic mówić, ale…”.
+N-B1082 | Tekst „mówię tylko, co myślę”.
+N-B1083 | Zapewnienie „ja ci mówię, będzie dobrze”.
+N-B1084 | Pytanie „a nie mówiłam?”.
+N-B1085 | Tekst „rób, jak uważasz” jako groźba.
+N-B1086 | Tekst „wszystko mi jedno” jako pułapka.
+N-B1087 | Tekst „nie jestem zła” od wściekłej żony.
+N-B1088 | Tekst „za chwilę” od męża przed telewizorem.
+N-B1089 | Obietnica „zaraz przyjdę” od kogoś, kto nie przyjdzie.
+N-B1090 | Obietnica „odezwę się” od rekrutera.
+N-B1091 | Tekst „wrócimy do tematu” od szefa.
+N-B1092 | Tekst „to nie problem” od fachowca, który zaraz zniknie.
+N-B1093 | Obietnica „będzie gotowe na jutro” od mechanika.
+N-B1094 | Tekst „u mnie działa” od informatyka.
+N-B1095 | Komunikat „mamy tylko jeden mały problem” od pilota samolotu.
+N-B1096 | Tekst „proszę się nie denerwować” od urzędniczki.
+N-B1097 | Tekst „tylko się nie przestrasz” od fryzjera.
+N-B1098 | Propozycja „zostańmy w kontakcie” od byłego.
+N-B1099 | Pytanie „co u ciebie?” od kogoś, kto chce pożyczyć pieniądze.
+N-B1100 | Pytanie „pamiętasz mnie?” od kogoś, kogo nie pamiętam.
 N-B1101 | Biznes MLM koleżanki z liceum.
 N-B1102 | Zaproszenie na „spotkanie z okazją biznesową”.
 N-B1103 | Garnki w pakiecie z wycieczką.
@@ -115,13 +115,13 @@ N-B1105 | Kredyt w parabanku na prezenty.
 N-B1106 | Wygrana w konkursie, który okazał się oszustwem.
 N-B1107 | Wiadomość od dalekiego księcia, który chce się podzielić spadkiem.
 N-B1108 | SMS: „Mamo, zgubiłem telefon, wyślij kod do przelewu”.
-N-B1109 | Kurier, który chce dopłaty 1,50 zł.
+N-B1109 | Kurier, który chce dopłaty półtora złotego.
 N-B1110 | Mail z banku z błędami ortograficznymi.
-N-B1111 | Hasło „qwerty123”.
+N-B1111 | Hasło „kwerty jeden, dwa, trzy”.
 N-B1112 | Wszystkie hasła zapisane w zeszycie.
 N-B1113 | Zapomniane hasło do maila z 2008 roku.
 N-B1114 | Weryfikacja dwuetapowa w środku nocy.
-N-B1115 | Captcha, której nie umiem rozwiązać.
+N-B1115 | Kapcza, której nie umiem rozwiązać.
 N-B1116 | Dowód, że nie jestem robotem.
 N-B1117 | Robot, który twierdzi, że nie jest robotem.
 N-B1118 | Sztuczna inteligencja, która pisze moje maile.
@@ -133,13 +133,13 @@ N-B1123 | Aplikacja do medytacji, która mnie stresuje.
 N-B1124 | Aplikacja do oszczędzania, która pokazuje prawdę.
 N-B1125 | Aplikacja randkowa jako gra mobilna.
 N-B1126 | Aplikacja do picia wody, której nie słucham.
-N-B1127 | Powiadomienie „Twój czas przed ekranem wzrósł o 40%”.
+N-B1127 | Powiadomienie „twój czas przed ekranem wzrósł o czterdzieści procent”.
 N-B1128 | Telefon jako przedłużenie ręki.
 N-B1129 | Telefon, który spadł do toalety.
 N-B1130 | Zbity ekran, którego nie wymienię z zasady.
 N-B1131 | Ładowarka pożyczona i nigdy nie oddana.
 N-B1132 | Powerbank na wesele.
-N-B1133 | Bateria 2% na randce.
+N-B1133 | Bateria na dwóch procentach na randce.
 N-B1134 | Zdjęcia z całego roku w galerii, których nie przejrzę.
 N-B1135 | Chmura pełna zrzutów ekranu.
 N-B1136 | Zrzut ekranu rozmowy wysłany do złej osoby.
@@ -172,12 +172,12 @@ N-B1162 | Karaoke z księgową.
 N-B1163 | Wigilia firmowa z ankietą o integracji.
 N-B1164 | Konkurs na najlepszy sweter świąteczny.
 N-B1165 | Losowanie prezentów, które zawsze trafia na szefa.
-N-B1166 | Prezent od szefa za 20 złotych.
-N-B1167 | Bon do drogerii na 50 złotych jako premia roczna.
+N-B1166 | Prezent od szefa za dwadzieścia złotych.
+N-B1167 | Bon do drogerii na pięćdziesiąt złotych jako premia roczna.
 N-B1168 | Tłusty czwartek w biurze z pączkami z wczoraj.
 N-B1169 | Ciasto w kuchni firmowej, które znika w 4 minuty.
 N-B1170 | Urodziny kolegi z zrzutką na prezent.
-N-B1171 | Zrzutka, na którą wszyscy dają po 5 złotych.
+N-B1171 | Zrzutka, na którą wszyscy dają po pięć złotych.
 N-B1172 | Kartka z życzeniami podpisana przez osoby, które go nie znają.
 N-B1173 | Kolega, który przynosi do pracy obiad z czosnkiem.
 N-B1174 | Mikrofalówka w biurze z kolejką o 12:00.
@@ -206,4 +206,4 @@ N-B1196 | Pracownik miesiąca od trzech lat ten sam.
 N-B1197 | Awans bez podwyżki.
 N-B1198 | Podwyżka bez awansu.
 N-B1199 | Nowy tytuł stanowiska zamiast pieniędzy.
-N-B1200 | „Junior Senior Specialist”.
+N-B1200 | Stanowisko „Junior Senior Specjalista”.

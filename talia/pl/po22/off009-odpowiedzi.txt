@@ -8,7 +8,7 @@
 #  • Linijki zaczynające się od # to komentarze – gra je pomija.
 #
 N-B0001 | Wspólny rachunek za terapię.
-N-B0002 | Wiadomość „śpisz?” o 2:47.
+N-B0002 | Wiadomość „śpisz?” o drugiej czterdzieści siedem.
 N-B0003 | Były, który nagle polubił zdjęcie z 2016.
 N-B0004 | Trzecia butelka wina „na spróbowanie”.
 N-B0005 | Kredyt hipoteczny do 2061 roku.
@@ -37,9 +37,9 @@ N-B0027 | Oświadczyny na stadionie, które poszły źle.
 N-B0028 | Trzydziestolatek na hulajnodze elektrycznej.
 N-B0029 | Afterparty u nieznajomych.
 N-B0030 | Spowiedź po 15 latach.
-N-B0031 | Przypadkowo włączona kamera na callu.
+N-B0031 | Przypadkowo włączona kamera na wideorozmowie.
 N-B0032 | Czterdziestka i nowy kabriolet.
-N-B0033 | „To nie jest to, na co wygląda”.
+N-B0033 | Wymówka „to nie jest to, na co wygląda”.
 N-B0034 | Grupa „Mamy z osiedla”.
 N-B0035 | Romans z ekspresem do kawy.
 N-B0036 | Trzy randki z Tindera jednego wieczoru.
@@ -54,7 +54,7 @@ N-B0044 | Emerytura na Bali, której nie będzie.
 N-B0045 | Rozwód przez grę planszową.
 N-B0046 | Bycie „tylko kolegą” od 9 lat.
 N-B0047 | Randka online z mamą w tle.
-N-B0048 | Karnet na siłownię opłacony od stycznia.
+- N-B0048 | Karnet na siłownię opłacony od stycznia.
 N-B0049 | Sąsiedzi za bardzo cienką ścianą.
 N-B0050 | Zakład, którego nie powinno się przyjmować.
 N-B0051 | Pocałunek na imprezie firmowej.
@@ -75,7 +75,7 @@ N-B0065 | Kolega, który odpowiada „wszystkim”.
 N-B0066 | Open space z kolegą, który je śledzie.
 N-B0067 | Szef na Teamsach z wyłączoną kamerą.
 N-B0068 | Home office w piżamie od pasa w dół.
-N-B0069 | Excel, który się zawiesił po trzech godzinach pracy.
+N-B0069 | Eksel, który się zawiesił po trzech godzinach pracy.
 N-B0070 | Hasło, które trzeba zmieniać co miesiąc.
 N-B0071 | Drukarka biurowa, która nienawidzi ludzi.
 N-B0072 | Firmowa integracja w lesie z paintballem.
@@ -85,10 +85,10 @@ N-B0075 | Pizza dla zespołu zamiast podwyżki.
 N-B0076 | Owocowe czwartki.
 N-B0077 | Benefit w postaci karty na siłownię.
 N-B0078 | Ocena roczna z dopiskiem „potencjał”.
-N-B0079 | Podwyżka o 2%.
+N-B0079 | Podwyżka o dwa procent.
 N-B0080 | Premia w formie dyplomu.
 N-B0081 | Wypalenie zawodowe z uśmiechem.
-N-B0082 | Korpomowa: „Zróbmy calla, żeby to przegadać”.
+N-B0082 | Korpomowa: „Zróbmy kola, żeby to przegadać”.
 N-B0083 | „Dodaj mnie do pętli”.
 N-B0084 | Deadline na wczoraj.
 N-B0085 | Projekt, który miał być na tydzień, a trwa rok.
@@ -110,7 +110,7 @@ N-B0100 | Biznesplan napisany na serwetce.
 N-B0101 | Inwestycja w kryptowaluty dzień przed spadkiem.
 N-B0102 | Kantor na lotnisku.
 N-B0103 | Wypłata, która znika w trzy dni.
-N-B0104 | Ostatnie 30 złotych do dziesiątego.
+N-B0104 | Ostatnie trzydzieści złotych do dziesiątego.
 N-B0105 | Konto na minusie z gracją.
 N-B0106 | Debet, który jest moim najdłuższym związkiem.
 N-B0107 | Karta kredytowa jako plan emerytalny.
@@ -138,14 +138,14 @@ N-B0128 | Rodzinny obiad na kacu.
 N-B0129 | Rosół, który leczy wszystko.
 N-B0130 | Ogórek kiszony jako lekarstwo.
 N-B0131 | Elektrolity w proszku.
-N-B0132 | Plan „tylko jedno piwo”.
+- N-B0132 | Plan „tylko jedno piwo”.
 N-B0133 | Shot, który ktoś postawił „dla atmosfery”.
 N-B0134 | Kolejka, którą stawia ktoś, kogo nikt nie zna.
 N-B0135 | Wódka z sokiem z kartonu.
 N-B0136 | Piwo bezalkoholowe dla kierowcy, który i tak nie jedzie.
 N-B0137 | Nalewka wujka na wszystko.
 N-B0138 | Bimber od sąsiada z działki.
-N-B0139 | Grzaniec na jarmarku za 30 złotych.
+N-B0139 | Grzaniec na jarmarku za trzydzieści złotych.
 N-B0140 | Drink z parasolką na all inclusive.
 N-B0141 | Prosecco na wieczorze panieńskim.
 N-B0142 | Toast „za nas”.
@@ -188,12 +188,12 @@ N-B0178 | Zdjęcia z byłym, których nie da się usunąć z chmury.
 N-B0179 | Podział przyjaciół po rozstaniu.
 N-B0180 | Kot, o którego toczy się batalia.
 N-B0181 | Wspólne wakacje opłacone przed rozstaniem.
-N-B0182 | „Musimy porozmawiać”.
-N-B0183 | „Nie chodzi o ciebie, tylko o mnie”.
-N-B0184 | „Zostańmy przyjaciółmi”.
-N-B0185 | „Potrzebuję przestrzeni”.
-N-B0186 | „Daj mi znać”.
-N-B0187 | „Jakoś to będzie”.
+N-B0182 | Tekst „musimy porozmawiać”.
+N-B0183 | Tekst „nie chodzi o ciebie, tylko o mnie”.
+N-B0184 | Propozycja „zostańmy przyjaciółmi”.
+N-B0185 | Wymówka „potrzebuję przestrzeni”.
+N-B0186 | Tekst „daj mi znać”.
+N-B0187 | Hasło „jakoś to będzie”.
 N-B0188 | Wiadomość „hej” po trzech latach ciszy.
 N-B0189 | Relacja na odległość z kimś z Krakowa.
 N-B0190 | Związek, który istnieje tylko w mojej głowie.

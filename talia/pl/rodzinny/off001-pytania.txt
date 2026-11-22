@@ -8,7 +8,7 @@
 #  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
 #  • Linijki zaczynające się od # to komentarze – gra je pomija.
 #
-R-C001 | Co babcia trzyma w szafie „na czarną godzinę”?
+R-C001 | Co babcia trzyma w szafie na czarną godzinę?
 R-C002 | Najgorszy prezent pod choinkę to ____.
 R-C003 | Za czasów taty wszystko załatwiało się tak: ____.
 R-C004 | Co naprawdę robi kot, kiedy nikogo nie ma w domu?
@@ -34,7 +34,7 @@ R-C023 | Czego nie powinno się wkładać do mikrofalówki?
 R-C024 | Nowa dyscyplina olimpijska: ____.
 R-C025 | Co babcia uważa za największe zagrożenie dla młodzieży?
 R-C026 | Główna atrakcja tegorocznych urodzin: ____.
-R-C027 | Gdyby nasz pies umiał mówić, pierwsze słowa brzmiałyby: ____.
+R-C027 | Gdyby nasz pies umiał mówić, pierwsze słowa brzmiałyby: „____”.
 R-C028 | Prawdziwy powód, dla którego tata nie pyta o drogę: ____.
 R-C029 | Co zawsze ginie w czasie przeprowadzki?
 R-C030 | Najdziwniejsza rzecz w lodówce to ____.
@@ -72,7 +72,7 @@ R-C061 | Czego nie mówi się przy wujku?
 R-C062 | Pierwsza rzecz, którą zrobię po wygranej w totka: ____.
 R-C063 | Co się dzieje z drugą skarpetką?
 R-C064 | Najsmutniejszy widok w lodówce to ____.
-R-C065 | Co mieszka w szafie pod schodami?
+- R-C065 | Co mieszka w szafie pod schodami?
 R-C066 | Temat zebrania z rodzicami: ____.
 R-C067 | Ulubione zajęcie naszego chomika: ____.
 R-C068 | Gwiazda tegorocznego wesela: ____.

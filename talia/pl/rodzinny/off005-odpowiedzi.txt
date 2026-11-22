@@ -63,7 +63,7 @@ R-B0853 | Szkolny turniej piłki nożnej.
 R-B0854 | Bieg na sto metrów w trampkach.
 R-B0855 | Skok w dal do piaskownicy.
 R-B0856 | Rzut piłką lekarską.
-R-B0857 | Lekcja w-fu na dworze w listopadzie.
+R-B0857 | Lekcja WF-u na dworze w listopadzie.
 R-B0858 | Kozioł gimnastyczny.
 R-B0859 | Lina, na którą nikt nie umie wejść.
 R-B0860 | Szatnia, w której wszystko pachnie skarpetkami.
@@ -78,7 +78,7 @@ R-B0868 | Kolekcja kapsli.
 R-B0869 | Kolekcja znaczków dziadka.
 R-B0870 | Karty z piłkarzami.
 R-B0871 | Tamagotchi.
-R-B0872 | Gameboy z lat 90.
+R-B0872 | Game Boy z lat dziewięćdziesiątych.
 R-B0873 | Walkman z kasetą.
 R-B0874 | Zeszyt z wklejonymi karteczkami.
 R-B0875 | Plastelina wbita w dywan.
@@ -125,41 +125,41 @@ R-B0915 | Cień na ścianie.
 R-B0916 | Skrzypiąca podłoga w nocy.
 R-B0917 | Szelest za oknem.
 R-B0918 | Kroki na strychu.
-R-B0919 | „Bo ja tak mówię”.
-R-B0920 | „Zjedz, bo wystygnie”.
-R-B0921 | „Załóż czapkę, bo zmarzniesz”.
-R-B0922 | „Jak będziesz starszy, to zrozumiesz”.
-R-B0923 | „A jakby wszyscy skakali z mostu?”
-R-B0924 | „Pieniądze nie rosną na drzewach”.
-R-B0925 | „Nie ma, bo nie ma”.
-R-B0926 | „Za pięć minut wychodzimy”.
-R-B0927 | „Kto to rozlał?”
-R-B0928 | „Przecież to dla twojego dobra”.
-R-B0929 | „Zobaczymy”.
-R-B0930 | „Zapytaj taty”.
-R-B0931 | „Zapytaj mamy”.
-R-B0932 | „Dobra, ostatni raz”.
-R-B0933 | „Nie wiem, nie znam się, nie orientuję się”.
-R-B0934 | „Co ty tam wiesz”.
-R-B0935 | „Kiedyś to było”.
-R-B0936 | „Uważaj, bo się przewrócisz”.
-R-B0937 | „Masz kurtkę?”
-R-B0938 | „Ubierz się cieplej”.
-R-B0939 | „Jak dojedziesz, to zadzwoń”.
-R-B0940 | „A ty kiedy?”
-R-B0941 | „Zjesz jeszcze kawałeczek?”
-R-B0942 | „Ja tylko na chwilkę”.
-R-B0943 | „Nie przeszkadzajcie sobie”.
-R-B0944 | „Taki tam drobiazg”.
-R-B0945 | „Coś mi tu nie pasuje”.
-R-B0946 | „Byłem tu pierwszy”.
-R-B0947 | „To nie ja”.
-R-B0948 | „On zaczął”.
-R-B0949 | „Ona zaczęła”.
-R-B0950 | „Nudzi mi się”.
+R-B0919 | Tekst „bo ja tak mówię”.
+R-B0920 | Hasło „zjedz, bo wystygnie”.
+R-B0921 | Hasło „załóż czapkę, bo zmarzniesz”.
+R-B0922 | Tekst „jak będziesz starszy, to zrozumiesz”.
+R-B0923 | Pytanie „a jakby wszyscy skakali z mostu?”.
+R-B0924 | Tekst „pieniądze nie rosną na drzewach”.
+R-B0925 | Odpowiedź „nie ma, bo nie ma”.
+R-B0926 | Tekst „za pięć minut wychodzimy”.
+R-B0927 | Pytanie „kto to rozlał?”.
+R-B0928 | Tekst „przecież to dla twojego dobra”.
+R-B0929 | Odpowiedź „zobaczymy”.
+R-B0930 | Tekst „zapytaj taty”.
+R-B0931 | Tekst „zapytaj mamy”.
+R-B0932 | Tekst „dobra, ostatni raz”.
+R-B0933 | Tekst „nie wiem, nie znam się, nie orientuję się”.
+R-B0934 | Tekst „co ty tam wiesz”.
+R-B0935 | Tekst „kiedyś to było”.
+R-B0936 | Tekst „uważaj, bo się przewrócisz”.
+R-B0937 | Pytanie „masz kurtkę?”.
+R-B0938 | Tekst „ubierz się cieplej”.
+R-B0939 | Tekst „jak dojedziesz, to zadzwoń”.
+R-B0940 | Pytanie „a ty kiedy?”.
+R-B0941 | Pytanie „zjesz jeszcze kawałeczek?”.
+R-B0942 | Tekst „ja tylko na chwilkę”.
+R-B0943 | Tekst „nie przeszkadzajcie sobie”.
+R-B0944 | Tekst „taki tam drobiazg”.
+R-B0945 | Tekst „coś mi tu nie pasuje”.
+R-B0946 | Tekst „byłem tu pierwszy”.
+R-B0947 | Tekst „to nie ja”.
+R-B0948 | Tekst „on zaczął”.
+R-B0949 | Tekst „ona zaczęła”.
+R-B0950 | Tekst „nudzi mi się”.
 R-B0951 | „Jestem głodny” pięć minut po obiedzie.
-R-B0952 | „Jeszcze jeden odcinek”.
-R-B0953 | „Ostatnia gra i idę spać”.
+R-B0952 | Tekst „jeszcze jeden odcinek”.
+R-B0953 | Tekst „ostatnia gra i idę spać”.
 R-B0954 | Wieczne „nie mam co na siebie włożyć”.
 R-B0955 | Wieczne „gdzie są moje klucze?”.
 R-B0956 | Odwieczne pytanie „co na obiad?”.
@@ -190,7 +190,7 @@ R-B0980 | Balon z helem pod sufitem.
 R-B0981 | Girlanda „Wszystkiego najlepszego”.
 R-B0982 | Czapeczki urodzinowe na gumce.
 R-B0983 | Trąbki, które doprowadzają rodziców do szału.
-R-B0984 | Piñata, której nie da się rozbić.
+R-B0984 | Piniata, której nie da się rozbić.
 R-B0985 | Konkurs na najładniejszy rysunek.
 R-B0986 | Zdjęcie z Mikołajem w galerii.
 R-B0987 | Ozdoby choinkowe z dzieciństwa taty.
@@ -205,5 +205,5 @@ R-B0995 | Puste miejsce przy stole dla wędrowca.
 R-B0996 | Łuska karpia w portfelu.
 R-B0997 | Życzenia przy opłatku, które trwają godzinę.
 R-B0998 | Pierwsza gwiazdka, której nikt nie widzi.
-R-B0999 | Prezenty otwierane o 18:01.
+R-B0999 | Prezenty otwierane minutę po szóstej.
 R-B1000 | Sylwestrowe postanowienia.

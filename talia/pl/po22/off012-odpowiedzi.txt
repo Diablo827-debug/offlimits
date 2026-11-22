@@ -18,12 +18,12 @@ N-B0608 | Podpisać umowę bez czytania.
 N-B0609 | Pomylić szefa ze sprzątaczem.
 N-B0610 | Zawołać na szefową „mamo”.
 N-B0611 | Wysłać do całej firmy zdjęcie kota.
-N-B0612 | Zostawić mikrofon włączony na callu.
+N-B0612 | Zostawienie mikrofonu włączonego na wideorozmowie.
 N-B0613 | Zapomnieć, że jest się na kamerze.
-N-B0614 | Wyjść z calla w środku zdania szefa.
+N-B0614 | Wyjście z wideorozmowy w środku zdania szefa.
 N-B0615 | Udawać, że internet się zawiesił.
 N-B0616 | Mieć tło na wideo z rajską plażą.
-N-B0617 | Prowadzić call z samochodu w korku.
+N-B0617 | Prowadzenie wideorozmowy z samochodu w korku.
 N-B0618 | Siedzieć w spodenkach od piżamy na zebraniu online.
 N-B0619 | Napisać do zarządu emotkę z kciukiem.
 N-B0620 | Odpowiedzieć „jasne, ogarnę” i nie ogarnąć.
@@ -63,7 +63,7 @@ N-B0653 | Śmiech w złym momencie.
 N-B0654 | Niezręczna cisza w windzie.
 N-B0655 | Niezręczny uścisk dłoni z próbą przytulenia.
 N-B0656 | Ręka podana w momencie, gdy ktoś chce cmoknąć.
-N-B0657 | Trzy buziaki czy dwa?
+N-B0657 | Dylemat: trzy buziaki czy dwa?
 N-B0658 | Pożegnanie, które trwa godzinę w przedpokoju.
 N-B0659 | „To my już będziemy się zbierać” i jeszcze dwie godziny.
 N-B0660 | Gość, który nie łapie aluzji.
@@ -91,7 +91,7 @@ N-B0681 | Ktoś, kto zasypia na każdej imprezie.
 N-B0682 | Ktoś, kto zawsze ma ostatnie słowo.
 N-B0683 | Typowy turysta z siatką pełną kanapek.
 N-B0684 | Pani przy kasie, która chce rozmawiać z kierownikiem.
-N-B0685 | Kierowca BMW bez kierunkowskazów.
+- N-B0685 | Kierowca BMW bez kierunkowskazów.
 N-B0686 | Rowerzysta w lycrze na ścieżce dla pieszych.
 N-B0687 | Pan na siłowni, który stęka przy każdym powtórzeniu.
 N-B0688 | Pani, która robi selfie na siłowni.
@@ -114,7 +114,7 @@ N-B0704 | Ekspert od wszystkiego w komentarzach.
 N-B0705 | Polityk na festynie.
 N-B0706 | Celebryta z reality show.
 N-B0707 | Gwiazda disco polo na weselu.
-N-B0708 | DJ Wesele, który gra tylko hity z lat 90.
+N-B0708 | Didżej Wesele, który gra tylko hity z lat dziewięćdziesiątych.
 N-B0709 | Fotograf weselny, który był wszędzie.
 N-B0710 | Kamerzysta, który nakręcił moją kompromitację.
 N-B0711 | Wodzirej z obowiązkowymi zabawami.

@@ -16,7 +16,7 @@ X-C005 | Coming out przy wigilijnym stole w trzech słowach: ____.
 X-C006 | Co babcia powiedziała, kiedy przyprowadziłem chłopaka na obiad?
 X-C007 | Hasło wyborcze, które wygra wybory w Polsce: ____.
 X-C008 | Prawdziwa treść koperty dla księdza: ____.
-X-C009 | Co naprawdę dzieje się na plebanii po 22:00?
+X-C009 | Co naprawdę dzieje się na plebanii po dwudziestej drugiej?
 X-C010 | Nowy program partii, który wszystkich pogodzi: ____.
 X-C011 | Najgorsze, co można powiedzieć księdzu przy spowiedzi, to ____.
 X-C012 | Co ciocia mówi o „tych gejach” przy cieście?
@@ -27,7 +27,7 @@ X-C016 | Co znajduje się w teczce posła, kiedy wychodzi z Sejmu?
 X-C017 | Kłótnia polityczna przy wigilii. Wujek mówi: ____. Ciocia odpowiada: ____.
 X-C018 | Prawdziwy powód, dla którego dziadek nie chodzi do kościoła: ____.
 X-C019 | Co mówi ksiądz z ambony o mojej rodzinie?
-X-C020 | Najbardziej polski sposób na załatwienie sprawy w urzędzie: ____.
+- X-C020 | Najbardziej polski sposób na załatwienie sprawy w urzędzie: ____.
 X-C021 | Mój plan na parady równości: ____.
 X-C022 | Co przyniósł zając wielkanocny dla gejów?
 X-C023 | Prawdziwy cel pielgrzymki wujka: ____.
@@ -48,7 +48,7 @@ X-C037 | Pierwsze słowa premiera po wygranych wyborach: ____.
 X-C038 | Co najbardziej przeraża katechetkę?
 X-C039 | Gejowski ślub w polskiej wsi. Muzyka: ____. Gość honorowy: ____.
 X-C040 | Najlepsza wymówka, żeby nie iść na pasterkę: ____.
-X-C041 | Co znajduje się w programie telewizji publicznej o 20:00?
+X-C041 | Co znajduje się w programie telewizji publicznej o ósmej wieczorem?
 X-C042 | Prawdziwa tajemnica spowiedzi: ____.
 X-C043 | Jak opozycja planuje wygrać następne wybory: ____.
 X-C044 | Co mówi proboszcz, kiedy widzi pustą tacę?
@@ -83,7 +83,7 @@ X-C072 | Co mówią sąsiedzi o dwóch facetach z trzeciego piętra?
 X-C073 | Ogłoszenia parafialne. Po pierwsze: ____. Po drugie: ____.
 X-C074 | Prawdziwy powód, dla którego ksiądz nie wiąże się z nikim: ____.
 X-C075 | Ulubiony sport posłów: ____.
-X-C076 | Najbardziej polska tradycja świąteczna to ____.
+- X-C076 | Najbardziej polska tradycja świąteczna to ____.
 X-C077 | Co ukrywa ministerstwo w tajnym raporcie?
 X-C078 | Jedyne, co łączy prawicę i lewicę: ____.
 X-C079 | Co dziadek krzyczy do telewizora podczas wiadomości?
@@ -107,4 +107,4 @@ X-C096 | Mój chłopak poznaje rodzinę. Babcia: ____. Dziadek: ____.
 X-C097 | Program partii na nową kadencję: ____ dla wszystkich i ____ dla wybranych.
 X-C098 | Msza w intencji rodziny. Intencja: ____. Efekt: ____.
 X-C099 | Wybory w gminie. Kandydat: ____. Obietnica: ____.
-X-C100 | Moje życie jako gej w małym mieście. Plusy: ____. Minusy: ____.
+X-C100 | Moje życie jako geja w małym mieście. Plusy: ____. Minusy: ____.

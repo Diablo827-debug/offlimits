@@ -48,7 +48,7 @@ C-B02759 | Ukradkowe drapanie się po tyłku.
 C-B02760 | Pełne zrozumienie unijnych dopłat.
 C-B02761 | Lodówka turystyczna pełna organów.
 C-B00517 | Policjant, który jest też psem.
-C-B02762 | Ukrzyżowanie.
+- C-B02762 | Ukrzyżowanie.
 C-B02763 | Słodka, puchata koala z chlamydią.
 C-B02765 | Promień śmierci.
 C-B02766 | Porządny, kurwa, internet.

@@ -8,7 +8,7 @@
 #  • Gdy luk ma być inaczej niż podkreślników, dopisz na końcu np. {2}.
 #  • Linijki zaczynające się od # to komentarze – gra je pomija.
 #
-N-C201 | Najgorsza decyzja po trzecim winie: ____.
+- N-C201 | Najgorsza decyzja po trzecim winie: ____.
 N-C202 | Co dzieje się w autokarze z kibicami?
 N-C203 | Co jest w wiadomości „Musimy pogadać”?
 N-C204 | Moja recenzja dorosłości: ____.
@@ -48,7 +48,7 @@ N-C237 | Co robią ludzie na urodzinach trzylatka, kiedy dzieci nie patrzą?
 N-C238 | Prawdziwy cel grupowego czatu z rodzicami z przedszkola: ____.
 N-C239 | Czego nie mówię przy rodzicach dziewczyny?
 N-C240 | Co ukrywam w piwnicy przed żoną?
-N-C241 | Co ukrywam w szafie przed mężem?
+- N-C241 | Co ukrywam w szafie przed mężem?
 N-C242 | Co mówię, kiedy ktoś pyta, czy już wychodzę z biura?
 N-C243 | Najlepszy sposób na pozbycie się nudnego gościa: ____.
 N-C244 | Moja recenzja ostatniej randki: ____.
@@ -62,10 +62,10 @@ N-C251 | Najbardziej toksyczna relacja w moim życiu to ____.
 N-C252 | Co robią rodzice, kiedy dzieci w końcu zasną?
 N-C253 | Najlepszy powód, żeby nie iść do pracy: ____.
 N-C254 | Mój największy wróg w kuchni to ____.
-N-C255 | Co się dzieje w grupie „Rozwódki i rozwodnicy 40+”?
+N-C255 | Co się dzieje w grupie „Rozwódki i rozwodnicy czterdzieści plus”?
 N-C256 | Najlepsza imprezowa sztuczka szwagra: ____.
 N-C257 | Czego się boję bardziej niż ślubu?
-N-C258 | Co oznacza „będę za 5 minut” u mojej przyjaciółki?
+N-C258 | Co oznacza „będę za pięć minut” u mojej przyjaciółki?
 N-C259 | Najdziwniejsze miejsce, w którym zasnąłem po imprezie, to ____.
 N-C260 | Główna atrakcja wesela w remizie: ____.
 N-C261 | Co mówi babcia o moim tatuażu?
@@ -79,7 +79,7 @@ N-C268 | Rzecz, której żałuję z osiemnastki: ____.
 N-C269 | Mój największy wydatek w tym miesiącu: ____.
 N-C270 | Co robię, kiedy partner chce „spokojnie porozmawiać”?
 N-C271 | Najlepsze lekarstwo na złamane serce: ____.
-N-C272 | Co mówią moje znajomości z liceum na zjeździe po 15 latach?
+N-C272 | Co mówią moi znajomi z liceum na zjeździe po piętnastu latach?
 N-C273 | Prawdziwy powód, dla którego jestem na diecie: ____.
 N-C274 | Co robię, gdy mam dom tylko dla siebie?
 N-C275 | Nowa definicja luksusu po trzydziestce: ____.
@@ -98,7 +98,7 @@ N-C287 | Co mówi tata, kiedy przyprowadzam kogoś nowego?
 N-C288 | Moja jedyna zasada na imprezach: ____.
 N-C289 | Prawdziwy powód, dla którego nie mam prawa jazdy: ____.
 N-C290 | Co ma w lodówce kawaler?
-N-C291 | Co ma w lodówce panna?
+- N-C291 | Co ma w lodówce panna?
 N-C292 | Najgorsza piosenka do pierwszego tańca: ____.
 N-C293 | Najlepsza rzecz w poniedziałek po długim weekendzie to ____.
 N-C294 | Co mówię, kiedy dzwoni telemarketer?

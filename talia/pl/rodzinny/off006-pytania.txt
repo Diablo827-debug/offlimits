@@ -29,7 +29,7 @@ R-C518 | Nowa restauracja w mieście. Nazwa: ____. Specjalność: ____.
 R-C519 | Wieczór filmowy. Film: ____. Przekąska: ____.
 R-C520 | Szkolny dzień talentów. Występ: ____. Nagroda: ____.
 R-C521 | Rodzinny wynalazek. Problem: ____. Rozwiązanie: ____.
-R-C522 | Dziennik pokładowy wakacji. Dzień 1: ____. Dzień 7: ____.
+R-C522 | Dziennik pokładowy wakacji. Dzień pierwszy: ____. Dzień siódmy: ____.
 R-C523 | Tata w kuchni. Plan: ____. Wynik: ____.
 R-C524 | Mama na urlopie. Marzenie: ____. Rzeczywistość: ____.
 R-C525 | Zawody wędkarskie wujka. Przynęta: ____. Zdobycz: ____.
@@ -60,7 +60,7 @@ R-C549 | Gazetka szkolna. Nagłówek: ____. Zdjęcie: ____.
 R-C550 | Imieniny cioci. Prezent: ____. Mina cioci: ____.
 R-C551 | Prognoza pogody na jutro: rano ____, po południu ____.
 R-C552 | Spływ kajakowy. Kajak: ____. Załoga: ____.
-R-C553 | Muzeum naszej rodziny. Eksponat nr 1: ____. Eksponat nr 2: ____.
+R-C553 | Muzeum naszej rodziny. Eksponat numer jeden: ____. Eksponat numer dwa: ____.
 R-C554 | Supermarket przyszłości. Kasjer: ____. Koszyk: ____.
 R-C555 | Zawody sportowe w szkole. Dyscyplina: ____. Zwycięzca: ____.
 R-C556 | Babcia i dziadek na wakacjach. Plan babci: ____. Plan dziadka: ____.

@@ -53,7 +53,7 @@ C-B03500 | Opryszczka.
 C-B03501 | Powrót na wieś.
 C-B03502 | Pan Proper tuż za tobą.
 C-B05960 | Pan Proper.
-C-B03503 | Pan Kleks.
+- C-B03503 | Pan Kleks.
 C-B03504 | Pan Kuleczka.
 C-B01454 | Scena śmierci Mufasy.
 C-B01456 | Wielokrotne orgazmy.
@@ -169,7 +169,7 @@ C-B03619 | Robienie sobie jaj.
 C-B06672 | Odmowa składania zeznań.
 C-B03620 | Brutalność policji.
 C-B03621 | Polacy.
-C-B06784 | Kupka.
+- C-B06784 | Kupka.
 C-B03622 | Robienie kupy w tę i z powrotem. Na zawsze.
 C-B03623 | Zrobienie kupy do laptopa i zamknięcie go.
 C-B03624 | Zrobienie kupy do zupy.

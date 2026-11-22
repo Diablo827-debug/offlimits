@@ -7,7 +7,7 @@
 #  • Odpowiedzi piszemy w mianowniku albo bezokoliczniku, z kropką na końcu.
 #  • Linijki zaczynające się od # to komentarze – gra je pomija.
 #
-R-B0401 | Bateria 1%.
+R-B0401 | Bateria na jednym procencie.
 R-B0402 | Powiadomienie o aktualizacji.
 R-B0403 | Gra na telefonie, która zjadła wszystkie dane.
 R-B0404 | Selfie z babcią.
@@ -27,7 +27,7 @@ R-B0417 | Puzzle bez ostatniego elementu.
 R-B0418 | Kostka Rubika, której nikt nie ułożył.
 R-B0419 | Domino ułożone przez cały pokój.
 R-B0420 | Kalambury z dziadkiem.
-R-B0421 | Państwa-miasta na literę X.
+R-B0421 | Państwa-miasta na literę iks.
 R-B0422 | Rodzinny turniej w karty.
 R-B0423 | Babcia, która oszukuje w remika.
 R-B0424 | Chińczyk, w którym nikt nie umie przegrywać.
@@ -67,7 +67,7 @@ R-B0457 | Orkiestra weselna grająca największy hit disco polo.
 R-B0458 | Pociąg na weselu.
 R-B0459 | Oczepiny.
 R-B0460 | Rzucanie welonem.
-R-B0461 | Wódka z kompotem.
+- R-B0461 | Wódka z kompotem.
 R-B0462 | Wujek tańczący z krzesłem.
 R-B0463 | Babcia na parkiecie do 4 rano.
 R-B0464 | Tort weselny wjeżdżający z fontanną.

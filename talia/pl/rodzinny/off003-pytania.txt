@@ -58,7 +58,7 @@ R-C247 | Co wujek uważa za sport ekstremalny?
 R-C248 | Najlepszy pomysł na pierwszy dzień wakacji: ____.
 R-C249 | Co babcia nazywa „małą porcją”?
 R-C250 | Najdziwniejsze hobby w naszej rodzinie to ____.
-R-C251 | Czego nie mówi się nauczycielce w-fu?
+R-C251 | Czego nie mówi się nauczycielce WF-u?
 R-C252 | Główny temat rozmów na rodzinnym grillu: ____.
 R-C253 | Co mieszka pod łóżkiem?
 R-C254 | Najbardziej szalony pomysł taty: ____.
@@ -84,7 +84,7 @@ R-C273 | Co zrobi babcia, gdy zobaczy mój tatuaż?
 R-C274 | Ulubiony deser naszego kota: ____.
 R-C275 | Co jest w paczce od cioci z Niemiec?
 R-C276 | Słowo roku w naszej rodzinie: ____.
-R-C277 | Rodzinny rozkład dnia: o 8:00 ____, o 20:00 ____.
+R-C277 | Rodzinny rozkład dnia: o ósmej rano ____, o ósmej wieczorem ____.
 R-C278 | Główna nagroda w konkursie radiowym: ____.
 R-C279 | Co wujek mówi po trzecim kawałku sernika?
 R-C280 | Najbardziej przydatna aplikacja w telefonie babci: ____.

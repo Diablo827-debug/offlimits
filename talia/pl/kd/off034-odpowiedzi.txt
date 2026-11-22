@@ -10,16 +10,16 @@
 K-B228 | Nowy, inwazyjny gatunek paprotki.
 K-B229 | Przypadkowe zapłodnienie teściowej.
 K-B231 | Radom.
-K-B232 | Rasista daltonista.
+K-B232 | Rasista-daltonista.
 K-B233 | Rasistowska staruszka.
-K-B236 | Waginowe miętówki. Mięta dla twojej waginy.
+K-B236 | Waginowe miętówki – mięta dla twojej waginy.
 K-B237 | Reporterzy TVN.
-K-B238 | Ridge Forrester spuszczający się na twoje drzwi.
+K-B238 | Ridge Forrester z „Mody na sukces” spuszczający się na twoje drzwi.
 K-B239 | Rodzinna sprzeczka.
 K-B240 | Rodzinne odlewanie się na groby przodków.
-K-B241 | Bezcenny argentyński kaktus.
+- K-B241 | Bezcenny argentyński kaktus.
 K-B242 | Rosja.
-K-B243 | Rosyjska super-ebola.
+K-B243 | Rosyjska superebola.
 K-B244 | Rozstanie się z miłością swojego życia.
 K-B245 | Równe płace dla kobiet i mężczyzn.
 K-B247 | Rwanie na dywanie.
@@ -41,12 +41,12 @@ K-B265 | Skolioza odbytu.
 K-B266 | Testowanie wytrzymałości przyszłego męża.
 K-B267 | Współczesne polskie kabarety.
 K-B268 | Skurcz pochwy.
-K-B270 | Słodkie słówka.
+- K-B270 | Słodkie słówka.
 K-B271 | Smalczyk.
 K-B272 | Solówka po lekcjach.
 K-B273 | Kożuch z mleka.
-K-B274 | Sos Barbeque na moich cyckach.
-K-B275 | Spawaczginekolog.
+K-B274 | Sos barbecue na moich cyckach.
+K-B275 | Spawacz-ginekolog.
 K-B276 | Spięcie w respiratorze.
 K-B277 | Utytłany czekoladą chomiczek.
 K-B278 | Społeczne niezadowolenie.
@@ -78,8 +78,8 @@ K-B305 | Świąteczna promocja w domu publicznym.
 K-B307 | Ta niebieska ciecz z reklam tamponów.
 K-B308 | Ta ruda zdzira obciągająca każdemu, tylko nie tobie.
 K-B310 | Tajna plantacja rzeżuchy.
-K-B311 | Tak twarda woda, że gdy bierze się prysznic, to dostaje się wpierdol.
-K-B313 | Tańce ruchańce.
+K-B311 | Woda tak twarda, że podczas prysznica dostaje się wpierdol.
+K-B313 | Tańce-ruchańce.
 K-B314 | Tańczenie makareny na polu minowym.
 K-B315 | Tatuowanie genitaliów.
 K-B317 | Ten pierdolnik.
@@ -89,7 +89,7 @@ K-B320 | Topielec w kadzi sosu.
 K-B321 | Trądzik młodzieńczy.
 K-B322 | Warszawa.
 K-B323 | Serowe prezerwatywy.
-K-B324 | Trzcina cukrowa.
+- K-B324 | Trzcina cukrowa.
 K-B325 | Nadużycie władzy.
 K-B327 | Pożar podczas powodzi.
 K-B328 | Twoja stara.

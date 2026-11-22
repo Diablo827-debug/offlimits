@@ -18,7 +18,7 @@ R-B0008 | Pies sąsiada.
 R-B0009 | Wieczne „zaraz”.
 R-B0010 | Zgubić telefon i godność.
 R-B0011 | Taniec belgijski na weselu.
-R-B0012 | Rosół w niedzielę o 13:00.
+R-B0012 | Rosół w niedzielę o trzynastej.
 R-B0013 | Słoik ogórków od babci.
 R-B0014 | Reklamówka z reklamówkami.
 R-B0015 | Kot na klawiaturze.
@@ -55,14 +55,14 @@ R-B0045 | Laurka zrobiona własnoręcznie.
 R-B0046 | Wujek grillmistrz.
 R-B0047 | Przypalona jajecznica.
 R-B0048 | Pudełko po ciastkach pełne nici.
-R-B0049 | Rowerek stacjonarny jako wieszak.
+- R-B0049 | Rowerek stacjonarny jako wieszak.
 R-B0050 | Pomidorowa z wczorajszego rosołu.
 R-B0051 | Podkradanie frytek.
-R-B0052 | Zegar w piekarniku mrugający 00:00.
+R-B0052 | Zegar w piekarniku mrugający cztery zera.
 R-B0053 | „Sto lat” w trzech tonacjach naraz.
 R-B0054 | Wyjazd z parkingu pod galerią w grudniu.
 R-B0055 | Pies w sweterku.
-R-B0056 | Spór o to, kto wygrał w Chińczyka w 1998.
+R-B0056 | Spór o to, kto wygrał w chińczyka w tysiąc dziewięćset dziewięćdziesiątym ósmym.
 R-B0057 | Opalenizna tylko na jednej ręce.
 R-B0058 | Zapomniane hasło do wszystkiego.
 R-B0059 | Kuzyn, który „robi w kryptowalutach”.
@@ -121,7 +121,7 @@ R-B0111 | Chrupki kukurydziane.
 R-B0112 | Wafelek w złotku.
 R-B0113 | Paluszki w słoiku.
 R-B0114 | Herbata z cytryną i trzema łyżeczkami cukru.
-R-B0115 | Kawa z ekspresu, który hałasuje jak traktor.
+- R-B0115 | Kawa z ekspresu, który hałasuje jak traktor.
 R-B0116 | Woda gazowana, która już nie jest gazowana.
 R-B0117 | Lemoniada z cytryn sąsiada.
 R-B0118 | Ciasto, które upadło na podłogę.
@@ -169,7 +169,7 @@ R-B0159 | Bocian na kominie.
 R-B0160 | Kaczki w parku.
 R-B0161 | Wiewiórka, która kradnie orzechy.
 R-B0162 | Jeż w ogródku.
-R-B0163 | Kot śpiący na pranie.
+R-B0163 | Kot śpiący na praniu.
 R-B0164 | Pies szczekający na swój ogon.
 R-B0165 | Spacer z psem w deszczu.
 R-B0166 | Wizyta u weterynarza.

@@ -41,7 +41,7 @@ X-C130 | Ostatnia rzecz, jaką zrobi stary rząd: ____.
 X-C131 | Co spędza sen z powiek posłom?
 X-C132 | Prawdziwa zawartość kropielnicy: ____.
 X-C133 | Co mówi ciocia, kiedy widzi dwóch panów trzymających się za ręce?
-X-C134 | Najlepsza riposta na pytanie „a kiedy ślub?” od geja: ____.
+X-C134 | Najlepsza riposta geja na pytanie „a kiedy ślub?”: ____.
 X-C135 | Prawdziwy powód, dla którego Polacy kłócą się o politykę: ____.
 X-C136 | Co minister finansów ma w portfelu?
 X-C137 | Kościelna nowość roku: ____.
@@ -51,7 +51,7 @@ X-C140 | Mój rodzinny sposób na ciszę wyborczą: ____.
 X-C141 | Co robią księża na wakacjach?
 X-C142 | Najbardziej gejowski prezent świąteczny: ____.
 X-C143 | Hasło na koszulce, z którą idę na rodzinny obiad: ____.
-X-C144 | Najbardziej polskie słowo roku: ____.
+- X-C144 | Najbardziej polskie słowo roku: ____.
 X-C145 | Co babcia mówi o rządzie przy każdej zupie?
 X-C146 | Prawdziwa przyczyna dziury budżetowej: ____.
 X-C147 | Co robi ksiądz, kiedy skończy się wino mszalne?
@@ -107,4 +107,4 @@ X-C196 | Co usłyszy pierwszy gejowski prezydent Polski w Sejmie?
 X-C197 | Co wujek zrobi, jeśli wygra partia, której nie znosi?
 X-C198 | Co robi anioł stróż, kiedy idę na imprezę?
 X-C199 | Co ksiądz ogląda wieczorem na plebanii?
-X-C200 | Najbardziej polska rzecz, jaką zrobiłem na zagranicznym weselu, to ____.
+- X-C200 | Najbardziej polska rzecz, jaką zrobiłem na zagranicznym weselu, to ____.

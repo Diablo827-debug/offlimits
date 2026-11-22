@@ -170,7 +170,7 @@ C-B01727 | Wychwalanie szpetnych córek sułtana.
 C-B01728 | Pokazywanie cipki wszystkim chłopakom.
 C-B01746 | Walnięcie się w jaja w chwili szczytowania.
 C-B01762 | Trochę tego dobrego kutasa.
-C-B01764 | Naprawdę ostre krewetki.
+- C-B01764 | Naprawdę ostre krewetki.
 C-B01802 | Jaranie non stop 24/7.
 C-B01811 | Ssanie sobie nawzajem penisów godzinami.
 C-B01814 | Nagły i niechciany slam poetycki.

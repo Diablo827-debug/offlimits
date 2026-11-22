@@ -10,7 +10,7 @@
 #
 R-C401 | Ulubiony dźwięk mamy to ____.
 R-C402 | Główny problem w każdym rodzinnym samochodzie: ____.
-R-C403 | Co cioci nie wolno pokazywać?
+- R-C403 | Co cioci nie wolno pokazywać?
 R-C404 | Najlepsza drużyna na rodzinnym meczu: ____.
 R-C405 | Co się dzieje na strychu?
 R-C406 | Największy wróg babci w kuchni to ____.
@@ -77,7 +77,7 @@ R-C466 | Ulubione powiedzenie dziadka: ____.
 R-C467 | Co się stało z ostatnim ciastkiem?
 R-C468 | Pierwsza randka dziadków: kino, ____ i ____.
 R-C469 | Najlepszy sposób na nudne wesele: ____.
-R-C470 | Co mówi kot, kiedy pusta miska?
+R-C470 | Co mówi kot, kiedy ma pustą miskę?
 R-C471 | Najdziwniejszy prezent od cioci to ____.
 R-C472 | Co tata trzyma w schowku w aucie?
 R-C473 | Największa zagadka matematyki: ____.
@@ -104,7 +104,7 @@ R-C493 | Co zrobić, kiedy wszyscy zapomną o moich urodzinach?
 R-C494 | Nowe lody. Smak: ____. Posypka: ____.
 R-C495 | Co wujek chowa w garażu przed ciocią?
 R-C496 | Największa tajemnica szkolnego woźnego: ____.
-R-C497 | Co rodzice robią w Sylwestra o 22:30?
+R-C497 | Co rodzice robią w Sylwestra o wpół do jedenastej?
 R-C498 | Najdziwniejszy pomysł na prezent dla taty to ____.
 R-C499 | Co naprawdę jest w paście do zębów?
 R-C500 | Najlepsza rzecz na rodzinnych zdjęciach to ____.

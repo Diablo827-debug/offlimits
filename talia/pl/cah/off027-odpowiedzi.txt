@@ -42,7 +42,7 @@ C-B03686 | Skończenie się spermy.
 C-B03687 | Rupert Murdoch.
 C-B05981 | Rosja.
 C-B01672 | Ryan Gosling przybywający na białym koniu.
-C-B03690 | Ryanair.
+- C-B03690 | Ryanair.
 C-B03691 | Zbawienie.
 C-B03692 | Taniec na lodzie par jednopłciowych.
 C-B01675 | Samuel L. Jackson.
@@ -85,7 +85,7 @@ C-B03727 | Napięcie seksualne.
 C-B03728 | Aktywni seksualnie kujoni z orkiestry szkolnej.
 C-B03729 | Seksowne bitwy na poduszki.
 C-B05978 | WSTYD!
-C-B03731 | Wstyd.
+- C-B03731 | Wstyd.
 C-B03732 | Zmiennokształtni.
 C-B03733 | Kariera aktorska Mariusza Pudzianowskiego.
 C-B03734 | Pożyczanie sobie igieł.
@@ -148,7 +148,7 @@ C-B01780 | Wydawanie mnóstwa kasy.
 C-B03781 | Kaszaloty.
 C-B03782 | Najtańsze linie lotnicze świata.
 C-B03783 | Samozapłon człowieka.
-C-B06787 | Sperma.
+- C-B06787 | Sperma.
 C-B03784 | Squirting.
 C-B03785 | Stalin.
 C-B01790 | Gapienie się na obraz i mruczenie „hmmmmm…”.
@@ -194,7 +194,7 @@ C-B03822 | Nastoletnia ciąża.
 C-B05726 | Opowiadanie beznadziejnej historii, która prowadzi donikąd.
 C-B06698 | Kazanie żonie, żeby sama się, kurwa, wylizała.
 C-B03824 | Porno z mackami.
-C-B03825 | Terroryści.
+- C-B03825 | Terroryści.
 C-B03827 | Skręt jądra.
 C-B01843 | Ten tyłek.
 C-B01845 | Ta suka, Karyna.
