@@ -22,6 +22,7 @@ jobs:
           q 8-babcia-zwyciezca pl-PL-Chirp3-HD-Gacrux "Punkt dla Kamila! Masz u babci dodatkową porcję ciasta." w
           q 9-babcia-sarkazm pl-PL-Chirp3-HD-Gacrux "Oj, Kamil, takie zdolne dziecko, a takie bezeceństwa pisze." hs
           q 10-babcia-zlosliwa pl-PL-Chirp3-HD-Gacrux "Marta, wybierz. Babcia i tak wie, kto co napisał." hc
+          echo "EL: $(curl -s -H "$O" -G "$B" --data-urlencode "v=pl-PL-Chirp3-HD-Gacrux" --data-urlencode "t=x" --data-urlencode "dbg=el")"
           curl -s -H "$O" -G "$B" --data-urlencode "v=pl-PL-Chirp3-HD-Gacrux" --data-urlencode "t=Test numer $(date +%s)" --data-urlencode "m=q" --data-urlencode "dbg=gm"; echo
       - name: Próbki na gałąź probki
         continue-on-error: true

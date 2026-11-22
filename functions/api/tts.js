@@ -65,9 +65,10 @@ async function eleven(env, voice, text, mood) {
     headers: { 'Content-Type': 'application/json', 'xi-api-key': env.ELEVENLABS_API_KEY },
     body: JSON.stringify({ text: direct(text, mood), model_id: env.ELEVEN_MODEL || 'eleven_v4', voice_settings: { stability: 0.0, similarity_boost: 0.7 } }),
   });
-  if (!r.ok) return null;
+  if (!r.ok) { lastElevenError = r.status + ' ' + (await r.text()).slice(0, 500); return null; }
   return new Uint8Array(await r.arrayBuffer());
 }
+let lastElevenError = '';
 
 const G_STYLE = {
   pl: {
@@ -133,6 +134,13 @@ export async function onRequestGet({ request, env, waitUntil }) {
   const cache = caches.default;
   const headers = { 'Content-Type': 'audio/mpeg', 'Cache-Control': 'public, max-age=31536000' };
 
+  // Diagnostyka (bez ujawniania klucza): ?dbg=el
+  if (url.searchParams.get('dbg') === 'el') {
+    const has = !!(env && env.ELEVENLABS_API_KEY);
+    let err = '';
+    if (has) { try { const b = await eleven(env, voice, 'Test.', ''); err = b ? 'ok ' + b.length + ' B' : lastElevenError; } catch (e) { err = String(e); } }
+    return new Response('klucz: ' + (has ? 'jest' : 'BRAK') + ' | model: ' + ((env && env.ELEVEN_MODEL) || 'eleven_v4') + ' | ' + err, { status: 200 });
+  }
   if (env && env.ELEVENLABS_API_KEY) {
     const elKey = new Request('https://tts.cache/el/' + encodeURIComponent(voice) + '/' + mood + '/' + encodeURIComponent(text));
     const elHit = await cache.match(elKey);
