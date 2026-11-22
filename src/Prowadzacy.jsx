@@ -96,7 +96,7 @@ export default function Prowadzacy({ room, cue, compact, big }) {
       if (d.on) setTalk(d.enabled ? { mood: d.mood } : null);
       else {
         setTalk(null);
-        if (d.mood === 'a') setLaughUntil(Date.now() + 1800);
+        if (d.mood === 'a') setLaughUntil(Date.now() + 2600);
       }
     };
     window.addEventListener('ol-speak', on);

@@ -23,6 +23,11 @@ for f in sorted(glob.glob(os.path.join(tmp, 'f*.png'))):
     fg[:, :2] = fg[:, -2:] = False
     ys, xs = np.where(fg)
     x0, x1, y0, y1 = min(x0, xs.min()), max(x1, xs.max()), min(y0, ys.min()), max(y1, ys.max())
+corner = np.asarray(Image.open(sorted(glob.glob(os.path.join(tmp, 'f*.png')))[0]).convert('RGB')).astype(int)[5:60, 5:60].reshape(-1, 3)
+kc = np.median(corner, axis=0).astype(int)
+key = '0x%02X%02X%02X' % tuple(kc)
+light = kc[0] > 60  # jasna, nierówna zieleń (z cieniem na podłodze) – większa tolerancja
+sim, blend = (0.26, 0.08) if light else (0.16, 0.06)
 pad = 12
 x0, y0 = max(0, x0 - pad), max(0, y0 - pad)
 x1, y1 = min(w - 1, x1 + pad), min(h - 1, y1 + pad)
@@ -30,7 +35,11 @@ cw, ch = (x1 - x0 + 1) // 2 * 2, (y1 - y0 + 1) // 2 * 2
 fade = min(0.6, dur / 4)
 body = dur - fade
 H = 1080
-vf = (f"[0:v]crop={cw}:{ch}:{x0}:{y0},scale=-2:{H},chromakey=0x0BEB0B:0.16:0.06,despill=type=green,split[p][q];"
+# Maska z „przewagi zieleni” (działa dla każdego odcienia tła), usunięcie zielonej poświaty i znaku wodnego w prawym dolnym rogu.
+dom = 'g(X,Y)-max(r(X,Y),b(X,Y))'
+alpha = f"if(gt(X,W*0.74)*gt(Y,H*0.95),0,clip(255-({dom}-28)*5,0,255))"
+vf = (f"[0:v]crop={cw}:{ch}:{x0}:{y0},format=rgba,"
+      f"geq=r='r(X,Y)':g='min(g(X,Y),max(r(X,Y),b(X,Y))+6)':b='b(X,Y)':a='{alpha}',scale=-2:{H},split[p][q];"
       f"[p]trim={fade}:{dur},setpts=PTS-STARTPTS[a];[q]trim=0:{fade},setpts=PTS-STARTPTS[b];"
       f"[a][b]xfade=transition=fade:duration={fade}:offset={body - fade}[k];"
       f"color=c=0x0b0b0b:s=2x2:r=30[bg0];[bg0][k]scale2ref[bg][k2];[bg][k2]overlay=shortest=1,fps=30,format=yuv420p")
@@ -40,4 +49,4 @@ subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-filter_complex', vf,
 os.replace(first + '.tmp.mp4', first)
 for n in names[1:]:
     subprocess.run(['cp', first, os.path.join(out, n + '.mp4')], check=True)
-print('ok', names, 'kadr', cw, 'x', ch, 'od', x0, y0)
+print('ok', names, 'kadr', cw, 'x', ch, 'od', x0, y0, 'klucz', key, sim)

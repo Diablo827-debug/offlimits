@@ -48,6 +48,7 @@ export function speechSupported() {
 
 // Te same cztery głosy Chirp 3 HD są dostępne w każdym języku gry.
 export const VOICES = [
+  { id: 'Gacrux', key: 'grandmaVoice' },
   { id: 'Charon', key: 'male1' },
   { id: 'Algenib', key: 'male2' },
   { id: 'Kore', key: 'female1' },
@@ -55,7 +56,7 @@ export const VOICES = [
 ];
 // Starsze pokoje mają pełną nazwę („pl-PL-Chirp3-HD-Charon”) – bierzemy ostatni człon.
 // Domyślny głos: kobiecy – prowadzącą jest Babcia.
-export const DEFAULT_VOICE = 'Kore';
+export const DEFAULT_VOICE = 'Gacrux';
 export function voiceShort(v) { return v ? String(v).split('-').pop() : DEFAULT_VOICE; }
 export function voiceName(v, lang) { return locOf(lang) + '-Chirp3-HD-' + voiceShort(v); }
 

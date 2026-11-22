@@ -15,6 +15,7 @@ const ELEVEN_VOICES = {
   Algenib: 'pNInz6obpgDQGcFmaJgB', // Adam – męski 2
   Kore: '21m00Tcm4TlvDq8ikWAM', // Rachel – kobiecy 1
   Aoede: 'EXAVITQu4vr4xnSDxMaL', // Sarah – kobiecy 2
+  Gacrux: 'EXAVITQu4vr4xnSDxMaL', // Babcia – podmienimy na głos starszej pani z Voice Library
 };
 // Polscy lektorzy z Voice Library ElevenLabs (uzupełnimy ID, gdy wybierzesz głosy).
 const PL_VOICES = {
@@ -96,7 +97,9 @@ G_STYLE.es = G_STYLE.en; G_STYLE.el = G_STYLE.en;
 
 async function gemini(voice, text, mood) {
   const loc = voice.slice(0, 2);
-  const st = (G_STYLE[loc] || G_STYLE.en)[mood || 's'] || G_STYLE.pl.s;
+  let st = (G_STYLE[loc] || G_STYLE.en)[mood || 's'] || G_STYLE.pl.s;
+  // Głos „Babcia”: starsza pani, ciepła, z lekko drżącym głosem i chichotem.
+  if (/Gacrux$/.test(voice)) st = (loc === 'pl' ? 'Mów głosem ok. 75-letniej, energicznej babci: ciepło, trochę skrzekliwie, z lekkim drżeniem, przeciągając słowa, z łobuzerskim chichotem. ' : 'Speak as an energetic grandma of about 75: warm, a bit croaky, slightly trembling, drawing out words, with a cheeky giggle. ') + st;
   // odpowiedź: pauza przed puentą i śmiech na końcu (znaczniki Gemini-TTS)
   let t = text;
   if (mood === 'a' && t.indexOf('⟦') >= 0) {
