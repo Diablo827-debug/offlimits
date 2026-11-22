@@ -28,16 +28,18 @@ export function useHostFrames() {
 export const CLIPS = ['idle', 'talk', 'read', 'laugh', 'shocked', 'smug', 'evil', 'bored', 'happy', 'crazy'];
 const clipSrc = (c) => '/prowadzacy/wideo/' + c + '.mp4';
 let videoOk = null;
+const haveClip = {}; // które klipy są wgrane – brakujące zastępujemy klipem „idle”
+const isVideo = (r) => r.ok && /^video\//.test(r.headers.get('content-type') || '');
 function checkVideo() {
   if (videoOk !== null) return Promise.resolve(videoOk);
-  return fetch(clipSrc('idle'), { method: 'HEAD' })
-    .then((r) => { videoOk = r.ok && /^video\//.test(r.headers.get('content-type') || ''); return videoOk; })
-    .catch(() => { videoOk = false; return false; });
+  return Promise.all(CLIPS.map((c) => fetch(clipSrc(c), { method: 'HEAD' }).then((r) => { haveClip[c] = isVideo(r); }).catch(() => { haveClip[c] = false; })))
+    .then(() => { videoOk = !!haveClip.idle; return videoOk; });
 }
 const EMO_CLIP = { neutral: 'idle', happy: 'happy', laugh: 'laugh', smug: 'smug', shocked: 'shocked', evil: 'evil', bored: 'bored', crazy: 'crazy', card: 'read' };
 
 // Dwa odtwarzacze na zmianę – nowy klip pojawia się płynnie nad starym.
-function VideoHost({ clip }) {
+function VideoHost({ clip: want }) {
+  const clip = haveClip[want] ? want : 'idle';
   const a = React.useRef(null);
   const b = React.useRef(null);
   const [front, setFront] = React.useState(0);
