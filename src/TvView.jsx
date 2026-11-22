@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom';
 import { BlackCard, Avatar, Logo, sortedPlayers, useCountdown, endLabel, Parts } from './ui.jsx';
 import { fillParts, answersFor } from './deck.js';
 import { VOICES } from './lektor.js';
-import Prowadzacy from './Prowadzacy.jsx';
+import Prowadzacy, { useHostFrames } from './Prowadzacy.jsx';
 import { HOSTS } from './prowadzacy.js';
 import { votesOf, voters } from './master.js';
 import { nameFor } from './imiona.js';
@@ -60,13 +60,13 @@ function InstallTv({ t }) {
   );
 }
 
-function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPlayers, t, deck, showBots }) {
+function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPlayers, t, deck, showBots, big, hostCue }) {
   const players = sortedPlayers(room).filter((p) => !p.left);
   const can = players.length >= minPlayers;
   return (
     <div className="lobby">
-      <div className="lobby-brand fade-in">
-        <img src="/sygnet.svg" alt="" />
+      <div className={'lobby-brand fade-in' + (big ? ' with-host' : '')}>
+        {big ? <Prowadzacy room={room} cue={hostCue} big /> : <img src="/sygnet.svg" alt="" />}
         <div className="wordmark gold-text">OFFLIMITS</div>
         <div className="tagline">The Unrestricted Game Club</div>
         <div className="script">Good company. Worse answers.</div>
@@ -134,7 +134,7 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
   );
 }
 
-function Scoreboard({ room, t, hostCue }) {
+function Scoreboard({ room, t, hostCue, showHost }) {
   const players = sortedPlayers(room);
   return (
     <aside className="tv-side">
@@ -147,7 +147,7 @@ function Scoreboard({ room, t, hostCue }) {
           <span className="pts">{p.score || 0}</span>
         </div>
       ))}
-      <Prowadzacy room={room} cue={hostCue} />
+      {showHost ? <Prowadzacy room={room} cue={hostCue} /> : null}
     </aside>
   );
 }
@@ -158,11 +158,14 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
   const t = tr(room.lang || 'pl');
   const pl2 = t('pick2');
   const left = useCountdown(room.state === 'picking' ? room.deadline : 0);
+  // Prowadzący na pierwszym planie: osobna kolumna po lewej (gdy są klatki postaci i nie jest wyłączony).
+  const frames = useHostFrames();
+  const big = frames && room.host !== 'off';
   if (room.state === 'lobby' || !room.state) {
     return (
       <div className={'tv' + (lite ? ' lite' : '')}>
         <div className="tv-main">
-          <Lobby room={room} code={code} qr={qr} joinUrl={joinUrl} onSettings={onSettings} onStart={onStart} onNewRoom={onNewRoom} minPlayers={minPlayers} t={t} deck={deck} showBots={showBots} />
+          <Lobby room={room} code={code} qr={qr} joinUrl={joinUrl} onSettings={onSettings} onStart={onStart} onNewRoom={onNewRoom} minPlayers={minPlayers} t={t} deck={deck} showBots={showBots} big={big} hostCue={hostCue} />
         </div>
       </div>
     );
@@ -253,7 +256,8 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
   }
 
   return (
-    <div className={'tv' + (lite ? ' lite' : '')}>
+    <div className={'tv' + (lite ? ' lite' : '') + (big ? ' with-host' : '')}>
+      {big ? <div className="host-stage"><Prowadzacy room={room} cue={hostCue} big /></div> : null}
       <div className="tv-main">
         <div className="tv-head">
           <Logo />
@@ -270,7 +274,7 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
         </div>
         <div className="tv-stage">{stage}</div>
       </div>
-      {room.state !== 'end' ? <Scoreboard room={room} t={t} hostCue={hostCue} /> : <aside className="tv-side host-only"><Prowadzacy room={room} cue={hostCue} /></aside>}
+      {room.state !== 'end' ? <Scoreboard room={room} t={t} hostCue={hostCue} showHost={!big} /> : big ? null : <aside className="tv-side host-only"><Prowadzacy room={room} cue={hostCue} /></aside>}
     </div>
   );
 }

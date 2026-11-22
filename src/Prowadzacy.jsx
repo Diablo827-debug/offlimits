@@ -17,6 +17,13 @@ function checkFrames() {
   });
 }
 
+// Czy klatki postaci są wgrane (bez nich zostaje stary układ ekranu z dymkiem w kolumnie wyników).
+export function useHostFrames() {
+  const [ok, setOk] = React.useState(available);
+  React.useEffect(() => { checkFrames().then(setOk); }, []);
+  return !!ok;
+}
+
 function baseEmo(room, stageAt) {
   const s = room.state;
   if (s === 'picking') return Date.now() - stageAt > 35000 ? 'bored' : 'neutral';
@@ -28,7 +35,7 @@ function baseEmo(room, stageAt) {
   return 'happy';
 }
 
-export default function Prowadzacy({ room, cue, compact }) {
+export default function Prowadzacy({ room, cue, compact, big }) {
   const [ok, setOk] = React.useState(available);
   const [talk, setTalk] = React.useState(null); // { mood }
   const [open, setOpen] = React.useState(false);
@@ -88,7 +95,7 @@ export default function Prowadzacy({ room, cue, compact }) {
   const frame = talk && open ? 'o' : blink ? 'b' : 'c';
 
   return (
-    <div className={'host' + (compact ? ' compact' : '') + (talk ? ' talking' : '') + (emo === 'laugh' ? ' laughing' : '')}>
+    <div className={'host' + (big ? ' big' : '') + (compact ? ' compact' : '') + (talk ? ' talking' : '') + (emo === 'laugh' ? ' laughing' : '')}>
       {cueOn ? <div className="host-bubble" key={cue.at}>{cue.text}</div> : null}
       {ok ? <img className="host-img" src={src(emo, frame)} alt="" draggable="false" /> : null}
     </div>

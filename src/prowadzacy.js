@@ -1,9 +1,10 @@
 // Prowadzący: charaktery i jego teksty.
-// a = absurdalny, s = sarkastyczny, b = bezczelny, c = czarny humor, mix = mieszanka, off = wyłączony.
+// w = woźny (zmęczony, ale w gruncie rzeczy miły), a = absurdalny, s = sarkastyczny, b = bezczelny, c = czarny humor, mix = mieszanka, off = wyłączony.
 // Zmienne: {name} – imię w mianowniku, {nameG} – w dopełniaczu, {judge} – sędzia.
 
 export const HOSTS = [
   { v: 'mix', key: 'hostMix' },
+  { v: 'w', key: 'hostW' },
   { v: 'a', key: 'hostA' },
   { v: 's', key: 'hostS' },
   { v: 'b', key: 'hostB' },
@@ -16,6 +17,7 @@ export const CHANCE = { start: 1, question: 0.4, reveal: 0.5, judge: 0.55, winne
 
 // Mina postaci przy danym tekście.
 const EMO = {
+  w: { start: 'bored', question: 'card', reveal: 'neutral', judge: 'smug', winner: 'happy', slow: 'bored', end: 'happy' },
   a: { start: 'crazy', question: 'crazy', reveal: 'happy', judge: 'crazy', winner: 'laugh', slow: 'bored', end: 'crazy' },
   s: { start: 'smug', question: 'smug', reveal: 'smug', judge: 'smug', winner: 'smug', slow: 'bored', end: 'smug' },
   b: { start: 'happy', question: 'evil', reveal: 'laugh', judge: 'smug', winner: 'laugh', slow: 'shocked', end: 'laugh' },
@@ -23,6 +25,15 @@ const EMO = {
 };
 
 const PL = {
+  w: {
+    start: ['Dzień dobry. Ja tu w zasadzie tylko sprzątam, ale prowadzący nie przyszedł. No to gramy.', 'Kazali mi poprowadzić. Mop odstawiłem, nerwy zostały. Zaczynamy.', 'Witam państwa. Proszę nie deptać, dopiero umyłem. A teraz gra.', 'Miało być dwie godziny sprzątania, a jest teleturniej. Dobra, dla was to zrobię.'],
+    question: ['Pytanie. Znalazłem je za kaloryferem.', 'Czytam, bo kierownik kazał. Ja bym tego nie pisał.', 'Następna karta. Trochę się klei, ktoś tu jadł pączka.', 'Pytanie. Okulary mam po szwagrze, więc jakby co, to on czyta.'],
+    reveal: ['No to czytam. Jakby co, ja tylko przekazuję.', 'Odpowiedzi. Ja się tylko podpisuję pod sprzątaniem, nie pod tym.', 'Czytam wasze odpowiedzi. Potem to wszystko i tak ja będę zamiatał.', 'Dobra, odkrywamy. Tylko spokojnie, bez rzucania kartami.'],
+    judge: ['{judge}, wybierz coś. Ja mam jeszcze korytarz do umycia.', '{judge}, nie stresuj się. Najwyżej się pokłócą, ja posprzątam.', '{judge}, ja bym wziął tę drugą. Ale ja się nie znam, ja tylko myję.', '{judge}, wybieraj. Ja w tym czasie przetrę ekran.'],
+    winner: ['Brawo, {name}! Masz u mnie czystą podłogę pod krzesłem.', 'Punkt dla {nameG}. Szczerze? Ładnie. Wzruszyłem się, a to rzadko.', '{name} wygrywa. Dałbym ci cukierka, ale mam tylko płyn do szyb.', 'No proszę, {name}. Kierownik by się ucieszył. Gdyby tu był.'],
+    slow: ['{name}, spokojnie, ja też tu nie chcę być, ale wybierz coś.', '{name}, ja w tym czasie umyłem pół podłogi.', '{name}, nie spiesz się, ale ja mam zmianę do dziesiątej.', '{name}, wybierz kartę, bo mi herbata stygnie.'],
+    end: ['Koniec gry. Wygrywa {name}. Gratuluję, a teraz wszyscy podnieście nogi, bo myję.', '{name} wygrywa! Było miło. Naprawdę. Nie mówcie kierownikowi.', 'No i po grze. {name} mistrzem. Ja idę po wiadro.', '{name} zwycięża. Dziękuję państwu, światło gaszę ja.'],
+  },
   a: {
     start: ['Witam w programie! Dziś nagrodą jest używany odkurzacz i poczucie winy.', 'Zanim zaczniemy: ktoś zostawił w studiu kozę. Jeśli jest wasza, nic nie mówcie.', 'Gramy! Zasady są proste, a ja nie.', 'Uwaga, gra startuje. Proszę zapiąć pasy i godność.'],
     question: ['Następne pytanie wylosował mój chomik. Ma wyrzuty sumienia.', 'To pytanie przyszło do mnie we śnie. Śniła mi się kapusta.', 'Uwaga, pytanie! Czytam je, bo ktoś musi.', 'Pytanie numer… nie wiem, zgubiłem liczydło.'],
@@ -62,6 +73,15 @@ const PL = {
 };
 
 const EN = {
+  w: {
+    start: ['Good evening. I’m actually just the janitor, but the host didn’t show up. So, let’s play.', 'They told me to host. I put the mop down. Let’s begin.'],
+    question: ['Question. Found it behind the radiator.', 'Next card. It’s a bit sticky, someone ate a donut here.'],
+    reveal: ['Alright, reading. I’m just the messenger.', 'Your answers. I’ll be sweeping all this up later anyway.'],
+    judge: ['{judge}, pick something. I still have a hallway to mop.', '{judge}, I’d pick the second one. But I just clean here.'],
+    winner: ['Bravo, {name}! You get a clean floor under your chair.', '{name} wins. I’d give you a candy, but I only have window cleaner.'],
+    slow: ['{name}, I don’t want to be here either, but pick something.', '{name}, I mopped half the floor in the meantime.'],
+    end: ['Game over. {name} wins. Now lift your feet, I’m mopping.', '{name} wins! That was nice. Don’t tell my boss.'],
+  },
   a: {
     start: ['Welcome to the show! Tonight’s prize is a used vacuum cleaner and some guilt.', 'Let’s play! The rules are simple. I am not.'],
     question: ['My hamster picked this question. He regrets nothing.', 'This question came to me in a dream about cabbage.'],
@@ -108,7 +128,7 @@ export function quip(host, ev, lang, vars) {
   if (!host || host === 'off') return null;
   const bank = lang === 'pl' ? PL : lang === 'en' ? EN : null;
   if (!bank) return null;
-  const pers = host === 'mix' ? pick(['a', 's', 'b', 'c']) : host;
+  const pers = host === 'mix' ? pick(['w', 'w', 'a', 's', 'b', 'c']) : host;
   const lines = (bank[pers] && bank[pers][ev]) || [];
   const fresh = lines.filter((l) => recent.indexOf(l) < 0);
   const line = pick(fresh.length ? fresh : lines);

@@ -270,3 +270,22 @@ html.tv-portrait .host-img { max-height: calc(40 * var(--u)); }
 .tv-settings .seg button { padding: calc(.26 * var(--u, 1vw)) calc(.75 * var(--u, 1vw)); font-size: calc(.95 * var(--u, 1vw)); }
 .tv-main:has(.lobby) { padding-top: calc(2 * var(--u, 1vw)); padding-bottom: calc(2 * var(--u, 1vw)); }
 .join-box { padding-top: calc(1 * var(--u, 1vw)); padding-bottom: calc(1 * var(--u, 1vw)); }
+
+
+/* Prowadzący na pierwszym planie */
+.tv.with-host .host-stage { flex: 0 0 calc(27 * var(--u, 1vw)); position: relative; display: flex; align-items: flex-end; justify-content: center; z-index: 3; background: radial-gradient(ellipse 60% 55% at 50% 78%, rgba(227,200,142,.16), transparent 70%); }
+.tv.with-host .tv-main { padding-left: calc(1.5 * var(--u, 1vw)); }
+.tv.with-host .tv-side { width: calc(19 * var(--u, 1vw)); }
+.host.big { position: static; width: 100%; height: 100%; margin: 0; }
+.host.big .host-img { width: 112%; max-width: none; max-height: 96%; height: 96%; margin-bottom: 0; }
+.host.big .host-bubble { position: absolute; z-index: 4; top: calc(7 * var(--u, 1vw)); left: 62%; width: calc(25 * var(--u, 1vw)); font-size: calc(1.45 * var(--u, 1vw)); margin: 0; }
+.host.big .host-bubble::after { left: calc(2.5 * var(--u, 1vw)); bottom: calc(-1.2 * var(--u, 1vw)); margin-left: 0; border-width: calc(1.3 * var(--u, 1vw)) calc(1.3 * var(--u, 1vw)) 0 0; border-color: var(--ivory) transparent transparent transparent; }
+.lobby-brand.with-host { position: relative; align-self: stretch; justify-content: flex-end; gap: calc(.6 * var(--u, 1vw)); }
+.lobby-brand.with-host .host.big { flex: 1 1 auto; height: auto; min-height: 0; display: flex; align-items: center; justify-content: flex-end; }
+.lobby-brand.with-host .host-img { width: auto; height: 100%; max-height: calc(36 * var(--u, 1vw)); }
+.lobby-brand.with-host .wordmark { font-size: calc(4.6 * var(--u, 1vw)); }
+.lobby-brand.with-host .host-bubble { top: 0; left: 55%; }
+html.tv-portrait .tv.with-host .host-stage { flex: 0 0 auto; height: calc(55 * var(--u)); width: 100%; }
+html.tv-portrait .tv.with-host .tv-side { width: auto; }
+html.tv-portrait .host.big .host-bubble { left: auto; right: calc(3 * var(--u)); top: calc(3 * var(--u)); width: calc(40 * var(--u)); font-size: calc(2.2 * var(--u)); }
+.tv.with-host .side-title { font-size: calc(.95 * var(--u, 1vw)); letter-spacing: .15em; }
