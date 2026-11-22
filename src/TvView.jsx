@@ -2,7 +2,7 @@ import React from 'react';
 import { createPortal } from 'react-dom';
 import { BlackCard, Avatar, Logo, sortedPlayers, useCountdown, endLabel, Parts } from './ui.jsx';
 import { fillParts, answersFor } from './deck.js';
-import { VOICES } from './lektor.js';
+import { VOICES, DEFAULT_VOICE } from './lektor.js';
 import Prowadzacy, { useHostFrames } from './Prowadzacy.jsx';
 import { HOSTS } from './prowadzacy.js';
 import { votesOf, voters } from './master.js';
@@ -106,7 +106,7 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
               <Seg value={room.endValue} onChange={(v) => onSettings({ endValue: v })}
                 options={END_OPTIONS[room.endType].map((n) => ({ v: n, l: String(n) }))} /></div>
             <div className="set-row"><span>{t('lektor')}</span>
-              <Seg value={room.lektor === false ? 'off' : (room.voice ? room.voice.split('-').pop() : VOICES[0].id)}
+              <Seg value={room.lektor === false ? 'off' : (room.voice ? room.voice.split('-').pop() : DEFAULT_VOICE)}
                 onChange={(v) => onSettings(v === 'off' ? { lektor: false } : { lektor: true, voice: v })}
                 options={VOICES.map((x) => ({ v: x.id, l: t(x.key) })).concat([{ v: 'off', l: t('off') }])} /></div>
             {showBots ? <div className="set-row"><span>{t('botsRow')}</span>

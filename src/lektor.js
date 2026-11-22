@@ -54,7 +54,9 @@ export const VOICES = [
   { id: 'Aoede', key: 'female2' },
 ];
 // Starsze pokoje mają pełną nazwę („pl-PL-Chirp3-HD-Charon”) – bierzemy ostatni człon.
-export function voiceShort(v) { return v ? String(v).split('-').pop() : VOICES[0].id; }
+// Domyślny głos: kobiecy – prowadzącą jest Babcia.
+export const DEFAULT_VOICE = 'Kore';
+export function voiceShort(v) { return v ? String(v).split('-').pop() : DEFAULT_VOICE; }
 export function voiceName(v, lang) { return locOf(lang) + '-Chirp3-HD-' + voiceShort(v); }
 
 // Luka w pytaniu = krótka pauza, bez czytania „coś”.
