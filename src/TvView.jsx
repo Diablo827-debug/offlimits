@@ -46,7 +46,7 @@ function InstallTv({ t }) {
   );
 }
 
-function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPlayers, t, deck }) {
+function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPlayers, t, deck, showBots }) {
   const players = sortedPlayers(room).filter((p) => !p.left);
   const can = players.length >= minPlayers;
   return (
@@ -94,12 +94,14 @@ function Lobby({ room, code, qr, joinUrl, onSettings, onStart, onNewRoom, minPla
               <Seg value={room.lektor === false ? 'off' : (room.voice ? room.voice.split('-').pop() : VOICES[0].id)}
                 onChange={(v) => onSettings(v === 'off' ? { lektor: false } : { lektor: true, voice: v })}
                 options={VOICES.map((x) => ({ v: x.id, l: t(x.key) })).concat([{ v: 'off', l: t('off') }])} /></div>
-            <div className="set-row"><span>{t('botsRow')}</span>
+            {showBots ? <div className="set-row"><span>{t('botsRow')}</span>
               <Seg value={String(Object.keys(room.players || {}).filter((u) => /^bot\d$/.test(u)).length)} onChange={(v) => onSettings({ bots: Number(v) })}
-                options={[{ v: '0', l: t('off') }, { v: '1', l: '1' }, { v: '2', l: '2' }, { v: '3', l: '3' }]} /></div>
+                options={[{ v: '0', l: t('off') }, { v: '1', l: '1' }, { v: '2', l: '2' }, { v: '3', l: '3' }]} /></div> : null}
             <div className="set-row"><span>{t('music')}</span>
               <Seg value={room.music === false ? 'off' : 'on'} onChange={(v) => onSettings({ music: v === 'on' })}
                 options={[{ v: 'on', l: t('musicOn') }, { v: 'off', l: t('musicOff') }]} /></div>
+            {!showBots ? <div className="set-row"><span>{t('soloRow')}</span>
+              <button type="button" className="btn btn-ghost btn-small" onClick={() => { location.href = '/tv?solo=1'; }}>{t('soloBtn')}</button></div> : null}
           </div>
         </details>
         <button type="button" className="btn btn-primary" disabled={!can} onClick={onStart}>
@@ -133,7 +135,7 @@ function Scoreboard({ room, t }) {
 }
 
 
-export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings, onStart, onAgain, onEnd, onNewRoom, minPlayers, lite, onForce, autoIn }) {
+export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings, onStart, onAgain, onEnd, onNewRoom, minPlayers, lite, onForce, autoIn, showBots }) {
   const [confirmEnd, setConfirmEnd] = React.useState(false);
   const t = tr(room.lang || 'pl');
   const pl2 = t('pick2');
@@ -142,7 +144,7 @@ export default function TvView({ room, code, deck, qr, joinUrl, subs, onSettings
     return (
       <div className={'tv' + (lite ? ' lite' : '')}>
         <div className="tv-main">
-          <Lobby room={room} code={code} qr={qr} joinUrl={joinUrl} onSettings={onSettings} onStart={onStart} onNewRoom={onNewRoom} minPlayers={minPlayers} t={t} deck={deck} />
+          <Lobby room={room} code={code} qr={qr} joinUrl={joinUrl} onSettings={onSettings} onStart={onStart} onNewRoom={onNewRoom} minPlayers={minPlayers} t={t} deck={deck} showBots={showBots} />
         </div>
       </div>
     );

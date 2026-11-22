@@ -14,6 +14,9 @@ import { tr, okLang } from './i18n.js';
 
 const params = new URLSearchParams(location.search);
 const MIN_PLAYERS = Math.max(1, parseInt(params.get('min') || '3', 10));
+// Tryb jednoosobowy (tylko z linku /tv?solo=1): 3 boty grają same, a Ty słuchasz lektora i oglądasz rundę.
+const SOLO = params.get('solo') === '1';
+const CODE_KEY = SOLO ? 'ol_tv_code_solo' : 'ol_tv_code';
 const LITE = params.get('lite') === '1';
 const AWAY_SECONDS = 40;      // tyle czekamy na gracza, którego telefon jest poza grą
 const AUTO_REVEAL_SECONDS = 75; // tyle po ostatniej zagranej karcie odkrywamy resztę sami
@@ -67,13 +70,13 @@ export default function Tv() {
       try {
         const user = await ensureAuth();
         if (!alive) return;
-        let c = localStorage.getItem('ol_tv_code');
+        let c = localStorage.getItem(CODE_KEY);
         if (c) {
           const s = await get(ref(db, 'rooms/' + c));
           if (!s.exists() || s.val().hostUid !== user.uid || s.val().state === 'end') c = null;
         }
         if (!c) c = await M.createRoom(user.uid, localStorage.getItem('ol_tv_lang') || 'pl');
-        localStorage.setItem('ol_tv_code', c);
+        localStorage.setItem(CODE_KEY, c);
         if (alive) setCode(c);
       } catch (e) {
         setErr((e && e.message) || '-');
@@ -138,7 +141,7 @@ export default function Tv() {
       stopSpeaking();
       const user = await ensureAuth();
       const c = await M.createRoom(user.uid, localStorage.getItem('ol_tv_lang') || 'pl');
-      localStorage.setItem('ol_tv_code', c);
+      localStorage.setItem(CODE_KEY, c);
       done.current = {};
       setRoom(null); setSubs({});
       setCode(c);
@@ -151,6 +154,15 @@ export default function Tv() {
     done.current = {};
     M.startGame(code, r, deck).catch((e) => setErr(e.message));
   }
+
+  const soloAt = React.useRef(0);
+  // Tryb jednoosobowy: po włączeniu dźwięku dodajemy boty i od razu startujemy.
+  React.useEffect(() => {
+    if (!SOLO || !room || !deck || !sound || room.state !== 'lobby') return;
+    const bots = Object.keys(room.players || {}).filter(M.isBot).length;
+    if (bots < 3) { if (once('solo-bots')) M.setBots(code, room, 3).catch(retry('solo-bots')); return; }
+    if (!soloAt.current || Date.now() - soloAt.current > 10000) { soloAt.current = Date.now(); setTimeout(handleStart, 1500); }
+  }, [room, deck, sound]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Przejścia między etapami rundy.
   React.useEffect(() => {
@@ -274,6 +286,7 @@ export default function Tv() {
       minPlayers={MIN_PLAYERS}
       onSettings={(p) => { if ('bots' in p) { M.setBots(code, room, p.bots); return; } M.saveSettings(code, p); if (p.lang) localStorage.setItem('ol_tv_lang', p.lang); if (p.voice || (p.lang && room.lektor !== false)) { unlockSpeech(); setSound(true); speak(tr(okLang(p.lang || room.lang))('voiceSample'), { voice: p.voice || room.voice, lang: okLang(p.lang || room.lang), mood: 's' }); } }}
       onStart={handleStart}
+      showBots={SOLO}
       onAgain={() => M.backToLobby(code)}
       onEnd={() => { stopSpeaking(); M.endGame(code); }}
       onNewRoom={newRoom}
